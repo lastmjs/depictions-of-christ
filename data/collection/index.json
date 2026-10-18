@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-18",
- "total": 26901,
+ "total": 34096,
  "centuries": [
   {
    "century": "1",
@@ -8,11 +8,11 @@
   },
   {
    "century": "2",
-   "count": 2
+   "count": 3
   },
   {
    "century": "3",
-   "count": 10
+   "count": 12
   },
   {
    "century": "4",
@@ -20,67 +20,67 @@
   },
   {
    "century": "5",
-   "count": 4
-  },
-  {
-   "century": "6",
-   "count": 23
-  },
-  {
-   "century": "7",
    "count": 5
   },
   {
-   "century": "8",
-   "count": 8
+   "century": "6",
+   "count": 27
   },
   {
-   "century": "9",
+   "century": "7",
+   "count": 6
+  },
+  {
+   "century": "8",
    "count": 11
   },
   {
+   "century": "9",
+   "count": 16
+  },
+  {
    "century": "10",
-   "count": 18
+   "count": 25
   },
   {
    "century": "11",
-   "count": 44
+   "count": 56
   },
   {
    "century": "12",
-   "count": 181
+   "count": 223
   },
   {
    "century": "13",
-   "count": 459
+   "count": 521
   },
   {
    "century": "14",
-   "count": 1553
+   "count": 1662
   },
   {
    "century": "15",
-   "count": 5539
+   "count": 5891
   },
   {
    "century": "16",
-   "count": 8300
+   "count": 8943
   },
   {
    "century": "17",
-   "count": 5313
+   "count": 5795
   },
   {
    "century": "18",
-   "count": 1842
+   "count": 2093
   },
   {
    "century": "19",
-   "count": 1206
+   "count": 1584
   },
   {
    "century": "20",
-   "count": 641
+   "count": 823
   },
   {
    "century": "21",
@@ -88,153 +88,169 @@
   },
   {
    "century": "undated",
-   "count": 1697
+   "count": 6355
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   7437
-  ],
-  [
-   "Christ Child",
-   6496
+   10139
   ],
   [
    "Madonna and Child",
-   6148
+   7561
+  ],
+  [
+   "Christ Child",
+   6750
   ],
   [
    "Crucifixion",
-   2206
+   2494
   ],
   [
    "Holy Family",
-   1371
+   1762
   ],
   [
    "Adoration of the Magi",
-   1323
-  ],
-  [
-   "Adoration of the Shepherds",
-   866
+   1536
   ],
   [
    "Nativity",
-   847
+   1072
   ],
   [
-   "Lamentation",
-   633
-  ],
-  [
-   "Flight into Egypt",
-   574
+   "Adoration of the Shepherds",
+   1068
   ],
   [
    "Pietà",
-   546
-  ],
-  [
-   "Descent from the Cross",
-   541
-  ],
-  [
-   "Resurrection",
-   523
+   835
   ],
   [
    "Entombment",
-   491
+   772
   ],
   [
-   "Carrying the Cross",
-   479
-  ],
-  [
-   "Last Supper",
-   449
-  ],
-  [
-   "Rest on the Flight into Egypt",
-   396
+   "Lamentation",
+   710
   ],
   [
    "Baptism",
-   392
+   681
+  ],
+  [
+   "Resurrection",
+   669
+  ],
+  [
+   "Descent from the Cross",
+   669
+  ],
+  [
+   "Flight into Egypt",
+   651
+  ],
+  [
+   "Last Supper",
+   579
+  ],
+  [
+   "Carrying the Cross",
+   512
   ],
   [
    "Ecce Homo",
-   391
-  ],
-  [
-   "Agony in the Garden",
-   353
-  ],
-  [
-   "Coronation of the Virgin",
-   341
-  ],
-  [
-   "Flagellation",
-   337
-  ],
-  [
-   "Presentation in the Temple",
-   331
+   473
   ],
   [
    "Last Judgment",
-   310
+   430
   ],
   [
-   "Crowning with Thorns",
-   238
+   "Coronation of the Virgin",
+   411
   ],
   [
-   "Supper at Emmaus",
-   220
+   "Rest on the Flight into Egypt",
+   402
   ],
   [
-   "Man of Sorrows",
-   219
+   "Agony in the Garden",
+   397
+  ],
+  [
+   "Flagellation",
+   389
+  ],
+  [
+   "Presentation in the Temple",
+   380
   ],
   [
    "Ascension",
-   198
+   330
+  ],
+  [
+   "Crowning with Thorns",
+   246
+  ],
+  [
+   "Man of Sorrows",
+   245
+  ],
+  [
+   "Supper at Emmaus",
+   229
+  ],
+  [
+   "Christ among the Doctors",
+   221
+  ],
+  [
+   "Passion",
+   205
+  ],
+  [
+   "Sacred Heart",
+   197
+  ],
+  [
+   "Circumcision",
+   190
   ],
   [
    "Mystic Marriage of St Catherine",
    190
   ],
   [
-   "Christ among the Doctors",
-   180
-  ],
-  [
-   "Circumcision",
-   164
-  ],
-  [
    "Raising of Lazarus",
-   148
-  ],
-  [
-   "Noli me tangere",
-   148
+   161
   ],
   [
    "Salvator Mundi",
-   144
+   160
+  ],
+  [
+   "Noli me tangere",
+   159
+  ],
+  [
+   "Transfiguration",
+   150
   ],
   [
    "Woman Taken in Adultery",
-   140
+   150
   ],
   [
    "Christ and Followers",
    133
+  ],
+  [
+   "Wedding at Cana",
+   132
   ],
   [
    "Throne of Mercy",
@@ -249,24 +265,24 @@
    121
   ],
   [
-   "Wedding at Cana",
-   116
-  ],
-  [
-   "Transfiguration",
-   113
-  ],
-  [
    "Harrowing of Hell",
-   112
+   121
   ],
   [
-   "Passion",
-   102
+   "Good Shepherd",
+   104
+  ],
+  [
+   "Pantocrator",
+   90
   ],
   [
    "Cleansing of the Temple",
-   69
+   71
+  ],
+  [
+   "Veil of Veronica",
+   66
   ],
   [
    "Betrayal & Arrest",
@@ -277,56 +293,40 @@
    58
   ],
   [
-   "Pantocrator",
-   53
-  ],
-  [
    "Mocking of Christ",
-   53
-  ],
-  [
-   "Veil of Veronica",
-   52
-  ],
-  [
-   "Sacred Heart",
-   44
-  ],
-  [
-   "Good Shepherd",
-   43
+   57
   ],
   [
    "Holy Face",
-   37
+   44
   ],
   [
    "Temptation of Christ",
    37
   ],
   [
+   "Christ in Majesty",
+   32
+  ],
+  [
+   "Miraculous Draught of Fishes",
+   30
+  ],
+  [
    "Entry into Jerusalem",
    29
   ],
   [
-   "Miraculous Draught of Fishes",
+   "Kiss of Judas",
    27
   ],
   [
-   "Kiss of Judas",
-   21
-  ],
-  [
    "Sermon on the Mount",
-   21
-  ],
-  [
-   "Christ in Majesty",
-   18
+   24
   ],
   [
    "Christ before Caiaphas",
-   13
+   18
   ],
   [
    "Healing at Bethesda",
@@ -336,19 +336,23 @@
  "types": [
   [
    "painting",
-   17906
+   19288
   ],
   [
    "print",
-   2571
+   4099
   ],
   [
    "sculpture",
-   1405
+   3094
+  ],
+  [
+   "other",
+   1281
   ],
   [
    "drawing",
-   1078
+   1074
   ],
   [
    "statue",
@@ -356,19 +360,31 @@
   ],
   [
    "manuscript",
-   284
+   473
+  ],
+  [
+   "fresco",
+   434
+  ],
+  [
+   "relief",
+   409
+  ],
+  [
+   "icon",
+   295
   ],
   [
    "triptych",
    271
   ],
   [
-   "icon",
-   178
+   "stained glass",
+   271
   ],
   [
-   "fresco",
-   127
+   "mosaic",
+   145
   ],
   [
    "leadlight",
@@ -393,10 +409,6 @@
   [
    "wayside cross",
    79
-  ],
-  [
-   "mosaic",
-   73
   ],
   [
    "textile",
@@ -425,10 +437,6 @@
   [
    "manuscript illumination",
    41
-  ],
-  [
-   "stained glass",
-   38
   ],
   [
    "tapestry",
@@ -485,14 +493,6 @@
   [
    "Marian column",
    21
-  ],
-  [
-   "ivory",
-   20
-  ],
-  [
-   "double-sided painting",
-   19
   ]
  ]
 }

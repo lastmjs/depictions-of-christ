@@ -183,7 +183,15 @@ def fetch_entities(endpoint, ids, props):
 # --------------------------------------------------------------------------- parsing helpers
 
 
+def sval(v):
+    """extmetadata values may be multilingual dicts; pick English or the first language."""
+    if isinstance(v, dict):
+        v = v.get("en") or next((x for k, x in v.items() if not k.startswith("_")), "")
+    return v if isinstance(v, str) else ("" if v is None else str(v))
+
+
 def strip_html(s):
+    s = sval(s)
     s = re.sub(r"<[^>]+>", " ", s or "")
     s = html.unescape(s)
     return re.sub(r"\s+", " ", s).strip()
@@ -291,7 +299,7 @@ def date_from_categories(cats):
     return found[0][1], found[0][2]
 
 
-YEAR = re.compile(r"(?<![\d.])(1[0-9]\d\d|[2-9]\d\d)(?![\d])")
+YEAR = re.compile(r"(?<![\d.A-Za-z:/#])(20[0-2]\d|1[0-9]\d\d|[2-9]\d\d)(?![\d])")
 
 
 def date_from_text(text):
@@ -299,7 +307,17 @@ def date_from_text(text):
     t = strip_html(text)
     if not t or len(t) > 160:
         t = t[:160]
-    t = re.sub(r"\b(date QS:P,|upload|uploaded|photograph(ed)?|taken)\b.*", "", t, flags=re.I).strip()
+    t = re.sub(r"\bQS:P\d+.*?(?=\s|$)", " ", t)
+    t = re.sub(r"\b(upload|uploaded|photograph(ed)?|taken)\b.*", "", t, flags=re.I).strip()
+    if re.match(r"^\s*(19[89]\d|20[0-2]\d)-\d\d(-\d\d)?\b", t) or re.search(r"\b\d{1,2} \w+ (19[89]\d|20[0-2]\d)\b", t):
+        return None, ""  # an EXIF/upload timestamp, not an artwork date
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)?\s*[-–/]\s*(\d{1,2})(?:st|nd|rd|th)[- ]centur", t, re.I)
+    if m and 1 <= int(m.group(1)) < int(m.group(2)) <= 21:
+        a, b = int(m.group(1)), int(m.group(2))
+        return a * 100, f"{ordinal(a)}–{ordinal(b)} century"
+    m = re.search(r"\bbetween (\d{3,4}) and (\d{3,4})\b", t, re.I)
+    if m:
+        return int(m.group(1)), f"{m.group(1)}–{m.group(2)}"
     m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)[- ]century\b", t, re.I)
     if m:
         n = int(m.group(1))
@@ -334,6 +352,7 @@ def clean_title(name):
     t = re.sub(r"^File:", "", name)
     t = re.sub(r"\.[A-Za-z0-9]{2,5}$", "", t)
     t = t.replace("_", " ")
+    t = re.sub(r"^\s*(19|20)\d\d[ ._-]\d\d[ ._-]\d\d(?:[ _-]+\d\d[ .:-]?\d\d(?:[ .:-]?\d\d)?)?\s*[-–,]?\s*", "", t)
     t = CAMERA_CODE.sub("", t)
     for _ in range(3):
         t2 = re.sub(r"[\s,;\-–(]*\b(\d{6,}|\d{8}[ _-]?\d{4,6}|\d{4}-\d{2}-\d{2}|\d{1,4}|"
@@ -347,9 +366,14 @@ def clean_title(name):
 
 
 def base_key(name):
+    """File name minus a trailing photo-series number (01, (2), -- 2020 -- 1404, MET s1/s2 view suffix)."""
     t = re.sub(r"^File:|\.[^.]+$", "", name).replace("_", " ").lower()
-    t = re.sub(r"\d+", "#", t)
-    return re.sub(r"[\s#()\-_.,]+", " ", t).strip()
+    met = re.match(r"^(.+?) met \S+$", t)
+    if met:  # Metropolitan Museum views: "<title> MET DT7724", "... MET sf1986-3-5d1"
+        return met.group(1) + " met"
+    for _ in range(2):
+        t = re.sub(r"(\s*--\s*\d{4}\s*--\s*\d+|(?<=\d)[sd]\d{1,2}|[\s\-_]*\(?\b\d{1,2}[a-z]?\)?)\s*$", "", t)
+    return re.sub(r"[\s()\-_.,]+", " ", t).strip()
 
 
 KIND_RULES = [
@@ -393,11 +417,9 @@ BAD_PLACE_CAT = re.compile(r"photograph|taken|images|files|media|featured|qualit
 
 def place_from_categories(cats):
     for c in cats:
-        m = re.match(r"^(?:interior|interiors|altars?|frescoes|stained glass windows?|paintings|sculptures|"
-                     r"icons|mosaics|works|artworks|objects|stations of the cross|pulpits?|ceilings?)"
-                     r" (?:of|in|at|from) (?:the )?(.+)$", c, re.I)
-        if m and PLACE_CAT.search(m.group(1)) and not BAD_PLACE_CAT.search(m.group(1)):
-            return re.sub(r"\s*-\s*(interior|altars?).*$", "", m.group(1), flags=re.I)
+        m = re.match(r"^.+? (?:in|of|at|from) (?:the )?(.+)$", c, re.I)
+        if m and PLACE_CAT.search(m.group(1)) and not BAD_PLACE_CAT.search(m.group(1)) and len(m.group(1)) < 90:
+            return re.sub(r"\s*-\s*(interior|altars?|details?).*$", "", m.group(1), flags=re.I)
     for c in cats:
         if PLACE_CAT.search(c) and not BAD_PLACE_CAT.search(c) and len(c) < 90:
             return re.sub(r"\s*-\s*(interior|altars?|details?).*$", "", c, flags=re.I)
@@ -414,9 +436,32 @@ MODERN_HINT = re.compile(r"\b(19[6-9]\d|20[0-2]\d)\b.*\b(paintings|sculptures|wo
                          r"icons|mosaics|statues)\b|\b(contemporary|modern) (art|religious art|icons|sculpture)|"
                          r"\b21st[- ]century (paintings|sculptures|art|icons|murals|works|stained)|"
                          r"\b20th[- ]century (?:.*)?\b(icons|paintings|sculptures|murals|stained glass)\b.*\b(19[6-9]\d)|"
-                         r"\bAI[- ]generated|\bdigital art\b|\bclip ?art\b|\bcartoons?\b|\bcomics?\b|"
+                         r"\bsweet media\b|\bbiblica\b|\bAI[- ]generated|\bdigital art\b|\bclip ?art\b|\bcomics?\b|"
                          r"\bmemes?\b|\bscreenshots?\b|\bvideo games?\b|\bfilm stills?\b|\bcosplay|"
-                         r"\breenactment|\bpassion plays?\b|\bprocessions?\b|\bactors?\b", re.I)
+                         r"\breenactment|\bpassion plays?\b|\bactors?\b", re.I)
+ART_TITLE = re.compile(r"altar|tympan|t[íi]mpano|evangel|retabl|bild\b|fenster|vitra|window|pulpit|kanzel|"
+                       r"portal|capital|kreuz|cross|christ|jesus|jezus|ges[uù]|cristo|madonna|maria|marie|"
+                       r"virgin|vierge|virgen|pieta|piet[àa]|icon|ikon|fresk|fresc|folio|book of hours|"
+                       r"manuscript|codex|panel|painting|gemälde|statue|figur|relief|window|glass|mosaic|"
+                       r"jes[uú]s|ni[ñn]o|adora|cruz|crucif|kruzif|se[ñn]or|gospels|friso|frieze|cuadro|"
+                       r"tableau|imagen|image|sculpt|talla|paso\b|calvar|piedad|sagrad|sacr|heilig|santo|"
+                       r"lamenta|descent|deposi|nativ|natal|beweinung|grablegung|auferst|kreuzig|krusig|retaul|"
+                       r"tenture|tapest|teppich|passion|parable|gleichnis|stations?|vía crucis|via crucis|"
+                       r"bildstock|wegkreuz|calvaire|ecce|piet|herz jesu|sacr[ée]|sagrat|altare|krist|christus|"
+                       r"trinidad|trinity|trinit|dopfunt|font\b|borduur|embroider|croix|crucero|divino|"
+                       r"\b1[0-8]\d\d\b|\bs\. ?[XVI]+\b|siglo|century|jahrhundert|si[èe]cle|secolo|exvoto",
+                       re.I)
+BUILDING_TITLE = re.compile(r"church|kirche|iglesia|[ée]glise|chiesa|kerk|ko[śs]ci[óo][łl]|chapel|kapelle|capilla|"
+                            r"cappella|cathedral|catedral|kathedrale|\bdom\b|m[üu]nster|basilica|templo|temple|"
+                            r"interior|exterior|innen|au[ßs]en|patio|fachada|fa[çc]ade|zabudowa|panorama|view|"
+                            r"ansicht|santuario|sanctuary|monastery|kloster|monasterio|convento|abbey|abbaye|"
+                            r"friedhof|cemetery|cementerio|kirchspiel|-- \d{4} --|presbiterio|nave\b|choir|chor\b|"
+                            r"stra[ßs]e|platz|street|square|plaza|village|dorf",
+                            re.I)
+MODERN_EVENT = re.compile(r"\b(protests?|demonstrations?|riots?|rallies|rally|concerts?|politicians|"
+                          r"elections?|graffiti|street art|tattoos?|t-shirts?|advertis|billboards?|storming)\b",
+                          re.I)
+MODERN_TITLE_YEAR = re.compile(r"(?:\(|,\s*)(19[6-9]\d|20[0-2]\d)\)?\s*(?:\.\w+)?$")
 BUILDING_LABEL = re.compile(r"\b(church|chapel|cathedral|basilica|building|tower|steeple|bell tower|"
                             r"facade|façade|exterior|cemetery|graveyard|street|square|parish|"
                             r"house|village|town|lake|river|road|roof|clock|monastery|"
@@ -426,6 +471,11 @@ BUILDING_LABEL = re.compile(r"\b(church|chapel|cathedral|basilica|building|tower
 def build(files, subj, info, media, labels, wd_items):
     recs = []
     stats = Counter()
+    dropped = defaultdict(list)  # reason -> titles, for debugging
+
+    def drop(reason, title):
+        stats[reason] += 1
+        dropped[reason].append(title)
     for pid, title in files.items():
         p = info.get(pid)
         if not p:
@@ -441,7 +491,7 @@ def build(files, subj, info, media, labels, wd_items):
             stats["too small"] += 1
             continue
         em = ii.get("extmetadata", {})
-        ev = lambda k: (em.get(k) or {}).get("value", "") if isinstance((em.get(k) or {}).get("value", ""), str) else str(em.get(k, {}).get("value", ""))  # noqa: E731
+        ev = lambda k: sval((em.get(k) or {}).get("value", ""))  # noqa: E731
         cats = [c for c in ev("Categories").split("|") if c]
         ent = media.get(f"M{pid}", {})
         if "missing" in ent:
@@ -464,28 +514,11 @@ def build(files, subj, info, media, labels, wd_items):
         name = re.sub(r"^File:", "", title)
         on = em.get("ObjectName") or {}
         obj_name = strip_html(on.get("value", "")) if on.get("source") == "commons-desc-page" else ""
+        obj_name = re.sub(r"\s*\b(label|title)?\s*QS:.*$", "", obj_name).strip()
         artist_raw = ev("Artist")
         credit = ev("Credit")
         desc = strip_html(ev("ImageDescription"))[:300]
         cat_text = " | ".join(cats)
-
-        # --- relevance: is the Christ subject the focus of the file?
-        title_subj = classify(clean_title(name)) or classify(obj_name)
-        desc_subj = classify(desc)
-        cat_subj = classify(cat_text)
-        nonchrist = [q for q in p180 if q not in SUBJECTS]
-        building_like = [q for q in nonchrist if BUILDING_LABEL.search(label_of(labels, q))]
-        if not (title_subj or desc_subj):
-            first = christ_idx[0] if christ_idx else 99
-            if len(p180) >= 5 and first >= 2 and not cat_subj:
-                stats["minor depicts (many P180)"] += 1
-                continue
-            if len(building_like) >= 2 or (building_like and first >= 1 and len(p180) >= 4):
-                stats["building/landscape photo"] += 1
-                continue
-        if MODERN_HINT.search(cat_text) or MODERN_HINT.search(name):
-            stats["modern hint"] += 1
-            continue
 
         # --- photo evidence
         p31 = item_ids(ent, "P31")
@@ -496,6 +529,33 @@ def build(files, subj, info, media, labels, wd_items):
             or re.search(r"int-own-work|own work", credit, re.I)
             or re.search(r"User:", artist_raw)
         )
+
+        # --- relevance: is the Christ subject the focus of the file?
+        title_subj = classify(clean_title(name)) or classify(obj_name)
+        desc_subj = classify(desc)
+        cat_subj = classify(cat_text)
+        nonchrist = [q for q in p180 if q not in SUBJECTS]
+        building_like = [q for q in nonchrist if BUILDING_LABEL.search(label_of(labels, q))]
+        art_title = bool(ART_TITLE.search(name) or ART_TITLE.search(obj_name)
+                         or kind_of(name, obj_name) != "other")
+        if is_photo and BUILDING_TITLE.search(name) and not (title_subj or desc_subj or art_title):
+            first = christ_idx[0] if christ_idx else 99
+            if len(p180) >= 5 and first >= 2 and not cat_subj:
+                drop("minor depicts (many P180)", title)
+                continue
+            if len(building_like) >= 2 or (building_like and first >= 1 and len(p180) >= 4):
+                drop("building/landscape photo", title)
+                continue
+        if u == ["Jesus Christ"] and ev("LicenseShortName").startswith("CC BY") and not (title_subj or desc_subj or cat_subj or art_title):
+            drop("generic Jesus depict, no art signal", title)
+            continue
+        if not art_title and any(MODERN_EVENT.search(x) for x in cats):
+            drop("modern event photo", title)
+            continue
+        if any(MODERN_HINT.search(x) for x in cats) or MODERN_HINT.search(name) or (
+                not is_photo and MODERN_TITLE_YEAR.search(name)):
+            drop("modern hint", title)
+            continue
 
         # --- Wikidata artwork it represents (P6243)
         wd = ""
@@ -511,7 +571,8 @@ def build(files, subj, info, media, labels, wd_items):
             y, d, how = tv[0], display_from(*tv), "wd"
         if y is None:
             tv = time_value(ent)
-            if tv and (not is_photo or tv[0] < 1900):
+            exact_recent = tv and tv[1] >= 10 and tv[0] >= 1990
+            if tv and not exact_recent and (not is_photo or tv[0] < 1900):
                 y, d, how = tv[0], display_from(*tv), "sdc"
         if y is None:
             dto = ev("DateTimeOriginal")
@@ -530,8 +591,14 @@ def build(files, subj, info, media, labels, wd_items):
             y, d, how = None, "", ""
         stats[f"date:{how or 'none'}"] += 1
         if y is not None and y > MODERN:
-            stats["modern (y > 1955)"] += 1
-            continue
+            artwork_template = on.get("source") == "commons-desc-page"
+            if how in ("dto", "sdc") and not artwork_template and not MODERN_TITLE_YEAR.search(name):
+                # likely the date a (scanned/archival) photo was taken, not of the artwork
+                stats["recent date discarded"] += 1
+                y, d, how = None, "", ""
+            else:
+                drop("modern (y > 1955)", title)
+                continue
 
         # --- artist
         a = ""
@@ -544,7 +611,9 @@ def build(files, subj, info, media, labels, wd_items):
             at = re.sub(r"\b(Life time|Lifetime)\b.*$", "", at).strip(" .;,")
             if re.match(r"^(unknown|anonymous|unbekannt|anonyme?|anonimo|desconocido|author unknown)\b", at, re.I):
                 at = "Unknown"
-            photo_artist = is_photo and not (on.get("source") == "commons-desc-page")
+            # a CC BY(-SA) file is licensed by its photographer/recorder, not by an old artwork's maker
+            photo_artist = ev("LicenseShortName").startswith("CC BY") or (
+                is_photo and on.get("source") != "commons-desc-page")
             if at and len(at) <= 80 and not photo_artist and not re.search(r"https?://|photographer|wikimedia", at, re.I):
                 a = at
 
@@ -610,7 +679,8 @@ def build(files, subj, info, media, labels, wd_items):
             "id": f"commons:{pid}", "t": t, "y": y, "d": d, "a": a, "c": c, "l": l, "m": "", "s": "",
             "k": k, "img": img, "big": big, "src": ii.get("descriptionurl", ""),
             "lic": strip_html(ev("LicenseShortName")), "u": u, "wd": wd,
-            "_key": (base_key(name), tuple(sorted(u)), tuple(sorted(p180))), "_px": w * (ii.get("height") or 0),
+            "_key": (base_key(name), tuple(sorted(u)), tuple(sorted(p180)), wd,
+                     (y, a) if base_key(name).endswith(" met") else None), "_px": w * (ii.get("height") or 0),
         })
 
     # near-duplicates: same base file name (ignoring numbers), same subjects and depicts -> keep largest
@@ -618,6 +688,7 @@ def build(files, subj, info, media, labels, wd_items):
     for r in recs:
         groups[r["_key"]].append(r)
     out = []
+    build.dupes = [[r["src"].rsplit("File:", 1)[-1] for r in g] for g in groups.values() if len(g) > 1]
     for g in groups.values():
         g.sort(key=lambda r: -r["_px"])
         keep = g[0]
@@ -631,6 +702,7 @@ def build(files, subj, info, media, labels, wd_items):
     for r in out:
         del r["_key"], r["_px"]
     out.sort(key=lambda r: (r["y"] is None, r["y"] or 0, r["t"]))
+    build.dropped = dropped
     return out, stats
 
 

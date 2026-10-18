@@ -1,0 +1,472 @@
+[
+  {
+    "id": "goya-christ-crucified",
+    "title": "Christ Crucified",
+    "artist": "Francisco Goya",
+    "date": "1780",
+    "year": 1780,
+    "created": "Madrid, Spain",
+    "location": "Museo del Prado, Madrid, Spain",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Neoclassicism",
+    "summary": "Against a dark, empty ground, Goya's Christ hangs serene and luminous, his gaze lifted heavenward, his body modelled with a smooth, idealized classicism. Painted as the young artist's reception piece for the Royal Academy of San Fernando, it shows Goya mastering the academic language of his day before he went on to transform Spanish art.",
+    "facts": [
+      "Goya presented it in 1780 to gain admission as an academician of the Real Academia de Bellas Artes de San Fernando, which elected him unanimously.",
+      "The composition consciously echoes Velázquez's famous Christ Crucified and the Neoclassical ideals of Anton Raphael Mengs, then the dominant painter at the Spanish court.",
+      "Following Spanish tradition codified by Francisco Pacheco, Christ is fixed with four nails and rests his feet on a small wooden support (suppedaneum).",
+      "The calm, almost sculptural figure contrasts sharply with the anguished religious imagery of Goya's late career."
+    ],
+    "scripture": "Luke 23:46",
+    "commons": "File:Cristo en la cruz (Goya).jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_Crucified_(Goya)"},
+      {"label": "Museo del Prado", "url": "https://www.museodelprado.es/en/the-collection/art-works?search=Goya%20Cristo%20crucificado"}
+    ]
+  },
+  {
+    "id": "blake-christ-in-the-sepulchre",
+    "title": "Christ in the Sepulchre, Guarded by Angels",
+    "artist": "William Blake",
+    "date": "c. 1805",
+    "year": 1805,
+    "created": "London, England",
+    "location": "Victoria and Albert Museum, London, UK",
+    "medium": "Pen and ink with watercolour on paper",
+    "form": "Drawing",
+    "style": "Romanticism",
+    "summary": "Christ lies wrapped in his grave clothes while two angels hover above him, their wings arching together to form a pointed Gothic vault of light. Blake, poet and visionary, painted it for his patron Thomas Butts as part of a long series of Bible illustrations, turning the silent tomb into a sanctuary awaiting the Resurrection.",
+    "facts": [
+      "The paired angels with touching wingtips deliberately recall the two cherubim over the mercy seat of the Ark of the Covenant, presenting Christ's body as the new place of God's presence.",
+      "The watercolour belongs to more than 80 biblical subjects that Thomas Butts, a government clerk, commissioned from Blake between about 1799 and 1809.",
+      "Blake was largely ignored in his own lifetime; his reputation as one of Britain's great visionary artists grew only after his death in 1827."
+    ],
+    "scripture": "John 20:12",
+    "commons": "File:William Blake - Christ in the Sepulchre, Guarded by Angels.jpg",
+    "links": [
+      {"label": "Wikipedia (William Blake)", "url": "https://en.wikipedia.org/wiki/William_Blake"},
+      {"label": "V&A collection search", "url": "https://collections.vam.ac.uk/search/?q=Christ%20in%20the%20Sepulchre%20Blake"}
+    ]
+  },
+  {
+    "id": "thorvaldsen-christus",
+    "title": "Christus",
+    "artist": "Bertel Thorvaldsen",
+    "date": "Modelled 1821; marble completed 1833",
+    "year": 1827,
+    "created": "Rome, Italy",
+    "location": "Church of Our Lady (Vor Frue Kirke), Copenhagen, Denmark",
+    "medium": "Carrara marble",
+    "form": "Sculpture",
+    "style": "Neoclassicism",
+    "summary": "The risen Christ stands above the altar of Copenhagen Cathedral with open, lowered arms and a gently bowed head, showing the wounds in his hands as he welcomes all who approach. Thorvaldsen, the leading Neoclassical sculptor of his age, abandoned the triumphant gesture he first planned in favour of one of quiet invitation, creating what became one of the most reproduced images of Christ in the world.",
+    "facts": [
+      "The pedestal bears the words \"Kommer til mig\" (\"Come unto me\") from Matthew 11:28, which give the statue its meaning.",
+      "Thorvaldsen worked in Rome, where he spent most of his career; the statue anchors a cycle of the apostles he carved for the rebuilt cathedral, with St Paul taking the place of Judas.",
+      "Full-size and reduced copies stand around the world, most famously in the visitors' centres of The Church of Jesus Christ of Latter-day Saints, including Temple Square in Salt Lake City.",
+      "The original plaster model is preserved in the Thorvaldsens Museum in Copenhagen."
+    ],
+    "scripture": "Matthew 11:28",
+    "commons": "File:Vor Frue Kirke Copenhagen altar.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christus_(statue)"},
+      {"label": "Thorvaldsens Museum", "url": "https://www.thorvaldsensmuseum.dk/en"}
+    ]
+  },
+  {
+    "id": "scheffer-christus-consolator",
+    "title": "Christus Consolator",
+    "artist": "Ary Scheffer",
+    "date": "1837",
+    "year": 1837,
+    "created": "Paris, France",
+    "location": "Amsterdam Museum, Amsterdam, Netherlands",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Romanticism",
+    "summary": "Christ sits enthroned in light, his arms opened to a crowd of the suffering and oppressed who press around him: a slave breaking his chains, a grieving mother, prisoners and exiles. The Dutch-born Parisian painter Ary Scheffer turned Christ's proclamation of liberty to the captives into a Romantic image of universal consolation that spread across Europe and America through engravings.",
+    "facts": [
+      "Among the figures are recognizable symbols of 1830s causes, including an enslaved African and figures alluding to the struggles of Poland and Greece.",
+      "Prints of the painting hung in countless Protestant homes in the 19th century and inspired many church windows and illustrations.",
+      "Scheffer later painted a companion, Christus Remunerator (Christ the Rewarder), and made several replicas of Christus Consolator, including an 1851 version now in the Minneapolis Institute of Art."
+    ],
+    "scripture": "Luke 4:18",
+    "commons": "File:SA 2059-Christus Consolator.jpg",
+    "links": [
+      {"label": "Wikipedia (Ary Scheffer)", "url": "https://en.wikipedia.org/wiki/Ary_Scheffer"},
+      {"label": "Minneapolis Institute of Art (1851 version)", "url": "https://collections.artsmia.org/art/104894/christus-consolator-ary-scheffer"}
+    ]
+  },
+  {
+    "id": "ivanov-appearance-of-christ",
+    "title": "The Appearance of Christ Before the People",
+    "artist": "Alexander Ivanov",
+    "date": "1837–1857",
+    "year": 1847,
+    "created": "Rome, Italy",
+    "location": "State Tretyakov Gallery, Moscow, Russia",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Romanticism / Academic",
+    "summary": "On the banks of the Jordan, John the Baptist points to a small, solitary figure descending from the hills: the Messiah approaching a crowd that has not yet recognized him. Ivanov devoted twenty years in Rome to this vast canvas, seeking to capture the single instant when humanity first beholds its Saviour, and it became a landmark of Russian religious art.",
+    "facts": [
+      "The painting measures roughly 5.4 by 7.5 metres, and Ivanov made some 600 preparatory studies of landscapes, figures and heads for it.",
+      "Ivanov's friend, the writer Nikolai Gogol, is said to appear among the crowd, in the figure nearest to Christ.",
+      "Ivanov brought the canvas to St Petersburg in 1858 and died only weeks later; Tsar Alexander II then bought the work.",
+      "Christ is placed far in the distance and in the very centre of the composition, so the viewer, like the crowd, must look for him."
+    ],
+    "scripture": "John 1:29",
+    "commons": "File:Александр Андреевич Иванов - Явление Христа народу (Явление Мессии) - Google Art Project.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Appearance_of_Christ_Before_the_People"},
+      {"label": "Tretyakov Gallery", "url": "https://www.tretyakovgallery.ru/en/"}
+    ]
+  },
+  {
+    "id": "millais-christ-in-the-house-of-his-parents",
+    "title": "Christ in the House of His Parents (The Carpenter's Shop)",
+    "artist": "John Everett Millais",
+    "date": "1849–1850",
+    "year": 1850,
+    "created": "London, England",
+    "location": "Tate Britain, London, UK",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Pre-Raphaelite",
+    "summary": "In Joseph's cluttered workshop the boy Jesus has cut his palm on a nail, and as Mary kneels to comfort him a drop of blood falls onto his foot, a quiet foreshadowing of the Crucifixion. The young Pre-Raphaelite Millais filled an ordinary carpenter's shop with symbols, from the dove on the ladder to the young John the Baptist carrying a bowl of water, presenting the Holy Family with startling realism.",
+    "facts": [
+      "When shown at the Royal Academy in 1850, it was exhibited with a verse from Zechariah: \"What are these wounds in thine hands?\"",
+      "Charles Dickens attacked it fiercely, describing the boy Jesus as a \"hideous, wry-necked, blubbering, red-headed boy\" and Mary as grotesquely ugly.",
+      "To achieve accuracy, Millais painted in a real carpenter's workshop on Oxford Street and used a carpenter's body for Joseph's arms.",
+      "The sheep in the background represent the future flock of Christ's followers."
+    ],
+    "scripture": "Zechariah 13:6",
+    "commons": "File:John Everett Millais - Christ in the House of His Parents (`The Carpenter's Shop') - Google Art Project.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_in_the_House_of_His_Parents"},
+      {"label": "Tate", "url": "https://www.tate.org.uk/art/artworks/millais-christ-in-the-house-of-his-parents-the-carpenters-shop-n03584"}
+    ]
+  },
+  {
+    "id": "hunt-light-of-the-world",
+    "title": "The Light of the World",
+    "artist": "William Holman Hunt",
+    "date": "1851–1853",
+    "year": 1852,
+    "created": "Ewell, Surrey, and London, England",
+    "location": "Keble College Chapel, Oxford, UK",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Pre-Raphaelite",
+    "summary": "At night, in an overgrown orchard, Christ stands crowned with thorns and carrying a lantern, knocking at a door choked with weeds and ivy. Hunt's devout allegory illustrates the words \"Behold, I stand at the door, and knock,\" and became perhaps the most famous religious image of the Victorian age.",
+    "facts": [
+      "The door has no outside handle: it can be opened only from within, symbolizing the human soul that must freely choose to let Christ in.",
+      "Hunt painted much of it outdoors at night by moonlight, sitting in a hut and working by lamplight to capture the effects of light.",
+      "A later, larger version (1900–04) toured Canada, Australia, New Zealand and South Africa in 1905–07, seen by millions, and now hangs in St Paul's Cathedral, London.",
+      "Keble College acquired this first version as a gift; Hunt was displeased that the college later charged visitors to see it, and painted the larger version partly in response."
+    ],
+    "scripture": "Revelation 3:20",
+    "commons": "File:Hunt-light-of-the-world.jpeg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Light_of_the_World_(Hunt)"},
+      {"label": "Keble College", "url": "https://www.keble.ox.ac.uk/about/chapel/"}
+    ]
+  },
+  {
+    "id": "manet-dead-christ-with-angels",
+    "title": "The Dead Christ with Angels",
+    "artist": "Édouard Manet",
+    "date": "1864",
+    "year": 1864,
+    "created": "Paris, France",
+    "location": "Metropolitan Museum of Art, New York, USA",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Realism",
+    "summary": "Manet presents the dead Christ seated upright at the mouth of the tomb, pale and heavy-limbed, supported by two angels with deep blue wings. Painted for the Paris Salon, it fused the tradition of Spanish masters like Ribera with Manet's frank modern realism, and critics were shocked by what they saw as an unidealized, almost coarse body.",
+    "facts": [
+      "A rock in the lower right bears the inscription \"évang. sel. St Jean chap. XX v. XII,\" pointing to John's account of the two angels at the tomb.",
+      "The spear wound is on Christ's left side rather than the traditional right; the poet Charles Baudelaire wrote to Manet warning him of the error before the Salon opened.",
+      "Christ's eyes appear slightly open, a detail many have read as hinting at the coming Resurrection.",
+      "Manet was still largely unknown at the time; the painting was hung at the Salon of 1864, a year after the scandal of his Le Déjeuner sur l'herbe."
+    ],
+    "scripture": "John 20:12",
+    "commons": "File:The Dead Christ with Angels MET DT856.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Dead_Christ_with_Angels"},
+      {"label": "The Met", "url": "https://www.metmuseum.org/art/collection/search/436950"}
+    ]
+  },
+  {
+    "id": "kramskoi-christ-in-the-desert",
+    "title": "Christ in the Desert",
+    "artist": "Ivan Kramskoi",
+    "date": "1872",
+    "year": 1872,
+    "created": "St Petersburg, Russia",
+    "location": "State Tretyakov Gallery, Moscow, Russia",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Realism (Peredvizhniki)",
+    "summary": "Christ sits alone on a grey stone in a barren, rocky wilderness at dawn, his hands clasped tightly, his feet bruised, his face drawn with fasting and inward struggle. Kramskoi, a founder of the Russian Itinerant (Peredvizhniki) movement, stripped away all halo and spectacle to show Christ wrestling with the choice that faces every human conscience.",
+    "facts": [
+      "Kramskoi explained that he wanted to depict the moment of decision every person faces: whether to follow the path of truth or yield to temptation.",
+      "The Russian Academy of Arts offered him a professorship for the painting, which he refused out of loyalty to the independent Peredvizhniki.",
+      "Pavel Tretyakov bought the painting for his gallery before it had even been publicly exhibited.",
+      "The muted palette of cold dawn light was a radical break from the golden, triumphant Christ of academic and icon traditions."
+    ],
+    "scripture": "Matthew 4:1–2",
+    "commons": "File:Christ in the Wilderness - Ivan Kramskoy - Google Cultural Institute.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_in_the_Desert"},
+      {"label": "Tretyakov Gallery", "url": "https://www.tretyakovgallery.ru/en/"}
+    ]
+  },
+  {
+    "id": "bloch-sermon-on-the-mount",
+    "title": "The Sermon on the Mount",
+    "artist": "Carl Heinrich Bloch",
+    "date": "1877",
+    "year": 1877,
+    "created": "Copenhagen, Denmark",
+    "location": "Museum of National History, Frederiksborg Castle, Hillerød, Denmark",
+    "medium": "Oil painting",
+    "form": "Painting",
+    "style": "Academic Realism",
+    "summary": "Seated on a hillside, Christ raises one hand as he teaches a gathered crowd of men, women and children, their faces absorbed in his words. The Danish painter Carl Bloch made it as one of 23 scenes from the life of Christ for the King's Oratory at Frederiksborg Castle, and its gentle, dignified Christ has become one of the most familiar images of Jesus in the modern world.",
+    "facts": [
+      "Bloch's 23 paintings for the Frederiksborg Castle chapel were painted between 1865 and 1879 and remain there today.",
+      "For decades, The Church of Jesus Christ of Latter-day Saints has used Bloch's Frederiksborg paintings extensively in its chapels, manuals and publications.",
+      "Bloch avoided halos and overt supernatural symbols, aiming for a historically grounded, warmly human Christ.",
+      "Bloch had trained in Rome, and Italian Renaissance compositions inform the balanced grouping of the listeners."
+    ],
+    "scripture": "Matthew 5–7",
+    "commons": "File:Bloch-SermonOnTheMount.jpg",
+    "links": [
+      {"label": "Wikipedia (Carl Bloch)", "url": "https://en.wikipedia.org/wiki/Carl_Bloch"},
+      {"label": "Frederiksborg Castle", "url": "https://dnm.dk/en/"}
+    ]
+  },
+  {
+    "id": "munkacsy-christ-before-pilate",
+    "title": "Christ before Pilate",
+    "artist": "Mihály Munkácsy",
+    "date": "1881",
+    "year": 1881,
+    "created": "Paris, France",
+    "location": "Déri Museum, Debrecen, Hungary",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Realism",
+    "summary": "In Pilate's crowded hall, Christ stands silent and upright in white, a calm centre amid jeering accusers, anxious onlookers and the hesitant Roman governor. The Hungarian painter Munkácsy staged the scene with theatrical realism on a monumental canvas, and its tour across Europe and North America made it one of the most viewed paintings of the 19th century.",
+    "facts": [
+      "The canvas is over four metres high and six metres wide; it forms a trilogy with Munkácsy's Golgotha (1884) and Ecce Homo (1896).",
+      "Exhibited as a single-painting show in cities across Europe and the United States, it drew enormous paying crowds.",
+      "The American department-store magnate John Wanamaker bought it in 1887 and displayed it each Easter in his Philadelphia store.",
+      "After decades in America it was sold in the 1980s and returned to Hungary, where it is now shown together with the other two parts of the trilogy in Debrecen."
+    ],
+    "scripture": "John 18:28–40",
+    "commons": "File:Munkacsy Mihaly Christ before Pilate.jpg",
+    "links": [
+      {"label": "Wikipedia (Mihály Munkácsy)", "url": "https://en.wikipedia.org/wiki/Mih%C3%A1ly_Munk%C3%A1csy"}
+    ]
+  },
+  {
+    "id": "uhde-suffer-the-little-children",
+    "title": "Suffer the Little Children to Come unto Me",
+    "artist": "Fritz von Uhde",
+    "date": "1884",
+    "year": 1884,
+    "created": "Munich, Germany",
+    "location": "Museum der bildenden Künste, Leipzig, Germany",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Naturalism",
+    "summary": "Christ, in a plain robe, enters a simple contemporary schoolroom where shy village children in clogs and pinafores approach him, some eager, some hiding behind their elders. Fritz von Uhde, a former cavalry officer turned painter, brought Christ directly into the everyday world of the poor, and his light-filled, unsentimental naturalism stirred both admiration and controversy.",
+    "facts": [
+      "Uhde's German title, \"Lasset die Kindlein zu mir kommen,\" quotes Luther's translation of Christ's words in the Gospel of Mark.",
+      "Uhde's practice of placing Christ among modern working people scandalized some conservative critics, who found it irreverent.",
+      "His bright, airy palette shows the influence of Dutch painting and French plein-air artists; Uhde later helped found the Munich Secession.",
+      "The children were painted from real models, giving the scene the immediacy of an observed moment."
+    ],
+    "scripture": "Mark 10:13–16",
+    "commons": "File:Fritz von Uhde - Lasset die Kinderlein zu mir kommen, 1884 (Leipzig).jpg",
+    "links": [
+      {"label": "Wikipedia (Fritz von Uhde)", "url": "https://en.wikipedia.org/wiki/Fritz_von_Uhde"},
+      {"label": "Museum der bildenden Künste Leipzig", "url": "https://mdbk.de/en/"}
+    ]
+  },
+  {
+    "id": "hofmann-christ-in-gethsemane",
+    "title": "Christ in Gethsemane",
+    "artist": "Heinrich Hofmann",
+    "date": "1886",
+    "year": 1886,
+    "created": "Dresden, Germany",
+    "location": "Riverside Church, New York City, USA",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Academic",
+    "summary": "Kneeling beside a rock in the night garden, Christ lifts his face toward a shaft of heavenly light, his hands clasped in surrender as the disciples sleep in the shadows behind him. Heinrich Hofmann's tender, devotional image became one of the most widely reproduced pictures of Jesus in the 20th century, printed in Bibles, Sunday-school materials and church bulletins worldwide.",
+    "facts": [
+      "Hofmann, a professor at the Dresden Academy, specialized in scenes from the life of Christ; his Christ in the Temple hangs in Dresden's Gemäldegalerie.",
+      "The painting is now at Riverside Church in New York, alongside Hofmann's Christ and the Rich Young Ruler.",
+      "Hofmann's portraits of Christ strongly shaped later popular images, including Warner Sallman's famous Head of Christ (1940).",
+      "The date is sometimes given as 1890; the subject is Christ's prayer \"not my will, but thine, be done.\""
+    ],
+    "scripture": "Luke 22:39–46",
+    "commons": "File:Christ in Gethsemane.jpg",
+    "links": [
+      {"label": "Wikipedia (Heinrich Hofmann)", "url": "https://en.wikipedia.org/wiki/Heinrich_Hofmann"},
+      {"label": "Riverside Church", "url": "https://www.trcnyc.org/"}
+    ]
+  },
+  {
+    "id": "ensor-christs-entry-into-brussels",
+    "title": "Christ's Entry into Brussels in 1889",
+    "artist": "James Ensor",
+    "date": "1888",
+    "year": 1888,
+    "created": "Ostend, Belgium",
+    "location": "J. Paul Getty Museum, Los Angeles, USA",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Symbolism / Proto-Expressionism",
+    "summary": "A riotous carnival parade of masked faces, brass bands and political banners floods toward the viewer, and only gradually does one find Christ, small and haloed on a donkey, nearly lost in the crowd. Ensor reimagined Palm Sunday as a modern spectacle, a searing satire of a society that would cheer the Saviour without seeing him, and in the lonely Christ he also saw himself.",
+    "facts": [
+      "Ensor imagined Christ's entry taking place in the future, the year after he painted it; banners read \"Vive la Sociale\" and \"Fanfares doctrinaires.\"",
+      "It was too radical even for Les XX, the avant-garde group Ensor had co-founded, and was not publicly exhibited until 1929.",
+      "Ensor painted the enormous canvas (about 2.5 by 4.3 metres) in the cramped attic studio of his family's home in Ostend.",
+      "Its harsh colours and grotesque masks made it a key forerunner of 20th-century Expressionism."
+    ],
+    "scripture": "Matthew 21:1–11",
+    "commons": "File:Christ's Entry into Brussels in 1889.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ%27s_Entry_Into_Brussels_in_1889"},
+      {"label": "Getty Museum", "url": "https://www.getty.edu/art/collection/search?q=Christ%27s%20Entry%20into%20Brussels"}
+    ]
+  },
+  {
+    "id": "gauguin-yellow-christ",
+    "title": "The Yellow Christ",
+    "artist": "Paul Gauguin",
+    "date": "1889",
+    "year": 1889,
+    "created": "Pont-Aven, Brittany, France",
+    "location": "Buffalo AKG Art Museum, Buffalo, New York, USA",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Synthetism / Post-Impressionism",
+    "summary": "A yellow crucified Christ rises from an autumn Breton landscape of orange trees and golden fields, while three peasant women in traditional dress sit in quiet prayer at the foot of the cross. Gauguin used flat areas of bold colour and dark outlines to suggest that the women are seeing an inner vision, making the Crucifixion part of the living faith of rural Brittany.",
+    "facts": [
+      "The figure was modelled on a painted wooden crucifix in the Chapelle de Trémalo, a small chapel near Pont-Aven that still houses it.",
+      "The style, called Cloisonnism or Synthetism, was inspired by stained glass and medieval enamels, with colours enclosed by dark contours.",
+      "Gauguin later painted The Yellow Christ into the background of his Self-Portrait with the Yellow Christ (1890–91), now in the Musée d'Orsay.",
+      "The museum that owns it, formerly the Albright-Knox Art Gallery, acquired the painting in 1946."
+    ],
+    "commons": "File:Paul Gauguin - Le Christ jaune (1889).jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Yellow_Christ"},
+      {"label": "Buffalo AKG Art Museum", "url": "https://buffaloakg.org/"}
+    ]
+  },
+  {
+    "id": "ge-what-is-truth",
+    "title": "What Is Truth? (Christ and Pilate)",
+    "artist": "Nikolai Ge",
+    "date": "1890",
+    "year": 1890,
+    "created": "Russian Empire (Ge's farmstead in Chernigov Governorate, now Ukraine)",
+    "location": "State Tretyakov Gallery, Moscow, Russia",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Realism",
+    "summary": "Pilate, well-fed and confident, stands in bright sunlight with his back half-turned, gesturing dismissively as he asks his famous question; Christ stands in shadow, gaunt, dishevelled and silent. Nikolai Ge, deeply influenced by Leo Tolstoy, deliberately denied viewers a beautiful Christ, confronting them instead with a suffering man whose very presence is the answer to Pilate's question.",
+    "facts": [
+      "The painting was removed from the 1890 Itinerant (Peredvizhniki) exhibition in St Petersburg on official orders, as authorities considered its image of Christ offensive.",
+      "Leo Tolstoy championed the work, calling it an epoch-making painting, and urged Pavel Tretyakov to acquire it.",
+      "Before its ban, the canvas was taken on a private tour abroad, including to the United States.",
+      "Ge had abandoned painting for years to follow Tolstoy's moral teachings, returning in old age to a series of stark Passion scenes."
+    ],
+    "scripture": "John 18:37–38",
+    "commons": "File:What is truth.jpg",
+    "links": [
+      {"label": "Wikipedia (Nikolai Ge)", "url": "https://en.wikipedia.org/wiki/Nikolai_Ge"},
+      {"label": "Tretyakov Gallery", "url": "https://www.tretyakovgallery.ru/en/"}
+    ]
+  },
+  {
+    "id": "tissot-what-our-lord-saw-from-the-cross",
+    "title": "What Our Lord Saw from the Cross",
+    "artist": "James Tissot",
+    "date": "1886–1894",
+    "year": 1890,
+    "created": "Paris, France (after studies in the Holy Land)",
+    "location": "Brooklyn Museum, New York, USA",
+    "medium": "Opaque watercolour over graphite on paper",
+    "form": "Painting",
+    "style": "Academic Realism / Orientalism",
+    "summary": "In one of the most daring compositions in Christian art, Tissot shows Golgotha from Christ's own eyes: looking down from the cross at the mourning women, the disciples, the soldiers and the jeering onlookers, with his own feet just visible at the bottom edge. It belongs to Tissot's monumental Life of Christ, more than 350 watercolours made after the fashionable Parisian painter experienced a renewal of his Catholic faith.",
+    "facts": [
+      "Tissot made several trips to the Holy Land from 1886 to sketch landscapes, architecture and costumes, seeking historical accuracy.",
+      "His return to faith is traditionally dated to 1885, when he reported a vision while attending Mass at the church of Saint-Sulpice in Paris.",
+      "The series caused a sensation when shown in Paris in 1894, and the Brooklyn Museum bought the entire set in 1900 through public subscription.",
+      "Tissot's watercolours later influenced how biblical epics were staged in early cinema."
+    ],
+    "scripture": "Luke 23:33–49",
+    "commons": "File:Brooklyn Museum - What Our Lord Saw from the Cross (Ce que voyait Notre-Seigneur sur la Croix) - James Tissot.jpg",
+    "links": [
+      {"label": "Wikipedia (James Tissot)", "url": "https://en.wikipedia.org/wiki/James_Tissot"},
+      {"label": "Brooklyn Museum", "url": "https://www.brooklynmuseum.org/"}
+    ]
+  },
+  {
+    "id": "pia-shroud-of-turin-negative",
+    "title": "First Photograph of the Shroud of Turin",
+    "artist": "Secondo Pia",
+    "date": "May 1898",
+    "year": 1898,
+    "created": "Turin, Italy",
+    "location": "Original glass negatives in Turin; vintage print shown in Photo Elysée, Lausanne, Switzerland",
+    "medium": "Glass-plate photographic negative and print",
+    "form": "Photograph",
+    "style": "Documentary photography",
+    "summary": "When the amateur photographer Secondo Pia developed his plates of the Shroud of Turin during its public exhibition in 1898, he was astonished: the faint, brownish image on the linen appeared on his negative as a clear, lifelike positive of a bearded man's face and body. Pia's photograph launched more than a century of scientific study and devotion, and gave millions a new, haunting image of the face many venerate as Christ's.",
+    "facts": [
+      "Pia, a lawyer and city councillor, photographed the cloth on the evening of 28 May 1898 using large glass plates and electric lighting.",
+      "Because the image on the cloth itself behaves like a photographic negative, his negative revealed far more detail than could be seen with the naked eye.",
+      "His result was initially met with accusations of fraud; it was confirmed in 1931 when Giuseppe Enrie photographed the Shroud again.",
+      "The face from Pia's negative became the basis for the Catholic devotion to the Holy Face of Jesus, and its image appeared on prayer cards and medals."
+    ],
+    "commons": "File:Secundo Pia Turinske platno 1898.jpg",
+    "links": [
+      {"label": "Wikipedia (Secondo Pia)", "url": "https://en.wikipedia.org/wiki/Secondo_Pia"},
+      {"label": "Wikipedia (Shroud of Turin)", "url": "https://en.wikipedia.org/wiki/Shroud_of_Turin"}
+    ]
+  },
+  {
+    "id": "tanner-nicodemus",
+    "title": "Nicodemus Visiting Jesus",
+    "artist": "Henry Ossawa Tanner",
+    "date": "1899",
+    "year": 1899,
+    "created": "Paris, France (after studies in Jerusalem)",
+    "location": "Pennsylvania Academy of the Fine Arts, Philadelphia, USA",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Realism / Tonalism",
+    "summary": "On a moonlit Jerusalem rooftop, the Pharisee Nicodemus leans forward to listen as Christ, seated and absorbed in thought, speaks of being born again. Henry Ossawa Tanner, the first African American painter to win international acclaim, set this intimate night conversation in a landscape he had studied firsthand in Palestine, bathing it in the deep blues and warm lamplight that mark his religious work.",
+    "facts": [
+      "The painting won the Pennsylvania Academy's Lippincott Prize in 1900, and the Academy bought it for its collection.",
+      "Tanner, son of a bishop of the African Methodist Episcopal Church, settled in Paris to escape the racial prejudice he faced in the United States.",
+      "He travelled to Palestine in 1897 and 1898–99 to study its light, architecture and people for his biblical scenes.",
+      "Tanner had studied at the same Pennsylvania Academy under Thomas Eakins."
+    ],
+    "scripture": "John 3:1–21",
+    "commons": "File:Nicodemus Visiting Jesus, by Henry Ossawa Tanner.jpg",
+    "links": [
+      {"label": "Wikipedia (Henry Ossawa Tanner)", "url": "https://en.wikipedia.org/wiki/Henry_Ossawa_Tanner"},
+      {"label": "Pennsylvania Academy of the Fine Arts", "url": "https://www.pafa.org/"}
+    ]
+  }
+]

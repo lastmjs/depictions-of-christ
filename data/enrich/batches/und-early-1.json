@@ -1,0 +1,1313 @@
+[
+ {
+  "key": "commons:73167670",
+  "status": "dated",
+  "set": {
+   "d": "14th–16th century (probably 15th)",
+   "y": 1450,
+   "t": "The Entombment of Christ (Wall Painting, Notre-Dame-du-Bourg, Rabastens)",
+   "l": "Église Notre-Dame-du-Bourg, Rabastens (Tarn), first north chapel"
+  },
+  "notes": "No specific date found for this recently uncovered Entombment; the church's wall paintings are recorded as later than the early 14th century and are generally dated between the 13th/14th and 16th centuries (Wikipedia FR, Notre-Dame-du-Bourg; tourism sources). Style suggests the 15th century — estimate."
+ },
+ {
+  "key": "commons:106647169",
+  "status": "dated",
+  "set": {
+   "d": "probably 15th–16th century",
+   "y": 1500,
+   "t": "The Nativity (Wall Painting, Église Saint-Léger, Saint-Léger, Mayenne)"
+  },
+  "notes": "No date found in the Commons description or Wikipedia; very damaged late-medieval-looking Nativity in the south transept — estimate only."
+ },
+ {
+  "key": "commons:1429306",
+  "status": "dated",
+  "set": {
+   "d": "c. 1532–1533",
+   "y": 1533,
+   "t": "The Adoration of the Shepherds (Gaudenzio Ferrari, San Cristoforo, Vercelli)",
+   "a": "Gaudenzio Ferrari",
+   "l": "Church of San Cristoforo, Vercelli"
+  },
+  "notes": "Commons description: Gaudenzio Ferrari, Stories of the Virgin, fresco, c. 1533, San Cristoforo, Vercelli."
+ },
+ {
+  "key": "commons:1429329",
+  "status": "dated",
+  "set": {
+   "d": "c. 1532–1533",
+   "y": 1533,
+   "t": "The Adoration of the Magi, detail (Gaudenzio Ferrari, San Cristoforo, Vercelli)",
+   "a": "Gaudenzio Ferrari",
+   "l": "Church of San Cristoforo, Vercelli",
+   "u": [
+    "Adoration of the Magi"
+   ]
+  },
+  "notes": "Commons description: Gaudenzio Ferrari, Stories of the Virgin, Adoration of the Magi (detail), c. 1533, San Cristoforo, Vercelli. Subject is the Adoration of the Magi, not of the Shepherds."
+ },
+ {
+  "key": "commons:33230708",
+  "status": "dated",
+  "set": {
+   "d": "c. 1315–1321",
+   "y": 1318,
+   "t": "The Virgin and Child with the Ancestors of Christ (Dome Mosaic, Chora Church, Istanbul)",
+   "l": "Chora Church (Kariye), Istanbul"
+  },
+  "notes": "Chora (Kariye) inner-narthex dome mosaics, commissioned by Theodore Metochites; standard date c. 1315–1321 (Palaiologan). Central medallion shows the Virgin with the Christ Child."
+ },
+ {
+  "key": "commons:94337601",
+  "status": "dated",
+  "set": {
+   "d": "c. 1412",
+   "y": 1412,
+   "t": "Madonna and Child with Saint Margaret (Gentile da Fabriano, detached fresco)",
+   "a": "Gentile da Fabriano",
+   "l": "Musei Civici, Complesso di Santa Caterina, Treviso"
+  },
+  "notes": "Commons description: Gentile da Fabriano, Madonna and Child with St Margaret, c. 1412, detached in 1883 from Santa Margherita, now Santa Caterina, Treviso."
+ },
+ {
+  "key": "commons:114235654",
+  "status": "dated",
+  "set": {
+   "d": "1953",
+   "y": 1953,
+   "t": "Christ in Majesty (Altar Wall Fresco, Herz-Jesu-Kirche, Gmünd)"
+  },
+  "notes": "Commons: church of the Sacred Heart, Gmünd (Lower Austria), 1953, altar fresco by Piffl-Moser; category '1953 frescos'."
+ },
+ {
+  "key": "nationalmuseum:72333",
+  "status": "dated",
+  "set": {
+   "d": "first half of the 17th century",
+   "y": 1640,
+   "a": "Circle of François Perrier"
+  },
+  "notes": "Nationalmuseum record (NMH CC VI 26): circle of François Perrier (1590–1650); no exact date given — dated by the artist's circle."
+ },
+ {
+  "key": "commons:60910951",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: this early-4th-century gold-glass medallion (Met 17.190.109a) is a secular portrait of a Roman mother and her son — the woman wears a contemporary coiffure and neither figure has a halo; the Met titles it 'Mother and Child', not the Virgin and Child.",
+  "set": {},
+  "notes": "Met object 463989 (early 4th century, probably Alexandria). The Met's automatic 'Madonna and Child' tag does not reflect the object's identification."
+ },
+ {
+  "key": "commons:88994475",
+  "status": "dated",
+  "set": {
+   "d": "c. 1420",
+   "y": 1420,
+   "t": "Christ as Man of Sorrows with the Virgin, St John, St Procopius and St Wenceslas (Wall Painting from the House U Tykví, Prague)",
+   "l": "City of Prague Museum"
+  },
+  "notes": "Commons description (City of Prague Museum label): painting on plaster from house no. 440/I, Michalská 11, Prague, ca. 1420."
+ },
+ {
+  "key": "commons:88994478",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail photograph of the same c. 1420 wall painting from the house U Tykví, Prague (City of Prague Museum).",
+  "set": {},
+  "dup_of": "commons:88994475"
+ },
+ {
+  "key": "commons:88994476",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail photograph of the same c. 1420 wall painting from the house U Tykví, Prague (City of Prague Museum).",
+  "set": {},
+  "dup_of": "commons:88994475"
+ },
+ {
+  "key": "commons:88994479",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail photograph of the same c. 1420 wall painting from the house U Tykví, Prague (City of Prague Museum).",
+  "set": {},
+  "dup_of": "commons:88994475"
+ },
+ {
+  "key": "commons:3140202",
+  "status": "dated",
+  "set": {
+   "d": "15th century (probably)",
+   "y": 1450,
+   "t": "The Entombment (Passion Cycle, Öja Church, Gotland)",
+   "l": "Öja Church, Gotland"
+  },
+  "notes": "No firm date found online; the Gotland passion friezes of this type are late medieval — the comparable passion frieze in nearby Sundre church is dated to the 15th century (Swedish Wikipedia). Estimate."
+ },
+ {
+  "key": "commons:3173475",
+  "status": "dated",
+  "set": {
+   "d": "15th century",
+   "y": 1450,
+   "t": "The Entombment (Passion Frieze, Sundre Church, Gotland)",
+   "l": "Sundre Church, Gotland"
+  },
+  "notes": "Swedish Wikipedia (Sundre kyrka): the passion frieze along the south nave wall dates from the 15th century (uncovered in the 1969–70 restoration)."
+ },
+ {
+  "key": "commons:2186246",
+  "status": "dated",
+  "set": {
+   "d": "c. 1450",
+   "y": 1450,
+   "t": "Virgin and Child (Benozzo Gozzoli, San Fortunato, Montefalco), detail",
+   "a": "Benozzo Gozzoli",
+   "l": "Convento di San Fortunato, Montefalco"
+  },
+  "notes": "Benozzo Gozzoli worked at San Fortunato, Montefalco, in 1449–1450 (Commons: Convento di San Fortunato, Virgin and Child, detail). Date from the artist's documented campaign there."
+ },
+ {
+  "key": "commons:2219663",
+  "status": "dated",
+  "set": {
+   "d": "late medieval (probably 15th century)",
+   "y": 1450,
+   "t": "The Entombment (Wall Painting, Church of Finkenbach)",
+   "l": "Protestant church, Finkenbach-Gersweiler"
+  },
+  "notes": "Commons: 'Grablegung Christi, Wandmalereien in der Kirche Finkenbach' (photo 1998); no date given. Estimate from style."
+ },
+ {
+  "key": "commons:193451630",
+  "status": "dated",
+  "set": {
+   "d": "1505",
+   "y": 1505,
+   "t": "The Entombment of Christ, detail of the Great Fresco (Secondo del Bosco, Sacra di San Michele)",
+   "a": "Secondo del Bosco da Poirino",
+   "l": "Sacra di San Michele, Piedmont"
+  },
+  "notes": "Commons description: great fresco of the Assumption (1505) by Secondo del Bosco di Poirino, Sacra di San Michele; this detail shows the Entombment/Deposition section."
+ },
+ {
+  "key": "commons:75982091",
+  "status": "dated",
+  "set": {
+   "d": "late 20th – early 21st century",
+   "y": 1997,
+   "t": "Virgin and Child (Mural, Greek Catholic Church, Biały Bór)"
+  },
+  "notes": "Modern mural in the Greek Catholic church of Biały Bór, a church built at the end of the 20th century; style in the manner of Jerzy Nowosielski. No exact date found — estimate."
+ },
+ {
+  "key": "commons:26205852",
+  "status": "dated",
+  "set": {
+   "d": "c. 1340",
+   "y": 1340,
+   "t": "The Baptism of Christ (Vestibule Fresco, Gurk Cathedral)",
+   "l": "Gurk Cathedral, Carinthia, vestibule"
+  },
+  "notes": "German Wikipedia (Dom zu Gurk): the vestibule (Vorhalle) is almost entirely covered with wall paintings of c. 1340, with 26 New Testament scenes on the south and west walls."
+ },
+ {
+  "key": "commons:180730421",
+  "status": "dated",
+  "set": {
+   "d": "probably 19th–20th century",
+   "y": 1900,
+   "t": "The Agony in the Garden (House Painting, Sierninger Straße 58, Steyr)"
+  },
+  "notes": "No date in the Commons record (photo 2023, facade picture at Sierninger Straße 58, Steyr). Estimate only."
+ },
+ {
+  "key": "commons:35118414",
+  "status": "dated",
+  "set": {},
+  "notes": "No reliable date found. Commons calls it the 'original fresco' on the facade of house no. 18 (the house dates from the first half of the 15th century, rebuilt in the 17th–18th centuries), but the icon-like Virgin and Child (MP ΘΥ) in the baroque gable cannot be dated from available sources."
+ },
+ {
+  "key": "commons:12620010",
+  "status": "dated",
+  "set": {
+   "d": "16th century (Renaissance)",
+   "y": 1530,
+   "t": "The Crucifixion with Hornstein Coats of Arms (Fresco, Kloster Heiligkreuztal)"
+  },
+  "notes": "Commons categories 'Renaissance frescos in Landkreis Biberach' and Hornstein coats of arms; Kloster Heiligkreuztal's central buildings were built under Abbess Veronika von Rietheim (1521–1551). Estimate."
+ },
+ {
+  "key": "Q11012952",
+  "status": "corrected",
+  "set": {
+   "t": "The Hinton St Mary Mosaic (Christian Panel with Bust of Christ and Chi-Rho)",
+   "d": "4th century",
+   "y": 350,
+   "c": "Hinton St Mary, Dorset, Roman Britain (attributed to the Durnovaria/Dorchester workshop)",
+   "l": "British Museum, London (central roundel on display; rest in storage)",
+   "m": "Floor mosaic (stone tesserae)",
+   "s": "Romano-British",
+   "k": "mosaic"
+  },
+  "summary": "At the heart of this great Roman floor a roundel frames the bust of a clean-shaven man with intent dark eyes, his head set before the Chi-Rho, the monogram of Christ, and flanked by two pomegranates. Around him four lunettes show hounds chasing deer among trees, and in the corners four busts look inward. Laid in a Dorset house in the 4th century, it is one of the earliest surviving images of Christ in Britain and possibly the only one in an ancient pavement.",
+  "scripture": "John 14:9 (theme)",
+  "facts": [
+   "The mosaic was discovered on 12 September 1963 by the local blacksmith, Walter John White, and lifted for the British Museum.",
+   "Most scholars identify the bust as Christ because of the Chi-Rho behind it, though the Emperor Constantine has also been proposed; the panel in the adjoining smaller room shows Bellerophon killing the Chimera.",
+   "It was chosen as Object 44 in the BBC Radio 4 series 'A History of the World in 100 Objects'."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Hinton St Mary Mosaic",
+    "url": "https://en.wikipedia.org/wiki/Hinton_St_Mary_Mosaic"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Hinton_St_Mary_Mosaic.jpg"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q11012952"
+   }
+  ],
+  "notes": "Dated on stylistic grounds to the 4th century (Wikipedia); excavations found nothing earlier than c. 270. The mosaic was lifted again and broken up in 1997, and only the central roundel is now displayed."
+ },
+ {
+  "key": "commons:158042878",
+  "status": "dated",
+  "set": {
+   "d": "1734",
+   "y": 1734,
+   "t": "The Marriage at Cana (Ceiling Fresco, Altmannisaal, Göttweig Abbey)",
+   "a": "Johann Rudolf Byss and Johann Baptist Byss",
+   "l": "Göttweig Abbey, Lower Austria"
+  },
+  "notes": "German Wikipedia (Johann Rudolf Byss; Stift Göttweig): ceiling frescoes of the Altmannisaal (Marriage at Cana) painted 1734 by Johann Rudolf Byss with a relative (Johann Baptist Byss)."
+ },
+ {
+  "key": "commons:158042880",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Marriage at Cana ceiling fresco (Byss, 1734) in the Altmannisaal of Göttweig Abbey.",
+  "set": {},
+  "dup_of": "commons:158042878"
+ },
+ {
+  "key": "commons:158042883",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Marriage at Cana ceiling fresco (Byss, 1734) in the Altmannisaal of Göttweig Abbey.",
+  "set": {},
+  "dup_of": "commons:158042878"
+ },
+ {
+  "key": "commons:158042879",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Marriage at Cana ceiling fresco (Byss, 1734) in the Altmannisaal of Göttweig Abbey.",
+  "set": {},
+  "dup_of": "commons:158042878"
+ },
+ {
+  "key": "commons:152436434",
+  "status": "dated",
+  "set": {
+   "d": "1904",
+   "y": 1904,
+   "a": "Achille Peretti",
+   "t": "The Nativity (Mural by Achille Peretti, Holy Cross Chapel, Salt Lake City)"
+  },
+  "notes": "Commons file title: Nativity mural by Achille Peretti, 1904, chancel dome of Holy Cross Chapel, Salt Lake City."
+ },
+ {
+  "key": "commons:32782954",
+  "status": "dated",
+  "set": {
+   "d": "20th century",
+   "y": 1950,
+   "t": "Christ Pantocrator (Dome Mosaic, Katholikon, Church of the Holy Sepulchre)",
+   "l": "Church of the Holy Sepulchre, Jerusalem"
+  },
+  "notes": "Modern Christ Pantocrator mosaic in the dome of the Katholikon of the Church of the Holy Sepulchre; the church was rebuilt after the fire of 1808 and has been under renovation since 1959 (Wikipedia). Exact date of the mosaic not found — estimate."
+ },
+ {
+  "key": "Q112785721",
+  "status": "corrected",
+  "set": {
+   "t": "The Vision of Christ in Glory ('Icon of Christ of Latomos'), Apse Mosaic, Hosios David, Thessaloniki",
+   "d": "last quarter of the 5th century",
+   "y": 487,
+   "c": "Thessaloniki",
+   "l": "Church of Hosios David (katholikon of the Latomos Monastery), Thessaloniki, Greece (in situ, apse)",
+   "m": "Mosaic",
+   "s": "Early Christian / Early Byzantine",
+   "k": "mosaic"
+  },
+  "summary": "In the small apse of the Latomos monastery church a young, beardless Christ sits on a rainbow within a radiant circle of light, raising his right hand and holding an open scroll. The four winged creatures of Ezekiel's and John's visions emerge around the aureole, and below, the four rivers of Paradise flow from a rocky mount. Two prophets — usually identified as Ezekiel and Habakkuk — witness the vision, one in awe and one meditating over a book: a rare early image of the Lord revealed in glory.",
+  "scripture": "Ezekiel 1:4–28; Habakkuk 3; Revelation 4:2–8",
+  "facts": [
+   "Christ's scroll carries a Greek text from Isaiah 25:9: 'Behold our God, in whom we hope and rejoice in our salvation, he will give rest to this house.'",
+   "According to a 12th-century account by Abbot Ignatius, the long-hidden image was revealed to the Egyptian monk Sennuphius when its covering of plaster fell away during an earthquake; the mosaic was rediscovered in the 1920s after the mosque was reconsecrated as a church.",
+   "Andreas Xyngopoulos dated the mosaic to the last quarter of the 5th century, a date generally accepted; the church is part of the UNESCO World Heritage site of the Paleochristian and Byzantine monuments of Thessaloniki."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Icon of Christ of Latomos",
+    "url": "https://en.wikipedia.org/wiki/Icon_of_Christ_of_Latomos"
+   },
+   {
+    "label": "Wikipedia: Church of Hosios David",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Hosios_David"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Thessaloniki_Church_of_Hosios_David_fresco.jpg"
+   }
+  ],
+  "notes": "The identity of the two witnesses is debated (Ezekiel and Habakkuk is the most widely held view; Grabar proposed Peter and Paul)."
+ },
+ {
+  "key": "commons:193630376",
+  "status": "dated",
+  "set": {
+   "d": "late 20th – early 21st century",
+   "y": 2000,
+   "t": "The Resurrection (Georgian Icon, Orthodox Church of St John the Baptist, Bolzano)"
+  },
+  "notes": "Modern Georgian icon of the Resurrection in the Orthodox church of St John the Baptist, Bolzano (photo 2012). Estimate."
+ },
+ {
+  "key": "commons:84651061",
+  "status": "dated",
+  "set": {
+   "d": "21st century (before 2019)",
+   "y": 2015,
+   "t": "Iconostasis of the Rumah Byzantin (Indonesian Eastern Catholic Community)"
+  },
+  "notes": "Commons: iconostasis painted by Christian Tombiling and Michael Alexander Syach for the Indonesian Eastern Catholic community; photographed 2019."
+ },
+ {
+  "key": "europeana:401/item_5RQX2CY25NRKFISGJ5NNQSZTWAOI4DGY",
+  "status": "dated",
+  "set": {
+   "d": "probably 19th century",
+   "y": 1875,
+   "t": "Madonna and Child, Left Wing of the Iconostasis of Lähte Orthodox Church"
+  },
+  "notes": "MuIS record (Estonian National Museum): tempera on wood, left wing of the iconostasis of the Lähte Orthodox church; no date given. The figure follows Raphael's Sistine Madonna. Estimate."
+ },
+ {
+  "key": "commons:109276838",
+  "status": "dated",
+  "set": {
+   "d": "first half of the 20th century",
+   "y": 1935,
+   "a": "Radbod Commandeur",
+   "t": "Saint Joseph and the Child Jesus (Courtyard Mosaic, Sant'Anselmo, Rome)"
+  },
+  "notes": "Commons: mosaic by Radbodus Commandeur (Dom Radbod Commandeur, 1890–1955) in the courtyard of Sant'Anselmo, Rome. Exact date not found — dated by the artist's career."
+ },
+ {
+  "key": "Q116236478",
+  "status": "corrected",
+  "set": {
+   "t": "Ivory Plaque with the Crucifixion",
+   "d": "c. 1000",
+   "y": 1000,
+   "c": "Ottonian Germany",
+   "l": "The Metropolitan Museum of Art, New York (17.190.495a)",
+   "m": "Elephant ivory with gilding",
+   "s": "Ottonian",
+   "k": "ivory"
+  },
+  "summary": "On this tiny plaque, barely four centimetres high, Christ hangs on the cross with arms outstretched along the beam, his head inclined and nimbed, wearing a long knotted loincloth, his feet resting on a small mound. Two haloed mourners — presumably the Virgin and St John — stand beneath the arms of the cross, each raising a hand to the cheek in grief, while two angels lean over the crossbeam above. Traces of gilding remain on the haloes.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Met dates the plaque to about 1000 (995–1005) and classes it as Ottonian; it measures only 4.1 × 2.8 cm.",
+   "It was given to the Metropolitan Museum by J. Pierpont Morgan in 1917.",
+   "The gesture of hand to cheek is a long-established sign of mourning in Crucifixion imagery of this period."
+  ],
+  "links": [
+   {
+    "label": "The Met: Ivory Plaque with the Crucifixion",
+    "url": "https://www.metmuseum.org/art/collection/search/464460"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116236478"
+   }
+  ],
+  "notes": "The Met's date of c. 1000 sits on the boundary of the early period. Which mourner is the Virgin and which John cannot be confirmed from the small photograph."
+ },
+ {
+  "key": "commons:24084243",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same modern Christ Pantocrator dome mosaic in the Katholikon of the Church of the Holy Sepulchre.",
+  "set": {},
+  "dup_of": "commons:32782954"
+ },
+ {
+  "key": "commons:15165689",
+  "status": "dated",
+  "set": {
+   "d": "after 1261 (late 13th century)",
+   "y": 1261,
+   "t": "Christ, detail of the Deesis Mosaic (Hagia Sophia, Istanbul)",
+   "l": "Hagia Sophia, Istanbul (south gallery)"
+  },
+  "notes": "Hagia Sophia Deesis mosaic, south gallery; generally dated after 1261 (Met 41.137 gives the original as 1261–1300)."
+ },
+ {
+  "key": "commons:116571801",
+  "status": "dated",
+  "set": {
+   "d": "1661",
+   "y": 1661,
+   "k": "painting",
+   "m": "Oil on canvas",
+   "a": "Juan de Valdés Leal",
+   "t": "Christ among the Doctors (Juan de Valdés Leal)"
+  },
+  "notes": "Commons description: oil on canvas by Juan de Valdés Leal (1661), Museo de Bellas Artes de Sevilla. Note: Valdés Leal's Prado version of the subject is dated 1686; a version of 1661 is recorded as its earlier counterpart."
+ },
+ {
+  "key": "Q134924185",
+  "status": "dated",
+  "set": {
+   "d": "17th century",
+   "y": 1650,
+   "t": "Jesus the Divine Shepherd (Indo-Portuguese ivory)",
+   "c": "Indo-Portuguese (Goa?)",
+   "m": "Carved and polychromed ivory"
+  },
+  "notes": "Commons file title: 'Jesús divino pastor, anónimo indo-portugués, marfil tallado y policromado, siglo XVII' (Museo Nacional del Virreinato)."
+ },
+ {
+  "key": "commons:91880780",
+  "status": "dated",
+  "set": {
+   "d": "c. 1280",
+   "y": 1280,
+   "t": "Christ in Majesty (Apse Painting, Johanneskirche, Seeburg)"
+  },
+  "notes": "German Wikipedia (Johanneskirche Seeburg): the secco painting in the apse dates from c. 1280; Christ in a mandorla with the evangelist symbols; other choir paintings 13th–14th century."
+ },
+ {
+  "key": "commons:147742427",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail (dove of the Holy Spirit only) of the same Baptism wall painting from Nederluleå church.",
+  "set": {},
+  "dup_of": "commons:147742429"
+ },
+ {
+  "key": "commons:147742429",
+  "status": "dated",
+  "set": {
+   "d": "c. 1490–1510",
+   "y": 1500,
+   "t": "The Baptism of Christ (Wall Painting, Nederluleå Church, Luleå)",
+   "l": "Nederluleå Church, Luleå"
+  },
+  "notes": "Statens historiska museum / Medeltidens bildvärld record via Commons: between 1490 and 1510, unidentified painter."
+ },
+ {
+  "key": "commons:147742422",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail of the same Baptism wall painting from Nederluleå church.",
+  "set": {},
+  "dup_of": "commons:147742429"
+ },
+ {
+  "key": "commons:147742417",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Baptism wall painting from Nederluleå church.",
+  "set": {},
+  "dup_of": "commons:147742429"
+ },
+ {
+  "key": "commons:147743858",
+  "status": "dated",
+  "set": {
+   "d": "c. 1450–1475",
+   "y": 1462,
+   "t": "The Entry into Jerusalem (Wall Painting, Hällestad Church, Lund)",
+   "a": "Vittskövle group",
+   "l": "Hällestad Church, Skåne"
+  },
+  "notes": "Statens historiska museum record via Commons: between 1450 and 1475, Vittskövle group."
+ },
+ {
+  "key": "commons:147741416",
+  "status": "dated",
+  "set": {
+   "d": "c. 1425–1450",
+   "y": 1437,
+   "t": "The Christ Child Learning to Walk (Wall Painting, Brönnestad Church)",
+   "l": "Brönnestad Church, Hässleholm"
+  },
+  "notes": "Statens historiska museum record via Commons: between 1425 and 1450."
+ },
+ {
+  "key": "commons:93407014",
+  "status": "dated",
+  "set": {
+   "d": "1739",
+   "y": 1739,
+   "a": "Simon Benedikt Faistenberger",
+   "t": "The Coronation of the Virgin (Ceiling Fresco, Liebfrauenkirche, Kitzbühel)"
+  },
+  "notes": "Commons file title and category: ceiling fresco of the Coronation of the Virgin by Simon Benedikt Faistenberger, 1739."
+ },
+ {
+  "key": "commons:15983503",
+  "status": "dated",
+  "set": {
+   "d": "1765",
+   "y": 1765,
+   "a": "Johann Baptist Wenzel Bergl",
+   "t": "The Adoration of the Shepherds (Johann Baptist Wenzel Bergl, Kleinmariazell)"
+  },
+  "notes": "Commons: Kleinmariazell basilica, fresco (1765) by Johann Baptist Wenzel Bergl."
+ },
+ {
+  "key": "commons:15983582",
+  "status": "dated",
+  "set": {
+   "d": "1765",
+   "y": 1765,
+   "a": "Johann Baptist Wenzel Bergl",
+   "t": "The Adoration of the Magi (Johann Baptist Wenzel Bergl, Kleinmariazell)"
+  },
+  "notes": "Commons: Kleinmariazell basilica, fresco (1765) by Johann Baptist Wenzel Bergl."
+ },
+ {
+  "key": "commons:7786767",
+  "status": "dated",
+  "set": {
+   "d": "1719–1732",
+   "y": 1725,
+   "a": "Wolfgang Andreas Heindl",
+   "t": "The Entombment of Christ (Ceiling Fresco, Abbey Church of Niederaltaich)"
+  },
+  "notes": "German Wikipedia (Abtei Niederaltaich): the extensive fresco cycle was painted 1719–1732 by Wolfgang Andreas Heindl."
+ },
+ {
+  "key": "commons:48213021",
+  "status": "dated",
+  "set": {
+   "d": "15th century",
+   "y": 1450,
+   "t": "The Entombment (Passion Frescoes, St Sylvester's Chapel, Konstanz Minster)"
+  },
+  "notes": "Commons description: Konstanz Minster, Chapel of St Sylvester (15th century), frescoes of the Passion of Christ."
+ },
+ {
+  "key": "commons:110073604",
+  "status": "dated",
+  "set": {
+   "d": "c. 1558–1568",
+   "y": 1563,
+   "a": "Frangos Kontaris",
+   "t": "The Crucifixion (Frangos Kontaris)"
+  },
+  "notes": "Commons artwork data: Frangos Kontaris, between 1558 and 1568."
+ },
+ {
+  "key": "fng:564580",
+  "status": "dated",
+  "set": {
+   "d": "early 20th century",
+   "y": 1915,
+   "t": "The Nativity, after Giotto (Ernst Zeuthen)"
+  },
+  "notes": "Finnish National Gallery: print by Ernst Zeuthen (1880–1938) after Giotto's Nativity; dated by the artist's lifetime (museum page needs JavaScript)."
+ },
+ {
+  "key": "nationalmuseum:84450",
+  "status": "dated",
+  "set": {
+   "d": "probably 17th–18th century",
+   "y": 1700,
+   "t": "Crucifix (ivory corpus on ebony and tortoiseshell cross)"
+  },
+  "notes": "Nationalmuseum record (NMK 46/1892) gives no date: anonymous ivory corpus (16 cm) on an ebony cross veneered with tortoiseshell. Estimate from style."
+ },
+ {
+  "key": "commons:185620196",
+  "status": "dated",
+  "set": {
+   "d": "c. 1300",
+   "y": 1300,
+   "t": "The Crucifixion with Saints Gereon and Helena (Crypt of St. Gereon, Cologne)"
+  },
+  "notes": "Commons description: secco painting over the entrance to the confessio, with Sts Gereon and Helena added to the Crucifixion, c. 1300."
+ },
+ {
+  "key": "commons:181727816",
+  "status": "dated",
+  "set": {
+   "d": "14th century",
+   "y": 1350,
+   "t": "The Virgin in Glory with the Christ Child (Ivory Triptych)",
+   "k": "ivory"
+  },
+  "notes": "Commons description: ivory triptych, anonymous, 14th century, Musée des Beaux-Arts d'Angers, inv. MTC 1135."
+ },
+ {
+  "key": "commons:15129262",
+  "status": "dated",
+  "set": {
+   "d": "late 15th – 16th century",
+   "y": 1500,
+   "t": "The Last Supper (Fresco, Kremikovtsi Monastery)"
+  },
+  "notes": "Commons: 16th century; Wikipedia: the old church of Kremikovtsi Monastery was re-established in 1493 with highly regarded 15th-century frescoes, plus later layers. Range covers both."
+ },
+ {
+  "key": "commons:201904405",
+  "status": "corrected",
+  "set": {
+   "t": "Statuette of the Good Shepherd",
+   "d": "4th century",
+   "y": 350,
+   "c": "Probably Thessaloniki or the eastern Mediterranean",
+   "l": "Museum of Byzantine Culture, Thessaloniki, Greece",
+   "m": "Marble",
+   "s": "Early Christian",
+   "k": "sculpture"
+  },
+  "summary": "A youthful shepherd with a cap of curls stands on a small base, carrying a ram across his shoulders and steadying its legs with his right hand. He wears a belted short tunic and leggings, and a further animal lies at his feet; a supporting pillar rises behind him, and his left forearm is broken away. Small statuettes like this one turned the familiar pastoral figure into an image of Christ, who lays down his life for his sheep.",
+  "scripture": "John 10:11–16; Luke 15:3–7",
+  "facts": [
+   "The Museum of Byzantine Culture labels the statuette 'The Good Shepherd' and dates it to the 4th century (a photograph of the label reads 'second decade of the 4th century'; another source says mid-4th century).",
+   "Freestanding Good Shepherd statuettes are among the earliest Christian sculptures in the round; the type adapts the classical calf- or ram-bearer (kriophoros)."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons: Statuette of the Good Shepherd, Museum of Byzantine Culture",
+    "url": "https://commons.wikimedia.org/wiki/Category:Statuette_of_the_Good_Shepherd,_Museum_of_Byzantine_Culture,_Thessaloniki"
+   },
+   {
+    "label": "Wikipedia: Museum of Byzantine Culture",
+    "url": "https://en.wikipedia.org/wiki/Museum_of_Byzantine_Culture"
+   }
+  ],
+  "notes": "Precise dating within the 4th century differs between sources. Medium (marble) is identified from photographs. As with all early Good Shepherd statuettes, the Christian reading rests on context and the museum's identification."
+ },
+ {
+  "key": "commons:39861255",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 17th century",
+   "y": 1665,
+   "a": "Stephan Kessler",
+   "t": "The Nativity (Ceiling Painting by Stephan Kessler, Liebfrauenkirche, Säben)"
+  },
+  "notes": "German Wikipedia (Liebfrauenkirche, Säben): the church was rebuilt in 1652–1658 and Stephan Kessler painted the stucco-framed fields of the octagon dome. Subject is the Nativity (not the Annunciation as the Commons caption says)."
+ },
+ {
+  "key": "commons:129467121",
+  "status": "dated",
+  "set": {
+   "d": "1934 or later (20th century)",
+   "y": 1934,
+   "t": "Christ in Majesty with Angels (Facade Painting, Cemetery Chapel of St John, Schaan)"
+  },
+  "notes": "Wikipedia DE (Schaan): the cemetery chapel of St John was built in 1934 to plans by Erwin Hinderer; facade painting date not found."
+ },
+ {
+  "key": "commons:183348188",
+  "status": "dated",
+  "set": {
+   "d": "c. 1790–1800",
+   "y": 1795,
+   "a": "Philip James de Loutherbourg",
+   "k": "drawing"
+  },
+  "notes": "Commons: design elements from Philip James de Loutherbourg's head-pieces for the Macklin Bible (c. 1790–1800). Identification of the child figure as Christ is uncertain."
+ },
+ {
+  "key": "commons:1352622",
+  "status": "dated",
+  "set": {
+   "d": "probably 19th–20th century",
+   "y": 1900,
+   "t": "The Crowned Virgin and Child (Painting on the Domagalicz Chapel, Lviv)"
+  },
+  "notes": "No date found; painted Virgin and Child on the Domagalicz family chapel, Lviv, inscribed 'PRAETEREUNDO CAVE NE TACEATUR AVE'. Estimate."
+ },
+ {
+  "key": "commons:2452658",
+  "status": "dated",
+  "set": {
+   "d": "c. 1330–1350",
+   "y": 1340,
+   "a": "Master of Waltensburg",
+   "t": "The Lamentation/Entombment of Christ (Waltensburg Master, Reformed Church, Lüen)"
+  },
+  "notes": "Commons category 'Waltensburger Meister' (active c. 1330–1350) for the paintings of the Reformed church of Lüen."
+ },
+ {
+  "key": "commons:4790610",
+  "status": "dated",
+  "set": {
+   "d": "late 20th century",
+   "y": 1990,
+   "t": "Virgin and Child (Mosaic over the Old Town Gate, Budva)"
+  },
+  "notes": "Modern mosaic of the Virgin and Child above the entrance gate to the old town of Budva (photo 2008). Estimate."
+ },
+ {
+  "key": "europeana:401/item_A3TXJ23XFUEVSO6R4I23JNX4BSLY5TD5",
+  "status": "dated",
+  "set": {
+   "d": "probably late 19th – early 20th century",
+   "y": 1900
+  },
+  "notes": "MuIS record (Tartu City Museum) gives no date. Estimate from style."
+ },
+ {
+  "key": "europeana:401/item_7VYHRIBZUTTACBCPSYZFYOMKPUJO2CD3",
+  "status": "dated",
+  "set": {
+   "d": "probably 19th century",
+   "y": 1850
+  },
+  "notes": "MuIS record (Pärnu Museum): oil on canvas, 69 × 88 cm, unknown artist, Italy; dating '?'. Estimate from style."
+ },
+ {
+  "key": "commons:38900784",
+  "status": "dated",
+  "set": {
+   "d": "late 20th century",
+   "y": 1990,
+   "t": "Madonna and Child (Mosaic, Central Swansea)"
+  },
+  "notes": "Modern mosaic near St David's Priory, Swansea (photo 2012). Estimate."
+ },
+ {
+  "key": "commons:110971527",
+  "status": "dated",
+  "set": {
+   "d": "early 15th century",
+   "y": 1410,
+   "t": "Madonna and Child Enthroned (Apse Fresco, Oratorio di Santa Maria, Garbagna Novarese)"
+  },
+  "notes": "Commons description: Maestà in the apse of the oratory of Santa Maria, Garbagna Novarese, from the beginning of the 15th century."
+ },
+ {
+  "key": "Q17163466",
+  "status": "dated",
+  "set": {
+   "d": "14th century",
+   "y": 1350,
+   "m": "Painting on panel",
+   "t": "Madonna del Sudore (Chapel of the Madonna del Sudore, Ravenna Cathedral)"
+  },
+  "notes": "Italian Wikipedia (Madonna del Sudore): a 14th-century image painted on a panel, kept in a side chapel of Ravenna Cathedral (chapel built 1630–1659). The photograph shows the chapel and altar."
+ },
+ {
+  "key": "europeana:401/item_GPBYUV27LKRHURAKQZMWRRAORCYIOUY2",
+  "status": "dated",
+  "set": {
+   "d": "16th century",
+   "y": 1550,
+   "t": "Madonna and Child with a Rosary",
+   "c": "Netherlands",
+   "m": "Oil on wood"
+  },
+  "notes": "MuIS record (Tartu Art Museum): unknown Netherlandish master, 16th century, oil on wood, 40.3 × 35.5 cm."
+ },
+ {
+  "key": "europeana:401/item_32HKQWRTNZ5V5PYRS2EMZNYUXJYZTIQK",
+  "status": "rejected",
+  "reject_reason": "Christ is not visible: this side of the sheet shows only two studies of a woman's (the Madonna's) head; the Madonna-and-Child sketches are on the other side.",
+  "set": {},
+  "notes": "MuIS record (University of Tartu Art Museum): sanguine drawing, Vaksel collection, undated."
+ },
+ {
+  "key": "commons:42184832",
+  "status": "dated",
+  "set": {
+   "d": "probably 19th–20th century",
+   "y": 1900,
+   "t": "Altar with the Virgin and Child, Roccavivi"
+  },
+  "notes": "Commons gives no date ('Affresco Roccavecchia', Roccavivi); the image shows a statue of the Virgin and Child in a niche flanked by painted Sts Peter and Paul. Estimate."
+ },
+ {
+  "key": "commons:15926868",
+  "status": "dated",
+  "set": {
+   "d": "c. 1290",
+   "y": 1290,
+   "a": "Pietro Cavallini (attributed)",
+   "t": "Virgin and Child with Saints Chrysogonus and James (Mosaic, San Crisogono, Rome)"
+  },
+  "notes": "Commons: mosaic of the Virgin and Child with St Chrysogonus and St James, San Crisogono, Rome, c. 1273–1308, attributed to Pietro Cavallini."
+ },
+ {
+  "key": "commons:68988801",
+  "status": "dated",
+  "set": {
+   "d": "12th century (Romanesque)",
+   "y": 1150,
+   "t": "Christ in Majesty with the Twenty-Four Elders (Apse Painting, San Justo, Segovia)"
+  },
+  "notes": "Spanish Wikipedia (Iglesia de San Justo, Segovia): Romanesque church of the 12th century; its Romanesque apse paintings were uncovered in the early 1960s."
+ },
+ {
+  "key": "commons:53230031",
+  "status": "dated",
+  "set": {
+   "d": "c. 1270–1280",
+   "y": 1275,
+   "t": "Passion Frescoes (Crypt of Siena Cathedral)"
+  },
+  "notes": "Frescoes of the crypt beneath Siena Cathedral, rediscovered 1999, generally dated c. 1270–1280. Estimate from published date range."
+ },
+ {
+  "key": "commons:48964037",
+  "status": "rejected",
+  "reject_reason": "Christ is not visible: the fragment preserves only the lower part of the Virgin's robe and her feet, with an inscription below; the Child, if present, is lost.",
+  "set": {},
+  "notes": "National Museum in Warsaw, Faras wall painting, dated (Commons) 2nd half of the 10th – 1st half of the 11th century. A different, better-preserved Faras Hodegetria is already in the collection (cur:monumental2-faras-hodegetria)."
+ },
+ {
+  "key": "commons:61013543",
+  "status": "dated",
+  "set": {
+   "d": "1521",
+   "y": 1521,
+   "t": "The Entombment of Christ (Charnel House, Maria Saal)"
+  },
+  "notes": "Commons: fresco of the Entombment donated by Canon Oswald Schnelcho, dated 1521, charnel house at Maria Saal."
+ },
+ {
+  "key": "commons:60226297",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same 1521 Entombment fresco in the charnel house at Maria Saal.",
+  "set": {},
+  "dup_of": "commons:61013543"
+ },
+ {
+  "key": "commons:48572078",
+  "status": "dated",
+  "set": {
+   "d": "c. 1300 (heavily restored 1889)",
+   "y": 1300,
+   "t": "Virgin and Child (Choir Apse Painting, St. Bendt's Church, Ringsted)"
+  },
+  "notes": "English Wikipedia (St. Bendt's Church): the wall paintings, including images of the Virgin and of Christ, were painted around 1300 and restored (possibly repainted) in 1889."
+ },
+ {
+  "key": "commons:17463636",
+  "status": "dated",
+  "set": {
+   "d": "c. 1890–1920",
+   "y": 1905,
+   "a": "Marius-Antoine Barret"
+  },
+  "notes": "Commons: baptistery fresco by Marius-Antoine Barret (1865–1929), La Trinité-la Palud, Marseille; dated by the artist's career."
+ },
+ {
+  "key": "commons:157087819",
+  "status": "dated",
+  "set": {
+   "d": "20th century",
+   "y": 1950,
+   "t": "Noli me tangere (Mosaic, De Papegaai, Amsterdam)"
+  },
+  "notes": "Modern mosaic in De Papegaai (St Peter and Paul), Amsterdam (photo 2024). No date found — estimate."
+ },
+ {
+  "key": "commons:94707514",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the same 6th-century mosaic of the enthroned Virgin and Child on the north wall of Sant'Apollinare Nuovo, Ravenna, already handled as commons:31921980 (batch und-early-2).",
+  "set": {},
+  "dup_of": "commons:31921980",
+  "notes": "Mosaic c. 500–526 — pre-1000, but already covered."
+ },
+ {
+  "key": "commons:30269100",
+  "status": "dated",
+  "set": {
+   "d": "1886–1889",
+   "y": 1888,
+   "a": "Louis Chifflet",
+   "t": "The Baptism of Christ (Louis Chifflet, Notre-Dame-de-l'Assomption, Mathieu)"
+  },
+  "notes": "French Wikipedia (Mathieu church): Louis Chifflet decorated the church in 1886–1889, including the Baptism of Christ."
+ },
+ {
+  "key": "commons:118004730",
+  "status": "dated",
+  "set": {
+   "d": "16th century",
+   "y": 1550,
+   "t": "The Nativity (Apse Painting, San Tomé de Nogueira, Meis)"
+  },
+  "notes": "Commons: Gothic paintings (16th century) in the apse of San Tomé de Nogueira, Meis."
+ },
+ {
+  "key": "commons:6214191",
+  "status": "dated",
+  "set": {
+   "d": "20th–21st century",
+   "y": 2000
+  },
+  "notes": "Modern Orthodox-style murals in the Melkite Annunciation Cathedral, Jerusalem (photo 2009). Estimate."
+ },
+ {
+  "key": "commons:32522841",
+  "status": "dated",
+  "set": {
+   "d": "mid-16th century",
+   "y": 1555,
+   "t": "The Baptism of Christ (Carretto Chapel, San Maurizio al Monastero Maggiore, Milan)"
+  },
+  "notes": "Commons: frescoes by the sons of Bernardino Luini, 16th century, Chapel of St John the Baptist (Carretto), San Maurizio al Monastero Maggiore. Estimate within the century."
+ },
+ {
+  "key": "commons:123179147",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted in a recognisable way: a still from Marikki Hakola's interactive media artwork 'Moloch – Earthly Gestures' (2010), showing falling and tormented figures.",
+  "set": {}
+ },
+ {
+  "key": "commons:13651088",
+  "status": "dated",
+  "set": {
+   "d": "15th century",
+   "y": 1450,
+   "t": "The Entombment (Nave Fresco, Saint-Pierre, Mont-Dol)"
+  },
+  "notes": "French Wikipedia (Église Saint-Pierre de Mont-Dol): the nave fresco cycle of the Passion and Resurrection dates from the 15th century."
+ },
+ {
+  "key": "commons:117713721",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same 15th-century Entombment fresco at Saint-Pierre, Mont-Dol.",
+  "set": {},
+  "dup_of": "commons:13651088"
+ },
+ {
+  "key": "commons:106036520",
+  "status": "dated",
+  "set": {
+   "d": "mid-to-late 20th century",
+   "y": 1960
+  },
+  "notes": "Mosaic in the crypt chapel of Manila Cathedral (the cathedral was rebuilt 1954–1958). Exact date not found — estimate."
+ },
+ {
+  "key": "commons:32055186",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the central bust of this late-Roman bath mosaic at Tallaras (Maltezana, Astypalaia) wears a radiate crown and is identified as Helios surrounded by the zodiac (English Wikipedia, Astypalaia); the 'Pantokrator' label is only the uploader's interpretation.",
+  "set": {}
+ },
+ {
+  "key": "commons:32076214",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted (Helios amid the zodiac, Tallaras bath mosaic, Astypalaia); duplicate photograph of the same mosaic.",
+  "set": {},
+  "dup_of": "commons:32055186"
+ },
+ {
+  "key": "commons:32076215",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted (Helios amid the zodiac, Tallaras bath mosaic, Astypalaia); duplicate photograph of the same mosaic.",
+  "set": {},
+  "dup_of": "commons:32055186"
+ },
+ {
+  "key": "Q69520245",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the Good Shepherd lunette mosaic in the Mausoleum of Galla Placidia, Ravenna (c. 425–450), already in the collection.",
+  "set": {},
+  "dup_of": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5"
+ },
+ {
+  "key": "commons:94869581",
+  "status": "rejected",
+  "reject_reason": "Duplicate: detail of the Good Shepherd lunette mosaic in the Mausoleum of Galla Placidia, Ravenna (c. 425–450), already in the collection.",
+  "set": {},
+  "dup_of": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5"
+ },
+ {
+  "key": "commons:89497895",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Gerasene Demoniac (Sant'Apollinare Nuovo)",
+   "d": "c. 500–526",
+   "y": 510,
+   "c": "Ravenna (Ostrogothic kingdom)",
+   "l": "Basilica of Sant'Apollinare Nuovo, Ravenna (in situ, upper register of the nave)",
+   "m": "Mosaic",
+   "s": "Early Christian / Early Byzantine",
+   "k": "mosaic"
+  },
+  "summary": "Against the gold ground the young, beardless Christ, robed in purple with a jewelled cross-nimbus, stretches out his hand towards the possessed man who crouches before a rocky outcrop, while a disciple in white raises his hand in witness. To the right, the swine into which the unclean spirits were sent plunge down into the blue water. With a handful of figures the mosaicist tells the whole story of Christ's authority over the powers of evil.",
+  "scripture": "Mark 5:1–20; Luke 8:26–39; Matthew 8:28–34",
+  "facts": [
+   "It is one of the thirteen miracle and teaching scenes in the topmost register of the nave, made under Theodoric in the early 6th century; in all of them Christ appears young and beardless.",
+   "Three of the swine are shown in the water, a compact visual shorthand for the herd of the Gospel account."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Sant'Apollinare Nuovo",
+    "url": "https://en.wikipedia.org/wiki/Sant%27Apollinare_Nuovo"
+   },
+   {
+    "label": "Wikimedia Commons: Exorcism of the Gerasene Demoniac mosaic in Sant'Apollinare Nuovo",
+    "url": "https://commons.wikimedia.org/wiki/Category:Exorcism_of_the_Gerasene_Demoniac_mosaic_in_Sant%27Apollinare_Nuovo_(Ravenna)"
+   }
+  ],
+  "notes": "Not otherwise present in the collection (other Sant'Apollinare Nuovo scenes are). Date follows the Theodorican campaign as used for the companion scenes (c. 500–526)."
+ },
+ {
+  "key": "commons:169171632",
+  "status": "dated",
+  "set": {
+   "d": "c. 1180–1190",
+   "y": 1185,
+   "t": "The Creation of Adam (Mosaic, Monreale Cathedral)",
+   "l": "Monreale Cathedral, Sicily"
+  },
+  "notes": "Commons: 12th century; the Monreale Cathedral mosaics are generally dated c. 1180–1190. Christ appears as the Creator (Christ-Logos) bringing Adam to life."
+ },
+ {
+  "key": "commons:90992106",
+  "status": "corrected",
+  "set": {
+   "t": "The Virgin and Child in a Niche (Tokalı Kilise, Göreme)",
+   "d": "10th century",
+   "y": 960,
+   "c": "Cappadocia",
+   "l": "Tokalı Kilise, Göreme Open-Air Museum, Nevşehir, Turkey (in situ)",
+   "m": "Wall painting",
+   "s": "Middle Byzantine",
+   "k": "fresco"
+  },
+  "summary": "Within a shallow arched niche, lit against the rough tufa of the rock-cut church, the Virgin in a dark maphorion bends her head towards the Christ Child, who sits on her arm in an ochre garment and presses his face close to hers; both wear golden haloes, and the dark blue ground is scattered with small white stars. Above and around the niche the deep blue paintings of the New Church can be glimpsed. The tender, cheek-to-cheek embrace belongs to the Byzantine type of the Virgin of tenderness (Eleousa).",
+  "scripture": "Luke 2:19 (theme)",
+  "facts": [
+   "Tokalı Kilise, the largest church at Göreme, consists of an Old Church of the early 10th century and a larger New Church added later in the century, whose paintings use costly lapis-lazuli blue.",
+   "An inscription names the painter of the New Church as Nikephoros and its patrons as Constantine and his son Leon."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Churches of Göreme (Tokalı Kilise)",
+    "url": "https://en.wikipedia.org/wiki/Churches_of_G%C3%B6reme"
+   },
+   {
+    "label": "Wikimedia Commons: Frescos in the Tokalı Kilise",
+    "url": "https://commons.wikimedia.org/wiki/Category:Frescos_in_the_Tokal%C4%B1_Kilise"
+   }
+  ],
+  "notes": "Commons descriptions (two independent photographers) date this niche painting to the 10th century; the Princeton Index of Medieval Art records an Eleousa Virgin and Child on the sanctuary east wall. Its exact phase (New Church c. 950–970, or later) is not confirmed; the New Church itself is dated variously from c. 960 to the end of the 10th or early 11th century."
+ },
+ {
+  "key": "commons:200032339",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 20th century",
+   "y": 1975,
+   "t": "Christ (Main Altar Mosaic, Sacred Heart Church, Gdynia)"
+  },
+  "notes": "Commons: the Sacred Heart church in Gdynia dates from the post-war period, its present building from the 1950s; the ceramic mosaics belong to its interior decoration. Exact date not found."
+ },
+ {
+  "key": "commons:24833089",
+  "status": "dated",
+  "set": {
+   "d": "early 21st century",
+   "y": 2005,
+   "t": "The Crucifixion (Mural, La Venezuela de Antier, Mérida)"
+  },
+  "notes": "Mural in the theme park La Venezuela de Antier, Mérida (photo 2013). Estimate."
+ },
+ {
+  "key": "commons:154191716",
+  "status": "dated",
+  "set": {
+   "d": "probably 13th century",
+   "y": 1250,
+   "t": "The Annunciation and the Nativity (Semi-Dome Painting, Church of the Virgin, Syrian Monastery, Wadi el-Natrun)",
+   "u": [
+    "Nativity",
+    "Annunciation"
+   ]
+  },
+  "notes": "The visible Annunciation and Nativity in the western semi-dome of the Church of the Virgin, Deir al-Surian; Rawi Publishing reports that in 1991 a 13th-century painting there was separated from an earlier (8th-century encaustic) layer. Style is consistent with the 13th-century layer, but the attribution of this photograph to that layer is not fully confirmed."
+ },
+ {
+  "key": "commons:129754612",
+  "status": "dated",
+  "set": {
+   "d": "probably 15th–16th century",
+   "y": 1500
+  },
+  "notes": "Commons: Gothic wall painting of the Descent from the Cross in the former cloister rooms of Ourense Cathedral (museum). Estimate."
+ },
+ {
+  "key": "commons:91997841",
+  "status": "dated",
+  "set": {
+   "d": "c. 1750",
+   "y": 1750,
+   "t": "Diptych with Christ Crowned with Thorns and the Descent from the Cross",
+   "k": "icon",
+   "c": "Ethiopia"
+  },
+  "notes": "Smithsonian National Museum of African Art (2004-7-3): Ethiopian Orthodox diptych with Christ crowned with thorns and the Descent from the Cross; c. 1750 per the Commons/Wikipedia caption crediting the museum (museum page not reachable)."
+ },
+ {
+  "key": "commons:91996781",
+  "status": "dated",
+  "set": {
+   "d": "probably 18th–19th century",
+   "y": 1800,
+   "t": "Triptych with the Virgin and Child, the Crucifixion and Saints",
+   "k": "icon",
+   "c": "Ethiopia"
+  },
+  "notes": "Smithsonian NMAfA Ethiopian triptych (Virgin and Child with archangels, Descent into Sheol, Crucifixion, saints); no date found. The Italo-Cretan influence noted by the museum suggests the Gondarine period or later. Estimate."
+ },
+ {
+  "key": "commons:157360636",
+  "status": "dated",
+  "set": {
+   "d": "late 20th – early 21st century",
+   "y": 2000
+  },
+  "notes": "No date in the Commons record (uploaded 2015); modern Orthodox Nativity painting. Estimate."
+ },
+ {
+  "key": "commons:80203842",
+  "status": "dated",
+  "set": {
+   "d": "early 19th century (after 1806)",
+   "y": 1810,
+   "t": "The Baptism of Christ (Ceiling Fresco, Kühbruck Chapel, Nenzing)"
+  },
+  "notes": "Commons: pilgrimage chapel Kühbruck, Nenzing, built 1806; ceiling fresco."
+ },
+ {
+  "key": "commons:80198510",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Baptism ceiling fresco in the Kühbruck chapel, Nenzing.",
+  "set": {},
+  "dup_of": "commons:80203842"
+ },
+ {
+  "key": "commons:150629390",
+  "status": "dated",
+  "set": {},
+  "notes": "No date found for the fresco of the Madonna and Child over the altar of the oratory of Saints James and Philip at Biglio inferiore (Commons, 2024 phone photograph)."
+ },
+ {
+  "key": "commons:87050881",
+  "status": "dated",
+  "set": {
+   "d": "early 18th century (probably)",
+   "y": 1705,
+   "t": "The Adoration of the Shepherds (Santa Maria dell'Orto, Rome)"
+  },
+  "notes": "Italian Wikipedia (Santa Maria dell'Orto): the Adoration of the Shepherds on the counter-façade is by Giuseppe and Andrea Orazi, who worked in the church c. 1703; identification of this photograph with that fresco is probable, not certain."
+ },
+ {
+  "key": "commons:110831791",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 20th century",
+   "y": 1980,
+   "a": "Franz Weiss",
+   "t": "Christ as Ruler and Judge of the World (Village Chapel, Tregist)"
+  },
+  "notes": "German Wikipedia (Tregist): the village chapel (Maria Knotenlöserin) was designed by Franz Weiss (1921–2014). Exact date not found."
+ },
+ {
+  "key": "commons:110831792",
+  "status": "rejected",
+  "reject_reason": "Duplicate: another photograph of the same Christ as Judge of the World on the east wall of the Tregist village chapel.",
+  "set": {},
+  "dup_of": "commons:110831791"
+ },
+ {
+  "key": "commons:110834761",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 20th century",
+   "y": 1980,
+   "a": "Franz Weiss",
+   "t": "The Risen Christ (South Wall, Village Chapel, Tregist)"
+  },
+  "notes": "Tregist village chapel decorated by Franz Weiss (1921–2014) (German Wikipedia). Estimate."
+ },
+ {
+  "key": "commons:110834766",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 20th century",
+   "y": 1980,
+   "a": "Franz Weiss",
+   "t": "The Risen Christ in a Mandorla (South Wall, Village Chapel, Tregist)"
+  },
+  "notes": "Tregist village chapel decorated by Franz Weiss (1921–2014) (German Wikipedia). A different panel from commons:110834761 (Christ in a mandorla, inscribed 'Ich bin bei euch alle Tage bis zum Ende der Welt')."
+ },
+ {
+  "key": "commons:110834778",
+  "status": "dated",
+  "set": {
+   "d": "second half of the 20th century",
+   "y": 1980,
+   "a": "Franz Weiss",
+   "t": "The Transfiguration (South Wall, Village Chapel, Tregist)"
+  },
+  "notes": "Tregist village chapel decorated by Franz Weiss (1921–2014) (German Wikipedia). Estimate."
+ },
+ {
+  "key": "Q116276810",
+  "status": "rejected",
+  "reject_reason": "Reproduction: a painted copy on canvas made in the late 1930s (Met 41.137) of the Deesis mosaic in Hagia Sophia, Istanbul (original after 1261).",
+  "set": {},
+  "dup_of": "commons:15165689"
+ },
+ {
+  "key": "commons:27245721",
+  "status": "dated",
+  "set": {
+   "d": "probably 17th–18th century",
+   "y": 1700,
+   "t": "The Lamentation (Painting, Church of St George, Kaunas)"
+  },
+  "notes": "No date found; the Church of St George, Kaunas, is late Gothic (built c. 1495–1510, damaged and refitted in the 17th century, Lithuanian Wikipedia). Estimate from style."
+ },
+ {
+  "key": "commons:4175159",
+  "status": "dated",
+  "set": {
+   "d": "mid-20th century",
+   "y": 1950,
+   "a": "Jan Henryk de Rosen",
+   "t": "The Entombment of Christ (Jan Henryk de Rosen, Washington National Cathedral)"
+  },
+  "notes": "English Wikipedia (Washington National Cathedral): the mural 'The Entombment of Christ' behind the altar of the Chapel of St Joseph of Arimathea was painted by Jan Henryk de Rosen; exact year not found — estimate."
+ },
+ {
+  "key": "Q91936068",
+  "status": "dated",
+  "set": {
+   "d": "1478 (inscribed; within the 12th-century Norman chapel)",
+   "y": 1478,
+   "t": "Christ Enthroned between Saints Peter and Paul (Throne Wall Mosaic, Cappella Palatina, Palermo)"
+  },
+  "notes": "The frieze above the mosaic, read from the photograph, is inscribed ANNO DOMINI MCCCCLXXVIII (1478), with heraldic shields; the throne-wall mosaic of Christ between Peter and Paul thus belongs at least in its present form to a late-15th-century remaking of the Norman decoration (chapel mosaics begun 1140s)."
+ },
+ {
+  "key": "commons:128462749",
+  "status": "dated",
+  "set": {
+   "d": "1492",
+   "y": 1492,
+   "a": "Giovanni Canavesio",
+   "t": "The Harrowing of Hell (Giovanni Canavesio, Notre-Dame-des-Fontaines, La Brigue)"
+  },
+  "notes": "The frescoes of Notre-Dame-des-Fontaines, La Brigue, are by Giovanni Canavesio, signed and dated 1492 (standard date)."
+ }
+]

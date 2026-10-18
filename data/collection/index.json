@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70888,
- "checked": 893,
+ "total": 70863,
+ "checked": 899,
  "centuries": [
   {
    "century": "2",
@@ -13,15 +13,15 @@
   },
   {
    "century": "4",
-   "count": 120
+   "count": 122
   },
   {
    "century": "5",
-   "count": 36
+   "count": 37
   },
   {
    "century": "6",
-   "count": 95
+   "count": 96
   },
   {
    "century": "7",
@@ -37,7 +37,7 @@
   },
   {
    "century": "10",
-   "count": 230
+   "count": 232
   },
   {
    "century": "11",
@@ -45,61 +45,61 @@
   },
   {
    "century": "12",
-   "count": 487
+   "count": 489
   },
   {
    "century": "13",
-   "count": 1070
+   "count": 1076
   },
   {
    "century": "14",
-   "count": 2539
+   "count": 2544
   },
   {
    "century": "15",
-   "count": 9229
+   "count": 9247
   },
   {
    "century": "16",
-   "count": 18363
+   "count": 18373
   },
   {
    "century": "17",
-   "count": 13329
+   "count": 13335
   },
   {
    "century": "18",
-   "count": 5798
+   "count": 5807
   },
   {
    "century": "19",
-   "count": 4316
+   "count": 4324
   },
   {
    "century": "20",
-   "count": 1453
+   "count": 1474
   },
   {
    "century": "21",
-   "count": 92
+   "count": 94
   },
   {
    "century": "undated",
-   "count": 13280
+   "count": 13162
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18826
+   18818
   ],
   [
    "Madonna and Child",
-   13566
+   13563
   ],
   [
    "Christ Child",
-   8611
+   8610
   ],
   [
    "Crucifixion",
@@ -123,7 +123,7 @@
   ],
   [
    "Entombment",
-   1675
+   1673
   ],
   [
    "Resurrection",
@@ -143,7 +143,7 @@
   ],
   [
    "Baptism",
-   1188
+   1187
   ],
   [
    "Pietà",
@@ -163,7 +163,7 @@
   ],
   [
    "Last Judgment",
-   911
+   910
   ],
   [
    "Miracles of Christ",
@@ -215,7 +215,7 @@
   ],
   [
    "Pantocrator",
-   443
+   439
   ],
   [
    "Betrayal & Arrest",
@@ -258,16 +258,16 @@
    299
   ],
   [
-   "Wedding at Cana",
-   263
-  ],
-  [
    "Harrowing of Hell",
    262
   ],
   [
+   "Wedding at Cana",
+   260
+  ],
+  [
    "Good Shepherd",
-   231
+   229
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -625,7 +625,7 @@
   ],
   [
    "painting",
-   20868
+   20869
   ],
   [
    "drawing",
@@ -633,7 +633,7 @@
   ],
   [
    "sculpture",
-   4440
+   4439
   ],
   [
    "manuscript",
@@ -641,11 +641,11 @@
   ],
   [
    "other",
-   2516
+   2514
   ],
   [
    "icon",
-   1757
+   1759
   ],
   [
    "statue",
@@ -657,11 +657,11 @@
   ],
   [
    "fresco",
-   506
+   488
   ],
   [
    "ivory",
-   440
+   442
   ],
   [
    "relief",
@@ -689,7 +689,7 @@
   ],
   [
    "mosaic",
-   181
+   174
   ],
   [
    "ceramic",
@@ -773,7 +773,7 @@
   ],
   [
    "plaque",
-   29
+   28
   ],
   [
    "altarpiece",

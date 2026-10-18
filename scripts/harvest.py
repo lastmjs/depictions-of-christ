@@ -292,6 +292,8 @@ STRONG = re.compile(
     r"last judg|jüngste(s)? gericht|weltgericht|flight into egypt|flucht nach ägypten|presentation in the temple|"
     r"darbringung|circumcision|beschneidung|baptism of christ|taufe christi|lazarus|cana",
     re.I)
+# Later reproductions of other works (casts, electrotypes, fictile ivories) are not original depictions.
+REPRODUCTION = re.compile(r"fictile ivory|plaster cast|\bcast of\b|electrotype|galvano|\breproduction\b|\breplica\b|\bfacsimile\b", re.I)
 NOT_CHRIST = re.compile(r"v[oó]{1,2}r christus|before christ|\bv\.\s?chr\b|av\. ?j\.-?c|companhia de jesus|compañía de jesús|society of jesus|jesuit|jezuit|amyloid|pancrea|diabet", re.I)
 
 # Europeana providers we also harvest directly (avoid double entries).
@@ -354,6 +356,9 @@ def merge_sources(works):
                 continue
             if f.stem in ("rijks", "europeana", "getty", "vam", "fng") and r.get("k") == "photograph":
                 continue  # photographic reproductions of other artworks
+            if REPRODUCTION.search(f"{r.get('t', '')} {r.get('m', '')}") and not r["id"].startswith("cur:"):
+                added[f.stem + " (reproduction)"] += 1
+                continue
             if f.stem == "europeana":
                 if r.get("l") in DIRECT_PROVIDERS:
                     continue  # harvested directly from the museum itself
@@ -410,7 +415,7 @@ def apply_enrichment(works):
             stats["rejected"] += 1
             continue
         for field, value in (e.get("set") or {}).items():
-            if field in ("t", "a", "d", "y", "c", "l", "m", "s", "k"):
+            if field in ("t", "a", "d", "y", "c", "l", "m", "s", "k", "img", "big"):
                 w[field] = value
         w["v"] = 1  # hand-checked
         detail = {x: e[x] for x in ("summary", "scripture", "facts", "links", "notes", "set") if e.get(x)}

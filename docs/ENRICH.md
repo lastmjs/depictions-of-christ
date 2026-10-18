@@ -41,6 +41,11 @@ Each reviewer handles a small batch (from `scripts/worklist.py`) and writes one 
 - **Hostile or polemical images** (e.g. the Alexamenos graffito) stay in the collection: they are part of the
   history of how Christ was depicted. Describe them soberly and accurately.
 - **Facts must be verifiable** from a source you actually read — not from a search-engine snippet.
+- **Reproductions** (plaster casts, fictile ivories, electrotypes, facsimiles, 19th/20th-century replicas) are
+  rejected: the collection holds original works. Name the original in `reject_reason` (and `dup_of` if present).
+  Historical painted copies made as artworks in their own right (e.g. a 17th-century copy after Raphael) stay.
+- **Wrong image** (back of an object, group photo): put a better image URL in `set.img` (~600px) and `set.big`
+  (~1600px) — use the institution's IIIF/image service or Commons.
 - **Duplicates**: compare inventory numbers, file names and Wikidata links across the batch before writing.
 
 ## Output

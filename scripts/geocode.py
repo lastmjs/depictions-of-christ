@@ -836,21 +836,21 @@ def c_parts(c):
     return out
 
 
-def city_choice(text, info, cands):
-    """Best settlement among search candidates for a city name."""
+def city_choice(text, info, hits):
+    """Best settlement among search hits whose label or alias is the city name."""
     hint = CITY_HINTS.get(text.lower().strip())
     if hint and hint in info and info[hint]["coord"]:
         return hint
     best, score = None, -1e9
-    for i, q in enumerate(cands):
-        d = info.get(q)
-        if not d or not d["coord"] or d["types"] & BAD_TYPES or is_region(d):
+    for i, h in enumerate(hits):
+        d = info.get(h["id"])
+        if not d or not d["coord"] or d["types"] & BAD_TYPES or is_region(d) or not is_settlement(d):
             continue
-        if not is_settlement(d):
+        if not label_matches(text, h):
             continue
-        s = -i + (10 if d["types"] & CITY_TYPES else 0) + (5 if d["pop"] else 0)
-        if s > score:
-            best, score = q, s
+        sc = -i + (10 if d["types"] & CITY_TYPES else 0) + (5 if d["pop"] else 0)
+        if sc > score:
+            best, score = h["id"], sc
     return best
 
 
@@ -912,13 +912,20 @@ def build_gazetteer(l_counts, c_counts):
         res = searches[s]
         city_q, city_pts = None, []
         if city:
-            cands = [h["id"] for h in res.get("city", [])]
-            city_q = city_choice(city, info, cands)
-            city_pts = [info[q]["coord"] for q in cands
-                        if q in info and info[q]["coord"] and is_settlement(info[q]) and not is_region(info[q])
-                        and fold(info[q]["label"]) == fold(city)]
+            chits = res.get("city", [])
+            city_q = city_choice(city, info, chits)
+            city_pts = [info[h["id"]]["coord"] for h in chits
+                        if h["id"] in info and info[h["id"]]["coord"] and is_settlement(info[h["id"]])
+                        and not is_region(info[h["id"]]) and label_matches(city, h)]
             if city_q:
                 city_pts.append(info[city_q]["coord"])
+        if city and re.search(r"\)\s*$", s):
+            # "Town (Region)": the town itself
+            for h in res.get("name", []):
+                d = info.get(h["id"])
+                if d and d["coord"] and is_settlement(d) and not is_region(d) and label_matches(name, h) \
+                        and not d["types"] & BAD_TYPES:
+                    return entry(h["id"], "settlement")
         hits = res.get("full", []) + res.get("name", []) + [{"id": q, "x": 1} for q in (extra or [])]
         seen, exact, regions = set(), [], []
         for h in hits:
@@ -930,8 +937,8 @@ def build_gazetteer(l_counts, c_counts):
             if not d or not d["coord"] or d["types"] & BAD_TYPES:
                 continue
             if is_region(d):
-                if not h.get("x") and not city and label_matches(s, h):
-                    regions.append(q)
+                if not h.get("x") and (label_matches(s, h) or (not city_q and label_matches(name, h))):
+                    regions.append(h)
                 continue
             settle = is_settlement(d)
             if h.get("x"):
@@ -944,17 +951,30 @@ def build_gazetteer(l_counts, c_counts):
                 return entry(q, "site")
             if not h.get("x") and not (label_matches(s, h) or label_matches(name, h)):
                 continue
-            exact.append(q)
-        if exact:
-            pts = [info[q]["coord"] for q in exact]
-            if max(km(pts[0], p) for p in pts) <= 30:
-                q = exact[0]
-                return entry(q, "settlement" if is_settlement(info[q]) else "site")
-            return None
+            exact.append(h)
+
+        def equal(h):
+            lab = fold(info[h["id"]]["label"])
+            return lab == fold(s) or lab == fold(name)
+        ranked = sorted(
+            [(0 if equal(h) and is_settlement(info[h["id"]]) else 2 if equal(h) else
+              3 if is_settlement(info[h["id"]]) else 4, i, h, "x") for i, h in enumerate(exact)] +
+            [(1 if equal(h) else 5, i, h, "region") for i, h in enumerate(regions)],
+            key=lambda t: (t[0], t[1]))
+        if ranked:
+            top, _, h, what = ranked[0]
+            if what == "region":
+                if not city_q or top == 1:
+                    return entry(h["id"], "region")
+            else:
+                same = [info[t[2]["id"]]["coord"] for t in ranked if t[0] == top and t[3] == "x"]
+                if max(km(same[0], p) for p in same) <= 30:
+                    q = h["id"]
+                    return entry(q, "settlement" if is_settlement(info[q]) else "site")
+                if not city_q:
+                    return None
         if city_q:
             return entry(city_q, "settlement", "city", city)
-        if regions:
-            return entry(regions[0], "region")
         return None
 
     for s in todo:

@@ -1,0 +1,1139 @@
+[
+ {
+  "key": "vam:O116028",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Resist-Dyed Linen Panel with the Nativity",
+   "m": "Linen, resist-dyed with indigo, plain weave"
+  },
+  "summary": "Printed in indigo on linen, this fragmentary panel shows the Virgin Mary reclining on a couch at the centre, with a winged angel standing at the left and, at the right, the remains of the raised manger with traces of the ox and the ass above it. Beside the Virgin's head a damaged Greek inscription names her MAPIA (Maria), and a small star shines near by. The Christ Child, who presumably lay in the manger, is now lost in the damaged area, but the panel remains a precious survival of Nativity imagery on an everyday textile from late Roman Egypt.",
+  "scripture": "Luke 2:6–7",
+  "facts": [
+   "The V&A places the panel in a group of resist-dyed textiles found at Akhmîm and Antinoë in Egypt and now scattered among many museums; some were already old when they were reused to pad out mummy wrappings.",
+   "According to the museum, the Virgin's relaxed pose on her couch is that of a Roman matron, and the rectangular scene framed by columns recalls the side of a Roman sarcophagus.",
+   "The resist (possibly wax) was block-printed onto the linen before it was dipped in indigo; the presence of the angel at the birth follows the eastern tradition of texts such as the Protevangelium of James."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O116028/"
+   },
+   {
+    "label": "Wikipedia: Resist dyeing",
+    "url": "https://en.wikipedia.org/wiki/Resist_dyeing"
+   }
+  ],
+  "notes": "The figure of the Christ Child is not visible: the V&A states that the manger 'presumably contained the Christ Child'. The identification of the scene as the Nativity is secure (inscription MAPIA, angel, ox and ass, manger). Dated 4th century by the V&A. From the Major Myers collection, given by Dudley B. Myers."
+ },
+ {
+  "key": "vam:O314450",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after panels of the late 4th-century Brescia Casket (Lipsanoteca, Museo di Santa Giulia, Brescia; Westwood no. 93). The image is a page from a 19th-century photograph album showing several different casts. The original casket is already in the collection.",
+  "dup_of": "Q3390834",
+  "set": {}
+ },
+ {
+  "key": "vam:O1240121",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 4th–5th-century ivory pyxis showing Christ enthroned among the apostles and the Sacrifice of Isaac (Westwood no. 766) — evidently the Berlin pyxis. The image is a photograph-album page showing six different casts. The original pyxis (Bode-Museum, Berlin) is already in the collection.",
+  "dup_of": "cur:objects-berlin-pyxis-christ-among-disciples",
+  "set": {}
+ },
+ {
+  "key": "vam:O111098",
+  "status": "corrected",
+  "set": {
+   "t": "The Crucifixion and the Holy Women at the Tomb",
+   "d": "c. 850–875 (carving), on a leaf of a consular diptych of c. 515–530",
+   "y": 862,
+   "c": "Metz",
+   "s": "Carolingian (Metz school)"
+  },
+  "summary": "In crowded registers framed by a border of foliage, Christ hangs on the cross in a long tunic with a serpent at its foot, while Longinus pierces his side and Stephaton raises the sponge, the Virgin and St John standing near and the two thieves at the far edges. Below, an angel holding a cross sits on the open tomb and points the holy women to the Resurrection while soldiers sleep; elsewhere soldiers cast lots for Christ's garment and the Church drives out the Synagogue, and at the bottom Earth and Sea recline as witnesses. The ivory was recycled: the Carolingian carver worked on the back of the upper half of a 6th-century consular diptych leaf.",
+  "scripture": "John 19:17–37; Matthew 28:1–7",
+  "facts": [
+   "The front of the plaque preserves the upper half of a consular diptych leaf of about 515–530, partly planed away; the lower half of the same leaf is in the British Museum, carved in the 9th century with the Betrayal and Mocking of Christ.",
+   "According to the V&A, this ivory and the British Museum Passion plaque together formed a book cover.",
+   "Elements of the composition, such as the personifications of Earth and Sea, follow the 'Liuthard group' ivories, notably the cover of the Pericopes of Henry II in Munich (about 860)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O111098/"
+   },
+   {
+    "label": "Wikipedia: Consular diptych",
+    "url": "https://en.wikipedia.org/wiki/Consular_diptych"
+   },
+   {
+    "label": "Wikipedia: Ecclesia and Synagoga",
+    "url": "https://en.wikipedia.org/wiki/Ecclesia_and_Synagoga"
+   }
+  ],
+  "notes": "The worklist date (c. 515–530) belongs to the reused consular diptych, not to the Crucifixion carving, which the V&A dates to Metz, ca. 850–875. Formerly in the Webb collection."
+ },
+ {
+  "key": "vam:O111822",
+  "status": "corrected",
+  "set": {
+   "t": "Head of Christ as a Young Man (mosaic fragment from San Michele in Africisco, Ravenna)",
+   "d": "c. 545 (with extensive 19th-century restoration)",
+   "y": 545,
+   "c": "Ravenna",
+   "k": "mosaic"
+  },
+  "summary": "A youthful, beardless Christ with thick dark hair looks out from a field of gold tesserae in this fragment of wall mosaic. It has been identified as the head of Christ from the apse of San Michele in Africisco at Ravenna, a church dedicated in 545 when the city had been won back for Justinian's empire. Much of what is visible — the gold ground, the blue tunic and red mantle, the right eye and the nose — is crude 19th-century restoration, but the hair, the flesh of the face and the left eye are original late-antique work.",
+  "scripture": "John 14:9 (theme)",
+  "facts": [
+   "John Charles Robinson bought the head in Italy in 1856 as a 'fragment of an ancient wall mosaic. Roman'; it was long thought to be a 5th-century head of a saint from Sant'Ambrogio in Milan, until in 1988 it was identified as coming from San Michele in Africisco.",
+   "The apse mosaics of San Michele were sold in 1842 to an agent of King Friedrich Wilhelm IV of Prussia; after damage in Venice and repeated restorations they went to Berlin, where the main apse mosaic survives today.",
+   "The V&A records that the gold-glass background is no older than the 19th century, added by restorers working for dealers to make the fragment look complete."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O111822/"
+   }
+  ],
+  "notes": "Heavily restored; the V&A identifies the original parts as the hair, the flesh of the face and the left eye. Bibliography: I. Andreescu-Treadgold, 1990; Buckton (ed.), Byzantium, 1994, cat. 73."
+ },
+ {
+  "key": "vam:O352751",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Silk Roundel with an Orant Figure (identified as Christ)",
+   "d": "c. 500–700",
+   "y": 600,
+   "m": "Silk, compound twill (samite)"
+  },
+  "summary": "Woven in red, cream, blue and green silk, this small, worn roundel shows a frontal figure with long hair and a halo, both arms raised in the ancient gesture of prayer, standing between two stylised trees. A border of floral motifs and small crosses runs round the edge. The V&A identifies the figure as Christ; it is a rare and delicate witness to Christian imagery on luxury silks of late-antique Egypt.",
+  "facts": [
+   "Samite, a twill-woven silk, is thought to have originated in Sasanian Persia; Byzantine workshops adopted the technique, and it became one of the great luxury textiles of the period (V&A).",
+   "The roundel was given to the V&A by Robert Taylor in 1900; the museum dates it to about AD 500–700 and attributes it to Egypt."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O352751/"
+   },
+   {
+    "label": "Wikipedia: Samite",
+    "url": "https://en.wikipedia.org/wiki/Samite"
+   },
+   {
+    "label": "Wikipedia: Orans",
+    "url": "https://en.wikipedia.org/wiki/Orans"
+   }
+  ],
+  "notes": "The identification as Christ follows the V&A. The orans (praying) pose is more usual for saints, the Virgin or the deceased than for Christ, and no inscription or cross-nimbus confirms the identity, so it should be treated as uncertain."
+ },
+ {
+  "key": "vam:O316627",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Painted Linen Fragment with Christ as the Good Shepherd",
+   "d": "7th century",
+   "y": 650,
+   "c": "Egypt",
+   "m": "Painted linen"
+  },
+  "summary": "Drawn in sure black outlines with washes of red, a young figure with a cap of curly hair and a large halo stands frontally, one hand grasping a tall staff, his tunic and mantle edged with red bands. The V&A describes him as Christ the Good Shepherd. The cloth is torn, and no sheep survives, though a red shape at the right edge hints at the lost part of the composition.",
+  "scripture": "John 10:11–16",
+  "facts": [
+   "The V&A's brief record describes the piece as Egyptian, of the 600s, painted in red, blue and black.",
+   "The Good Shepherd, a young man carrying or guarding his flock, is one of the oldest ways in which Christians pictured Christ, drawing on his words in John 10 (general context)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O316627/"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ],
+  "notes": "The museum record is minimal (no description beyond 'Christ as Good Shepherd'). The haloed figure with a staff is consistent with the identification, but no sheep or inscription is visible, so the identification rests on the museum title."
+ },
+ {
+  "key": "vam:O126684",
+  "status": "corrected",
+  "set": {
+   "t": "Gold Marriage Ring with Christ Joining the Hands of a Couple (oval bezel)",
+   "c": "Constantinople (Byzantine Empire)"
+  },
+  "summary": "On the raised oval bezel of this small gold ring, a bride and groom stand full-length on either side of Christ, who stands between them and joins their right hands. The tiny engraving turns the old Roman marriage gesture of joined hands into a Christian image: the couple are united by Christ himself. Rings of this kind were made for Byzantine weddings and worn as a lasting reminder of the vow.",
+  "scripture": "Matthew 19:6 (theme)",
+  "facts": [
+   "The V&A explains that Christ here performs the marriage rite by symbolically joining the couple's hands (the dextrarum iunctio); some rings of this type carry Greek inscriptions such as 'vow' or 'harmony'.",
+   "The ring came from the celebrated ring collection of Ernest Guilhou, sold at Sotheby's in London in November 1937 (lot 469)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O126684/"
+   },
+   {
+    "label": "Wikipedia: Wedding ring",
+    "url": "https://en.wikipedia.org/wiki/Wedding_ring"
+   }
+  ],
+  "notes": "V&A: Byzantine, 7th century; place of production given as Istanbul (Constantinople)."
+ },
+ {
+  "key": "vam:O122109",
+  "status": "corrected",
+  "set": {
+   "t": "Gold Marriage Ring with Christ Joining the Hands of a Couple (square bezel)",
+   "c": "Byzantine Empire"
+  },
+  "summary": "The square bezel of this gold ring is engraved with three small figures: Christ in the centre, his head rising above the others, joining the hands of a husband and wife who stand at either side. Though the engraving is worn and simple, its meaning is clear — the marriage is sealed in Christ's presence and by his blessing.",
+  "scripture": "Matthew 19:6 (theme)",
+  "facts": [
+   "According to the V&A, the ring belongs to a group of several dozen similar Byzantine gold rings combining Christian imagery with the figures of a couple, sometimes inscribed with their names.",
+   "It was formerly in the collection of Ernest Guilhou (1844–1912), who assembled 1,636 rings; after the 1937 sale it was given to the museum by the jeweller Mosheh Oved of the Cameo Corner shop in Bloomsbury."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O122109/"
+   }
+  ],
+  "notes": "The V&A record gives the place as 'Europe' but describes the ring as Byzantine, made in the Eastern Roman Empire; 7th century."
+ },
+ {
+  "key": "vam:O363613",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Embroidered Roundel Fragment with the Last Supper",
+   "d": "6th–8th century",
+   "y": 650,
+   "m": "Linen embroidered with coloured silks"
+  },
+  "summary": "This fragment of an embroidered roundel shows a row of haloed men, one of them white-haired, ranged behind a curved table edged with a row of round shapes. Below, a servant in a short tunic carries a jug on his shoulder, and a border of heart-shaped flowers and rosettes on a green ground encloses the scene. The V&A identifies the subject as the Last Supper; the semicircular table follows the way Christ's meal with his disciples was pictured in early Christian art, though the figure of Christ himself cannot be picked out on what survives.",
+  "facts": [
+   "The roundel was originally stitched to a linen tunic, and a fragment of the plain undyed tunic remains attached to it.",
+   "It was purchased in 1903, together with V&A objects 813 to 820-1903, from L. Paul Philip in Cairo, for £80."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O363613/"
+   }
+  ],
+  "notes": "Identification as the Last Supper follows the V&A. Christ is not clearly identifiable on the fragment (the end of the table, where he is usually placed, is partly lost), and the servant carrying a jug could also suit another meal scene such as the Wedding at Cana. Scripture omitted for this reason."
+ },
+ {
+  "key": "vam:O167864",
+  "status": "corrected",
+  "set": {
+   "t": "Seal with the Adoration of the Magi",
+   "c": "Byzantine Empire (provincial)",
+   "m": "Engraved chalcedony"
+  },
+  "summary": "Engraved into a milky oval of chalcedony, three Magi approach in a row from the left, while at the right the Virgin sits enthroned with a halo, holding the Christ Child, who leans forward towards them; a star shines above. The figures are cut with simple, deep strokes, giving the tiny scene a solemn rhythm. Used as a seal, it would have impressed the image of the Epiphany into wax.",
+  "scripture": "Matthew 2:1–11",
+  "facts": [
+   "The V&A describes the seal as provincial Byzantine and of uncertain date; it was given to the museum by W. Chapman in 1877.",
+   "The museum cites comparable gems published by W. F. Volbach (1923) for its dating."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O167864/"
+   },
+   {
+    "label": "Wikipedia: Adoration of the Magi",
+    "url": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi"
+   }
+  ],
+  "notes": "Date given as 7th century in the V&A date field but described in the record as 'of an uncertain date'."
+ },
+ {
+  "key": "vam:O137851",
+  "status": "corrected",
+  "set": {
+   "t": "The Ascension",
+   "d": "c. 850–870 (Ascension side); the plaque was first carved c. 800",
+   "y": 860,
+   "c": "Reims region (Ascension side)",
+   "s": "Carolingian"
+  },
+  "summary": "Christ rises in an oval mandorla at the top of this ivory plaque, flanked by two angels, while below the apostles crowd together, gazing and gesturing upward at the departing Lord. The carving is lively and deeply undercut within a narrow ornamental border. It is the second life of the ivory: the other face carries an older carving of birds and goats caught in interlace.",
+  "scripture": "Acts 1:9–11",
+  "facts": [
+   "According to the V&A the plaque was worked three times: first, probably about 800, with interlace, birds and animals (possibly for an Apocalypse manuscript cover); then, around 850–870 near Reims, cut down and re-carved with the Ascension as the inner face of a door; and later reused again on a book cover.",
+   "It forms a pair with the V&A's Last Judgement plaque (253-1867), whose reverse was re-carved with the Transfiguration at the same time.",
+   "The re-carving left the background dangerously thin, and it is pierced in several places."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O137851/"
+   },
+   {
+    "label": "Wikipedia: Carolingian art",
+    "url": "https://en.wikipedia.org/wiki/Carolingian_art"
+   }
+  ],
+  "notes": "V&A: interlace side South Germany or North Italy under Insular influence, probably ca. 800; Ascension side re-carved at Reims, ca. 850–870. Bibliography: Williamson, Medieval Ivory Carvings (2010), cat. nos. 37 and 46."
+ },
+ {
+  "key": "vam:O314271",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Carolingian ivory in the Bayerisches Nationalmuseum, Munich, catalogued by the V&A as an 'Ascension'. The photograph shows the cast in storage, and the composition visible (a tall panel with roundels and standing figures) is not clearly an Ascension.",
+  "set": {}
+ },
+ {
+  "key": "vam:O92708",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: this panel of the Werden Casket shows scenes before his birth — the Annunciation at the spring, Joseph's dream, the Visitation, and the Virgin led to the Temple for the trial by bitter water (V&A description).",
+  "set": {}
+ },
+ {
+  "key": "vam:O92728",
+  "status": "corrected",
+  "set": {
+   "t": "The Nativity and the Adoration of the Magi (panel from the Werden Casket)",
+   "d": "c. 800 (dating disputed)",
+   "c": "Lower Rhine (probably Werden)"
+  },
+  "summary": "This long, narrow ivory strip tells the story of Christ's birth as one continuous frieze: the Magi in Phrygian caps see the star and set out, the Christ Child lies in a manger in an open shed with the ox and the ass while Mary sits beside him, and further on the Magi hurry forward with their gifts to the Child held on his mother's lap. Rather than dividing the episodes, the carver lets them flow into one another, as on late-antique caskets.",
+  "scripture": "Luke 2:6–7; Matthew 2:1–11",
+  "facts": [
+   "The panel is one of three in the V&A from a casket that was formerly in the Abbey of Werden in Westphalia; they were purchased from the Webb collection in 1866.",
+   "Scholars remain divided over whether the panels are Early Christian or Carolingian copies of Early Christian (perhaps 5th-century) models; the V&A favours a date of about 800.",
+   "The V&A links the group stylistically to a book cover in the treasury of Milan Cathedral and to related panels in Berlin, Toulouse and Nevers."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O92728/"
+   },
+   {
+    "label": "Wikipedia: Werden Abbey",
+    "url": "https://en.wikipedia.org/wiki/Werden_Abbey"
+   }
+  ],
+  "notes": "The V&A qualifies place and date with 'probably' (probably Lower Rhine, probably Werden, probably ca. 800)."
+ },
+ {
+  "key": "vam:O93748",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the same Easby Cross fragment (V&A A.11-1931) is already in the collection as the hand-checked curated entry.",
+  "dup_of": "cur:objects-easby-cross",
+  "set": {}
+ },
+ {
+  "key": "vam:O113554",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the same five plaques of the Lorsch Gospels front cover (V&A 138:1 to 6-1866) are already in the collection as the hand-checked curated entry.",
+  "dup_of": "cur:objects-lorsch-gospels-front-cover-vam",
+  "set": {}
+ },
+ {
+  "key": "vam:O94187",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the Andrews Diptych (V&A A.47&A-1926) is already in the collection as the hand-checked curated entry.",
+  "dup_of": "cur:objects-andrews-diptych",
+  "set": {}
+ },
+ {
+  "key": "vam:O90891",
+  "status": "corrected",
+  "set": {
+   "d": "c. 800 (Last Judgement); reverse re-carved c. 850–870",
+   "y": 800,
+   "c": "Probably South Germany or North Italy (reverse: Reims region)"
+  },
+  "summary": "At the top Christ sits in a mandorla among angels blowing trumpets, a scroll unfurled from each hand, with the archangel Michael standing on a crescent beneath him. The dead rise from their sarcophagi while their souls, in the form of doves, circle above; at the lower left an angel welcomes the clothed blessed through the gate of Heaven, and at the right the naked damned are driven into the mouth of Hell. Though the surface is now much rubbed, the carving conveys the drama of the final judgement with remarkable energy.",
+  "scripture": "Matthew 25:31–46",
+  "facts": [
+   "The scroll in Christ's right hand reads VENITE BENEDICTI PATRIS MEI PERCIPITE REGNUM ('Come, ye blessed of my Father, inherit the kingdom', Matthew 25:34); the words to the damned on the other scroll were cut away, probably when the plaque was reused.",
+   "Unusually, Christ's left foot rests on the head of the archangel Michael. The gateway of Heaven was once inlaid with glass beads, of which a single turquoise one survives.",
+   "Around 850–870, probably near Reims, the plaque was cut down and carved on the back with the Transfiguration; it forms a pair with the V&A's Ascension plaque (254-1867)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O90891/"
+   },
+   {
+    "label": "Wikipedia: Last Judgment",
+    "url": "https://en.wikipedia.org/wiki/Last_Judgment"
+   }
+  ],
+  "notes": "The V&A relates the plaques to the ivories on the cover of the Noailles Gospels (Bibliothèque nationale de France)."
+ },
+ {
+  "key": "vam:O115274",
+  "status": "corrected",
+  "set": {
+   "t": "The Beresford Hope Cross (pectoral reliquary cross)",
+   "m": "Cloisonné enamel on gold, mounted in gilded silver",
+   "k": "enamel",
+   "img": "https://framemark.vam.ac.uk/collections/2008BU3894/full/!600,600/0/default.jpg",
+   "big": "https://framemark.vam.ac.uk/collections/2008BU3894/full/!1600,1600/0/default.jpg"
+  },
+  "summary": "This small hinged pendant cross once held a relic, probably a fragment of the True Cross, and was worn on the breast. Its front shows the crucified Christ in cloisonné enamel between busts of the Virgin and St John, with the sun and moon above and Adam's skull below; the side shown in the main photograph is the back, where the Virgin stands in prayer with raised hands, surrounded by busts of St John the Baptist, St Peter, St Andrew and St Paul on a translucent green ground.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "A contracted Greek inscription on the front gives Christ's words from the cross to his mother and the beloved disciple: 'Behold thy son! Behold thy mother!' (John 19:26–27). A large circular hole has since obliterated Christ's torso.",
+   "The cross is first recorded in the Debruge-Duménil collection in 1847; it then belonged to A. J. B. Beresford Hope, at whose sale at Christie's in May 1886 it was bought by the museum.",
+   "David Buckton used the translucent green background enamel to date it to the first phase of Byzantine cloisonné, between the end of Iconoclasm in 843 and about the mid-10th century; the V&A catalogues it as probably made in Italy, 800–900."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O115274/"
+   },
+   {
+    "label": "Wikipedia: Beresford Hope Cross",
+    "url": "https://en.wikipedia.org/wiki/Beresford_Hope_Cross"
+   }
+  ],
+  "notes": "The worklist thumbnail (2008BU3893) shows the BACK of the cross (the Virgin orans with saints); Christ appears on the front. The V&A has a front view (image 2008BU3894: https://framemark.vam.ac.uk/collections/2008BU3894/full/!600,600/0/default.jpg), which would be a better image. Place of production debated (Italy vs Constantinople); the V&A says 'probably Italy'."
+ },
+ {
+  "key": "vam:O314244",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Carolingian ivory book-cover plaque of the Crucifixion from Metz, 9th century, in the Bibliothèque nationale de France, Paris (Westwood no. 249). The image shows the cast with its museum label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O14726",
+  "status": "corrected",
+  "set": {
+   "t": "Lamentation over the Dead Christ (tabernacle door)",
+   "a": "Ferrarese workshop (circle of Niccolò Baroncelli)",
+   "d": "3rd quarter of the 15th century",
+   "y": 1462,
+   "c": "Ferrara",
+   "s": "Italian Renaissance (Ferrarese)",
+   "k": "relief"
+  },
+  "summary": "The veiled Virgin sits at the centre of this bronze relief, gazing down at the dead body of her Son stretched across her knees; her right hand supports his shoulder and her left rests on his waist. Christ's head falls back, his long hair hanging loose, while two small winged angels stand on clouds at either side with their hands joined in prayer. The tender, sorrowful image once formed the door of a tabernacle, guarding the reserved Sacrament behind the figure of Christ's sacrificed body.",
+  "scripture": "John 19:38–40 (context)",
+  "facts": [
+   "The relief was formerly attributed to the Paduan sculptor Giovanni Minelli, but is now thought to have been made at Ferrara; its style and figure types relate closely to works in the circle of Niccolò Baroncelli (d. 1453).",
+   "It is cast in bronze in low relief, with traces of gilding, and measures about 56 by 49 cm (V&A)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O14726/"
+   },
+   {
+    "label": "Wikipedia: Lamentation of Christ",
+    "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ"
+   }
+  ],
+  "notes": "Worklist year (850) was an error: this is a 15th-century Italian work (V&A: Ferrara, third quarter of the 15th century), so it moves out of the 1st–10th-century batch. Acquired in London (inv. 5469-1859)."
+ },
+ {
+  "key": "vam:O1028904",
+  "status": "corrected",
+  "set": {
+   "t": "Leaf from an Antiphonary with the Resurrection",
+   "d": "3rd quarter of the 15th century",
+   "y": 1462,
+   "c": "Germany (probably Cologne)"
+  },
+  "summary": "Inside a large blue initial A, the risen Christ, with a golden halo and a pale mantle, stands above the closed tomb against a blue sky, his right hand raised in blessing and his left holding a cross-staff with the banner of the Resurrection. Around the initial, staves of square music notation and Gothic script carry the chant, framed by a border of coiling stems, flowers and gold sprays. The leaf comes from a choir book and opens the chant for the Easter vigil, so the image greeted the singers at the first Alleluia of Easter.",
+  "scripture": "Matthew 28:1–7; Mark 16:6",
+  "facts": [
+   "The red rubric explains that the antiphon was sung in choir on the vigil of Easter after the priest's communion at Mass, followed by the music for 'Alleluia, alleluia, alleluia'.",
+   "An inscription on the leaf records its purchase from Selb in Cologne in 1857; it was transferred from the Art Museum in December 1863."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O1028904/"
+   },
+   {
+    "label": "Wikipedia: Antiphonary",
+    "url": "https://en.wikipedia.org/wiki/Antiphonary"
+   }
+  ],
+  "notes": "Worklist year (850) was an error: the V&A dates the leaf to the third quarter of the 15th century (Germany, probably Cologne). The V&A record (museum no. 3077) gives no medium; the usual technique would be ink, tempera and gold on parchment, but this has not been recorded here."
+ },
+ {
+  "key": "vam:O93131",
+  "status": "verified",
+  "set": {},
+  "summary": "Eight scenes, each set in an intricate architectural frame and divided by thick bands of foliage with large rosettes at the crossings, fill this extraordinary ivory: Joseph's dream and the Flight into Egypt, the Massacre of the Innocents and Rachel weeping for her children, the boy Jesus brought to the Temple and Jesus among the doctors, and two scenes of the wedding at Cana, including the wine being brought to the master of the feast. The depth and delicacy of the undercutting are astonishing; the V&A calls the carving a tour de force unmatched by any other surviving medieval ivory.",
+  "scripture": "Matthew 2:13–18; Luke 2:41–52; John 2:1–10",
+  "facts": [
+   "The V&A notes that the plaque is a reused late-antique diptych leaf, and that its rich borders relate more closely to illuminated manuscripts than to contemporary sculpture.",
+   "The choice of scenes forms no logical programme on its own, suggesting the plaque came from a larger cycle, perhaps an altar frontal; its deep, undamaged carving argues against use as a book cover.",
+   "It was bought from the Webb collection in 1871 for £150."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O93131/"
+   },
+   {
+    "label": "Wikipedia: Wedding at Cana",
+    "url": "https://en.wikipedia.org/wiki/Wedding_at_Cana"
+   }
+  ],
+  "notes": "The V&A record is internally inconsistent: the date field says ca. 850 but the brief description says ca. 950, and the text discusses links with Metz and a possible Cologne origin. Date and place should be treated as uncertain."
+ },
+ {
+  "key": "vam:O314270",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted, and the object is a reproduction: a 19th/20th-century plaster cast ('fictile ivory') of the Carolingian (Ada group) ivory of the Virgin enthroned in the Metropolitan Museum of Art, New York, which shows the Virgin alone holding a staff and spindle.",
+  "set": {}
+ },
+ {
+  "key": "vam:O88285",
+  "status": "corrected",
+  "set": {
+   "t": "The Crucifixion (book-cover plaque, probably from the Gandersheim Gospels)",
+   "k": "ivory"
+  },
+  "summary": "Carved in high relief, Christ hangs on the cross beneath a titulus naming him Jesus of Nazareth, King, with the Sun and Moon above and an angel bowing towards him. At the left the Virgin stands with Ecclesia, who holds up a cup to catch his blood; at the right St John and the haloed Synagoga turn away with her banner. Below, Longinus and Stephaton flank the cross, the dead look out from their tombs, and Earth with her serpent and Sea on a sea-horse watch from the lowest corners. The plaque, now split, gathers heaven, earth and sea, Church and Synagogue around the cross in one great theological image.",
+  "scripture": "John 19:17–37",
+  "facts": [
+   "The titulus reads IHS NAZA / RENVS RE(X).",
+   "The V&A suggests that the plaque comes from a cover of the Gandersheim Gospels, written at Metz under Bishop Adventius (858–875); the other cover, with the Resurrection, remains with the manuscript at the Veste Coburg.",
+   "Its iconography is close to the V&A's Crucifixion ivory 250-1867, part of a group of Metz ivories of the third quarter of the 9th century."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88285/"
+   },
+   {
+    "label": "Wikipedia: Ecclesia and Synagoga",
+    "url": "https://en.wikipedia.org/wiki/Ecclesia_and_Synagoga"
+   }
+  ],
+  "notes": "Metz, ca. 860 (V&A). The link with the Gandersheim Gospels is given as 'probably'. Formerly in the Webb collection."
+ },
+ {
+  "key": "vam:O72543",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ hangs on the cross at the centre of this Metz ivory, with angels on either side waiting to receive his soul and busts of the Sun and Moon above. To his right stand the Virgin and Ecclesia, the Church, holding a chalice to catch his blood; to his left St John and Synagoga with her banner. Longinus and Stephaton stand below, the dead emerge from round mausolea, and large figures of Earth and Water recline at the base — a whole theology of redemption gathered around the cross.",
+  "scripture": "John 19:17–37",
+  "facts": [
+   "The V&A explains the symbolism: the serpent at the foot of the cross is sin overcome by Christ, Ecclesia's chalice refers to the Eucharist, and the rising dead show the conquest of death.",
+   "The surface is dotted with holes that once held gold studs, a few of which survive.",
+   "The relief was once believed to come from a Gospel-book cover in Verdun Cathedral, but the V&A now rejects this, suggesting that the Verdun cover held a virtually identical plaque."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O72543/"
+   },
+   {
+    "label": "Wikipedia: Ecclesia and Synagoga",
+    "url": "https://en.wikipedia.org/wiki/Ecclesia_and_Synagoga"
+   }
+  ],
+  "notes": "Carolingian, France (Metz), ca. 860–870 (V&A)."
+ },
+ {
+  "key": "vam:O88286",
+  "status": "corrected",
+  "set": {
+   "c": "Metz (Lorraine)",
+   "k": "ivory"
+  },
+  "summary": "Two miracles of healing are carved one above the other. In the upper scene Christ, followed by four disciples, reaches out to a leper whose limbs are covered with sores; in the lower, accompanied by two apostles, he touches the eyes of a blind man who is led forward by three helpers. The compact, rounded figures and the frame of foliage are typical of ivory carving at Metz in the later 9th century.",
+  "scripture": "Mark 1:40–45; Mark 8:22–26",
+  "facts": [
+   "This plaque and the Transfiguration plaque in the V&A (256-1867) appear to have been made together, probably for a book cover.",
+   "Melzak connected both plaques with the later Metz ivories on the border of the 'Cathedra Petri', the throne in St Peter's, Rome, and dated them to 870–880 (V&A).",
+   "The background is extremely thin and cracked; pin-holes in the corners were for fixing the plaque to a backing."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88286/"
+   },
+   {
+    "label": "Wikipedia: Chair of Saint Peter",
+    "url": "https://en.wikipedia.org/wiki/Chair_of_Saint_Peter"
+   }
+  ],
+  "notes": "V&A: Carolingian, France, Lorraine (Metz), ca. 870–880. Purchased from Webb."
+ },
+ {
+  "key": "vam:O88287",
+  "status": "corrected",
+  "set": {
+   "c": "Metz (Lorraine)",
+   "k": "ivory"
+  },
+  "summary": "Above, Christ stands in a tall oval mandorla between Moses and Elijah on the mountain; below, Peter, James and John fall to the ground, one shielding himself and another pointing up in awe at the vision. The plaque, framed with foliage, captures the moment when the disciples glimpsed the divine glory of their Master.",
+  "scripture": "Matthew 17:1–8",
+  "facts": [
+   "The plaque is a companion to the V&A's Healing of the Blind Man and the Leper (255-1867); both were probably made for a book cover in Metz about 870–880.",
+   "Both plaques were purchased from the Webb collection for £25 each (V&A)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88287/"
+   },
+   {
+    "label": "Wikipedia: Transfiguration of Jesus",
+    "url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus"
+   }
+  ],
+  "notes": "The ivory is split vertically and a small piece of the top border is missing."
+ },
+ {
+  "key": "vam:O87639",
+  "status": "verified",
+  "set": {},
+  "summary": "In the upper scene the three Magi, in Phrygian caps and carrying bowls of gifts, approach the Virgin, who sits with the Christ Child on her lap while Joseph stands behind; the guiding star appears in the border above. Below, in the Presentation in the Temple, Mary holds out the Child over an altar to the aged Simeon, who receives him with veiled hands, while Joseph carries two doves. Both scenes unfold before townscapes of tiled roofs, carved in deep relief with a real sense of movement.",
+  "scripture": "Matthew 2:1–11; Luke 2:22–38",
+  "facts": [
+   "The V&A notes that the buildings are closely modelled on the architecture of the Utrecht Psalter (about 820).",
+   "Plaques like this seem to have served as models for 10th-century manuscript painting in Anglo-Saxon England, as has been shown for the Benedictional of St Æthelwold (V&A).",
+   "Holes in the corners were probably for attachment to a book cover."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O87639/"
+   },
+   {
+    "label": "Wikipedia: Utrecht Psalter",
+    "url": "https://en.wikipedia.org/wiki/Utrecht_Psalter"
+   }
+  ],
+  "notes": "V&A: North-East France (probably Lorraine/Metz), late 9th century."
+ },
+ {
+  "key": "vam:O140272",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Blessing (Pantocrator)",
+   "c": "Byzantine Empire (said to come from Syria)",
+   "m": "Ivory, stained green, background restored in tinted plaster"
+  },
+  "summary": "Christ appears in half-length, his right hand raised in blessing and his left holding a scroll, his richly folded robes falling around him and a jewelled cross behind his head. The ivory has been stained green, perhaps to imitate steatite, and the lost background has been made up in tinted plaster. The bearded face, with its strong, individual character, gives this small relief unusual life.",
+  "scripture": "John 8:12 (theme)",
+  "facts": [
+   "The V&A compares the free, characterful head, with the cross set behind it, to the heads of Christ on the coins of Emperor Justinian II (685–695).",
+   "Said to have come from Syria, it was probably part of the same Deësis triptych as the green-stained fragment of the Virgin, A.1-1912 (V&A).",
+   "Ivory reliefs stained in this way are rare; the green colour may have been meant to suggest steatite, or may result from burial."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O140272/"
+   },
+   {
+    "label": "Wikipedia: Christ Pantocrator",
+    "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator"
+   }
+  ],
+  "notes": "The V&A's production field reads 'Byzantine Empire, probably late 9th century'; the brief description's 'probably late 19th century' appears to be a typing error. Bibliography: Williamson, Medieval Ivory Carvings (2010), cat. 11."
+ },
+ {
+  "key": "vam:O88288",
+  "status": "corrected",
+  "set": {
+   "t": "Christ in the House of Simon and the Entry into Jerusalem",
+   "c": "Metz"
+  },
+  "summary": "In the upper scene Christ rides into Jerusalem on an ass, followed by two disciples, while the people of the city, waving palm branches, spread their garments on the ground before him. Below, he sits at table with his apostles in the house of Simon as a woman kneels to anoint his feet, the meal laid out on a draped table between them. The deeply carved, animated figures are characteristic of the later Metz ivories.",
+  "scripture": "Matthew 21:1–11; Luke 7:36–50",
+  "facts": [
+   "The back of the plaque carries an earlier carving, probably made in the Alto Adige/South Tyrol in the late 8th or early 9th century, with the Baptism and Ascension of Christ; it was cut down at the top, losing the figure of Christ in the Ascension, when the Metz scenes were carved.",
+   "The V&A relates the earlier side stylistically to a diptych in the Musée de Cluny in Paris and to a plaque of Christ in Majesty in the Bayerisches Nationalmuseum, Munich.",
+   "It was formerly in the Soltikoff collection (sale 1861) and was bought from the Webb collection."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88288/"
+   }
+  ],
+  "notes": "The V&A identifies the woman as Mary Magdalene. Obverse: Metz, ca. 870–880; reverse: probably Alto Adige, late 8th–early 9th century."
+ },
+ {
+  "key": "vam:O183599",
+  "status": "rejected",
+  "reject_reason": "Christ is not visible: this fragment shows only the head and upper body of the Virgin; the V&A notes merely 'traces of a foot and the right hand of the Child', which cannot be made out in the image.",
+  "set": {}
+ },
+ {
+  "key": "vam:O93842",
+  "status": "corrected",
+  "set": {
+   "t": "Cameo Pendant with Christ Blessing",
+   "m": "Jasper, in a later gold mount",
+   "c": "Constantinople",
+   "d": "886–912 (reign of Leo VI)",
+   "k": "other"
+  },
+  "summary": "Carved in relief from dark green jasper, Christ stands full-length on a footstool within an arched field, bearded and with a cross-nimbus, raising his right hand in blessing and holding a jewelled Gospel book in his left. The stone is set in a gold mount with a suspension loop and a fleur-de-lis finial, so that it could be worn as a pendant. Small and precious, it is a personal devotional image from the court culture of Constantinople.",
+  "scripture": "John 8:12 (theme)",
+  "facts": [
+   "An inscription on the reverse refers to the Emperor Leo VI (reigned 886–912), which gives the cameo its date (V&A).",
+   "The V&A notes that Byzantine cameos of Christ, the Virgin and popular saints were made in good numbers in semi-precious stones; being easily portable, several were later set into western book covers and reliquaries."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O93842/"
+   },
+   {
+    "label": "Wikipedia: Leo VI the Wise",
+    "url": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise"
+   },
+   {
+    "label": "Wikipedia: Cameo (carving)",
+    "url": "https://en.wikipedia.org/wiki/Cameo_(carving)"
+   }
+  ],
+  "notes": "The worklist thumbnail (2006BG0359) is a group photograph of four V&A cameos; this object is the standing Christ in the arched gold mount at lower left. The same group image is used for vam:O96313 (lower right) and vam:O125665 (upper right). No single-object photograph of this cameo was found among the V&A images (the others are archive album pages). The mount is presumably later; the V&A does not date it."
+ },
+ {
+  "key": "vam:O314295",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Carolingian ivory of Christ in Glory, 9th–10th century, possibly in Berlin (Westwood no. 326). The image is a page from a 19th-century photograph album showing six different casts.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314262",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Carolingian ivory book-cover panel of about 900 with the Nativity, the Baptism and other scenes in the British Museum (Westwood no. 270). The image shows the cast with its museum label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O117945",
+  "status": "corrected",
+  "set": {
+   "a": "Andrea Mantegna (attributed; possibly his school)",
+   "d": "c. 1475–1500",
+   "y": 1488,
+   "c": "Italy",
+   "s": "Italian Renaissance",
+   "m": "Engraving on paper"
+  },
+  "summary": "Before a cave cut into a towering rock, Christ's disciples lower his body, wrapped in a shroud, into a stone sarcophagus, while in front the Virgin sinks down among the grieving holy women and other mourners stand apart at the right. On the hill at the right rise the three crosses of Calvary, and three birds fly across the wide sky that gives the print its name. The engraving's sharp parallel hatching and monumental, sculptural figures belong to the circle of Andrea Mantegna, the great Paduan master.",
+  "scripture": "John 19:38–42; Mark 15:46–47",
+  "facts": [
+   "The V&A record notes that Bartsch called this composition a copy by Giovanni Antonio da Brescia, but the cataloguer judged this impression the finer work and by Mantegna; the museum's brief description now says 'School of Andrea Mantegna', about 1500.",
+   "A painted Italian maiolica panel dated 1523, from the Salting Bequest (V&A C.2119-1910), is based on the composition of this print.",
+   "The V&A owns another impression from the Ionides Bequest (CAI.604); this one was bequeathed by the Rev. Alexander Dyce."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O117945/"
+   },
+   {
+    "label": "Wikipedia: Andrea Mantegna",
+    "url": "https://en.wikipedia.org/wiki/Andrea_Mantegna"
+   }
+  ],
+  "notes": "Worklist year (900) was an error: this is a late 15th-century engraving. Attribution between Mantegna and his school (or Giovanni Antonio da Brescia) is disputed. The other V&A impression (CAI.604) is in the collection separately as vam:O723054 — a different sheet, not a duplicate."
+ },
+ {
+  "key": "vam:O40751",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a plaster cast made by Pietro Pierotti about 1866 after Antonio Mantegazza's marble Lamentation in the Certosa di Pavia (late 15th century). It is also wrongly placed in the 1st–10th centuries.",
+  "set": {}
+ },
+ {
+  "key": "vam:O96313",
+  "status": "corrected",
+  "set": {
+   "t": "Pendant with the Crucifixion, the Virgin and St John",
+   "m": "Jasper (green with red flecks), with a later gold loop",
+   "k": "other"
+  },
+  "summary": "Carved in high relief from a slab of green, red-flecked jasper, Christ hangs on the cross in a long loincloth, his feet nailed separately to a footrest, with the Sun and Moon above the arms of the cross. The Virgin stands at his right, raising her mantle-covered hand towards him, and St John stands at his left holding a scroll. Worn at the breast, this luxurious little image would have been the focus of its owner's prayers.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The inscription IC XC (Jesus Christ) is carved on the plaque above Christ's head, and a further inscription is translated by the V&A as 'is crucified'.",
+   "The suspension loop is not original, but the V&A believes it reflects the pendant's original use as an enkolpion, a sacred image worn on the breast.",
+   "It was bought from the Venetian dealer Adolph Loewi, who had acquired it from a private family in Rome; it may be one of many portable Byzantine objects that reached Italy before the 15th century."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O96313/"
+   },
+   {
+    "label": "Wikipedia: Engolpion",
+    "url": "https://en.wikipedia.org/wiki/Engolpion"
+   }
+  ],
+  "notes": "Byzantine (Constantinople), ca. 900 (V&A). Purchased under the Bequest of Francis Reubell Bryan (A.77-1937)."
+ },
+ {
+  "key": "vam:O111551",
+  "status": "corrected",
+  "set": {
+   "t": "Reliquary Cross with an Ivory Figure of Christ",
+   "d": "late 10th century",
+   "y": 975,
+   "c": "England (probably Winchester)",
+   "s": "Anglo-Saxon (Winchester style)",
+   "m": "Walrus ivory figure, gold filigree and cloisonné enamel on a cedar-wood core"
+  },
+  "summary": "On a cross covered with gold sheets and filigree, a figure of Christ carved from walrus ivory hangs with arms outstretched, crowned and haloed, his head inclined towards his right shoulder and his long hair falling in plaits, wearing an elaborately pleated loincloth. Enamel medallions with the symbols of the four Evangelists mark the arms, and an enamelled titulus above names him IHS NAZARENUS. Behind the figure lay a hollow for relics: the cross is one of the rare survivals of the splendid church treasures of Anglo-Saxon England.",
+  "scripture": "John 19:18–19",
+  "facts": [
+   "When the ivory figure was removed in 1926 to be photographed and cast, a dried human finger was found in a hollow cut into the wood beneath it.",
+   "A fragmentary inscription around the edge of the cross seems to list the relics it once contained; the back shows the Lamb of God and the Evangelist symbols in repoussé gold.",
+   "The enamels are unique in Anglo-Saxon art and may have been made by an English goldsmith familiar with German work; the ivory figure resembles late 10th-century manuscripts such as the Ramsey Psalter (V&A)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O111551/"
+   },
+   {
+    "label": "Wikipedia: Anglo-Saxon art",
+    "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_art"
+   }
+  ],
+  "notes": "The V&A describes it as Anglo-Saxon (probably Winchester), late 10th century, set on an Ottonian cross. The V&A's two texts disagree on whether the finger relic was male or female, so this is not stated. Ex Soltikoff (sale 1861) and Webb collections."
+ },
+ {
+  "key": "vam:O314261",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after the Ottonian ivory of Christ in Majesty with the Evangelists in the Hessisches Landesmuseum, Darmstadt (Westwood no. 281). The image shows the cast in storage. The original ivory is already in the collection.",
+  "dup_of": "Q134290371",
+  "set": {}
+ },
+ {
+  "key": "vam:O314214",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th-century ivory book-cover panel in the Staatsbibliothek, Berlin, labelled 'Christ in the Temple' (Westwood no. 311). The image shows the cast with its label; the seated figure at a lectern is not clearly identifiable as Christ.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314224",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th-century ivory book-cover panel of the Crucifixion in the British Museum (Westwood no. 254). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O125665",
+  "status": "corrected",
+  "set": {
+   "t": "Cameo of Christ Pantocrator",
+   "c": "Constantinople",
+   "m": "Bloodstone cameo in a later gold frame with a silver hasp",
+   "k": "other"
+  },
+  "summary": "Within a small oval of dark green bloodstone, flecked with red, Christ appears in bust as the Pantocrator, the Ruler of All: frontal and austere, blessing with his right hand and holding a book in his left, with a cross-nimbus around his head and the letters IC XC at either side. The stone is now set in a later gold frame hung from a silver hook. Cameos like this were carried as amulets, appeals to Christ for help and protection.",
+  "scripture": "John 1:1–3 (theme)",
+  "facts": [
+   "The V&A suggests that bloodstone may have been chosen deliberately: its natural red veins could recall Christ's sacrifice, making the stone part of the image's message.",
+   "Such hardstones could only be worked with rotating tools and abrasive grit; semi-precious materials were thought to reinforce the power of the images they carried, an attitude recorded by Michael Psellos (V&A).",
+   "Purchased in 1978 with the help of the Associates of the V&A; it was published by Paul Williamson in the Burlington Magazine in 1980."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O125665/"
+   },
+   {
+    "label": "Wikipedia: Christ Pantocrator",
+    "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator"
+   }
+  ],
+  "notes": "Byzantine (Constantinople), ca. 10th century (V&A). Purchased from Rosewood Investments Ltd with the assistance of Michael van Rijn."
+ },
+ {
+  "key": "vam:O88811",
+  "status": "corrected",
+  "set": {
+   "t": "Christ in Majesty with the Symbols of the Evangelists",
+   "c": "Rhine or Meuse valley",
+   "d": "probably 10th century"
+  },
+  "summary": "A youthful, beardless Christ sits in glory within an aureole of two overlapping circles bordered with acanthus, raising his right hand in blessing and holding a book in his left, his head ringed by a cross-nimbus. Above him are the angel of St Matthew and the eagle of St John; below, the lion of St Mark and the ox of St Luke, each with a book. The tall, narrow plaque, framed in acanthus, probably once adorned a book cover.",
+  "scripture": "Revelation 4:2–8",
+  "facts": [
+   "The V&A traces the composition — Christ in Majesty surrounded by the four Evangelist symbols — to prototypes such as the mid-9th-century Majestas pages made at Tours, found in the Vivian Bible and related manuscripts.",
+   "The heavy, thick-set figure of Christ and the distinctive egg-and-acanthus border can be compared with a plaque of Christ enthroned in Berlin (V&A).",
+   "Holes at the four corners were probably for fixing it to a book cover."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88811/"
+   },
+   {
+    "label": "Wikipedia: Carolingian art",
+    "url": "https://en.wikipedia.org/wiki/Carolingian_art"
+   }
+  ],
+  "notes": "V&A: Rhine or Meuse valley, probably 10th century; style recorded as Carolingian."
+ },
+ {
+  "key": "vam:O314268",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after the Rambona Diptych (Museo Sacro, Vatican Museums; Westwood no. 128). The image shows the cast with its label. The original diptych is already in the collection.",
+  "dup_of": "cur:objects-rambona-diptych",
+  "set": {}
+ },
+ {
+  "key": "vam:O314296",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a pair of ivory panels with Christ and St Peter in Darmstadt, which the V&A label describes as 'Carolingian 10c or fake' (Westwood no. 131). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314223",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Mosan 10th-century ivory diptych leaf with the Crucifixion in Tournai Cathedral (Westwood no. 324). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314267",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th-century Italian ivory of Christ in Majesty in the Museo Sacro, Vatican (Westwood no. 125). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314010",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th-century ivory panel with Christ, St Peter and St Paul in the Metropolitan Museum of Art, New York (Westwood no. 292). The image is a page from a photograph album showing this cast and an unrelated cross.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314256",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th-century ivory book-cover panel in the Musée Antoine Vivenel, Compiègne (Westwood no. 314). The image shows the cast; its museum label identifies the subject as Christ and the Canaanite woman, not Mary anointing Christ as the V&A record states.",
+  "set": {}
+ },
+ {
+  "key": "vam:O92605",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ sits frontally on a wide, cushioned throne with turned legs, his feet on a footstool, holding a jewelled book on his knee and raising his right hand in blessing from within the folds of his mantle. His calm, bearded face and the long, fine folds of his garments express the majesty of the Pantocrator, the Ruler of All. The figure once formed the centre of a small triptych, but its ivory background and frame have been cut away.",
+  "scripture": "Revelation 4:2 (theme)",
+  "facts": [
+   "The V&A assigns it to the 'Romanos group' of Byzantine ivories, named after a plaque of an emperor Romanos and his bride Eudokia, dated either 945–949 or 1068–1071 depending on which emperor is meant.",
+   "Similar Byzantine plaques of the seated Christ survive; one in the Bodleian Library, Oxford, has likewise been cut away from its background.",
+   "Traces of crimson paint in the drapery folds and around the footstool are not original (V&A)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O92605/"
+   },
+   {
+    "label": "Wikipedia: Christ Pantocrator",
+    "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator"
+   }
+  ],
+  "notes": "Byzantine (Constantinople), middle or second half of the 10th century (V&A)."
+ },
+ {
+  "key": "vam:O88110",
+  "status": "corrected",
+  "set": {
+   "t": "Casket with Scenes from the Passion",
+   "k": "ivory"
+  },
+  "summary": "This small ivory casket is carved on every side with the story of Christ's Passion and Resurrection: the Last Supper on the front, Christ before Herod and the Betrayal on the back, the Agony in the Garden and the Crucifixion on the ends, and on the lid the holy women at the tomb and the Harrowing of Hell. The front, shown here, presents the apostles gathered at a long table with Christ, framed by acanthus borders and later gilt-metal straps.",
+  "scripture": "Matthew 26:17–30; Matthew 26:36–27:56; Matthew 28:1–8",
+  "facts": [
+   "Its small size and the Last Supper placed on the front suggest, according to the V&A, that it was made as a Eucharistic vessel to hold the unconsecrated host.",
+   "The gilt-metal mounts date from about the 12th century, while the hinges and lock are modern.",
+   "It belongs to a group of ivories probably from the same workshop, including the V&A's Passion plaque 1-1872 and a panel in Essen; it was in the Farrer collection, sold at Christie's on 13 June 1866."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88110/"
+   },
+   {
+    "label": "Wikipedia: Harrowing of Hell",
+    "url": "https://en.wikipedia.org/wiki/Harrowing_of_Hell"
+   }
+  ],
+  "notes": "Probably Lower Rhine, late 10th century (V&A)."
+ },
+ {
+  "key": "vam:O130103",
+  "status": "verified",
+  "set": {},
+  "summary": "Three crowded registers trace the Passion and its triumph. At the top, Christ hangs on the cross between the Virgin and Longinus on one side and St John and Stephaton on the other, with personifications of the Sun and Moon above; in the middle, two angels sit at the entrance of the tomb as the holy women arrive and soldiers sleep; at the bottom, Christ harrows Hell, ascends, and is shown in glory. Though much worn, the plaque is packed with narrative detail.",
+  "scripture": "John 19:17–37; Matthew 28:1–8; Acts 1:9–11",
+  "facts": [
+   "The V&A links it to a workshop group that includes a panel in Essen and the V&A's Passion casket (216-1866); the holy women at the tomb and the Harrowing of Hell are almost identical on the two V&A pieces.",
+   "It was probably part of a book cover, perhaps of a Gospel book, and is pierced with three holes for attachment.",
+   "It came from the Webb collection (£75), and earlier from the Essingh collection in Cologne (sale 1865)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O130103/"
+   },
+   {
+    "label": "Wikipedia: Ottonian art",
+    "url": "https://en.wikipedia.org/wiki/Ottonian_art"
+   }
+  ],
+  "notes": "Probably Lower Rhine, ca. 980–1000 (V&A)."
+ },
+ {
+  "key": "vam:O314226",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th–11th-century ivory book-cover panel with the Crucifixion and the holy women at the tomb in the Bayerische Staatsbibliothek, Munich (Westwood no. 307). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314047",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Rhenish 10th–11th-century ivory book-cover panel of the Crucifixion in Berlin (Westwood no. 348). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O314056",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a Byzantine 10th–11th-century ivory of the Nativity in the British Museum (Westwood no. 171). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O155135",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast (V&A REPRO.1864-48) of a 10th/11th-century ivory of the Death of the Virgin in Munich.",
+  "set": {}
+ },
+ {
+  "key": "vam:O109440",
+  "status": "corrected",
+  "set": {
+   "t": "Processional Cross with the Crucified Christ",
+   "d": "10th or 11th century",
+   "y": 1000,
+   "c": "Southern Italy",
+   "m": "Gilt bronze",
+   "img": "https://framemark.vam.ac.uk/collections/2006AA7697/full/!600,600/0/default.jpg",
+   "big": "https://framemark.vam.ac.uk/collections/2006AA7697/full/!1600,1600/0/default.jpg"
+  },
+  "summary": "This gilt-bronze processional cross, with a spike at its foot for mounting on a staff, carries on its front a figure of the crucified Christ wearing a tunic, a sign of his kingship and triumph over death, his feet resting on a head that may stand for the skull of Golgotha. The arms are engraved on both faces: the Virgin Mary and St John on the front, and on the back the Lamb of God in a central roundel with the symbols of the four Evangelists. Carried in procession, it brought the image of the Saviour before the faithful.",
+  "scripture": "John 19:17–27",
+  "facts": [
+   "The V&A notes that, as was common in the early Middle Ages, Christ is shown clothed rather than in a loincloth, expressing his kingship and victory over death.",
+   "The cross is discussed in Peter Bloch's corpus of Romanesque bronze crucifixes (Romanische Bronze-Kruzifixe, 1992, no. II D 1)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O109440/"
+   },
+   {
+    "label": "Wikipedia: Processional cross",
+    "url": "https://en.wikipedia.org/wiki/Processional_cross"
+   }
+  ],
+  "notes": "The worklist thumbnail (2006AA8669) shows the BACK of the cross, on which Christ does not appear (Lamb of God and Evangelist symbols). The V&A front view (2006AA7697: https://framemark.vam.ac.uk/collections/2006AA7697/full/!600,600/0/default.jpg) shows the crucified Christ and should be used instead. V&A: South Italy, 10th or 11th century."
+ },
+ {
+  "key": "vam:O314025",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after an Anglo-Saxon 10th–11th-century ivory of Christ in Majesty in the Museum of Archaeology and Anthropology, Cambridge (Westwood no. 304). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O1240096",
+  "status": "rejected",
+  "reject_reason": "Reproduction, not an original work: a 19th-century plaster cast ('fictile ivory') in the V&A cast collection, made after a 10th–11th-century (possibly German) ivory plaque of Christ's Entry into Jerusalem (Westwood catalogue). The image shows the cast with its label.",
+  "set": {}
+ },
+ {
+  "key": "vam:O88818",
+  "status": "verified",
+  "set": {},
+  "summary": "Carved from walrus ivory, this small cross-shaped relief shows Christ with arms rigidly outstretched and legs together on a footrest, his long hair falling to one shoulder and a cross-nimbus behind his head. Below the arms stand Longinus with the lance and Stephaton with the sponge, both unusually given haloes, while two angels fly towards the cross bearing wreaths and the Hand of God reaches down above Christ's head. The austere, linear figures carry a strong sense of the stillness of the cross.",
+  "scripture": "John 19:28–37",
+  "facts": [
+   "The V&A notes that showing only Longinus and Stephaton, without the Virgin and St John, is uncommon on ivories of the period, and that giving them haloes is a unique feature.",
+   "The eyes were once inlaid with jet beads, one of which survives in the left eye of Longinus.",
+   "Nineteen small holes suggest it was fixed to a book cover or reliquary; a larger hole at the top may mean it was later worn as a pectoral cross."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O88818/"
+   },
+   {
+    "label": "Wikipedia: Longinus",
+    "url": "https://en.wikipedia.org/wiki/Longinus"
+   },
+   {
+    "label": "Wikipedia: Stephaton",
+    "url": "https://en.wikipedia.org/wiki/Stephaton"
+   }
+  ],
+  "notes": "Anglo-Saxon, late 10th or early 11th century (V&A). Purchased at Sotheby's, London, 11 July 1923."
+ },
+ {
+  "key": "vam:O92636",
+  "status": "verified",
+  "set": {},
+  "summary": "In the top register the Virgin lies on her deathbed surrounded by the apostles, St Peter swinging a censer and St Paul at the foot of the bed, while Christ stands behind the bier holding up a small figure of her soul, and angels descend to receive it. Below stand saints in two rows — Gregory of Nyssa and Basil, Peter and Paul embracing, and Cosmas and Damian, Nicholas and John Chrysostom — each identified by inscription. The plaque once formed the centre of a Byzantine triptych.",
+  "facts": [
+   "The V&A places it in the so-called 'Nikephoros group' of Byzantine ivories, named after the panel on the Cortona reliquary of the True Cross associated by inscription with the Emperor Nikephoros II Phokas.",
+   "As frequently on Byzantine ivories, the back is carved with a large cross, here with rosettes at the ends of its arms.",
+   "The figure of the Virgin's soul held by Christ is a restoration (V&A)."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O92636/"
+   },
+   {
+    "label": "Wikipedia: Dormition of the Mother of God",
+    "url": "https://en.wikipedia.org/wiki/Dormition_of_the_Mother_of_God"
+   }
+  ],
+  "notes": "Byzantine (Constantinople), late 10th or early 11th century. The Dormition is not narrated in Scripture, so no passage is given. Formerly in the Webb collection, acquired 1867."
+ },
+ {
+  "key": "vam:O89836",
+  "status": "corrected",
+  "set": {
+   "t": "The Entombment",
+   "a": "Jakob Gabriel Mollinarolo",
+   "d": "3rd quarter of the 18th century",
+   "y": 1762,
+   "c": "Vienna",
+   "s": "Austrian Baroque",
+   "k": "relief"
+  },
+  "summary": "In this long lead relief, three men carry the body of Christ towards his tomb at the centre, while at the right the grieving Virgin is comforted by three women. The bending figures move across the oblong field in a continuous rhythm, drawing the eye from the bearers to the mourning mother.",
+  "scripture": "John 19:38–42",
+  "facts": [
+   "The relief is by Jakob Gabriel Mollinarolo (1717–1780), a sculptor working in Vienna (V&A).",
+   "It was given to the V&A in 1951 by Dr W. L. Hildburgh."
+  ],
+  "links": [
+   {
+    "label": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O89836/"
+   }
+  ],
+  "notes": "Worklist year (1000) was an error: the V&A dates this lead relief to the third quarter of the 18th century, so it moves out of the 1st–10th-century batch."
+ },
+ {
+  "key": "vam:O93178",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the same ivory statuette of the Virgin and Child (V&A 702-1884) is already in the collection as the hand-checked curated entry.",
+  "dup_of": "cur:objects-vam-hodegetria-statuette",
+  "set": {}
+ }
+]

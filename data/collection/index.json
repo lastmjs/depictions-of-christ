@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70856,
- "checked": 514,
+ "total": 70623,
+ "checked": 550,
  "centuries": [
   {
    "century": "2",
@@ -13,7 +13,7 @@
   },
   {
    "century": "4",
-   "count": 89
+   "count": 87
   },
   {
    "century": "5",
@@ -21,51 +21,51 @@
   },
   {
    "century": "6",
-   "count": 68
+   "count": 67
   },
   {
    "century": "7",
-   "count": 24
+   "count": 25
   },
   {
    "century": "8",
-   "count": 47
+   "count": 45
   },
   {
    "century": "9",
-   "count": 83
+   "count": 75
   },
   {
    "century": "10",
-   "count": 152
+   "count": 136
   },
   {
    "century": "11",
-   "count": 146
+   "count": 130
   },
   {
    "century": "12",
-   "count": 480
+   "count": 478
   },
   {
    "century": "13",
-   "count": 1065
+   "count": 1062
   },
   {
    "century": "14",
-   "count": 2519
+   "count": 2512
   },
   {
    "century": "15",
-   "count": 9214
+   "count": 9194
   },
   {
    "century": "16",
-   "count": 18350
+   "count": 18345
   },
   {
    "century": "17",
-   "count": 13323
+   "count": 13319
   },
   {
    "century": "18",
@@ -73,89 +73,89 @@
   },
   {
    "century": "19",
-   "count": 4337
+   "count": 4299
   },
   {
    "century": "20",
-   "count": 1417
+   "count": 1416
   },
   {
    "century": "21",
-   "count": 89
+   "count": 87
   },
   {
    "century": "undated",
-   "count": 13622
+   "count": 13515
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18876
+   18808
   ],
   [
    "Madonna and Child",
-   13615
+   13559
   ],
   [
    "Christ Child",
-   8599
+   8590
   ],
   [
    "Crucifixion",
-   5894
+   5867
   ],
   [
    "Holy Family",
-   3637
+   3636
   ],
   [
    "Adoration of the Magi",
-   2461
+   2457
   ],
   [
    "Nativity",
-   2003
+   1996
   ],
   [
    "Adoration of the Shepherds",
-   1801
+   1799
   ],
   [
    "Entombment",
-   1683
+   1674
   ],
   [
    "Resurrection",
-   1619
+   1613
   ],
   [
    "Flight into Egypt",
-   1565
+   1564
   ],
   [
    "Last Supper",
-   1334
+   1331
   ],
   [
    "Lamentation",
-   1328
+   1326
   ],
   [
    "Baptism",
-   1188
+   1183
   ],
   [
    "Pietà",
-   1166
+   1157
   ],
   [
    "Agony in the Garden",
-   1018
+   1016
   ],
   [
    "Descent from the Cross",
-   1008
+   1004
   ],
   [
    "Carrying the Cross",
@@ -163,15 +163,15 @@
   ],
   [
    "Last Judgment",
-   917
+   912
   ],
   [
    "Flagellation",
-   836
+   833
   ],
   [
    "Miracles of Christ",
-   822
+   819
   ],
   [
    "Man of Sorrows",
@@ -183,19 +183,19 @@
   ],
   [
    "Ascension",
-   705
+   702
   ],
   [
    "Ecce Homo",
    700
   ],
   [
-   "Crowning with Thorns",
+   "Rest on the Flight into Egypt",
    633
   ],
   [
-   "Rest on the Flight into Egypt",
-   633
+   "Crowning with Thorns",
+   632
   ],
   [
    "Trial of Christ",
@@ -203,19 +203,19 @@
   ],
   [
    "Coronation of the Virgin",
-   586
+   584
   ],
   [
    "Presentation in the Temple",
-   582
+   579
   ],
   [
    "Supper at Emmaus",
-   517
+   516
   ],
   [
    "Pantocrator",
-   453
+   441
   ],
   [
    "Betrayal & Arrest",
@@ -231,15 +231,15 @@
   ],
   [
    "Salvator Mundi",
-   387
+   386
   ],
   [
    "Christ among the Doctors",
-   379
+   378
   ],
   [
    "Appearances after the Resurrection",
-   349
+   348
   ],
   [
    "Noli me tangere",
@@ -263,7 +263,7 @@
   ],
   [
    "Wedding at Cana",
-   253
+   252
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -271,7 +271,7 @@
   ],
   [
    "Good Shepherd",
-   225
+   224
   ],
   [
    "Mocking of Christ",
@@ -283,11 +283,11 @@
   ],
   [
    "Entry into Jerusalem",
-   191
+   190
   ],
   [
    "Temptation of Christ",
-   189
+   188
   ],
   [
    "Raising of Lazarus",
@@ -333,27 +333,27 @@
  "types": [
   [
    "print",
-   25337
+   25329
   ],
   [
    "painting",
-   20870
+   20867
   ],
   [
    "drawing",
-   5575
+   5572
   ],
   [
    "sculpture",
-   4595
+   4427
   ],
   [
    "manuscript",
-   3343
+   3340
   ],
   [
    "other",
-   2534
+   2512
   ],
   [
    "icon",
@@ -365,7 +365,7 @@
   ],
   [
    "metalwork",
-   750
+   744
   ],
   [
    "fresco",
@@ -373,11 +373,11 @@
   ],
   [
    "ivory",
-   436
+   434
   ],
   [
    "relief",
-   419
+   420
   ],
   [
    "textile",
@@ -397,19 +397,15 @@
   ],
   [
    "glass",
-   247
+   246
   ],
   [
    "mosaic",
-   194
+   195
   ],
   [
    "ceramic",
    164
-  ],
-  [
-   "book",
-   125
   ],
   [
    "leadlight",
@@ -418,6 +414,10 @@
   [
    "relief sculpture",
    110
+  ],
+  [
+   "book",
+   106
   ],
   [
    "group of sculptures",

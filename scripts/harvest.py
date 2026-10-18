@@ -490,19 +490,29 @@ def main():
     print(f"  corrected {fixed} sort years from their display dates")
 
     # Place every work on the map (uses only cached geocoding data; see scripts/geocode.py).
+    # If geocoding is unavailable, keep the last good placements rather than dropping the map.
+    map_dir = ROOT / "data" / "map"
+    map_dir.mkdir(exist_ok=True)
     try:
         from geocode import assign
         places, assignment = assign(works)
+        keymap = {}
         for i, w in enumerate(works):
             w.pop("p", None)
             pi = assignment[i] if isinstance(assignment, list) else assignment.get(i)
             if pi is not None:
                 w["p"] = pi
-        (ROOT / "data" / "map").mkdir(exist_ok=True)
-        (ROOT / "data" / "map" / "places.json").write_text(json.dumps(places, ensure_ascii=False, separators=(",", ":")))
-        print(f"  mapped {sum(1 for w in works if 'p' in w)} works to {len(places)} places")
-    except Exception as e:  # geocoding is optional
-        print(f"  map placement skipped: {e}")
+                keymap[w.get("q") or w.get("id")] = pi
+        (map_dir / "places.json").write_text(json.dumps(places, ensure_ascii=False, separators=(",", ":")))
+        (map_dir / "assign.json").write_text(json.dumps(keymap, separators=(",", ":")))
+        print(f"  mapped {len(keymap)} works to {len(places)} places")
+    except Exception as e:
+        keymap = json.loads((map_dir / "assign.json").read_text()) if (map_dir / "assign.json").exists() else {}
+        for w in works:
+            pi = keymap.get(w.get("q") or w.get("id"))
+            if pi is not None:
+                w["p"] = pi
+        print(f"  WARNING: geocoding failed ({e}); kept last good placements for {sum(1 for w in works if 'p' in w)} works")
     works.sort(key=lambda w: (w["y"] is None, w["y"] or 0, w["t"]))
 
     by_century = defaultdict(list)

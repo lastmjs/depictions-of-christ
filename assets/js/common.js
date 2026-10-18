@@ -202,9 +202,12 @@
       apply();
     };
     stage.addEventListener("wheel", (e) => { e.preventDefault(); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX, e.clientY); }, { passive: false });
-    stage.addEventListener("dblclick", (e) => { if (z.scale > 1) reset(); else zoomAt(2.5, e.clientX, e.clientY); });
+    stage.addEventListener("dblclick", (e) => {
+      if (e.pointerType === "mouse" || matchMedia("(hover: hover)").matches) return; // single click handles zoom with a mouse
+      if (z.scale > 1) reset(); else zoomAt(2.5, e.clientX, e.clientY);
+    });
     const pointers = new Map();
-    let pinch = null, moved = false, gestured = false, startX = null;
+    let pinch = null, moved = false, gestured = false, startX = null, downTarget = null;
     const pinchState = () => {
       const [a, b] = [...pointers.values()];
       return { d: Math.hypot(a.x - b.x, a.y - b.y), mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
@@ -213,7 +216,7 @@
       if (e.target.closest("button, a")) return;
       stage.setPointerCapture(e.pointerId);
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pointers.size === 1) { moved = false; gestured = false; startX = e.clientX; }
+      if (pointers.size === 1) { moved = false; gestured = false; startX = e.clientX; downTarget = e.target; }
       if (pointers.size === 2) { pinch = pinchState(); gestured = true; }
       stage.classList.add("dragging");
     });
@@ -241,7 +244,10 @@
         stage.classList.remove("dragging");
         const dx = e.clientX - (startX ?? e.clientX);
         if (!gestured && z.scale === 1 && Math.abs(dx) > 70 && e.pointerType !== "mouse" && onSwipe) onSwipe(dx < 0 ? 1 : -1);
-        else if (!moved && !gestured && z.scale === 1 && e.target === stage && onTapEmpty) onTapEmpty();
+        else if (!moved && !gestured && downTarget === stage && z.scale === 1 && onTapEmpty) onTapEmpty();
+        else if (!moved && !gestured && downTarget === img && e.pointerType === "mouse") {
+          if (z.scale > 1) reset(); else zoomAt(2.5, e.clientX, e.clientY);
+        }
       }
     };
     stage.addEventListener("pointerup", end);

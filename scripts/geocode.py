@@ -150,7 +150,7 @@ _R = {
     "Valencia": (39.47, -0.38, "valencian"),
     "Portugal": (39.6, -8.0, "portuguese|portugal"),
     "England": (52.5, -1.5, "english|england"),
-    "Great Britain": (53.0, -2.0, "great britain|united kingdom|british"),
+    "Great Britain": (53.0, -2.0, "great britain|britain|united kingdom|british"),
     "Scotland": (56.5, -4.2, "scottish|scotland"),
     "Ireland": (53.3, -7.7, "irish|ireland"),
     "Wales": (52.3, -3.7, "welsh|wales"),
@@ -1192,7 +1192,15 @@ def artist_place(qs, y, arts):
                     prefer.append(a["bp"][3])
                 if a.get("dp"):
                     prefer.append(a["dp"][3])
-                pick = next((w for p in prefer for w in undated if w[5] == p), undated[0])
+                pick = next((w for p in prefer for w in undated if w[5] == p), None)
+                if not pick and y is not None:
+                    # undated workplaces are an unordered set: the city of the artist's youth or old age, when
+                    # the work falls in it, is the better guess
+                    if a.get("dp") and a.get("d") is not None and a["d"] - 20 <= y <= a["d"] + 2:
+                        return {"name": f"{a['dp'][0]} (artist's city)", "lat": a["dp"][1], "lon": a["dp"][2]}
+                    if a.get("bp") and a.get("b") is not None and y <= a["b"] + 30:
+                        return {"name": f"{a['bp'][0]} (artist's city)", "lat": a["bp"][1], "lon": a["bp"][2]}
+                pick = pick or undated[0]
             return {"name": f"{pick[0]} (artist's workplace)", "lat": pick[1], "lon": pick[2]}
         if y is None:
             continue
@@ -1266,8 +1274,8 @@ def place_of(w):
         return m, "made"
     if m:
         region = m
-    if not q or not m:
-        r = made_from_c(w.get("c"), gz) if (not q or prefix(w)) else None
+    if not m:
+        r = made_from_c(w.get("c"), gz)
         if r and r[0] == "made":
             return r[1], "made"
         if r and not region:
@@ -1348,7 +1356,7 @@ def main():
         if prefix(w) not in MUSEUM_SOURCES and not e.get("loc") and fixed_type(w):
             for part in l_parts(w.get("l")):
                 l_counts[part] += 1
-        if not e.get("made") and (not w.get("q") or prefix(w)):
+        if not e.get("made"):
             c = (w.get("c") or "").strip()
             if c:
                 c_counts[c] += 1

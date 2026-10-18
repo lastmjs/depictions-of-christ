@@ -691,6 +691,16 @@ def main():
     }
     for w in works:
         w.update(OVERRIDES.get(w.get("q"), {}))
+    for w in works:
+        m = re.fullmatch(r"(\d{4})-01-01(?:T.*)?", str(w.get("d", "")))
+        if m:
+            yr = int(m.group(1))
+            if yr % 100 == 1:  # catalogues use YY01-01-01 to mean "the century beginning then"
+                c = yr // 100 + 1
+                w["d"] = f"{c}{'th' if 10 <= c % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(c % 10, 'th')} century"
+                w["y"] = yr + 49
+            else:
+                w["d"] = str(yr)
     fixed = 0
     for w in works:
         y = w.get("y")

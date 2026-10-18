@@ -5,16 +5,16 @@
     "artist": "Maurice Denis",
     "date": "1920",
     "year": 1920,
-    "created": "Saint-Germain-en-Laye or Paris, France",
+    "created": "France (probably Saint-Germain-en-Laye)",
     "location": "Musée des Beaux-Arts, Reims, France",
-    "medium": "Oil on canvas (oil sketch for an arched composition)",
+    "medium": "Oil on canvas (sketch for an arched composition, 54 × 150.5 cm)",
     "form": "Painting",
     "style": "Symbolism / Art Deco religious painting",
-    "summary": "In a pale, flowering garden, the risen Christ stands before the kneeling Mary Magdalene and gently holds her back, showing her the wounds in his hands. Around them Denis unfolds the rest of Easter morning: Peter and John hurrying to the tomb, and the holy women greeted by angels. The soft, luminous colours and arched format reflect Denis's lifelong ambition to renew sacred art for churches of the modern age.",
+    "summary": "In a pale, wooded garden, the risen Christ stands before the kneeling Mary Magdalene and gestures to her not to approach, while showing her the wounds of his Passion. Around them Denis unfolds the rest of Easter morning: Peter and John hurrying to the tomb, and the holy women addressed by two angels guarding the sepulchre. The soft, luminous colours and arched format reflect Denis's lifelong ambition to renew sacred art for churches of the modern age.",
     "facts": [
       "In 1919, the year before this painting, Denis co-founded the Ateliers d'Art Sacré in Paris with George Desvallières to train artists for the decoration of churches.",
-      "The canvas, an oil sketch for an arched mural-like composition, came to Reims in 1939 with the bequest of the art historian Paul Jamot.",
-      "Several episodes of the Resurrection appear side by side in the one landscape, a narrative device borrowed from early Italian painting, which Denis deeply admired."
+      "The canvas, catalogued by the museum as a sketch (esquisse) with an arched top, was bequeathed to Reims by the art historian and curator Paul Jamot in 1939.",
+      "Several episodes of the Resurrection appear side by side in the one landscape, a narrative device that recalls early Italian painting, which Denis deeply admired."
     ],
     "scripture": "John 20:11–18",
     "commons": "File:Maurice Denis, Noli me tangere, 1920.jpg",
@@ -35,22 +35,26 @@
     "artist": "Nicholas Roerich",
     "date": "1924",
     "year": 1924,
-    "created": "India (Himalayan period)",
+    "created": "Talai-Pho-Brang, Darjeeling, India (inscribed 24 April 1924)",
     "location": "International Centre of the Roerichs, Moscow, Russia",
-    "medium": "Tempera on canvas",
+    "medium": "Tempera on canvas (Google Arts & Culture lists oil)",
     "form": "Painting",
     "style": "Symbolism",
-    "summary": "In an immense, wind-carved desert of ochre sand and blue hills, a robed figure of Christ sits beside a companion, while mysterious signs are traced in the sand before them. Roerich, the Russian painter, mystic and explorer, was fascinated by legends of Christ's presence in Asia and painted him as a quiet wanderer in a timeless landscape. The flat, glowing colours give the scene the stillness of an icon.",
+    "summary": "Among wind-rippled dunes of ochre sand beneath blue hills, a long-haired figure of Christ sits tracing mysterious signs in the sand with a staff, while a hooded companion bends over him to watch. Roerich, the Russian painter, mystic and explorer, was fascinated by legends of Christ's presence in Asia and painted him as a quiet wanderer in a timeless landscape. The flat, glowing colours give the scene the stillness of an icon.",
     "facts": [
       "The painting belongs to Roerich's 'Banners of the East' series, which portrays teachers and prophets of many religions.",
-      "In 1925, during his Central Asian expedition, Roerich recorded legends in Ladakh about 'Issa' (Jesus) travelling in India, which he retold in his book Altai–Himalaya.",
-      "Roerich also designed the costumes and sets for Stravinsky's The Rite of Spring and later initiated the Roerich Pact for protecting cultural monuments in wartime."
+      "The painting is signed and dated 1924 at Talai-Pho-Brang, the house in Darjeeling where the Roerich family lived after arriving in India.",
+      "In 1925, during his Central Asian expedition, Roerich recorded legends in Ladakh about 'Issa' (Jesus) travelling in India, which he retold in his book Altai–Himalaya."
     ],
     "commons": "File:Signs of Christ.jpg",
     "links": [
       {
         "label": "Wikipedia (Nicholas Roerich)",
         "url": "https://en.wikipedia.org/wiki/Nicholas_Roerich"
+      },
+      {
+        "label": "Google Arts & Culture (International Centre of the Roerichs)",
+        "url": "https://artsandculture.google.com/asset/8AG6lyiWPTSE0Q"
       }
     ]
   },
@@ -65,10 +69,10 @@
     "medium": "Fresco",
     "form": "Fresco",
     "style": "Expressionist Realism",
-    "summary": "A gaunt, beardless Christ sits half-length before an empty tomb, holding the banner of the Resurrection, his emaciated body marked by suffering rather than glorified. Egger-Lienz, who had witnessed the First World War as a war painter, set this stark figure at the end wall of a memorial chapel for the fallen of Lienz. It offers resurrection hope that does not look away from the cost of death.",
+    "summary": "A gaunt, beardless Christ sits half-length before an empty tomb, holding the banner of the Resurrection, his emaciated body marked by suffering rather than glorified. Egger-Lienz, who had witnessed the First World War as a war painter, made this stark figure the culmination of a four-part cycle in the district memorial chapel for the fallen of Lienz. It offers resurrection hope that does not look away from the cost of death.",
     "facts": [
-      "The unconventional image provoked fierce protests; the Vatican placed the chapel under interdict in 1926, forbidding church services there for decades.",
-      "Critics mocked the figure as 'consumptive'; the chapel was finally reconsecrated in 1987.",
+      "The unconventional image provoked fierce protests; on 5 May 1926 the Vatican placed the chapel under interdict, forbidding church services there for decades.",
+      "The press mocked the figure as 'consumptive'; the chapel was finally reconsecrated in June 1987. These are the only frescoes Egger-Lienz ever painted.",
       "Egger-Lienz himself is buried in the chapel, which was dedicated on 8 September 1925 and designed by the architect Clemens Holzmeister."
     ],
     "scripture": "1 Corinthians 15:20",
@@ -91,15 +95,15 @@
     "date": "1926",
     "year": 1926,
     "created": "Güstrow, Germany",
-    "location": "Original mahogany carving: Ernst Barlach Haus, Hamburg; bronze cast pictured: Osthaus Museum, Hagen, Germany",
-    "medium": "Mahogany (original); bronze casts",
+    "location": "Original wood carving: Hamburg (Reemtsma collection, Ernst Barlach Haus); bronze cast pictured: Osthaus Museum, Hagen, Germany",
+    "medium": "Wood (original carving); bronze casts",
     "form": "Sculpture",
     "style": "Expressionism",
     "summary": "Two long-robed figures meet in an embrace: the risen Christ, thin and upright, supports the doubting apostle Thomas, who sinks against him and gazes up into his face. Barlach reduces the Gospel encounter to two bodies and one gesture of recognition and mercy. It is one of the most tender works of German Expressionist sculpture.",
     "facts": [
       "Barlach, also a playwright, was preoccupied with themes of doubt, longing and spiritual rebirth, which this sculpture embodies.",
-      "The Nazis declared Barlach's art 'degenerate'; his war memorials were removed from churches, and he died in 1938 in isolation.",
-      "Barlach carved the original in wood; bronze casts were made later and are in several collections."
+      "The wooden original was bought by the Schwerin state museum soon after it was carved, but was confiscated by the Nazis as 'degenerate art' in 1937; it later passed to the Hamburg collector Hermann F. Reemtsma.",
+      "The first bronzes, cast from a smaller plaster model, were made in 1930 for the Galerie Flechtheim in Berlin; further casts made after 1945 are in several collections, including the Neue Nationalgalerie, Berlin."
     ],
     "scripture": "John 20:26–29",
     "commons": "File:1926 Barlach Das Wiedersehen.JPG",
@@ -107,6 +111,10 @@
       {
         "label": "Wikipedia (Ernst Barlach)",
         "url": "https://en.wikipedia.org/wiki/Ernst_Barlach"
+      },
+      {
+        "label": "Staatliches Museum Schwerin: The Reunion (1939 cast and provenance)",
+        "url": "https://landesmuseum-mv.de/en/exhibit/ernst-barlach-the-reunion-christ-and-thomas/"
       }
     ]
   },
@@ -124,7 +132,7 @@
     "summary": "A massive, block-like Christ stands bound, his heavy head and broad face confronting the viewer with silent endurance. Epstein carved the figure directly from a single block of marble, rejecting any sweet or idealised image of Jesus in favour of something monumental and primal. Today it stands in the bombed-out shell of Coventry's medieval cathedral, a witness to suffering and reconciliation.",
     "facts": [
       "When first exhibited in 1935 it was attacked as ugly and even blasphemous, and it remained unsold for decades.",
-      "After Epstein's death, his widow Kathleen gave the sculpture to Coventry Cathedral, and it was placed in the ruins in 1969.",
+      "After Epstein's death, the sculpture was given to Coventry Cathedral at the wish of his widow, Lady (Kathleen) Epstein, and was dedicated in the ruins on 22 March 1969.",
       "Epstein also made the large bronze St Michael's Victory over the Devil on the wall of the new Coventry Cathedral, as well as the aluminium Majestas in Llandaff Cathedral."
     ],
     "scripture": "John 19:5",
@@ -144,13 +152,13 @@
     "year": 1945,
     "created": "Cusco, Peru",
     "location": "Pukamuqu hill, near Sacsayhuamán, Cusco, Peru",
-    "medium": "White-painted stone and concrete",
+    "medium": "Granite faced with marble and plaster",
     "form": "Monument",
     "style": "Modern devotional statuary",
     "summary": "A white figure of Christ, arms outstretched in welcome and blessing, stands on a hill above the old Inca capital of Cusco. The statue overlooks the city from beside the great Inca walls of Sacsayhuamán, joining Andean and Christian landscapes in one view. It has become one of Cusco's best-loved landmarks.",
     "facts": [
-      "The statue was given to the city in 1945 by Palestinian Christians who had found refuge in Cusco, as a sign of gratitude.",
-      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level.",
+      "The statue was given to the city in 1945 by the community of Palestinian Arab Christians who had settled in Cusco, traditionally as a sign of gratitude.",
+      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level, and lies within the historic centre of Cusco inscribed by UNESCO as a World Heritage Site.",
       "Its open-armed pose recalls the larger Christ the Redeemer in Rio de Janeiro, completed in 1931."
     ],
     "commons": "File:CristoBlancoCuzco.jpg",
@@ -158,6 +166,10 @@
       {
         "label": "Wikipedia (Pukamuqu)",
         "url": "https://en.wikipedia.org/wiki/Pukamuqu"
+      },
+      {
+        "label": "Wikipedia (Spanish): Cristo Blanco",
+        "url": "https://es.wikipedia.org/wiki/Cristo_Blanco"
       }
     ]
   },

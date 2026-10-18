@@ -36,7 +36,7 @@
     "summary": "John the Baptist pours water over the head of Christ, who stands ankle-deep in the Jordan with hands joined in prayer, as the dove of the Spirit descends between the hands of God above. At the left kneel two angels holding Christ's garments — and the one in profile, turning with a soft, glowing face, is the work of the young Leonardo da Vinci. The panel is a rare window onto a great Renaissance workshop, where a master and his brilliant pupil worked side by side.",
     "facts": [
       "Vasari tells the story that Verrocchio, seeing how much finer Leonardo's angel was than his own figures, resolved never to paint again — a legend, but a telling one.",
-      "Technical study shows Leonardo also worked in oil on the hazy river landscape and probably retouched the body of Christ.",
+      "Technical study suggests Leonardo also painted much of the hazy river landscape in oil, and some scholars believe he retouched the figure of Christ as well.",
       "The painting was made for the church of the monastery of San Salvi, just outside Florence."
     ],
     "scripture": "Matthew 3:13–17",
@@ -97,14 +97,14 @@
     "artist": "Albrecht Dürer",
     "date": "c. 1492–1493",
     "year": 1493,
-    "created": "Upper Rhine region (during Dürer's journeyman travels)",
+    "created": "Probably the Upper Rhine region (during Dürer's journeyman travels)",
     "location": "Staatliche Kunsthalle Karlsruhe, Germany",
     "medium": "Oil on panel",
     "form": "Painting",
     "style": "Late Gothic / Northern Renaissance",
-    "summary": "Wearing the crown of thorns and holding the scourges of his flagellation, the wounded Christ sits in a stone niche and rests his head on his hand, gazing out at the viewer in quiet, unbearable sorrow. This tiny panel is not a scene from the Gospel narrative but a devotional image, inviting the beholder to contemplate Christ's suffering face to face. It is one of the earliest surviving paintings by the young Dürer, already astonishing in its precision.",
+    "summary": "Wearing the crown of thorns and holding the scourges of his flagellation, the wounded Christ rises behind a stone ledge in a tomb-like recess and rests his head on his hand, gazing out at the viewer in quiet, unbearable sorrow. This tiny panel is not a scene from the Gospel narrative but a devotional image, inviting the beholder to contemplate Christ's suffering face to face. It is one of the earliest surviving paintings by the young Dürer, already astonishing in its precision.",
     "facts": [
-      "The panel is only about 30 cm high, intended for close, private devotion.",
+      "The panel is only 30 cm high, painted for close, private devotion; tiny punched designs in its gold background show an owl mobbed by birds, a symbol of the innocent persecuted.",
       "The pose of the head propped on the hand was a traditional sign of melancholy and deep grief.",
       "In 1522 Dürer drew himself as the Man of Sorrows; that drawing, in Bremen, was lost during the Second World War."
     ],
@@ -118,23 +118,24 @@
     "id": "dionisius-crucifixion",
     "title": "The Crucifixion",
     "artist": "Dionisius",
-    "date": "1500",
+    "date": "c. 1500",
     "year": 1500,
-    "created": "Muscovite Russia",
+    "created": "Muscovite Russia (for the Pavlo-Obnorsky Monastery, Vologda region)",
     "location": "Tretyakov Gallery, Moscow, Russia",
     "medium": "Tempera on wood panel",
     "form": "Icon",
     "style": "Russian (Moscow school)",
-    "summary": "Christ's pale, elongated body hangs from the cross in a gentle curve, without any sense of strain, while weeping angels hover in the gold sky and the Virgin, her companions, Saint John and the centurion stand below in slender, swaying forms. Dionisius turns the Crucifixion into an image of quiet, luminous grace rather than agony. It is a masterpiece of the painter who, after Rublev, was the leading icon painter of Muscovite Russia.",
+    "summary": "Christ's pale, elongated body hangs from the cross in a gentle curve, without any sense of strain, while angels fly toward him through the gold sky alongside small allegorical figures of the New and Old Testament Churches, and the Virgin, her companions, Saint John and the centurion stand below in slender, swaying forms. Dionisius turns the Crucifixion into an image of quiet, luminous grace rather than agony. It is a masterpiece of the painter who, after Rublev, was the leading icon painter of Muscovite Russia.",
     "facts": [
       "Dionisius was one of the first Russian icon painters who was a layman rather than a monk.",
-      "The icon is generally associated with his work for the Pavlo-Obnorsky Monastery near Vologda, for which Joseph of Volokolamsk and others commissioned many of his icons.",
+      "It comes from the festival tier of the iconostasis Dionisius and his workshop painted in 1500 for the Trinity Cathedral of the Pavlo-Obnorsky Monastery near Vologda, and is regarded as one of the few icons securely attributed to the master's own hand; it entered the Tretyakov Gallery in the 1930s.",
       "His best-preserved work, the frescoes of the Ferapontov Monastery (c. 1502), is a UNESCO World Heritage Site."
     ],
     "scripture": "John 19:25–30",
     "commons": "File:Распятие. Дионисий. 1499 1500 с полями.jpg",
     "links": [
-      {"label": "Wikipedia: Dionisius", "url": "https://en.wikipedia.org/wiki/Dionisius"}
+      {"label": "Wikipedia: Dionisius", "url": "https://en.wikipedia.org/wiki/Dionisius"},
+      {"label": "Wikipedia (Russian)", "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D0%BF%D1%8F%D1%82%D0%B8%D0%B5_(%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%D0%B8%D0%B9)"}
     ]
   },
   {
@@ -175,8 +176,8 @@
     "summary": "At the heart of this soaring limewood shrine, Christ sits among his disciples at the Last Supper, offering the morsel to Judas, who stands at the center of the composition with the money bag in his hand; John sleeps against Christ's breast. Riemenschneider left the wood unpainted, so the faces and cascading draperies are shaped entirely by light and shadow. Above, angels display a crystal reliquary said to contain a drop of Christ's blood, which gives the altar its name.",
     "facts": [
       "Placing Judas at the center, rather than Christ, focuses the scene on the moment of betrayal announced in John's Gospel.",
-      "Riemenschneider was a pioneer of leaving sculpture in natural, unpainted wood, using only a thin glaze.",
-      "He was also a councillor and mayor of Würzburg; after siding with the rebels in the Peasants' War of 1525 he was imprisoned and, by tradition, tortured."
+      "Riemenschneider is regarded as one of the first sculptors of his time to leave his figures in natural, unpainted wood rather than having them painted and gilded.",
+      "He was also a councillor and, in 1520–21, a mayor of Würzburg; after the city council refused the prince-bishop's order to fight the rebels in the Peasants' War of 1525, he was imprisoned and tortured in the Marienberg Fortress."
     ],
     "scripture": "John 13:21–30",
     "commons": "File:Tilmann Riemenschneider der Heilig-Blut-Altar in Rothenburg ob der Tauber 01.jpg",
@@ -196,16 +197,17 @@
     "medium": "Oil on wood panel",
     "form": "Painting",
     "style": "Flemish Renaissance",
-    "summary": "Beneath the crosses of Golgotha, Christ's body is laid out across the foreground while Nicodemus, Joseph of Arimathea, the Virgin, Saint John and the holy women gather in hushed mourning; Mary Magdalene tenderly wipes his feet. Matsys combines the precise detail of the Flemish tradition with a new, monumental Italianate grandeur. The central panel of a large triptych, it is the masterpiece of Antwerp's leading painter in the early 16th century.",
+    "summary": "Below the hill of Golgotha, Christ's body is laid out across the foreground while Joseph of Arimathea and Nicodemus tend it, Saint John supports the sinking Virgin, and the holy women prepare to anoint his wounds. Matsys combines the precise detail of the Flemish tradition with a new, monumental Italianate grandeur. The central panel of a large triptych, it is the masterpiece of Antwerp's leading painter in the early 16th century.",
     "facts": [
       "It was commissioned by the Antwerp joiners' (carpenters') guild for its chapel in the Cathedral of Our Lady.",
-      "The wings show the beheading of John the Baptist and the martyrdom of John the Evangelist — the two Johns being the carpenters' patron saints.",
+      "The wings show Salome presenting the head of John the Baptist at Herod's feast and the martyrdom of John the Evangelist in boiling oil — the two Johns being the carpenters' patron saints.",
       "A cherished legend says that Matsys began as a blacksmith and turned to painting to win the hand of a painter's daughter."
     ],
     "scripture": "John 19:38–40",
     "commons": "File:Quentin Massys 002.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Matsys)"}
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Matsys)"},
+      {"label": "Web Gallery of Art", "url": "https://www.wga.hu/html_m/m/massys/quentin/1/st_john2.html"}
     ]
   },
   {
@@ -221,8 +223,8 @@
     "style": "Venetian Renaissance",
     "summary": "On Easter morning Mary Magdalene, kneeling with her jar of ointment, reaches out toward the risen Christ, who draws back from her touch with a graceful, swaying turn. Behind them a tree and a softly lit hillside farm unfold into a golden Venetian landscape, so that the encounter seems to take place in the whole renewed world. It is one of the most poetic of Titian's early religious paintings.",
     "facts": [
-      "X-rays show that Titian first painted Christ wearing a gardener's hat and facing away, then revised the composition.",
-      "The farm buildings on the hill reappear in the landscape of the Sleeping Venus in Dresden, begun by Giorgione and completed by Titian.",
+      "X-rays reveal that Titian made numerous changes as he painted, especially to the landscape, and he is thought to have first shown Christ in a gardener's hat.",
+      "The farm buildings on the hill reappear in Titian's Sacred and Profane Love and in the Sleeping Venus in Dresden, begun by Giorgione and completed by Titian.",
       "Christ holds a hoe, recalling Mary's first impression that he was the gardener."
     ],
     "scripture": "John 20:11–18",
@@ -312,16 +314,16 @@
     "medium": "Oil on canvas",
     "form": "Painting",
     "style": "Venetian Renaissance",
-    "summary": "Amid a splendid Venetian banquet of more than a hundred figures — nobles, servants, musicians, dogs — Christ sits quietly at the very center, gazing out at the viewer, with his mother beside him, at the moment he turns water into wine. Above his head a servant carves meat, a foreshadowing of his sacrifice, and the hourglass in front of the musicians hints that his hour has not yet come. The immense canvas is a celebration of earthly abundance with the Eucharist at its heart.",
+    "summary": "Amid a splendid Venetian banquet of more than a hundred figures — nobles, servants, musicians, dogs — Christ sits quietly at the very center, gazing out at the viewer, with his mother beside him, at the moment he turns water into wine. Directly above him a carver cuts up a lamb, a foreshadowing of his sacrifice as the Lamb of God, and an hourglass on the musicians' table is often read as a reminder of passing time. The immense canvas is a celebration of earthly abundance with the Eucharist at its heart.",
     "facts": [
       "Measuring about 6.8 by 9.9 metres, it is the largest painting in the Louvre, where it hangs opposite the Mona Lisa.",
       "It was painted for the refectory of the Benedictine monastery of San Giorgio Maggiore in Venice, and was taken to Paris by Napoleon's troops in 1797.",
-      "Tradition identifies the musicians in the foreground as portraits of Venetian painters, including Veronese himself and Titian."
+      "Tradition identifies the musicians in the foreground as portraits of Venetian painters — Veronese himself, Tintoretto, Jacopo Bassano and Titian."
     ],
     "scripture": "John 2:1–11",
     "commons": "File:Les Noces de Cana - Paolo Veronese - Musée du Louvre Peintures INV 142 ; MR 384.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Wedding_at_Cana"}
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana_(Veronese)"}
     ]
   },
   {
@@ -337,7 +339,7 @@
     "style": "Flemish Renaissance",
     "summary": "A vast Flemish landscape swarms with hundreds of people making their way to the place of execution, and at its very center, almost lost in the crowd, Christ has fallen beneath the cross. In the foreground the grieving Virgin, John and the holy women are painted in an older, Rogier-like style, as if from another world. Bruegel shows how the most important event in history can pass unnoticed amid the bustle of ordinary life.",
     "facts": [
-      "It is Bruegel's largest surviving panel painting, with around 500 figures.",
+      "It is one of Bruegel's largest surviving paintings, crowded with some 500 figures.",
       "A windmill perched on an impossibly tall crag looms over the scene, often read as the mill of God or of fate.",
       "The painting inspired Lech Majewski's 2011 film 'The Mill and the Cross', which brings the scene to life."
     ],
@@ -350,17 +352,17 @@
   {
     "id": "cranach-weimar-altarpiece",
     "title": "The Weimar Altarpiece (Crucifixion with Luther and Cranach)",
-    "artist": "Lucas Cranach the Elder and Lucas Cranach the Younger",
+    "artist": "Lucas Cranach the Younger (traditionally also credited to Lucas Cranach the Elder)",
     "date": "1552–1555",
     "year": 1555,
-    "created": "Weimar, Germany",
+    "created": "Saxony / Thuringia, Germany (Cranach workshop)",
     "location": "City Church of St. Peter and Paul (Herderkirche), Weimar, Germany",
     "medium": "Oil on wood panel",
     "form": "Painting",
     "style": "German Renaissance (Lutheran)",
-    "summary": "Christ hangs on the cross while, at the left, the risen Christ tramples Death and the Devil; at the right stand John the Baptist, the elder Lucas Cranach, and Martin Luther pointing to the open Bible. A stream of blood from Christ's side arcs down onto Cranach's head, a vivid picture of the Reformation teaching that salvation comes by grace through faith. Begun by the elder Cranach and completed by his son after his death, it is a central monument of Lutheran art.",
+    "summary": "Christ hangs on the cross while, at the left, the risen Christ tramples Death and the Devil; at the right stand John the Baptist, the elder Lucas Cranach, and Martin Luther pointing to the open Bible. A stream of blood from Christ's side arcs down onto Cranach's head, a vivid picture of the Reformation teaching that salvation comes by grace through faith. Long thought to have been begun by the elder Cranach and finished by his son, it is now generally credited to Lucas Cranach the Younger, and it is a central monument of Lutheran art.",
     "facts": [
-      "Lucas Cranach the Elder died in Weimar in 1553; his son finished the altarpiece as a memorial to him.",
+      "Commissioned by Elector John Frederick I of Saxony and installed in 1555, it also serves as the memorial of the Elector and his family, buried before the altar; the elder Cranach, who died in Weimar in 1553, is honoured with his portrait in the painting.",
       "Luther's open Bible displays verses including 1 John 1:7 — 'the blood of Jesus Christ cleanses us from all sin'.",
       "In the background, Moses with the tablets of the Law and the bronze serpent in the wilderness illustrate the Lutheran theme of Law and Gospel."
     ],
@@ -383,8 +385,8 @@
     "style": "Japanese Christian (Nanban era)",
     "summary": "The Virgin holds the Christ Child at the center, framed by fifteen small scenes of the Rosary mysteries — from the Annunciation and Nativity through the Passion and Crucifixion to the Resurrection and Ascension. Below, Saints Ignatius of Loyola and Francis Xavier kneel in adoration of the Eucharist. Painted by a Japanese artist trained in the Jesuit workshop of the Italian Giovanni Niccolò, it is a rare survivor of Japan's 'Christian century'.",
     "facts": [
-      "After Christianity was banned in Japan in 1614, such images had to be hidden; this one was discovered only in 1930, concealed in the roof of a house in a 'hidden Christian' village near Ibaraki, Osaka.",
-      "Giovanni Niccolò, an Italian Jesuit, trained Japanese painters in European oil and watercolour techniques at seminaries in Japan from 1583.",
+      "After Christianity was banned in Japan in 1614, such images had to be hidden; this one was discovered only in 1930, when the Harada family of Shimo-Otowa, in the 'hidden Christian' hill country near Ibaraki, Osaka, found it in a bamboo tube tied to the ridge beam of their house while re-roofing.",
+      "Giovanni Niccolò, an Italian Jesuit, arrived in Japan in 1583 and trained Japanese painters at the Jesuit seminary in oil painting, fresco, tempera and copperplate engraving.",
       "The hidden Christians (Kakure Kirishitan) preserved their faith in secret for more than two centuries."
     ],
     "commons": "File:Virgin Mary with Infant Jesus and Her Fifteen Mysteries, Loyola and Francis Xavier Kyoto University Museum.png",

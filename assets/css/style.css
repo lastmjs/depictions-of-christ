@@ -527,7 +527,9 @@ dialog::backdrop { background: rgba(5, 4, 3, .82); backdrop-filter: blur(8px); -
 }
 .lb-stage.dragging { cursor: grabbing; }
 .lb-stage img {
-  max-width: calc(100vw - 140px); max-height: calc(100% - 40px);
+  max-width: calc(100vw - 140px);
+  max-height: calc(100vh - 76px - 40px); max-height: calc(100dvh - 76px - 40px);
+  width: auto; height: auto; object-fit: contain;
   transform-origin: 0 0; user-select: none; -webkit-user-drag: none;
   will-change: transform;
 }

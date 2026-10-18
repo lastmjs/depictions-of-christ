@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70922,
- "checked": 885,
+ "total": 70906,
+ "checked": 890,
  "centuries": [
   {
    "century": "2",
@@ -13,7 +13,7 @@
   },
   {
    "century": "4",
-   "count": 118
+   "count": 120
   },
   {
    "century": "5",
@@ -21,7 +21,7 @@
   },
   {
    "century": "6",
-   "count": 93
+   "count": 95
   },
   {
    "century": "7",
@@ -45,57 +45,57 @@
   },
   {
    "century": "12",
-   "count": 479
+   "count": 482
   },
   {
    "century": "13",
-   "count": 1061
+   "count": 1069
   },
   {
    "century": "14",
-   "count": 2511
+   "count": 2525
   },
   {
    "century": "15",
-   "count": 9194
+   "count": 9207
   },
   {
    "century": "16",
-   "count": 18344
+   "count": 18355
   },
   {
    "century": "17",
-   "count": 13319
+   "count": 13323
   },
   {
    "century": "18",
-   "count": 5776
+   "count": 5785
   },
   {
    "century": "19",
-   "count": 4299
+   "count": 4305
   },
   {
    "century": "20",
-   "count": 1416
+   "count": 1441
   },
   {
    "century": "21",
-   "count": 87
+   "count": 89
   },
   {
    "century": "undated",
-   "count": 13515
+   "count": 13400
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18843
+   18834
   ],
   [
    "Madonna and Child",
-   13569
+   13567
   ],
   [
    "Christ Child",
@@ -115,7 +115,7 @@
   ],
   [
    "Nativity",
-   2007
+   2006
   ],
   [
    "Adoration of the Shepherds",
@@ -123,7 +123,7 @@
   ],
   [
    "Entombment",
-   1676
+   1675
   ],
   [
    "Resurrection",
@@ -143,7 +143,7 @@
   ],
   [
    "Baptism",
-   1189
+   1188
   ],
   [
    "Pietà",
@@ -163,7 +163,7 @@
   ],
   [
    "Last Judgment",
-   916
+   914
   ],
   [
    "Miracles of Christ",
@@ -175,7 +175,7 @@
   ],
   [
    "Man of Sorrows",
-   754
+   753
   ],
   [
    "Christ and Followers",
@@ -641,11 +641,11 @@
   ],
   [
    "other",
-   2519
+   2517
   ],
   [
    "icon",
-   1756
+   1757
   ],
   [
    "statue",
@@ -657,7 +657,7 @@
   ],
   [
    "fresco",
-   522
+   515
   ],
   [
    "ivory",
@@ -689,7 +689,7 @@
   ],
   [
    "mosaic",
-   196
+   190
   ],
   [
    "ceramic",
@@ -705,7 +705,7 @@
   ],
   [
    "book",
-   106
+   105
   ],
   [
    "group of sculptures",

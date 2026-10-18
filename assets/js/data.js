@@ -56,7 +56,7 @@ window.DEPICTIONS = {
       "credit": "Justin Benttinen"
      },
      "ck": "Q577890",
-     "cp": 3216
+     "cp": 3218
     },
     {
      "id": "dura-europos-healing-of-the-paralytic",
@@ -101,7 +101,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Yale University Art Gallery"
-     }
+     },
+     "ck": "Q49289775",
+     "cp": 3227
     },
     {
      "id": "good-shepherd-catacomb-of-callixtus",
@@ -150,7 +152,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Jim Forest https://www.flickr.com/people/jimforest/ (artwork by unknown)"
-     }
+     },
+     "ck": "wga:zearly/1/2mural/4callist/callist6",
+     "cp": 3262
     },
     {
      "id": "christ-as-sol-tomb-of-the-julii",
@@ -197,7 +201,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q18673023",
-     "cp": 3213
+     "cp": 3215
     },
     {
      "id": "good-shepherd-statue-pio-cristiano",
@@ -251,7 +255,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "Carole Raddato"
-     }
+     },
+     "ck": "wga:zearly/1/1sculptu/various/7statue1",
+     "cp": 32
     },
     {
      "id": "hinton-st-mary-mosaic",
@@ -295,7 +301,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Unknown authorUnknown author"
-     }
+     },
+     "ck": "Q11012952",
+     "cp": 3210
     },
     {
      "id": "sarcophagus-of-junius-bassus",
@@ -336,7 +344,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "sailko"
-     }
+     },
+     "ck": "feat:sarcophagus-of-junius-bassus",
+     "cp": 187
     },
     {
      "id": "bearded-christ-catacomb-of-commodilla",
@@ -379,7 +389,7 @@ window.DEPICTIONS = {
       "credit": "Autoría desconocida"
      },
      "ck": "commons:81707299",
-     "cp": 3259
+     "cp": 3261
     },
     {
      "id": "brescia-casket",
@@ -424,7 +434,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public"
-     }
+     },
+     "ck": "Q3390834",
+     "cp": 3217
     },
     {
      "id": "santa-pudenziana-apse-mosaic",
@@ -465,7 +477,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Welleschik"
-     }
+     },
+     "ck": "feat:santa-pudenziana-apse-mosaic",
+     "cp": 3401
     },
     {
      "id": "maskell-ivory-crucifixion",
@@ -506,7 +520,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Unknown authorUnknown author"
-     }
+     },
+     "ck": "feat:maskell-ivory-crucifixion",
+     "cp": 3237
     },
     {
      "id": "santa-sabina-door-crucifixion",
@@ -547,7 +563,9 @@ window.DEPICTIONS = {
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "credit": "Sailko"
-     }
+     },
+     "ck": "feat:santa-sabina-door-crucifixion",
+     "cp": 3402
     },
     {
      "id": "santa-maria-maggiore-adoration-of-the-magi",
@@ -588,7 +606,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Fabrizio Garrisi"
-     }
+     },
+     "ck": "feat:santa-maria-maggiore-adoration-of-the-magi",
+     "cp": 3307
     },
     {
      "id": "galla-placidia-good-shepherd",
@@ -633,7 +653,9 @@ window.DEPICTIONS = {
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Prof. Mortel"
-     }
+     },
+     "ck": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5",
+     "cp": 3399
     },
     {
      "id": "neonian-baptistery-baptism",
@@ -678,7 +700,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Petar Milošević"
-     }
+     },
+     "ck": "commons:98691704",
+     "cp": 3255
     },
     {
      "id": "hosios-david-christ-in-glory",
@@ -721,7 +745,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "Q112785721",
-     "cp": 3220
+     "cp": 3222
     },
     {
      "id": "archbishops-chapel-christ-warrior",
@@ -766,7 +790,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "José Luiz"
-     }
+     },
+     "ck": "feat:archbishops-chapel-christ-warrior",
+     "cp": 3403
     },
     {
      "id": "sant-apollinare-nuovo-christ-enthroned",
@@ -810,7 +836,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "José Luiz"
-     }
+     },
+     "ck": "wga:zearly/1/4mosaics/2ravenna/4nuovo/2south5",
+     "cp": 3258
     },
     {
      "id": "barberini-ivory",
@@ -893,7 +921,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "G41rn8"
-     }
+     },
+     "ck": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
+     "cp": 3400
     },
     {
      "id": "antioch-chalice",
@@ -938,7 +968,9 @@ window.DEPICTIONS = {
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Mary Harrsch from Springfield, Oregon, USA"
-     }
+     },
+     "ck": "Q29385468",
+     "cp": 3385
     },
     {
      "id": "san-vitale-christ-on-the-globe",
@@ -983,7 +1015,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "Following Hadrian"
-     }
+     },
+     "ck": "wga:zearly/1/4mosaics/2ravenna/5vitale/2conch1",
+     "cp": 3304
     },
     {
      "id": "sant-apollinare-in-classe-transfiguration-cross",
@@ -1024,7 +1058,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Gleb Simonov"
-     }
+     },
+     "ck": "feat:sant-apollinare-in-classe-transfiguration-cross",
+     "cp": 3305
     },
     {
      "id": "sinai-christ-pantocrator",
@@ -1068,7 +1104,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Unknown authorUnknown author"
-     }
+     },
+     "ck": "Q4501499",
+     "cp": 3212
     },
     {
      "id": "rossano-gospels-christ-before-pilate",
@@ -1109,7 +1147,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": ""
-     }
+     },
+     "ck": "feat:rossano-gospels-christ-before-pilate",
+     "cp": 3226
     },
     {
      "id": "cleveland-tapestry-icon-of-the-virgin",
@@ -1201,7 +1241,7 @@ window.DEPICTIONS = {
       "credit": "Unknown artistUnknown artist"
      },
      "ck": "commons:98691695",
-     "cp": 3242
+     "cp": 3244
     },
     {
      "id": "stuma-paten-communion-of-the-apostles",
@@ -1246,7 +1286,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Dosseman"
-     }
+     },
+     "ck": "feat:stuma-paten-communion-of-the-apostles",
+     "cp": 3211
     },
     {
      "id": "rabbula-gospels-crucifixion",
@@ -1287,7 +1329,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Gennadii Saus i Segura"
-     }
+     },
+     "ck": "feat:rabbula-gospels-crucifixion",
+     "cp": 3280
     },
     {
      "id": "holy-land-pilgrim-ampulla-crucifixion",
@@ -1332,7 +1376,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": ""
-     }
+     },
+     "ck": "Q60779306",
+     "cp": 3240
     },
     {
      "id": "christ-and-abbot-mena",
@@ -1378,7 +1424,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q9191525",
-     "cp": 3211
+     "cp": 3213
     }
    ]
   },
@@ -1435,7 +1481,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Votpuske"
-     }
+     },
+     "ck": "wga:zearly/1/5coptic/painting/1bawit2",
+     "cp": 3213
     },
     {
      "id": "solidus-of-justinian-ii-christ",
@@ -1483,7 +1531,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": ""
-     }
+     },
+     "ck": "Q80079053",
+     "cp": 543
     },
     {
      "id": "ruthwell-cross",
@@ -1528,7 +1578,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "PaulT (Gunther Tschuch)"
-     }
+     },
+     "ck": "feat:ruthwell-cross",
+     "cp": 3404
     },
     {
      "id": "godescalc-evangelistary-christ",
@@ -1570,7 +1622,7 @@ window.DEPICTIONS = {
       "credit": "Godescalc"
      },
      "ck": "commons:25371411",
-     "cp": 3245
+     "cp": 3247
     },
     {
      "id": "book-of-kells-christ-enthroned",
@@ -1610,7 +1662,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Abbey of Kells"
-     }
+     },
+     "ck": "feat:book-of-kells-christ-enthroned",
+     "cp": 3284
     },
     {
      "id": "volto-santo-lucca",
@@ -1697,7 +1751,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "School of Carolingian Court School"
-     }
+     },
+     "ck": "feat:lorsch-gospels-ivory-christ-treading-beasts",
+     "cp": 3247
     },
     {
      "id": "utrecht-psalter-psalm-11",
@@ -1742,7 +1798,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Unknown monks c. 800"
-     }
+     },
+     "ck": "feat:utrecht-psalter-psalm-11",
+     "cp": 3303
     },
     {
      "id": "mogao-christian-silk-painting",
@@ -1784,7 +1842,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "Q55347059",
-     "cp": 3219
+     "cp": 3221
     },
     {
      "id": "hagia-sophia-imperial-gate-mosaic",
@@ -1829,7 +1887,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Dosseman"
-     }
+     },
+     "ck": "feat:hagia-sophia-imperial-gate-mosaic",
+     "cp": 3322
     },
     {
      "id": "romanos-ivory",
@@ -1869,7 +1929,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "Photographe: Clio20"
-     }
+     },
+     "ck": "feat:romanos-ivory",
+     "cp": 3211
     },
     {
      "id": "harbaville-triptych",
@@ -1911,7 +1973,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q23356",
-     "cp": 3209
+     "cp": 3211
     },
     {
      "id": "gero-cross",
@@ -1956,7 +2018,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 2.0 de",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "credit": "Lothar Spurzem"
-     }
+     },
+     "ck": "Q653601",
+     "cp": 3219
     },
     {
      "id": "jelling-stone-christ",
@@ -2000,7 +2064,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Photographer Roberto Fortuna, commisioned by the Danish National Museum"
-     }
+     },
+     "ck": "feat:jelling-stone-christ",
+     "cp": 3405
     },
     {
      "id": "benedictional-of-aethelwold-baptism",
@@ -2041,7 +2107,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Meister des Benedictionale des Heiligen Aethelwold"
-     }
+     },
+     "ck": "feat:benedictional-of-aethelwold-baptism",
+     "cp": 3293
     },
     {
      "id": "etchmiadzin-gospels-christ-enthroned",
@@ -2085,7 +2153,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "uploader Koperczak (talk) 07:54, 27 March 2009 (UTC), unknown Armenian painter"
-     }
+     },
+     "ck": "feat:etchmiadzin-gospels-christ-enthroned",
+     "cp": 3406
     },
     {
      "id": "faras-cathedral-nativity",
@@ -2130,7 +2200,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Isma'il Kushkush Twitter: @ikushkush"
-     }
+     },
+     "ck": "feat:faras-cathedral-nativity",
+     "cp": 3327
     },
     {
      "id": "gospels-of-otto-iii-washing-of-the-feet",
@@ -2171,7 +2243,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "AnonymousUnknown author"
-     }
+     },
+     "ck": "feat:gospels-of-otto-iii-washing-of-the-feet",
+     "cp": 3254
     },
     {
      "id": "bernward-doors",
@@ -2216,7 +2290,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Ymblanter"
-     }
+     },
+     "ck": "feat:bernward-doors",
+     "cp": 3407
     },
     {
      "id": "saint-sophia-kyiv-pantocrator",
@@ -2256,7 +2332,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Vi Ko"
-     }
+     },
+     "ck": "feat:saint-sophia-kyiv-pantocrator",
+     "cp": 3408
     },
     {
      "id": "facundus-beatus-throne-vision",
@@ -2297,7 +2375,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Facundus, pour Ferdinand Ier de Castille et Leon et la reine Sancha"
-     }
+     },
+     "ck": "feat:facundus-beatus-throne-vision",
+     "cp": 3297
     },
     {
      "id": "daphni-pantocrator",
@@ -2384,7 +2464,8 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Daniel VILLAFRUELA."
-     }
+     },
+     "ck": "commons:132629185"
     },
     {
      "id": "pantocrator-sant-climent-taull",
@@ -2429,7 +2510,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Master of Taüll"
-     }
+     },
+     "ck": "Q110184288",
+     "cp": 1815
     },
     {
      "id": "khakhuli-triptych",
@@ -2477,7 +2560,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Unknown (10th-12th century)"
-     }
+     },
+     "ck": "feat:khakhuli-triptych",
+     "cp": 3409
     },
     {
      "id": "virgin-of-vladimir",
@@ -2517,7 +2602,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Michel Bakni"
-     }
+     },
+     "ck": "Q546241",
+     "cp": 543
     },
     {
      "id": "cefalu-pantocrator",
@@ -2562,7 +2649,8 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Gun Powder Ma"
-     }
+     },
+     "ck": "commons:98691674"
     },
     {
      "id": "majestat-batllo",
@@ -2648,7 +2736,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Oficina italiana de inspiração bizantina"
-     }
+     },
+     "ck": "Q2348017",
+     "cp": 412
     },
     {
      "id": "novgorod-saviour-not-made-by-hands",
@@ -2746,7 +2836,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Vanjagenije"
-     }
+     },
+     "ck": "feat:studenica-crucifixion",
+     "cp": 2528
     },
     {
      "id": "beau-dieu-amiens",
@@ -2787,7 +2879,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Vassil"
-     }
+     },
+     "ck": "wga:zgothic/gothic/1/11f_1230",
+     "cp": 3031
     },
     {
      "id": "sainte-chapelle-passion-window",
@@ -2832,7 +2926,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Thomon"
-     }
+     },
+     "ck": "feat:sainte-chapelle-passion-window",
+     "cp": 2623
     },
     {
      "id": "hilandar-christ-pantocrator-icon",
@@ -2871,7 +2967,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Orjen"
-     }
+     },
+     "ck": "feat:hilandar-christ-pantocrator-icon",
+     "cp": 208
     },
     {
      "id": "deesis-hagia-sophia",
@@ -2915,7 +3013,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Photograph: Myrabella"
-     }
+     },
+     "ck": "wga:zgothic/mosaics/9/8istanbu1",
+     "cp": 3010
     },
     {
      "id": "toros-roslin-transfiguration",
@@ -2960,7 +3060,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Walters Art Museum Illuminated Manuscripts"
-     }
+     },
+     "ck": "walters:W.539.163R",
+     "cp": 3004
     },
     {
      "id": "cimabue-crucifix-arezzo",
@@ -3001,7 +3103,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Photo taken by Senet File:CrocifissoCimabue-Arezzo.JPG"
-     }
+     },
+     "ck": "wga:c/cimabue/crucifix/cruci_a",
+     "cp": 28
     },
     {
      "id": "cavallini-last-judgment",
@@ -3045,7 +3149,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Pietro Cavallini"
-     }
+     },
+     "ck": "Q66369800",
+     "cp": 1841
     },
     {
      "id": "gabelkreuz-st-maria-im-kapitol",
@@ -3089,7 +3195,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "MenkinAlRire"
-     }
+     },
+     "ck": "feat:gabelkreuz-st-maria-im-kapitol",
+     "cp": 2564
     },
     {
      "id": "giotto-lamentation",
@@ -3179,7 +3287,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Giotto"
-     }
+     },
+     "ck": "Q3504778",
+     "cp": 515
     },
     {
      "id": "duccio-entry-into-jerusalem",
@@ -3219,7 +3329,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Duccio di Buoninsegna"
-     }
+     },
+     "ck": "wga:d/duccio/maesta/verso_1/verso01",
+     "cp": 9
     },
     {
      "id": "duccio-temptation-on-the-mount",
@@ -3264,7 +3376,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Duccio di Buoninsegna"
-     }
+     },
+     "ck": "feat:duccio-temptation-on-the-mount",
+     "cp": 265
     },
     {
      "id": "lorenzetti-deposition-assisi",
@@ -3392,7 +3506,8 @@ window.DEPICTIONS = {
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "BLAGO Fund, Inc."
-     }
+     },
+     "ck": "feat:gracanica-dome-pantocrator"
     },
     {
      "id": "simone-martini-christ-discovered-in-the-temple",
@@ -3481,7 +3596,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Anonymous (France)Unknown author"
-     }
+     },
+     "ck": "walters:71.179",
+     "cp": 79
     },
     {
      "id": "theophanes-pantocrator-ilyina-street",
@@ -3524,7 +3641,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Theophanes the Greek"
-     }
+     },
+     "ck": "feat:theophanes-pantocrator-ilyina-street",
+     "cp": 973
     },
     {
      "id": "wilton-diptych",
@@ -3568,7 +3687,8 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "anonymous"
-     }
+     },
+     "ck": "Q1813497"
     },
     {
      "id": "sluter-champmol-head-of-christ",
@@ -3607,7 +3727,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Claus Sluter"
-     }
+     },
+     "ck": "wga:s/sluter/moses/w_moset2",
+     "cp": 579
     },
     {
      "id": "rublev-trinity",
@@ -3689,7 +3811,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Limbourg brothers"
-     }
+     },
+     "ck": "feat:tres-riches-heures-temptation-of-christ",
+     "cp": 79
     },
     {
      "id": "rublev-zvenigorod-savior",
@@ -3813,7 +3937,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Masaccio"
-     }
+     },
+     "ck": "Q977200",
+     "cp": 9
     },
     {
      "id": "ghent-altarpiece",
@@ -3858,7 +3984,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Jan van Eyck / Presumably Hubert van Eyck"
-     }
+     },
+     "ck": "Q734834",
+     "cp": 13
     },
     {
      "id": "van-der-weyden-descent-from-the-cross",
@@ -3903,7 +4031,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Rogier van der Weyden"
-     }
+     },
+     "ck": "Q568847",
+     "cp": 39
     },
     {
      "id": "fra-angelico-transfiguration",
@@ -3944,7 +4074,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Fra Angelico"
-     }
+     },
+     "ck": "Q3997714",
+     "cp": 7
     },
     {
      "id": "fra-angelico-noli-me-tangere",
@@ -3992,7 +4124,9 @@ window.DEPICTIONS = {
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Prof. Mortel"
-     }
+     },
+     "ck": "Q3877893",
+     "cp": 7
     },
     {
      "id": "fre-seyon-diptych",
@@ -4040,7 +4174,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Follower of Fre Seyon (Ethiopian, late 15th century)"
-     }
+     },
+     "ck": "walters:36.12",
+     "cp": 1872
     }
    ]
   },
@@ -4319,7 +4455,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Andrea del Verrocchio / Leonardo da Vinci"
-     }
+     },
+     "ck": "Q1059211",
+     "cp": 7
     },
     {
      "id": "portinari-altarpiece",
@@ -4359,7 +4497,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Hugo van der Goes"
-     }
+     },
+     "ck": "Q18686031",
+     "cp": 18
     },
     {
      "id": "mantegna-lamentation",
@@ -4486,7 +4626,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Albrecht Dürer"
-     }
+     },
+     "ck": "Q48447927",
+     "cp": 233
     },
     {
      "id": "leonardo-last-supper",
@@ -4527,7 +4669,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Leonardo da Vinci"
-     }
+     },
+     "ck": "Q128910",
+     "cp": 527
     },
     {
      "id": "michelangelo-pieta",
@@ -4567,7 +4711,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Jebulon"
-     }
+     },
+     "ck": "Q235242",
+     "cp": 7
     },
     {
      "id": "dionisius-crucifixion",
@@ -4611,7 +4757,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Dionisius"
-     }
+     },
+     "ck": "feat:dionisius-crucifixion",
+     "cp": 973
     },
     {
      "id": "botticelli-mystic-nativity",
@@ -4701,7 +4849,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Holger Uwe Schmitt"
-     }
+     },
+     "ck": "wga:r/riemensc/4rotheo",
+     "cp": 3120
     },
     {
      "id": "durer-betrayal-large-passion",
@@ -4795,7 +4945,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Quinten Metsys"
-     }
+     },
+     "ck": "Q6153533",
+     "cp": 15
     },
     {
      "id": "grunewald-isenheim-crucifixion",
@@ -4840,7 +4992,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "joergens.mi"
-     }
+     },
+     "ck": "Q3698190",
+     "cp": 262
     },
     {
      "id": "titian-noli-me-tangere",
@@ -4884,7 +5038,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Titian"
-     }
+     },
+     "ck": "Q3877895",
+     "cp": 7
     },
     {
      "id": "bosch-christ-carrying-the-cross-ghent",
@@ -4928,7 +5084,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Hieronymus Bosch or follower"
-     }
+     },
+     "ck": "Q680128",
+     "cp": 395
     },
     {
      "id": "titian-tribute-money",
@@ -5011,7 +5169,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Matthieu.lett.ube"
-     }
+     },
+     "ck": "Q2344437",
+     "cp": 286
     },
     {
      "id": "santo-nino-de-cebu",
@@ -5055,7 +5215,9 @@ window.DEPICTIONS = {
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "credit": "Cofradiabsn"
-     }
+     },
+     "ck": "Q15054968",
+     "cp": 142
     },
     {
      "id": "holbein-dead-christ-in-the-tomb",
@@ -5140,7 +5302,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Wknight94 talk"
-     }
+     },
+     "ck": "Q2182509",
+     "cp": 397
     },
     {
      "id": "correggio-holy-night",
@@ -5272,7 +5436,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Didier Descouens"
-     }
+     },
+     "ck": "feat:mass-of-saint-gregory-feather-mosaic",
+     "cp": 308
     },
     {
      "id": "cranach-weimar-altarpiece",
@@ -5312,7 +5478,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Wolfgang Sauber"
-     }
+     },
+     "ck": "Q117071454",
+     "cp": 1711
     },
     {
      "id": "veronese-wedding-at-cana",
@@ -5394,7 +5562,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Pieter Brueghel the Elder"
-     }
+     },
+     "ck": "Q686107",
+     "cp": 39
     },
     {
      "id": "el-greco-el-expolio",
@@ -5434,7 +5604,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "GoldenArtists"
-     }
+     },
+     "ck": "Q2714617",
+     "cp": 7
     },
     {
      "id": "tintoretto-last-supper",
@@ -5524,7 +5696,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": ""
-     }
+     },
+     "ck": "Q85630369",
+     "cp": 1932
     },
     {
      "id": "kyoto-fifteen-mysteries-of-the-rosary",
@@ -5625,7 +5799,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Caravaggio"
-     }
+     },
+     "ck": "wga:c/caravagg/04/23conta",
+     "cp": 7
     },
     {
      "id": "caravaggio-supper-at-emmaus",
@@ -5670,7 +5846,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Caravaggio"
-     }
+     },
+     "ck": "Q318947",
+     "cp": 7
     },
     {
      "id": "caravaggio-taking-of-christ",
@@ -5710,7 +5888,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Caravaggio"
-     }
+     },
+     "ck": "Q541376",
+     "cp": 187
     },
     {
      "id": "caravaggio-entombment-of-christ",
@@ -5793,7 +5973,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Peter Paul Rubens"
-     }
+     },
+     "ck": "Q2653851",
+     "cp": 6
     },
     {
      "id": "rubens-descent-from-the-cross-antwerp",
@@ -5880,7 +6062,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Rodelar"
-     }
+     },
+     "ck": "feat:gregorio-fernandez-cristo-yacente",
+     "cp": 1744
     },
     {
      "id": "zurbaran-christ-on-the-cross-chicago",
@@ -5924,7 +6108,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Francisco de Zurbarán"
-     }
+     },
+     "ck": "Q3221342",
+     "cp": 54
     },
     {
      "id": "velazquez-christ-crucified",
@@ -6015,7 +6201,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Georges de La Tour"
-     }
+     },
+     "ck": "Q743643",
+     "cp": 551
     },
     {
      "id": "rembrandt-hundred-guilder-print",
@@ -6101,7 +6289,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Rembrandt"
-     }
+     },
+     "ck": "Q1241088",
+     "cp": 14
     },
     {
      "id": "kongo-crucifix-nkangi-kiditu",
@@ -6145,7 +6335,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": ""
-     }
+     },
+     "ck": "feat:kongo-crucifix-nkangi-kiditu",
+     "cp": 1939
     },
     {
      "id": "rembrandt-head-of-christ-philadelphia",
@@ -6280,7 +6472,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Simon Ushakov"
-     }
+     },
+     "ck": "feat:ushakov-saviour-not-made-by-hands",
+     "cp": 884
     },
     {
      "id": "fumi-e-christ-on-the-cross",
@@ -6324,7 +6518,9 @@ window.DEPICTIONS = {
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "東京国立博物館"
-     }
+     },
+     "ck": "feat:fumi-e-christ-on-the-cross",
+     "cp": 2943
     },
     {
      "id": "goa-ivory-christ-good-shepherd",
@@ -6364,7 +6560,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Daderot"
-     }
+     },
+     "ck": "feat:goa-ivory-christ-good-shepherd",
+     "cp": 851
     },
     {
      "id": "gondarine-kwerata-reesu",
@@ -6451,7 +6649,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Bartolomé Esteban Murillo"
-     }
+     },
+     "ck": "commons:115196098",
+     "cp": 54
     },
     {
      "id": "bernini-salvator-mundi",
@@ -6494,7 +6694,9 @@ window.DEPICTIONS = {
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "credit": "Sailko"
-     }
+     },
+     "ck": "Q3647645",
+     "cp": 520
     },
     {
      "id": "tiepolo-christ-carrying-the-cross",
@@ -6538,7 +6740,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Giovanni Battista Tiepolo"
-     }
+     },
+     "ck": "Q75192045",
+     "cp": 81
     },
     {
      "id": "marcos-zapata-last-supper-cusco",
@@ -6628,7 +6832,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Pompeo Batoni"
-     }
+     },
+     "ck": "feat:batoni-sacred-heart-of-jesus",
+     "cp": 52
     },
     {
      "id": "caspicara-sabana-santa-quito",
@@ -6672,7 +6878,9 @@ window.DEPICTIONS = {
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "Ranoutofusername"
-     }
+     },
+     "ck": "feat:caspicara-sabana-santa-quito",
+     "cp": 2970
     },
     {
      "id": "aleijadinho-congonhas-crucifixion",
@@ -6721,7 +6929,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Ricardo André Frantz - Tetraktys"
-     }
+     },
+     "ck": "feat:aleijadinho-congonhas-crucifixion",
+     "cp": 1824
     }
    ]
   },
@@ -6824,7 +7034,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "William Blake"
-     }
+     },
+     "ck": "vam:O74285",
+     "cp": 42
     },
     {
      "id": "thorvaldsen-christus",
@@ -6869,7 +7081,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Ib Rasmussen"
-     }
+     },
+     "ck": "Q5113613",
+     "cp": 249
     },
     {
      "id": "scheffer-christus-consolator",
@@ -6913,7 +7127,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Ary Scheffer"
-     }
+     },
+     "ck": "feat:scheffer-christus-consolator",
+     "cp": 2623
     },
     {
      "id": "ivanov-appearance-of-christ",
@@ -7052,7 +7268,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "William Holman Hunt"
-     }
+     },
+     "ck": "Q1757920",
+     "cp": 42
     },
     {
      "id": "delacroix-christ-asleep-during-the-tempest",
@@ -7096,7 +7314,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Eugène Delacroix"
-     }
+     },
+     "ck": "Q19911431",
+     "cp": 42
     },
     {
      "id": "burne-jones-merciful-knight",
@@ -7183,7 +7403,9 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Édouard Manet"
-     }
+     },
+     "ck": "Q2752079",
+     "cp": 10
     },
     {
      "id": "dore-christ-leaving-the-praetorium",
@@ -7223,7 +7445,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "Morio60"
-     }
+     },
+     "ck": "Q3221346",
+     "cp": 10
     },
     {
      "id": "ciseri-ecce-homo",
@@ -7310,7 +7534,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Ivan Kramskoi"
-     }
+     },
+     "ck": "Q2354080",
+     "cp": 306
     },
     {
      "id": "bloch-sermon-on-the-mount",
@@ -7401,7 +7627,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Max Liebermann"
-     }
+     },
+     "ck": "Q108718081",
+     "cp": 64
     },
     {
      "id": "munkacsy-christ-before-pilate",
@@ -7442,7 +7670,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Mihály Munkácsy"
-     }
+     },
+     "ck": "wga:m/munkacsy/trilog1",
+     "cp": 813
     },
     {
      "id": "uhde-suffer-the-little-children",
@@ -7487,7 +7717,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Fritz von Uhde"
-     }
+     },
+     "ck": "feat:uhde-suffer-the-little-children",
+     "cp": 1559
     },
     {
      "id": "ensor-christs-entry-into-brussels",
@@ -7620,7 +7852,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Paul Gauguin"
-     }
+     },
+     "ck": "Q500951",
+     "cp": 531
     },
     {
      "id": "hofmann-christ-and-the-rich-young-ruler",
@@ -7660,7 +7894,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Heinrich Hofmann"
-     }
+     },
+     "ck": "feat:hofmann-christ-and-the-rich-young-ruler",
+     "cp": 2844
     },
     {
      "id": "denis-orange-christ",
@@ -7886,7 +8122,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Max Klinger"
-     }
+     },
+     "ck": "wga:k/klinger/paintin2",
+     "cp": 29
     },
     {
      "id": "pia-shroud-of-turin-negative",
@@ -7930,7 +8168,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Secundo Pia"
-     }
+     },
+     "ck": "feat:pia-shroud-of-turin-negative",
+     "cp": 2820
     },
     {
      "id": "tanner-nicodemus",
@@ -7975,7 +8215,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Henry Ossawa Tanner"
-     }
+     },
+     "ck": "Q20180001",
+     "cp": 10
     },
     {
      "id": "nesterov-holy-rus",
@@ -8019,7 +8261,8 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": ""
-     }
+     },
+     "ck": "commons:178759722"
     }
    ]
   },
@@ -8075,7 +8318,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Daderot"
-     }
+     },
+     "ck": "feat:gill-westminster-stations-trial-panel",
+     "cp": 30
     },
     {
      "id": "beckmann-descent-from-the-cross",
@@ -8119,7 +8364,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Max Beckmann"
-     }
+     },
+     "ck": "Q19883772",
+     "cp": 503
     },
     {
      "id": "jawlensky-face-of-the-saviour-crown-of-thorns",
@@ -8159,7 +8406,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Alexej von Jawlensky"
-     }
+     },
+     "ck": "feat:jawlensky-face-of-the-saviour-crown-of-thorns",
+     "cp": 833
     },
     {
      "id": "denis-noli-me-tangere-reims",
@@ -8330,7 +8579,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Nicholas Roerich"
-     }
+     },
+     "ck": "feat:roerich-signs-of-christ",
+     "cp": 2
     },
     {
      "id": "egger-lienz-risen-christ-lienz",
@@ -8374,7 +8625,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Albin Egger-Lienz"
-     }
+     },
+     "ck": "feat:egger-lienz-risen-christ-lienz",
+     "cp": 1800
     },
     {
      "id": "barlach-das-wiedersehen",
@@ -8418,7 +8671,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Ernst Barlach"
-     }
+     },
+     "ck": "feat:barlach-das-wiedersehen",
+     "cp": 29
     },
     {
      "id": "christ-the-redeemer-rio",
@@ -8503,7 +8758,9 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Eugeniusz Kazimirowski"
-     }
+     },
+     "ck": "Q124819150",
+     "cp": 891
     },
     {
      "id": "epstein-ecce-homo-coventry",
@@ -8543,7 +8800,9 @@ window.DEPICTIONS = {
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Jim Linwood"
-     }
+     },
+     "ck": "feat:epstein-ecce-homo-coventry",
+     "cp": 30
     },
     {
      "id": "chagall-white-crucifixion",
@@ -8576,7 +8835,9 @@ window.DEPICTIONS = {
       }
      ],
      "era": "modern",
-     "image": null
+     "image": null,
+     "ck": "Q3698207",
+     "cp": 10
     },
     {
      "id": "sallman-head-of-christ",
@@ -8651,7 +8912,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Cacophony"
-     }
+     },
+     "ck": "feat:cristo-blanco-cusco",
+     "cp": 3209
     },
     {
      "id": "dali-christ-of-saint-john-of-the-cross",
@@ -8739,7 +9002,9 @@ window.DEPICTIONS = {
       }
      ],
      "era": "modern",
-     "image": null
+     "image": null,
+     "ck": "Q869818",
+     "cp": 553
     },
     {
      "id": "dali-sacrament-of-the-last-supper",
@@ -8855,7 +9120,8 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Diego Delso"
-     }
+     },
+     "ck": "Q805446"
     },
     {
      "id": "sadao-watanabe-katazome-christ",
@@ -9029,7 +9295,9 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Maria Cristina Tajima"
-     }
+     },
+     "ck": "Q259633",
+     "cp": 35
     },
     {
      "id": "he-qi-gospel-paintings",
@@ -9096,7 +9364,9 @@ window.DEPICTIONS = {
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "tomasz przechlewski"
-     }
+     },
+     "ck": "Q805442",
+     "cp": 36
     }
    ]
   }

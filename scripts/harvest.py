@@ -408,6 +408,45 @@ def shard_of(key):
     return "%02x" % (h & 0xFF)
 
 
+FORM_KIND = {"Painting": "painting", "Fresco": "fresco", "Mosaic": "mosaic", "Icon": "icon", "Sculpture": "sculpture",
+             "Relief": "relief", "Manuscript": "manuscript", "Stained Glass": "stained glass", "Metalwork": "metalwork",
+             "Textile": "textile", "Print": "print", "Drawing": "drawing", "Photograph": "photograph", "Monument": "monument"}
+
+
+def add_featured(works):
+    """Add featured journey works that the collection lacks (per data/map/featured-links.json).
+
+    Returns {key: detail} for their descriptions (the featured text is hand-written and fact-checked).
+    """
+    links_path = ROOT / "data" / "map" / "featured-links.json"
+    data_js = ROOT / "assets" / "js" / "data.js"
+    if not links_path.exists() or not data_js.exists():
+        return {}
+    links = json.loads(links_path.read_text())
+    src = data_js.read_text()
+    featured = json.loads(src[src.index("{"):src.rindex("}") + 1])
+    details, n = {}, 0
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from subjects import classify
+    for era in featured["eras"]:
+        for e in era["entries"]:
+            if links.get(e["id"], {}).get("action") != "add" or not e.get("image"):
+                continue
+            key = f"feat:{e['id']}"
+            img = e["image"]
+            works.append({
+                "id": key, "t": e["title"], "y": e["year"], "d": e["date"], "a": e.get("artist", ""),
+                "c": e.get("created", ""), "l": e.get("location", ""), "m": e.get("medium", ""), "s": e.get("style", ""),
+                "k": FORM_KIND.get(e.get("form"), (e.get("form") or "").lower()),
+                "img": img["thumb"], "big": img["src"], "src": img.get("page") or "", "lic": img.get("license", ""),
+                "u": classify(e["title"], e.get("summary", "")[:200]) or ["Jesus Christ"], "fe": e["id"], "v": 1,
+            })
+            details[key] = {x: e[x] for x in ("summary", "scripture", "facts", "links") if e.get(x)}
+            n += 1
+    print(f"  added {n} featured works missing from the collection")
+    return details
+
+
 def apply_enrichment(works):
     """Merge hand-checked entries from data/enrich/batches/ into the works.
 
@@ -530,7 +569,10 @@ def main():
         works.append(w)
 
     works = merge_sources(works)
+    featured_details = add_featured(works)
     works, details = apply_enrichment(works)
+    for k, d in featured_details.items():
+        details[shard_of(k)][k] = d
     # Hand corrections where the catalogue data is known to be wrong.
     OVERRIDES = {
         "Q577890": {"y": 200},  # Alexamenos graffito: usually dated c. AD 200 (Wikidata says 100)

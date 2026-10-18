@@ -1,0 +1,1378 @@
+{
+ "alexamenos-graffito": {
+  "action": "match",
+  "key": "Q577890",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Alexamenos Graffito' agrees."
+ },
+ "dura-europos-healing-of-the-paralytic": {
+  "action": "match",
+  "key": "Q49289775",
+  "duplicates": [],
+  "note": "Same Dura-Europos baptistery fresco (Yale 1932.1202), different photograph."
+ },
+ "good-shepherd-catacomb-of-callixtus": {
+  "action": "match",
+  "key": "wga:zearly/1/2mural/4callist/callist6",
+  "duplicates": [],
+  "note": "Probable: WGA 'The Good Shepherd', Catacomb of Callixtus, shepherd with milk pail in a medallion, as in the featured photo (Commons category Crypt of Lucina). Distinct from cur:catacombs-lucina-good-shepherd-wilpert35, which its notes say is a different Lucina Good Shepherd."
+ },
+ "christ-as-sol-tomb-of-the-julii": {
+  "action": "match",
+  "key": "Q18673023",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ as Sol (Helios) — Mosaic in the Tomb of the Julii' agrees."
+ },
+ "good-shepherd-statue-pio-cristiano": {
+  "action": "match",
+  "key": "wga:zearly/1/1sculptu/various/7statue1",
+  "duplicates": [
+   "Q117321320"
+  ],
+  "note": "Same marble Good Shepherd statue in the Museo Pio Cristiano (reworked in the 18th century); Q117321320 is another photo of it (undated Wikidata entry)."
+ },
+ "hinton-st-mary-mosaic": {
+  "action": "match",
+  "key": "Q11012952",
+  "duplicates": [],
+  "note": "Same mosaic (British Museum); collection shows the whole pavement, featured the central roundel."
+ },
+ "sarcophagus-of-junius-bassus": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "bearded-christ-catacomb-of-commodilla": {
+  "action": "match",
+  "key": "commons:81707299",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Bust of Christ between Alpha and Omega (Catacomb of Commodilla)' agrees."
+ },
+ "brescia-casket": {
+  "action": "match",
+  "key": "Q3390834",
+  "duplicates": [],
+  "note": "Same ivory casket, Museo di Santa Giulia."
+ },
+ "santa-pudenziana-apse-mosaic": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found (only a later fresco from Santa Pudenziana is in the collection)."
+ },
+ "maskell-ivory-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "santa-sabina-door-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "santa-maria-maggiore-adoration-of-the-magi": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has other triumphal-arch scenes of Santa Maria Maggiore (Presentation, Aphrodisius) but not the Adoration of the Magi."
+ },
+ "galla-placidia-good-shepherd": {
+  "action": "match",
+  "key": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5",
+  "duplicates": [],
+  "note": "Same lunette mosaic, Mausoleum of Galla Placidia."
+ },
+ "neonian-baptistery-baptism": {
+  "action": "match",
+  "key": "commons:98691704",
+  "duplicates": [],
+  "note": "Same dome mosaic, Baptistery of Neon."
+ },
+ "hosios-david-christ-in-glory": {
+  "action": "match",
+  "key": "Q112785721",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Vision of Christ in Glory ('Icon of Christ of Latomos'), Apse Mosaic, Hosios David, Thessaloniki' agrees."
+ },
+ "archbishops-chapel-christ-warrior": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has only the separate medallion of the young Christ from the same chapel (cur:monumental-archiepiscopal-chapel-christ-medallion), a different mosaic."
+ },
+ "sant-apollinare-nuovo-christ-enthroned": {
+  "action": "match",
+  "key": "wga:zearly/1/4mosaics/2ravenna/4nuovo/2south5",
+  "duplicates": [],
+  "note": "Same mosaic: Christ enthroned with four angels, south wall of Sant'Apollinare Nuovo."
+ },
+ "barberini-ivory": {
+  "action": "match",
+  "key": "Q807809",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Barberini Ivory' agrees."
+ },
+ "santi-cosma-e-damiano-apse-mosaic": {
+  "action": "match",
+  "key": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
+  "duplicates": [],
+  "note": "Same apse mosaic, Santi Cosma e Damiano."
+ },
+ "antioch-chalice": {
+  "action": "match",
+  "key": "Q29385468",
+  "duplicates": [],
+  "note": "Same object, Metropolitan Museum of Art (Cloisters)."
+ },
+ "san-vitale-christ-on-the-globe": {
+  "action": "match",
+  "key": "wga:zearly/1/4mosaics/2ravenna/5vitale/2conch1",
+  "duplicates": [],
+  "note": "Same apse mosaic, San Vitale."
+ },
+ "sant-apollinare-in-classe-transfiguration-cross": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has only the triumphal-arch Christ and a sarcophagus from Sant'Apollinare in Classe."
+ },
+ "sinai-christ-pantocrator": {
+  "action": "match",
+  "key": "Q4501499",
+  "duplicates": [],
+  "note": "Same icon, Saint Catherine's Monastery."
+ },
+ "rossano-gospels-christ-before-pilate": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has other Rossano Gospels folios, including fol. 8v (Pilate's choice between Christ and Barabbas, cur:manuscripts-rossano-christ-barabbas), but not fol. 8r."
+ },
+ "cleveland-tapestry-icon-of-the-virgin": {
+  "action": "match",
+  "key": "Q60745622",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Icon of the Virgin and Child' agrees."
+ },
+ "sinai-transfiguration-apse-mosaic": {
+  "action": "match",
+  "key": "commons:98691695",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Transfiguration (Apse Mosaic, Saint Catherine's Monastery)' agrees."
+ },
+ "stuma-paten-communion-of-the-apostles": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "rabbula-gospels-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has other Rabbula Gospels folios (4v, 13v, 14r, 1v) but not fol. 13r."
+ },
+ "holy-land-pilgrim-ampulla-crucifixion": {
+  "action": "match",
+  "key": "Q60779306",
+  "duplicates": [],
+  "note": "Same ampulla, Cleveland Museum of Art 1999.46."
+ },
+ "christ-and-abbot-mena": {
+  "action": "match",
+  "key": "Q9191525",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ and Abbot Mena' agrees."
+ },
+ "bawit-apse-christ-in-majesty": {
+  "action": "match",
+  "key": "wga:zearly/1/5coptic/painting/1bawit2",
+  "duplicates": [
+   "wga:zearly/1/5coptic/painting/1bawit4"
+  ],
+  "note": "The featured work is the whole two-register Bawit apse in the Coptic Museum. The collection splits it in two: the upper register (Christ enthroned in glory, the key) and the lower register (Virgin and Child between apostles, listed as a duplicate because it is part of the same apse)."
+ },
+ "solidus-of-justinian-ii-christ": {
+  "action": "match",
+  "key": "Q80079053",
+  "duplicates": [],
+  "note": "Same coin, Cleveland Museum of Art 2012.47 (second reign, 705–711). Not the first-reign solidi in the collection (yuag:93256, cur:objects-coin-justinian-ii-first-reign-solidus), which are different coins."
+ },
+ "ruthwell-cross": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "godescalc-evangelistary-christ": {
+  "action": "match",
+  "key": "commons:25371411",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ in Majesty, from the Godescalc Evangelistary' agrees."
+ },
+ "book-of-kells-christ-enthroned": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has other Book of Kells folios (114r, 202v) but not fol. 32v."
+ },
+ "volto-santo-lucca": {
+  "action": "match",
+  "key": "Q1780180",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Volto Santo (Holy Face) of Lucca' agrees."
+ },
+ "lorsch-gospels-ivory-christ-treading-beasts": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has the front cover (V&A) and miniatures from the Lorsch Gospels but not the Vatican back cover."
+ },
+ "utrecht-psalter-psalm-11": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection holds many Utrecht Psalter illustrations, but not Psalm 11 (the Psalm 12 entry is a different page)."
+ },
+ "mogao-christian-silk-painting": {
+  "action": "match",
+  "key": "Q55347059",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christian Figure (fragment), from the Mogao Caves' agrees."
+ },
+ "hagia-sophia-imperial-gate-mosaic": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "romanos-ivory": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "harbaville-triptych": {
+  "action": "match",
+  "key": "Q23356",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Harbaville Triptych' agrees."
+ },
+ "gero-cross": {
+  "action": "match",
+  "key": "Q653601",
+  "duplicates": [],
+  "note": "Same crucifix, Cologne Cathedral."
+ },
+ "jelling-stone-christ": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "benedictional-of-aethelwold-baptism": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has other pages of the Benedictional (fol. 45v, Trinity initial) but not the Baptism."
+ },
+ "etchmiadzin-gospels-christ-enthroned": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has only the Adoration of the Magi from the Etchmiadzin Gospels."
+ },
+ "faras-cathedral-nativity": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the Faras paintings in the collection are other murals (in Warsaw), not the Nativity in Khartoum."
+ },
+ "gospels-of-otto-iii-washing-of-the-feet": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has many other miniatures from the Gospels of Otto III but not the Washing of the Feet."
+ },
+ "bernward-doors": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has the Bernward Column (Q786001), a different object."
+ },
+ "saint-sophia-kyiv-pantocrator": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "facundus-beatus-throne-vision": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "daphni-pantocrator": {
+  "action": "match",
+  "key": "commons:98503161",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ Pantocrator (dome mosaic), Daphni Monastery' agrees."
+ },
+ "conques-last-judgment-tympanum": {
+  "action": "match",
+  "key": "commons:132629185",
+  "duplicates": [],
+  "note": "Same Last Judgment tympanum at Conques ('Conques Weltgerichtsportal', undated Commons entry)."
+ },
+ "pantocrator-sant-climent-taull": {
+  "action": "match",
+  "key": "Q110184288",
+  "duplicates": [
+   "Q3304387"
+  ],
+  "note": "Same apse painting (MNAC). Q110184288 is the Christ in Majesty itself; Q3304387 shows the whole apse of Sant Climent and is listed as a duplicate."
+ },
+ "khakhuli-triptych": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "virgin-of-vladimir": {
+  "action": "match",
+  "key": "Q546241",
+  "duplicates": [],
+  "note": "Same icon (Theotokos of Vladimir); the collection gives the Tretyakov Gallery as its location."
+ },
+ "cefalu-pantocrator": {
+  "action": "match",
+  "key": "commons:98691674",
+  "duplicates": [],
+  "note": "Same apse mosaic, Cefalù Cathedral."
+ },
+ "majestat-batllo": {
+  "action": "match",
+  "key": "Q3111703",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Batlló Majesty' agrees."
+ },
+ "san-damiano-cross": {
+  "action": "match",
+  "key": "Q2348017",
+  "duplicates": [
+   "wga:m/master/xunk_it/xunk_it0/03cruc"
+  ],
+  "note": "Same painted cross (Santa Chiara, Assisi); the WGA entry is another photo of it."
+ },
+ "novgorod-saviour-not-made-by-hands": {
+  "action": "match",
+  "key": "Q223246",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Saviour Not Made by Hands (Mandylion of Novgorod)' agrees."
+ },
+ "studenica-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "beau-dieu-amiens": {
+  "action": "match",
+  "key": "wga:zgothic/gothic/1/11f_1230",
+  "duplicates": [
+   "Q84711050"
+  ],
+  "note": "Same trumeau statue of Christ at Amiens Cathedral (WGA: 'popularly known as the beau dieu'); Q84711050 'Beau Dieu' is another photo of it (undated Wikidata entry)."
+ },
+ "sainte-chapelle-passion-window": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "hilandar-christ-pantocrator-icon": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "deesis-hagia-sophia": {
+  "action": "match",
+  "key": "wga:zgothic/mosaics/9/8istanbu1",
+  "duplicates": [
+   "commons:15165689"
+  ],
+  "note": "Same Deesis mosaic in Hagia Sophia. commons:15165689 is a close-up of the Christ from it, listed as a duplicate."
+ },
+ "toros-roslin-transfiguration": {
+  "action": "match",
+  "key": "walters:W.539.163R",
+  "duplicates": [],
+  "note": "Same page: Walters MS W.539, fol. 163r."
+ },
+ "cimabue-crucifix-arezzo": {
+  "action": "match",
+  "key": "wga:c/cimabue/crucifix/cruci_a",
+  "duplicates": [],
+  "note": "Same crucifix, San Domenico, Arezzo."
+ },
+ "cavallini-last-judgment": {
+  "action": "match",
+  "key": "Q66369800",
+  "duplicates": [
+   "wga:c/cavallin/lastjudg/02lastju",
+   "wga:c/cavallin/lastjudg/20lastju",
+   "commons:159970345"
+  ],
+  "note": "Same Last Judgment fresco in Santa Cecilia in Trastevere. The duplicates are other photos and details of it: WGA 02lastju (Christ with the Virgin, Baptist and apostles), WGA 20lastju (the blessed, lower register), and commons:159970345 (Christ and the apostles)."
+ },
+ "gabelkreuz-st-maria-im-kapitol": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "giotto-lamentation": {
+  "action": "match",
+  "key": "Q2067212",
+  "duplicates": [
+   "wga:g/giotto/padova/3christ/chris20",
+   "wga:g/giotto/padova/3christ/chris201",
+   "commons:29521734"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Lamentation' agrees. Other photos and a detail of the same Scrovegni fresco (WGA and a WGA-derived Commons file)."
+ },
+ "giotto-kiss-of-judas": {
+  "action": "match",
+  "key": "Q3504778",
+  "duplicates": [
+   "wga:g/giotto/padova/3christ/chris15",
+   "wga:g/giotto/padova/3christ/chris151"
+  ],
+  "note": "Same Scrovegni Chapel fresco. The WGA entries are another photo of it and a detail."
+ },
+ "duccio-entry-into-jerusalem": {
+  "action": "match",
+  "key": "wga:d/duccio/maesta/verso_1/verso01",
+  "duplicates": [
+   "wga:d/duccio/maesta/verso_1/verso01a"
+  ],
+  "note": "Same Maestà panel (Museo dell'Opera del Duomo, Siena); verso01a is a detail of it."
+ },
+ "duccio-temptation-on-the-mount": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "lorenzetti-deposition-assisi": {
+  "action": "match",
+  "key": "Q3705708",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Deposition of Christ from the Cross' agrees."
+ },
+ "chora-anastasis": {
+  "action": "match",
+  "key": "commons:50399629",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Anastasis (Harrowing of Hell), parekklesion apse, Chora Church' agrees."
+ },
+ "gracanica-dome-pantocrator": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "simone-martini-christ-discovered-in-the-temple": {
+  "action": "match",
+  "key": "Q19607289",
+  "duplicates": [
+   "wga:s/simone/7last/6christ"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ discovered in the temple' agrees. WGA 'Christ Returning to his Parents' (1342, Walker Art Gallery) is the same panel."
+ },
+ "parisian-ivory-passion-diptych": {
+  "action": "match",
+  "key": "walters:71.179",
+  "duplicates": [],
+  "note": "Same diptych, Walters Art Museum 71.179."
+ },
+ "theophanes-pantocrator-ilyina-street": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "wilton-diptych": {
+  "action": "match",
+  "key": "Q1813497",
+  "duplicates": [
+   "wga:m/master/yunk_fr/yunk_fr1/07wilton"
+  ],
+  "note": "Same diptych (National Gallery, London). Q1813497 shows the whole diptych; the WGA entry is only its right wing (Virgin and Child with angels), listed as a duplicate."
+ },
+ "sluter-champmol-head-of-christ": {
+  "action": "match",
+  "key": "wga:s/sluter/moses/w_moset2",
+  "duplicates": [],
+  "note": "Same fragment: Sluter's Christ from the Calvary of the Well of Moses, Musée Archéologique, Dijon. Not the same as rijks:BK-2021-16, a separate small Calvary."
+ },
+ "rublev-trinity": {
+  "action": "match",
+  "key": "Q570188",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Trinity icon' agrees."
+ },
+ "tres-riches-heures-temptation-of-christ": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has only the Adoration of the Magi from the Très Riches Heures."
+ },
+ "rublev-zvenigorod-savior": {
+  "action": "match",
+  "key": "Q5109001",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ the Redeemer' agrees."
+ },
+ "campin-seilern-triptych": {
+  "action": "match",
+  "key": "Q18719519",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Triptych with the Entombment of Christ' agrees."
+ },
+ "masaccio-holy-trinity": {
+  "action": "match",
+  "key": "Q977200",
+  "duplicates": [
+   "wga:m/masaccio/trinity/trinity"
+  ],
+  "note": "Same fresco, Santa Maria Novella; the WGA entry is another photo of it."
+ },
+ "ghent-altarpiece": {
+  "action": "match",
+  "key": "Q734834",
+  "duplicates": [],
+  "note": "The collection has no entry for the whole altarpiece; the most complete is the God Almighty panel (Q734834, St Bavo's Cathedral), so it is used for the whole work."
+ },
+ "van-der-weyden-descent-from-the-cross": {
+  "action": "match",
+  "key": "Q568847",
+  "duplicates": [
+   "commons:125059470"
+  ],
+  "note": "Same painting, Museo del Prado; commons:125059470 is another photo of the Prado original (its Commons category). Not the same as Q59770853, a 16th-century copy also in the Prado."
+ },
+ "fra-angelico-transfiguration": {
+  "action": "match",
+  "key": "Q3997714",
+  "duplicates": [
+   "wga:a/angelico/09/cells/06_trans"
+  ],
+  "note": "Same fresco, Cell 6, San Marco; the WGA entry is another photo of it."
+ },
+ "fra-angelico-noli-me-tangere": {
+  "action": "match",
+  "key": "Q3877893",
+  "duplicates": [],
+  "note": "Same fresco, Cell 1, San Marco."
+ },
+ "fre-seyon-diptych": {
+  "action": "match",
+  "key": "walters:36.12",
+  "duplicates": [],
+  "note": "Same diptych, Walters Art Museum 36.12."
+ },
+ "piero-baptism-of-christ": {
+  "action": "match",
+  "key": "Q2632688",
+  "duplicates": [
+   "wga:p/piero/3/02bapti1"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Baptism of Christ' agrees. The WGA entry is another photo of the same National Gallery painting."
+ },
+ "bellini-agony-in-the-garden": {
+  "action": "match",
+  "key": "Q1131110",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Agony in the Garden' agrees."
+ },
+ "antonello-salvator-mundi": {
+  "action": "match",
+  "key": "Q3945928",
+  "duplicates": [
+   "wga:a/antonell/salvator"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ Blessing' agrees. The WGA entry is another photo of the same National Gallery painting."
+ },
+ "memling-last-judgment-gdansk": {
+  "action": "match",
+  "key": "Q701035",
+  "duplicates": [
+   "wga:m/memling/1early3/02last",
+   "wga:m/memling/1early3/02last1",
+   "wga:m/memling/1early3/02last2",
+   "wga:m/memling/1early3/02last3",
+   "wga:m/memling/1early3/02last4",
+   "wga:m/memling/1early3/02last10"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Last Judgment' agrees. The WGA entries are views and panels of the same Gdańsk triptych (open, closed, central, left wing, details)."
+ },
+ "memling-scenes-from-the-passion": {
+  "action": "match",
+  "key": "Q2446983",
+  "duplicates": [
+   "wga:m/memling/1early2/04passi1"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Scenes from the Passion of Christ' agrees. The WGA entry is a detail (left side) of the same Turin panel."
+ },
+ "verrocchio-leonardo-baptism-of-christ": {
+  "action": "match",
+  "key": "Q1059211",
+  "duplicates": [],
+  "note": "Same painting, Uffizi."
+ },
+ "portinari-altarpiece": {
+  "action": "match",
+  "key": "Q18686031",
+  "duplicates": [
+   "wga:g/goes/portinar/centre"
+  ],
+  "note": "Same triptych (Uffizi). Q18686031 shows the whole triptych; the WGA entry is its central panel, listed as a duplicate."
+ },
+ "mantegna-lamentation": {
+  "action": "match",
+  "key": "Q546297",
+  "duplicates": [
+   "wga:m/mantegna/09/1deadchr"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Lamentation of Christ' agrees. The WGA entry is another photo of the same Brera painting."
+ },
+ "perugino-delivery-of-the-keys": {
+  "action": "match",
+  "key": "Q2620028",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Delivery of the Keys' agrees."
+ },
+ "durer-christ-as-man-of-sorrows": {
+  "action": "match",
+  "key": "Q48447927",
+  "duplicates": [],
+  "note": "Same painting, Staatliche Kunsthalle Karlsruhe."
+ },
+ "leonardo-last-supper": {
+  "action": "match",
+  "key": "Q128910",
+  "duplicates": [
+   "wga:l/leonardo/03/4lastsu"
+  ],
+  "note": "Same mural, Santa Maria delle Grazie. The WGA entry shows the refectory with the mural after restoration and is listed as a duplicate. Copies and studies in the collection are not included."
+ },
+ "michelangelo-pieta": {
+  "action": "match",
+  "key": "Q235242",
+  "duplicates": [
+   "commons:454102",
+   "commons:3667082",
+   "commons:112957133",
+   "commons:165461473"
+  ],
+  "note": "Same sculpture, St Peter's Basilica. The duplicates are undated Commons photos of the original (each in the Commons category for the St Peter's Pietà). Copies (Havana grave, Parakan, the silver copy, walters:54.728) are not included."
+ },
+ "dionisius-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "botticelli-mystic-nativity": {
+  "action": "match",
+  "key": "Q974674",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Mystical Nativity' agrees."
+ },
+ "riemenschneider-holy-blood-altarpiece": {
+  "action": "match",
+  "key": "wga:r/riemensc/4rotheo",
+  "duplicates": [],
+  "note": "The collection has only the Last Supper group (WGA: 'a detail of the Holy Blood altarpiece'), Sankt Jakob, Rothenburg. It is the centrepiece of the featured altarpiece, so it is used for the whole work."
+ },
+ "durer-betrayal-large-passion": {
+  "action": "match",
+  "key": "Q18338551",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Large Passion:  The Betrayal of Christ' agrees."
+ },
+ "matsys-lamentation-carpenters-altarpiece": {
+  "action": "match",
+  "key": "Q6153533",
+  "duplicates": [],
+  "note": "Same painting: the Lamentation from the Carpenters' Altarpiece, 1511, Royal Museum of Fine Arts Antwerp."
+ },
+ "grunewald-isenheim-crucifixion": {
+  "action": "match",
+  "key": "Q3698190",
+  "duplicates": [
+   "commons:132900884"
+  ],
+  "note": "Same work: the Crucifixion panel of the Isenheim Altarpiece (Unterlinden Museum); commons:132900884 is a museum photo of it. The collection also has an entry for the whole altarpiece (Q591762), photos of its other panels, and WGA details. Those are kept separate because the featured entry is specifically the Crucifixion."
+ },
+ "titian-noli-me-tangere": {
+  "action": "match",
+  "key": "Q3877895",
+  "duplicates": [
+   "wga:t/tiziano/01_1510s/08nolim"
+  ],
+  "note": "Same painting, National Gallery, London; the WGA entry is another photo of it."
+ },
+ "bosch-christ-carrying-the-cross-ghent": {
+  "action": "match",
+  "key": "Q680128",
+  "duplicates": [],
+  "note": "Same painting, MSK Ghent. Not the Vienna (Q2567058, commons:104214850) or Escorial (Q2328603) versions."
+ },
+ "titian-tribute-money": {
+  "action": "match",
+  "key": "Q2459887",
+  "duplicates": [
+   "wga:t/tiziano/01_1510s/13tribut"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Tribute Money' agrees. The WGA entry is another photo of the same Dresden painting."
+ },
+ "raphael-transfiguration": {
+  "action": "match",
+  "key": "Q2344437",
+  "duplicates": [
+   "wga:r/raphael/5roma/5/10trans"
+  ],
+  "note": "Same painting, Pinacoteca Vaticana; the WGA entry is another photo of it. Copies and studies are not included."
+ },
+ "santo-nino-de-cebu": {
+  "action": "match",
+  "key": "Q15054968",
+  "duplicates": [],
+  "note": "Same statue, Basilica Minore del Santo Niño, Cebu. Several undated Commons photos of the Santo Niño (e.g. commons:157986672, commons:181977190) may show the original or replicas (some are labelled replicas), so they are not listed as duplicates."
+ },
+ "holbein-dead-christ-in-the-tomb": {
+  "action": "match",
+  "key": "Q4310527",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Body of the Dead Christ in the Tomb' agrees."
+ },
+ "michelangelo-risen-christ-minerva": {
+  "action": "match",
+  "key": "Q2182509",
+  "duplicates": [
+   "wga:m/michelan/1sculptu/2/4christ"
+  ],
+  "note": "Same statue, Santa Maria sopra Minerva; the WGA entry is another photo of it. Not the abandoned first version (Q3921825, Bassano Romano)."
+ },
+ "correggio-holy-night": {
+  "action": "match",
+  "key": "Q1527541",
+  "duplicates": [
+   "wga:c/correggi/madonna/night"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Nativity' agrees. The WGA entry is another photo of the same Dresden painting."
+ },
+ "michelangelo-last-judgment": {
+  "action": "match",
+  "key": "Q567861",
+  "duplicates": [
+   "wga:m/michelan/3sistina/lastjudg/0lastjud"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Last Judgment' agrees. The WGA entry is another photo of the same fresco."
+ },
+ "mass-of-saint-gregory-feather-mosaic": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "cranach-weimar-altarpiece": {
+  "action": "match",
+  "key": "Q117071454",
+  "duplicates": [
+   "Q116967058",
+   "wga:c/cranach/lucas_y/13crucif",
+   "wga:c/cranach/lucas_y/14crucix"
+  ],
+  "note": "Same altarpiece, Stadtkirche St. Peter und Paul, Weimar. Q117071454 is the triptych; the duplicates are other images of it and of its central Crucifixion panel, one a WGA detail with Cranach and Luther."
+ },
+ "veronese-wedding-at-cana": {
+  "action": "match",
+  "key": "Q185255",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Wedding at Cana' agrees."
+ },
+ "bruegel-procession-to-calvary": {
+  "action": "match",
+  "key": "Q686107",
+  "duplicates": [
+   "wga:b/bruegel/pieter_e/08/11calvar"
+  ],
+  "note": "Same painting, Kunsthistorisches Museum, Vienna; the WGA entry is another photo of it. Not the many Brueghel the Younger versions."
+ },
+ "el-greco-el-expolio": {
+  "action": "match",
+  "key": "Q2714617",
+  "duplicates": [
+   "wga:g/greco_el/04/0401grec"
+  ],
+  "note": "Same painting, Toledo Cathedral sacristy; the WGA entry is another photo of it. Not the other versions (Upton House, Contini Bonacossi, Santa Cruz, etc.)."
+ },
+ "tintoretto-last-supper": {
+  "action": "match",
+  "key": "Q2472983",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Last Supper' agrees."
+ },
+ "mughal-mirat-al-quds-abgar": {
+  "action": "match",
+  "key": "Q85630369",
+  "duplicates": [],
+  "note": "Same leaf: Mir'at al-quds, folio 143 recto, Cleveland Museum of Art 2005.145."
+ },
+ "kyoto-fifteen-mysteries-of-the-rosary": {
+  "action": "match",
+  "key": "Q134570304",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Madonna with the Infant Jesus and Her Fifteen Mysteries' agrees."
+ },
+ "caravaggio-calling-of-saint-matthew": {
+  "action": "match",
+  "key": "wga:c/caravagg/04/23conta",
+  "duplicates": [],
+  "note": "Same painting, Contarelli Chapel."
+ },
+ "caravaggio-supper-at-emmaus": {
+  "action": "match",
+  "key": "Q318947",
+  "duplicates": [],
+  "note": "Same painting, National Gallery, London. Not the Brera Emmaus (Q2097931)."
+ },
+ "caravaggio-taking-of-christ": {
+  "action": "match",
+  "key": "Q541376",
+  "duplicates": [
+   "wga:c/caravagg/03/191captu"
+  ],
+  "note": "Same painting, National Gallery of Ireland; the WGA entry is another photo of it."
+ },
+ "caravaggio-entombment-of-christ": {
+  "action": "match",
+  "key": "Q1213151",
+  "duplicates": [
+   "wga:c/caravagg/07/37depos"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Entombment of Christ' agrees. The WGA entry is another photo of the same Vatican painting."
+ },
+ "rubens-elevation-of-the-cross": {
+  "action": "match",
+  "key": "Q2653851",
+  "duplicates": [],
+  "note": "Same triptych, Antwerp Cathedral. Not the same as Q41796334, which looks like the separate Louvre oil sketch (MNR), or the Louvre and Grasse works."
+ },
+ "rubens-descent-from-the-cross-antwerp": {
+  "action": "match",
+  "key": "Q2667782",
+  "duplicates": [
+   "Q105612511",
+   "Q105612510",
+   "wga:r/rubens/11religi/07desce1",
+   "wga:r/rubens/11religi/07desce2",
+   "wga:r/rubens/11religi/07desce3",
+   "wga:r/rubens/11religi/07desce4",
+   "wga:r/rubens/11religi/07desce5"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Descent from the Cross' agrees. The duplicates are panels of the same Antwerp triptych (central panel, wings, outer wings). The other Rubens Descents (Lille, Saint-Omer, Courtauld, Kalisz, etc.) are separate works."
+ },
+ "gregorio-fernandez-cristo-yacente": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection's Fernández Dead Christ (wga:f/fernande/gregorio/deadchri) is the 1625 El Pardo version, a different sculpture. The Valladolid 1627 Cristo yacente is not in the collection."
+ },
+ "zurbaran-christ-on-the-cross-chicago": {
+  "action": "match",
+  "key": "Q3221342",
+  "duplicates": [],
+  "note": "Same painting, Art Institute of Chicago 1954.15."
+ },
+ "velazquez-christ-crucified": {
+  "action": "match",
+  "key": "Q2528741",
+  "duplicates": [
+   "wga:v/velazque/03/0307vela"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ Crucified' agrees. The WGA entry (1632, Prado) is the same San Plácido Christ. Not Q3698263, the separate 1631 Velázquez Christ on the Cross."
+ },
+ "la-tour-saint-joseph-the-carpenter": {
+  "action": "match",
+  "key": "Q743643",
+  "duplicates": [
+   "wga:l/la_tour/georges/2/06carpe"
+  ],
+  "note": "Same painting, Louvre; the WGA entry is another photo of it."
+ },
+ "rembrandt-hundred-guilder-print": {
+  "action": "match",
+  "key": "Q937279",
+  "duplicates": [
+   "rijks:RP-P-OB-601",
+   "nationalmuseum:231732",
+   "vam:O151802",
+   "europeana:9200579/k5xbaemt",
+   "Q80018842"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ Healing the Sick (‘Hundred Guilder Print’)' agrees. The duplicates are other impressions of the same etching (Rijksmuseum, Nationalmuseum Stockholm, V&A, Wellcome, Cleveland). They are separate sheets of the same work, so the caller may want to keep them; the cut fragments (Q76355792, Q80017105) are not listed."
+ },
+ "rembrandt-supper-at-emmaus-louvre": {
+  "action": "match",
+  "key": "Q1241088",
+  "duplicates": [],
+  "note": "Same painting, Louvre, 1648. Not the Copenhagen version (Q20355838) or the 1628 Jacquemart-André painting."
+ },
+ "kongo-crucifix-nkangi-kiditu": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the featured crucifix is Met 1999.295.7 (object 318323). The Kongo crucifixes in the collection are other Met objects."
+ },
+ "rembrandt-head-of-christ-philadelphia": {
+  "action": "match",
+  "key": "Q20809879",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Head of Christ' agrees."
+ },
+ "champaigne-dead-christ-louvre": {
+  "action": "match",
+  "key": "Q19943879",
+  "duplicates": [
+   "wga:c/champaig/philippe/deadchri"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Dead Christ' agrees. The WGA entry is another photo of the same Louvre painting."
+ },
+ "ushakov-saviour-not-made-by-hands": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection's Ushakov Mandylion (commons:259370) is the 1677 icon, not the 1658 Tretyakov icon."
+ },
+ "fumi-e-christ-on-the-cross": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "goa-ivory-christ-good-shepherd": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the Indo-Portuguese Good Shepherd ivories in the collection belong to other museums (Walters, Met, INAH)."
+ },
+ "gondarine-kwerata-reesu": {
+  "action": "match",
+  "key": "Q135515584",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Kwer‘ata re’esu' agrees."
+ },
+ "murillo-heavenly-and-earthly-trinities": {
+  "action": "match",
+  "key": "commons:115196098",
+  "duplicates": [],
+  "note": "Same painting (Murillo, The Heavenly and Earthly Trinities, National Gallery, London); Commons entry with no location."
+ },
+ "bernini-salvator-mundi": {
+  "action": "match",
+  "key": "Q3647645",
+  "duplicates": [],
+  "note": "Same bust, San Sebastiano fuori le mura."
+ },
+ "tiepolo-christ-carrying-the-cross": {
+  "action": "match",
+  "key": "Q75192045",
+  "duplicates": [],
+  "note": "Same painting (Salita al Calvario), Sant'Alvise, Venice. Not the Berlin modello (Q107438277) or Q21711484."
+ },
+ "marcos-zapata-last-supper-cusco": {
+  "action": "match",
+  "key": "Q136029633",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Last Supper' agrees."
+ },
+ "batoni-sacred-heart-of-jesus": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "caspicara-sabana-santa-quito": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "aleijadinho-congonhas-crucifixion": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has only the Christ Carrying the Cross from the Congonhas Passos (wga:l/lisboa/2christ), a different group."
+ },
+ "goya-christ-crucified": {
+  "action": "match",
+  "key": "Q3543898",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ Crucified' agrees."
+ },
+ "blake-christ-in-the-sepulchre": {
+  "action": "match",
+  "key": "vam:O74285",
+  "duplicates": [],
+  "note": "Same watercolour, V&A, c. 1805 (catalogued as 'The Angels hovering over the body of Christ in the Sepulchre')."
+ },
+ "thorvaldsen-christus": {
+  "action": "match",
+  "key": "Q5113613",
+  "duplicates": [],
+  "note": "Same statue, Church of Our Lady, Copenhagen. Copies and casts elsewhere are not included."
+ },
+ "scheffer-christus-consolator": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection has the Musée Bartholdi version (Q108159214), not the Amsterdam Museum painting."
+ },
+ "ivanov-appearance-of-christ": {
+  "action": "match",
+  "key": "Q4536026",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Appearance of Christ Before the People' agrees."
+ },
+ "millais-christ-in-the-house-of-his-parents": {
+  "action": "match",
+  "key": "Q960157",
+  "duplicates": [
+   "wga:m/millais/carpente"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ in the House of His Parents' agrees. The WGA entry is another photo of the same Tate painting."
+ },
+ "hunt-light-of-the-world": {
+  "action": "match",
+  "key": "Q1757920",
+  "duplicates": [],
+  "note": "Same painting, Keble College. Not the Manchester (Q105103891) or St Paul's (commons:89792170) versions."
+ },
+ "delacroix-christ-asleep-during-the-tempest": {
+  "action": "match",
+  "key": "Q19911431",
+  "duplicates": [],
+  "note": "Same painting, Metropolitan Museum of Art. Other versions (Zürich, Walters, Philadelphia, Kansas City) are not included."
+ },
+ "burne-jones-merciful-knight": {
+  "action": "match",
+  "key": "Q7751053",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Merciful Knight' agrees."
+ },
+ "manet-dead-christ-with-angels": {
+  "action": "match",
+  "key": "Q2752079",
+  "duplicates": [],
+  "note": "Same painting, Metropolitan Museum of Art. commons:42142456 is probably also this painting, but its Commons page wrongly places it in the Art Institute of Chicago, so it is not listed. Manet's etchings of the subject are separate works."
+ },
+ "dore-christ-leaving-the-praetorium": {
+  "action": "match",
+  "key": "Q3221346",
+  "duplicates": [],
+  "note": "Same painting, MAMCS Strasbourg."
+ },
+ "ciseri-ecce-homo": {
+  "action": "match",
+  "key": "Q55177712",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Ecce Homo' agrees."
+ },
+ "kramskoi-christ-in-the-desert": {
+  "action": "match",
+  "key": "Q2354080",
+  "duplicates": [],
+  "note": "Same painting, Tretyakov Gallery."
+ },
+ "bloch-sermon-on-the-mount": {
+  "action": "match",
+  "key": "Q22084482",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Sermon On the Mount' agrees."
+ },
+ "liebermann-twelve-year-old-jesus-in-the-temple": {
+  "action": "match",
+  "key": "Q108718081",
+  "duplicates": [
+   "commons:110500852"
+  ],
+  "note": "Same painting, Hamburger Kunsthalle. commons:110500852 is a historical photo of the same painting before the figure of Jesus was overpainted."
+ },
+ "munkacsy-christ-before-pilate": {
+  "action": "match",
+  "key": "wga:m/munkacsy/trilog1",
+  "duplicates": [],
+  "note": "Same painting, Déri Museum, Debrecen. The Belvedere 'Christus vor Pilatus' (europeana) and the Slovak National Gallery studies are not included because they may be a different version or studies."
+ },
+ "uhde-suffer-the-little-children": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "ensor-christs-entry-into-brussels": {
+  "action": "match",
+  "key": "Q3203172",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ's Entry Into Brussels in 1889' agrees."
+ },
+ "polenov-christ-and-the-sinner": {
+  "action": "match",
+  "key": "Q26781788",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ and the Woman Taken in Adultery' agrees."
+ },
+ "gauguin-yellow-christ": {
+  "action": "match",
+  "key": "Q500951",
+  "duplicates": [],
+  "note": "Same painting, Buffalo AKG Art Museum. Not the Self-Portrait with Yellow Christ or the AIC drawing."
+ },
+ "hofmann-christ-and-the-rich-young-ruler": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "denis-orange-christ": {
+  "action": "match",
+  "key": "Q87480871",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Orange Christ' agrees."
+ },
+ "hofmann-christ-in-gethsemane": {
+  "action": "match",
+  "key": "Q110487317",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ in Gethsemane' agrees."
+ },
+ "ge-what-is-truth": {
+  "action": "match",
+  "key": "Q4517307",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title '\"What is truth?\" Christ and Pilate' agrees."
+ },
+ "tissot-what-our-lord-saw-from-the-cross": {
+  "action": "match",
+  "key": "Q5189805",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'What Our Lord Saw from the Cross' agrees."
+ },
+ "klinger-christ-in-olympus": {
+  "action": "match",
+  "key": "wga:k/klinger/paintin2",
+  "duplicates": [
+   "europeana:1320/https___id_kulturpool_at_2ac74339_825f_4ef3_a45f_1b76808cdafb_cho"
+  ],
+  "note": "Same painting (Belvedere, Vienna, on loan to Leipzig); the Belvedere's own Europeana record is listed as a duplicate."
+ },
+ "pia-shroud-of-turin-negative": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "tanner-nicodemus": {
+  "action": "match",
+  "key": "Q20180001",
+  "duplicates": [
+   "commons:133167779",
+   "commons:133593235"
+  ],
+  "note": "Same painting, Pennsylvania Academy of the Fine Arts. The duplicates are other Commons photos of it (both in its Commons category). Tanner's studies and the later rooftop versions are separate works."
+ },
+ "nesterov-holy-rus": {
+  "action": "match",
+  "key": "commons:178759722",
+  "duplicates": [],
+  "note": "The only collection entry for this painting (Russian Museum) is a crop of its left part (Christ and the saints), taken from the same Commons file as the featured image. It is used for the whole painting. The sketch (commons:178519737) is a separate work."
+ },
+ "gill-westminster-stations-trial-panel": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "beckmann-descent-from-the-cross": {
+  "action": "match",
+  "key": "Q19883772",
+  "duplicates": [],
+  "note": "Same painting, Museum of Modern Art, New York."
+ },
+ "jawlensky-face-of-the-saviour-crown-of-thorns": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "denis-noli-me-tangere-reims": {
+  "action": "match",
+  "key": "Q136536775",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Noli me tangere' agrees."
+ },
+ "corinth-red-christ": {
+  "action": "match",
+  "key": "Q1199503",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'The Red Christ' agrees."
+ },
+ "rouault-miserere": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "roerich-signs-of-christ": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "egger-lienz-risen-christ-lienz": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found; the collection's Egger-Lienz 'Resurrection of Christ' (Q111488571) is a 1924 canvas in a Tyrol museum, a different work from the 1925 Lienz chapel painting."
+ },
+ "barlach-das-wiedersehen": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "christ-the-redeemer-rio": {
+  "action": "match",
+  "key": "Q79961",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ the Redeemer' agrees."
+ },
+ "kazimirowski-divine-mercy": {
+  "action": "match",
+  "key": "Q124819150",
+  "duplicates": [],
+  "note": "Same painting (Divine Mercy, Kazimirowski, 1934), Divine Mercy Sanctuary, Vilnius."
+ },
+ "epstein-ecce-homo-coventry": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "chagall-white-crucifixion": {
+  "action": "match",
+  "key": "Q3698207",
+  "duplicates": [],
+  "note": "The featured entry has no image (copyright), but the collection already holds this painting (Art Institute of Chicago) with an image, so it is matched rather than skipped."
+ },
+ "sallman-head-of-christ": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "cristo-blanco-cusco": {
+  "action": "add",
+  "key": null,
+  "duplicates": [],
+  "note": "Not found in the collection."
+ },
+ "dali-christ-of-saint-john-of-the-cross": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "kim-ki-chang-life-of-jesus": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "christ-of-the-abyss": {
+  "action": "match",
+  "key": "Q869818",
+  "duplicates": [],
+  "note": "The featured entry has no image, but the collection already holds the statue (San Fruttuoso) with an image, so it is matched rather than skipped. Not the Albenga copy (commons:112233447)."
+ },
+ "dali-sacrament-of-the-last-supper": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "christ-of-havana": {
+  "action": "match",
+  "key": "commons:144223450",
+  "duplicates": [
+   "Q869807"
+  ],
+  "note": "Already linked by identical Commons file; checked: collection title 'El Cristo de La Habana' agrees. Q869807 (Christ of Havana, Jilma Madera, 1953) is the same statue."
+ },
+ "cristo-rei-almada": {
+  "action": "match",
+  "key": "Q805446",
+  "duplicates": [],
+  "note": "Same monument: Wikidata's 'Sanctuary of Christ the King', Almada, whose image is the statue. Not the Madeira Cristo Rei (Q823766)."
+ },
+ "sadao-watanabe-katazome-christ": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "sutherland-christ-in-glory": {
+  "action": "match",
+  "key": "Q60794462",
+  "duplicates": [],
+  "note": "Already linked by identical Commons file; checked: collection title 'Christ in Glory in the Tetramorph' agrees."
+ },
+ "jesus-mafa": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "warhol-last-supper": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "cristo-de-la-concordia": {
+  "action": "match",
+  "key": "Q259633",
+  "duplicates": [],
+  "note": "Same statue, Cochabamba. Not the Arica Cristo de la Concordia (Q91632874)."
+ },
+ "he-qi-gospel-paintings": {
+  "action": "skip-no-image",
+  "key": null,
+  "duplicates": [],
+  "note": "Copyright-protected and has no image; not in the collection."
+ },
+ "christ-the-king-swiebodzin": {
+  "action": "match",
+  "key": "Q805442",
+  "duplicates": [],
+  "note": "Same statue, Świebodzin."
+ }
+}

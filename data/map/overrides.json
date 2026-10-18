@@ -5801,5 +5801,155 @@
 41.0082,
 28.9784,
 "made"
+],
+"feat:sarcophagus-of-junius-bassus": [
+"Rome",
+41.8931,
+12.4828,
+"made"
+],
+"feat:santa-pudenziana-apse-mosaic": [
+"Santa Pudenziana, Rome",
+41.8983,
+12.4953,
+"in situ"
+],
+"feat:maskell-ivory-crucifixion": [
+"Rome (probably)",
+41.8931,
+12.4828,
+"made"
+],
+"feat:santa-sabina-door-crucifixion": [
+"Santa Sabina, Aventine Hill, Rome",
+41.8845,
+12.48,
+"in situ"
+],
+"feat:santa-maria-maggiore-adoration-of-the-magi": [
+"Santa Maria Maggiore, Rome",
+41.8975,
+12.4986,
+"in situ"
+],
+"feat:archbishops-chapel-christ-warrior": [
+"Archbishop's Chapel, Ravenna",
+44.4157,
+12.1981,
+"in situ"
+],
+"feat:sant-apollinare-in-classe-transfiguration-cross": [
+"Sant'Apollinare in Classe, Ravenna",
+44.3801,
+12.2324,
+"in situ"
+],
+"feat:rossano-gospels-christ-before-pilate": [
+"Eastern Mediterranean (region)",
+34.0,
+36.0,
+"region"
+],
+"feat:stuma-paten-communion-of-the-apostles": [
+"Constantinople",
+41.0082,
+28.9784,
+"made"
+],
+"feat:rabbula-gospels-crucifixion": [
+"Monastery of St John of Zagba (Beth Zagba), northern Syria",
+35.7,
+36.6,
+"made"
+],
+"feat:ruthwell-cross": [
+"Ruthwell Church, Dumfriesshire",
+55.0003,
+-3.4083,
+"in situ"
+],
+"feat:book-of-kells-christ-enthroned": [
+"Iona Abbey (probably)",
+56.335,
+-6.3914,
+"made"
+],
+"feat:lorsch-gospels-ivory-christ-treading-beasts": [
+"Aachen (court school of Charlemagne)",
+50.7762,
+6.0838,
+"made"
+],
+"feat:utrecht-psalter-psalm-11": [
+"Hautvillers Abbey (probably), near Reims",
+49.0819,
+3.9412,
+"made"
+],
+"feat:hagia-sophia-imperial-gate-mosaic": [
+"Hagia Sophia, Istanbul",
+41.0083,
+28.98,
+"in situ"
+],
+"feat:romanos-ivory": [
+"Constantinople",
+41.0082,
+28.9784,
+"made"
+],
+"feat:khakhuli-triptych": [
+"Gelati Monastery, Kutaisi (assembled)",
+42.2947,
+42.7681,
+"made"
+],
+"feat:jelling-stone-christ": [
+"Jelling churchyard, Denmark",
+55.7565,
+9.4197,
+"in situ"
+],
+"feat:benedictional-of-aethelwold-baptism": [
+"Winchester",
+51.0632,
+-1.308,
+"made"
+],
+"feat:etchmiadzin-gospels-christ-enthroned": [
+"Noravank of Bgheno, Syunik (probably)",
+39.2,
+46.05,
+"made"
+],
+"feat:faras-cathedral-nativity": [
+"Faras Cathedral",
+22.1817,
+31.4969,
+"made"
+],
+"feat:gospels-of-otto-iii-washing-of-the-feet": [
+"Reichenau Abbey",
+47.6989,
+9.0625,
+"made"
+],
+"feat:bernward-doors": [
+"St. Mary's Cathedral, Hildesheim",
+52.149,
+9.9471,
+"in situ"
+],
+"feat:saint-sophia-kyiv-pantocrator": [
+"Saint Sophia Cathedral, Kyiv",
+50.4529,
+30.5143,
+"in situ"
+],
+"feat:facundus-beatus-throne-vision": [
+"León or La Rioja (region)",
+42.4,
+-4.0,
+"region"
 ]
 }

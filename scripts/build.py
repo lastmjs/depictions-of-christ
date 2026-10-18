@@ -187,8 +187,29 @@ def link_to_collection(entries):
                 if u and "commons" in u:
                     name = urllib.parse.unquote(u.split("/")[-1]).split("px-", 1)[-1].replace(" ", "_").lower()
                     by_src[name] = info
+    links_path = DATA / "map" / "featured-links.json"
+    links = json.loads(links_path.read_text()) if links_path.exists() else {}
+    by_key = {}
+    for f in coll.glob("c-*.json"):
+        for w in json.loads(f.read_text()):
+            by_key[w.get("q") or w.get("id")] = {"key": w.get("q") or w.get("id"), "p": w.get("p")}
     linked = 0
     for e in entries:
+        rec = links.get(e["id"], {})
+        if rec.get("action") == "match" and rec.get("key") in by_key:
+            hit = by_key[rec["key"]]
+            e["ck"] = hit["key"]
+            if hit.get("p") is not None:
+                e["cp"] = hit["p"]
+            linked += 1
+            continue
+        if rec.get("action") == "add" and f"feat:{e['id']}" in by_key:
+            hit = by_key[f"feat:{e['id']}"]
+            e["ck"] = hit["key"]
+            if hit.get("p") is not None:
+                e["cp"] = hit["p"]
+            linked += 1
+            continue
         hit = None
         if e.get("commons"):
             name = e["commons"].split(":", 1)[-1].replace(" ", "_").lower()

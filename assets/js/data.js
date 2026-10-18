@@ -8180,6 +8180,10 @@ window.DEPICTIONS = {
       {
        "label": "Wikipedia (Ernst Barlach)",
        "url": "https://en.wikipedia.org/wiki/Ernst_Barlach"
+      },
+      {
+       "label": "Staatliches Museum Schwerin: The Reunion (1939 cast and provenance)",
+       "url": "https://landesmuseum-mv.de/en/exhibit/ernst-barlach-the-reunion-christ-and-thomas/"
       }
      ],
      "era": "modern",
@@ -8294,7 +8298,7 @@ window.DEPICTIONS = {
      "summary": "A massive, block-like Christ stands bound, his heavy head and broad face confronting the viewer with silent endurance. Epstein carved the figure directly from a single block of marble, rejecting any sweet or idealised image of Jesus in favour of something monumental and primal. Today it stands in the bombed-out shell of Coventry's medieval cathedral, a witness to suffering and reconciliation.",
      "facts": [
       "When first exhibited in 1935 it was attacked as ugly and even blasphemous, and it remained unsold for decades.",
-      "After Epstein's death, his widow Kathleen gave the sculpture to Coventry Cathedral, and it was placed in the ruins in 1969.",
+      "After Epstein's death, the sculpture was given to Coventry Cathedral at the wish of his widow, Lady (Kathleen) Epstein, and was dedicated in the ruins on 22 March 1969.",
       "Epstein also made the large bronze St Michael's Victory over the Devil on the wall of the new Coventry Cathedral, as well as the aluminium Majestas in Llandaff Cathedral."
      ],
      "scripture": "John 19:5",
@@ -8388,18 +8392,18 @@ window.DEPICTIONS = {
     {
      "id": "cristo-blanco-cusco",
      "title": "Cristo Blanco (White Christ)",
-     "artist": "Francisco Olazo Allende",
+     "artist": "Attributed to Francisco Olazo Allende (some sources name Ernesto Olazo Allende)",
      "date": "1945",
      "year": 1945,
      "created": "Cusco, Peru",
      "location": "Pukamuqu hill, near Sacsayhuamán, Cusco, Peru",
-     "medium": "White-painted stone and concrete",
+     "medium": "Granite faced with marble and plaster",
      "form": "Monument",
      "style": "Modern devotional statuary",
      "summary": "A white figure of Christ, arms outstretched in welcome and blessing, stands on a hill above the old Inca capital of Cusco. The statue overlooks the city from beside the great Inca walls of Sacsayhuamán, joining Andean and Christian landscapes in one view. It has become one of Cusco's best-loved landmarks.",
      "facts": [
-      "The statue was given to the city in 1945 by Palestinian Christians who had found refuge in Cusco, as a sign of gratitude.",
-      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level.",
+      "The statue was given to the city in 1945 by the community of Palestinian Arab Christians who had settled in Cusco, traditionally as a sign of gratitude.",
+      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level, and lies within the historic centre of Cusco inscribed by UNESCO as a World Heritage Site.",
       "Its open-armed pose recalls the larger Christ the Redeemer in Rio de Janeiro, completed in 1931."
      ],
      "commons": "File:CristoBlancoCuzco.jpg",
@@ -8407,6 +8411,10 @@ window.DEPICTIONS = {
       {
        "label": "Wikipedia (Pukamuqu)",
        "url": "https://en.wikipedia.org/wiki/Pukamuqu"
+      },
+      {
+       "label": "Wikipedia (Spanish): Cristo Blanco",
+       "url": "https://es.wikipedia.org/wiki/Cristo_Blanco"
       }
      ],
      "era": "modern",
@@ -8466,8 +8474,8 @@ window.DEPICTIONS = {
      "summary": "Painted while Kim was a refugee during the Korean War, these thirty scenes retell the life of Christ from the Annunciation to the Ascension as if it had happened in Joseon-dynasty Korea. Jesus and the apostles wear white hanbok and horsehair gat hats, and Gospel events unfold among thatched villages and pine-clad hills. The series is a landmark of Korean Christian art and of Christian inculturation in East Asia.",
      "facts": [
       "Kim, who lost his hearing in childhood, began the series in 1952 at his mother-in-law's house in Gunsan, where he had fled during the war.",
-      "He drew on late Joseon genre and folk painting, adapting traditional European Christian iconography to Korean settings.",
-      "Kim's portrait of King Sejong the Great is the one used on the South Korean 10,000-won banknote."
+      "He was encouraged by an American missionary, Anders K. Jensen, who argued that Koreans needed an image of Jesus that looked like them; Kim adapted traditional European Christian iconography to Korean settings.",
+      "In 1973 Kim painted the official standard portrait of King Sejong the Great, the image that has appeared on the South Korean 10,000-won banknote."
      ],
      "commons": null,
      "copyrightNote": "© Estate of Kim Ki-chang. The series is held by the Seoul Museum in Buam-dong, Seoul.",
@@ -8526,8 +8534,8 @@ window.DEPICTIONS = {
      "summary": "Christ sits at a stone table before a calm bay, with twelve disciples bowed in prayer around him, while a vast transparent torso floats above with outstretched arms. The room is set within a huge, glass-like dodecahedron, a geometric figure that Plato associated with the cosmos. Dalí, who had returned to Catholicism, presents the Last Supper as a timeless, luminous sacrament rather than a dramatic meal.",
      "facts": [
       "The landscape is the bay of Port Lligat, near Dalí's home on the Costa Brava.",
-      "It was acquired by the collector Chester Dale and came to the National Gallery of Art with his collection in 1963.",
-      "It became one of the most popular paintings at the National Gallery, even as critics debated whether it was profound or kitsch."
+      "The collector Chester Dale, who reputedly suggested the subject, bought it in 1956 and sent it to the National Gallery, where it went on view the day before Easter 1956; it formally entered the museum's collection as part of the Chester Dale Collection in 1963.",
+      "It became one of the most-viewed paintings at the National Gallery, even as critics debated its worth; the theologian Paul Tillich dismissed it as 'junk'."
      ],
      "scripture": "Matthew 26:26–29",
      "commons": null,
@@ -8538,8 +8546,8 @@ window.DEPICTIONS = {
        "url": "https://en.wikipedia.org/wiki/The_Sacrament_of_the_Last_Supper"
       },
       {
-       "label": "National Gallery of Art collection search",
-       "url": "https://www.nga.gov/collection-search-result.html?artobj_title=Sacrament%20of%20the%20Last%20Supper"
+       "label": "National Gallery of Art",
+       "url": "https://www.nga.gov/artworks/46590-sacrament-last-supper"
       }
      ],
      "era": "modern",
@@ -8551,16 +8559,16 @@ window.DEPICTIONS = {
      "artist": "Jilma Madera",
      "date": "1958",
      "year": 1958,
-     "created": "Carved in Italy; assembled in Havana, Cuba",
+     "created": "Carved in Rome, Italy; assembled in Havana, Cuba",
      "location": "Casablanca hill, overlooking Havana Bay, Cuba",
      "medium": "Carrara marble",
      "form": "Monument",
      "style": "Modern monumental sculpture",
-     "summary": "A towering white marble Christ stands on the hill of Casablanca, his right hand raised in blessing and his left on his heart, looking across the bay toward old Havana. The Cuban sculptor Jilma Madera carved the figure from Carrara marble in Italy, and it was assembled from dozens of blocks on site. It was unveiled at Christmas 1958, just days before the Cuban Revolution triumphed.",
+     "summary": "A towering white marble Christ stands on the hill of Casablanca, his right hand raised in blessing and his left on his heart, looking across the bay toward old Havana. The Cuban sculptor Jilma Madera carved the figure from Carrara marble in Italy, and it was assembled on site from 67 blocks, which had been blessed by Pope Pius XII before shipping. It was unveiled at Christmas 1958, just days before the Cuban Revolution triumphed.",
      "facts": [
-      "The statue was inaugurated on 24 December 1958; one week later, on 1 January 1959, Fulgencio Batista fled Cuba.",
-      "It was commissioned after a vow by Marta Fernández Miranda, wife of President Batista.",
-      "Madera won the commission in a competition in 1953; the figure is about 20 metres tall."
+      "The statue was inaugurated on 24 December 1958; on 1 January 1959 Fulgencio Batista fled Cuba, and on 8 January Fidel Castro entered Havana.",
+      "The project is often said to have been promoted by Marta Fernández Miranda, wife of President Batista, in fulfilment of a vow.",
+      "Madera won the commission in 1953; the statue is about 20 metres tall including its 3-metre base and weighs roughly 320 tonnes."
      ],
      "commons": "File:El Cristo de La Habana.jpg",
      "links": [
@@ -8635,21 +8643,21 @@ window.DEPICTIONS = {
      "year": 1960,
      "created": "Tokyo, Japan",
      "location": "Impressions in many museum, university and church collections in Japan, the United States and Europe",
-     "medium": "Hand-coloured stencil prints (katazome) on momigami paper",
+     "medium": "Hand-coloured stencil prints (katazome) on kozo and momigami paper",
      "form": "Print",
      "style": "Japanese folk-art (mingei) printmaking",
-     "summary": "Watanabe retold the Bible in the visual language of Japanese folk art: Christ and the apostles appear with round faces and almond eyes, eating fish and rice at low tables, framed in bold black lines and earthy reds, ochres and indigos. Using the traditional katazome stencil-dyeing technique on crumpled, cloth-like momigami paper, he gave scenes from the Last Supper to the Passion a joyful, handmade warmth. His prints became beloved across the world as an image of the Gospel at home in Asian culture.",
+     "summary": "Watanabe retold the Bible in the visual language of Japanese folk art: Christ and the apostles appear with round faces and almond eyes, dressed in kimono and, at the Last Supper, sharing sushi and sake, all framed in bold black lines and earthy reds, ochres and indigos. Using the traditional katazome stencil-dyeing technique, often on crumpled, cloth-like momigami paper, he gave scenes from the Nativity to the Passion a joyful, handmade warmth. His prints became beloved across the world as an image of the Gospel at home in Asian culture.",
      "facts": [
-      "Watanabe converted to Christianity as a young man and was deeply influenced by the mingei folk-craft movement of Yanagi Sōetsu and by the master dyer Serizawa Keisuke, with whom he studied stencil-dyeing.",
-      "Momigami, the paper he printed on, is kneaded and crumpled by hand until it takes on the soft texture of cloth.",
-      "He produced hundreds of biblical designs between the 1940s and his death in 1996, and his prints were especially beloved by churches and collectors in the United States."
+      "Watanabe was baptized at seventeen and was deeply influenced by the mingei folk-craft movement of Yanagi Sōetsu and by the master dyer Serizawa Keisuke, from whom he learned the katazome stencil-dyeing technique.",
+      "Momigami, the paper he often printed on, is kneaded and crumpled by hand to give it a soft, cloth-like texture; his colours were bound with soybean milk prepared by his wife, Harue.",
+      "In 1958 his print The Bronze Serpent won first prize at the Modern Japanese Print Exhibition in New York, and his prints were especially beloved by churches and collectors in the United States."
      ],
      "commons": null,
      "copyrightNote": "© Estate of Sadao Watanabe. Impressions can be viewed through museum collections in Japan and the United States.",
      "links": [
       {
        "label": "Wikipedia",
-       "url": "https://en.wikipedia.org/wiki/Sadao_Watanabe"
+       "url": "https://en.wikipedia.org/wiki/Sadao_Watanabe_(artist)"
       }
      ],
      "era": "modern",
@@ -8753,8 +8761,8 @@ window.DEPICTIONS = {
        "url": "https://en.wikipedia.org/wiki/Last_Supper_(Warhol)"
       },
       {
-       "label": "Andy Warhol Museum",
-       "url": "https://www.warhol.org/"
+       "label": "Guggenheim Museum SoHo: Andy Warhol, The Last Supper (1999–2001)",
+       "url": "https://www.guggenheim.org/exhibition/andy-warhol-the-last-supper"
       }
      ],
      "era": "modern",

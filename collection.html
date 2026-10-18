@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Complete Collection — The Face of Christ</title>
+  <meta name="description" content="Every catalogued, freely licensed artwork depicting Jesus Christ — tens of thousands of paintings, icons, sculptures, prints and more — arranged chronologically.">
+  <meta name="theme-color" content="#0b0907">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/collection.css">
+</head>
+<body class="collection-page">
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="topbar solid" id="topbar">
+    <a class="brand" href="./" aria-label="The Face of Christ — home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chi-rho"/></svg>
+      <span class="brand-name">The Face of Christ</span>
+    </a>
+    <div class="topbar-era show"><span class="topbar-numeral">✦</span><span class="topbar-title">The Complete Collection</span></div>
+    <nav class="topbar-actions">
+      <a class="btn-ghost" href="./">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        <span>The Journey</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="col-hero">
+      <p class="eyebrow">The Complete Collection</p>
+      <h1>A Great Cloud of Witnesses</h1>
+      <p class="col-verse">“Wherefore seeing we also are compassed about with so great a cloud of witnesses… looking unto Jesus the author and finisher of our faith.”<cite>Hebrews 12:1–2</cite></p>
+      <p class="col-lede">Every catalogued artwork depicting Christ whose image is free to share — paintings, icons, mosaics, sculptures, prints, manuscripts and more — gathered from <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> and <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> and arranged through time.</p>
+      <div class="col-total" id="col-total" aria-live="polite"><span class="spinner" aria-hidden="true"></span> Gathering the collection…</div>
+    </section>
+
+    <div class="col-controls" id="col-controls">
+      <div class="col-search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16 16l4 4"/></svg>
+        <input id="q" type="search" placeholder="Search title, artist, place, museum…" autocomplete="off" aria-label="Search the collection">
+      </div>
+      <label class="col-select">
+        <span>Subject</span>
+        <select id="subject" aria-label="Filter by subject"><option value="">All subjects</option></select>
+      </label>
+      <label class="col-select">
+        <span>Form</span>
+        <select id="form" aria-label="Filter by form"><option value="">All forms</option></select>
+      </label>
+      <label class="col-select">
+        <span>Order</span>
+        <select id="order" aria-label="Order">
+          <option value="asc">Oldest first</option>
+          <option value="desc">Newest first</option>
+        </select>
+      </label>
+      <div class="col-count" id="col-count"></div>
+    </div>
+
+    <nav class="histogram" id="histogram" aria-label="Works by century"></nav>
+
+    <div class="col-results" id="col-results"></div>
+    <div class="col-sentinel" id="col-sentinel" aria-hidden="true"></div>
+    <p class="col-empty" id="col-empty" hidden>No works match your search. Try a different word or subject.</p>
+
+    <section class="credits col-credits">
+      <h3>About this collection</h3>
+      <p>This archive is generated from Wikidata: every item that depicts Jesus Christ — or a scene in which he appears, such as the Nativity, the Crucifixion or the Madonna and Child — and that has an image on Wikimedia Commons. Commons hosts only public-domain or freely licensed media, so every image here may be shared. Dates marked “c.” without a precise record are estimated from the artist's lifetime. Information is only as complete as the catalogue; if you spot an error, you can correct it on Wikidata for everyone.</p>
+    </section>
+  </main>
+
+  <dialog class="detail" id="detail" aria-labelledby="d-title">
+    <div class="detail-media" id="d-media">
+      <img id="d-img" alt="">
+      <div class="detail-loading" aria-hidden="true"><span class="spinner"></span></div>
+    </div>
+    <div class="detail-info">
+      <button class="icon-btn detail-close" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <div class="info-date"><span class="yr" id="d-date"></span><span class="form" id="d-form"></span></div>
+      <h2 id="d-title"></h2>
+      <p class="info-artist" id="d-artist"></p>
+      <dl class="meta" id="d-meta"></dl>
+      <div class="d-subjects" id="d-subjects"></div>
+      <div class="links" id="d-links"></div>
+      <p class="credit" id="d-credit"></p>
+      <div class="detail-nav">
+        <button class="btn-ghost" id="d-prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Earlier</span></button>
+        <button class="btn-ghost" id="d-next"><span>Later</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </dialog>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="chi-rho" viewBox="0 0 40 40">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M20 4v32"/>
+        <path d="M20 5h5.5a6 6 0 0 1 0 12H20"/>
+        <path d="M11 13l18 18M29 13L11 31"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="assets/js/collection.js"></script>
+</body>
+</html>

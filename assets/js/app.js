@@ -61,6 +61,11 @@
   }
 
   /* ---------- journey ---------- */
+  function eraCentury(era) {
+    const y = era.entries.length ? era.entries[0].year : 1;
+    return Math.max(1, Math.floor((y - 1) / 100) + 1);
+  }
+
   function eraHTML(era) {
     const tiles = era.entries.filter((e) => e.image).slice(0, 12);
     const collage = tiles.length
@@ -77,6 +82,7 @@
           <p class="era-intro">${esc(era.intro)}</p>
           <div class="ornament" aria-hidden="true">${ICON.diamond}</div>
           <p class="era-verse">“${esc(era.verse)}”<cite>${esc(era.verseRef)}</cite></p>
+          <div class="era-more"><a class="btn-ghost" href="collection.html#century=${eraCentury(era)}">Explore every work from this period →</a></div>
         </div>
       </section>`;
   }

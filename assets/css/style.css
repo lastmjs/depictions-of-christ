@@ -199,6 +199,9 @@ cite {
 .hero-stats strong { font-family: var(--f-display); font-weight: 400; font-size: 2.3rem; line-height: 1; color: var(--gold-bright); }
 .hero-stats span { font-family: var(--f-caps); font-size: .64rem; letter-spacing: .24em; text-transform: uppercase; color: var(--ink-faint); margin-top: .45rem; }
 
+.hero-actions { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; }
+.era-more { margin-top: 2.4rem; }
+.era-more .btn-ghost { font-size: .66rem; }
 .scroll-cue { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); width: 1px; height: 56px; background: var(--line); overflow: hidden; }
 .scroll-cue span { position: absolute; left: 0; width: 1px; height: 20px; background: var(--gold-bright); animation: cue 2.4s var(--ease) infinite; }
 @keyframes cue { from { top: -20px; } to { top: 56px; } }

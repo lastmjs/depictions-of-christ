@@ -9,6 +9,7 @@ to data/collection/ as one JSON file per century plus an index.
 
 Usage: python3 scripts/harvest.py
 """
+import hashlib
 import json
 import re
 import sys
@@ -287,6 +288,7 @@ def main():
             "s": ", ".join(split(val(r, "movements"))[:2]),
             "k": (types[0] if types else ""),
             "i": img,
+            "h": hashlib.md5(img.encode()).hexdigest()[:2],
             "u": sorted(subjects),
         }
         wp = val(r, "wiki")

@@ -2129,7 +2129,772 @@ window.DEPICTIONS = {
    "intro": "Perspective, anatomy and oil paint gave artists new power, and they spent it on the most important subject they knew. Leonardo, Michelangelo, Raphael, Dürer and Titian sought a Christ both perfectly human and unmistakably divine. Meanwhile ships carried the Gospel — and its images — to the Americas, Africa and Asia, where new hands began to picture him.",
    "verse": "He that hath seen me hath seen the Father.",
    "verseRef": "John 14:9",
-   "entries": []
+   "entries": [
+    {
+     "id": "piero-baptism-of-christ",
+     "title": "The Baptism of Christ",
+     "artist": "Piero della Francesca",
+     "date": "c. 1448–1450s",
+     "year": 1450,
+     "created": "Sansepolcro, Tuscany, Italy",
+     "location": "National Gallery, London",
+     "medium": "Tempera on poplar panel",
+     "form": "Painting",
+     "style": "Early Renaissance",
+     "summary": "Christ stands in the shallow Jordan, hands joined in prayer, as John the Baptist pours water over his head and the dove of the Spirit hovers above, foreshortened so that it resembles the small white clouds around it. Three angels watch from beside a walnut tree, and the Tuscan hills of Piero's home town stretch behind. The stillness, clear light and geometric order of the composition make it one of the purest statements of Early Renaissance ideals.",
+     "facts": [
+      "It was painted for a church or priory dedicated to John the Baptist in Sansepolcro, Piero's birthplace, whose landscape appears in the background.",
+      "The dove of the Holy Spirit is painted so that its outspread wings echo the shape of the clouds, a subtle visual rhyme.",
+      "Piero was also a respected mathematician, and scholars have traced careful geometric proportions throughout the panel.",
+      "The National Gallery bought the painting in 1861, helping to spark modern appreciation of Piero, who had been largely neglected."
+     ],
+     "scripture": "Matthew 3:13–17",
+     "commons": "File:Piero della Francesca - Battesimo di Cristo (National Gallery, London).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Baptism_of_Christ_(Piero_della_Francesca)"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-baptism-of-christ"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/piero-baptism-of-christ.webp",
+      "thumb": "assets/img/piero-baptism-of-christ-sm.webp",
+      "w": 1253,
+      "h": 1800,
+      "color": "#75705f",
+      "accent": "#433d28",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Piero_della_Francesca_-_Battesimo_di_Cristo_%28National_Gallery%2C_London%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Battesimo_di_Cristo_(National_Gallery,_London).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Piero della Francesca"
+     }
+    },
+    {
+     "id": "bellini-agony-in-the-garden",
+     "title": "The Agony in the Garden",
+     "artist": "Giovanni Bellini",
+     "date": "c. 1458–1460",
+     "year": 1459,
+     "created": "Venice, Italy",
+     "location": "National Gallery, London",
+     "medium": "Egg tempera on wood",
+     "form": "Painting",
+     "style": "Early Renaissance (Venetian)",
+     "summary": "Christ kneels on a rocky outcrop in prayer while Peter, James and John sleep below and an angel appears in the sky bearing a chalice, the 'cup' Christ prays may pass from him. In the distance Judas leads soldiers toward the garden. Bellini bathes the scene in the cool, rosy light of dawn, letting the landscape itself carry the emotion of the moment.",
+     "facts": [
+      "Bellini's composition responds closely to a version of the same subject by his brother-in-law Andrea Mantegna, which also hangs in the National Gallery.",
+      "It is among the earliest Italian paintings to depict the effects of a specific time of day, here the first light of sunrise.",
+      "The chalice held by the angel refers to Christ's prayer, 'let this cup pass from me.'"
+     ],
+     "scripture": "Mark 14:32–42",
+     "commons": "File:Bellini,Giovanni - Agony in the Garden - National Gallery.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Agony_in_the_Garden_(Bellini)"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-agony-in-the-garden"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/bellini-agony-in-the-garden.webp",
+      "thumb": "assets/img/bellini-agony-in-the-garden-sm.webp",
+      "w": 1800,
+      "h": 1135,
+      "color": "#5d4c3a",
+      "accent": "#7d562f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bellini%2CGiovanni_-_Agony_in_the_Garden_-_National_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Bellini,Giovanni_-_Agony_in_the_Garden_-_National_Gallery.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Giovanni Bellini"
+     }
+    },
+    {
+     "id": "antonello-salvator-mundi",
+     "title": "Salvator Mundi (Christ Blessing)",
+     "artist": "Antonello da Messina",
+     "date": "1465",
+     "year": 1465,
+     "created": "Sicily, Italy (probably Messina)",
+     "location": "National Gallery, London",
+     "medium": "Oil on panel",
+     "form": "Painting",
+     "style": "Early Renaissance, influenced by Netherlandish painting",
+     "summary": "Christ looks directly at the viewer against a dark background, raising his right hand in blessing and resting his left on a parapet, in the manner of a portrait. Antonello combined the intimate, minutely observed oil technique of Netherlandish painters with Italian monumentality, creating a devotional image of striking presence.",
+     "facts": [
+      "The painting is dated 1465 on a cartellino (painted slip of paper) on the parapet, making it Antonello's earliest dated work.",
+      "A pentimento is clearly visible: Antonello first painted the blessing hand in a different position, and the earlier outline now shows through the paint.",
+      "Antonello was one of the first Italian artists to master oil painting, a technique he is often credited with helping to spread to Venice."
+     ],
+     "commons": "File:Antonello da Messina 061.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Antonello_da_Messina"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/antonello-da-messina-christ-blessing"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/antonello-salvator-mundi.webp",
+      "thumb": "assets/img/antonello-salvator-mundi-sm.webp",
+      "w": 1363,
+      "h": 1800,
+      "color": "#3d281d",
+      "accent": "#5d3c1f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Antonello_da_Messina_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_061.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Antonello da Messina"
+     }
+    },
+    {
+     "id": "memling-scenes-from-the-passion",
+     "title": "Scenes from the Passion of Christ",
+     "artist": "Hans Memling",
+     "date": "c. 1470–1471",
+     "year": 1470,
+     "created": "Bruges, Flanders",
+     "location": "Galleria Sabauda, Turin, Italy",
+     "medium": "Oil on oak panel",
+     "form": "Painting",
+     "style": "Early Netherlandish",
+     "summary": "Memling sets more than twenty episodes of the Passion, from the entry into Jerusalem to the Resurrection appearances, within a single imaginary panorama of Jerusalem, so that the viewer's eye can make a pilgrimage through the city. Tiny, jewel-like figures move through streets, courtyards and hills in narrative sequence. The work served as an aid to meditation on the whole of Christ's suffering.",
+     "facts": [
+      "It was commissioned by Tommaso Portinari, the Medici bank's agent in Bruges, who kneels with his wife Maria Baroncelli in the lower corners.",
+      "The continuous-narrative format, with many events in one landscape, echoes the late medieval practice of mentally walking the Stations of the Passion.",
+      "Portinari also commissioned Hugo van der Goes's famous Portinari Altarpiece, now in the Uffizi."
+     ],
+     "scripture": "Matthew 21–28",
+     "commons": "File:Hans Memling Passione.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Scenes_from_the_Passion_of_Christ"
+      },
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Hans_Memling"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/memling-scenes-from-the-passion.webp",
+      "thumb": "assets/img/memling-scenes-from-the-passion-sm.webp",
+      "w": 1800,
+      "h": 1115,
+      "color": "#735e44",
+      "accent": "#846b4d",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hans_Memling_Passione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hans_Memling_Passione.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Hans Memling"
+     }
+    },
+    {
+     "id": "mantegna-lamentation",
+     "title": "Lamentation over the Dead Christ",
+     "artist": "Andrea Mantegna",
+     "date": "c. 1480",
+     "year": 1480,
+     "created": "Mantua, Italy",
+     "location": "Pinacoteca di Brera, Milan",
+     "medium": "Tempera on canvas",
+     "form": "Painting",
+     "style": "Early Renaissance",
+     "summary": "The body of Christ lies on a marble slab, seen from his pierced feet with dramatic foreshortening, while the Virgin, Saint John and Mary Magdalene weep at the edge of the picture. The muted palette and unflinching closeness give the scene the quality of a vigil beside the body. It is one of the most daring and moving images of the Renaissance.",
+     "facts": [
+      "Mantegna deliberately reduced the size of Christ's feet; true perspective would have made them large enough to hide much of the body.",
+      "The painting was found in Mantegna's studio after his death in 1506 and may have been intended for his own funerary chapel.",
+      "The slab is thought to represent the Stone of Unction on which Christ's body was anointed for burial."
+     ],
+     "scripture": "John 19:38–40",
+     "commons": "File:Lamentación sobre Cristo muerto, por Andrea Mantegna.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Mantegna)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/mantegna-lamentation.webp",
+      "thumb": "assets/img/mantegna-lamentation-sm.webp",
+      "w": 1800,
+      "h": 1522,
+      "color": "#635b57",
+      "accent": "#98897c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lamentaci%C3%B3n_sobre_Cristo_muerto%2C_por_Andrea_Mantegna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Lamentaci%C3%B3n_sobre_Cristo_muerto,_por_Andrea_Mantegna.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Andrea Mantegna"
+     }
+    },
+    {
+     "id": "leonardo-last-supper",
+     "title": "The Last Supper",
+     "artist": "Leonardo da Vinci",
+     "date": "1495–1498",
+     "year": 1497,
+     "created": "Milan, Italy",
+     "location": "Refectory of Santa Maria delle Grazie, Milan",
+     "medium": "Tempera and oil on gesso over plaster (wall painting)",
+     "form": "Painting",
+     "style": "High Renaissance",
+     "summary": "Leonardo captures the instant after Christ announces that one of the twelve will betray him: the apostles recoil, question and protest in groups of three, while Christ sits calm and still at the centre, framed by the window behind him. The painting's psychological drama and perfect perspective made it one of the most famous images in Western art.",
+     "facts": [
+      "Leonardo painted on dry plaster rather than in true fresco so he could work slowly, but the technique began to flake within decades.",
+      "All the lines of the room's perspective converge at Christ's head.",
+      "It was commissioned by Duke Ludovico Sforza for the monks' dining hall; a doorway cut through the wall in 1652 destroyed Christ's feet.",
+      "A painstaking restoration completed in 1999 took more than twenty years."
+     ],
+     "scripture": "John 13:21–30",
+     "commons": "File:Leonardo da Vinci - The Last Supper high res.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/leonardo-last-supper.webp",
+      "thumb": "assets/img/leonardo-last-supper-sm.webp",
+      "w": 1800,
+      "h": 979,
+      "color": "#706155",
+      "accent": "#433326",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Leonardo da Vinci"
+     }
+    },
+    {
+     "id": "michelangelo-pieta",
+     "title": "Pietà",
+     "artist": "Michelangelo Buonarroti",
+     "date": "1498–1499",
+     "year": 1499,
+     "created": "Rome, Italy",
+     "location": "St. Peter's Basilica, Vatican City",
+     "medium": "Carrara marble",
+     "form": "Sculpture",
+     "style": "High Renaissance",
+     "summary": "The Virgin Mary holds the dead Christ across her lap, her face serene and youthful, her left hand opened in a gesture of offering and acceptance. Michelangelo, then in his early twenties, carved the group from a single block, balancing tenderness and idealised beauty with profound grief.",
+     "facts": [
+      "It was commissioned by the French cardinal Jean de Bilhères for his funerary chapel.",
+      "It is the only work Michelangelo ever signed; his name is carved across the sash on Mary's chest.",
+      "Mary's youthfulness, criticised by some, was explained by Michelangelo as a sign of her purity.",
+      "The statue was damaged by a hammer-wielding attacker in 1972 and has since been displayed behind protective glass."
+     ],
+     "commons": "File:Michelangelo's Pietà Saint Peter's Basilica Vatican City.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Pietà_(Michelangelo)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/michelangelo-pieta.webp",
+      "thumb": "assets/img/michelangelo-pieta-sm.webp",
+      "w": 1800,
+      "h": 1661,
+      "color": "#7e6c51",
+      "accent": "#b9a580",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Jebulon"
+     }
+    },
+    {
+     "id": "durer-betrayal-large-passion",
+     "title": "The Betrayal of Christ (from the Large Passion)",
+     "artist": "Albrecht Dürer",
+     "date": "1510",
+     "year": 1510,
+     "created": "Nuremberg, Germany",
+     "location": "Impressions in many collections; this one at the National Gallery of Art, Washington",
+     "medium": "Woodcut",
+     "form": "Print",
+     "style": "Northern Renaissance",
+     "summary": "In a dense, turbulent nocturne, soldiers seize Christ while Judas presses close, and Peter, sword raised, attacks the servant Malchus in the foreground. Dürer's woodcuts brought the Passion to a broad public with an unprecedented range of tone and drama achieved through line alone.",
+     "facts": [
+      "The Large Passion woodcuts were issued together as a book in 1511, with Latin verses by the Benedictine monk Benedictus Chelidonius.",
+      "Printed images allowed Dürer's compositions to circulate across Europe and beyond, where they were copied by other artists, including painters in Mughal India.",
+      "Dürer was among the first artists to protect his prints, issuing them with an imperial privilege against copying."
+     ],
+     "scripture": "Matthew 26:47–56",
+     "commons": "File:Albrecht Dürer, The Betrayal of Christ, 1510, NGA 602.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Albrecht_Dürer"
+      },
+      {
+       "label": "Wikimedia Commons",
+       "url": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Betrayal_of_Christ,_1510,_NGA_602.jpg"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/durer-betrayal-large-passion.webp",
+      "thumb": "assets/img/durer-betrayal-large-passion-sm.webp",
+      "w": 1287,
+      "h": 1800,
+      "color": "#a19689",
+      "accent": "#a99e90",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Albrecht_D%C3%BCrer%2C_The_Betrayal_of_Christ%2C_1510%2C_NGA_602.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Betrayal_of_Christ,_1510,_NGA_602.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Albrecht Dürer"
+     }
+    },
+    {
+     "id": "grunewald-isenheim-crucifixion",
+     "title": "Isenheim Altarpiece (Crucifixion)",
+     "artist": "Matthias Grünewald",
+     "date": "1512–1516",
+     "year": 1514,
+     "created": "Isenheim, Alsace",
+     "location": "Musée Unterlinden, Colmar, France",
+     "medium": "Oil on limewood panels",
+     "form": "Painting",
+     "style": "Northern Renaissance (German)",
+     "summary": "Against a black sky, Christ hangs on the cross with a tortured, pockmarked body, twisted hands and feet, and a crown of thorns, while the Virgin collapses into the arms of John and Mary Magdalene kneels in anguish. On the right, John the Baptist points to the Saviour. It is one of the most harrowing and compassionate images of the Crucifixion ever painted.",
+     "facts": [
+      "It was made for the Antonite monastery at Isenheim, whose hospital cared for sufferers of ergotism ('Saint Anthony's Fire'); Christ's sores echo the patients' own afflictions.",
+      "John the Baptist, who had died before the Crucifixion, appears anachronistically with the words 'He must increase, but I must decrease' (John 3:30).",
+      "The altarpiece opens in stages, revealing an Annunciation, Nativity and radiant Resurrection, and finally carved figures by Nikolaus of Haguenau.",
+      "Grünewald's Christ is unusually large in scale compared to the mourners, emphasising his significance rather than natural proportion."
+     ],
+     "scripture": "John 19:25–30",
+     "commons": "File:Isenheimer Altar (Colmar) jm01221 deriv.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Isenheim_Altarpiece"
+      },
+      {
+       "label": "Musée Unterlinden",
+       "url": "https://www.musee-unterlinden.com/en/"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/grunewald-isenheim-crucifixion.webp",
+      "thumb": "assets/img/grunewald-isenheim-crucifixion-sm.webp",
+      "w": 1800,
+      "h": 1310,
+      "color": "#846a5a",
+      "accent": "#97765c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Isenheimer_Altar_%28Colmar%29_jm01221_deriv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Isenheimer_Altar_(Colmar)_jm01221_deriv.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "joergens.mi"
+     }
+    },
+    {
+     "id": "bosch-christ-carrying-the-cross-ghent",
+     "title": "Christ Carrying the Cross",
+     "artist": "Hieronymus Bosch or a follower",
+     "date": "c. 1510–1535",
+     "year": 1515,
+     "created": "Southern Netherlands",
+     "location": "Museum of Fine Arts (MSK), Ghent, Belgium",
+     "medium": "Oil on oak panel",
+     "form": "Painting",
+     "style": "Northern Renaissance",
+     "summary": "Christ's head, eyes closed and serene, is nearly swallowed by a crowd of grotesque, leering faces that fill the panel edge to edge. The contrast between his quiet acceptance and the surrounding cruelty makes the painting an intense meditation on innocence amid human malice. Saint Veronica, holding the veil with the imprint of his face, turns away at lower left.",
+     "facts": [
+      "The 2016 Bosch Research and Conservation Project attributed the panel to a follower rather than to Bosch himself, though it remains closely tied to his circle.",
+      "The two thieves appear in the corners: the penitent thief with a confessor at upper right and the unrepentant one snarling at lower right.",
+      "The tightly packed composition of faces, with no landscape or sky, is unique among Passion scenes of the period."
+     ],
+     "scripture": "Luke 23:26–32",
+     "commons": "File:Hieronymus Bosch 055.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Christ_Carrying_the_Cross_(Bosch,_Ghent)"
+      },
+      {
+       "label": "MSK Gent",
+       "url": "https://www.mskgent.be/en"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/bosch-christ-carrying-the-cross-ghent.webp",
+      "thumb": "assets/img/bosch-christ-carrying-the-cross-ghent-sm.webp",
+      "w": 1800,
+      "h": 1650,
+      "color": "#5b4440",
+      "accent": "#89645b",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hieronymus_Bosch_055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_055.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Hieronymus Bosch or follower"
+     }
+    },
+    {
+     "id": "titian-tribute-money",
+     "title": "The Tribute Money",
+     "artist": "Titian",
+     "date": "c. 1516",
+     "year": 1516,
+     "created": "Venice, Italy (for the court of Ferrara)",
+     "location": "Gemäldegalerie Alte Meister, Dresden",
+     "medium": "Oil on poplar panel",
+     "form": "Painting",
+     "style": "High Renaissance (Venetian)",
+     "summary": "A Pharisee, coarse-featured and seen in shadowed profile, holds out a coin to test Christ, who turns with calm, luminous dignity and points to it. Titian sets the two heads in close contrast, the radiant, gentle face of Christ against the worldly questioner, illustrating the answer 'Render unto Caesar the things that are Caesar's, and unto God the things that are God's.'",
+     "facts": [
+      "It was painted for Duke Alfonso I d'Este of Ferrara, possibly for a door of a cabinet in his private apartments.",
+      "Titian signed the work on the Pharisee's white collar: 'TICIANUS F.'",
+      "Contemporaries such as Vasari praised the head of Christ as a marvel of painting."
+     ],
+     "scripture": "Matthew 22:15–22",
+     "commons": "File:Titian - The Tribute Money - Google Art Project (715452).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Tribute_Money_(Titian)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/titian-tribute-money.webp",
+      "thumb": "assets/img/titian-tribute-money-sm.webp",
+      "w": 1315,
+      "h": 1800,
+      "color": "#4f2b1b",
+      "accent": "#a15d35",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Titian_-_The_Tribute_Money_-_Google_Art_Project_%28715452%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Titian_-_The_Tribute_Money_-_Google_Art_Project_(715452).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Titian"
+     }
+    },
+    {
+     "id": "raphael-transfiguration",
+     "title": "The Transfiguration",
+     "artist": "Raphael",
+     "date": "1516–1520",
+     "year": 1518,
+     "created": "Rome, Italy",
+     "location": "Pinacoteca Vaticana, Vatican City",
+     "medium": "Oil on wood",
+     "form": "Painting",
+     "style": "High Renaissance",
+     "summary": "In the upper half, Christ rises in radiant light on Mount Tabor between Moses and Elijah while Peter, James and John shield their eyes. Below, in a dramatic contrast of shadow and gesture, the remaining apostles are unable to heal a possessed boy brought by his family. Raphael's last great painting unites divine glory and human need in a single vision.",
+     "facts": [
+      "It was commissioned by Cardinal Giulio de' Medici (later Pope Clement VII) for Narbonne Cathedral in France, but never left Rome.",
+      "Raphael died in 1520 with the painting essentially complete, and it was displayed above his body at his funeral.",
+      "Napoleon's forces took it to Paris in 1797; it returned to Rome after 1815.",
+      "The two episodes follow one another directly in the Gospels, the healing of the boy occurring as Christ descends the mountain."
+     ],
+     "scripture": "Matthew 17:1–21",
+     "commons": "File:Raphaël, La Transfiguration, 1518–1520, huile sur bois, 405 × 278 cm, Musées du Vatican, Pinacothèque, inv. 4.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Transfiguration_(Raphael)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/raphael-transfiguration.webp",
+      "thumb": "assets/img/raphael-transfiguration-sm.webp",
+      "w": 1218,
+      "h": 1800,
+      "color": "#4f504f",
+      "accent": "#111b23",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rapha%C3%ABl%2C_La_Transfiguration%2C_1518%E2%80%931520%2C_huile_sur_bois%2C_405_%C3%97_278_cm%2C_Mus%C3%A9es_du_Vatican%2C_Pinacoth%C3%A8que%2C_inv._4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rapha%C3%ABl,_La_Transfiguration,_1518%E2%80%931520,_huile_sur_bois,_405_%C3%97_278_cm,_Mus%C3%A9es_du_Vatican,_Pinacoth%C3%A8que,_inv._4.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Matthieu.lett.ube"
+     }
+    },
+    {
+     "id": "santo-nino-de-cebu",
+     "title": "Santo Niño de Cebú",
+     "artist": "Unknown Flemish sculptor",
+     "date": "before 1521",
+     "year": 1521,
+     "created": "Flanders (probably)",
+     "location": "Basilica Minore del Santo Niño, Cebu City, Philippines",
+     "medium": "Carved and painted wood, with later vestments and regalia",
+     "form": "Sculpture",
+     "style": "Flemish late Gothic",
+     "summary": "This small figure of the Christ Child, dressed as a king with crown, orb and sceptre, was given by Ferdinand Magellan's expedition at the first baptisms in the Philippines in 1521. It is the oldest surviving Christian image in the country and remains the centre of one of Asia's most fervent popular devotions.",
+     "facts": [
+      "According to Antonio Pigafetta's account, the image was presented to Hara Amihan, consort of Rajah Humabon, when she was baptised and took the name Juana.",
+      "In 1565 a soldier of Miguel López de Legazpi's expedition found the image unharmed in a burned house, and the Augustinians built a church on the spot.",
+      "The figure is only about 30 centimetres tall.",
+      "Its annual feast in January is celebrated with the Sinulog festival, which draws millions of pilgrims."
+     ],
+     "commons": "File:Original Image of the Santo Niño de Cebu-2.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Santo_Niño_de_Cebú"
+      },
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Basilica_del_Santo_Niño"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/santo-nino-de-cebu.webp",
+      "thumb": "assets/img/santo-nino-de-cebu-sm.webp",
+      "w": 1338,
+      "h": 1800,
+      "color": "#b18b5e",
+      "accent": "#bd7a40",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Original_Image_of_the_Santo_Ni%C3%B1o_de_Cebu-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Original_Image_of_the_Santo_Ni%C3%B1o_de_Cebu-2.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "credit": "Cofradiabsn"
+     }
+    },
+    {
+     "id": "holbein-dead-christ-in-the-tomb",
+     "title": "The Body of the Dead Christ in the Tomb",
+     "artist": "Hans Holbein the Younger",
+     "date": "1520–1522",
+     "year": 1521,
+     "created": "Basel, Switzerland",
+     "location": "Kunstmuseum Basel, Switzerland",
+     "medium": "Oil and tempera on limewood",
+     "form": "Painting",
+     "style": "Northern Renaissance",
+     "summary": "Christ's emaciated body lies alone in a narrow tomb, painted life-size and with stark realism: the wounds, the sunken eyes and open mouth, the first discolouration of death. There are no mourners and no angels, only the silence of Holy Saturday. Holbein confronts the viewer with the full reality of the Incarnation and death that precede the Resurrection.",
+     "facts": [
+      "The panel is extremely long and narrow, about 30 by 200 centimetres, matching the proportions of a tomb niche.",
+      "Above the body runs the inscription 'IESUS NAZARENUS REX IUDAEORUM', as on the titulus of the cross.",
+      "Fyodor Dostoevsky saw the painting in Basel in 1867; in The Idiot, Prince Myshkin remarks that such a picture could make a man lose his faith."
+     ],
+     "scripture": "Matthew 27:57–61",
+     "commons": "File:Holbein — Dead Christ.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Body_of_the_Dead_Christ_in_the_Tomb"
+      },
+      {
+       "label": "Kunstmuseum Basel",
+       "url": "https://kunstmuseumbasel.ch/en/"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/holbein-dead-christ-in-the-tomb.webp",
+      "thumb": "assets/img/holbein-dead-christ-in-the-tomb-sm.webp",
+      "w": 1800,
+      "h": 269,
+      "color": "#5e4d3c",
+      "accent": "#897462",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Holbein_%E2%80%94_Dead_Christ.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Gsimonov"
+     }
+    },
+    {
+     "id": "michelangelo-last-judgment",
+     "title": "The Last Judgment",
+     "artist": "Michelangelo Buonarroti",
+     "date": "1536–1541",
+     "year": 1538,
+     "created": "Rome, Italy",
+     "location": "Sistine Chapel, Vatican City",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "High Renaissance / Mannerism",
+     "summary": "Covering the entire altar wall of the Sistine Chapel, the fresco shows Christ as a powerful, beardless judge at the centre of a vast whirl of more than three hundred figures, raising the blessed to heaven and casting the damned down. The Virgin turns beside him, and saints surround him bearing the instruments of their martyrdom. It is a vision of awe and reckoning painted in the aftermath of the Sack of Rome and amid the Reformation.",
+     "facts": [
+      "It was commissioned by Pope Clement VII and completed under Pope Paul III.",
+      "Saint Bartholomew holds his own flayed skin, whose distorted face is widely believed to be Michelangelo's self-portrait.",
+      "After the Council of Trent, Daniele da Volterra was hired to paint draperies over many nude figures, earning the nickname 'Il Braghettone' (the breeches-maker).",
+      "A major restoration completed in 1994 revealed the fresco's brilliant original colours, including costly lapis lazuli blue."
+     ],
+     "scripture": "Matthew 25:31–46",
+     "commons": "File:Last Judgement (Michelangelo).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Last_Judgment_(Michelangelo)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/michelangelo-last-judgment.webp",
+      "thumb": "assets/img/michelangelo-last-judgment-sm.webp",
+      "w": 1635,
+      "h": 1800,
+      "color": "#7e7c7d",
+      "accent": "#7a6e63",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Michelangelo"
+     }
+    },
+    {
+     "id": "el-greco-el-expolio",
+     "title": "El Expolio (The Disrobing of Christ)",
+     "artist": "El Greco",
+     "date": "1577–1579",
+     "year": 1578,
+     "created": "Toledo, Spain",
+     "location": "Sacristy of Toledo Cathedral, Spain",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Mannerism",
+     "summary": "Christ, robed in a blazing red garment, gazes heavenward as the crowd presses around him and an executioner prepares to strip him before the Crucifixion. In the foreground a man bores holes in the cross while the three Marys look on. El Greco's luminous figure of Christ, serene within the tumult, became one of the defining images of Spanish religious art.",
+     "facts": [
+      "It was El Greco's first major commission after arriving in Toledo, and it led to a lawsuit over payment with the cathedral chapter.",
+      "Cathedral officials objected that heads in the crowd were placed above Christ's, and that the three Marys appear although the Gospels do not mention them at this moment.",
+      "The painting still hangs in the cathedral sacristy for which it was made."
+     ],
+     "scripture": "John 19:23–24",
+     "commons": "File:The Disrobing of Christ - El Greco.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Disrobing_of_Christ"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/el-greco-el-expolio.webp",
+      "thumb": "assets/img/el-greco-el-expolio-sm.webp",
+      "w": 1213,
+      "h": 1800,
+      "color": "#574a4a",
+      "accent": "#695a58",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Disrobing_of_Christ_-_El_Greco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Disrobing_of_Christ_-_El_Greco.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "GoldenArtists"
+     }
+    },
+    {
+     "id": "tintoretto-last-supper",
+     "title": "The Last Supper",
+     "artist": "Jacopo Tintoretto",
+     "date": "1592–1594",
+     "year": 1593,
+     "created": "Venice, Italy",
+     "location": "Basilica of San Giorgio Maggiore, Venice",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Late Renaissance / Mannerism",
+     "summary": "Tintoretto sets the table on a steep diagonal in a dim, crowded room, where Christ, haloed in light, gives bread to his disciples while servants bustle about. Smoke from a hanging lamp turns into a host of translucent angels. In contrast to Leonardo's focus on the betrayal, this is a mystical vision of the institution of the Eucharist.",
+     "facts": [
+      "It was one of Tintoretto's last works, completed in the year of his death, 1594.",
+      "It was painted for the presbytery of Andrea Palladio's church of San Giorgio Maggiore, where it still hangs.",
+      "The diagonal composition draws the viewer into the scene, a dramatic departure from the frontal Last Suppers of the High Renaissance."
+     ],
+     "scripture": "Luke 22:14–20",
+     "commons": "File:Jacopo Tintoretto - The Last Supper - WGA22649.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Last_Supper_(Tintoretto)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/tintoretto-last-supper.webp",
+      "thumb": "assets/img/tintoretto-last-supper-sm.webp",
+      "w": 1337,
+      "h": 850,
+      "color": "#36302d",
+      "accent": "#4e443c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jacopo_Tintoretto_-_The_Last_Supper_-_WGA22649.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Jacopo_Tintoretto_-_The_Last_Supper_-_WGA22649.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Jacopo Tintoretto"
+     }
+    },
+    {
+     "id": "mughal-mirat-al-quds-abgar",
+     "title": "Jesus Portrayed by King Abgar's Painter (Mir'at al-quds)",
+     "artist": "Mughal court artists",
+     "date": "c. 1602–1604",
+     "year": 1603,
+     "created": "Mughal India (northern India)",
+     "location": "Cleveland Museum of Art, Cleveland, Ohio",
+     "medium": "Opaque watercolour and gold on paper",
+     "form": "Manuscript",
+     "style": "Mughal",
+     "summary": "Christ sits beneath a golden lamp holding a cloth, while a painter sent by King Abgar of Edessa struggles to capture his likeness, surrounded by figures in Portuguese and Mughal dress. The page comes from an illustrated copy of the Mir'at al-quds (Mirror of Holiness), a Persian life of Christ written for the emperor Akbar. It records one of the earliest sustained encounters between Christian imagery and the painting traditions of Asia.",
+     "facts": [
+      "The text was composed by the Jesuit missionary Jerome Xavier at Akbar's request and completed in 1602.",
+      "Jesuit missions to Akbar's court from 1580 brought European prints and an illustrated Polyglot Bible, which Mughal artists studied and adapted.",
+      "The scene illustrates the Abgar legend, an early Christian tradition about the first portrait of Christ, the 'Image of Edessa'.",
+      "Jesus (Isa) is honoured as a prophet in Islam, and Christian subjects appear in many Mughal albums and palace decorations."
+     ],
+     "commons": "File:Unknown artist - Jesus being portrayed by King Abgar’s painter, from a Mir’at al-quds of Father Jerome Xavier (Spanish, 1549–1617) - 2005.145.143.a - Cleveland Museum of Art.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Mir'at_al-quds"
+      },
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Jerome_Xavier"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/mughal-mirat-al-quds-abgar.webp",
+      "thumb": "assets/img/mughal-mirat-al-quds-abgar-sm.webp",
+      "w": 1146,
+      "h": 1800,
+      "color": "#7d5f4d",
+      "accent": "#b78c5e",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Unknown_artist_-_Jesus_being_portrayed_by_King_Abgar%E2%80%99s_painter%2C_from_a_Mir%E2%80%99at_al-quds_of_Father_Jerome_Xavier_%28Spanish%2C_1549%E2%80%931617%29_-_2005.145.143.a_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Unknown_artist_-_Jesus_being_portrayed_by_King_Abgar%E2%80%99s_painter,_from_a_Mir%E2%80%99at_al-quds_of_Father_Jerome_Xavier_(Spanish,_1549%E2%80%931617)_-_2005.145.143.a_-_Cleveland_Museum_of_Art.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": ""
+     }
+    }
+   ]
   },
   {
    "key": "baroque",
@@ -2140,7 +2905,580 @@ window.DEPICTIONS = {
    "intro": "Caravaggio's beam of light, Rubens' surging bodies and Rembrandt's quiet tenderness made the sacred story feel immediate — happening now, to people like us. Spanish sculptors carved Christ so lifelike that processions still carry him through the streets. From the Andes to the Kingdom of Kongo to Japan, the image of Christ was embraced, adapted and, at times, suffered for.",
    "verse": "The people which sat in darkness saw great light.",
    "verseRef": "Matthew 4:16",
-   "entries": []
+   "entries": [
+    {
+     "id": "caravaggio-calling-of-saint-matthew",
+     "title": "The Calling of Saint Matthew",
+     "artist": "Michelangelo Merisi da Caravaggio",
+     "date": "1599–1600",
+     "year": 1600,
+     "created": "Rome, Italy",
+     "location": "Contarelli Chapel, San Luigi dei Francesi, Rome, Italy",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Early Baroque (Caravaggism)",
+     "summary": "Christ, half-hidden behind Saint Peter, enters a dim tax office and points toward Levi the tax collector, who sits counting coins among richly dressed companions. A shaft of light falls diagonally across the wall along the line of Christ's hand, so that grace itself seems to cross the room. With this canvas Caravaggio brought the Gospel into a contemporary Roman tavern and launched the dramatic chiaroscuro that would define Baroque painting across Europe.",
+     "facts": [
+      "Christ's outstretched hand deliberately echoes the hand of Adam in Michelangelo's Creation of Adam on the Sistine Chapel ceiling, presenting Christ as the new Adam calling humanity to new life.",
+      "Scholars still debate which figure is Matthew: the bearded man pointing to himself, or the young man slumped at the end of the table still counting money.",
+      "It was Caravaggio's first major public commission, painted with The Martyrdom of Saint Matthew for the chapel of the French cardinal Matthieu Cointrel (Contarelli), and it made him famous almost overnight.",
+      "Christ and Peter are barefoot and dressed in timeless robes, while the tax collectors wear fashionable late-16th-century clothing, setting sacred time against the everyday present."
+     ],
+     "scripture": "Matthew 9:9",
+     "commons": "File:The Calling of Saint Matthew-Caravaggo (1599-1600).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/caravaggio-calling-of-saint-matthew.webp",
+      "thumb": "assets/img/caravaggio-calling-of-saint-matthew-sm.webp",
+      "w": 1752,
+      "h": 1800,
+      "color": "#2d1f14",
+      "accent": "#492d18",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_Calling_of_Saint_Matthew-Caravaggo_%281599-1600%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Caravaggio"
+     }
+    },
+    {
+     "id": "caravaggio-supper-at-emmaus",
+     "title": "Supper at Emmaus",
+     "artist": "Michelangelo Merisi da Caravaggio",
+     "date": "1601",
+     "year": 1601,
+     "created": "Rome, Italy",
+     "location": "National Gallery, London, United Kingdom",
+     "medium": "Oil and tempera on canvas",
+     "form": "Painting",
+     "style": "Early Baroque (Caravaggism)",
+     "summary": "At the moment the risen Christ blesses the bread, two disciples recognize him: one grips the arms of his chair, the other flings his arms wide as if mirroring the Cross. Caravaggio paints a youthful, beardless Christ in a red tunic, lit from the upper left against a dark wall, while the innkeeper looks on uncomprehending. The still life on the table, with its bread, roast fowl and fruit basket, makes the sacred encounter almost tangibly present.",
+     "facts": [
+      "The beardless Christ was unusual and surprised early viewers; it may reflect the Gospel of Mark's remark that the risen Jesus appeared 'in another form' (Mark 16:12).",
+      "The fruit basket teeters over the table's edge, appearing to project into the viewer's own space — a famous piece of illusionism.",
+      "The painting was commissioned by the Roman nobleman Ciriaco Mattei, one of Caravaggio's important early patrons.",
+      "Caravaggio painted the subject again around 1606 (now in the Pinacoteca di Brera, Milan) in a much more subdued, sombre manner."
+     ],
+     "scripture": "Luke 24:28–31",
+     "commons": "File:Supper at Emmaus-Caravaggio (1601).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Supper_at_Emmaus_(Caravaggio,_London)"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/caravaggio-supper-at-emmaus.webp",
+      "thumb": "assets/img/caravaggio-supper-at-emmaus-sm.webp",
+      "w": 1800,
+      "h": 1281,
+      "color": "#44312b",
+      "accent": "#68412f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Supper_at_Emmaus-Caravaggio_(1601).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Caravaggio"
+     }
+    },
+    {
+     "id": "rubens-elevation-of-the-cross",
+     "title": "The Elevation of the Cross",
+     "artist": "Peter Paul Rubens",
+     "date": "1610–11",
+     "year": 1610,
+     "created": "Antwerp, Spanish Netherlands (present-day Belgium)",
+     "location": "Cathedral of Our Lady, Antwerp, Belgium",
+     "medium": "Oil on panel (triptych)",
+     "form": "Painting",
+     "style": "Flemish Baroque",
+     "summary": "Across the central panel, a team of straining, muscular men heaves the cross upright on a steep diagonal, while Christ, pale and luminous, lifts his eyes to heaven. The wings extend the drama: mourning women and Saint John at left, Roman officers and the crucified thieves at right. Painted soon after Rubens returned from eight years in Italy, it fused Michelangelo's monumentality and Venetian color into a new, overwhelmingly physical Baroque language.",
+     "facts": [
+      "The triptych was painted for the high altar of Saint Walburga's Church in Antwerp; it was moved to the cathedral in 1816 after that church was demolished.",
+      "French revolutionary troops carried the painting to Paris in 1794; it was returned to Antwerp after Napoleon's defeat in 1815.",
+      "It hangs in the cathedral alongside Rubens's Descent from the Cross; the two paintings famously inspire the boy Nello in the 19th-century novel A Dog of Flanders.",
+      "The composition shows the influence of Tintoretto and of Michelangelo's sculpture, which Rubens had studied and sketched in Rome."
+     ],
+     "scripture": "John 19:16–18",
+     "commons": "File:Peter Paul Rubens - Raising of the Cross - 1610.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Elevation_of_the_Cross_(Rubens)"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/rubens-elevation-of-the-cross.webp",
+      "thumb": "assets/img/rubens-elevation-of-the-cross-sm.webp",
+      "w": 1800,
+      "h": 1311,
+      "color": "#3c3120",
+      "accent": "#3c2e19",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Peter_Paul_Rubens_-_Raising_of_the_Cross_-_1610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Raising_of_the_Cross_-_1610.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Peter Paul Rubens"
+     }
+    },
+    {
+     "id": "gregorio-fernandez-cristo-yacente",
+     "title": "Cristo yacente (Recumbent Christ)",
+     "artist": "Gregorio Fernández",
+     "date": "c. 1625–30",
+     "year": 1627,
+     "created": "Valladolid, Spain",
+     "location": "Museo Nacional de Escultura, Valladolid, Spain",
+     "medium": "Polychromed wood with glass and other inlays",
+     "form": "Sculpture",
+     "style": "Spanish Baroque (Castilian school)",
+     "summary": "The dead Christ lies on a white shroud, his head resting on a pillow, the wounds of the Passion rendered with almost unbearable tenderness and realism. Gregorio Fernández, the leading sculptor of Castile, created a series of these recumbent Christs for meditation and Holy Week devotion, and this example — made for the Jesuit professed house in Madrid — is among the finest. It embodies the Counter-Reformation ideal of art that moves the faithful to compassion and prayer.",
+     "facts": [
+      "Spanish Baroque sculptors heightened realism with 'postizos' — added materials such as glass eyes, resin for blood, and bone or ivory for teeth and fingernails.",
+      "The polychromy (painting) of such sculptures was a separate specialized craft; the flesh tones were built up in layers to imitate the pallor of death.",
+      "Fernández's figures were carried in Valladolid's Holy Week processions, a tradition that continues today with many of his works.",
+      "The format of Christ laid out alone, as if in the tomb, became one of the most widespread devotional images in Spain and later in Spanish America."
+     ],
+     "scripture": "John 19:38–42",
+     "commons": "File:Gregorio Fernández, Cristo yacente, 1627.jpg",
+     "links": [
+      {
+       "label": "Wikipedia (Gregorio Fernández)",
+       "url": "https://en.wikipedia.org/wiki/Gregorio_Fern%C3%A1ndez"
+      },
+      {
+       "label": "Museo Nacional de Escultura",
+       "url": "https://www.culturaydeporte.gob.es/mnescultura/inicio.html"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/gregorio-fernandez-cristo-yacente.webp",
+      "thumb": "assets/img/gregorio-fernandez-cristo-yacente-sm.webp",
+      "w": 1800,
+      "h": 972,
+      "color": "#645f5a",
+      "accent": "#74706e",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gregorio_Fern%C3%A1ndez%2C_Cristo_yacente%2C_1627.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Gregorio_Fern%C3%A1ndez,_Cristo_yacente,_1627.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Rodelar"
+     }
+    },
+    {
+     "id": "velazquez-christ-crucified",
+     "title": "Christ Crucified",
+     "artist": "Diego Velázquez",
+     "date": "c. 1632",
+     "year": 1632,
+     "created": "Madrid, Spain",
+     "location": "Museo del Prado, Madrid, Spain",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Spanish Baroque",
+     "summary": "Velázquez sets a life-size Christ against a plain dark background, alone and utterly still, with no mourners, landscape or drama to distract from contemplation. The body is serenely classical, lit softly from the left; the head has fallen forward and a curtain of hair hides half of the face. Its quiet restraint has made it one of the most beloved and meditated-upon images of the Crucifixion in Spain.",
+     "facts": [
+      "Christ is fixed with four nails, his feet side by side on a small footrest, following the recommendation of Velázquez's teacher and father-in-law, the painter and theorist Francisco Pacheco.",
+      "It was painted for the Benedictine convent of San Plácido in Madrid and entered the Prado in the 19th century.",
+      "The philosopher Miguel de Unamuno devoted a long poem, El Cristo de Velázquez (1920), to meditating on this painting.",
+      "A popular legend claims Velázquez, frustrated with the face, swept the hair across it with his brush; the falling hair is in fact a deliberate, poignant device."
+     ],
+     "scripture": "John 19:28–30",
+     "commons": "File:Cristo crucificado.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Christ_Crucified_(Vel%C3%A1zquez)"
+      },
+      {
+       "label": "Museo del Prado",
+       "url": "https://www.museodelprado.es/coleccion/obra-de-arte/cristo-crucificado/72cbb57e-f622-4531-9b25-27ff0a9559d7"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/velazquez-christ-crucified.webp",
+      "thumb": "assets/img/velazquez-christ-crucified-sm.webp",
+      "w": 1207,
+      "h": 1800,
+      "color": "#39352a",
+      "accent": "#9d8764",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristo_crucificado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Cristo_crucificado.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Diego Velázquez"
+     }
+    },
+    {
+     "id": "kongo-crucifix-nkangi-kiditu",
+     "title": "Crucifix (Nkangi Kiditu)",
+     "artist": "Unknown Kongo artist",
+     "date": "16th–17th century",
+     "year": 1650,
+     "created": "Kingdom of Kongo (present-day Angola, Democratic Republic of the Congo and Republic of the Congo)",
+     "location": "The Metropolitan Museum of Art, New York, United States",
+     "medium": "Solid cast brass",
+     "form": "Metalwork",
+     "style": "Kongo Christian art",
+     "summary": "A Christ with distinctly African features hangs on a cross bordered with incised patterns, while small figures perch on the crossbar and kneel above and below him. The Kingdom of Kongo embraced Christianity after 1491, and its artists recast the European crucifix in local forms and meanings over the following centuries. Such crucifixes served both as objects of Christian devotion and as emblems of authority held by rulers and judges.",
+     "facts": [
+      "The Kikongo name nkangi kiditu joins 'Kiditu' (from the Portuguese Cristo) with a word related to kanga, which can mean both 'to bind' and 'to save or protect.'",
+      "King Afonso I (r. 1509–1542) made Catholicism the state religion, and Kongo maintained its own Christian tradition for centuries, largely independent of European clergy.",
+      "The cross resonated with an existing Kongo cosmogram representing the crossing between the world of the living and the world of the dead.",
+      "The small attendant figures, often shown in prayer, are a Kongo addition; they have been read as mourners, saints, or ancestors."
+     ],
+     "commons": "File:Crucifix MET DP326205.jpg",
+     "links": [
+      {
+       "label": "Wikipedia (Kingdom of Kongo)",
+       "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+      },
+      {
+       "label": "The Met",
+       "url": "https://www.metmuseum.org/art/collection/search/318323"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/kongo-crucifix-nkangi-kiditu.webp",
+      "thumb": "assets/img/kongo-crucifix-nkangi-kiditu-sm.webp",
+      "w": 1334,
+      "h": 1800,
+      "color": "#4f4944",
+      "accent": "#514d4a",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/47/Crucifix_MET_DP326205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Crucifix_MET_DP326205.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": ""
+     }
+    },
+    {
+     "id": "rembrandt-head-of-christ-philadelphia",
+     "title": "Head of Christ",
+     "artist": "Rembrandt van Rijn (and workshop)",
+     "date": "c. 1648–56",
+     "year": 1652,
+     "created": "Amsterdam, Dutch Republic",
+     "location": "Philadelphia Museum of Art, Philadelphia, United States",
+     "medium": "Oil on oak panel",
+     "form": "Painting",
+     "style": "Dutch Golden Age (Baroque)",
+     "summary": "A young man with long dark hair and a short beard turns his head gently, his eyes lowered in thought; there is no halo, only warm light falling on a humble, searching face. This small panel belongs to a group of studies of Christ that Rembrandt and his studio painted around 1648–56, apparently from a living model. Breaking with centuries of idealized types, these heads present a deeply human, inward Jesus.",
+     "facts": [
+      "Rembrandt lived on the edge of Amsterdam's Jewish quarter, and the studies are widely thought to have been painted from a young Jewish man of his neighborhood — a striking choice for depicting Jesus.",
+      "The inventory of Rembrandt's possessions in 1656 lists a 'head of Christ, from life' (een Christus troni nae 't leven).",
+      "The heads are closely related to the Christ in Rembrandt's Supper at Emmaus of 1648 in the Louvre.",
+      "The group was reunited in the 2011 exhibition 'Rembrandt and the Face of Jesus' at the Louvre, Philadelphia Museum of Art and Detroit Institute of Arts; scholars continue to debate which heads are by Rembrandt's own hand."
+     ],
+     "commons": "File:Rembrandt Harmensz. van Rijn, Dutch (active Leiden and Amsterdam) - Head of Christ - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Head_of_Christ_(Rembrandt)"
+      },
+      {
+       "label": "Philadelphia Museum of Art",
+       "url": "https://philamuseum.org/collection/object/102264"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/rembrandt-head-of-christ-philadelphia.webp",
+      "thumb": "assets/img/rembrandt-head-of-christ-philadelphia-sm.webp",
+      "w": 1562,
+      "h": 1800,
+      "color": "#301b13",
+      "accent": "#371f15",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rembrandt_Harmensz._van_Rijn%2C_Dutch_%28active_Leiden_and_Amsterdam%29_-_Head_of_Christ_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn,_Dutch_(active_Leiden_and_Amsterdam)_-_Head_of_Christ_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Rembrandt"
+     }
+    },
+    {
+     "id": "fumi-e-christ-on-the-cross",
+     "title": "Fumi-e: Christ on the Cross",
+     "artist": "Unknown Japanese metalworker",
+     "date": "17th century",
+     "year": 1669,
+     "created": "Nagasaki, Japan",
+     "location": "Tokyo National Museum, Tokyo, Japan",
+     "medium": "Cast brass",
+     "form": "Metalwork",
+     "style": "Edo period",
+     "summary": "This worn brass plaque shows the crucified Christ in relief above a small city, an image derived from European devotional models. Under the Tokugawa shogunate, which banned Christianity in 1614, suspected believers were forced to tread on such 'stepping pictures' (fumi-e) to prove they had renounced the faith. The smoothed surface records the countless feet that passed over it — and the anguish of the hidden Christians who stepped on, or refused to.",
+     "facts": [
+      "The ritual of efumi ('picture-treading') was held annually in Nagasaki and other areas of Kyushu, often at New Year, and continued until the 1850s.",
+      "Around 1669 the Nagasaki magistrate's office had brass fumi-e cast because the earlier paper and wooden images wore out quickly.",
+      "Many Japanese Christians who refused to step on the image were executed; others complied outwardly while secretly keeping their faith as Kakure Kirishitan ('hidden Christians').",
+      "Shūsaku Endō's novel Silence (1966), later filmed by Martin Scorsese, centers on the agonizing choice to trample a fumi-e."
+     ],
+     "commons": "File:C-1011 E0175941.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Fumi-e"
+      },
+      {
+       "label": "ColBase (National Museums of Japan)",
+       "url": "https://colbase.nich.go.jp/collection_items/tnm/C-1011"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/fumi-e-christ-on-the-cross.webp",
+      "thumb": "assets/img/fumi-e-christ-on-the-cross-sm.webp",
+      "w": 1545,
+      "h": 1800,
+      "color": "#8a7d5a",
+      "accent": "#8c774c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/C-1011_E0175941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:C-1011_E0175941.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "東京国立博物館"
+     }
+    },
+    {
+     "id": "gondarine-kwerata-reesu",
+     "title": "Kwer'ata Re'esu (Christ Crowned with Thorns)",
+     "artist": "Unknown Ethiopian painter",
+     "date": "17th century",
+     "year": 1675,
+     "created": "Gondar region, Ethiopia",
+     "location": "Ethnological Museum, Institute of Ethiopian Studies, Addis Ababa, Ethiopia",
+     "medium": "Tempera on panel",
+     "form": "Icon",
+     "style": "First Gondarine style (Ethiopian Orthodox)",
+     "summary": "Christ, his face framed by dark curls and a golden halo, raises his wounded hands as two soldiers in striped garments press the crown of thorns onto his head with long rods. The image type, called Kwer'ata Re'esu ('the striking of the head'), descends from a European painting of Christ that became Ethiopia's most sacred royal icon. Rendered in the flat, brilliantly colored manner of the Gondarine school, it shows how Ethiopian artists transformed a foreign model into a native devotional form.",
+     "facts": [
+      "The original Kwer'ata Re'esu was a 16th-century Flemish-style painting brought to Ethiopia; it was carried into battle by Ethiopian emperors and used to seal solemn oaths.",
+      "British troops removed the original icon from Emperor Tewodros II's fortress at Magdala in 1868, and it has remained outside Ethiopia ever since.",
+      "Gondar, founded as the royal capital by Emperor Fasilides in the 1630s, became the center of a flourishing school of religious painting in the 17th and 18th centuries.",
+      "Ethiopian painting traditionally shows holy figures with large frontal eyes, while those who torment Christ are often drawn in profile."
+     ],
+     "scripture": "Matthew 27:29–30",
+     "commons": "File:Primo stile di gondar, kwer'ata re'esu (uomo di dolori), xvii secolo.jpg",
+     "links": [
+      {
+       "label": "Wikipedia (Ethiopian art)",
+       "url": "https://en.wikipedia.org/wiki/Ethiopian_art"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/gondarine-kwerata-reesu.webp",
+      "thumb": "assets/img/gondarine-kwerata-reesu-sm.webp",
+      "w": 1180,
+      "h": 1800,
+      "color": "#a16b45",
+      "accent": "#c97135",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Primo_stile_di_gondar%2C_kwer%27ata_re%27esu_%28uomo_di_dolori%29%2C_xvii_secolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Primo_stile_di_gondar,_kwer%27ata_re%27esu_(uomo_di_dolori),_xvii_secolo.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "credit": "Sailko"
+     }
+    },
+    {
+     "id": "murillo-heavenly-and-earthly-trinities",
+     "title": "The Heavenly and Earthly Trinities",
+     "artist": "Bartolomé Esteban Murillo",
+     "date": "c. 1675–82",
+     "year": 1678,
+     "created": "Seville, Spain",
+     "location": "National Gallery, London, United Kingdom",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Spanish Baroque",
+     "summary": "The child Jesus stands on a rock between Mary and Joseph, holding their hands, while above him the Holy Spirit descends as a dove and God the Father looks down among clouds and angels. The vertical line of the heavenly Trinity crosses the horizontal line of the earthly 'trinity' of the Holy Family precisely at the figure of Christ. Murillo's gentle, glowing style made the scene a beloved meditation on the Incarnation, uniting heaven and earth in a child.",
+     "facts": [
+      "The composition forms a cross, with the boy Jesus at the intersection — a quiet foreshadowing of the Passion.",
+      "Devotion to the 'two Trinities' — the divine Trinity and the Holy Family — was popular in 17th-century Spain, encouraged especially by writers devoted to Saint Joseph.",
+      "Murillo was the most celebrated painter of Seville in his lifetime, and his tender religious images were collected across Europe in the 18th and 19th centuries.",
+      "The painting was acquired by the National Gallery in 1837."
+     ],
+     "commons": "File:Bartolomé Esteban Murillo - The Heavenly and Earthly Trinities - 1681-82.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Heavenly_and_Earthly_Trinities"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/bartolome-esteban-murillo-the-heavenly-and-earthly-trinities"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/murillo-heavenly-and-earthly-trinities.webp",
+      "thumb": "assets/img/murillo-heavenly-and-earthly-trinities-sm.webp",
+      "w": 1240,
+      "h": 1800,
+      "color": "#61503c",
+      "accent": "#8b7355",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bartolom%C3%A9_Esteban_Murillo_-_The_Heavenly_and_Earthly_Trinities_-_1681-82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Murillo_-_The_Heavenly_and_Earthly_Trinities_-_1681-82.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Bartolomé Esteban Murillo"
+     }
+    },
+    {
+     "id": "marcos-zapata-last-supper-cusco",
+     "title": "The Last Supper",
+     "artist": "Marcos Zapata",
+     "date": "c. 1753",
+     "year": 1753,
+     "created": "Cusco, Viceroyalty of Peru",
+     "location": "Cathedral of Cusco, Peru",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Cusco School (Andean Baroque)",
+     "summary": "Christ and the apostles gather around a long table beneath a red canopy, but the central platter holds a roasted cuy (guinea pig), a traditional Andean festive dish, alongside local foods. Marcos Zapata, a leading Andean painter of the Cusco School, translated the European Last Supper into the visual and culinary world of the Peruvian highlands. The painting remains one of the best-loved images in Cusco Cathedral and a vivid emblem of Andean Christianity.",
+     "facts": [
+      "Guinea pigs had long been raised and eaten in the Andes, including on ritual occasions, so the dish gave the sacred meal a familiar, festive meaning for local viewers.",
+      "Zapata ran a large, productive workshop in Cusco and painted a major series of canvases for the cathedral in the mid-18th century.",
+      "The Cusco School combined European compositions, often copied from Flemish prints, with Andean flora, fauna and abundant gold ornament.",
+      "Local tradition holds that Judas, who turns toward the viewer, was given the features of the conquistador Francisco Pizarro — a popular story rather than a documented fact."
+     ],
+     "scripture": "Matthew 26:20–29",
+     "commons": "File:Zapata-última cena.jpg",
+     "links": [
+      {
+       "label": "Wikipedia (Marcos Zapata)",
+       "url": "https://en.wikipedia.org/wiki/Marcos_Zapata"
+      },
+      {
+       "label": "Wikipedia (Cusco School)",
+       "url": "https://en.wikipedia.org/wiki/Cusco_school"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/marcos-zapata-last-supper-cusco.webp",
+      "thumb": "assets/img/marcos-zapata-last-supper-cusco-sm.webp",
+      "w": 867,
+      "h": 979,
+      "color": "#4f4431",
+      "accent": "#5a331e",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Zapata-%C3%BAltima_cena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Zapata-%C3%BAltima_cena.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Marcos Zapata"
+     }
+    },
+    {
+     "id": "batoni-sacred-heart-of-jesus",
+     "title": "The Sacred Heart of Jesus",
+     "artist": "Pompeo Batoni",
+     "date": "1767",
+     "year": 1767,
+     "created": "Rome, Papal States",
+     "location": "Church of the Gesù, Rome, Italy",
+     "medium": "Oil painting",
+     "form": "Painting",
+     "style": "Late Baroque / early Neoclassical",
+     "summary": "Christ, in a red tunic and blue mantle, gazes gently at the viewer and holds out his radiant heart, encircled by thorns and crowned with a cross and flame. Pompeo Batoni painted the image for the Jesuit mother church in Rome, shortly after the papacy first approved a liturgical feast of the Sacred Heart. Through countless prints and holy cards, it became one of the most widely reproduced images of Christ in the world.",
+     "facts": [
+      "Devotion to the Sacred Heart spread from the visions of Saint Margaret Mary Alacoque at Paray-le-Monial, France (1673–75), and was championed by the Jesuits.",
+      "In 1765 Pope Clement XIII authorized a feast of the Sacred Heart for certain dioceses and religious orders; Batoni's painting followed two years later.",
+      "Batoni was the most sought-after portraitist in 18th-century Rome, famous for painting British aristocrats on the Grand Tour.",
+      "The image's soft, approachable Christ shaped popular Catholic iconography well into the 20th century."
+     ],
+     "commons": "File:SacredHeartBatoni.jpg",
+     "links": [
+      {
+       "label": "Wikipedia (Sacred Heart)",
+       "url": "https://en.wikipedia.org/wiki/Sacred_Heart"
+      },
+      {
+       "label": "Wikipedia (Pompeo Batoni)",
+       "url": "https://en.wikipedia.org/wiki/Pompeo_Batoni"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/batoni-sacred-heart-of-jesus.webp",
+      "thumb": "assets/img/batoni-sacred-heart-of-jesus-sm.webp",
+      "w": 1034,
+      "h": 1441,
+      "color": "#685148",
+      "accent": "#442318",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/SacredHeartBatoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:SacredHeartBatoni.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Pompeo Batoni"
+     }
+    },
+    {
+     "id": "aleijadinho-congonhas-crucifixion",
+     "title": "The Crucifixion, from the Passion chapels (Passos) at Congonhas",
+     "artist": "Antônio Francisco Lisboa (Aleijadinho) and workshop; painted by Manuel da Costa Ataíde and Francisco Xavier Carneiro",
+     "date": "1796–99",
+     "year": 1797,
+     "created": "Congonhas, Minas Gerais, colonial Brazil",
+     "location": "Sanctuary of Bom Jesus de Matosinhos, Congonhas, Brazil",
+     "medium": "Polychromed cedar wood",
+     "form": "Sculpture",
+     "style": "Brazilian Baroque / Rococo",
+     "summary": "Life-size wooden figures fill a small chapel: soldiers hammer and gamble while Christ lies stretched on the cross, about to be raised between the two thieves. The scene is one of seven chapels of the Stations of the Passion climbing the hill to the sanctuary at Congonhas, carved under the direction of Aleijadinho, the great mixed-race sculptor of colonial Brazil. Created at the close of the Baroque age, the ensemble is a culminating masterpiece of Christian art in the Americas.",
+     "facts": [
+      "The Passion chapels contain 66 carved figures, enacting scenes from the Last Supper to the Crucifixion.",
+      "Aleijadinho ('the little cripple') suffered from a degenerative illness in his later years; tradition says he worked with tools strapped to his hands.",
+      "The figures were painted by Manuel da Costa Ataíde and Francisco Xavier Carneiro, which is why they retain such vivid color.",
+      "The sanctuary, with Aleijadinho's twelve soapstone prophets on its terrace, was declared a UNESCO World Heritage Site in 1985."
+     ],
+     "scripture": "Luke 23:33–34",
+     "commons": "File:Aleijadinho - Crucificação de Jesus - Santuário do Bom Jesus de Matosinhos - Congonhas.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_de_Matosinhos"
+      },
+      {
+       "label": "Wikipedia (Aleijadinho)",
+       "url": "https://en.wikipedia.org/wiki/Aleijadinho"
+      },
+      {
+       "label": "UNESCO",
+       "url": "https://whc.unesco.org/en/list/334/"
+      }
+     ],
+     "era": "baroque",
+     "image": {
+      "src": "assets/img/aleijadinho-congonhas-crucifixion.webp",
+      "thumb": "assets/img/aleijadinho-congonhas-crucifixion-sm.webp",
+      "w": 1800,
+      "h": 1021,
+      "color": "#6e685f",
+      "accent": "#888274",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aleijadinho_-_Crucifica%C3%A7%C3%A3o_de_Jesus_-_Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Aleijadinho_-_Crucifica%C3%A7%C3%A3o_de_Jesus_-_Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Ricardo André Frantz - Tetraktys"
+     }
+    }
+   ]
   },
   {
    "key": "nineteenth-century",

@@ -56,7 +56,7 @@ window.DEPICTIONS = {
       "credit": "Justin Benttinen"
      },
      "ck": "Q577890",
-     "cp": 3374
+     "cp": 3318
     },
     {
      "id": "dura-europos-healing-of-the-paralytic",
@@ -103,7 +103,7 @@ window.DEPICTIONS = {
       "credit": "Yale University Art Gallery"
      },
      "ck": "Q49289775",
-     "cp": 3383
+     "cp": 3327
     },
     {
      "id": "good-shepherd-catacomb-of-callixtus",
@@ -154,7 +154,7 @@ window.DEPICTIONS = {
       "credit": "Jim Forest https://www.flickr.com/people/jimforest/ (artwork by unknown)"
      },
      "ck": "wga:zearly/1/2mural/4callist/callist6",
-     "cp": 3418
+     "cp": 3362
     },
     {
      "id": "christ-as-sol-tomb-of-the-julii",
@@ -201,7 +201,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q18673023",
-     "cp": 3371
+     "cp": 3315
     },
     {
      "id": "good-shepherd-statue-pio-cristiano",
@@ -257,7 +257,7 @@ window.DEPICTIONS = {
       "credit": "Carole Raddato"
      },
      "ck": "wga:zearly/1/1sculptu/various/7statue1",
-     "cp": 35
+     "cp": 1944
     },
     {
      "id": "hinton-st-mary-mosaic",
@@ -303,7 +303,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "Q11012952",
-     "cp": 3366
+     "cp": 3310
     },
     {
      "id": "sarcophagus-of-junius-bassus",
@@ -389,7 +389,7 @@ window.DEPICTIONS = {
       "credit": "Autoría desconocida"
      },
      "ck": "commons:81707299",
-     "cp": 3417
+     "cp": 3361
     },
     {
      "id": "brescia-casket",
@@ -436,7 +436,7 @@ window.DEPICTIONS = {
       "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public"
      },
      "ck": "Q3390834",
-     "cp": 3373
+     "cp": 3317
     },
     {
      "id": "santa-pudenziana-apse-mosaic",
@@ -479,7 +479,7 @@ window.DEPICTIONS = {
       "credit": "Welleschik"
      },
      "ck": "feat:santa-pudenziana-apse-mosaic",
-     "cp": 3557
+     "cp": 3501
     },
     {
      "id": "maskell-ivory-crucifixion",
@@ -522,7 +522,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "feat:maskell-ivory-crucifixion",
-     "cp": 3393
+     "cp": 3337
     },
     {
      "id": "santa-sabina-door-crucifixion",
@@ -565,7 +565,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "feat:santa-sabina-door-crucifixion",
-     "cp": 3558
+     "cp": 3502
     },
     {
      "id": "santa-maria-maggiore-adoration-of-the-magi",
@@ -608,7 +608,7 @@ window.DEPICTIONS = {
       "credit": "Fabrizio Garrisi"
      },
      "ck": "feat:santa-maria-maggiore-adoration-of-the-magi",
-     "cp": 3463
+     "cp": 3406
     },
     {
      "id": "galla-placidia-good-shepherd",
@@ -655,7 +655,7 @@ window.DEPICTIONS = {
       "credit": "Prof. Mortel"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5",
-     "cp": 3555
+     "cp": 3499
     },
     {
      "id": "neonian-baptistery-baptism",
@@ -702,7 +702,7 @@ window.DEPICTIONS = {
       "credit": "Petar Milošević"
      },
      "ck": "commons:98691704",
-     "cp": 3411
+     "cp": 3355
     },
     {
      "id": "hosios-david-christ-in-glory",
@@ -745,7 +745,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "Q112785721",
-     "cp": 3378
+     "cp": 3322
     },
     {
      "id": "archbishops-chapel-christ-warrior",
@@ -792,7 +792,7 @@ window.DEPICTIONS = {
       "credit": "José Luiz"
      },
      "ck": "feat:archbishops-chapel-christ-warrior",
-     "cp": 3559
+     "cp": 3503
     },
     {
      "id": "sant-apollinare-nuovo-christ-enthroned",
@@ -838,7 +838,7 @@ window.DEPICTIONS = {
       "credit": "José Luiz"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/4nuovo/2south5",
-     "cp": 3414
+     "cp": 3358
     },
     {
      "id": "barberini-ivory",
@@ -880,7 +880,7 @@ window.DEPICTIONS = {
       "credit": "Shonagon"
      },
      "ck": "Q807809",
-     "cp": 554
+     "cp": 557
     },
     {
      "id": "santi-cosma-e-damiano-apse-mosaic",
@@ -923,7 +923,7 @@ window.DEPICTIONS = {
       "credit": "G41rn8"
      },
      "ck": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
-     "cp": 3556
+     "cp": 3500
     },
     {
      "id": "antioch-chalice",
@@ -970,7 +970,7 @@ window.DEPICTIONS = {
       "credit": "Mary Harrsch from Springfield, Oregon, USA"
      },
      "ck": "Q29385468",
-     "cp": 3541
+     "cp": 3484
     },
     {
      "id": "san-vitale-christ-on-the-globe",
@@ -1017,7 +1017,7 @@ window.DEPICTIONS = {
       "credit": "Following Hadrian"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/5vitale/2conch1",
-     "cp": 3460
+     "cp": 3403
     },
     {
      "id": "sant-apollinare-in-classe-transfiguration-cross",
@@ -1060,7 +1060,7 @@ window.DEPICTIONS = {
       "credit": "Gleb Simonov"
      },
      "ck": "feat:sant-apollinare-in-classe-transfiguration-cross",
-     "cp": 3461
+     "cp": 3404
     },
     {
      "id": "sinai-christ-pantocrator",
@@ -1106,7 +1106,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "Q4501499",
-     "cp": 3368
+     "cp": 3312
     },
     {
      "id": "rossano-gospels-christ-before-pilate",
@@ -1149,7 +1149,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "feat:rossano-gospels-christ-before-pilate",
-     "cp": 3382
+     "cp": 3326
     },
     {
      "id": "cleveland-tapestry-icon-of-the-virgin",
@@ -1194,7 +1194,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "anonymous"
      },
-     "ck": "Q60745622"
+     "ck": "Q60745622",
+     "cp": 267
     },
     {
      "id": "sinai-transfiguration-apse-mosaic",
@@ -1241,7 +1242,7 @@ window.DEPICTIONS = {
       "credit": "Unknown artistUnknown artist"
      },
      "ck": "commons:98691695",
-     "cp": 3400
+     "cp": 3344
     },
     {
      "id": "stuma-paten-communion-of-the-apostles",
@@ -1288,7 +1289,7 @@ window.DEPICTIONS = {
       "credit": "Dosseman"
      },
      "ck": "feat:stuma-paten-communion-of-the-apostles",
-     "cp": 3367
+     "cp": 3311
     },
     {
      "id": "rabbula-gospels-crucifixion",
@@ -1331,7 +1332,7 @@ window.DEPICTIONS = {
       "credit": "Gennadii Saus i Segura"
      },
      "ck": "feat:rabbula-gospels-crucifixion",
-     "cp": 3436
+     "cp": 3379
     },
     {
      "id": "holy-land-pilgrim-ampulla-crucifixion",
@@ -1378,7 +1379,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q60779306",
-     "cp": 3396
+     "cp": 3340
     },
     {
      "id": "christ-and-abbot-mena",
@@ -1424,7 +1425,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q9191525",
-     "cp": 3369
+     "cp": 3313
     }
    ]
   },
@@ -1483,7 +1484,7 @@ window.DEPICTIONS = {
       "credit": "Votpuske"
      },
      "ck": "wga:zearly/1/5coptic/painting/1bawit2",
-     "cp": 3369
+     "cp": 3313
     },
     {
      "id": "solidus-of-justinian-ii-christ",
@@ -1533,7 +1534,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q80079053",
-     "cp": 554
+     "cp": 557
     },
     {
      "id": "ruthwell-cross",
@@ -1580,7 +1581,7 @@ window.DEPICTIONS = {
       "credit": "PaulT (Gunther Tschuch)"
      },
      "ck": "feat:ruthwell-cross",
-     "cp": 3560
+     "cp": 3504
     },
     {
      "id": "godescalc-evangelistary-christ",
@@ -1622,7 +1623,7 @@ window.DEPICTIONS = {
       "credit": "Godescalc"
      },
      "ck": "commons:25371411",
-     "cp": 3403
+     "cp": 3347
     },
     {
      "id": "book-of-kells-christ-enthroned",
@@ -1664,7 +1665,7 @@ window.DEPICTIONS = {
       "credit": "Abbey of Kells"
      },
      "ck": "feat:book-of-kells-christ-enthroned",
-     "cp": 3440
+     "cp": 3383
     },
     {
      "id": "volto-santo-lucca",
@@ -1711,7 +1712,7 @@ window.DEPICTIONS = {
       "credit": "Francesco Bini"
      },
      "ck": "Q1780180",
-     "cp": 2564
+     "cp": 2563
     },
     {
      "id": "lorsch-gospels-ivory-christ-treading-beasts",
@@ -1754,7 +1755,7 @@ window.DEPICTIONS = {
       "credit": "School of Carolingian Court School"
      },
      "ck": "feat:lorsch-gospels-ivory-christ-treading-beasts",
-     "cp": 3403
+     "cp": 3347
     },
     {
      "id": "utrecht-psalter-psalm-11",
@@ -1801,7 +1802,7 @@ window.DEPICTIONS = {
       "credit": "Unknown monks c. 800"
      },
      "ck": "feat:utrecht-psalter-psalm-11",
-     "cp": 3459
+     "cp": 3402
     },
     {
      "id": "mogao-christian-silk-painting",
@@ -1843,7 +1844,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "Q55347059",
-     "cp": 3377
+     "cp": 3321
     },
     {
      "id": "hagia-sophia-imperial-gate-mosaic",
@@ -1890,7 +1891,7 @@ window.DEPICTIONS = {
       "credit": "Dosseman"
      },
      "ck": "feat:hagia-sophia-imperial-gate-mosaic",
-     "cp": 3478
+     "cp": 3421
     },
     {
      "id": "romanos-ivory",
@@ -1932,7 +1933,7 @@ window.DEPICTIONS = {
       "credit": "Photographe: Clio20"
      },
      "ck": "feat:romanos-ivory",
-     "cp": 3367
+     "cp": 3311
     },
     {
      "id": "harbaville-triptych",
@@ -1974,7 +1975,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q23356",
-     "cp": 3367
+     "cp": 3311
     },
     {
      "id": "gero-cross",
@@ -2021,7 +2022,7 @@ window.DEPICTIONS = {
       "credit": "Lothar Spurzem"
      },
      "ck": "Q653601",
-     "cp": 3375
+     "cp": 3319
     },
     {
      "id": "jelling-stone-christ",
@@ -2067,7 +2068,7 @@ window.DEPICTIONS = {
       "credit": "Photographer Roberto Fortuna, commisioned by the Danish National Museum"
      },
      "ck": "feat:jelling-stone-christ",
-     "cp": 3561
+     "cp": 3505
     },
     {
      "id": "benedictional-of-aethelwold-baptism",
@@ -2110,7 +2111,7 @@ window.DEPICTIONS = {
       "credit": "Meister des Benedictionale des Heiligen Aethelwold"
      },
      "ck": "feat:benedictional-of-aethelwold-baptism",
-     "cp": 3449
+     "cp": 3392
     },
     {
      "id": "etchmiadzin-gospels-christ-enthroned",
@@ -2156,7 +2157,7 @@ window.DEPICTIONS = {
       "credit": "uploader Koperczak (talk) 07:54, 27 March 2009 (UTC), unknown Armenian painter"
      },
      "ck": "feat:etchmiadzin-gospels-christ-enthroned",
-     "cp": 3562
+     "cp": 3506
     },
     {
      "id": "faras-cathedral-nativity",
@@ -2203,7 +2204,7 @@ window.DEPICTIONS = {
       "credit": "Isma'il Kushkush Twitter: @ikushkush"
      },
      "ck": "feat:faras-cathedral-nativity",
-     "cp": 3483
+     "cp": 3426
     },
     {
      "id": "gospels-of-otto-iii-washing-of-the-feet",
@@ -2246,7 +2247,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "feat:gospels-of-otto-iii-washing-of-the-feet",
-     "cp": 3410
+     "cp": 3354
     },
     {
      "id": "bernward-doors",
@@ -2293,7 +2294,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "feat:bernward-doors",
-     "cp": 3563
+     "cp": 3507
     },
     {
      "id": "saint-sophia-kyiv-pantocrator",
@@ -2335,7 +2336,7 @@ window.DEPICTIONS = {
       "credit": "Vi Ko"
      },
      "ck": "feat:saint-sophia-kyiv-pantocrator",
-     "cp": 3564
+     "cp": 3508
     },
     {
      "id": "facundus-beatus-throne-vision",
@@ -2378,7 +2379,7 @@ window.DEPICTIONS = {
       "credit": "Facundus, pour Ferdinand Ier de Castille et Leon et la reine Sancha"
      },
      "ck": "feat:facundus-beatus-throne-vision",
-     "cp": 3453
+     "cp": 3396
     },
     {
      "id": "daphni-pantocrator",
@@ -2466,7 +2467,8 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Daniel VILLAFRUELA."
      },
-     "ck": "commons:132629185"
+     "ck": "commons:132629185",
+     "cp": 1699
     },
     {
      "id": "pantocrator-sant-climent-taull",
@@ -2513,7 +2515,7 @@ window.DEPICTIONS = {
       "credit": "Master of Taüll"
      },
      "ck": "Q110184288",
-     "cp": 1834
+     "cp": 1836
     },
     {
      "id": "khakhuli-triptych",
@@ -2563,7 +2565,7 @@ window.DEPICTIONS = {
       "credit": "Unknown (10th-12th century)"
      },
      "ck": "feat:khakhuli-triptych",
-     "cp": 3565
+     "cp": 3509
     },
     {
      "id": "virgin-of-vladimir",
@@ -2605,7 +2607,7 @@ window.DEPICTIONS = {
       "credit": "Michel Bakni"
      },
      "ck": "Q546241",
-     "cp": 554
+     "cp": 557
     },
     {
      "id": "cefalu-pantocrator",
@@ -2651,7 +2653,8 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Gun Powder Ma"
      },
-     "ck": "commons:98691674"
+     "ck": "commons:98691674",
+     "cp": 1971
     },
     {
      "id": "majestat-batllo",
@@ -2696,7 +2699,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Didier Descouens"
      },
-     "ck": "Q3111703"
+     "ck": "Q3111703",
+     "cp": 522
     },
     {
      "id": "san-damiano-cross",
@@ -2739,7 +2743,7 @@ window.DEPICTIONS = {
       "credit": "Oficina italiana de inspiração bizantina"
      },
      "ck": "Q2348017",
-     "cp": 420
+     "cp": 422
     },
     {
      "id": "novgorod-saviour-not-made-by-hands",
@@ -2784,8 +2788,7 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "anonymous"
      },
-     "ck": "Q223246",
-     "cp": 539
+     "ck": "Q223246"
     }
    ]
   },
@@ -2839,7 +2842,7 @@ window.DEPICTIONS = {
       "credit": "Vanjagenije"
      },
      "ck": "feat:studenica-crucifixion",
-     "cp": 3353
+     "cp": 3300
     },
     {
      "id": "beau-dieu-amiens",
@@ -2882,7 +2885,7 @@ window.DEPICTIONS = {
       "credit": "Vassil"
      },
      "ck": "wga:zgothic/gothic/1/11f_1230",
-     "cp": 3163
+     "cp": 3110
     },
     {
      "id": "sainte-chapelle-passion-window",
@@ -2929,7 +2932,7 @@ window.DEPICTIONS = {
       "credit": "Thomon"
      },
      "ck": "feat:sainte-chapelle-passion-window",
-     "cp": 2741
+     "cp": 2742
     },
     {
      "id": "hilandar-christ-pantocrator-icon",
@@ -2970,7 +2973,7 @@ window.DEPICTIONS = {
       "credit": "Orjen"
      },
      "ck": "feat:hilandar-christ-pantocrator-icon",
-     "cp": 3354
+     "cp": 2184
     },
     {
      "id": "deesis-hagia-sophia",
@@ -3016,7 +3019,7 @@ window.DEPICTIONS = {
       "credit": "Photograph: Myrabella"
      },
      "ck": "wga:zgothic/mosaics/9/8istanbu1",
-     "cp": 3143
+     "cp": 2123
     },
     {
      "id": "toros-roslin-transfiguration",
@@ -3063,7 +3066,7 @@ window.DEPICTIONS = {
       "credit": "Walters Art Museum Illuminated Manuscripts"
      },
      "ck": "walters:W.539.163R",
-     "cp": 3133
+     "cp": 1970
     },
     {
      "id": "cimabue-crucifix-arezzo",
@@ -3106,7 +3109,7 @@ window.DEPICTIONS = {
       "credit": "Photo taken by Senet File:CrocifissoCimabue-Arezzo.JPG"
      },
      "ck": "wga:c/cimabue/crucifix/cruci_a",
-     "cp": 31
+     "cp": 1928
     },
     {
      "id": "cavallini-last-judgment",
@@ -3152,7 +3155,7 @@ window.DEPICTIONS = {
       "credit": "Pietro Cavallini"
      },
      "ck": "Q66369800",
-     "cp": 1860
+     "cp": 1863
     },
     {
      "id": "gabelkreuz-st-maria-im-kapitol",
@@ -3198,7 +3201,7 @@ window.DEPICTIONS = {
       "credit": "MenkinAlRire"
      },
      "ck": "feat:gabelkreuz-st-maria-im-kapitol",
-     "cp": 328
+     "cp": 1929
     },
     {
      "id": "giotto-lamentation",
@@ -3244,7 +3247,7 @@ window.DEPICTIONS = {
       "credit": "Gennadii Saus i Segura"
      },
      "ck": "Q2067212",
-     "cp": 9
+     "cp": 352
     },
     {
      "id": "giotto-kiss-of-judas",
@@ -3290,7 +3293,7 @@ window.DEPICTIONS = {
       "credit": "Giotto"
      },
      "ck": "Q3504778",
-     "cp": 525
+     "cp": 528
     },
     {
      "id": "duccio-entry-into-jerusalem",
@@ -3332,7 +3335,7 @@ window.DEPICTIONS = {
       "credit": "Duccio di Buoninsegna"
      },
      "ck": "wga:d/duccio/maesta/verso_1/verso01",
-     "cp": 57
+     "cp": 272
     },
     {
      "id": "duccio-temptation-on-the-mount",
@@ -3425,7 +3428,7 @@ window.DEPICTIONS = {
       "credit": "Pietro Lorenzetti"
      },
      "ck": "Q3705708",
-     "cp": 527
+     "cp": 530
     },
     {
      "id": "chora-anastasis",
@@ -3468,7 +3471,7 @@ window.DEPICTIONS = {
       "credit": "Till Niermann"
      },
      "ck": "commons:50399629",
-     "cp": 2121
+     "cp": 2123
     },
     {
      "id": "gracanica-dome-pantocrator",
@@ -3509,7 +3512,7 @@ window.DEPICTIONS = {
       "credit": "BLAGO Fund, Inc."
      },
      "ck": "feat:gracanica-dome-pantocrator",
-     "cp": 3355
+     "cp": 3301
     },
     {
      "id": "simone-martini-christ-discovered-in-the-temple",
@@ -3555,7 +3558,7 @@ window.DEPICTIONS = {
       "credit": "Simone Martini"
      },
      "ck": "Q19607289",
-     "cp": 47
+     "cp": 46
     },
     {
      "id": "parisian-ivory-passion-diptych",
@@ -3600,7 +3603,7 @@ window.DEPICTIONS = {
       "credit": "Anonymous (France)Unknown author"
      },
      "ck": "walters:71.179",
-     "cp": 86
+     "cp": 2742
     },
     {
      "id": "theophanes-pantocrator-ilyina-street",
@@ -3645,7 +3648,7 @@ window.DEPICTIONS = {
       "credit": "Theophanes the Greek"
      },
      "ck": "feat:theophanes-pantocrator-ilyina-street",
-     "cp": 3356
+     "cp": 3302
     },
     {
      "id": "wilton-diptych",
@@ -3690,7 +3693,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "anonymous"
      },
-     "ck": "Q1813497"
+     "ck": "Q1813497",
+     "cp": 33
     },
     {
      "id": "sluter-champmol-head-of-christ",
@@ -3731,7 +3735,7 @@ window.DEPICTIONS = {
       "credit": "Claus Sluter"
      },
      "ck": "wga:s/sluter/moses/w_moset2",
-     "cp": 589
+     "cp": 3143
     },
     {
      "id": "rublev-trinity",
@@ -3773,7 +3777,7 @@ window.DEPICTIONS = {
       "credit": "Andrei Rublev"
      },
      "ck": "Q570188",
-     "cp": 546
+     "cp": 252
     },
     {
      "id": "tres-riches-heures-temptation-of-christ",
@@ -3815,7 +3819,7 @@ window.DEPICTIONS = {
       "credit": "Limbourg brothers"
      },
      "ck": "feat:tres-riches-heures-temptation-of-christ",
-     "cp": 3357
+     "cp": 3303
     },
     {
      "id": "rublev-zvenigorod-savior",
@@ -3898,7 +3902,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Robert Campin"
      },
-     "ck": "Q18719519"
+     "ck": "Q18719519",
+     "cp": 368
     },
     {
      "id": "masaccio-holy-trinity",
@@ -3941,7 +3946,7 @@ window.DEPICTIONS = {
       "credit": "Masaccio"
      },
      "ck": "Q977200",
-     "cp": 9
+     "cp": 321
     },
     {
      "id": "ghent-altarpiece",
@@ -4178,7 +4183,7 @@ window.DEPICTIONS = {
       "credit": "Follower of Fre Seyon (Ethiopian, late 15th century)"
      },
      "ck": "walters:36.12",
-     "cp": 1891
+     "cp": 3082
     }
    ]
   },
@@ -4673,7 +4678,7 @@ window.DEPICTIONS = {
       "credit": "Leonardo da Vinci"
      },
      "ck": "Q128910",
-     "cp": 538
+     "cp": 543
     },
     {
      "id": "michelangelo-pieta",
@@ -4715,7 +4720,7 @@ window.DEPICTIONS = {
       "credit": "Jebulon"
      },
      "ck": "Q235242",
-     "cp": 11
+     "cp": 326
     },
     {
      "id": "dionisius-crucifixion",
@@ -4761,7 +4766,7 @@ window.DEPICTIONS = {
       "credit": "Dionisius"
      },
      "ck": "feat:dionisius-crucifixion",
-     "cp": 3358
+     "cp": 994
     },
     {
      "id": "botticelli-mystic-nativity",
@@ -4853,7 +4858,7 @@ window.DEPICTIONS = {
       "credit": "Holger Uwe Schmitt"
      },
      "ck": "wga:r/riemensc/4rotheo",
-     "cp": 3253
+     "cp": 688
     },
     {
      "id": "durer-betrayal-large-passion",
@@ -5088,7 +5093,7 @@ window.DEPICTIONS = {
       "credit": "Hieronymus Bosch or follower"
      },
      "ck": "Q680128",
-     "cp": 402
+     "cp": 405
     },
     {
      "id": "titian-tribute-money",
@@ -5173,7 +5178,7 @@ window.DEPICTIONS = {
       "credit": "Matthieu.lett.ube"
      },
      "ck": "Q2344437",
-     "cp": 419
+     "cp": 11
     },
     {
      "id": "santo-nino-de-cebu",
@@ -5265,7 +5270,7 @@ window.DEPICTIONS = {
       "credit": "Gsimonov"
      },
      "ck": "Q4310527",
-     "cp": 48
+     "cp": 47
     },
     {
      "id": "michelangelo-risen-christ-minerva",
@@ -5306,7 +5311,7 @@ window.DEPICTIONS = {
       "credit": "Wknight94 talk"
      },
      "ck": "Q2182509",
-     "cp": 404
+     "cp": 407
     },
     {
      "id": "correggio-holy-night",
@@ -5440,7 +5445,7 @@ window.DEPICTIONS = {
       "credit": "Didier Descouens"
      },
      "ck": "feat:mass-of-saint-gregory-feather-mosaic",
-     "cp": 3090
+     "cp": 3039
     },
     {
      "id": "cranach-weimar-altarpiece",
@@ -5482,7 +5487,7 @@ window.DEPICTIONS = {
       "credit": "Wolfgang Sauber"
      },
      "ck": "Q117071454",
-     "cp": 1728
+     "cp": 61
     },
     {
      "id": "veronese-wedding-at-cana",
@@ -5748,7 +5753,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Unknown Japanese artist (school of Giovanni Nicolao)"
      },
-     "ck": "Q134570304"
+     "ck": "Q134570304",
+     "cp": 1469
     }
    ]
   },
@@ -5803,7 +5809,7 @@ window.DEPICTIONS = {
       "credit": "Caravaggio"
      },
      "ck": "wga:c/caravagg/04/23conta",
-     "cp": 88
+     "cp": 1944
     },
     {
      "id": "caravaggio-supper-at-emmaus",
@@ -6066,7 +6072,7 @@ window.DEPICTIONS = {
       "credit": "Rodelar"
      },
      "ck": "feat:gregorio-fernandez-cristo-yacente",
-     "cp": 3359
+     "cp": 3304
     },
     {
      "id": "zurbaran-christ-on-the-cross-chicago",
@@ -6112,7 +6118,7 @@ window.DEPICTIONS = {
       "credit": "Francisco de Zurbarán"
      },
      "ck": "Q3221342",
-     "cp": 61
+     "cp": 60
     },
     {
      "id": "velazquez-christ-crucified",
@@ -6159,7 +6165,7 @@ window.DEPICTIONS = {
       "credit": "Diego Velázquez"
      },
      "ck": "Q2528741",
-     "cp": 61
+     "cp": 60
     },
     {
      "id": "la-tour-saint-joseph-the-carpenter",
@@ -6205,7 +6211,7 @@ window.DEPICTIONS = {
       "credit": "Georges de La Tour"
      },
      "ck": "Q743643",
-     "cp": 562
+     "cp": 565
     },
     {
      "id": "rembrandt-hundred-guilder-print",
@@ -6385,7 +6391,7 @@ window.DEPICTIONS = {
       "credit": "Rembrandt"
      },
      "ck": "Q20809879",
-     "cp": 46
+     "cp": 15
     },
     {
      "id": "champaigne-dead-christ-louvre",
@@ -6476,7 +6482,7 @@ window.DEPICTIONS = {
       "credit": "Simon Ushakov"
      },
      "ck": "feat:ushakov-saviour-not-made-by-hands",
-     "cp": 964
+     "cp": 969
     },
     {
      "id": "fumi-e-christ-on-the-cross",
@@ -6522,7 +6528,7 @@ window.DEPICTIONS = {
       "credit": "東京国立博物館"
      },
      "ck": "feat:fumi-e-christ-on-the-cross",
-     "cp": 3360
+     "cp": 3305
     },
     {
      "id": "goa-ivory-christ-good-shepherd",
@@ -6564,7 +6570,7 @@ window.DEPICTIONS = {
       "credit": "Daderot"
      },
      "ck": "feat:goa-ivory-christ-good-shepherd",
-     "cp": 3339
+     "cp": 869
     },
     {
      "id": "gondarine-kwerata-reesu",
@@ -6607,7 +6613,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "Q135515584",
-     "cp": 867
+     "cp": 870
     },
     {
      "id": "murillo-heavenly-and-earthly-trinities",
@@ -6653,7 +6659,7 @@ window.DEPICTIONS = {
       "credit": "Bartolomé Esteban Murillo"
      },
      "ck": "commons:115196098",
-     "cp": 61
+     "cp": 2028
     },
     {
      "id": "bernini-salvator-mundi",
@@ -6698,7 +6704,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "Q3647645",
-     "cp": 530
+     "cp": 533
     },
     {
      "id": "tiepolo-christ-carrying-the-cross",
@@ -6790,7 +6796,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Marcos Zapata"
      },
-     "ck": "Q136029633"
+     "ck": "Q136029633",
+     "cp": 1653
     },
     {
      "id": "batoni-sacred-heart-of-jesus",
@@ -6836,7 +6843,7 @@ window.DEPICTIONS = {
       "credit": "Pompeo Batoni"
      },
      "ck": "feat:batoni-sacred-heart-of-jesus",
-     "cp": 59
+     "cp": 1944
     },
     {
      "id": "caspicara-sabana-santa-quito",
@@ -6882,7 +6889,7 @@ window.DEPICTIONS = {
       "credit": "Ranoutofusername"
      },
      "ck": "feat:caspicara-sabana-santa-quito",
-     "cp": 3361
+     "cp": 3041
     },
     {
      "id": "aleijadinho-congonhas-crucifixion",
@@ -6933,7 +6940,7 @@ window.DEPICTIONS = {
       "credit": "Ricardo André Frantz - Tetraktys"
      },
      "ck": "feat:aleijadinho-congonhas-crucifixion",
-     "cp": 3362
+     "cp": 3306
     }
    ]
   },
@@ -6992,7 +6999,7 @@ window.DEPICTIONS = {
       "credit": "Francisco Goya"
      },
      "ck": "Q3543898",
-     "cp": 61
+     "cp": 60
     },
     {
      "id": "blake-christ-in-the-sepulchre",
@@ -7038,7 +7045,7 @@ window.DEPICTIONS = {
       "credit": "William Blake"
      },
      "ck": "vam:O74285",
-     "cp": 48
+     "cp": 47
     },
     {
      "id": "thorvaldsen-christus",
@@ -7131,7 +7138,7 @@ window.DEPICTIONS = {
       "credit": "Ary Scheffer"
      },
      "ck": "feat:scheffer-christus-consolator",
-     "cp": 2741
+     "cp": 2742
     },
     {
      "id": "ivanov-appearance-of-christ",
@@ -7225,7 +7232,7 @@ window.DEPICTIONS = {
       "credit": "John Everett Millais"
      },
      "ck": "Q960157",
-     "cp": 48
+     "cp": 47
     },
     {
      "id": "hunt-light-of-the-world",
@@ -7272,7 +7279,7 @@ window.DEPICTIONS = {
       "credit": "William Holman Hunt"
      },
      "ck": "Q1757920",
-     "cp": 48
+     "cp": 47
     },
     {
      "id": "delacroix-christ-asleep-during-the-tempest",
@@ -7585,7 +7592,7 @@ window.DEPICTIONS = {
       "credit": "Carl Bloch"
      },
      "ck": "Q22084482",
-     "cp": 72
+     "cp": 71
     },
     {
      "id": "liebermann-twelve-year-old-jesus-in-the-temple",
@@ -7674,7 +7681,7 @@ window.DEPICTIONS = {
       "credit": "Mihály Munkácsy"
      },
      "ck": "wga:m/munkacsy/trilog1",
-     "cp": 825
+     "cp": 2742
     },
     {
      "id": "uhde-suffer-the-little-children",
@@ -7721,7 +7728,7 @@ window.DEPICTIONS = {
       "credit": "Fritz von Uhde"
      },
      "ck": "feat:uhde-suffer-the-little-children",
-     "cp": 1573
+     "cp": 1576
     },
     {
      "id": "ensor-christs-entry-into-brussels",
@@ -7810,7 +7817,7 @@ window.DEPICTIONS = {
       "credit": "Vasily Polenov"
      },
      "ck": "Q26781788",
-     "cp": 964
+     "cp": 969
     },
     {
      "id": "gauguin-yellow-christ",
@@ -7856,7 +7863,7 @@ window.DEPICTIONS = {
       "credit": "Paul Gauguin"
      },
      "ck": "Q500951",
-     "cp": 542
+     "cp": 547
     },
     {
      "id": "hofmann-christ-and-the-rich-young-ruler",
@@ -7898,7 +7905,7 @@ window.DEPICTIONS = {
       "credit": "Heinrich Hofmann"
      },
      "ck": "feat:hofmann-christ-and-the-rich-young-ruler",
-     "cp": 2959
+     "cp": 2923
     },
     {
      "id": "denis-orange-christ",
@@ -7944,7 +7951,7 @@ window.DEPICTIONS = {
       "credit": "Maurice Denis"
      },
      "ck": "Q87480871",
-     "cp": 507
+     "cp": 509
     },
     {
      "id": "hofmann-christ-in-gethsemane",
@@ -7991,7 +7998,7 @@ window.DEPICTIONS = {
       "credit": "Heinrich Hofmann"
      },
      "ck": "Q110487317",
-     "cp": 697
+     "cp": 703
     },
     {
      "id": "ge-what-is-truth",
@@ -8085,7 +8092,7 @@ window.DEPICTIONS = {
       "credit": "James Tissot"
      },
      "ck": "Q5189805",
-     "cp": 48
+     "cp": 47
     },
     {
      "id": "klinger-christ-in-olympus",
@@ -8126,7 +8133,7 @@ window.DEPICTIONS = {
       "credit": "Max Klinger"
      },
      "ck": "wga:k/klinger/paintin2",
-     "cp": 32
+     "cp": 2787
     },
     {
      "id": "pia-shroud-of-turin-negative",
@@ -8172,7 +8179,7 @@ window.DEPICTIONS = {
       "credit": "Secundo Pia"
      },
      "ck": "feat:pia-shroud-of-turin-negative",
-     "cp": 2939
+     "cp": 2905
     },
     {
      "id": "tanner-nicodemus",
@@ -8264,7 +8271,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": ""
      },
-     "ck": "commons:178759722"
+     "ck": "commons:178759722",
+     "cp": 994
     }
    ]
   },
@@ -8322,7 +8330,7 @@ window.DEPICTIONS = {
       "credit": "Daderot"
      },
      "ck": "feat:gill-westminster-stations-trial-panel",
-     "cp": 1926
+     "cp": 33
     },
     {
      "id": "beckmann-descent-from-the-cross",
@@ -8368,7 +8376,7 @@ window.DEPICTIONS = {
       "credit": "Max Beckmann"
      },
      "ck": "Q19883772",
-     "cp": 510
+     "cp": 512
     },
     {
      "id": "jawlensky-face-of-the-saviour-crown-of-thorns",
@@ -8410,7 +8418,7 @@ window.DEPICTIONS = {
       "credit": "Alexej von Jawlensky"
      },
      "ck": "feat:jawlensky-face-of-the-saviour-crown-of-thorns",
-     "cp": 845
+     "cp": 355
     },
     {
      "id": "denis-noli-me-tangere-reims",
@@ -8455,7 +8463,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Maurice Denis"
      },
-     "ck": "Q136536775"
+     "ck": "Q136536775",
+     "cp": 86
     },
     {
      "id": "corinth-red-christ",
@@ -8584,7 +8593,7 @@ window.DEPICTIONS = {
       "credit": "Nicholas Roerich"
      },
      "ck": "feat:roerich-signs-of-christ",
-     "cp": 3363
+     "cp": 3307
     },
     {
      "id": "egger-lienz-risen-christ-lienz",
@@ -8630,7 +8639,7 @@ window.DEPICTIONS = {
       "credit": "Albin Egger-Lienz"
      },
      "ck": "feat:egger-lienz-risen-christ-lienz",
-     "cp": 3364
+     "cp": 3308
     },
     {
      "id": "barlach-das-wiedersehen",
@@ -8676,7 +8685,7 @@ window.DEPICTIONS = {
       "credit": "Ernst Barlach"
      },
      "ck": "feat:barlach-das-wiedersehen",
-     "cp": 3365
+     "cp": 3309
     },
     {
      "id": "christ-the-redeemer-rio",
@@ -8763,7 +8772,7 @@ window.DEPICTIONS = {
       "credit": "Eugeniusz Kazimirowski"
      },
      "ck": "Q124819150",
-     "cp": 904
+     "cp": 909
     },
     {
      "id": "epstein-ecce-homo-coventry",
@@ -8805,7 +8814,7 @@ window.DEPICTIONS = {
       "credit": "Jim Linwood"
      },
      "ck": "feat:epstein-ecce-homo-coventry",
-     "cp": 33
+     "cp": 47
     },
     {
      "id": "chagall-white-crucifixion",
@@ -8918,7 +8927,7 @@ window.DEPICTIONS = {
       "credit": "Cacophony"
      },
      "ck": "feat:cristo-blanco-cusco",
-     "cp": 2789
+     "cp": 996
     },
     {
      "id": "dali-christ-of-saint-john-of-the-cross",
@@ -9010,7 +9019,7 @@ window.DEPICTIONS = {
      "era": "modern",
      "image": null,
      "ck": "Q869818",
-     "cp": 564
+     "cp": 568
     },
     {
      "id": "dali-sacrament-of-the-last-supper",
@@ -9088,7 +9097,8 @@ window.DEPICTIONS = {
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Balaenicactus"
      },
-     "ck": "commons:144223450"
+     "ck": "commons:144223450",
+     "cp": 2266
     },
     {
      "id": "cristo-rei-almada",
@@ -9128,7 +9138,8 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Diego Delso"
      },
-     "ck": "Q805446"
+     "ck": "Q805446",
+     "cp": 566
     },
     {
      "id": "sadao-watanabe-katazome-christ",
@@ -9199,7 +9210,7 @@ window.DEPICTIONS = {
       "credit": "DeFacto"
      },
      "ck": "Q60794462",
-     "cp": 81
+     "cp": 80
     },
     {
      "id": "jesus-mafa",

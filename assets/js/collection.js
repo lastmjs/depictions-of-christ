@@ -17,6 +17,7 @@
   const state = { q: "", subject: "", form: "", order: "asc" };
 
   const viewer = createViewer({
+    page: "collection",
     onOpen: (w, i) => { if (i >= rendered) renderMore(i); history.replaceState(null, "", `#${keyOf(w)}`); },
     onClose: () => writeHash(),
     onSubject: (s) => {

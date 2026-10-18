@@ -15,6 +15,7 @@
   let map;
 
   const viewer = createViewer({
+    page: "map",
     onSubject: (s) => { location.href = `collection.html#subject=${encodeURIComponent(s)}`; },
   });
 

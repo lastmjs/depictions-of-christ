@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css?v=22fa432941">
+  <link rel="stylesheet" href="assets/css/viewer.css?v=ce21fac9db">
 </head>
 <body>
   <a class="skip" href="#journey">Skip to the journey</a>
@@ -104,20 +105,6 @@
     <div class="index-body" id="index-body"></div>
   </dialog>
 
-  <dialog class="lightbox" id="lightbox" aria-label="Artwork viewer">
-    <div class="lb-stage" id="lb-stage"><img id="lb-img" alt=""></div>
-    <div class="lb-bar">
-      <div class="lb-caption"><strong id="lb-title"></strong><span id="lb-sub"></span></div>
-      <div class="lb-actions">
-        <button class="icon-btn" id="lb-zoom-out" aria-label="Zoom out"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M8 11h6M16 16l4 4"/></svg></button>
-        <button class="icon-btn" id="lb-zoom-in" aria-label="Zoom in"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M8 11h6M11 8v6M16 16l4 4"/></svg></button>
-        <a class="icon-btn" id="lb-original" target="_blank" rel="noopener" aria-label="Open full-resolution original"><svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg></a>
-        <button class="icon-btn" data-close aria-label="Close viewer"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-      </div>
-    </div>
-    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous work"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
-    <button class="lb-nav lb-next" id="lb-next" aria-label="Next work"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
-  </dialog>
 
   <div class="keys-hint" id="keys-hint" aria-hidden="true">
     <kbd>↑</kbd><kbd>↓</kbd> move through time · <kbd>Enter</kbd> view · <kbd>I</kbd> index
@@ -135,8 +122,8 @@
 
   <noscript><p class="noscript">This journey needs JavaScript to display the artworks.</p></noscript>
 
-  <script src="assets/js/common.js?v=5293db6863"></script>
-  <script src="assets/js/data.js?v=42eb3571f5"></script>
-  <script src="assets/js/app.js?v=6eb2291474"></script>
+  <script src="assets/js/common.js?v=8e53ade6e7"></script>
+  <script src="assets/js/data.js?v=510df4665e"></script>
+  <script src="assets/js/app.js?v=34474d0ffa"></script>
 </body>
 </html>

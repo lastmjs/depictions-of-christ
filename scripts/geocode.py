@@ -35,7 +35,6 @@ import http.client
 import json
 import math
 import re
-import statistics
 import sys
 import time
 import unicodedata
@@ -216,7 +215,8 @@ for _name, (_lat, _lon, _keys) in _R.items():
 SKIP = re.compile(
     r"^(private|unknown|lost|destroyed|whereabouts|location unknown|present location|"
     r"formerly|art market|on the art market|in the art market|anonymous|n/?a\b|none|various|"
-    r"web gallery of art|wikimedia|stolen)|private collection|privately owned|privatbesitz|"
+    r"web gallery of art|wikimedia|stolen)|^(others?|europe|european|western europe|eastern europe|n\.? ?d\.?|"
+    r"various places|see notes?|court school.*)$|private collection|privately owned|privatbesitz|"
     r"collection particuli|colección particular|collezione privata|art market|kunsthandel|"
     r"christie|sotheby|bonhams|dorotheum|lempertz|koller|hampel|neumeister|"
     r"artcurial|drouot|tajan|bukowskis|van ham|nagel auktion|auction|dealer|"
@@ -225,7 +225,7 @@ SKIP = re.compile(
 )
 
 MUSEUM_RE = re.compile(
-    r"museum|museo|musée|musee|muzeum|múzeum|muzej|музей|museu|museet|museo|gallery|galleria|galerie|"
+    r"museum|museo|musei|raccolt|collezion|musée|musee|muzeum|múzeum|muzej|музей|museu|museet|museo|gallery|galleria|galerie|"
     r"gemäldegalerie|pinakothek|pinacoteca|kunsthalle|collection|sammlung|library|biblioth|biblioteca|"
     r"archiv|hermitage|louvre|prado|uffizi|kunstkammer|staatliche|nationalmuseum|ateneum|"
     r"kunsthistorisches|academy|accademia|akademie|institute|university|foundation|fondazione|stiftung|"
@@ -248,7 +248,7 @@ INSITU_M = re.compile(r"fresco|mural|wall painting|mosaic|stained glass|secco|sg
 ART_DESC = re.compile(
     r"painter|sculptor|engraver|printmaker|artist|illuminator|illustrator|draughts|draftsman|drawer|"
     r"goldsmith|silversmith|etcher|woodcut|miniatur|glass|carver|mosaicist|architect|lithograph|"
-    r"medallist|medalist|master|iconographer|icon|enamel|cartographer|publisher|designer|"
+    r"polymath|medallist|medalist|master|iconographer|icon|enamel|cartographer|publisher|designer|"
     r"stonemason|woodworker|cabinetmaker|maker|craftsman|workshop",
     re.I,
 )
@@ -466,10 +466,9 @@ def region_of(text):
     if t in REGIONS:
         return REGIONS[t]
     parts = [p.strip() for p in re.split(r"[,;/]| or | and ", fold_keep_commas(text)) if p.strip()]
-    for p in parts:
-        p = fold(p)
-        if p in REGIONS:
-            return REGIONS[p]
+    found = [REGIONS[fold(p)] for p in parts if fold(p) in REGIONS]
+    if found:
+        return next((r for r in found if r[0] not in COARSE), found[0])
     for p in sorted((k for k in REGIONS if " " in k), key=len, reverse=True):
         if re.search(r"\b" + p + r"\b", t):
             return REGIONS[p]
@@ -478,6 +477,25 @@ def region_of(text):
         if w in REGIONS:
             return REGIONS[w]
     return None
+
+
+def culture_only(p):
+    """True if a place-made part only names a culture / school / country (e.g. 'Florentine, Italy')."""
+    name, _ = split_place(p)
+    for t in (fold(p), fold(name)):
+        if t in REGIONS and not (REGIONS[t][0] in CITY_REGIONS and t == fold(REGIONS[t][0])):
+            return True
+    return False
+
+
+# Table entries that are cities: their plain name ("Rome") is a place made, not just a school.
+CITY_REGIONS = {"Florence", "Venice", "Siena", "Bologna", "Rome", "Naples", "Genoa", "Ferrara", "Padua",
+                "Constantinople", "Cusco", "Quito", "Valencia"}
+
+
+COARSE = {"Italy", "Germany", "France", "Spain", "Netherlands", "Low Countries", "Great Britain", "England",
+          "United States", "Russia", "Greece", "Constantinople", "Austria", "Switzerland", "Belgium", "Portugal",
+          "Poland", "Hungary", "Bohemia", "Mexico", "Peru", "India", "China", "Japan", "Egypt", "Ethiopia"}
 
 
 def fold_keep_commas(s):
@@ -766,7 +784,6 @@ def resolve_artist_names(names_years):
     out = {}
     for a, hits in searches.items():
         years = [y for y in names_years[a] if y is not None]
-        y = statistics.median(years) if years else None
         want = {fold(v) for v in search_variants(a)}
         ok, seen = [], set()
         for h in hits:
@@ -774,20 +791,27 @@ def resolve_artist_names(names_years):
             if q in seen or not ART_DESC.search(h.get("description") or ""):
                 continue
             seen.add(q)
-            label_ok = fold(h.get("match", {}).get("text")) in want or fold(h.get("label")) in want
-            if not label_ok:
+            texts = [fold(h.get("match", {}).get("text")), fold(h.get("label"))]
+            exact = any(t in want for t in texts)
+            # also "Marten de Vos" ~ "Marten de Vos the Elder", "Raffaello Sanzio" ~ "... da Urbino"
+            near = any(set(v.split()) <= set(t.split()) and len(t.split()) - len(v.split()) <= 2
+                       for t in texts for v in want if t)
+            if not (exact or near):
                 continue
             b, d = dates.get(q, [None, None])
-            if y is not None and (b is not None or d is not None):
+            if years and (b is not None or d is not None):
                 lo = (b + 10) if b is not None else (d - 80)
                 hi = (d + 10) if d is not None else (b + 90)
-                if not (lo <= y <= hi):
+                if not any(lo <= y <= hi for y in years):
                     continue
-            elif b is None and d is None and y is not None:
+            elif b is None and d is None and years:
                 continue  # no dates to check the match against
-            ok.append(q)
+            ok.append((q, exact))
+        exacts = [q for q, e in ok if e]
         if len(ok) == 1:
-            out[a] = ok[0]
+            out[a] = ok[0][0]
+        elif len(exacts) == 1:
+            out[a] = exacts[0]
     return out
 
 
@@ -855,8 +879,12 @@ def split_place(s):
 
 def c_parts(c):
     """Place-made text -> candidate place strings, most specific first."""
-    c = re.sub(r"\b(probably|possibly|perhaps|likely|made in|active in)\b", " ", c, flags=re.I)
-    c = re.sub(r"\s+", " ", c).strip(" ,;?")
+    c = re.sub(r"\b(probably|possibly|perhaps|likely|made in|active in|workshops?|provenance|found at)\b|\?",
+               " ", c, flags=re.I)
+    c = re.sub(r"\((in situ|replica[^)]*|now [^)]*|original[^)]*)\)", " ", c, flags=re.I)
+    c = re.sub(r"[()]", ",", c)
+    c = re.sub(r"\s+", " ", c)
+    c = re.sub(r"\s*,[\s,]*", ", ", c).strip(" ,;?")
     parts = [p.strip(" ?") for p in re.split(r"[,;/]|\bor\b|\band\b", c) if p.strip(" ?")]
     out = []
     if c:
@@ -906,7 +934,7 @@ def build_gazetteer(l_counts, c_counts):
             todo[s] = l_counts[s]
     for c, n in c_counts.items():
         for p in c_parts(c):
-            if region_of(p) and fold(p) in REGIONS:
+            if culture_only(p):
                 continue
             if p not in gaz and not SKIP.search(p) and len(p) >= 3 and re.search(r"[A-Za-zÀ-ÿ]", p):
                 todo[p] = todo.get(p, 0) + n
@@ -1042,6 +1070,9 @@ def build_gazetteer(l_counts, c_counts):
         cat, typ = r.get("category") or r.get("class"), r.get("type")
         rank = int(r.get("place_rank", 30))
         name = (r.get("name") or r.get("display_name", "").split(",")[0]).strip()
+        want = {t for t in fold(s).split() if len(t) >= 3}
+        if not want & set(fold(r.get("display_name", "") + " " + name).split()):
+            continue
         e = {"name": name or s, "lat": round(float(r["lat"]), 6), "lon": round(float(r["lon"]), 6), "src": "osm"}
         if rank < 12 or (cat == "place" and typ in ("country", "state", "region", "province", "county", "continent")):
             e["kind"] = "region"
@@ -1081,16 +1112,25 @@ def made_from_c(c, gz):
     c = (c or "").strip()
     if not c:
         return None
-    best = None
+    best, found = None, []
+    reg = region_of(c)
     for p in c_parts(c):
+        if culture_only(p):
+            continue
         g = gz.get(p)
+        if g and reg and km((g["lat"], g["lon"]), (reg[1], reg[2])) > 1500:
+            continue  # e.g. a same-named place on another continent
         if g and g.get("kind") in ("site", "settlement") and not g.get("museum"):
-            return "made", g
+            found.append(g)
         if g and g.get("kind") == "region" and not best:
             best = g
-    r = region_of(c)
-    if r:
-        return "region", {"name": r[0], "lat": r[1], "lon": r[2]}
+    towns = [g for g in found if g["kind"] == "settlement"]
+    for g in sorted(found, key=lambda g: g["kind"] != "site"):
+        # a specific site wins over a town, if it lies near the town named in the same text
+        if g["kind"] != "site" or not towns or min(km((g["lat"], g["lon"]), (t["lat"], t["lon"])) for t in towns) <= 50:
+            return "made", g
+    if reg:
+        return "region", {"name": reg[0], "lat": reg[1], "lon": reg[2]}
     if best:
         return "region", best
     return None
@@ -1156,7 +1196,8 @@ def current_site(w, wd, gz):
     l = (w.get("l") or "").strip()
     e = (wd.get(w.get("q") or "") or {}).get("loc")
     if e:
-        if e.get("museum") or (e.get("approx") and MUSEUM_RE.search(l)):
+        wall = bool(INSITU_M.search((w.get("k") or "") + " " + (w.get("m") or "")))
+        if MUSEUM_RE.search(e["name"]) or (e.get("museum") and not wall) or MUSEUM_RE.search(l):
             return None
         return e
     if MUSEUM_RE.search(l):

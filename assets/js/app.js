@@ -348,128 +348,17 @@
     }
   }
 
-  /* ---------- lightbox ---------- */
-  const lb = { el: null, img: null, stage: null, n: 0, scale: 1, x: 0, y: 0, base: null };
-
-  function openLightbox(n) {
-    const w = works[n];
-    if (!w || !w.image) return;
-    lb.n = n;
-    lb.img.src = w.image.src;
-    lb.img.alt = w.title;
-    $("#lb-title").textContent = w.title;
-    $("#lb-sub").textContent = [w.artist, w.date, w.location].filter(Boolean).join(" · ");
-    $("#lb-original").href = w.image.original;
-    resetZoom();
-    if (!lb.el.open) lb.el.showModal();
-  }
-
-  function stepLightbox(dir) {
-    const idx = withImages.findIndex((w) => w.n === lb.n);
-    const next = withImages[(idx + dir + withImages.length) % withImages.length];
-    if (next) { openLightbox(next.n); goTo(next.id); }
-  }
-
-  function applyZoom() {
-    // keep the zoomed image covering the view: no panning past its edges
-    const sw = lb.stage.clientWidth, sh = lb.stage.clientHeight;
-    const iw = lb.img.offsetWidth * lb.scale, ih = lb.img.offsetHeight * lb.scale;
-    const mx = Math.max(0, (iw - sw) / 2), my = Math.max(0, (ih - sh) / 2);
-    lb.x = Math.min(mx, Math.max(-mx, lb.x));
-    lb.y = Math.min(my, Math.max(-my, lb.y));
-    lb.img.style.transform = `translate(${lb.x}px, ${lb.y}px) scale(${lb.scale})`;
-  }
-  function resetZoom() {
-    lb.scale = 1; lb.x = 0; lb.y = 0;
-    lb.img.style.transformOrigin = "50% 50%";
-    applyZoom();
-  }
-  function zoomAt(factor, cx, cy) {
-    const rect = lb.stage.getBoundingClientRect();
-    const ox = (cx ?? rect.left + rect.width / 2) - rect.left - rect.width / 2;
-    const oy = (cy ?? rect.top + rect.height / 2) - rect.top - rect.height / 2;
-    const ns = Math.min(8, Math.max(1, lb.scale * factor));
-    const k = ns / lb.scale;
-    lb.x = ox - (ox - lb.x) * k;
-    lb.y = oy - (oy - lb.y) * k;
-    lb.scale = ns;
-    if (ns === 1) { lb.x = 0; lb.y = 0; }
-    applyZoom();
-  }
-
-  function initLightbox() {
-    lb.el = $("#lightbox");
-    lb.img = $("#lb-img");
-    lb.stage = $("#lb-stage");
-
-    lb.stage.addEventListener("wheel", (e) => {
-      e.preventDefault();
-      zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX, e.clientY);
-    }, { passive: false });
-    lb.stage.addEventListener("dblclick", (e) => {
-      if (lb.scale > 1) resetZoom(); else zoomAt(2.5, e.clientX, e.clientY);
-    });
-
-    // Pointer gestures: one finger/mouse pans when zoomed; two fingers pinch-zoom and pan together.
-    const pointers = new Map(); // pointerId -> {x, y}
-    let pinch = null;           // {d, mx, my} at the previous pinch frame
-    let moved = false, gestured = false;
-    const pinchState = () => {
-      const [a, b] = [...pointers.values()];
-      return { d: Math.hypot(a.x - b.x, a.y - b.y), mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
-    };
-    lb.stage.addEventListener("pointerdown", (e) => {
-      lb.stage.setPointerCapture(e.pointerId);
-      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pointers.size === 1) { moved = false; gestured = false; }
-      if (pointers.size === 2) { pinch = pinchState(); gestured = true; }
-      lb.stage.classList.add("dragging");
-    });
-    lb.stage.addEventListener("pointermove", (e) => {
-      const prev = pointers.get(e.pointerId);
-      if (!prev) return;
-      const cur = { x: e.clientX, y: e.clientY };
-      pointers.set(e.pointerId, cur);
-      if (pointers.size >= 2 && pinch) {
-        const now = pinchState();
-        // pan by the movement of the midpoint, then zoom about the midpoint
-        if (lb.scale > 1 || now.d / pinch.d > 1) { lb.x += now.mx - pinch.mx; lb.y += now.my - pinch.my; }
-        zoomAt(now.d / pinch.d, now.mx, now.my);
-        pinch = now;
-        moved = true;
-        return;
-      }
-      const dx = cur.x - prev.x, dy = cur.y - prev.y;
-      if (lb.scale > 1) { lb.x += dx; lb.y += dy; applyZoom(); }
-      if (Math.hypot(dx, dy) > 2) moved = true;
-    });
-    const end = (e) => {
-      pointers.delete(e.pointerId);
-      // when one finger of a pinch lifts, the remaining finger continues from where it is now (no jump)
-      pinch = pointers.size >= 2 ? pinchState() : null;
-      if (!pointers.size) {
-        lb.stage.classList.remove("dragging");
-        // tap on the empty backdrop closes when not zoomed
-        if (!moved && !gestured && lb.scale === 1 && e.target === lb.stage) lb.el.close();
-      }
-    };
-    lb.stage.addEventListener("pointerup", end);
-    lb.stage.addEventListener("pointercancel", end);
-
-    // swipe to navigate on touch when not zoomed
-    let sx = null;
-    lb.stage.addEventListener("touchstart", (e) => { sx = e.touches.length === 1 && !gestured ? e.touches[0].clientX : null; }, { passive: true });
-    lb.stage.addEventListener("touchend", (e) => {
-      if (sx == null || lb.scale > 1 || gestured || e.touches.length) return;
-      const dx = e.changedTouches[0].clientX - sx;
-      if (Math.abs(dx) > 70) stepLightbox(dx < 0 ? 1 : -1);
-      sx = null;
-    });
-
-    $("#lb-zoom-in").addEventListener("click", () => zoomAt(1.5));
-    $("#lb-zoom-out").addEventListener("click", () => zoomAt(1 / 1.5));
-    $("#lb-prev").addEventListener("click", () => stepLightbox(-1));
-    $("#lb-next").addEventListener("click", () => stepLightbox(1));
+  /* ---------- the shared work viewer ---------- */
+  // Every work opens in the same viewer used by the collection and the map, showing the work's one
+  // canonical record (loaded by its collection key).
+  let viewer = null;
+  const viewable = () => works.filter((w) => w.ck);
+  function openViewer(n) {
+    if (!window.FOC) return;
+    if (!viewer) viewer = window.FOC.createViewer({ page: "journey", onStep: (i) => { const w = viewable()[i]; if (w) goTo(w.id); } });
+    const list = viewable();
+    const i = list.findIndex((w) => w.n === n);
+    if (i >= 0) viewer.open(list.map((w) => w.ck), i);
   }
 
   /* ---------- events ---------- */
@@ -478,7 +367,7 @@
       const sh = e.target.closest("[data-share]");
       if (sh && window.FOC) { window.FOC.shareWork(sh.dataset.share, sh.dataset.title); return; }
       const open = e.target.closest("[data-open]");
-      if (open) { openLightbox(+open.dataset.open); return; }
+      if (open) { openViewer(+open.dataset.open); return; }
       const go = e.target.closest("[data-go]");
       if (go) {
         e.preventDefault();
@@ -497,13 +386,7 @@
     const sections = () => $$(".hero, .era, .plate, .epilogue");
     document.addEventListener("keydown", (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
-      if (lb.el.open) {
-        if (e.key === "ArrowRight") stepLightbox(1);
-        else if (e.key === "ArrowLeft") stepLightbox(-1);
-        else if (e.key === "+" || e.key === "=") zoomAt(1.4);
-        else if (e.key === "-") zoomAt(1 / 1.4);
-        return;
-      }
+      if (viewer && viewer.isOpen) return;
       if ($("#index").open) return;
       const tag = (e.target.tagName || "").toLowerCase();
       if (tag === "input" || tag === "textarea") return;
@@ -521,9 +404,9 @@
         target = Math.max(0, Math.min(list.length - 1, target));
         list[target].scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
       } else if (k === "Enter" && !e.target.closest("a, button, summary")) {
-        if (works[current]?.image) openLightbox(current);
+        if (works[current]?.ck) openViewer(current);
       } else if (k === "Enter" && e.target.matches(".frame")) {
-        openLightbox(+e.target.dataset.open);
+        openViewer(+e.target.dataset.open);
       } else if (k === "i" || k === "I") {
         openIndex();
       }
@@ -535,7 +418,6 @@
   renderJourney();
   renderRail();
   renderIndex();
-  initLightbox();
   bind();
   observe();
 

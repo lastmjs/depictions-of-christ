@@ -447,6 +447,44 @@ def add_featured(works):
     return details
 
 
+def canonicalize_featured(works, details):
+    """A work featured in the journey has one canonical record everywhere: its journey title, date, place, medium,
+    image and (twice fact-checked) description replace the harvested record it was matched to."""
+    links_path = ROOT / "data" / "map" / "featured-links.json"
+    data_js = ROOT / "assets" / "js" / "data.js"
+    if not links_path.exists() or not data_js.exists():
+        return
+    links = json.loads(links_path.read_text())
+    src = data_js.read_text()
+    featured = {e["id"]: e for era in json.loads(src[src.index("{"):src.rindex("}") + 1])["eras"] for e in era["entries"]}
+    by_key = {w.get("q") or w.get("id"): w for w in works}
+    n = 0
+    for fid, rec in links.items():
+        e = featured.get(fid)
+        w = by_key.get(rec.get("key"))
+        if rec.get("action") != "match" or not e or not w or not e.get("image"):
+            continue
+        img = e["image"]
+        w.update({"t": e["title"], "y": e["year"], "d": e["date"], "a": e.get("artist", ""), "c": e.get("created", ""),
+                  "l": e.get("location", ""), "m": e.get("medium", ""), "s": e.get("style", ""),
+                  "k": FORM_KIND.get(e.get("form"), (e.get("form") or "").lower()),
+                  "img": img["thumb"], "big": img["src"], "lic": img.get("license", ""), "fe": fid, "v": 1})
+        if img.get("page"):
+            w["src"] = img["page"]
+        for k in ("i", "h", "cr", "e"):
+            w.pop(k, None)
+        key = w.get("q") or w.get("id")
+        old = details[shard_of(key)].get(key, {})
+        d = {x: e[x] for x in ("summary", "scripture", "facts", "links") if e.get(x)}
+        if old.get("notes"):
+            d["notes"] = old["notes"]
+        if old.get("original_title"):
+            d["original_title"] = old["original_title"]
+        details[shard_of(key)][key] = d
+        n += 1
+    print(f"  {n} featured works now share one canonical record with the journey")
+
+
 def apply_enrichment(works):
     """Merge hand-checked entries from data/enrich/batches/ into the works.
 
@@ -639,6 +677,7 @@ def main():
     works, details = apply_enrichment(works)
     for k, d in featured_details.items():
         details[shard_of(k)][k] = d
+    canonicalize_featured(works, details)
     # Hand corrections where the catalogue data is known to be wrong.
     OVERRIDES = {
         "Q577890": {"y": 200},  # Alexamenos graffito: usually dated c. AD 200 (Wikidata says 100)

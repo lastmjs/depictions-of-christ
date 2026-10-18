@@ -141,11 +141,18 @@ def process_image(entry, info):
             img = bg
         else:
             img = img.convert("RGB")
-    if FORCE or not large_path.exists():
+    # re-encode when the source image changed (e.g. a better photograph was chosen)
+    stamp_path = IMG_OUT / ".sources.json"
+    stamps = json.loads(stamp_path.read_text()) if stamp_path.exists() else {}
+    changed = stamps.get(eid) != src
+    if changed:
+        stamps[eid] = src
+        stamp_path.write_text(json.dumps(stamps, indent=0, sort_keys=True))
+    if FORCE or changed or not large_path.exists():
         big = img.copy()
         big.thumbnail((LARGE, LARGE), Image.LANCZOS)
         big.save(large_path, "WEBP", quality=80, method=6)
-    if FORCE or not small_path.exists():
+    if FORCE or changed or not small_path.exists():
         sm = img.copy()
         sm.thumbnail((SMALL, SMALL), Image.LANCZOS)
         sm.save(small_path, "WEBP", quality=78, method=6)

@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
  "total": 71098,
- "checked": 1149,
+ "checked": 1266,
  "centuries": [
   {
    "century": "2",
@@ -17,15 +17,15 @@
   },
   {
    "century": "5",
-   "count": 42
+   "count": 41
   },
   {
    "century": "6",
-   "count": 100
+   "count": 101
   },
   {
    "century": "7",
-   "count": 34
+   "count": 36
   },
   {
    "century": "8",
@@ -53,23 +53,23 @@
   },
   {
    "century": "14",
-   "count": 2547
+   "count": 2548
   },
   {
    "century": "15",
-   "count": 9252
+   "count": 9250
   },
   {
    "century": "16",
-   "count": 18374
+   "count": 18373
   },
   {
    "century": "17",
-   "count": 13341
+   "count": 13343
   },
   {
    "century": "18",
-   "count": 5811
+   "count": 5812
   },
   {
    "century": "19",
@@ -77,15 +77,15 @@
   },
   {
    "century": "20",
-   "count": 1481
+   "count": 1482
   },
   {
    "century": "21",
-   "count": 95
+   "count": 94
   },
   {
    "century": "undated",
-   "count": 13157
+   "count": 13154
   }
  ],
  "subjects": [
@@ -657,19 +657,19 @@
  "types": [
   [
    "print",
-   25329
+   25330
   ],
   [
    "painting",
-   20877
+   20885
   ],
   [
    "drawing",
-   5572
+   5573
   ],
   [
    "sculpture",
-   4445
+   4448
   ],
   [
    "manuscript",
@@ -677,15 +677,15 @@
   ],
   [
    "other",
-   2512
+   2510
   ],
   [
    "icon",
-   1767
+   1768
   ],
   [
    "statue",
-   861
+   858
   ],
   [
    "metalwork",
@@ -693,31 +693,31 @@
   ],
   [
    "fresco",
-   493
+   499
   ],
   [
    "ivory",
-   442
+   441
   ],
   [
    "relief",
-   430
+   434
   ],
   [
    "textile",
-   409
+   410
   ],
   [
    "stained glass",
    275
   ],
   [
-   "triptych",
-   267
-  ],
-  [
    "enamel",
    263
+  ],
+  [
+   "triptych",
+   261
   ],
   [
    "glass",
@@ -773,11 +773,11 @@
   ],
   [
    "mural",
-   46
+   45
   ],
   [
    "diptych",
-   42
+   41
   ],
   [
    "manuscript illumination",
@@ -785,7 +785,7 @@
   ],
   [
    "tapestry",
-   37
+   36
   ],
   [
    "work of art",
@@ -793,11 +793,7 @@
   ],
   [
    "watercolor painting",
-   33
-  ],
-  [
-   "crucifix",
-   31
+   32
   ],
   [
    "stained-glass window",
@@ -805,6 +801,10 @@
   ],
   [
    "figurine",
+   29
+  ],
+  [
+   "crucifix",
    29
   ],
   [

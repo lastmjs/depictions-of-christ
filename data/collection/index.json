@@ -1,0 +1,466 @@
+{
+ "generated": "2026-10-18",
+ "total": 19143,
+ "centuries": [
+  {
+   "century": "1",
+   "count": 1
+  },
+  {
+   "century": "3",
+   "count": 6
+  },
+  {
+   "century": "4",
+   "count": 10
+  },
+  {
+   "century": "5",
+   "count": 2
+  },
+  {
+   "century": "6",
+   "count": 7
+  },
+  {
+   "century": "7",
+   "count": 5
+  },
+  {
+   "century": "8",
+   "count": 4
+  },
+  {
+   "century": "9",
+   "count": 9
+  },
+  {
+   "century": "10",
+   "count": 11
+  },
+  {
+   "century": "11",
+   "count": 18
+  },
+  {
+   "century": "12",
+   "count": 112
+  },
+  {
+   "century": "13",
+   "count": 242
+  },
+  {
+   "century": "14",
+   "count": 913
+  },
+  {
+   "century": "15",
+   "count": 3656
+  },
+  {
+   "century": "16",
+   "count": 5773
+  },
+  {
+   "century": "17",
+   "count": 3893
+  },
+  {
+   "century": "18",
+   "count": 1295
+  },
+  {
+   "century": "19",
+   "count": 961
+  },
+  {
+   "century": "20",
+   "count": 500
+  },
+  {
+   "century": "21",
+   "count": 28
+  },
+  {
+   "century": "undated",
+   "count": 1697
+  }
+ ],
+ "subjects": [
+  [
+   "Jesus Christ",
+   6487
+  ],
+  [
+   "Christ Child",
+   6272
+  ],
+  [
+   "Madonna and Child",
+   4334
+  ],
+  [
+   "Crucifixion",
+   1569
+  ],
+  [
+   "Adoration of the Magi",
+   1062
+  ],
+  [
+   "Holy Family",
+   919
+  ],
+  [
+   "Adoration of the Shepherds",
+   758
+  ],
+  [
+   "Nativity",
+   613
+  ],
+  [
+   "Lamentation",
+   486
+  ],
+  [
+   "Pietà",
+   434
+  ],
+  [
+   "Descent from the Cross",
+   387
+  ],
+  [
+   "Flight into Egypt",
+   346
+  ],
+  [
+   "Resurrection",
+   342
+  ],
+  [
+   "Carrying the Cross",
+   332
+  ],
+  [
+   "Last Supper",
+   327
+  ],
+  [
+   "Ecce Homo",
+   320
+  ],
+  [
+   "Baptism",
+   314
+  ],
+  [
+   "Rest on the Flight into Egypt",
+   304
+  ],
+  [
+   "Entombment",
+   266
+  ],
+  [
+   "Agony in the Garden",
+   264
+  ],
+  [
+   "Coronation of the Virgin",
+   251
+  ],
+  [
+   "Presentation in the Temple",
+   236
+  ],
+  [
+   "Flagellation",
+   203
+  ],
+  [
+   "Last Judgment",
+   186
+  ],
+  [
+   "Crowning with Thorns",
+   168
+  ],
+  [
+   "Man of Sorrows",
+   162
+  ],
+  [
+   "Supper at Emmaus",
+   156
+  ],
+  [
+   "Raising of Lazarus",
+   148
+  ],
+  [
+   "Christ among the Doctors",
+   141
+  ],
+  [
+   "Woman Taken in Adultery",
+   140
+  ],
+  [
+   "Mystic Marriage of St Catherine",
+   132
+  ],
+  [
+   "Salvator Mundi",
+   128
+  ],
+  [
+   "Circumcision",
+   116
+  ],
+  [
+   "Ascension",
+   115
+  ],
+  [
+   "Noli me tangere",
+   114
+  ],
+  [
+   "Passion",
+   102
+  ],
+  [
+   "Wedding at Cana",
+   92
+  ],
+  [
+   "Transfiguration",
+   75
+  ],
+  [
+   "Harrowing of Hell",
+   69
+  ],
+  [
+   "Cleansing of the Temple",
+   57
+  ],
+  [
+   "Veil of Veronica",
+   52
+  ],
+  [
+   "Sacred Heart",
+   38
+  ],
+  [
+   "Good Shepherd",
+   29
+  ],
+  [
+   "Miraculous Draught of Fishes",
+   27
+  ],
+  [
+   "Mocking of Christ",
+   22
+  ],
+  [
+   "Kiss of Judas",
+   21
+  ],
+  [
+   "Throne of Mercy",
+   19
+  ],
+  [
+   "Sermon on the Mount",
+   19
+  ],
+  [
+   "Christ in Majesty",
+   18
+  ],
+  [
+   "Christ before Caiaphas",
+   13
+  ],
+  [
+   "Pantocrator",
+   12
+  ],
+  [
+   "Healing at Bethesda",
+   10
+  ],
+  [
+   "Holy Face",
+   8
+  ]
+ ],
+ "types": [
+  [
+   "painting",
+   14881
+  ],
+  [
+   "statue",
+   861
+  ],
+  [
+   "sculpture",
+   578
+  ],
+  [
+   "triptych",
+   271
+  ],
+  [
+   "icon",
+   178
+  ],
+  [
+   "print",
+   154
+  ],
+  [
+   "drawing",
+   150
+  ],
+  [
+   "fresco",
+   127
+  ],
+  [
+   "leadlight",
+   119
+  ],
+  [
+   "relief sculpture",
+   116
+  ],
+  [
+   "group of sculptures",
+   97
+  ],
+  [
+   "reredos",
+   90
+  ],
+  [
+   "wayside cross",
+   79
+  ],
+  [
+   "polyptych",
+   61
+  ],
+  [
+   "woodcut print",
+   59
+  ],
+  [
+   "pulpit",
+   55
+  ],
+  [
+   "mural",
+   49
+  ],
+  [
+   "diptych",
+   42
+  ],
+  [
+   "manuscript illumination",
+   41
+  ],
+  [
+   "tapestry",
+   37
+  ],
+  [
+   "work of art",
+   35
+  ],
+  [
+   "mosaic",
+   34
+  ],
+  [
+   "crucifix",
+   33
+  ],
+  [
+   "watercolor painting",
+   33
+  ],
+  [
+   "plaque",
+   30
+  ],
+  [
+   "stained-glass window",
+   30
+  ],
+  [
+   "figurine",
+   29
+  ],
+  [
+   "altarpiece",
+   28
+  ],
+  [
+   "painted crucifix",
+   25
+  ],
+  [
+   "epitaph",
+   23
+  ],
+  [
+   "polychrome sculpture",
+   21
+  ],
+  [
+   "tondo",
+   21
+  ],
+  [
+   "Marian column",
+   21
+  ],
+  [
+   "double-sided painting",
+   19
+  ],
+  [
+   "stained glass",
+   18
+  ],
+  [
+   "panel",
+   18
+  ],
+  [
+   "war memorial",
+   18
+  ],
+  [
+   "column with statue",
+   17
+  ],
+  [
+   "monument",
+   16
+  ],
+  [
+   "altar",
+   15
+  ]
+ ]
+}

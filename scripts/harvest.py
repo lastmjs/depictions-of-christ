@@ -105,6 +105,17 @@ EXCLUDE_TYPES = re.compile(
 )
 
 
+# Types marking an item as a concept or text rather than a physical work of art.
+CONCEPT_TYPES = re.compile(
+    r"^(artistic theme|artistic type|chapter of the bible|legend|new testament apocrypha|religious text|"
+    r"gospel|gospel episode|bible story|theatrical genre|phrase|custom|miracle|schism|aspect of history|"
+    r"parable of jesus|pericope|form of art|christian holy day|gregorian chant|lyric poetry|literary work|"
+    r"exhibition|sequence|pseudepigraph|patron saint|personification|type of architectural structure|"
+    r"courtroom|product|internet meme|religious art|biblical episode|iconographic theme|subject in christian art)$",
+    re.I,
+)
+
+
 def sparql(query, tries=6):
     delay = 5
     for i in range(tries):
@@ -237,6 +248,69 @@ def fetch_details(ids):
     return details
 
 
+# Wikidata properties holding the identifiers used by each museum source.
+EXT = {"met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
+
+
+def external_ids():
+    """Map "<source>:<museum id>" -> Wikidata QID for every museum source."""
+    out = {}
+    for src, prop in EXT.items():
+        cache = CACHE / f"ext-{prop}.json"
+        if cache.exists():
+            rows = json.loads(cache.read_text())
+        else:
+            res = sparql(f"SELECT ?item ?id WHERE {{ ?item wdt:{prop} ?id ; wdt:P18 ?img . }}")
+            rows = [[qid(r["item"]["value"]), r["id"]["value"]] for r in res]
+            cache.write_text(json.dumps(rows))
+            time.sleep(1)
+        for q, i in rows:
+            out[f"{src}:{i}"] = q
+        print(f"  {src:6s} {prop:8s} {len(rows):7d} ids")
+    return out
+
+
+def norm_title(t):
+    return re.sub(r"[^a-z]+", " ", (t or "").lower()).strip()
+
+
+def merge_sources(works):
+    """Add museum open-access records that Wikidata does not already cover."""
+    files = sorted((ROOT / "data" / "sources").glob("*.json"))
+    if not files:
+        return works
+    print("Merging museum sources…")
+    ext = external_ids()
+    by_q = {w["q"]: w for w in works}
+    keys = {(norm_title(w["t"]), w["y"]) for w in works}
+    added = Counter()
+    for f in files:
+        recs = json.loads(f.read_text())
+        for r in recs:
+            q = r.get("wd") or ext.get(r["id"])
+            if q and q in by_q:
+                by_q[q].setdefault("src", r.get("src"))
+                added[f.stem + " (matched)"] += 1
+                continue
+            if (norm_title(r.get("t")), r.get("y")) in keys and r.get("y") is not None:
+                added[f.stem + " (dup title)"] += 1
+                continue
+            if not r.get("img") or not r.get("u"):
+                continue
+            w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u") if r.get(k) not in (None, "", [])}
+            w.setdefault("t", "Untitled")
+            w["y"] = r.get("y")
+            w["d"] = r.get("d") or (str(r["y"]) if r.get("y") is not None else "")
+            w["id"] = r["id"]
+            if q:
+                w["q"] = q
+            works.append(w)
+            keys.add((norm_title(w["t"]), w["y"]))
+            added[f.stem] += 1
+    print("  " + ", ".join(f"{k}: {v}" for k, v in sorted(added.items())))
+    return works
+
+
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -254,6 +328,9 @@ def main():
             dropped["no details"] += 1
             continue
         types = split(val(r, "types"))
+        if any(CONCEPT_TYPES.search(t) for t in types):
+            dropped["concept"] += 1
+            continue
         if types and all(EXCLUDE_TYPES.search(t) for t in types):
             dropped["non-artwork type"] += 1
             continue
@@ -267,6 +344,16 @@ def main():
         seen_images.add(img)
         title = val(r, "label") or val(r, "label2") or q
         year = year_of(val(r, "inception"))
+        prec = int(val(r, "precision") or 9)
+        if year is not None and year < 30:
+            year = None  # impossible for a depiction of Christ: a data-entry error
+        sort_year = year
+        if year is not None and prec == 7:
+            sort_year = ((year - 1) // 100) * 100 + 50
+        elif year is not None and prec == 8:
+            sort_year = year + 5
+        elif year is not None and prec < 7:
+            sort_year = year - 500 if year % 1000 == 0 else year
         est = False
         if year is None:
             death, birth = year_of(val(r, "death")), year_of(val(r, "birth"))
@@ -279,8 +366,8 @@ def main():
         w = {
             "q": q,
             "t": title,
-            "y": year,
-            "d": (f"c. {year}" if est else date_label(year, val(r, "precision"))) if year is not None else "",
+            "y": sort_year if not est else year,
+            "d": (f"c. {year}" if est else date_label(year, prec)) if year is not None else "",
             "a": ", ".join(creators[:3]),
             "c": ", ".join(made[:2]),
             "l": ", ".join((split(val(r, "collections")) or split(val(r, "locations")))[:2]),
@@ -298,8 +385,7 @@ def main():
             w["e"] = 1
         works.append(w)
 
-    # drop very recent works whose dates suggest they may still be in copyright
-    # (Commons hosts only free files, but keep the archive firmly historical)
+    works = merge_sources(works)
     works.sort(key=lambda w: (w["y"] is None, w["y"] or 0, w["t"]))
 
     by_century = defaultdict(list)

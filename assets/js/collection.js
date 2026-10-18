@@ -19,11 +19,21 @@
     else if (lower.endsWith(".svg")) file = `${width}px-${e}.png`;
     return `${COMMONS}thumb/${h[0]}/${h}/${e}/${file}`;
   }
-  const original = (w) => `${COMMONS}${w.h[0]}/${w.h}/${enc(w.i)}`;
-  const filePage = (w) => `https://commons.wikimedia.org/wiki/File:${enc(w.i)}`;
+  const original = (w) => (w.i ? `${COMMONS}${w.h[0]}/${w.h}/${enc(w.i)}` : w.big || w.img);
+  const filePage = (w) => (w.i ? `https://commons.wikimedia.org/wiki/File:${enc(w.i)}` : w.src);
+  const keyOf = (w) => w.q || w.id;
+  const KEY_RX = /^(Q\d+|[a-z]+:[\w.-]+)$/;
 
   // Try progressively smaller standard thumbnail widths, then the original.
   function loadInto(img, w, widths) {
+    if (!w.i) {
+      // museum open-access record with direct image URLs
+      const queue = (widths[0] >= 900 ? [w.big, w.img] : [w.img, w.big]).filter(Boolean);
+      img.onerror = () => { const src = queue.shift(); if (src) img.src = src; else img.classList.add("broken"); };
+      img.onload = () => img.classList.add("ok");
+      img.src = queue.shift();
+      return;
+    }
     const queue = widths.map((px) => thumb(w, px));
     const lower = w.i.toLowerCase();
     if (!/\.(tiff?|svg|pdf|djvu)$/.test(lower)) queue.push(original(w));
@@ -203,16 +213,20 @@
     $("#d-subjects").innerHTML = (w.u || []).map((s) => `<button data-subject="${esc(s)}">${esc(s)}</button>`).join("");
     const links = [];
     if (w.w) links.push(`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(w.w)}" target="_blank" rel="noopener">Wikipedia ${ICON_EXT}</a>`);
-    links.push(`<a href="https://www.wikidata.org/wiki/${w.q}" target="_blank" rel="noopener">Wikidata ${ICON_EXT}</a>`);
-    links.push(`<a href="${filePage(w)}" target="_blank" rel="noopener">Image &amp; license ${ICON_EXT}</a>`);
-    links.push(`<a href="${original(w)}" target="_blank" rel="noopener">Full resolution ${ICON_EXT}</a>`);
+    if (w.src) links.push(`<a href="${esc(w.src)}" target="_blank" rel="noopener">Museum page ${ICON_EXT}</a>`);
+    if (w.q) links.push(`<a href="https://www.wikidata.org/wiki/${w.q}" target="_blank" rel="noopener">Wikidata ${ICON_EXT}</a>`);
+    if (w.i) links.push(`<a href="${filePage(w)}" target="_blank" rel="noopener">Image &amp; license ${ICON_EXT}</a>`);
+    links.push(`<a href="${esc(original(w))}" target="_blank" rel="noopener">Full resolution ${ICON_EXT}</a>`);
     $("#d-links").innerHTML = links.join("");
-    $("#d-credit").innerHTML = `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.${w.e ? " Date estimated from the artist's lifetime." : ""}`;
+    $("#d-credit").innerHTML = (w.i
+      ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
+      : `Image courtesy of ${esc(w.l || "the museum")}, released as open access (public domain / CC0).`) +
+      (w.e ? " Date estimated from the artist's lifetime." : "");
     $("#d-prev").disabled = i === 0;
     $("#d-next").disabled = i === filtered.length - 1;
     if (!d.open) d.showModal();
     $(".detail-info", d).scrollTop = 0;
-    history.replaceState(null, "", `#${w.q}`);
+    history.replaceState(null, "", `#${keyOf(w)}`);
   }
   function closeDetail() {
     openIdx = -1;
@@ -232,7 +246,7 @@
   }
   function readHash() {
     const raw = location.hash.slice(1);
-    if (!raw || /^Q\d+$/.test(raw)) return null;
+    if (!raw || KEY_RX.test(raw)) return null;
     const p = new URLSearchParams(raw);
     state.q = p.get("q") || "";
     state.subject = p.get("subject") || "";
@@ -246,8 +260,9 @@
   }
   function openFromHash() {
     const raw = location.hash.slice(1);
-    if (!/^Q\d+$/.test(raw)) return;
-    const i = filtered.findIndex((w) => w.q === raw);
+    const key = decodeURIComponent(raw);
+    if (!KEY_RX.test(key)) return;
+    const i = filtered.findIndex((w) => keyOf(w) === key);
     if (i >= 0) { renderMore(i); openDetail(i); }
   }
 

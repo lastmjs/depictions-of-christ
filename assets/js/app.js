@@ -204,6 +204,7 @@
 
   /* ---------- scrolling state ---------- */
   let current = -1;
+  let suppressHash = false;
   let currentEra = -1;
 
   function setActive(n) {
@@ -223,7 +224,7 @@
     $(".rail-year").textContent = w.date;
     $(".rail-label").textContent = w.eraRef.subtitle;
     setEra(w.eraRef.index);
-    if (history.replaceState && location.hash !== "#" + w.id) history.replaceState(null, "", "#" + w.id);
+    if (!suppressHash && history.replaceState && location.hash !== "#" + w.id) history.replaceState(null, "", "#" + w.id);
   }
 
   function setEra(i) {
@@ -519,11 +520,20 @@
   bind();
   observe();
 
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
   if (location.hash.length > 1) {
     const id = decodeURIComponent(location.hash.slice(1));
-    requestAnimationFrame(() => {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ block: "start" });
-    });
+    const el = document.getElementById(id);
+    if (el) {
+      suppressHash = true;
+      const root = document.documentElement;
+      root.style.scrollBehavior = "auto";
+      el.scrollIntoView({ block: "start" });
+      requestAnimationFrame(() => {
+        el.scrollIntoView({ block: "start" });
+        root.style.scrollBehavior = "";
+        setTimeout(() => { suppressHash = false; }, 800);
+      });
+    }
   }
 })();

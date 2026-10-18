@@ -203,6 +203,9 @@ def link_to_collection(entries):
                 e["cp"] = hit["p"]
             linked += 1
             continue
+        if rec.get("action") == "skip-no-image":
+            e["ck"] = f"journey:{e['id']}"
+            continue
         if rec.get("action") == "add" and f"feat:{e['id']}" in by_key:
             hit = by_key[f"feat:{e['id']}"]
             e["ck"] = hit["key"]

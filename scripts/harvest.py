@@ -494,6 +494,46 @@ def apply_enrichment(works):
     return kept, details
 
 
+def write_work_shards(works):
+    """Per-work lookup for the dedicated work pages: data/collection/works/<shard>.json = {key: record}.
+
+    Also marks works featured in the journey ("fe") and adds featured works that have no image
+    (copyright-protected) so they get a page too.
+    """
+    links_path = ROOT / "data" / "map" / "featured-links.json"
+    links = json.loads(links_path.read_text()) if links_path.exists() else {}
+    by_key = {w.get("q") or w.get("id"): w for w in works}
+    for fid, rec in links.items():
+        if rec.get("action") == "match" and rec.get("key") in by_key:
+            by_key[rec["key"]]["fe"] = fid
+    shards = defaultdict(dict)
+    for k, w in by_key.items():
+        shards[shard_of(k)][k] = {x: v for x, v in w.items() if x not in ("hay",)}
+    data_js = ROOT / "assets" / "js" / "data.js"
+    if data_js.exists():
+        src = data_js.read_text()
+        featured = json.loads(src[src.index("{"):src.rindex("}") + 1])
+        for era in featured["eras"]:
+            for e in era["entries"]:
+                if links.get(e["id"], {}).get("action") == "skip-no-image" or (not e.get("image") and not e.get("ck")):
+                    k = f"journey:{e['id']}"
+                    shards[shard_of(k)][k] = {
+                        "id": k, "t": e["title"], "y": e["year"], "d": e["date"], "a": e.get("artist", ""),
+                        "c": e.get("created", ""), "l": e.get("location", ""), "m": e.get("medium", ""),
+                        "s": e.get("style", ""), "k": (e.get("form") or "").lower(), "fe": e["id"],
+                        "noimg": e.get("copyrightNote") or "This work is still protected by copyright.",
+                        "src": (e.get("links") or [{}])[0].get("url", ""), "u": [], "v": 1,
+                        "x": {k2: e[k2] for k2 in ("summary", "scripture", "facts", "links") if e.get(k2)},
+                    }
+    out = OUT / "works"
+    out.mkdir(exist_ok=True)
+    for f in out.glob("*.json"):
+        f.unlink()
+    for shard, d in shards.items():
+        (out / f"{shard}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+    print(f"  wrote work pages data for {sum(len(d) for d in shards.values())} works")
+
+
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -656,6 +696,8 @@ def main():
         f.unlink()
     for shard, d in details.items():
         (det_dir / f"{shard}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+
+    write_work_shards(works)
 
     subj_counts = Counter(s for w in works for s in w["u"])
     type_counts = Counter(w["k"] for w in works if w["k"])

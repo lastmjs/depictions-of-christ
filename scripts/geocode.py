@@ -257,7 +257,9 @@ ANON_ARTIST = re.compile(
     r"after\b|copy after|copy of|follower|workshop|atelier|studio of|circle of|school of|style of|"
     r"manner of|imitator|imitation|attributed workshop|various|byzantine|coptic|italian|german|french|"
     r"flemish|netherlandish|dutch|spanish|english|british|american|russian|greek|austrian|swiss)|"
-    r"\bcentury\b|\bmaster \(|unknown master|^master$|\(italian\)|\(german\)|\(flemish\)",
+    r"\bcentury\b|\bmaster \(|unknown master|^master$|\(italian\)|\(german\)|\(flemish\)|"
+    r"^(okänd|ingen uppgift|unbekannt|anonym|inconnu|anonimo|desconocido|ukendt|tuntematon)\b|"
+    r"mästare av|meister von|maître de|maestro de|maestro di|school$|schule$",
     re.I,
 )
 
@@ -719,8 +721,13 @@ def clean_artist(name):
     a = re.split(r";|\s+\|\s+|\n", a)[0].strip()
     a = re.sub(r"^(attributed to|attr\.|possibly by|probably by|designed by|after a design by|"
                r"published by|printed by|engraved by|by)\s+", "", a, flags=re.I)
-    if not a or ANON_ARTIST.search(a) or len(a) < 3:
+    if not a or ANON_ARTIST.search(a) or len(a) < 3 or region_of(a) and fold(a) in REGIONS:
         return ""
+    a = re.sub(r"\s+d\.\s*ä\.?$", " the Elder", a, flags=re.I)
+    a = re.sub(r"\s+d\.\s*j\.?$", " the Younger", a, flags=re.I)
+    m = re.match(r"^([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'\- ]+[A-ZÀ-ÖØ-Þ])\s+([A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ].*)$", a)
+    if m and len(m.group(1)) >= 3:  # "MORELLI Domenico" -> "Domenico Morelli"
+        a = f"{m.group(2)} {m.group(1).title()}"
     return a
 
 
@@ -730,14 +737,19 @@ def search_variants(a):
     m = re.match(r"^(.*?)\s*\(([IVX]+)\)\s*$", a)
     if m:
         out = [f"{m.group(1)} {m.group(2)}", m.group(1)]
+    elif re.search(r"\(.*\)", a):  # "Alexander Master (painter)", "Rafael (eg. Raffaello Sanzio)"
+        out.append(re.sub(r"\s*\(.*?\)\s*", " ", a).strip())
+        inner = re.sub(r"^(eg\.|egentligen|i\.e\.|real name|born)\s*", "", re.search(r"\((.*?)\)", a).group(1))
+        if len(inner.split()) >= 2:
+            out.append(inner)
     if "," in a:
         first = a.split(",")[0].strip()
         if len(first.split()) >= 2:
             out.append(first)
-    if re.search(r"[A-Z]{3,}", a):  # WGA style "DÜRER, Albrecht"
-        p = a.split(",")
-        if len(p) == 2:
-            out.append(f"{p[1].strip()} {p[0].strip().title()}")
+    p = re.sub(r"\s*\(.*?\)\s*", " ", a).split(",")
+    if len(p) == 2 and p[0].strip() and p[1].strip():  # "Burne-Jones, Edward Coley", "DÜRER, Albrecht"
+        last = p[0].strip()
+        out.append(f"{p[1].strip()} {last.title() if last.isupper() else last}")
     return list(dict.fromkeys(out))
 
 
@@ -1085,7 +1097,9 @@ def made_from_c(c, gz):
 
 
 def artist_place(qs, y, arts):
-    """The artist rule: workplace bracketing the year, else death / birth place."""
+    """The artist rule: workplace whose dates bracket the year (else the nearest dated one within
+    ten years, else an undated one, preferring the city where the artist died or was born), else
+    place of death (work in the last 20 years of life), else place of birth (first 30 years)."""
     for q in qs or []:
         a = arts.get(q)
         if not a:
@@ -1093,13 +1107,26 @@ def artist_place(qs, y, arts):
         ws = a.get("w") or []
         if ws:
             pick = None
-            if y is not None:
-                for w in ws:
+            dated = [w for w in ws if w[3] is not None or w[4] is not None]
+            if y is not None and dated:
+                def gap(w):
                     s, e = w[3], w[4]
-                    if (s is not None or e is not None) and (s is None or s <= y) and (e is None or y <= e):
-                        pick = w
-                        break
-            pick = pick or ws[0]
+                    if (s is None or s <= y) and (e is None or y <= e):
+                        return 0
+                    return min(abs(y - x) for x in (s, e) if x is not None)
+                best = min(dated, key=lambda w: (gap(w), w[3] or 0))
+                if gap(best) <= 10:
+                    pick = best
+            if not pick:
+                undated = [w for w in ws if w[3] is None and w[4] is None] or ws
+                prefer = []
+                if a.get("dp") and (y is None or a.get("d") is None or y >= a["d"] - 20):
+                    prefer.append(a["dp"][3])
+                if a.get("bp"):
+                    prefer.append(a["bp"][3])
+                if a.get("dp"):
+                    prefer.append(a["dp"][3])
+                pick = next((w for p in prefer for w in undated if w[5] == p), undated[0])
             return {"name": f"{pick[0]} (artist's workplace)", "lat": pick[1], "lon": pick[2]}
         if y is None:
             continue
@@ -1132,10 +1159,29 @@ def current_site(w, wd, gz):
         if e.get("museum") or (e.get("approx") and MUSEUM_RE.search(l)):
             return None
         return e
-    g = gz.get(l)
-    if g and g.get("kind") in ("site", "settlement") and not g.get("museum") and not MUSEUM_RE.search(l):
-        return g
+    if MUSEUM_RE.search(l):
+        return None
+    hits = [gz.get(part) for part in l_parts(l)]
+    hits = [g for g in hits if g and g.get("kind") in ("site", "settlement") and not g.get("museum")]
+    towns = [g for g in hits if g["kind"] == "settlement"]
+    for g in hits:
+        # a part resolved on its own must lie near the town named in the same text
+        if not towns or g in towns or min(km((g["lat"], g["lon"]), (t["lat"], t["lon"])) for t in towns) <= 50:
+            return g
     return None
+
+
+def l_parts(l):
+    """A location text and, for long 'Chapel, Church, Abbey, Town, Country' strings, its parts."""
+    l = (l or "").strip()
+    out = [l] if l else []
+    core = re.sub(r"\s*\((in situ|replica[^)]*|now [^)]*|original[^)]*|MS [^)]*|inv\.[^)]*)\)\s*", " ", l, flags=re.I).strip()
+    if core and core != l:
+        out.append(core)
+    parts = [p.strip() for p in core.split(",") if p.strip()]
+    if len(parts) >= 3:
+        out += [p for p in parts if not (fold(p) in REGIONS)]
+    return list(dict.fromkeys(out))
 
 
 def place_of(w):
@@ -1177,6 +1223,10 @@ def place_of(w):
         region = {"name": r[0], "lat": r[1], "lon": r[2]} if r else o
     if not region and q and w.get("c"):
         r = region_of(w["c"])
+        if r:
+            region = {"name": r[0], "lat": r[1], "lon": r[2]}
+    if not region and w.get("a") and not qs and not clean_artist(w["a"]):
+        r = region_of(w["a"])  # "German", "Anonymous, Flemish, 16th century"...
         if r:
             region = {"name": r[0], "lat": r[1], "lon": r[2]}
     if region:
@@ -1227,9 +1277,8 @@ def main():
     for w in works:
         e = wd.get(w.get("q") or "") or {}
         if prefix(w) not in MUSEUM_SOURCES and not e.get("loc") and fixed_type(w):
-            l = (w.get("l") or "").strip()
-            if l:
-                l_counts[l] += 1
+            for part in l_parts(w.get("l")):
+                l_counts[part] += 1
         if not e.get("made") and (not w.get("q") or prefix(w)):
             c = (w.get("c") or "").strip()
             if c:

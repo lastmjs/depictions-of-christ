@@ -1,0 +1,30 @@
+/* Permanent page for a single work */
+.work-page { --rail-w: 0px; }
+.wp { max-width: 1400px; margin: 0 auto; padding: calc(var(--topbar-h) + 32px) clamp(16px, 4vw, 48px) 80px; min-height: 100vh; }
+.wp-loading { display: flex; gap: .7em; align-items: center; justify-content: center; padding: 30vh 0; color: var(--ink-dim); }
+.wp-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 1fr); gap: clamp(28px, 4vw, 64px); align-items: start; }
+.wp-media { margin: 0; position: sticky; top: calc(var(--topbar-h) + 24px); display: flex; flex-direction: column; gap: 10px; }
+.wp-img-link { display: grid; place-items: center; min-height: 240px; cursor: zoom-in;
+  background: radial-gradient(ellipse at center, #1d1812, #090806); border-radius: 6px; padding: clamp(10px, 2vw, 22px); }
+.wp-img-link img { max-width: 100%; max-height: calc(100vh - var(--topbar-h) - 120px); width: auto; height: auto; object-fit: contain;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .9); opacity: 0; transition: opacity .6s; }
+.wp-img-link img.ok { opacity: 1; }
+.wp-veil { width: 100%; max-width: 520px; margin: 0 auto; opacity: 1; transform: none; }
+.wp-info h1 { font-family: var(--f-display); font-weight: 400; font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.05; margin: 0 0 .5rem; text-wrap: balance; }
+.wp-info .d-subjects a {
+  padding: .35em .8em; border-radius: 999px; border: 1px solid var(--line); background: rgba(214, 176, 106, .06);
+  font-family: var(--f-caps); font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-bright);
+}
+.wp-explore { display: flex; flex-wrap: wrap; gap: 8px; margin: 1.2rem 0 1.6rem; }
+.wp-explore .btn-ghost { font-size: .62rem; padding: .7em 1.1em; }
+.wp-explore .btn-ghost svg { width: 1.1em; height: 1.1em; }
+.wp-h { font-family: var(--f-caps); font-weight: 400; font-size: .7rem; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); margin: 0 0 .8rem; }
+.wp-missing { text-align: center; padding: 20vh 20px; }
+.wp-missing h1 { font-family: var(--f-display); font-weight: 300; font-size: 3rem; margin: 0 0 1rem; }
+.wp-missing p { color: var(--ink-dim); }
+@media (max-width: 960px) {
+  .wp { padding-top: calc(var(--topbar-h) + 16px); }
+  .wp-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .wp-media { position: static; }
+  .wp-img-link img { max-height: 70vh; }
+}

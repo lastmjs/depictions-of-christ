@@ -110,6 +110,62 @@
     return shardCache.get(s).then((d) => d[key] || null);
   }
 
+  /* ---------- permanent work pages + sharing ---------- */
+  const ICON_SHARE = '<svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>';
+  const workUrl = (key) => `work.html?id=${encodeURIComponent(key)}`;
+  const absoluteUrl = (rel) => new URL(rel, location.href).href;
+
+  function toast(msg) {
+    let t = $("#foc-toast");
+    if (!t) {
+      t = document.createElement("div");
+      t.id = "foc-toast";
+      t.className = "toast";
+      t.setAttribute("role", "status");
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(t._h);
+    t._h = setTimeout(() => t.classList.remove("show"), 2200);
+  }
+
+  async function shareWork(key, title) {
+    const url = absoluteUrl(workUrl(key));
+    if (navigator.share && matchMedia("(hover: none)").matches) {
+      try { await navigator.share({ title: `${title} — The Face of Christ`, url }); return; } catch (e) { if (e.name === "AbortError") return; }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      toast("Link copied");
+    } catch (e) {
+      prompt("Copy this link:", url);
+    }
+  }
+
+  function workLinks(w) {
+    const src = (w.id || "").split(":")[0];
+    const links = [];
+    if (w.w) links.push(`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(w.w)}" target="_blank" rel="noopener">Wikipedia ${ICON_EXT}</a>`);
+    if (w.src) links.push(`<a href="${esc(w.src)}" target="_blank" rel="noopener">${SOURCE_LINK[src] || "Museum page"} ${ICON_EXT}</a>`);
+    if (w.q) links.push(`<a href="https://www.wikidata.org/wiki/${w.q}" target="_blank" rel="noopener">Wikidata ${ICON_EXT}</a>`);
+    if (w.i) links.push(`<a href="${filePage(w)}" target="_blank" rel="noopener">Image &amp; license ${ICON_EXT}</a>`);
+    if (w.i || w.big || w.img) links.push(`<a href="${esc(original(w))}" target="_blank" rel="noopener">Full resolution ${ICON_EXT}</a>`);
+    return links;
+  }
+
+  function workCredit(w) {
+    if (w.noimg) return "";
+    const src = (w.id || "").split(":")[0];
+    return (w.i
+      ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
+      : w.cr ? `Image: ${esc(w.cr)}${w.lic ? ` (${esc(w.lic)})` : ""}.`
+      : src === "europeana" ? `Image: ${esc(w.l || "the providing institution")}, via Europeana${w.lic ? ` (${esc(w.lic)})` : ""}.`
+      : src === "feat" ? `Image: ${w.lic ? esc(w.lic) : "public domain or freely licensed"}; see the <a href="${esc(w.src)}" target="_blank" rel="noopener">source</a> for author and license.`
+      : SOURCE_CREDIT[src] || `Image courtesy of ${esc(w.l || "the museum")}${w.lic ? ` (${esc(w.lic)})` : ", released as open access"}.`) +
+      (w.e ? " Date estimated from the artist's lifetime." : "");
+  }
+
   /* ---------- the work viewer dialog ---------- */
   const DIALOG = `
   <dialog class="detail" id="detail" aria-labelledby="d-title">
@@ -121,6 +177,10 @@
       <button class="icon-btn detail-close" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
       <div class="info-date"><span class="yr" id="d-date"></span><span class="form" id="d-form"></span></div>
       <h2 id="d-title"></h2>
+      <div class="d-actions">
+        <button class="btn-ghost" id="d-share">${ICON_SHARE}<span>Share</span></button>
+        <a class="btn-ghost" id="d-page" href="#">${ICON_EXT}<span>Open page</span></a>
+      </div>
       <p class="info-artist" id="d-artist"></p>
       <p class="d-checked" id="d-checked" hidden>${ICON_CHECK}Hand-checked</p>
       <p class="d-original" id="d-original" hidden></p>
@@ -182,20 +242,9 @@
       $("#d-meta").innerHTML = [["Created", w.c], ["Now at", w.l], ["Medium", w.m], ["Style", w.s]]
         .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
       $("#d-subjects").innerHTML = (w.u || []).map((s) => `<button data-subject="${esc(s)}">${esc(s)}</button>`).join("");
-      const src = (w.id || "").split(":")[0];
-      const links = [];
-      if (w.w) links.push(`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(w.w)}" target="_blank" rel="noopener">Wikipedia ${ICON_EXT}</a>`);
-      if (w.src) links.push(`<a href="${esc(w.src)}" target="_blank" rel="noopener">${SOURCE_LINK[src] || "Museum page"} ${ICON_EXT}</a>`);
-      if (w.q) links.push(`<a href="https://www.wikidata.org/wiki/${w.q}" target="_blank" rel="noopener">Wikidata ${ICON_EXT}</a>`);
-      if (w.i) links.push(`<a href="${filePage(w)}" target="_blank" rel="noopener">Image &amp; license ${ICON_EXT}</a>`);
-      links.push(`<a href="${esc(original(w))}" target="_blank" rel="noopener">Full resolution ${ICON_EXT}</a>`);
-      $("#d-links").innerHTML = links.join("");
-      $("#d-credit").innerHTML = (w.i
-        ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
-        : w.cr ? `Image: ${esc(w.cr)}${w.lic ? ` (${esc(w.lic)})` : ""}.`
-        : src === "europeana" ? `Image: ${esc(w.l || "the providing institution")}, via Europeana${w.lic ? ` (${esc(w.lic)})` : ""}.`
-        : SOURCE_CREDIT[src] || `Image courtesy of ${esc(w.l || "the museum")}${w.lic ? ` (${esc(w.lic)})` : ", released as open access"}.`) +
-        (w.e ? " Date estimated from the artist's lifetime." : "");
+      $("#d-links").innerHTML = workLinks(w).join("");
+      $("#d-credit").innerHTML = workCredit(w);
+      $("#d-page").href = workUrl(keyOf(w));
       $("#d-checked").hidden = !w.v;
       showText(null);
       if (w.ot && w.ot !== w.t) { $("#d-original").hidden = false; $("#d-original").textContent = w.ot; }
@@ -216,6 +265,7 @@
     });
     d.addEventListener("close", () => { idx = -1; if (opts.onClose) opts.onClose(); });
     $("#d-img").addEventListener("click", () => { const w = list[idx]; if (w) window.open(original(w), "_blank", "noopener"); });
+    $("#d-share").addEventListener("click", () => { const w = list[idx]; if (w) shareWork(keyOf(w), w.t); });
     $("#d-prev").addEventListener("click", () => step(-1));
     $("#d-next").addEventListener("click", () => step(1));
     document.addEventListener("keydown", (e) => {
@@ -233,7 +283,7 @@
   }
 
   window.FOC = {
-    $, $$, esc, ICON_EXT, ICON_CHECK, thumb, original, filePage, keyOf, KEY_RX, loadInto,
+    $, $$, esc, ICON_EXT, ICON_CHECK, ICON_BOOK, ICON_SHARE, workUrl, shareWork, toast, shardOf, workLinks, workCredit, SOURCE_CREDIT, SOURCE_LINK, thumb, original, filePage, keyOf, KEY_RX, loadInto,
     centuryOf, ordinal, centuryName, centurySpan, loadCollection, loadDetail, createViewer,
   };
 })();

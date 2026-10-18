@@ -122,7 +122,9 @@
 
     const links = (w.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ${ICON.ext}</a>`);
     if (img && img.page) links.push(`<a href="${esc(img.page)}" target="_blank" rel="noopener">Image source ${ICON.ext}</a>`);
-    if (w.ck) links.unshift(`<a href="collection.html#${encodeURIComponent(w.ck)}">In the collection</a>`);
+    if (w.ck && !w.ck.startsWith("journey:")) links.unshift(`<a href="collection.html#${encodeURIComponent(w.ck)}">In the collection</a>`);
+    if (w.ck) links.unshift(`<a href="work.html?id=${encodeURIComponent(w.ck)}">Open page</a>`);
+    if (w.ck) links.unshift(`<button type="button" class="share-btn" data-share="${esc(w.ck)}" data-title="${esc(w.title)}"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>Share</button>`);
     if (w.cp != null) links.unshift(`<a href="map.html#place=${w.cp}">On the map</a>`);
 
     const credit = img
@@ -473,6 +475,8 @@
   /* ---------- events ---------- */
   function bind() {
     document.addEventListener("click", (e) => {
+      const sh = e.target.closest("[data-share]");
+      if (sh && window.FOC) { window.FOC.shareWork(sh.dataset.share, sh.dataset.title); return; }
       const open = e.target.closest("[data-open]");
       if (open) { openLightbox(+open.dataset.open); return; }
       const go = e.target.closest("[data-go]");

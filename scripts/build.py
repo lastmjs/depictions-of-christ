@@ -203,6 +203,9 @@ def link_to_collection(entries):
     linked = 0
     for e in entries:
         rec = links.get(e["id"], {})
+        if e["year"] > 1899:  # landmarks since 1900 live only in the journey (and their own pages)
+            e["ck"] = f"journey:{e['id']}"
+            continue
         if rec.get("action") == "match" and rec.get("key") in by_key:
             hit = by_key[rec["key"]]
             e["ck"] = hit["key"]

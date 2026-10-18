@@ -267,6 +267,9 @@ ANON_ARTIST = re.compile(
 BAD_TYPES = {
     "Q5", "Q4167410", "Q13406463", "Q101352", "Q202444", "Q4167836", "Q11266439",
     "Q5398426", "Q7725634", "Q3305213", "Q838948", "Q17537576", "Q16521", "Q4830453",
+    # languages and peoples (some carry coordinates)
+    "Q34770", "Q33742", "Q38058796", "Q45762", "Q1288568", "Q436240", "Q41710", "Q33384", "Q2315359",
+    "Q20162172", "Q1068946",
 }
 # Regions: countries, states, provinces, historical regions (not specific places).
 REGION_TYPES = {
@@ -280,6 +283,7 @@ CITY_TYPES = {
     "Q486972", "Q15127012", "Q1115575", "Q3558970", "Q13218690", "Q7930989", "Q1307214",
     "Q902814", "Q1187811", "Q15661340", "Q2264924", "Q133442", "Q1840161", "Q954172",
 }
+BIG_CITY = {"Q1549591", "Q5119", "Q1637706", "Q200250", "Q1066984", "Q22865"}
 ANONYMOUS_QIDS = {"Q4233718", "Q3816639", "Q19595382", "Q24238356"}
 
 _last = defaultdict(float)
@@ -578,6 +582,8 @@ def is_settlement(d):
 
 
 def is_region(d):
+    if d["types"] & CITY_TYPES:
+        return False  # city-states such as Berlin, Hamburg or Vienna are places, not regions
     return bool(d["types"] & REGION_TYPES) or d["cap"]
 
 
@@ -749,9 +755,17 @@ def clean_artist(name):
     return a
 
 
+# German / Swedish / Dutch exonyms of artists used by some providers.
+EXONYMS = {"raffael": "Raphael", "rafael": "Raphael", "raffaello santi": "Raphael", "tizian": "Titian",
+           "tiziano": "Titian", "tiziano vecellio": "Titian", "tintoretto jacopo": "Tintoretto",
+           "rembrandt harmensz van rijn": "Rembrandt", "lucas cranach d a": "Lucas Cranach the Elder"}
+
+
 def search_variants(a):
     """Search strings for an artist name: as given, with '(II)' -> 'II', without it, before a comma."""
     out = [a]
+    if fold(a) in EXONYMS:
+        out.append(EXONYMS[fold(a)])
     m = re.match(r"^(.*?)\s*\(([IVX]+)\)\s*$", a)
     if m:
         out = [f"{m.group(1)} {m.group(2)}", m.group(1)]
@@ -806,12 +820,15 @@ def resolve_artist_names(names_years):
                     continue
             elif b is None and d is None and years:
                 continue  # no dates to check the match against
-            ok.append((q, exact))
-        exacts = [q for q, e in ok if e]
+            ok.append((q, exact, fold(h.get("label")) in want))
+        exacts = [q for q, e, _ in ok if e]
+        labels = [q for q, _, lab in ok if lab]
         if len(ok) == 1:
             out[a] = ok[0][0]
         elif len(exacts) == 1:
             out[a] = exacts[0]
+        elif len(labels) == 1:
+            out[a] = labels[0]  # the one whose main label (not an alias) is the name
     return out
 
 
@@ -903,9 +920,11 @@ def city_choice(text, info, hits):
     best, score = None, -1e9
     for i, h in enumerate(hits):
         d = info.get(h["id"])
-        if not d or not d["coord"] or d["types"] & BAD_TYPES or is_region(d) or not is_settlement(d):
+        if not d or not label_matches(text, h):
             continue
-        if not label_matches(text, h):
+        if is_region(d) and best is None:
+            return None  # "(Arizona)" names a state, not the town of that name in Honduras
+        if not d["coord"] or d["types"] & BAD_TYPES or is_region(d) or not is_settlement(d):
             continue
         sc = -i + (10 if d["types"] & CITY_TYPES else 0) + (5 if d["pop"] else 0)
         if sc > score:
@@ -1027,7 +1046,8 @@ def build_gazetteer(l_counts, c_counts):
                     return entry(h["id"], "region")
             else:
                 same = [info[t[2]["id"]]["coord"] for t in ranked if t[0] == top and t[3] == "x"]
-                if max(km(same[0], p) for p in same) <= 30:
+                big = top == 0 and info[h["id"]]["types"] & BIG_CITY  # "Berlin", not Berlin (New Hampshire)
+                if big or max(km(same[0], p) for p in same) <= 30:
                     q = h["id"]
                     return entry(q, "settlement" if is_settlement(info[q]) else "site")
                 if not city_q:
@@ -1074,7 +1094,9 @@ def build_gazetteer(l_counts, c_counts):
         if not want & set(fold(r.get("display_name", "") + " " + name).split()):
             continue
         e = {"name": name or s, "lat": round(float(r["lat"]), 6), "lon": round(float(r["lon"]), 6), "src": "osm"}
-        if rank < 12 or (cat == "place" and typ in ("country", "state", "region", "province", "county", "continent")):
+        if r.get("addresstype") in ("city", "town", "village", "municipality", "hamlet", "suburb"):
+            e["kind"] = "settlement"
+        elif rank < 12 or (cat == "place" and typ in ("country", "state", "region", "province", "county", "continent")):
             e["kind"] = "region"
         elif cat in ("place", "boundary"):
             e["kind"] = "settlement"
@@ -1234,6 +1256,8 @@ def place_of(w):
     region = None
     # 1. made
     m = e.get("made")
+    if m and culture_only(m["name"]):
+        m = dict(m, region=True)  # P1071 = "Franconia", "Flanders"...
     if m and not m.get("region"):
         return m, "made"
     if m:

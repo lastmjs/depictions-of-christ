@@ -1,29 +1,5 @@
 [
   {
-    "id": "gill-westminster-stations-trial-panel",
-    "title": "Fifth Station of the Cross: Simon of Cyrene Helps Jesus Carry the Cross (trial panel)",
-    "artist": "Eric Gill",
-    "date": "1914",
-    "year": 1914,
-    "created": "England (probably Gill's workshop at Ditchling, Sussex)",
-    "location": "Harry Ransom Center, University of Texas at Austin, USA",
-    "medium": "Hopton Wood stone, carved in low relief across three vertical slabs",
-    "form": "Relief",
-    "style": "Modernist / Arts and Crafts",
-    "summary": "This carved panel is Eric Gill's trial piece for the fourteen Stations of the Cross he made for Westminster Cathedral in London between 1914 and 1918. Christ, bowed under the cross, is helped by Simon of Cyrene, and both figures are cut in shallow, linear relief with the sacred words carved in Gill's own lettering. Its simple, almost archaic clarity broke with Victorian devotional sentiment and helped shape a new, modern language for church art in Britain.",
-    "facts": [
-      "Gill was a surprising choice for the Westminster commission, which he received in 1914: he had become a Catholic only the year before, had been working as a sculptor for just three years, and was better known as a letter-cutter.",
-      "The inscriptions are integral to the design: Gill was one of the great letterers of the century and later designed the Gill Sans and Perpetua typefaces.",
-      "The finished Stations remain on the piers of Westminster Cathedral. Gill's reputation was reassessed after Fiona MacCarthy's 1989 biography revealed the sexual abuse recorded in his diaries; in 1998 a survivors' group called for the Stations to be removed, but the cathedral has kept them."
-    ],
-    "scripture": "Mark 15:21",
-    "commons": "File:Fifth Station of The Cross, trial panel for Westminster Cathedral, by Eric Gill, 1914, Hoptonwood stone relief in three vertical stones - Harry Ransom Center - University of Texas at Austin - DSC08567.jpg",
-    "links": [
-      {"label": "Wikipedia: Eric Gill", "url": "https://en.wikipedia.org/wiki/Eric_Gill"},
-      {"label": "Wikipedia: Westminster Cathedral", "url": "https://en.wikipedia.org/wiki/Westminster_Cathedral"}
-    ]
-  },
-  {
     "id": "beckmann-descent-from-the-cross",
     "title": "Descent from the Cross",
     "artist": "Max Beckmann",
@@ -43,31 +19,14 @@
     "scripture": "John 19:38–40",
     "commons": "File:Beckmann - Tiedemann, 0192.jpg",
     "links": [
-      {"label": "Wikipedia: Max Beckmann", "url": "https://en.wikipedia.org/wiki/Max_Beckmann"},
-      {"label": "Wikipedia: Descent from the Cross (Beckmann)", "url": "https://en.wikipedia.org/wiki/Descent_from_the_Cross_(Beckmann)"}
-    ]
-  },
-  {
-    "id": "jawlensky-face-of-the-saviour-crown-of-thorns",
-    "title": "Face of the Saviour: Crown of Thorns (Heilandsgesicht: Dornenkrone)",
-    "artist": "Alexej von Jawlensky",
-    "date": "1918",
-    "year": 1918,
-    "created": "Switzerland",
-    "location": "Private collection (sold at Christie's)",
-    "medium": "Oil on cardboard, 40 × 30.5 cm",
-    "form": "Painting",
-    "style": "Expressionism",
-    "summary": "During the First World War, the Russian-born painter Alexej von Jawlensky began a long series of small heads he called 'Faces of the Saviour.' Reduced to a few strokes of glowing colour, closed or haunting eyes and the long vertical of the nose, these faces are as much like icons as portraits. In this sombre version, the crown of thorns is suggested by sharp red strokes against dark blues and greens, turning the Passion into a meditation in pure colour.",
-    "facts": [
-      "Jawlensky was raised in Russia in the Orthodox tradition, and his 'Saviour's Faces' are often compared to the icons he knew from childhood.",
-      "He painted the series in neutral Switzerland after being forced to leave Germany as a Russian citizen in 1914.",
-      "From the late 1920s rheumatoid arthritis gradually crippled his hands; in his last series, the 'Meditations', he could manage little more than horizontal, vertical and diagonal strokes, yet he kept painting until 1937."
-    ],
-    "scripture": "Matthew 27:29",
-    "commons": "File:Alexej von Jawlensky Heilandsgesicht Dornenkrone 1918.jpg",
-    "links": [
-      {"label": "Wikipedia: Alexej von Jawlensky", "url": "https://en.wikipedia.org/wiki/Alexej_von_Jawlensky"}
+      {
+        "label": "Wikipedia: Max Beckmann",
+        "url": "https://en.wikipedia.org/wiki/Max_Beckmann"
+      },
+      {
+        "label": "Wikipedia: Descent from the Cross (Beckmann)",
+        "url": "https://en.wikipedia.org/wiki/Descent_from_the_Cross_(Beckmann)"
+      }
     ]
   },
   {
@@ -90,8 +49,14 @@
     "scripture": "John 19:28–34",
     "commons": "File:Lovis Corinth Der rote Christus 1922-1.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Red_Christ"},
-      {"label": "Wikipedia: Lovis Corinth", "url": "https://en.wikipedia.org/wiki/Lovis_Corinth"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Red_Christ"
+      },
+      {
+        "label": "Wikipedia: Lovis Corinth",
+        "url": "https://en.wikipedia.org/wiki/Lovis_Corinth"
+      }
     ]
   },
   {
@@ -115,8 +80,14 @@
     "commons": null,
     "copyrightNote": "© ADAGP, Paris (Georges Rouault estate). View impressions in the collections of the Museum of Modern Art, New York, and other museums.",
     "links": [
-      {"label": "Wikipedia: Georges Rouault", "url": "https://en.wikipedia.org/wiki/Georges_Rouault"},
-      {"label": "Fondation Georges Rouault: Miserere", "url": "https://rouault.org/oeuvre-grave/miserere/"}
+      {
+        "label": "Wikipedia: Georges Rouault",
+        "url": "https://en.wikipedia.org/wiki/Georges_Rouault"
+      },
+      {
+        "label": "Fondation Georges Rouault: Miserere",
+        "url": "https://rouault.org/oeuvre-grave/miserere/"
+      }
     ]
   },
   {
@@ -138,7 +109,10 @@
     ],
     "commons": "File:Christ the Redeemer - Cristo Redentor.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+      }
     ]
   },
   {
@@ -161,8 +135,14 @@
     "scripture": "John 19:34",
     "commons": "File:Divina Misericordia (Eugeniusz Kazimirowski, 1934).jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Divine_Mercy_image"},
-      {"label": "Wikipedia: Eugeniusz Kazimirowski", "url": "https://en.wikipedia.org/wiki/Eugeniusz_Kazimirowski"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Divine_Mercy_image"
+      },
+      {
+        "label": "Wikipedia: Eugeniusz Kazimirowski",
+        "url": "https://en.wikipedia.org/wiki/Eugeniusz_Kazimirowski"
+      }
     ]
   },
   {
@@ -186,8 +166,14 @@
     "commons": null,
     "copyrightNote": "© Marc Chagall estate / ADAGP, Paris. View at the Art Institute of Chicago.",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/White_Crucifixion"},
-      {"label": "Art Institute of Chicago", "url": "https://www.artic.edu/artworks/59426/white-crucifixion"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/White_Crucifixion"
+      },
+      {
+        "label": "Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/59426/white-crucifixion"
+      }
     ]
   },
   {
@@ -210,8 +196,14 @@
     "commons": null,
     "copyrightNote": "© Warner Press. The original painting is in the Warner Sallman collection at Anderson University, Indiana.",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Head_of_Christ"},
-      {"label": "Wikipedia: Warner Sallman", "url": "https://en.wikipedia.org/wiki/Warner_Sallman"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Head_of_Christ"
+      },
+      {
+        "label": "Wikipedia: Warner Sallman",
+        "url": "https://en.wikipedia.org/wiki/Warner_Sallman"
+      }
     ]
   },
   {
@@ -234,7 +226,10 @@
     "commons": null,
     "copyrightNote": "© Salvador Dalí, Fundació Gala-Salvador Dalí. View at Kelvingrove Art Gallery and Museum, Glasgow.",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_of_Saint_John_of_the_Cross"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christ_of_Saint_John_of_the_Cross"
+      }
     ]
   },
   {
@@ -257,29 +252,10 @@
     "commons": null,
     "copyrightNote": "© Guido Galletti estate (Italy has no freedom of panorama). See photographs via the Wikipedia article.",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_of_the_Abyss"}
-    ]
-  },
-  {
-    "id": "cristo-rei-almada",
-    "title": "Christ the King (Cristo Rei)",
-    "artist": "Francisco Franco de Sousa (sculptor), António Lino (architect)",
-    "date": "1949–1959",
-    "year": 1959,
-    "created": "Almada, Portugal",
-    "location": "Sanctuary of Christ the King, Almada, overlooking Lisbon and the Tagus, Portugal",
-    "medium": "Reinforced concrete",
-    "form": "Monument",
-    "style": "Modernist monumental",
-    "summary": "Across the Tagus from Lisbon, a 28-metre Christ stands with arms wide open on top of a tall, gateway-like pedestal, blessing the city and the river. The monument fulfils a vow made by Portugal's bishops in 1940: if the country were kept out of the Second World War, they would raise a monument to Christ the King. Its open arms, inspired by Rio de Janeiro's Christ the Redeemer, echo across the water to the city.",
-    "facts": [
-      "The idea came from the Cardinal Patriarch of Lisbon, Manuel Gonçalves Cerejeira, after he visited Rio's Christ the Redeemer in 1934; the bishops formally approved it at Fátima in 1940.",
-      "The statue stands on a gateway-like pedestal 82 metres high, on a clifftop site, so that the figure rises some 190 metres above the Tagus.",
-      "It was inaugurated on 17 May 1959, partly funded by donations from Portuguese Catholics, and a lift carries visitors to a viewing platform at Christ's feet."
-    ],
-    "commons": "File:Cristo Rei, Lisboa, Portugal, 2012-05-12, DD 02.JPG",
-    "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_the_King_(Almada)"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christ_of_the_Abyss"
+      }
     ]
   },
   {
@@ -302,7 +278,10 @@
     "scripture": "Revelation 4:2–8",
     "commons": "File:Christ in Glory tapestry by Graham Sutherland in Coventry Cathedral.jpg",
     "links": [
-      {"label": "Wikipedia: Coventry Cathedral", "url": "https://en.wikipedia.org/wiki/Coventry_Cathedral"}
+      {
+        "label": "Wikipedia: Coventry Cathedral",
+        "url": "https://en.wikipedia.org/wiki/Coventry_Cathedral"
+      }
     ]
   },
   {
@@ -325,30 +304,14 @@
     "commons": null,
     "copyrightNote": "© JESUS MAFA (Vie de Jésus Mafa). View the series in the Vanderbilt Divinity Library's Art in the Christian Tradition database.",
     "links": [
-      {"label": "Vanderbilt Divinity Library: Art in the Christian Tradition", "url": "https://diglib.library.vanderbilt.edu/act-search.pl?Keywords=mafa"},
-      {"label": "Wikipedia: Mafa people (Jesus Mafa)", "url": "https://en.wikipedia.org/wiki/Mafa_people#Jesus_Mafa"}
-    ]
-  },
-  {
-    "id": "cristo-de-la-concordia",
-    "title": "Christ of Peace (Cristo de la Concordia)",
-    "artist": "César and Wálter Terrazas Pardo",
-    "date": "1987–1994",
-    "year": 1994,
-    "created": "Cochabamba, Bolivia",
-    "location": "San Pedro Hill, Cochabamba, Bolivia",
-    "medium": "Reinforced concrete",
-    "form": "Monument",
-    "style": "Modern monumental",
-    "summary": "Overlooking the city of Cochabamba from the top of San Pedro Hill, this white Christ with outstretched arms was the tallest statue of Christ in the world when completed in 1994. It was modelled on the Christ the Redeemer of Rio de Janeiro but built to be slightly taller, as a statement of Bolivian faith and civic pride. Pilgrims and visitors climb more than a thousand steps, or take a cable car, to reach the statue.",
-    "facts": [
-      "The statue is about 34 metres tall, and with its pedestal reaches roughly 40 metres.",
-      "Its arms span almost 33 metres, and the head alone is about 4.6 metres tall.",
-      "A stairway of 1,399 steps inside the statue leads up to openings in the arms that look out over the city."
-    ],
-    "commons": "File:Cristo de la Concordia Cochabamba.jpg",
-    "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cristo_de_la_Concordia"}
+      {
+        "label": "Vanderbilt Divinity Library: Art in the Christian Tradition",
+        "url": "https://diglib.library.vanderbilt.edu/act-search.pl?Keywords=mafa"
+      },
+      {
+        "label": "Wikipedia: Mafa people (Jesus Mafa)",
+        "url": "https://en.wikipedia.org/wiki/Mafa_people#Jesus_Mafa"
+      }
     ]
   },
   {
@@ -371,7 +334,10 @@
     "commons": null,
     "copyrightNote": "© He Qi. View his work through the artist's official website and published collections.",
     "links": [
-      {"label": "He Qi: official website", "url": "https://www.heqiart.com/about-he-qi.html"}
+      {
+        "label": "He Qi: official website",
+        "url": "https://www.heqiart.com/about-he-qi.html"
+      }
     ]
   },
   {
@@ -393,7 +359,10 @@
     ],
     "commons": "File:Christ the King Statue in Świebodzin 2012.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jesus_Christ_the_King_of_the_Universe"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jesus_Christ_the_King_of_the_Universe"
+      }
     ]
   }
 ]

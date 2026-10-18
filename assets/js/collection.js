@@ -132,6 +132,21 @@
       </div>
     </section>`;
 
+  const AFTER_1900_NOTE = `
+    <section class="century century-empty">
+      <header class="century-head" id="century-20">
+        <h2>Since 1900</h2>
+        <span class="span">The modern age</span>
+        <span class="n">a selection, in the Journey</span>
+      </header>
+      <div class="empty-note">
+        <p>After 1900 the images of Christ multiply beyond counting, and most are still protected by copyright, so this
+        historical collection ends with the nineteenth century. The story continues in the Journey, with a selection of
+        the landmark works of the modern age — from Rouault and Chagall to Dalí, Matisse and Christ the Redeemer.</p>
+        <p><a class="btn-ghost" href="./#era-modern">Landmarks of the modern age →</a></p>
+      </div>
+    </section>`;
+
   function renderMore(until) {
     if (rendered === 0 && isUnfiltered() && filtered.length && filtered[0].c_ > 1) {
       $("#col-results").insertAdjacentHTML("beforeend", FIRST_CENTURY_NOTE);
@@ -141,6 +156,9 @@
     for (; rendered < target; rendered++) {
       const w = filtered[rendered];
       if (w.c_ !== lastCentury) {
+        if (isUnfiltered() && state.order === "asc" && lastCentury != null && (w.c_ == null || w.c_ > 19) && !document.getElementById("century-20")) {
+          frag.appendChild(document.createRange().createContextualFragment(AFTER_1900_NOTE));
+        }
         lastCentury = w.c_;
         const count = countByCentury.get(w.c_) || 0;
         const sec = document.createElement("section");

@@ -1,98 +1,5 @@
 [
   {
-    "id": "denis-noli-me-tangere-reims",
-    "title": "Noli me tangere",
-    "artist": "Maurice Denis",
-    "date": "1920",
-    "year": 1920,
-    "created": "France (probably Saint-Germain-en-Laye)",
-    "location": "Musée des Beaux-Arts, Reims, France",
-    "medium": "Oil on canvas (sketch for an arched composition, 54 × 150.5 cm)",
-    "form": "Painting",
-    "style": "Symbolism / Art Deco religious painting",
-    "summary": "In a pale, wooded garden, the risen Christ stands before the kneeling Mary Magdalene and gestures to her not to approach, while showing her the wounds of his Passion. Around them Denis unfolds the rest of Easter morning: Peter and John hurrying to the tomb, and the holy women addressed by two angels guarding the sepulchre. The soft, luminous colours and arched format reflect Denis's lifelong ambition to renew sacred art for churches of the modern age.",
-    "facts": [
-      "In 1919, the year before this painting, Denis co-founded the Ateliers d'Art Sacré in Paris with George Desvallières to train artists for the decoration of churches.",
-      "The lunette-shaped canvas, catalogued by the museum as a sketch (esquisse), relates to Denis's decoration of the chapel of the Prieuré, his home at Saint-Germain-en-Laye; it was bequeathed to Reims by the art historian and curator Paul Jamot in 1939.",
-      "Several episodes of the Resurrection appear side by side in the one landscape, a narrative device that recalls early Italian painting, which Denis deeply admired."
-    ],
-    "scripture": "John 20:11–18",
-    "commons": "File:Maurice Denis, Noli me tangere, 1920.jpg",
-    "links": [
-      {
-        "label": "Wikipedia (Maurice Denis)",
-        "url": "https://en.wikipedia.org/wiki/Maurice_Denis"
-      },
-      {
-        "label": "Musées de Reims",
-        "url": "https://musees-reims.fr/oeuvre/noli-me-tangere"
-      }
-    ]
-  },
-  {
-    "id": "roerich-signs-of-christ",
-    "title": "Signs of Christ",
-    "artist": "Nicholas Roerich",
-    "date": "1924",
-    "year": 1924,
-    "created": "Darjeeling, India",
-    "location": "International Centre of the Roerichs, Moscow, Russia",
-    "medium": "Tempera on canvas",
-    "form": "Painting",
-    "style": "Symbolism",
-    "summary": "Among wind-rippled dunes of ochre sand beneath blue hills, a long-haired figure of Christ sits tracing mysterious signs in the sand with a staff, while a hooded companion bends over him to watch. Roerich, the Russian painter, mystic and explorer, was fascinated by legends of Christ's presence in Asia and painted him as a quiet wanderer in a timeless landscape. The flat, glowing colours give the scene the stillness of an icon.",
-    "facts": [
-      "The painting belongs to Roerich's 'Banners of the East' series, which portrays teachers and prophets of many religions.",
-      "It was painted in 1924 in Darjeeling, where the Roerich family had settled after arriving in India; the canvas, in tempera, measures about 74 by 118 cm.",
-      "In 1925, during his Central Asian expedition, Roerich recorded legends in Ladakh about 'Issa' (Jesus) travelling in India, which he retold in his book Altai–Himalaya."
-    ],
-    "commons": "File:Signs of Christ.jpg",
-    "links": [
-      {
-        "label": "Wikipedia (Nicholas Roerich)",
-        "url": "https://en.wikipedia.org/wiki/Nicholas_Roerich"
-      },
-      {
-        "label": "Google Arts & Culture (International Centre of the Roerichs)",
-        "url": "https://artsandculture.google.com/asset/8AG6lyiWPTSE0Q"
-      },
-      {
-        "label": "International Centre of the Roerichs: catalogue entry (Russian)",
-        "url": "https://icr.su/rus/katalog/10.php?i=2302"
-      }
-    ]
-  },
-  {
-    "id": "egger-lienz-risen-christ-lienz",
-    "title": "The Risen Christ (Der Auferstandene)",
-    "artist": "Albin Egger-Lienz",
-    "date": "1925",
-    "year": 1925,
-    "created": "Lienz, Tyrol, Austria",
-    "location": "War Memorial Chapel (Kriegergedächtniskapelle), Lienz, Austria",
-    "medium": "Fresco",
-    "form": "Fresco",
-    "style": "Expressionist Realism",
-    "summary": "A gaunt, beardless Christ sits half-length before an empty tomb, holding the banner of the Resurrection, his emaciated body marked by suffering rather than glorified. Egger-Lienz, who had witnessed the First World War as a war painter, made this stark figure the culmination of a four-part cycle in the district memorial chapel for the fallen of Lienz. It offers resurrection hope that does not look away from the cost of death.",
-    "facts": [
-      "The unconventional image provoked fierce protests; on 5 May 1926 the Vatican placed the chapel under interdict, forbidding church services there for decades.",
-      "The press mocked the figure as 'consumptive'; the chapel was finally reconsecrated in June 1987. These are the only frescoes Egger-Lienz ever painted.",
-      "Egger-Lienz himself is buried in the chapel, which was dedicated on 8 September 1925 and designed by the architect Clemens Holzmeister."
-    ],
-    "scripture": "1 Corinthians 15:20",
-    "commons": "File:Egger-Lienz - Der Auferstandene, 1925.jpeg",
-    "links": [
-      {
-        "label": "Wikipedia (Albin Egger-Lienz)",
-        "url": "https://en.wikipedia.org/wiki/Albin_Egger-Lienz"
-      },
-      {
-        "label": "Museum Schloss Bruck: Memorial Chapel",
-        "url": "https://www.museum-schlossbruck.at/en/albin-egger-lienz/gedaechtniskapelle"
-      }
-    ]
-  },
-  {
     "id": "barlach-das-wiedersehen",
     "title": "The Reunion (Das Wiedersehen: Christ and Thomas)",
     "artist": "Ernst Barlach",
@@ -145,35 +52,6 @@
       {
         "label": "Wikipedia (Jacob Epstein)",
         "url": "https://en.wikipedia.org/wiki/Jacob_Epstein"
-      }
-    ]
-  },
-  {
-    "id": "cristo-blanco-cusco",
-    "title": "Cristo Blanco (White Christ)",
-    "artist": "Attributed to Francisco Olazo Allende (some sources name Ernesto Olazo Allende)",
-    "date": "1945",
-    "year": 1945,
-    "created": "Cusco, Peru",
-    "location": "Pukamuqu hill, near Sacsayhuamán, Cusco, Peru",
-    "medium": "Granite faced with marble and plaster",
-    "form": "Monument",
-    "style": "Modern devotional statuary",
-    "summary": "A white figure of Christ, arms outstretched in welcome and blessing, stands on a hill above the old Inca capital of Cusco. The statue overlooks the city from beside the great Inca walls of Sacsayhuamán, joining Andean and Christian landscapes in one view. It has become one of Cusco's best-loved landmarks.",
-    "facts": [
-      "The statue was given to the city in 1945 by the community of Palestinian Arab Christians who had settled in Cusco, traditionally as a sign of gratitude.",
-      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level, and lies within the historic centre of Cusco inscribed by UNESCO as a World Heritage Site.",
-      "Its open-armed pose recalls the larger Christ the Redeemer in Rio de Janeiro, completed in 1931."
-    ],
-    "commons": "File:CristoBlancoCuzco.jpg",
-    "links": [
-      {
-        "label": "Wikipedia (Pukamuqu)",
-        "url": "https://en.wikipedia.org/wiki/Pukamuqu"
-      },
-      {
-        "label": "Wikipedia (Spanish): Cristo Blanco",
-        "url": "https://es.wikipedia.org/wiki/Cristo_Blanco"
       }
     ]
   },
@@ -239,35 +117,6 @@
     ]
   },
   {
-    "id": "christ-of-havana",
-    "title": "Christ of Havana (Cristo de La Habana)",
-    "artist": "Jilma Madera",
-    "date": "1958",
-    "year": 1958,
-    "created": "Carved in Rome, Italy; assembled in Havana, Cuba",
-    "location": "Casablanca hill, overlooking Havana Bay, Cuba",
-    "medium": "Carrara marble",
-    "form": "Monument",
-    "style": "Modern monumental sculpture",
-    "summary": "A towering white marble Christ stands on the hill of Casablanca, his right hand raised in blessing and his left on his heart, looking across the bay toward old Havana. The Cuban sculptor Jilma Madera carved the figure from Carrara marble in Italy, and it was assembled on site from 67 blocks, which had been blessed by Pope Pius XII before shipping. It was unveiled at Christmas 1958, just days before the Cuban Revolution triumphed.",
-    "facts": [
-      "The statue was inaugurated on 24 December 1958; on 1 January 1959 Fulgencio Batista fled Cuba, and on 8 January Fidel Castro entered Havana.",
-      "The project is often said to have been promoted by Marta Fernández Miranda, wife of President Batista, in fulfilment of a vow.",
-      "Madera won the commission in 1953; the statue is about 20 metres tall including its 3-metre base and weighs roughly 320 tonnes."
-    ],
-    "commons": "File:El Cristo de La Habana.jpg",
-    "links": [
-      {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Christ_of_Havana"
-      },
-      {
-        "label": "Wikipedia (Jilma Madera)",
-        "url": "https://en.wikipedia.org/wiki/Jilma_Madera"
-      }
-    ]
-  },
-  {
     "id": "sadao-watanabe-katazome-christ",
     "title": "Biblical stencil prints (katazome)",
     "artist": "Sadao Watanabe",
@@ -321,6 +170,95 @@
       {
         "label": "Guggenheim Museum SoHo: Andy Warhol, The Last Supper (1999–2001)",
         "url": "https://www.guggenheim.org/exhibition/andy-warhol-the-last-supper"
+      }
+    ]
+  },
+  {
+    "id": "nesterov-holy-rus",
+    "title": "Holy Rus' (Holy Russia)",
+    "artist": "Mikhail Nesterov",
+    "date": "1901–1905",
+    "year": 1905,
+    "created": "Russian Empire",
+    "location": "State Russian Museum, Saint Petersburg, Russia",
+    "medium": "Oil on canvas",
+    "form": "Painting",
+    "style": "Russian Symbolism / religious realism",
+    "summary": "In a snowy northern landscape beside a small monastery, Christ, accompanied by Saints Nicholas, Sergius of Radonezh and George, comes out to meet a crowd of Russian pilgrims: monks, peasants, the sick and the sorrowing. The quiet, pale palette makes the encounter feel like a vision within ordinary life. Nesterov intended the painting as an image of the soul of Russian faith.",
+    "facts": [
+      "Nesterov worked on the composition for several years, making many studies of pilgrims and of the landscape of the Russian north.",
+      "The painting provoked sharp debate when it was first exhibited in 1907: it won a gold medal at the Munich International Exhibition of 1909, while critics such as Maximilian Voloshin found its Christ theatrical and unconvincing.",
+      "Nesterov also painted murals for the Vladimir Cathedral in Kyiv and the Marfo-Mariinsky Convent in Moscow."
+    ],
+    "scripture": "Matthew 11:28",
+    "commons": "File:Nesterov SaintRussia.JPG",
+    "links": [
+      {
+        "label": "Wikipedia (Mikhail Nesterov)",
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Nesterov"
+      },
+      {
+        "label": "Wikipedia (Russian)",
+        "url": "https://ru.wikipedia.org/wiki/Святая_Русь_(картина_Нестерова)"
+      }
+    ]
+  },
+  {
+    "id": "matisse-chapel-of-the-rosary-vence",
+    "title": "The Chapel of the Rosary (Chapelle du Rosaire), Vence",
+    "artist": "Henri Matisse",
+    "date": "1948–1951",
+    "year": 1951,
+    "created": "Vence and Nice, France",
+    "location": "Chapelle du Rosaire, Vence, France",
+    "medium": "Chapel design: painted and glazed ceramic tiles, stained glass, furnishings and vestments",
+    "form": "Monument",
+    "style": "Modernism",
+    "summary": "In his late seventies, Henri Matisse designed every element of a small chapel for the Dominican sisters of Vence — its windows, altar, crucifix and vestments, and three great walls of white tiles drawn in black. On one wall the Stations of the Cross unfold as a single, urgent sequence of lines, from Christ before Pilate to the Entombment; on another the Virgin holds the Christ Child with open arms. Stripped to light and line, it is one of the twentieth century's most moving sacred spaces.",
+    "facts": [
+      "The chapel began with Sister Jacques-Marie (Monique Bourgeois), who had nursed Matisse after his surgery in 1941 and later became a Dominican nun at Vence.",
+      "Matisse called it, despite its imperfections, his masterpiece — the culmination of a lifetime's work.",
+      "The blue, green and yellow stained-glass windows, based on a 'Tree of Life' motif, fill the white interior with coloured light that changes through the day.",
+      "The chapel was consecrated on 25 June 1951."
+    ],
+    "scripture": "Luke 23:26–56",
+    "commons": null,
+    "copyrightNote": "© Succession H. Matisse — the chapel can be visited in Vence and is shown on its official site.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapelle_du_Rosaire_de_Vence"
+      }
+    ]
+  },
+  {
+    "id": "spencer-resurrection-cookham",
+    "title": "The Resurrection, Cookham",
+    "artist": "Stanley Spencer",
+    "date": "1924–1927",
+    "year": 1926,
+    "created": "London (Hampstead), England",
+    "location": "Tate Britain, London",
+    "medium": "Oil on canvas (274 × 549 cm)",
+    "form": "Painting",
+    "style": "British modernism",
+    "summary": "On the Last Day the dead rise from their graves in the churchyard of Cookham, the Thames village where Spencer was born, pushing back the turf and greeting one another in quiet wonder. In the church porch Christ sits enthroned, cradling infants, with God the Father standing behind him. Spencer saw his own village as a place where heaven and earth meet, and painted the resurrection of the body as something tender, ordinary and joyful.",
+    "facts": [
+      "Spencer painted himself among the risen, and his wife Hilda appears more than once among the figures.",
+      "At his first one-man exhibition, at the Goupil Gallery in 1927, The Times called it 'the most important picture painted by any English artist in the present century'; Lord Duveen bought it and presented it to the Tate.",
+      "Spencer returned to the theme of resurrection throughout his life, from the Sandham Memorial Chapel at Burghclere to his late paintings."
+    ],
+    "scripture": "1 Corinthians 15:51–52",
+    "commons": null,
+    "copyrightNote": "© Estate of Stanley Spencer — view it at Tate Britain.",
+    "links": [
+      {
+        "label": "Tate",
+        "url": "https://www.tate.org.uk/art/artworks/spencer-the-resurrection-cookham-n04239"
+      },
+      {
+        "label": "Wikipedia (Stanley Spencer)",
+        "url": "https://en.wikipedia.org/wiki/Stanley_Spencer#The_Resurrection,_Cookham"
       }
     ]
   }

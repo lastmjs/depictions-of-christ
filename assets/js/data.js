@@ -56,7 +56,7 @@ window.DEPICTIONS = {
       "credit": "Justin Benttinen"
      },
      "ck": "Q577890",
-     "cp": 3318
+     "cp": 3037
     },
     {
      "id": "dura-europos-healing-of-the-paralytic",
@@ -103,7 +103,7 @@ window.DEPICTIONS = {
       "credit": "Yale University Art Gallery"
      },
      "ck": "Q49289775",
-     "cp": 3327
+     "cp": 3046
     },
     {
      "id": "good-shepherd-catacomb-of-callixtus",
@@ -154,7 +154,7 @@ window.DEPICTIONS = {
       "credit": "Jim Forest https://www.flickr.com/people/jimforest/ (artwork by unknown)"
      },
      "ck": "wga:zearly/1/2mural/4callist/callist6",
-     "cp": 3362
+     "cp": 3081
     },
     {
      "id": "christ-as-sol-tomb-of-the-julii",
@@ -201,7 +201,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q18673023",
-     "cp": 3315
+     "cp": 3034
     },
     {
      "id": "good-shepherd-statue-pio-cristiano",
@@ -257,7 +257,7 @@ window.DEPICTIONS = {
       "credit": "Carole Raddato"
      },
      "ck": "wga:zearly/1/1sculptu/various/7statue1",
-     "cp": 1944
+     "cp": 1687
     },
     {
      "id": "hinton-st-mary-mosaic",
@@ -303,7 +303,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "Q11012952",
-     "cp": 3310
+     "cp": 3029
     },
     {
      "id": "sarcophagus-of-junius-bassus",
@@ -346,7 +346,7 @@ window.DEPICTIONS = {
       "credit": "sailko"
      },
      "ck": "feat:sarcophagus-of-junius-bassus",
-     "cp": 189
+     "cp": 142
     },
     {
      "id": "bearded-christ-catacomb-of-commodilla",
@@ -389,7 +389,7 @@ window.DEPICTIONS = {
       "credit": "Autoría desconocida"
      },
      "ck": "commons:81707299",
-     "cp": 3361
+     "cp": 3080
     },
     {
      "id": "brescia-casket",
@@ -436,7 +436,7 @@ window.DEPICTIONS = {
       "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public"
      },
      "ck": "Q3390834",
-     "cp": 3317
+     "cp": 3036
     },
     {
      "id": "santa-pudenziana-apse-mosaic",
@@ -479,7 +479,7 @@ window.DEPICTIONS = {
       "credit": "Welleschik"
      },
      "ck": "feat:santa-pudenziana-apse-mosaic",
-     "cp": 3501
+     "cp": 3218
     },
     {
      "id": "maskell-ivory-crucifixion",
@@ -522,7 +522,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "feat:maskell-ivory-crucifixion",
-     "cp": 3337
+     "cp": 3056
     },
     {
      "id": "santa-sabina-door-crucifixion",
@@ -565,7 +565,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "feat:santa-sabina-door-crucifixion",
-     "cp": 3502
+     "cp": 3219
     },
     {
      "id": "santa-maria-maggiore-adoration-of-the-magi",
@@ -608,7 +608,7 @@ window.DEPICTIONS = {
       "credit": "Fabrizio Garrisi"
      },
      "ck": "feat:santa-maria-maggiore-adoration-of-the-magi",
-     "cp": 3406
+     "cp": 3125
     },
     {
      "id": "galla-placidia-good-shepherd",
@@ -655,7 +655,7 @@ window.DEPICTIONS = {
       "credit": "Prof. Mortel"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/1galla/2lunett5",
-     "cp": 3499
+     "cp": 3216
     },
     {
      "id": "neonian-baptistery-baptism",
@@ -702,7 +702,7 @@ window.DEPICTIONS = {
       "credit": "Petar Milošević"
      },
      "ck": "commons:98691704",
-     "cp": 3355
+     "cp": 3074
     },
     {
      "id": "hosios-david-christ-in-glory",
@@ -745,7 +745,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "Q112785721",
-     "cp": 3322
+     "cp": 3041
     },
     {
      "id": "archbishops-chapel-christ-warrior",
@@ -792,7 +792,7 @@ window.DEPICTIONS = {
       "credit": "José Luiz"
      },
      "ck": "feat:archbishops-chapel-christ-warrior",
-     "cp": 3503
+     "cp": 3220
     },
     {
      "id": "sant-apollinare-nuovo-christ-enthroned",
@@ -838,7 +838,7 @@ window.DEPICTIONS = {
       "credit": "José Luiz"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/4nuovo/2south5",
-     "cp": 3358
+     "cp": 3077
     },
     {
      "id": "barberini-ivory",
@@ -880,7 +880,7 @@ window.DEPICTIONS = {
       "credit": "Shonagon"
      },
      "ck": "Q807809",
-     "cp": 557
+     "cp": 405
     },
     {
      "id": "santi-cosma-e-damiano-apse-mosaic",
@@ -923,7 +923,7 @@ window.DEPICTIONS = {
       "credit": "G41rn8"
      },
      "ck": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
-     "cp": 3500
+     "cp": 3217
     },
     {
      "id": "antioch-chalice",
@@ -970,7 +970,7 @@ window.DEPICTIONS = {
       "credit": "Mary Harrsch from Springfield, Oregon, USA"
      },
      "ck": "Q29385468",
-     "cp": 3484
+     "cp": 3202
     },
     {
      "id": "san-vitale-christ-on-the-globe",
@@ -1017,7 +1017,7 @@ window.DEPICTIONS = {
       "credit": "Following Hadrian"
      },
      "ck": "wga:zearly/1/4mosaics/2ravenna/5vitale/2conch1",
-     "cp": 3403
+     "cp": 3122
     },
     {
      "id": "sant-apollinare-in-classe-transfiguration-cross",
@@ -1060,7 +1060,7 @@ window.DEPICTIONS = {
       "credit": "Gleb Simonov"
      },
      "ck": "feat:sant-apollinare-in-classe-transfiguration-cross",
-     "cp": 3404
+     "cp": 3123
     },
     {
      "id": "sinai-christ-pantocrator",
@@ -1106,7 +1106,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "Q4501499",
-     "cp": 3312
+     "cp": 3031
     },
     {
      "id": "rossano-gospels-christ-before-pilate",
@@ -1149,7 +1149,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "feat:rossano-gospels-christ-before-pilate",
-     "cp": 3326
+     "cp": 3045
     },
     {
      "id": "cleveland-tapestry-icon-of-the-virgin",
@@ -1195,7 +1195,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q60745622",
-     "cp": 267
+     "cp": 208
     },
     {
      "id": "sinai-transfiguration-apse-mosaic",
@@ -1242,7 +1242,7 @@ window.DEPICTIONS = {
       "credit": "Unknown artistUnknown artist"
      },
      "ck": "commons:98691695",
-     "cp": 3344
+     "cp": 3063
     },
     {
      "id": "stuma-paten-communion-of-the-apostles",
@@ -1289,7 +1289,7 @@ window.DEPICTIONS = {
       "credit": "Dosseman"
      },
      "ck": "feat:stuma-paten-communion-of-the-apostles",
-     "cp": 3311
+     "cp": 3030
     },
     {
      "id": "rabbula-gospels-crucifixion",
@@ -1332,7 +1332,7 @@ window.DEPICTIONS = {
       "credit": "Gennadii Saus i Segura"
      },
      "ck": "feat:rabbula-gospels-crucifixion",
-     "cp": 3379
+     "cp": 3098
     },
     {
      "id": "holy-land-pilgrim-ampulla-crucifixion",
@@ -1379,7 +1379,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q60779306",
-     "cp": 3340
+     "cp": 3059
     },
     {
      "id": "christ-and-abbot-mena",
@@ -1425,7 +1425,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q9191525",
-     "cp": 3313
+     "cp": 3032
     }
    ]
   },
@@ -1484,7 +1484,7 @@ window.DEPICTIONS = {
       "credit": "Votpuske"
      },
      "ck": "wga:zearly/1/5coptic/painting/1bawit2",
-     "cp": 3313
+     "cp": 3032
     },
     {
      "id": "solidus-of-justinian-ii-christ",
@@ -1534,7 +1534,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q80079053",
-     "cp": 557
+     "cp": 405
     },
     {
      "id": "ruthwell-cross",
@@ -1581,7 +1581,7 @@ window.DEPICTIONS = {
       "credit": "PaulT (Gunther Tschuch)"
      },
      "ck": "feat:ruthwell-cross",
-     "cp": 3504
+     "cp": 3221
     },
     {
      "id": "godescalc-evangelistary-christ",
@@ -1623,7 +1623,7 @@ window.DEPICTIONS = {
       "credit": "Godescalc"
      },
      "ck": "commons:25371411",
-     "cp": 3347
+     "cp": 3066
     },
     {
      "id": "book-of-kells-christ-enthroned",
@@ -1665,7 +1665,7 @@ window.DEPICTIONS = {
       "credit": "Abbey of Kells"
      },
      "ck": "feat:book-of-kells-christ-enthroned",
-     "cp": 3383
+     "cp": 3102
     },
     {
      "id": "volto-santo-lucca",
@@ -1712,7 +1712,7 @@ window.DEPICTIONS = {
       "credit": "Francesco Bini"
      },
      "ck": "Q1780180",
-     "cp": 2563
+     "cp": 2270
     },
     {
      "id": "lorsch-gospels-ivory-christ-treading-beasts",
@@ -1755,7 +1755,7 @@ window.DEPICTIONS = {
       "credit": "School of Carolingian Court School"
      },
      "ck": "feat:lorsch-gospels-ivory-christ-treading-beasts",
-     "cp": 3347
+     "cp": 3066
     },
     {
      "id": "utrecht-psalter-psalm-11",
@@ -1802,7 +1802,7 @@ window.DEPICTIONS = {
       "credit": "Unknown monks c. 800"
      },
      "ck": "feat:utrecht-psalter-psalm-11",
-     "cp": 3402
+     "cp": 3121
     },
     {
      "id": "mogao-christian-silk-painting",
@@ -1844,7 +1844,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "Q55347059",
-     "cp": 3321
+     "cp": 3040
     },
     {
      "id": "hagia-sophia-imperial-gate-mosaic",
@@ -1891,7 +1891,7 @@ window.DEPICTIONS = {
       "credit": "Dosseman"
      },
      "ck": "feat:hagia-sophia-imperial-gate-mosaic",
-     "cp": 3421
+     "cp": 3140
     },
     {
      "id": "romanos-ivory",
@@ -1933,7 +1933,7 @@ window.DEPICTIONS = {
       "credit": "Photographe: Clio20"
      },
      "ck": "feat:romanos-ivory",
-     "cp": 3311
+     "cp": 3030
     },
     {
      "id": "harbaville-triptych",
@@ -1975,7 +1975,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q23356",
-     "cp": 3311
+     "cp": 3030
     },
     {
      "id": "gero-cross",
@@ -2022,7 +2022,7 @@ window.DEPICTIONS = {
       "credit": "Lothar Spurzem"
      },
      "ck": "Q653601",
-     "cp": 3319
+     "cp": 3038
     },
     {
      "id": "jelling-stone-christ",
@@ -2068,7 +2068,7 @@ window.DEPICTIONS = {
       "credit": "Photographer Roberto Fortuna, commisioned by the Danish National Museum"
      },
      "ck": "feat:jelling-stone-christ",
-     "cp": 3505
+     "cp": 3222
     },
     {
      "id": "benedictional-of-aethelwold-baptism",
@@ -2111,7 +2111,7 @@ window.DEPICTIONS = {
       "credit": "Meister des Benedictionale des Heiligen Aethelwold"
      },
      "ck": "feat:benedictional-of-aethelwold-baptism",
-     "cp": 3392
+     "cp": 3111
     },
     {
      "id": "etchmiadzin-gospels-christ-enthroned",
@@ -2157,7 +2157,7 @@ window.DEPICTIONS = {
       "credit": "uploader Koperczak (talk) 07:54, 27 March 2009 (UTC), unknown Armenian painter"
      },
      "ck": "feat:etchmiadzin-gospels-christ-enthroned",
-     "cp": 3506
+     "cp": 3223
     },
     {
      "id": "faras-cathedral-nativity",
@@ -2204,7 +2204,7 @@ window.DEPICTIONS = {
       "credit": "Isma'il Kushkush Twitter: @ikushkush"
      },
      "ck": "feat:faras-cathedral-nativity",
-     "cp": 3426
+     "cp": 3145
     },
     {
      "id": "gospels-of-otto-iii-washing-of-the-feet",
@@ -2247,7 +2247,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "feat:gospels-of-otto-iii-washing-of-the-feet",
-     "cp": 3354
+     "cp": 3073
     },
     {
      "id": "bernward-doors",
@@ -2294,7 +2294,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "feat:bernward-doors",
-     "cp": 3507
+     "cp": 3224
     },
     {
      "id": "saint-sophia-kyiv-pantocrator",
@@ -2336,7 +2336,7 @@ window.DEPICTIONS = {
       "credit": "Vi Ko"
      },
      "ck": "feat:saint-sophia-kyiv-pantocrator",
-     "cp": 3508
+     "cp": 3225
     },
     {
      "id": "facundus-beatus-throne-vision",
@@ -2379,7 +2379,7 @@ window.DEPICTIONS = {
       "credit": "Facundus, pour Ferdinand Ier de Castille et Leon et la reine Sancha"
      },
      "ck": "feat:facundus-beatus-throne-vision",
-     "cp": 3396
+     "cp": 3115
     },
     {
      "id": "daphni-pantocrator",
@@ -2425,7 +2425,7 @@ window.DEPICTIONS = {
       "credit": "Unknown authorUnknown author"
      },
      "ck": "commons:98503161",
-     "cp": 2184
+     "cp": 1910
     },
     {
      "id": "conques-last-judgment-tympanum",
@@ -2468,7 +2468,7 @@ window.DEPICTIONS = {
       "credit": "Daniel VILLAFRUELA."
      },
      "ck": "commons:132629185",
-     "cp": 1699
+     "cp": 1457
     },
     {
      "id": "pantocrator-sant-climent-taull",
@@ -2515,7 +2515,7 @@ window.DEPICTIONS = {
       "credit": "Master of Taüll"
      },
      "ck": "Q110184288",
-     "cp": 1836
+     "cp": 1580
     },
     {
      "id": "khakhuli-triptych",
@@ -2565,7 +2565,7 @@ window.DEPICTIONS = {
       "credit": "Unknown (10th-12th century)"
      },
      "ck": "feat:khakhuli-triptych",
-     "cp": 3509
+     "cp": 3226
     },
     {
      "id": "virgin-of-vladimir",
@@ -2607,7 +2607,7 @@ window.DEPICTIONS = {
       "credit": "Michel Bakni"
      },
      "ck": "Q546241",
-     "cp": 557
+     "cp": 405
     },
     {
      "id": "cefalu-pantocrator",
@@ -2654,7 +2654,7 @@ window.DEPICTIONS = {
       "credit": "Gun Powder Ma"
      },
      "ck": "commons:98691674",
-     "cp": 1971
+     "cp": 1711
     },
     {
      "id": "majestat-batllo",
@@ -2700,7 +2700,7 @@ window.DEPICTIONS = {
       "credit": "Didier Descouens"
      },
      "ck": "Q3111703",
-     "cp": 522
+     "cp": 375
     },
     {
      "id": "san-damiano-cross",
@@ -2743,7 +2743,7 @@ window.DEPICTIONS = {
       "credit": "Oficina italiana de inspiração bizantina"
      },
      "ck": "Q2348017",
-     "cp": 422
+     "cp": 314
     },
     {
      "id": "novgorod-saviour-not-made-by-hands",
@@ -2842,7 +2842,7 @@ window.DEPICTIONS = {
       "credit": "Vanjagenije"
      },
      "ck": "feat:studenica-crucifixion",
-     "cp": 3300
+     "cp": 3020
     },
     {
      "id": "beau-dieu-amiens",
@@ -2885,7 +2885,7 @@ window.DEPICTIONS = {
       "credit": "Vassil"
      },
      "ck": "wga:zgothic/gothic/1/11f_1230",
-     "cp": 3110
+     "cp": 2831
     },
     {
      "id": "sainte-chapelle-passion-window",
@@ -2932,7 +2932,7 @@ window.DEPICTIONS = {
       "credit": "Thomon"
      },
      "ck": "feat:sainte-chapelle-passion-window",
-     "cp": 2742
+     "cp": 2453
     },
     {
      "id": "hilandar-christ-pantocrator-icon",
@@ -2973,7 +2973,7 @@ window.DEPICTIONS = {
       "credit": "Orjen"
      },
      "ck": "feat:hilandar-christ-pantocrator-icon",
-     "cp": 2184
+     "cp": 474
     },
     {
      "id": "deesis-hagia-sophia",
@@ -3019,7 +3019,7 @@ window.DEPICTIONS = {
       "credit": "Photograph: Myrabella"
      },
      "ck": "wga:zgothic/mosaics/9/8istanbu1",
-     "cp": 2123
+     "cp": 1852
     },
     {
      "id": "toros-roslin-transfiguration",
@@ -3066,7 +3066,7 @@ window.DEPICTIONS = {
       "credit": "Walters Art Museum Illuminated Manuscripts"
      },
      "ck": "walters:W.539.163R",
-     "cp": 1970
+     "cp": 2795
     },
     {
      "id": "cimabue-crucifix-arezzo",
@@ -3109,7 +3109,7 @@ window.DEPICTIONS = {
       "credit": "Photo taken by Senet File:CrocifissoCimabue-Arezzo.JPG"
      },
      "ck": "wga:c/cimabue/crucifix/cruci_a",
-     "cp": 1928
+     "cp": 1669
     },
     {
      "id": "cavallini-last-judgment",
@@ -3155,7 +3155,7 @@ window.DEPICTIONS = {
       "credit": "Pietro Cavallini"
      },
      "ck": "Q66369800",
-     "cp": 1863
+     "cp": 1604
     },
     {
      "id": "gabelkreuz-st-maria-im-kapitol",
@@ -3201,7 +3201,7 @@ window.DEPICTIONS = {
       "credit": "MenkinAlRire"
      },
      "ck": "feat:gabelkreuz-st-maria-im-kapitol",
-     "cp": 1929
+     "cp": 263
     },
     {
      "id": "giotto-lamentation",
@@ -3247,7 +3247,7 @@ window.DEPICTIONS = {
       "credit": "Gennadii Saus i Segura"
      },
      "ck": "Q2067212",
-     "cp": 352
+     "cp": 268
     },
     {
      "id": "giotto-kiss-of-judas",
@@ -3293,7 +3293,7 @@ window.DEPICTIONS = {
       "credit": "Giotto"
      },
      "ck": "Q3504778",
-     "cp": 528
+     "cp": 379
     },
     {
      "id": "duccio-entry-into-jerusalem",
@@ -3335,7 +3335,7 @@ window.DEPICTIONS = {
       "credit": "Duccio di Buoninsegna"
      },
      "ck": "wga:d/duccio/maesta/verso_1/verso01",
-     "cp": 272
+     "cp": 213
     },
     {
      "id": "duccio-temptation-on-the-mount",
@@ -3382,7 +3382,7 @@ window.DEPICTIONS = {
       "credit": "Duccio di Buoninsegna"
      },
      "ck": "feat:duccio-temptation-on-the-mount",
-     "cp": 272
+     "cp": 213
     },
     {
      "id": "lorenzetti-deposition-assisi",
@@ -3428,7 +3428,7 @@ window.DEPICTIONS = {
       "credit": "Pietro Lorenzetti"
      },
      "ck": "Q3705708",
-     "cp": 530
+     "cp": 381
     },
     {
      "id": "chora-anastasis",
@@ -3471,7 +3471,7 @@ window.DEPICTIONS = {
       "credit": "Till Niermann"
      },
      "ck": "commons:50399629",
-     "cp": 2123
+     "cp": 1852
     },
     {
      "id": "gracanica-dome-pantocrator",
@@ -3512,7 +3512,7 @@ window.DEPICTIONS = {
       "credit": "BLAGO Fund, Inc."
      },
      "ck": "feat:gracanica-dome-pantocrator",
-     "cp": 3301
+     "cp": 3021
     },
     {
      "id": "simone-martini-christ-discovered-in-the-temple",
@@ -3558,7 +3558,7 @@ window.DEPICTIONS = {
       "credit": "Simone Martini"
      },
      "ck": "Q19607289",
-     "cp": 46
+     "cp": 39
     },
     {
      "id": "parisian-ivory-passion-diptych",
@@ -3603,7 +3603,7 @@ window.DEPICTIONS = {
       "credit": "Anonymous (France)Unknown author"
      },
      "ck": "walters:71.179",
-     "cp": 2742
+     "cp": 2453
     },
     {
      "id": "theophanes-pantocrator-ilyina-street",
@@ -3648,7 +3648,7 @@ window.DEPICTIONS = {
       "credit": "Theophanes the Greek"
      },
      "ck": "feat:theophanes-pantocrator-ilyina-street",
-     "cp": 3302
+     "cp": 3022
     },
     {
      "id": "wilton-diptych",
@@ -3694,7 +3694,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q1813497",
-     "cp": 33
+     "cp": 27
     },
     {
      "id": "sluter-champmol-head-of-christ",
@@ -3735,7 +3735,7 @@ window.DEPICTIONS = {
       "credit": "Claus Sluter"
      },
      "ck": "wga:s/sluter/moses/w_moset2",
-     "cp": 3143
+     "cp": 2865
     },
     {
      "id": "rublev-trinity",
@@ -3777,7 +3777,7 @@ window.DEPICTIONS = {
       "credit": "Andrei Rublev"
      },
      "ck": "Q570188",
-     "cp": 252
+     "cp": 195
     },
     {
      "id": "tres-riches-heures-temptation-of-christ",
@@ -3819,7 +3819,7 @@ window.DEPICTIONS = {
       "credit": "Limbourg brothers"
      },
      "ck": "feat:tres-riches-heures-temptation-of-christ",
-     "cp": 3303
+     "cp": 3023
     },
     {
      "id": "rublev-zvenigorod-savior",
@@ -3861,7 +3861,7 @@ window.DEPICTIONS = {
       "credit": "Andrei Rublev"
      },
      "ck": "Q5109001",
-     "cp": 252
+     "cp": 195
     },
     {
      "id": "campin-seilern-triptych",
@@ -3903,7 +3903,7 @@ window.DEPICTIONS = {
       "credit": "Robert Campin"
      },
      "ck": "Q18719519",
-     "cp": 368
+     "cp": 16
     },
     {
      "id": "masaccio-holy-trinity",
@@ -3946,7 +3946,7 @@ window.DEPICTIONS = {
       "credit": "Masaccio"
      },
      "ck": "Q977200",
-     "cp": 321
+     "cp": 255
     },
     {
      "id": "ghent-altarpiece",
@@ -3993,7 +3993,7 @@ window.DEPICTIONS = {
       "credit": "Jan van Eyck / Presumably Hubert van Eyck"
      },
      "ck": "Q734834",
-     "cp": 14
+     "cp": 1676
     },
     {
      "id": "van-der-weyden-descent-from-the-cross",
@@ -4040,7 +4040,7 @@ window.DEPICTIONS = {
       "credit": "Rogier van der Weyden"
      },
      "ck": "Q568847",
-     "cp": 45
+     "cp": 38
     },
     {
      "id": "fra-angelico-transfiguration",
@@ -4083,7 +4083,7 @@ window.DEPICTIONS = {
       "credit": "Fra Angelico"
      },
      "ck": "Q3997714",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "fra-angelico-noli-me-tangere",
@@ -4133,7 +4133,7 @@ window.DEPICTIONS = {
       "credit": "Prof. Mortel"
      },
      "ck": "Q3877893",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "fre-seyon-diptych",
@@ -4183,7 +4183,7 @@ window.DEPICTIONS = {
       "credit": "Follower of Fre Seyon (Ethiopian, late 15th century)"
      },
      "ck": "walters:36.12",
-     "cp": 3082
+     "cp": 2799
     }
    ]
   },
@@ -4242,7 +4242,7 @@ window.DEPICTIONS = {
       "credit": "Piero della Francesca"
      },
      "ck": "Q2632688",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "bellini-agony-in-the-garden",
@@ -4289,7 +4289,7 @@ window.DEPICTIONS = {
       "credit": "Giovanni Bellini"
      },
      "ck": "Q1131110",
-     "cp": 23
+     "cp": 19
     },
     {
      "id": "antonello-salvator-mundi",
@@ -4334,7 +4334,7 @@ window.DEPICTIONS = {
       "credit": "Antonello da Messina"
      },
      "ck": "Q3945928",
-     "cp": 209
+     "cp": 161
     },
     {
      "id": "memling-last-judgment-gdansk",
@@ -4376,7 +4376,7 @@ window.DEPICTIONS = {
       "credit": "Hans Memling"
      },
      "ck": "Q701035",
-     "cp": 299
+     "cp": 238
     },
     {
      "id": "memling-scenes-from-the-passion",
@@ -4422,7 +4422,7 @@ window.DEPICTIONS = {
       "credit": "Hans Memling"
      },
      "ck": "Q2446983",
-     "cp": 4
+     "cp": 2
     },
     {
      "id": "verrocchio-leonardo-baptism-of-christ",
@@ -4464,7 +4464,7 @@ window.DEPICTIONS = {
       "credit": "Andrea del Verrocchio / Leonardo da Vinci"
      },
      "ck": "Q1059211",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "portinari-altarpiece",
@@ -4506,7 +4506,7 @@ window.DEPICTIONS = {
       "credit": "Hugo van der Goes"
      },
      "ck": "Q18686031",
-     "cp": 19
+     "cp": 80
     },
     {
      "id": "mantegna-lamentation",
@@ -4548,7 +4548,7 @@ window.DEPICTIONS = {
       "credit": "Andrea Mantegna"
      },
      "ck": "Q546297",
-     "cp": 6
+     "cp": 4
     },
     {
      "id": "perugino-delivery-of-the-keys",
@@ -4590,7 +4590,7 @@ window.DEPICTIONS = {
       "credit": "Pietro Perugino"
      },
      "ck": "Q2620028",
-     "cp": 205
+     "cp": 157
     },
     {
      "id": "durer-christ-as-man-of-sorrows",
@@ -4635,7 +4635,7 @@ window.DEPICTIONS = {
       "credit": "Albrecht Dürer"
      },
      "ck": "Q48447927",
-     "cp": 238
+     "cp": 185
     },
     {
      "id": "leonardo-last-supper",
@@ -4678,7 +4678,7 @@ window.DEPICTIONS = {
       "credit": "Leonardo da Vinci"
      },
      "ck": "Q128910",
-     "cp": 543
+     "cp": 392
     },
     {
      "id": "michelangelo-pieta",
@@ -4720,7 +4720,7 @@ window.DEPICTIONS = {
       "credit": "Jebulon"
      },
      "ck": "Q235242",
-     "cp": 326
+     "cp": 260
     },
     {
      "id": "dionisius-crucifixion",
@@ -4766,7 +4766,7 @@ window.DEPICTIONS = {
       "credit": "Dionisius"
      },
      "ck": "feat:dionisius-crucifixion",
-     "cp": 994
+     "cp": 3024
     },
     {
      "id": "botticelli-mystic-nativity",
@@ -4812,7 +4812,7 @@ window.DEPICTIONS = {
       "credit": "Sandro Botticelli"
      },
      "ck": "Q974674",
-     "cp": 9
+     "cp": 6
     },
     {
      "id": "riemenschneider-holy-blood-altarpiece",
@@ -4858,7 +4858,7 @@ window.DEPICTIONS = {
       "credit": "Holger Uwe Schmitt"
      },
      "ck": "wga:r/riemensc/4rotheo",
-     "cp": 688
+     "cp": 530
     },
     {
      "id": "durer-betrayal-large-passion",
@@ -4904,7 +4904,7 @@ window.DEPICTIONS = {
       "credit": "Albrecht Dürer"
      },
      "ck": "Q18338551",
-     "cp": 238
+     "cp": 185
     },
     {
      "id": "matsys-lamentation-carpenters-altarpiece",
@@ -4954,7 +4954,7 @@ window.DEPICTIONS = {
       "credit": "Quinten Metsys"
      },
      "ck": "Q6153533",
-     "cp": 16
+     "cp": 13
     },
     {
      "id": "grunewald-isenheim-crucifixion",
@@ -5001,7 +5001,7 @@ window.DEPICTIONS = {
       "credit": "joergens.mi"
      },
      "ck": "Q3698190",
-     "cp": 268
+     "cp": 209
     },
     {
      "id": "titian-noli-me-tangere",
@@ -5047,7 +5047,7 @@ window.DEPICTIONS = {
       "credit": "Titian"
      },
      "ck": "Q3877895",
-     "cp": 23
+     "cp": 19
     },
     {
      "id": "bosch-christ-carrying-the-cross-ghent",
@@ -5093,7 +5093,7 @@ window.DEPICTIONS = {
       "credit": "Hieronymus Bosch or follower"
      },
      "ck": "Q680128",
-     "cp": 405
+     "cp": 309
     },
     {
      "id": "titian-tribute-money",
@@ -5135,7 +5135,7 @@ window.DEPICTIONS = {
       "credit": "Titian"
      },
      "ck": "Q2459887",
-     "cp": 23
+     "cp": 19
     },
     {
      "id": "raphael-transfiguration",
@@ -5178,7 +5178,7 @@ window.DEPICTIONS = {
       "credit": "Matthieu.lett.ube"
      },
      "ck": "Q2344437",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "santo-nino-de-cebu",
@@ -5224,7 +5224,7 @@ window.DEPICTIONS = {
       "credit": "Cofradiabsn"
      },
      "ck": "Q15054968",
-     "cp": 145
+     "cp": 101
     },
     {
      "id": "holbein-dead-christ-in-the-tomb",
@@ -5270,7 +5270,7 @@ window.DEPICTIONS = {
       "credit": "Gsimonov"
      },
      "ck": "Q4310527",
-     "cp": 47
+     "cp": 40
     },
     {
      "id": "michelangelo-risen-christ-minerva",
@@ -5311,7 +5311,7 @@ window.DEPICTIONS = {
       "credit": "Wknight94 talk"
      },
      "ck": "Q2182509",
-     "cp": 407
+     "cp": 310
     },
     {
      "id": "correggio-holy-night",
@@ -5353,7 +5353,7 @@ window.DEPICTIONS = {
       "credit": "Antonio da Correggio"
      },
      "ck": "Q1527541",
-     "cp": 41
+     "cp": 34
     },
     {
      "id": "michelangelo-last-judgment",
@@ -5396,7 +5396,7 @@ window.DEPICTIONS = {
       "credit": "Michelangelo"
      },
      "ck": "Q567861",
-     "cp": 205
+     "cp": 157
     },
     {
      "id": "mass-of-saint-gregory-feather-mosaic",
@@ -5445,7 +5445,7 @@ window.DEPICTIONS = {
       "credit": "Didier Descouens"
      },
      "ck": "feat:mass-of-saint-gregory-feather-mosaic",
-     "cp": 3039
+     "cp": 3025
     },
     {
      "id": "cranach-weimar-altarpiece",
@@ -5487,7 +5487,7 @@ window.DEPICTIONS = {
       "credit": "Wolfgang Sauber"
      },
      "ck": "Q117071454",
-     "cp": 61
+     "cp": 53
     },
     {
      "id": "veronese-wedding-at-cana",
@@ -5529,7 +5529,7 @@ window.DEPICTIONS = {
       "credit": "Paolo Veronese"
      },
      "ck": "Q185255",
-     "cp": 89
+     "cp": 79
     },
     {
      "id": "bruegel-procession-to-calvary",
@@ -5571,7 +5571,7 @@ window.DEPICTIONS = {
       "credit": "Pieter Brueghel the Elder"
      },
      "ck": "Q686107",
-     "cp": 45
+     "cp": 38
     },
     {
      "id": "el-greco-el-expolio",
@@ -5613,7 +5613,7 @@ window.DEPICTIONS = {
       "credit": "GoldenArtists"
      },
      "ck": "Q2714617",
-     "cp": 11
+     "cp": 8
     },
     {
      "id": "tintoretto-last-supper",
@@ -5655,7 +5655,7 @@ window.DEPICTIONS = {
       "credit": "Jacopo Tintoretto"
      },
      "ck": "Q2472983",
-     "cp": 23
+     "cp": 19
     },
     {
      "id": "mughal-mirat-al-quds-abgar",
@@ -5705,7 +5705,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q85630369",
-     "cp": 1953
+     "cp": 1696
     },
     {
      "id": "kyoto-fifteen-mysteries-of-the-rosary",
@@ -5754,7 +5754,7 @@ window.DEPICTIONS = {
       "credit": "Unknown Japanese artist (school of Giovanni Nicolao)"
      },
      "ck": "Q134570304",
-     "cp": 1469
+     "cp": 1253
     }
    ]
   },
@@ -5809,7 +5809,7 @@ window.DEPICTIONS = {
       "credit": "Caravaggio"
      },
      "ck": "wga:c/caravagg/04/23conta",
-     "cp": 1944
+     "cp": 1687
     },
     {
      "id": "caravaggio-supper-at-emmaus",
@@ -5856,7 +5856,7 @@ window.DEPICTIONS = {
       "credit": "Caravaggio"
      },
      "ck": "Q318947",
-     "cp": 88
+     "cp": 78
     },
     {
      "id": "caravaggio-taking-of-christ",
@@ -5898,7 +5898,7 @@ window.DEPICTIONS = {
       "credit": "Caravaggio"
      },
      "ck": "Q541376",
-     "cp": 189
+     "cp": 142
     },
     {
      "id": "caravaggio-entombment-of-christ",
@@ -5940,7 +5940,7 @@ window.DEPICTIONS = {
       "credit": "Caravaggio"
      },
      "ck": "Q1213151",
-     "cp": 88
+     "cp": 78
     },
     {
      "id": "rubens-elevation-of-the-cross",
@@ -5983,7 +5983,7 @@ window.DEPICTIONS = {
       "credit": "Peter Paul Rubens"
      },
      "ck": "Q2653851",
-     "cp": 6
+     "cp": 4
     },
     {
      "id": "rubens-descent-from-the-cross-antwerp",
@@ -6025,7 +6025,7 @@ window.DEPICTIONS = {
       "credit": "Peter Paul Rubens"
      },
      "ck": "Q2667782",
-     "cp": 6
+     "cp": 4
     },
     {
      "id": "gregorio-fernandez-cristo-yacente",
@@ -6072,7 +6072,7 @@ window.DEPICTIONS = {
       "credit": "Rodelar"
      },
      "ck": "feat:gregorio-fernandez-cristo-yacente",
-     "cp": 3304
+     "cp": 3026
     },
     {
      "id": "zurbaran-christ-on-the-cross-chicago",
@@ -6118,7 +6118,7 @@ window.DEPICTIONS = {
       "credit": "Francisco de Zurbarán"
      },
      "ck": "Q3221342",
-     "cp": 60
+     "cp": 52
     },
     {
      "id": "velazquez-christ-crucified",
@@ -6165,7 +6165,7 @@ window.DEPICTIONS = {
       "credit": "Diego Velázquez"
      },
      "ck": "Q2528741",
-     "cp": 60
+     "cp": 52
     },
     {
      "id": "la-tour-saint-joseph-the-carpenter",
@@ -6211,7 +6211,7 @@ window.DEPICTIONS = {
       "credit": "Georges de La Tour"
      },
      "ck": "Q743643",
-     "cp": 565
+     "cp": 411
     },
     {
      "id": "rembrandt-hundred-guilder-print",
@@ -6253,7 +6253,7 @@ window.DEPICTIONS = {
       "credit": "Rembrandt"
      },
      "ck": "Q937279",
-     "cp": 15
+     "cp": 12
     },
     {
      "id": "rembrandt-supper-at-emmaus-louvre",
@@ -6299,7 +6299,7 @@ window.DEPICTIONS = {
       "credit": "Rembrandt"
      },
      "ck": "Q1241088",
-     "cp": 15
+     "cp": 12
     },
     {
      "id": "kongo-crucifix-nkangi-kiditu",
@@ -6345,7 +6345,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "feat:kongo-crucifix-nkangi-kiditu",
-     "cp": 1960
+     "cp": 2474
     },
     {
      "id": "rembrandt-head-of-christ-philadelphia",
@@ -6391,7 +6391,7 @@ window.DEPICTIONS = {
       "credit": "Rembrandt"
      },
      "ck": "Q20809879",
-     "cp": 15
+     "cp": 12
     },
     {
      "id": "champaigne-dead-christ-louvre",
@@ -6437,7 +6437,7 @@ window.DEPICTIONS = {
       "credit": "Mbzt"
      },
      "ck": "Q19943879",
-     "cp": 45
+     "cp": 38
     },
     {
      "id": "ushakov-saviour-not-made-by-hands",
@@ -6482,7 +6482,7 @@ window.DEPICTIONS = {
       "credit": "Simon Ushakov"
      },
      "ck": "feat:ushakov-saviour-not-made-by-hands",
-     "cp": 969
+     "cp": 774
     },
     {
      "id": "fumi-e-christ-on-the-cross",
@@ -6528,7 +6528,7 @@ window.DEPICTIONS = {
       "credit": "東京国立博物館"
      },
      "ck": "feat:fumi-e-christ-on-the-cross",
-     "cp": 3305
+     "cp": 3027
     },
     {
      "id": "goa-ivory-christ-good-shepherd",
@@ -6570,7 +6570,7 @@ window.DEPICTIONS = {
       "credit": "Daderot"
      },
      "ck": "feat:goa-ivory-christ-good-shepherd",
-     "cp": 869
+     "cp": 701
     },
     {
      "id": "gondarine-kwerata-reesu",
@@ -6613,7 +6613,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "Q135515584",
-     "cp": 870
+     "cp": 702
     },
     {
      "id": "murillo-heavenly-and-earthly-trinities",
@@ -6659,7 +6659,7 @@ window.DEPICTIONS = {
       "credit": "Bartolomé Esteban Murillo"
      },
      "ck": "commons:115196098",
-     "cp": 2028
+     "cp": 1769
     },
     {
      "id": "bernini-salvator-mundi",
@@ -6704,7 +6704,7 @@ window.DEPICTIONS = {
       "credit": "Sailko"
      },
      "ck": "Q3647645",
-     "cp": 533
+     "cp": 383
     },
     {
      "id": "tiepolo-christ-carrying-the-cross",
@@ -6750,7 +6750,7 @@ window.DEPICTIONS = {
       "credit": "Giovanni Battista Tiepolo"
      },
      "ck": "Q75192045",
-     "cp": 23
+     "cp": 19
     },
     {
      "id": "marcos-zapata-last-supper-cusco",
@@ -6797,7 +6797,7 @@ window.DEPICTIONS = {
       "credit": "Marcos Zapata"
      },
      "ck": "Q136029633",
-     "cp": 1653
+     "cp": 1415
     },
     {
      "id": "batoni-sacred-heart-of-jesus",
@@ -6843,7 +6843,7 @@ window.DEPICTIONS = {
       "credit": "Pompeo Batoni"
      },
      "ck": "feat:batoni-sacred-heart-of-jesus",
-     "cp": 1944
+     "cp": 1687
     },
     {
      "id": "caspicara-sabana-santa-quito",
@@ -6889,7 +6889,7 @@ window.DEPICTIONS = {
       "credit": "Ranoutofusername"
      },
      "ck": "feat:caspicara-sabana-santa-quito",
-     "cp": 3041
+     "cp": 2754
     },
     {
      "id": "aleijadinho-congonhas-crucifixion",
@@ -6940,7 +6940,7 @@ window.DEPICTIONS = {
       "credit": "Ricardo André Frantz - Tetraktys"
      },
      "ck": "feat:aleijadinho-congonhas-crucifixion",
-     "cp": 3306
+     "cp": 3028
     }
    ]
   },
@@ -6949,7 +6949,7 @@ window.DEPICTIONS = {
    "numeral": "VI",
    "title": "The Search for the Historical Jesus",
    "subtitle": "Romanticism, Realism & the Long 19th Century",
-   "span": "c. 1780 – 1910",
+   "span": "c. 1780 – 1899",
    "intro": "Archaeology, travel to the Holy Land and new questions about history sent artists searching for the real Jesus of Galilee. Some painted him with photographic realism; others sought him in the soul, in the poor, or in the bright colours of the avant-garde. And for the first time, a camera turned toward an ancient cloth in Turin — and found a face.",
    "verse": "Behold, I stand at the door, and knock.",
    "verseRef": "Revelation 3:20",
@@ -6999,7 +6999,7 @@ window.DEPICTIONS = {
       "credit": "Francisco Goya"
      },
      "ck": "Q3543898",
-     "cp": 60
+     "cp": 52
     },
     {
      "id": "blake-christ-in-the-sepulchre",
@@ -7045,7 +7045,7 @@ window.DEPICTIONS = {
       "credit": "William Blake"
      },
      "ck": "vam:O74285",
-     "cp": 47
+     "cp": 40
     },
     {
      "id": "thorvaldsen-christus",
@@ -7092,7 +7092,7 @@ window.DEPICTIONS = {
       "credit": "Ib Rasmussen"
      },
      "ck": "Q5113613",
-     "cp": 253
+     "cp": 196
     },
     {
      "id": "scheffer-christus-consolator",
@@ -7138,7 +7138,7 @@ window.DEPICTIONS = {
       "credit": "Ary Scheffer"
      },
      "ck": "feat:scheffer-christus-consolator",
-     "cp": 2742
+     "cp": 2453
     },
     {
      "id": "ivanov-appearance-of-christ",
@@ -7185,7 +7185,7 @@ window.DEPICTIONS = {
       "credit": "Alexander Ivanov"
      },
      "ck": "Q4536026",
-     "cp": 97
+     "cp": 87
     },
     {
      "id": "millais-christ-in-the-house-of-his-parents",
@@ -7232,7 +7232,7 @@ window.DEPICTIONS = {
       "credit": "John Everett Millais"
      },
      "ck": "Q960157",
-     "cp": 47
+     "cp": 40
     },
     {
      "id": "hunt-light-of-the-world",
@@ -7279,7 +7279,7 @@ window.DEPICTIONS = {
       "credit": "William Holman Hunt"
      },
      "ck": "Q1757920",
-     "cp": 47
+     "cp": 40
     },
     {
      "id": "delacroix-christ-asleep-during-the-tempest",
@@ -7325,7 +7325,7 @@ window.DEPICTIONS = {
       "credit": "Eugène Delacroix"
      },
      "ck": "Q19911431",
-     "cp": 7
+     "cp": 5
     },
     {
      "id": "burne-jones-merciful-knight",
@@ -7367,7 +7367,7 @@ window.DEPICTIONS = {
       "credit": "Edward Burne-Jones"
      },
      "ck": "Q7751053",
-     "cp": 264
+     "cp": 206
     },
     {
      "id": "manet-dead-christ-with-angels",
@@ -7414,7 +7414,7 @@ window.DEPICTIONS = {
       "credit": "Édouard Manet"
      },
      "ck": "Q2752079",
-     "cp": 7
+     "cp": 5
     },
     {
      "id": "dore-christ-leaving-the-praetorium",
@@ -7456,7 +7456,7 @@ window.DEPICTIONS = {
       "credit": "Morio60"
      },
      "ck": "Q3221346",
-     "cp": 7
+     "cp": 5
     },
     {
      "id": "ciseri-ecce-homo",
@@ -7498,7 +7498,7 @@ window.DEPICTIONS = {
       "credit": "Antonio Ciseri"
      },
      "ck": "Q55177712",
-     "cp": 9
+     "cp": 6
     },
     {
      "id": "kramskoi-christ-in-the-desert",
@@ -7545,7 +7545,7 @@ window.DEPICTIONS = {
       "credit": "Ivan Kramskoi"
      },
      "ck": "Q2354080",
-     "cp": 312
+     "cp": 315
     },
     {
      "id": "bloch-sermon-on-the-mount",
@@ -7592,7 +7592,7 @@ window.DEPICTIONS = {
       "credit": "Carl Bloch"
      },
      "ck": "Q22084482",
-     "cp": 71
+     "cp": 63
     },
     {
      "id": "liebermann-twelve-year-old-jesus-in-the-temple",
@@ -7638,7 +7638,7 @@ window.DEPICTIONS = {
       "credit": "Max Liebermann"
      },
      "ck": "Q108718081",
-     "cp": 91
+     "cp": 81
     },
     {
      "id": "munkacsy-christ-before-pilate",
@@ -7681,7 +7681,7 @@ window.DEPICTIONS = {
       "credit": "Mihály Munkácsy"
      },
      "ck": "wga:m/munkacsy/trilog1",
-     "cp": 2742
+     "cp": 2453
     },
     {
      "id": "uhde-suffer-the-little-children",
@@ -7728,7 +7728,7 @@ window.DEPICTIONS = {
       "credit": "Fritz von Uhde"
      },
      "ck": "feat:uhde-suffer-the-little-children",
-     "cp": 1576
+     "cp": 1351
     },
     {
      "id": "ensor-christs-entry-into-brussels",
@@ -7775,7 +7775,7 @@ window.DEPICTIONS = {
       "credit": "James Ensor"
      },
      "ck": "Q3203172",
-     "cp": 45
+     "cp": 38
     },
     {
      "id": "polenov-christ-and-the-sinner",
@@ -7817,7 +7817,7 @@ window.DEPICTIONS = {
       "credit": "Vasily Polenov"
      },
      "ck": "Q26781788",
-     "cp": 969
+     "cp": 774
     },
     {
      "id": "gauguin-yellow-christ",
@@ -7863,7 +7863,7 @@ window.DEPICTIONS = {
       "credit": "Paul Gauguin"
      },
      "ck": "Q500951",
-     "cp": 547
+     "cp": 395
     },
     {
      "id": "hofmann-christ-and-the-rich-young-ruler",
@@ -7905,7 +7905,7 @@ window.DEPICTIONS = {
       "credit": "Heinrich Hofmann"
      },
      "ck": "feat:hofmann-christ-and-the-rich-young-ruler",
-     "cp": 2923
+     "cp": 2629
     },
     {
      "id": "denis-orange-christ",
@@ -7951,7 +7951,7 @@ window.DEPICTIONS = {
       "credit": "Maurice Denis"
      },
      "ck": "Q87480871",
-     "cp": 509
+     "cp": 364
     },
     {
      "id": "hofmann-christ-in-gethsemane",
@@ -7998,7 +7998,7 @@ window.DEPICTIONS = {
       "credit": "Heinrich Hofmann"
      },
      "ck": "Q110487317",
-     "cp": 703
+     "cp": 545
     },
     {
      "id": "ge-what-is-truth",
@@ -8045,7 +8045,7 @@ window.DEPICTIONS = {
       "credit": "Nikolai Ge"
      },
      "ck": "Q4517307",
-     "cp": 246
+     "cp": 193
     },
     {
      "id": "tissot-what-our-lord-saw-from-the-cross",
@@ -8092,7 +8092,7 @@ window.DEPICTIONS = {
       "credit": "James Tissot"
      },
      "ck": "Q5189805",
-     "cp": 47
+     "cp": 40
     },
     {
      "id": "klinger-christ-in-olympus",
@@ -8133,7 +8133,7 @@ window.DEPICTIONS = {
       "credit": "Max Klinger"
      },
      "ck": "wga:k/klinger/paintin2",
-     "cp": 2787
+     "cp": 2501
     },
     {
      "id": "pia-shroud-of-turin-negative",
@@ -8179,7 +8179,7 @@ window.DEPICTIONS = {
       "credit": "Secundo Pia"
      },
      "ck": "feat:pia-shroud-of-turin-negative",
-     "cp": 2905
+     "cp": 2610
     },
     {
      "id": "tanner-nicodemus",
@@ -8226,8 +8226,20 @@ window.DEPICTIONS = {
       "credit": "Henry Ossawa Tanner"
      },
      "ck": "Q20180001",
-     "cp": 7
-    },
+     "cp": 5
+    }
+   ]
+  },
+  {
+   "key": "modern",
+   "numeral": "VII",
+   "title": "Landmarks of the Modern Age",
+   "subtitle": "A selection since 1900",
+   "span": "1900 – today",
+   "intro": "After 1900 the images of Christ multiply beyond counting — in every medium, in every nation, in churches, galleries and homes. This site's complete collection ends with the nineteenth century; here, instead, is a short selection of landmarks: works that changed how Christ was seen, became beloved across the world, or carried his image into new cultures — crucified amid modern catastrophe, rising in concrete over cities, and painted in the faces of every people on earth.",
+   "verse": "Jesus Christ the same yesterday, and to day, and for ever.",
+   "verseRef": "Hebrews 13:8",
+   "entries": [
     {
      "id": "nesterov-holy-rus",
      "title": "Holy Rus' (Holy Russia)",
@@ -8257,7 +8269,7 @@ window.DEPICTIONS = {
        "url": "https://ru.wikipedia.org/wiki/Святая_Русь_(картина_Нестерова)"
       }
      ],
-     "era": "nineteenth-century",
+     "era": "modern",
      "image": {
       "src": "assets/img/nesterov-holy-rus.webp",
       "thumb": "assets/img/nesterov-holy-rus-sm.webp",
@@ -8271,66 +8283,7 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": ""
      },
-     "ck": "commons:178759722",
-     "cp": 994
-    }
-   ]
-  },
-  {
-   "key": "modern",
-   "numeral": "VII",
-   "title": "Christ for Every Nation",
-   "subtitle": "Modern & Contemporary",
-   "span": "c. 1910 – today",
-   "intro": "Through world wars and a globalizing century, artists returned again and again to Christ — crucified amid modern catastrophe, rising in concrete over cities, and painted in the faces of every people on earth. The image that began on a catacomb wall now stands on mountaintops and beneath the sea, and hangs in homes in every nation.",
-   "verse": "Jesus Christ the same yesterday, and to day, and for ever.",
-   "verseRef": "Hebrews 13:8",
-   "entries": [
-    {
-     "id": "gill-westminster-stations-trial-panel",
-     "title": "Fifth Station of the Cross: Simon of Cyrene Helps Jesus Carry the Cross (trial panel)",
-     "artist": "Eric Gill",
-     "date": "1914",
-     "year": 1914,
-     "created": "England (probably Gill's workshop at Ditchling, Sussex)",
-     "location": "Harry Ransom Center, University of Texas at Austin, USA",
-     "medium": "Hopton Wood stone, carved in low relief across three vertical slabs",
-     "form": "Relief",
-     "style": "Modernist / Arts and Crafts",
-     "summary": "This carved panel is Eric Gill's trial piece for the fourteen Stations of the Cross he made for Westminster Cathedral in London between 1914 and 1918. Christ, bowed under the cross, is helped by Simon of Cyrene, and both figures are cut in shallow, linear relief with the sacred words carved in Gill's own lettering. Its simple, almost archaic clarity broke with Victorian devotional sentiment and helped shape a new, modern language for church art in Britain.",
-     "facts": [
-      "Gill was a surprising choice for the Westminster commission, which he received in 1914: he had become a Catholic only the year before, had been working as a sculptor for just three years, and was better known as a letter-cutter.",
-      "The inscriptions are integral to the design: Gill was one of the great letterers of the century and later designed the Gill Sans and Perpetua typefaces.",
-      "The finished Stations remain on the piers of Westminster Cathedral. Gill's reputation was reassessed after Fiona MacCarthy's 1989 biography revealed the sexual abuse recorded in his diaries; in 1998 a survivors' group called for the Stations to be removed, but the cathedral has kept them."
-     ],
-     "scripture": "Mark 15:21",
-     "commons": "File:Fifth Station of The Cross, trial panel for Westminster Cathedral, by Eric Gill, 1914, Hoptonwood stone relief in three vertical stones - Harry Ransom Center - University of Texas at Austin - DSC08567.jpg",
-     "links": [
-      {
-       "label": "Wikipedia: Eric Gill",
-       "url": "https://en.wikipedia.org/wiki/Eric_Gill"
-      },
-      {
-       "label": "Wikipedia: Westminster Cathedral",
-       "url": "https://en.wikipedia.org/wiki/Westminster_Cathedral"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/gill-westminster-stations-trial-panel.webp",
-      "thumb": "assets/img/gill-westminster-stations-trial-panel-sm.webp",
-      "w": 1589,
-      "h": 1600,
-      "color": "#82786d",
-      "accent": "#807668",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fifth_Station_of_The_Cross%2C_trial_panel_for_Westminster_Cathedral%2C_by_Eric_Gill%2C_1914%2C_Hoptonwood_stone_relief_in_three_vertical_stones_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Fifth_Station_of_The_Cross,_trial_panel_for_Westminster_Cathedral,_by_Eric_Gill,_1914,_Hoptonwood_stone_relief_in_three_vertical_stones_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08567.jpg",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Daderot"
-     },
-     "ck": "feat:gill-westminster-stations-trial-panel",
-     "cp": 33
+     "ck": "journey:nesterov-holy-rus"
     },
     {
      "id": "beckmann-descent-from-the-cross",
@@ -8375,96 +8328,7 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Max Beckmann"
      },
-     "ck": "Q19883772",
-     "cp": 512
-    },
-    {
-     "id": "jawlensky-face-of-the-saviour-crown-of-thorns",
-     "title": "Face of the Saviour: Crown of Thorns (Heilandsgesicht: Dornenkrone)",
-     "artist": "Alexej von Jawlensky",
-     "date": "1918",
-     "year": 1918,
-     "created": "Switzerland",
-     "location": "Private collection (sold at Christie's)",
-     "medium": "Oil on cardboard, 40 × 30.5 cm",
-     "form": "Painting",
-     "style": "Expressionism",
-     "summary": "During the First World War, the Russian-born painter Alexej von Jawlensky began a long series of small heads he called 'Faces of the Saviour.' Reduced to a few strokes of glowing colour, closed or haunting eyes and the long vertical of the nose, these faces are as much like icons as portraits. In this sombre version, the crown of thorns is suggested by sharp red strokes against dark blues and greens, turning the Passion into a meditation in pure colour.",
-     "facts": [
-      "Jawlensky was raised in Russia in the Orthodox tradition, and his 'Saviour's Faces' are often compared to the icons he knew from childhood.",
-      "He painted the series in neutral Switzerland after being forced to leave Germany as a Russian citizen in 1914.",
-      "From the late 1920s rheumatoid arthritis gradually crippled his hands; in his last series, the 'Meditations', he could manage little more than horizontal, vertical and diagonal strokes, yet he kept painting until 1937."
-     ],
-     "scripture": "Matthew 27:29",
-     "commons": "File:Alexej von Jawlensky Heilandsgesicht Dornenkrone 1918.jpg",
-     "links": [
-      {
-       "label": "Wikipedia: Alexej von Jawlensky",
-       "url": "https://en.wikipedia.org/wiki/Alexej_von_Jawlensky"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/jawlensky-face-of-the-saviour-crown-of-thorns.webp",
-      "thumb": "assets/img/jawlensky-face-of-the-saviour-crown-of-thorns-sm.webp",
-      "w": 1224,
-      "h": 1600,
-      "color": "#333536",
-      "accent": "#1e252b",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Alexej_von_Jawlensky_Heilandsgesicht_Dornenkrone_1918.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Alexej_von_Jawlensky_Heilandsgesicht_Dornenkrone_1918.jpg",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Alexej von Jawlensky"
-     },
-     "ck": "feat:jawlensky-face-of-the-saviour-crown-of-thorns",
-     "cp": 355
-    },
-    {
-     "id": "denis-noli-me-tangere-reims",
-     "title": "Noli me tangere",
-     "artist": "Maurice Denis",
-     "date": "1920",
-     "year": 1920,
-     "created": "France (probably Saint-Germain-en-Laye)",
-     "location": "Musée des Beaux-Arts, Reims, France",
-     "medium": "Oil on canvas (sketch for an arched composition, 54 × 150.5 cm)",
-     "form": "Painting",
-     "style": "Symbolism / Art Deco religious painting",
-     "summary": "In a pale, wooded garden, the risen Christ stands before the kneeling Mary Magdalene and gestures to her not to approach, while showing her the wounds of his Passion. Around them Denis unfolds the rest of Easter morning: Peter and John hurrying to the tomb, and the holy women addressed by two angels guarding the sepulchre. The soft, luminous colours and arched format reflect Denis's lifelong ambition to renew sacred art for churches of the modern age.",
-     "facts": [
-      "In 1919, the year before this painting, Denis co-founded the Ateliers d'Art Sacré in Paris with George Desvallières to train artists for the decoration of churches.",
-      "The lunette-shaped canvas, catalogued by the museum as a sketch (esquisse), relates to Denis's decoration of the chapel of the Prieuré, his home at Saint-Germain-en-Laye; it was bequeathed to Reims by the art historian and curator Paul Jamot in 1939.",
-      "Several episodes of the Resurrection appear side by side in the one landscape, a narrative device that recalls early Italian painting, which Denis deeply admired."
-     ],
-     "scripture": "John 20:11–18",
-     "commons": "File:Maurice Denis, Noli me tangere, 1920.jpg",
-     "links": [
-      {
-       "label": "Wikipedia (Maurice Denis)",
-       "url": "https://en.wikipedia.org/wiki/Maurice_Denis"
-      },
-      {
-       "label": "Musées de Reims",
-       "url": "https://musees-reims.fr/oeuvre/noli-me-tangere"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/denis-noli-me-tangere-reims.webp",
-      "thumb": "assets/img/denis-noli-me-tangere-reims-sm.webp",
-      "w": 1600,
-      "h": 553,
-      "color": "#a2a097",
-      "accent": "#af9c8f",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Maurice_Denis%2C_Noli_me_tangere%2C_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Maurice_Denis,_Noli_me_tangere,_1920.jpg",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Maurice Denis"
-     },
-     "ck": "Q136536775",
-     "cp": 86
+     "ck": "journey:beckmann-descent-from-the-cross"
     },
     {
      "id": "corinth-red-christ",
@@ -8509,8 +8373,7 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Lovis Corinth"
      },
-     "ck": "Q1199503",
-     "cp": 91
+     "ck": "journey:corinth-red-christ"
     },
     {
      "id": "rouault-miserere",
@@ -8545,101 +8408,6 @@ window.DEPICTIONS = {
      "era": "modern",
      "image": null,
      "ck": "journey:rouault-miserere"
-    },
-    {
-     "id": "roerich-signs-of-christ",
-     "title": "Signs of Christ",
-     "artist": "Nicholas Roerich",
-     "date": "1924",
-     "year": 1924,
-     "created": "Darjeeling, India",
-     "location": "International Centre of the Roerichs, Moscow, Russia",
-     "medium": "Tempera on canvas",
-     "form": "Painting",
-     "style": "Symbolism",
-     "summary": "Among wind-rippled dunes of ochre sand beneath blue hills, a long-haired figure of Christ sits tracing mysterious signs in the sand with a staff, while a hooded companion bends over him to watch. Roerich, the Russian painter, mystic and explorer, was fascinated by legends of Christ's presence in Asia and painted him as a quiet wanderer in a timeless landscape. The flat, glowing colours give the scene the stillness of an icon.",
-     "facts": [
-      "The painting belongs to Roerich's 'Banners of the East' series, which portrays teachers and prophets of many religions.",
-      "It was painted in 1924 in Darjeeling, where the Roerich family had settled after arriving in India; the canvas, in tempera, measures about 74 by 118 cm.",
-      "In 1925, during his Central Asian expedition, Roerich recorded legends in Ladakh about 'Issa' (Jesus) travelling in India, which he retold in his book Altai–Himalaya."
-     ],
-     "commons": "File:Signs of Christ.jpg",
-     "links": [
-      {
-       "label": "Wikipedia (Nicholas Roerich)",
-       "url": "https://en.wikipedia.org/wiki/Nicholas_Roerich"
-      },
-      {
-       "label": "Google Arts & Culture (International Centre of the Roerichs)",
-       "url": "https://artsandculture.google.com/asset/8AG6lyiWPTSE0Q"
-      },
-      {
-       "label": "International Centre of the Roerichs: catalogue entry (Russian)",
-       "url": "https://icr.su/rus/katalog/10.php?i=2302"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/roerich-signs-of-christ.webp",
-      "thumb": "assets/img/roerich-signs-of-christ-sm.webp",
-      "w": 1600,
-      "h": 1001,
-      "color": "#8d744e",
-      "accent": "#b28646",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Signs_of_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Signs_of_Christ.jpg",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Nicholas Roerich"
-     },
-     "ck": "feat:roerich-signs-of-christ",
-     "cp": 3307
-    },
-    {
-     "id": "egger-lienz-risen-christ-lienz",
-     "title": "The Risen Christ (Der Auferstandene)",
-     "artist": "Albin Egger-Lienz",
-     "date": "1925",
-     "year": 1925,
-     "created": "Lienz, Tyrol, Austria",
-     "location": "War Memorial Chapel (Kriegergedächtniskapelle), Lienz, Austria",
-     "medium": "Fresco",
-     "form": "Fresco",
-     "style": "Expressionist Realism",
-     "summary": "A gaunt, beardless Christ sits half-length before an empty tomb, holding the banner of the Resurrection, his emaciated body marked by suffering rather than glorified. Egger-Lienz, who had witnessed the First World War as a war painter, made this stark figure the culmination of a four-part cycle in the district memorial chapel for the fallen of Lienz. It offers resurrection hope that does not look away from the cost of death.",
-     "facts": [
-      "The unconventional image provoked fierce protests; on 5 May 1926 the Vatican placed the chapel under interdict, forbidding church services there for decades.",
-      "The press mocked the figure as 'consumptive'; the chapel was finally reconsecrated in June 1987. These are the only frescoes Egger-Lienz ever painted.",
-      "Egger-Lienz himself is buried in the chapel, which was dedicated on 8 September 1925 and designed by the architect Clemens Holzmeister."
-     ],
-     "scripture": "1 Corinthians 15:20",
-     "commons": "File:Egger-Lienz - Der Auferstandene, 1925.jpeg",
-     "links": [
-      {
-       "label": "Wikipedia (Albin Egger-Lienz)",
-       "url": "https://en.wikipedia.org/wiki/Albin_Egger-Lienz"
-      },
-      {
-       "label": "Museum Schloss Bruck: Memorial Chapel",
-       "url": "https://www.museum-schlossbruck.at/en/albin-egger-lienz/gedaechtniskapelle"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/egger-lienz-risen-christ-lienz.webp",
-      "thumb": "assets/img/egger-lienz-risen-christ-lienz-sm.webp",
-      "w": 1186,
-      "h": 1600,
-      "color": "#d0b1a8",
-      "accent": "#b57e6e",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Egger-Lienz_-_Der_Auferstandene%2C_1925.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Egger-Lienz_-_Der_Auferstandene,_1925.jpeg",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Albin Egger-Lienz"
-     },
-     "ck": "feat:egger-lienz-risen-christ-lienz",
-     "cp": 3308
     },
     {
      "id": "barlach-das-wiedersehen",
@@ -8684,8 +8452,41 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Ernst Barlach"
      },
-     "ck": "feat:barlach-das-wiedersehen",
-     "cp": 3309
+     "ck": "journey:barlach-das-wiedersehen"
+    },
+    {
+     "id": "spencer-resurrection-cookham",
+     "title": "The Resurrection, Cookham",
+     "artist": "Stanley Spencer",
+     "date": "1924–1927",
+     "year": 1926,
+     "created": "London (Hampstead), England",
+     "location": "Tate Britain, London",
+     "medium": "Oil on canvas (274 × 549 cm)",
+     "form": "Painting",
+     "style": "British modernism",
+     "summary": "On the Last Day the dead rise from their graves in the churchyard of Cookham, the Thames village where Spencer was born, pushing back the turf and greeting one another in quiet wonder. In the church porch Christ sits enthroned, cradling infants, with God the Father standing behind him. Spencer saw his own village as a place where heaven and earth meet, and painted the resurrection of the body as something tender, ordinary and joyful.",
+     "facts": [
+      "Spencer painted himself among the risen, and his wife Hilda appears more than once among the figures.",
+      "At his first one-man exhibition, at the Goupil Gallery in 1927, The Times called it 'the most important picture painted by any English artist in the present century'; Lord Duveen bought it and presented it to the Tate.",
+      "Spencer returned to the theme of resurrection throughout his life, from the Sandham Memorial Chapel at Burghclere to his late paintings."
+     ],
+     "scripture": "1 Corinthians 15:51–52",
+     "commons": null,
+     "copyrightNote": "© Estate of Stanley Spencer — view it at Tate Britain.",
+     "links": [
+      {
+       "label": "Tate",
+       "url": "https://www.tate.org.uk/art/artworks/spencer-the-resurrection-cookham-n04239"
+      },
+      {
+       "label": "Wikipedia (Stanley Spencer)",
+       "url": "https://en.wikipedia.org/wiki/Stanley_Spencer#The_Resurrection,_Cookham"
+      }
+     ],
+     "era": "modern",
+     "image": null,
+     "ck": "journey:spencer-resurrection-cookham"
     },
     {
      "id": "christ-the-redeemer-rio",
@@ -8725,8 +8526,7 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "credit": "Arne Müseler"
      },
-     "ck": "Q79961",
-     "cp": 38
+     "ck": "journey:christ-the-redeemer-rio"
     },
     {
      "id": "kazimirowski-divine-mercy",
@@ -8771,8 +8571,7 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Eugeniusz Kazimirowski"
      },
-     "ck": "Q124819150",
-     "cp": 909
+     "ck": "journey:kazimirowski-divine-mercy"
     },
     {
      "id": "epstein-ecce-homo-coventry",
@@ -8813,8 +8612,7 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Jim Linwood"
      },
-     "ck": "feat:epstein-ecce-homo-coventry",
-     "cp": 47
+     "ck": "journey:epstein-ecce-homo-coventry"
     },
     {
      "id": "chagall-white-crucifixion",
@@ -8848,8 +8646,7 @@ window.DEPICTIONS = {
      ],
      "era": "modern",
      "image": null,
-     "ck": "Q3698207",
-     "cp": 7
+     "ck": "journey:chagall-white-crucifixion"
     },
     {
      "id": "sallman-head-of-christ",
@@ -8885,51 +8682,6 @@ window.DEPICTIONS = {
      "ck": "journey:sallman-head-of-christ"
     },
     {
-     "id": "cristo-blanco-cusco",
-     "title": "Cristo Blanco (White Christ)",
-     "artist": "Attributed to Francisco Olazo Allende (some sources name Ernesto Olazo Allende)",
-     "date": "1945",
-     "year": 1945,
-     "created": "Cusco, Peru",
-     "location": "Pukamuqu hill, near Sacsayhuamán, Cusco, Peru",
-     "medium": "Granite faced with marble and plaster",
-     "form": "Monument",
-     "style": "Modern devotional statuary",
-     "summary": "A white figure of Christ, arms outstretched in welcome and blessing, stands on a hill above the old Inca capital of Cusco. The statue overlooks the city from beside the great Inca walls of Sacsayhuamán, joining Andean and Christian landscapes in one view. It has become one of Cusco's best-loved landmarks.",
-     "facts": [
-      "The statue was given to the city in 1945 by the community of Palestinian Arab Christians who had settled in Cusco, traditionally as a sign of gratitude.",
-      "It stands about 8 metres tall at an altitude of roughly 3,600 metres above sea level, and lies within the historic centre of Cusco inscribed by UNESCO as a World Heritage Site.",
-      "Its open-armed pose recalls the larger Christ the Redeemer in Rio de Janeiro, completed in 1931."
-     ],
-     "commons": "File:CristoBlancoCuzco.jpg",
-     "links": [
-      {
-       "label": "Wikipedia (Pukamuqu)",
-       "url": "https://en.wikipedia.org/wiki/Pukamuqu"
-      },
-      {
-       "label": "Wikipedia (Spanish): Cristo Blanco",
-       "url": "https://es.wikipedia.org/wiki/Cristo_Blanco"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/cristo-blanco-cusco.webp",
-      "thumb": "assets/img/cristo-blanco-cusco-sm.webp",
-      "w": 1275,
-      "h": 1600,
-      "color": "#9599a2",
-      "accent": "#898e9b",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/CristoBlancoCuzco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:CristoBlancoCuzco.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "credit": "Cacophony"
-     },
-     "ck": "feat:cristo-blanco-cusco",
-     "cp": 996
-    },
-    {
      "id": "dali-christ-of-saint-john-of-the-cross",
      "title": "Christ of Saint John of the Cross",
      "artist": "Salvador Dalí",
@@ -8957,6 +8709,37 @@ window.DEPICTIONS = {
      "era": "modern",
      "image": null,
      "ck": "journey:dali-christ-of-saint-john-of-the-cross"
+    },
+    {
+     "id": "matisse-chapel-of-the-rosary-vence",
+     "title": "The Chapel of the Rosary (Chapelle du Rosaire), Vence",
+     "artist": "Henri Matisse",
+     "date": "1948–1951",
+     "year": 1951,
+     "created": "Vence and Nice, France",
+     "location": "Chapelle du Rosaire, Vence, France",
+     "medium": "Chapel design: painted and glazed ceramic tiles, stained glass, furnishings and vestments",
+     "form": "Monument",
+     "style": "Modernism",
+     "summary": "In his late seventies, Henri Matisse designed every element of a small chapel for the Dominican sisters of Vence — its windows, altar, crucifix and vestments, and three great walls of white tiles drawn in black. On one wall the Stations of the Cross unfold as a single, urgent sequence of lines, from Christ before Pilate to the Entombment; on another the Virgin holds the Christ Child with open arms. Stripped to light and line, it is one of the twentieth century's most moving sacred spaces.",
+     "facts": [
+      "The chapel began with Sister Jacques-Marie (Monique Bourgeois), who had nursed Matisse after his surgery in 1941 and later became a Dominican nun at Vence.",
+      "Matisse called it, despite its imperfections, his masterpiece — the culmination of a lifetime's work.",
+      "The blue, green and yellow stained-glass windows, based on a 'Tree of Life' motif, fill the white interior with coloured light that changes through the day.",
+      "The chapel was consecrated on 25 June 1951."
+     ],
+     "scripture": "Luke 23:26–56",
+     "commons": null,
+     "copyrightNote": "© Succession H. Matisse — the chapel can be visited in Vence and is shown on its official site.",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Chapelle_du_Rosaire_de_Vence"
+      }
+     ],
+     "era": "modern",
+     "image": null,
+     "ck": "journey:matisse-chapel-of-the-rosary-vence"
     },
     {
      "id": "kim-ki-chang-life-of-jesus",
@@ -9018,8 +8801,7 @@ window.DEPICTIONS = {
      ],
      "era": "modern",
      "image": null,
-     "ck": "Q869818",
-     "cp": 568
+     "ck": "journey:christ-of-the-abyss"
     },
     {
      "id": "dali-sacrament-of-the-last-supper",
@@ -9054,92 +8836,6 @@ window.DEPICTIONS = {
      "era": "modern",
      "image": null,
      "ck": "journey:dali-sacrament-of-the-last-supper"
-    },
-    {
-     "id": "christ-of-havana",
-     "title": "Christ of Havana (Cristo de La Habana)",
-     "artist": "Jilma Madera",
-     "date": "1958",
-     "year": 1958,
-     "created": "Carved in Rome, Italy; assembled in Havana, Cuba",
-     "location": "Casablanca hill, overlooking Havana Bay, Cuba",
-     "medium": "Carrara marble",
-     "form": "Monument",
-     "style": "Modern monumental sculpture",
-     "summary": "A towering white marble Christ stands on the hill of Casablanca, his right hand raised in blessing and his left on his heart, looking across the bay toward old Havana. The Cuban sculptor Jilma Madera carved the figure from Carrara marble in Italy, and it was assembled on site from 67 blocks, which had been blessed by Pope Pius XII before shipping. It was unveiled at Christmas 1958, just days before the Cuban Revolution triumphed.",
-     "facts": [
-      "The statue was inaugurated on 24 December 1958; on 1 January 1959 Fulgencio Batista fled Cuba, and on 8 January Fidel Castro entered Havana.",
-      "The project is often said to have been promoted by Marta Fernández Miranda, wife of President Batista, in fulfilment of a vow.",
-      "Madera won the commission in 1953; the statue is about 20 metres tall including its 3-metre base and weighs roughly 320 tonnes."
-     ],
-     "commons": "File:El Cristo de La Habana.jpg",
-     "links": [
-      {
-       "label": "Wikipedia",
-       "url": "https://en.wikipedia.org/wiki/Christ_of_Havana"
-      },
-      {
-       "label": "Wikipedia (Jilma Madera)",
-       "url": "https://en.wikipedia.org/wiki/Jilma_Madera"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/christ-of-havana.webp",
-      "thumb": "assets/img/christ-of-havana-sm.webp",
-      "w": 900,
-      "h": 1600,
-      "color": "#898784",
-      "accent": "#6f7888",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/El_Cristo_de_La_Habana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:El_Cristo_de_La_Habana.jpg",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "credit": "Balaenicactus"
-     },
-     "ck": "commons:144223450",
-     "cp": 2266
-    },
-    {
-     "id": "cristo-rei-almada",
-     "title": "Christ the King (Cristo Rei)",
-     "artist": "Francisco Franco de Sousa (sculptor), António Lino (architect)",
-     "date": "1949–1959",
-     "year": 1959,
-     "created": "Almada, Portugal",
-     "location": "Sanctuary of Christ the King, Almada, overlooking Lisbon and the Tagus, Portugal",
-     "medium": "Reinforced concrete",
-     "form": "Monument",
-     "style": "Modernist monumental",
-     "summary": "Across the Tagus from Lisbon, a 28-metre Christ stands with arms wide open on top of a tall, gateway-like pedestal, blessing the city and the river. The monument fulfils a vow made by Portugal's bishops in 1940: if the country were kept out of the Second World War, they would raise a monument to Christ the King. Its open arms, inspired by Rio de Janeiro's Christ the Redeemer, echo across the water to the city.",
-     "facts": [
-      "The idea came from the Cardinal Patriarch of Lisbon, Manuel Gonçalves Cerejeira, after he visited Rio's Christ the Redeemer in 1934; the bishops formally approved it at Fátima in 1940.",
-      "The statue stands on a gateway-like pedestal 82 metres high, on a clifftop site, so that the figure rises some 190 metres above the Tagus.",
-      "It was inaugurated on 17 May 1959, partly funded by donations from Portuguese Catholics, and a lift carries visitors to a viewing platform at Christ's feet."
-     ],
-     "commons": "File:Cristo Rei, Lisboa, Portugal, 2012-05-12, DD 02.JPG",
-     "links": [
-      {
-       "label": "Wikipedia",
-       "url": "https://en.wikipedia.org/wiki/Christ_the_King_(Almada)"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/cristo-rei-almada.webp",
-      "thumb": "assets/img/cristo-rei-almada-sm.webp",
-      "w": 1245,
-      "h": 1600,
-      "color": "#9fabb9",
-      "accent": "#a5bdda",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cristo_Rei%2C_Lisboa%2C_Portugal%2C_2012-05-12%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Cristo_Rei,_Lisboa,_Portugal,_2012-05-12,_DD_02.JPG",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "credit": "Diego Delso"
-     },
-     "ck": "Q805446",
-     "cp": 566
     },
     {
      "id": "sadao-watanabe-katazome-christ",
@@ -9209,8 +8905,7 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "DeFacto"
      },
-     "ck": "Q60794462",
-     "cp": 80
+     "ck": "journey:sutherland-christ-in-glory"
     },
     {
      "id": "jesus-mafa",
@@ -9280,47 +8975,6 @@ window.DEPICTIONS = {
      "ck": "journey:warhol-last-supper"
     },
     {
-     "id": "cristo-de-la-concordia",
-     "title": "Christ of Peace (Cristo de la Concordia)",
-     "artist": "César and Wálter Terrazas Pardo",
-     "date": "1987–1994",
-     "year": 1994,
-     "created": "Cochabamba, Bolivia",
-     "location": "San Pedro Hill, Cochabamba, Bolivia",
-     "medium": "Reinforced concrete",
-     "form": "Monument",
-     "style": "Modern monumental",
-     "summary": "Overlooking the city of Cochabamba from the top of San Pedro Hill, this white Christ with outstretched arms was the tallest statue of Christ in the world when completed in 1994. It was modelled on the Christ the Redeemer of Rio de Janeiro but built to be slightly taller, as a statement of Bolivian faith and civic pride. Pilgrims and visitors climb more than a thousand steps, or take a cable car, to reach the statue.",
-     "facts": [
-      "The statue is about 34 metres tall, and with its pedestal reaches roughly 40 metres.",
-      "Its arms span almost 33 metres, and the head alone is about 4.6 metres tall.",
-      "A stairway of 1,399 steps inside the statue leads up to openings in the arms that look out over the city."
-     ],
-     "commons": "File:Cristo de la Concordia Cochabamba.jpg",
-     "links": [
-      {
-       "label": "Wikipedia",
-       "url": "https://en.wikipedia.org/wiki/Cristo_de_la_Concordia"
-      }
-     ],
-     "era": "modern",
-     "image": {
-      "src": "assets/img/cristo-de-la-concordia.webp",
-      "thumb": "assets/img/cristo-de-la-concordia-sm.webp",
-      "w": 900,
-      "h": 1600,
-      "color": "#95959a",
-      "accent": "#7d8497",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cristo_de_la_Concordia_Cochabamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Cristo_de_la_Concordia_Cochabamba.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "credit": "Maria Cristina Tajima"
-     },
-     "ck": "Q259633",
-     "cp": 39
-    },
-    {
      "id": "he-qi-gospel-paintings",
      "title": "Gospel paintings",
      "artist": "He Qi",
@@ -9387,8 +9041,7 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "tomasz przechlewski"
      },
-     "ck": "Q805442",
-     "cp": 40
+     "ck": "journey:christ-the-king-swiebodzin"
     }
    ]
   }

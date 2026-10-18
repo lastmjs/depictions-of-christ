@@ -252,6 +252,10 @@ def fetch_details(ids):
     return details
 
 
+# The complete collection is historical: works made up to the end of the 19th century.
+# (Landmarks since 1900 are presented as a curated selection in the journey.)
+CUTOFF_YEAR = 1899
+
 # Wikidata properties holding the identifiers used by each museum source.
 EXT = {"met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
 
@@ -430,7 +434,7 @@ def add_featured(works):
     from subjects import classify
     for era in featured["eras"]:
         for e in era["entries"]:
-            if links.get(e["id"], {}).get("action") != "add" or not e.get("image"):
+            if links.get(e["id"], {}).get("action") != "add" or not e.get("image") or e["year"] > CUTOFF_YEAR:
                 continue
             key = f"feat:{e['id']}"
             img = e["image"]
@@ -579,13 +583,16 @@ def write_work_shards(works):
         featured = json.loads(src[src.index("{"):src.rindex("}") + 1])
         for era in featured["eras"]:
             for e in era["entries"]:
-                if links.get(e["id"], {}).get("action") == "skip-no-image" or (not e.get("image") and not e.get("ck")):
+                if (links.get(e["id"], {}).get("action") == "skip-no-image" or e["year"] > CUTOFF_YEAR
+                        or (not e.get("image") and not e.get("ck"))):
                     k = f"journey:{e['id']}"
                     shards[shard_of(k)][k] = {
                         "id": k, "t": e["title"], "y": e["year"], "d": e["date"], "a": e.get("artist", ""),
                         "c": e.get("created", ""), "l": e.get("location", ""), "m": e.get("medium", ""),
                         "s": e.get("style", ""), "k": (e.get("form") or "").lower(), "fe": e["id"],
-                        "noimg": e.get("copyrightNote") or "This work is still protected by copyright.",
+                        **({"img": e["image"]["thumb"], "big": e["image"]["src"], "lic": e["image"].get("license", "")}
+                           if e.get("image") else
+                           {"noimg": e.get("copyrightNote") or "This work is still protected by copyright."}),
                         "src": (e.get("links") or [{}])[0].get("url", ""), "u": [], "v": 1,
                         "x": {k2: e[k2] for k2 in ("summary", "scripture", "facts", "links") if e.get(k2)},
                     }
@@ -694,6 +701,9 @@ def main():
             w["y"] = (p[0] + p[1]) // 2
             fixed += 1
     print(f"  corrected {fixed} sort years from their display dates")
+    before = len(works)
+    works = [w for w in works if w.get("y") is None or w["y"] <= CUTOFF_YEAR]
+    print(f"  {before - len(works)} works made after {CUTOFF_YEAR} left out (collection ends with the 19th century)")
 
     # Place every work on the map (uses only cached geocoding data; see scripts/geocode.py).
     # If geocoding is unavailable, keep the last good placements rather than dropping the map.

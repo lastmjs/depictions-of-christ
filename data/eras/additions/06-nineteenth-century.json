@@ -243,35 +243,5 @@
         "url": "https://en.wikipedia.org/wiki/Max_Klinger"
       }
     ]
-  },
-  {
-    "id": "nesterov-holy-rus",
-    "title": "Holy Rus' (Holy Russia)",
-    "artist": "Mikhail Nesterov",
-    "date": "1901–1905",
-    "year": 1905,
-    "created": "Russian Empire",
-    "location": "State Russian Museum, Saint Petersburg, Russia",
-    "medium": "Oil on canvas",
-    "form": "Painting",
-    "style": "Russian Symbolism / religious realism",
-    "summary": "In a snowy northern landscape beside a small monastery, Christ, accompanied by Saints Nicholas, Sergius of Radonezh and George, comes out to meet a crowd of Russian pilgrims: monks, peasants, the sick and the sorrowing. The quiet, pale palette makes the encounter feel like a vision within ordinary life. Nesterov intended the painting as an image of the soul of Russian faith.",
-    "facts": [
-      "Nesterov worked on the composition for several years, making many studies of pilgrims and of the landscape of the Russian north.",
-      "The painting provoked sharp debate when it was first exhibited in 1907: it won a gold medal at the Munich International Exhibition of 1909, while critics such as Maximilian Voloshin found its Christ theatrical and unconvincing.",
-      "Nesterov also painted murals for the Vladimir Cathedral in Kyiv and the Marfo-Mariinsky Convent in Moscow."
-    ],
-    "scripture": "Matthew 11:28",
-    "commons": "File:Nesterov SaintRussia.JPG",
-    "links": [
-      {
-        "label": "Wikipedia (Mikhail Nesterov)",
-        "url": "https://en.wikipedia.org/wiki/Mikhail_Nesterov"
-      },
-      {
-        "label": "Wikipedia (Russian)",
-        "url": "https://ru.wikipedia.org/wiki/Святая_Русь_(картина_Нестерова)"
-      }
-    ]
   }
 ]

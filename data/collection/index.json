@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 71098,
- "checked": 1266,
+ "total": 69428,
+ "checked": 1247,
  "centuries": [
   {
    "century": "2",
@@ -73,15 +73,7 @@
   },
   {
    "century": "19",
-   "count": 4328
-  },
-  {
-   "century": "20",
-   "count": 1482
-  },
-  {
-   "century": "21",
-   "count": 94
+   "count": 4234
   },
   {
    "century": "undated",
@@ -91,143 +83,143 @@
  "subjects": [
   [
    "Jesus Christ",
-   18829
+   18145
   ],
   [
    "Madonna and Child",
-   13565
+   13340
   ],
   [
    "Christ Child",
-   8613
+   8525
   ],
   [
    "Crucifixion",
-   5912
+   5752
   ],
   [
    "Holy Family",
-   3637
+   3600
   ],
   [
    "Adoration of the Magi",
-   2474
+   2447
   ],
   [
    "Nativity",
-   2012
+   1978
   ],
   [
    "Adoration of the Shepherds",
-   1799
+   1793
   ],
   [
    "Entombment",
-   1677
+   1653
   ],
   [
    "Resurrection",
-   1617
+   1561
   ],
   [
    "Flight into Egypt",
-   1567
-  ],
-  [
-   "Last Supper",
-   1339
+   1533
   ],
   [
    "Lamentation",
-   1327
+   1316
+  ],
+  [
+   "Last Supper",
+   1309
   ],
   [
    "Baptism",
-   1188
+   1165
   ],
   [
    "Pietà",
-   1157
+   1067
   ],
   [
    "Agony in the Garden",
-   1019
+   1001
   ],
   [
    "Descent from the Cross",
-   1004
+   985
   ],
   [
    "Carrying the Cross",
-   965
+   934
   ],
   [
    "Last Judgment",
-   911
+   902
   ],
   [
    "Miracles of Christ",
-   844
+   839
   ],
   [
    "Flagellation",
-   834
+   831
   ],
   [
    "Man of Sorrows",
-   754
+   748
   ],
   [
    "Christ and Followers",
-   751
+   744
   ],
   [
    "Ascension",
-   711
+   696
   ],
   [
    "Ecce Homo",
-   701
+   687
   ],
   [
    "Crowning with Thorns",
-   635
+   630
   ],
   [
    "Rest on the Flight into Egypt",
-   633
+   629
   ],
   [
    "Trial of Christ",
-   622
-  ],
-  [
-   "Coronation of the Virgin",
-   583
+   621
   ],
   [
    "Presentation in the Temple",
-   582
+   581
+  ],
+  [
+   "Coronation of the Virgin",
+   579
   ],
   [
    "Supper at Emmaus",
-   516
+   496
   ],
   [
    "Pantocrator",
-   447
+   435
   ],
   [
    "Betrayal & Arrest",
-   429
+   427
   ],
   [
    "Circumcision",
-   417
+   414
   ],
   [
    "Throne of Mercy",
-   413
+   404
   ],
   [
    "Salvator Mundi",
@@ -235,55 +227,55 @@
   ],
   [
    "Christ among the Doctors",
-   379
+   375
   ],
   [
    "Appearances after the Resurrection",
-   351
+   350
   ],
   [
    "Noli me tangere",
-   340
+   338
   ],
   [
    "Holy Face",
-   330
-  ],
-  [
-   "Sacred Heart",
-   307
+   313
   ],
   [
    "Transfiguration",
-   303
+   294
+  ],
+  [
+   "Sacred Heart",
+   278
   ],
   [
    "Harrowing of Hell",
-   265
+   262
   ],
   [
    "Wedding at Cana",
-   260
-  ],
-  [
-   "Good Shepherd",
-   230
+   256
   ],
   [
    "Mystic Marriage of St Catherine",
    229
   ],
   [
+   "Good Shepherd",
+   217
+  ],
+  [
    "Mocking of Christ",
-   215
+   210
   ],
   [
    "Passion",
-   209
+   203
   ],
   [
    "Entry into Jerusalem",
-   199
+   198
   ],
   [
    "Temptation of Christ",
@@ -291,19 +283,19 @@
   ],
   [
    "Raising of Lazarus",
-   171
+   168
   ],
   [
    "Woman Taken in Adultery",
-   150
+   148
   ],
   [
    "Cleansing of the Temple",
-   100
+   99
   ],
   [
    "Christ in Majesty",
-   97
+   92
   ],
   [
    "Christ in Glory",
@@ -311,7 +303,7 @@
   ],
   [
    "Sermon on the Mount",
-   73
+   68
   ],
   [
    "Veil of Veronica",
@@ -323,11 +315,11 @@
   ],
   [
    "Miraculous Draught of Fishes",
-   33
+   32
   ],
   [
    "Kiss of Judas",
-   27
+   25
   ],
   [
    "Christ of the Apocalypse",
@@ -657,98 +649,98 @@
  "types": [
   [
    "print",
-   25330
+   24985
   ],
   [
    "painting",
-   20885
+   20513
   ],
   [
    "drawing",
-   5573
+   5332
   ],
   [
    "sculpture",
-   4448
+   4224
   ],
   [
    "manuscript",
-   3713
+   3703
   ],
   [
    "other",
-   2510
+   2350
   ],
   [
    "icon",
-   1768
+   1743
   ],
   [
    "statue",
-   858
+   809
   ],
   [
    "metalwork",
-   756
+   749
   ],
   [
    "fresco",
-   499
+   445
   ],
   [
    "ivory",
-   441
+   440
   ],
   [
    "relief",
-   434
+   426
   ],
   [
    "textile",
-   410
-  ],
-  [
-   "stained glass",
-   275
+   407
   ],
   [
    "enamel",
-   263
+   262
   ],
   [
    "triptych",
    261
   ],
   [
-   "glass",
-   246
+   "stained glass",
+   258
   ],
   [
-   "mosaic",
-   180
+   "glass",
+   245
   ],
   [
    "ceramic",
-   164
+   161
+  ],
+  [
+   "mosaic",
+   149
   ],
   [
    "leadlight",
-   119
+   116
   ],
   [
    "relief sculpture",
-   110
-  ],
-  [
-   "book",
    105
   ],
   [
-   "group of sculptures",
+   "book",
    97
   ],
   [
    "sarcophagus",
+   95
+  ],
+  [
+   "group of sculptures",
    95
   ],
   [
@@ -757,7 +749,7 @@
   ],
   [
    "wayside cross",
-   79
+   73
   ],
   [
    "polyptych",
@@ -769,7 +761,7 @@
   ],
   [
    "pulpit",
-   55
+   53
   ],
   [
    "mural",
@@ -789,31 +781,31 @@
   ],
   [
    "work of art",
-   35
-  ],
-  [
-   "watercolor painting",
    32
   ],
   [
-   "stained-glass window",
+   "watercolor painting",
    30
   ],
   [
    "figurine",
-   29
-  ],
-  [
-   "crucifix",
-   29
+   28
   ],
   [
    "plaque",
    28
   ],
   [
+   "stained-glass window",
+   28
+  ],
+  [
    "altarpiece",
    28
+  ],
+  [
+   "crucifix",
+   26
   ]
  ]
 }

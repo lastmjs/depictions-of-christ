@@ -39,6 +39,7 @@
     fetch("data/collection/index.json").then((r) => r.json()).then((m) => {
       $("#collection-count").textContent = m.total.toLocaleString();
       $("#hero-collection").textContent = `Explore all ${m.total.toLocaleString()} works`;
+      $("#index-collection-link").textContent = `Browse all ${m.total.toLocaleString()} works in the complete collection →`;
     }).catch(() => { $("#collection-count").parentElement.remove(); });
 
     const preferred = ["sinai-christ-pantocrator", "deesis-hagia-sophia", "rublev-zvenigorod-savior", "antonello-salvator-mundi", "rembrandt-head-of-christ-philadelphia", "cefalu-pantocrator"];
@@ -302,6 +303,7 @@
 
   /* ---------- index dialog ---------- */
   function renderIndex() {
+    $("#index-count").textContent = `${works.length} hand-picked`;
     const forms = {};
     works.forEach((w) => { if (w.form) forms[w.form] = (forms[w.form] || 0) + 1; });
     const formList = Object.keys(forms).sort((a, b) => forms[b] - forms[a]);

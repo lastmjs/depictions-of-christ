@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=3c0bfb7d4a">
+  <link rel="stylesheet" href="assets/css/style.css?v=31fdf40c82">
 </head>
 <body>
   <a class="skip" href="#journey">Skip to the journey</a>
@@ -31,11 +31,11 @@
     <nav class="topbar-actions">
       <a class="btn-ghost" href="collection.html" title="Every catalogued depiction">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
-        <span>Collection</span>
+        <span>Complete collection</span>
       </a>
-      <button class="btn-ghost" id="open-index" aria-haspopup="dialog">
+      <button class="btn-ghost" id="open-index" aria-haspopup="dialog" title="The works featured in this journey">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
-        <span>All works</span>
+        <span>Featured works</span>
       </button>
     </nav>
   </header>
@@ -71,7 +71,7 @@
       <div class="epilogue-actions">
         <a class="btn-gold" href="collection.html">Explore the complete collection</a>
         <a class="btn-ghost" href="#top">Return to the beginning</a>
-        <button class="btn-ghost" id="open-index-2">Browse the journey</button>
+        <button class="btn-ghost" id="open-index-2">Featured works</button>
       </div>
       <div class="credits">
         <h3>About the images</h3>
@@ -88,7 +88,10 @@
 
   <dialog class="index" id="index" aria-labelledby="index-title">
     <div class="index-head">
-      <h2 id="index-title">All Works</h2>
+      <div class="index-titles">
+        <h2 id="index-title">Featured Works</h2>
+        <p class="index-note"><span id="index-count"></span> highlights of the journey · <a href="collection.html" id="index-collection-link">Browse the complete collection →</a></p>
+      </div>
       <div class="index-filters" id="index-filters" role="group" aria-label="Filter by form"></div>
       <button class="icon-btn" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
@@ -127,6 +130,6 @@
   <noscript><p class="noscript">This journey needs JavaScript to display the artworks.</p></noscript>
 
   <script src="assets/js/data.js?v=8365bfea9c"></script>
-  <script src="assets/js/app.js?v=e5b9946a48"></script>
+  <script src="assets/js/app.js?v=8805c7472c"></script>
 </body>
 </html>

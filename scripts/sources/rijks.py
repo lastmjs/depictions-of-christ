@@ -70,9 +70,9 @@ NL_EN = [
     (r"\bchristuskind(je)?\b|\bkind(je)? jezus\b|\bjezuskind(je)?\b", "christ child"),
     (r"\bkerststal\b|\bkribbe\b|\bkerstnacht\b", "nativity"),
     (r"\bgeboorte van (christus|jezus)\b", "nativity"),
-    (r"\baanbidding (der|van de) herders\b|\bherders aanbidden\b", "adoration of the shepherds"),
+    (r"\baanbidding (der|van de|door de|door) herders\b|\bherders aanbidden\b", "adoration of the shepherds"),
     (r"\bverkondiging aan de herders\b", "annunciation to the shepherds"),
-    (r"\baanbidding (der|van de) (koningen|wijzen|drie koningen)\b|\bdriekoningen\b|\bdrie koningen\b", "adoration of the magi"),
+    (r"\baanbidding (der|van de|door de) (koningen|wijzen|drie koningen)\b|\bdriekoningen\b|\bdrie koningen\b", "adoration of the magi"),
     (r"\bbesnijdenis\b", "circumcision"),
     (r"\bopdracht (van christus )?in de tempel\b|\bopdracht van (christus|jezus)\b", "presentation in the temple"),
     (r"\brust op de vlucht\b", "rest on the flight"),
@@ -95,7 +95,7 @@ NL_EN = [
     (r"\bintocht (van christus )?in jeruzalem\b", "entry into jerusalem"),
     (r"\btempelreiniging\b|\breiniging van de tempel\b|\bverdrijving van de (geldwisselaars|kooplieden)\b|\bgeldwisselaars\b", "cleansing of the temple"),
     (r"\blaatste avondmaal\b|\bheilig avondmaal\b", "last supper"),
-    (r"\bvoetwassing\b|\b(christus|jezus) wast de voeten\b", "christ washing the disciples feet"),
+    (r"\bvoetwassing\b(?! bij)|\b(christus|jezus) wast de voeten\b", "christ washing the disciples feet"),
     (r"\bhof van (olijven|gethsemane|getsemane)\b|\bolijfberg\b|\bgebed in de hof\b|\bgethsemane\b", "agony in the garden"),
     (r"\bjudaskus\b|\bkus van judas\b|\bverraad van (christus|jezus)\b", "kiss of judas"),
     (r"\bgevangenneming( van (christus|jezus))?\b", "arrest of christ"),
@@ -237,14 +237,15 @@ def pick(d, *langs):
 
 
 KIND_RULES = [
+    ("photograph", r"\b(photo|photograph|photomechanical|stereograph|glasnegatief|negative|carte-de-visite|foto|albumen|daguerreotype)"),
     ("manuscript", r"\b(manuscript|miniature|illumination|book of hours|handschrift|getijdenboek)\b"),
     ("painting", r"\b(painting|schilderij|panel|altarpiece|triptych|diptych|icon)\b"),
     ("print", r"\b(print|prent|engraving|etching|woodcut|book illustration)\b"),
-    ("drawing", r"\b(drawing|tekening|sketch|study)\b"),
+    ("drawing", r"\b(drawing|tekening|sketch|study|schetsboekblad)\b"),
     ("photograph", r"\b(photo|photograph|foto|albumen|daguerreotype)\b"),
-    ("textile", r"\b(textile|tapestry|embroidery|lace|vestment|chasuble|cloth)\b"),
-    ("metalwork", r"\b(medal|plaquette|coin|token|silverwork|goldwork|monstrance|chalice|pax|reliquary|pendant|badge|metal)\b"),
-    ("sculpture", r"\b(sculpture|statue|statuette|figure|relief|bust|beeld|carving|crucifix|corpus|group)\b"),
+    ("textile", r"\b(textile|tapestry|embroidery|lace|vestment|chasuble|cloth|napkin|tablecloth)\b"),
+    ("metalwork", r"\b(medal|plaquette|coin|token|silverwork|goldwork|monstrance|chalice|pax|reliquary|pendant|badge|metal|stove plate|candlestick|chandelier|boekslot|copper plate)\b"),
+    ("sculpture", r"\b(sculpture|statue|statuette|figure|relief|bust|beeld|carving|crucifix|corpus|group|marianum)\b"),
 ]
 KIND_RULES = [(k, re.compile(rx, re.I)) for k, rx in KIND_RULES]
 
@@ -257,8 +258,16 @@ def kind_of(types):
     return "other"
 
 
+# "<event> van <someone other than Christ>" (e.g. "Kruisiging van Petrus") must not
+# be read as the Christ event.
+OTHER_EVENT = re.compile(
+    r"\b(graflegging|bewening|geboorte|doop|hemelvaart|besnijdenis|opstanding|verrijzenis|kruisiging|"
+    r"geseling|bespotting|doornenkroning|marteldoo?d) van (?!(christus|jezus|christi|onze (lieve )?heer|"
+    r"de heer|het christuskind|het kind|het kindje|de zaligmaker|de verlosser)\b)", re.I)
+
+
 def translate(nl):
-    t = nl.lower()
+    t = OTHER_EVENT.sub("xx ", nl.lower())
     for rx, en in NL_EN:
         t = rx.sub(f" {en} ", t)
     return re.sub(r"\s+", " ", t).strip()
@@ -322,12 +331,13 @@ def parse(oid, raw):
     title_en = pick(titles, "en") if titles.get("en") else ""
     objnum = (cho.findtext("dc:identifier", default="", namespaces=NS) or "").strip()
 
-    # subjects: iconclass labels for Christ (11D) and New Testament (73) codes
+    # subjects: iconclass labels for Christ (11D), Madonna with Child (11F4) and the
+    # life/passion/resurrection of Christ (73B-73E; 73A is Mary's life, 73F the Acts)
     ic_labels = []
     for s in cho.findall("dc:subject", NS):
         uri = s.get(RES)
         code = nota.get(uri, "")
-        if code.startswith(("11D", "73")):
+        if code.startswith(("11D", "11F4", "73B", "73C", "73D", "73E")):
             ic_labels.append(lab(uri, "en"))
 
     en_for_match = title_en or translate(title_nl)

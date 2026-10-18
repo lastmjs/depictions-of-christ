@@ -327,6 +327,8 @@ def merge_sources(works):
                 continue
             if not r.get("img") or not r.get("u"):
                 continue
+            if f.stem == "rijks" and r.get("k") == "photograph":
+                continue  # 19th-century photographic reproductions of other artworks
             k = fkey(r.get("t"), r.get("a"))
             if k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
                 added[f.stem + " (dup artist+title)"] += 1

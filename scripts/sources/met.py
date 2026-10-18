@@ -12,6 +12,7 @@ Stdlib only. Rate limited to < 10 requests/second.
 Usage: python3 scripts/sources/met.py [--workers N] [--refresh-search]
 """
 import argparse
+import http.cookiejar
 import json
 import random
 import re
@@ -39,7 +40,7 @@ SEARCH_URL = API + "/v1.1/search"
 OBJECT_URL = API + "/v1/objects/{}"
 UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ)"
 PAGE = 500  # max page size accepted by v1.1/search
-MAX_RPS = 4.0  # the Met's WAF (Imperva) blocks sustained bursts well under 10 rps
+MAX_RPS = 1.0  # the Met's WAF (Imperva) 403-blocks this client after ~100 requests even at 2.5 rps
 
 QUERIES = [
     "Christ", "Jesus", "Christus", "Cristo", "Saviour", "Savior", "Redeemer",
@@ -103,6 +104,8 @@ TAG_QUERIES = ["Jesus", "Christ", "Madonna", "Madonna and Child", "Virgin Mary",
                "Crucifixion", "Crucifix", "Nativity", "Holy Family", "Pietà",
                "Trinity", "Last Supper", "Resurrection", "Adoration"]
 
+# Keep the CDN's session cookies like a normal HTTP client would.
+_opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 _lock = threading.Lock()
 _next_slot = [0.0]
 _blocked = {"until": 0.0, "strikes": 0}
@@ -115,7 +118,7 @@ def _cooldown():
         if now < _blocked["until"]:
             return
         _blocked["strikes"] += 1
-        wait = min(900, 60 * 2 ** (_blocked["strikes"] - 1))
+        wait = min(600, 90 * _blocked["strikes"])
         _blocked["until"] = now + wait
         print(f"  blocked (403/429); pausing all requests {wait}s", file=sys.stderr, flush=True)
 
@@ -144,7 +147,7 @@ def get_json(url, tries=12):
         _throttle()
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with _opener.open(req, timeout=60) as r:
                 data = json.loads(r.read().decode("utf-8"))
             _ok()
             return data
@@ -273,9 +276,23 @@ def school_of(obj):
     return ""
 
 
+# Met-specific false positives for title matches.
+MET_FALSE = re.compile(r"\b(buddh\w*|bodhisattva|tara|avalokiteshvara|amitabha|guanyin|kannon|hindu|vishnu|krishna|shiva)\b|\bfrom b\. christ\b|\bw\.\s?b\. christ\b|\bwhere our lord\b", re.I)
+# Only a monogram / bare symbol, not a depiction.
+ONLY_SYMBOL = re.compile(r"\bihs\b", re.I)
+# A single figure from a crèche set other than the Child.
+CRECHE_FIGURE = re.compile(r"\bfrom (a|the) (nativity|cr[eè]che|presepio)\b", re.I)
+
+
 def subjects_for(obj):
     title = (obj.get("title") or "").strip()
     u = classify(title)
+    if u and MET_FALSE.search(title):
+        return [], None
+    if u == ["Jesus Christ"] and ONLY_SYMBOL.search(title) and not classify(ONLY_SYMBOL.sub(" ", title)):
+        u = []
+    if u and CRECHE_FIGURE.search(title) and not re.search(r"\b(child|infant|christ|jesus|bambino|ni[nñ]o)\b", title, re.I):
+        return [], None
     if u:
         return u, "title"
     if EXCLUDE.search(title):
@@ -315,24 +332,36 @@ def record(obj, u):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--workers", type=int, default=1)
+    ap.add_argument("--rps", type=float, default=1.0)
+    ap.add_argument("--cached-only", action="store_true",
+                    help="no object fetches; build output from whatever is cached")
     ap.add_argument("--refresh-search", action="store_true")
     args = ap.parse_args()
+    global MAX_RPS
+    MAX_RPS = min(args.rps, 9.0)
     OBJ_CACHE.mkdir(parents=True, exist_ok=True)
 
-    ids = set()
+    ids = {}  # insertion-ordered: IDs from the most specific queries are fetched first
     jobs = [(q, "title") for q in QUERIES] + [(q, "tags") for q in TAG_QUERIES]
     for i, (q, field) in enumerate(jobs, 1):
         res = search(q, field, args.refresh_search)
-        new = set(res["objectIDs"]) - ids
-        ids |= new
+        new = [i for i in res["objectIDs"] if i not in ids]
+        ids.update(dict.fromkeys(new))
         print(f"[{i}/{len(jobs)}] {field}:{q!r}: {len(res['objectIDs'])} hits, +{len(new)} new (union {len(ids)})", flush=True)
 
-    ids = sorted(ids)
-    print(f"Fetching {len(ids)} objects ...", flush=True)
+    ids = list(ids)
     objs, failed = {}, []
+    if args.cached_only:
+        for oid in ids:
+            path = OBJ_CACHE / f"{oid}.json"
+            if path.exists():
+                objs[oid] = json.loads(path.read_text())
+        print(f"cached-only: {len(objs)}/{len(ids)} objects in cache", flush=True)
+        ids = [i for i in ids if i in objs]
+    print(f"Fetching {len(ids)} objects ...", flush=True)
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = {ex.submit(fetch_object, oid): oid for oid in ids}
+        futs = {ex.submit(fetch_object, oid): oid for oid in ids if oid not in objs}
         for n, f in enumerate(as_completed(futs), 1):
             oid = futs[f]
             try:
@@ -340,13 +369,13 @@ def main():
             except Exception as e:  # noqa: BLE001
                 failed.append(oid)
                 print(f"  failed {oid}: {e}", file=sys.stderr)
-            if n % 1000 == 0:
+            if n % 500 == 0:
                 print(f"  {n}/{len(ids)}", flush=True)
 
     drops = Counter()
     via = Counter()
     out = []
-    for oid in ids:
+    for oid in sorted(ids):
         obj = objs.get(oid)
         if obj is None:
             drops["fetch failed"] += 1

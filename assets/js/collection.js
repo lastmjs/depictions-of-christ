@@ -112,7 +112,29 @@
     lastCentury = undefined;
   }
 
+  // The first century has no surviving depictions; say so where it would appear in the timeline.
+  const FIRST_CENTURY_NOTE = `
+    <section class="century century-empty">
+      <header class="century-head" id="century-1">
+        <h2>The 1st Century</h2>
+        <span class="span">AD 1 – 100</span>
+        <span class="n">no surviving works</span>
+      </header>
+      <div class="empty-note">
+        <p>No image of Christ survives from the century in which he lived, died and rose again. The first believers
+        worshipped in homes, and the earliest pictures we know were made around AD 200–250, in Rome's catacombs and
+        in the house church at Dura-Europos on the Euphrates.</p>
+        <p>Later centuries treasured images believed to come from his own time: the cloth sent to King Abgar of Edessa,
+        Veronica's veil, icons said to have been painted by St Luke, the crucifixes said to have been carved by
+        Nicodemus, and the Shroud of Turin. Each appears in this collection at the date to which scholars assign it,
+        with its tradition told in its description.</p>
+      </div>
+    </section>`;
+
   function renderMore(until) {
+    if (rendered === 0 && isUnfiltered() && filtered.length && filtered[0].c_ > 1) {
+      $("#col-results").insertAdjacentHTML("beforeend", FIRST_CENTURY_NOTE);
+    }
     const target = Math.min(filtered.length, until != null ? Math.max(until + 1, rendered + BATCH) : rendered + BATCH);
     const frag = document.createDocumentFragment();
     for (; rendered < target; rendered++) {
@@ -155,17 +177,22 @@
     const cs = [...new Set(all.map((w) => w.c_).filter((c) => c != null && c > 0))].sort((a, b) => a - b);
     if (!cs.length) return;
     const full = [];
-    for (let c = cs[0]; c <= cs[cs.length - 1]; c++) full.push(c);
+    for (let c = Math.min(1, cs[0]); c <= cs[cs.length - 1]; c++) full.push(c);
     const max = Math.max(1, ...full.map((c) => countByCentury.get(c) || 0));
     $("#histogram").innerHTML = full.map((c) => {
       const n = countByCentury.get(c) || 0;
       const h = n ? Math.max(3, Math.sqrt(n / max) * 100) : 2;
-      return `<button class="hist-bar${n ? "" : " empty"}" data-c="${c}" title="${esc(centuryName(c))}: ${n.toLocaleString()} works" ${n ? "" : "disabled"}>
+      const note = c === 1 && !n && isUnfiltered();
+      return `<button class="hist-bar${n ? "" : " empty"}" data-c="${c}" title="${esc(centuryName(c))}: ${note ? "no surviving works — read why" : `${n.toLocaleString()} works`}" ${n || note ? "" : "disabled"}>
         <i style="height:${h}%"></i><span>${c > 0 ? (c - 1) * 100 : ""}</span></button>`;
     }).join("");
   }
 
   function jumpToCentury(c) {
+    if (c === 1 && document.getElementById("century-1") && !filtered.some((w) => w.c_ === 1)) {
+      document.getElementById("century-1").scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
     const i = filtered.findIndex((w) => w.c_ === c);
     if (i < 0) return;
     if (i >= rendered) renderMore(i + BATCH);

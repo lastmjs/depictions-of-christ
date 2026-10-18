@@ -121,3 +121,5 @@
 }
 @media (max-width: 420px) { .pp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .map-key[hidden] { display: none; }
+.cb-chip:disabled { opacity: .45; cursor: help; }
+.cb-chip:disabled:hover { transform: none; border-color: var(--line-soft); }

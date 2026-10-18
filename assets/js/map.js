@@ -62,8 +62,10 @@
     const cs = [...counts.keys()].sort((a, b) => a - b);
     const chip = (c, label, n, title) =>
       `<button class="cb-chip" data-c="${c}" aria-pressed="false" title="${esc(title)}"><b>${label}</b><small>${n.toLocaleString()}</small></button>`;
+    const first = counts.has(1) ? "" :
+      `<button class="cb-chip" data-c="1" aria-pressed="false" disabled title="No depictions of Christ survive from the 1st century; the earliest date from c. AD 200–250."><b>1st</b><small>none</small></button>`;
     $("#cb-track").innerHTML =
-      chip("all", "All", located, "All centuries") +
+      chip("all", "All", located, "All centuries") + first +
       cs.map((c) => chip(c, c > 0 ? ordinal(c) : "BC", counts.get(c), centuryName(c))).join("") +
       (undated ? chip("undated", "Undated", undated, "Date unknown") : "");
   }

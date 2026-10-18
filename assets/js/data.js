@@ -56,7 +56,7 @@ window.DEPICTIONS = {
       "credit": "Justin Benttinen"
      },
      "ck": "Q577890",
-     "cp": 90
+     "cp": 3216
     },
     {
      "id": "dura-europos-healing-of-the-paralytic",
@@ -197,7 +197,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q18673023",
-     "cp": 302
+     "cp": 3213
     },
     {
      "id": "good-shepherd-statue-pio-cristiano",
@@ -379,7 +379,7 @@ window.DEPICTIONS = {
       "credit": "Autoría desconocida"
      },
      "ck": "commons:81707299",
-     "cp": 90
+     "cp": 3259
     },
     {
      "id": "brescia-casket",
@@ -721,7 +721,7 @@ window.DEPICTIONS = {
       "credit": "Ymblanter"
      },
      "ck": "Q112785721",
-     "cp": 707
+     "cp": 3220
     },
     {
      "id": "archbishops-chapel-christ-warrior",
@@ -1200,7 +1200,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Unknown artistUnknown artist"
      },
-     "ck": "commons:98691695"
+     "ck": "commons:98691695",
+     "cp": 3242
     },
     {
      "id": "stuma-paten-communion-of-the-apostles",
@@ -1377,7 +1378,7 @@ window.DEPICTIONS = {
       "credit": "anonymous"
      },
      "ck": "Q9191525",
-     "cp": 261
+     "cp": 3211
     }
    ]
   },
@@ -1568,7 +1569,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Godescalc"
      },
-     "ck": "commons:25371411"
+     "ck": "commons:25371411",
+     "cp": 3245
     },
     {
      "id": "book-of-kells-christ-enthroned",
@@ -1782,7 +1784,7 @@ window.DEPICTIONS = {
       "credit": "AnonymousUnknown author"
      },
      "ck": "Q55347059",
-     "cp": 647
+     "cp": 3219
     },
     {
      "id": "hagia-sophia-imperial-gate-mosaic",
@@ -1909,7 +1911,7 @@ window.DEPICTIONS = {
       "credit": ""
      },
      "ck": "Q23356",
-     "cp": 543
+     "cp": 3209
     },
     {
      "id": "gero-cross",
@@ -2340,7 +2342,8 @@ window.DEPICTIONS = {
       "licenseUrl": null,
       "credit": "Unknown authorUnknown author"
      },
-     "ck": "commons:98503161"
+     "ck": "commons:98503161",
+     "cp": 2158
     },
     {
      "id": "conques-last-judgment-tympanum",
@@ -3349,7 +3352,8 @@ window.DEPICTIONS = {
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Till Niermann"
      },
-     "ck": "commons:50399629"
+     "ck": "commons:50399629",
+     "cp": 2100
     },
     {
      "id": "gracanica-dome-pantocrator",

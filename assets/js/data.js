@@ -5865,7 +5865,7 @@ window.DEPICTIONS = {
      "facts": [
       "Its nickname dates from Rembrandt's own era: a letter of 1654 reports that impressions had been sold in Holland several times for the extraordinary sum of one hundred guilders.",
       "Rembrandt is thought to have worked on the plate in stages through the 1640s, combining highly finished passages with sketch-like areas left almost bare.",
-      "The worn plate was later reworked and cut into pieces by the English engraver Captain William Baillie around 1775."
+      "Around 1775 the worn plate was heavily reworked by the amateur engraver Captain William Baillie, who printed an edition from it and then cut it into four pieces."
      ],
      "scripture": "Matthew 19",
      "commons": "File:Rembrandt The Hundred Guilder Print.jpg",
@@ -5903,7 +5903,7 @@ window.DEPICTIONS = {
      "style": "Dutch Golden Age",
      "summary": "In a tall, bare stone room, the risen Christ breaks bread at a simple table, and in that moment the two disciples recognise him. Rather than Caravaggio's dramatic gestures, Rembrandt chooses stillness: one disciple folds his hands, the other draws back slightly, and a young servant arrives unaware. A soft light around Christ's pale, gentle face is the only sign of the miracle.",
      "facts": [
-      "The face of Christ is related to Rembrandt's series of oil studies of a young Jewish man from Amsterdam, made in the same years, a striking break from the conventional idealised Christ.",
+      "The face of Christ is related to a series of small oil studies of Christ's head that Rembrandt made in these years, apparently from a young model in Amsterdam, a striking break from the conventional idealised Christ.",
       "The arched niche behind Christ acts like an apse, turning the humble inn into a kind of church.",
       "Rembrandt returned to the Emmaus story many times, in paintings, etchings and drawings, from a dramatic candlelit version of about 1629 (Musée Jacquemart-André) to this serene late interpretation."
      ],
@@ -6292,7 +6292,7 @@ window.DEPICTIONS = {
      "summary": "Christ's head turns gently aside, his right hand raised in blessing above a mass of swirling drapery that seems lifted by the wind. Bernini carved this bust at the age of about eighty as his last work, a personal meditation on the Saviour to whom he was preparing to commend his soul. Its restless folds and inward gaze sum up a lifetime of Baroque sculpture.",
      "facts": [
       "Bernini bequeathed the bust to his friend and patron Queen Christina of Sweden, who lived in Rome after converting to Catholicism.",
-      "Its trail was lost in the late 18th century; in 2001 the art historian Francesco Petrucci recognised it in a photograph of a bust kept at San Sebastiano fuori le mura. Most specialists now accept it as Bernini's original, though some, notably Tomaso Montanari, favour a version in the Chrysler Museum of Art in Norfolk, Virginia.",
+      "Its trail was lost in the late 18th century; around 2001 the art historian Francesco Petrucci recognised it in a photograph of a bust kept at San Sebastiano fuori le mura. Most specialists now accept it as Bernini's original, though some, notably Tomaso Montanari, favour a version in the Chrysler Museum of Art in Norfolk, Virginia.",
       "Bernini died in 1680, the year after completing it."
      ],
      "commons": "File:Gianlorenzo bernini, busto del salvator mundi, 1679 (roma, san sebastiano fuori le mura) 01.jpg",
@@ -6885,7 +6885,7 @@ window.DEPICTIONS = {
      "style": "Romanticism",
      "summary": "A small boat is tossed on a churning green sea while the terrified disciples bail, row and cry out. In the stern, wrapped in a halo of light, Christ sleeps peacefully, the one calm point in the storm. Delacroix, the great colourist of French Romanticism, turned the Gospel story into a meditation on faith amid chaos.",
      "facts": [
-      "Delacroix painted at least six versions of the subject, most of them in the 1850s, some showing a rowing boat and others a sailing boat; others are in the Walters Art Museum, the Philadelphia Museum of Art, the Nelson-Atkins Museum and the Bührle Collection.",
+      "Delacroix painted at least six versions of the subject, most of them in the 1850s, some showing a rowing boat and others a sailing boat; others are in the Walters Art Museum, the Portland Art Museum (Oregon), the Nelson-Atkins Museum and the Bührle Collection.",
       "Vincent van Gogh saw this painting on display in Paris in 1886 and later wrote that it spoke a symbolic language through colour itself.",
       "The Met's version came to the museum in 1929 with the celebrated bequest of Louisine Havemeyer."
      ],
@@ -7182,7 +7182,7 @@ window.DEPICTIONS = {
      "medium": "Oil on canvas",
      "form": "Painting",
      "style": "Realism",
-     "summary": "A barefoot boy in a simple tunic stands among elderly teachers in a synagogue, explaining the Scriptures while they lean in to listen. Liebermann, himself Jewish, based the setting on studies made in synagogues in Amsterdam and Venice and painted Jesus as an ordinary Jewish child. Exhibited in Munich in 1879, it provoked one of the great art scandals of the century.",
+     "summary": "A slender boy in a long white robe stands among elderly teachers in a synagogue, explaining the Scriptures while they lean in to listen. Liebermann, himself Jewish, based the setting on studies made in synagogues in Amsterdam and Venice and painted Jesus as an ordinary Jewish child. Exhibited in Munich in 1879, it provoked one of the great art scandals of the century.",
      "facts": [
       "The critic Friedrich Pecht called the boy 'the ugliest, most impertinent Jewish boy imaginable', and in January 1880 the painting was debated for two days in the Bavarian parliament.",
       "Under the pressure, Liebermann overpainted the figure of Jesus, giving him longer, fair hair, sandals and a long white robe; studies and an early photograph show the original conception.",
@@ -7194,6 +7194,10 @@ window.DEPICTIONS = {
       {
        "label": "Wikipedia",
        "url": "https://en.wikipedia.org/wiki/The_Twelve-Year-Old_Jesus_in_the_Temple"
+      },
+      {
+       "label": "Hamburger Kunsthalle",
+       "url": "https://online-sammlung.hamburger-kunsthalle.de/de/objekt/HK-5424"
       }
      ],
      "era": "nineteenth-century",
@@ -7659,7 +7663,7 @@ window.DEPICTIONS = {
      "summary": "Christ, accompanied by the virtues, enters the sunlit garden of the Greek gods, and the Olympians react with surprise, curiosity and alarm, while Psyche kneels before him. Klinger staged the passing of the classical world before Christianity as a single monumental tableau. Painting, sculpture and frame are fused into a Gesamtkunstwerk several metres wide.",
      "facts": [
       "Klinger, a painter, sculptor and printmaker, believed the arts should be united; marble figures and a carved predella form part of the work.",
-      "First shown in Leipzig in 1897, it entered the Austrian state collection (now the Belvedere) in 1901, at a time when the artists of the Vienna Secession greatly admired Klinger; since 1938 it has been on long-term loan to Leipzig's Museum der bildenden Künste, which restored it in 2007–08.",
+      "Completed in 1897, it entered the Austrian state collection (now the Belvedere) in 1901, at a time when the artists of the Vienna Secession greatly admired Klinger; since 1938 it has been on long-term loan to Leipzig's Museum der bildenden Künste, where it hangs in the Klinger room.",
       "Klinger is also known for his polychrome Beethoven monument, the centrepiece of the Secession's famous 1902 exhibition."
      ],
      "commons": "File:Max Klinger - Christus im Olymp - 433h - Österreichische Galerie Belvedere.jpg",
@@ -7971,7 +7975,7 @@ window.DEPICTIONS = {
      "summary": "In a pale, wooded garden, the risen Christ stands before the kneeling Mary Magdalene and gestures to her not to approach, while showing her the wounds of his Passion. Around them Denis unfolds the rest of Easter morning: Peter and John hurrying to the tomb, and the holy women addressed by two angels guarding the sepulchre. The soft, luminous colours and arched format reflect Denis's lifelong ambition to renew sacred art for churches of the modern age.",
      "facts": [
       "In 1919, the year before this painting, Denis co-founded the Ateliers d'Art Sacré in Paris with George Desvallières to train artists for the decoration of churches.",
-      "The canvas, catalogued by the museum as a sketch (esquisse) with an arched top, was bequeathed to Reims by the art historian and curator Paul Jamot in 1939.",
+      "The lunette-shaped canvas, catalogued by the museum as a sketch (esquisse), relates to Denis's decoration of the chapel of the Prieuré, his home at Saint-Germain-en-Laye; it was bequeathed to Reims by the art historian and curator Paul Jamot in 1939.",
       "Several episodes of the Resurrection appear side by side in the one landscape, a narrative device that recalls early Italian painting, which Denis deeply admired."
      ],
      "scripture": "John 20:11–18",
@@ -8084,15 +8088,15 @@ window.DEPICTIONS = {
      "artist": "Nicholas Roerich",
      "date": "1924",
      "year": 1924,
-     "created": "Talai-Pho-Brang, Darjeeling, India (inscribed 24 April 1924)",
+     "created": "Darjeeling, India",
      "location": "International Centre of the Roerichs, Moscow, Russia",
-     "medium": "Tempera on canvas (Google Arts & Culture lists oil)",
+     "medium": "Tempera on canvas",
      "form": "Painting",
      "style": "Symbolism",
      "summary": "Among wind-rippled dunes of ochre sand beneath blue hills, a long-haired figure of Christ sits tracing mysterious signs in the sand with a staff, while a hooded companion bends over him to watch. Roerich, the Russian painter, mystic and explorer, was fascinated by legends of Christ's presence in Asia and painted him as a quiet wanderer in a timeless landscape. The flat, glowing colours give the scene the stillness of an icon.",
      "facts": [
       "The painting belongs to Roerich's 'Banners of the East' series, which portrays teachers and prophets of many religions.",
-      "The painting is signed and dated 1924 at Talai-Pho-Brang, the house in Darjeeling where the Roerich family lived after arriving in India.",
+      "It was painted in 1924 in Darjeeling, where the Roerich family had settled after arriving in India; the canvas, in tempera, measures about 74 by 118 cm.",
       "In 1925, during his Central Asian expedition, Roerich recorded legends in Ladakh about 'Issa' (Jesus) travelling in India, which he retold in his book Altai–Himalaya."
      ],
      "commons": "File:Signs of Christ.jpg",
@@ -8104,6 +8108,10 @@ window.DEPICTIONS = {
       {
        "label": "Google Arts & Culture (International Centre of the Roerichs)",
        "url": "https://artsandculture.google.com/asset/8AG6lyiWPTSE0Q"
+      },
+      {
+       "label": "International Centre of the Roerichs: catalogue entry (Russian)",
+       "url": "https://icr.su/rus/katalog/10.php?i=2302"
       }
      ],
      "era": "modern",
@@ -8173,14 +8181,14 @@ window.DEPICTIONS = {
      "year": 1926,
      "created": "Güstrow, Germany",
      "location": "Original wood carving: Hamburg (Reemtsma collection, Ernst Barlach Haus); bronze cast pictured: Osthaus Museum, Hagen, Germany",
-     "medium": "Wood (original carving); bronze casts",
+     "medium": "Sapele (mahogany) wood (original carving); bronze casts",
      "form": "Sculpture",
      "style": "Expressionism",
      "summary": "Two long-robed figures meet in an embrace: the risen Christ, thin and upright, supports the doubting apostle Thomas, who sinks against him and gazes up into his face. Barlach reduces the Gospel encounter to two bodies and one gesture of recognition and mercy. It is one of the most tender works of German Expressionist sculpture.",
      "facts": [
       "Barlach, also a playwright, was preoccupied with themes of doubt, longing and spiritual rebirth, which this sculpture embodies.",
       "The wooden original was bought by the Schwerin state museum soon after it was carved, but was confiscated by the Nazis as 'degenerate art' in 1937; it later passed to the Hamburg collector Hermann F. Reemtsma.",
-      "The first bronzes, cast from a smaller plaster model, were made in 1930 for the Galerie Flechtheim in Berlin; further casts made after 1945 are in several collections, including the Neue Nationalgalerie, Berlin."
+      "Bronze casts of the group are in several collections, including the Osthaus Museum in Hagen and the Laurentiuskirche in Herne-Wanne, so that Barlach's image of doubt and recognition can still be seen in churches and museums across Germany."
      ],
      "scripture": "John 20:26–29",
      "commons": "File:1926 Barlach Das Wiedersehen.JPG",
@@ -8306,7 +8314,7 @@ window.DEPICTIONS = {
      "summary": "A massive, block-like Christ stands bound, his heavy head and broad face confronting the viewer with silent endurance. Epstein carved the figure directly from a single block of marble, rejecting any sweet or idealised image of Jesus in favour of something monumental and primal. Today it stands in the bombed-out shell of Coventry's medieval cathedral, a witness to suffering and reconciliation.",
      "facts": [
       "When first exhibited in 1935 it was attacked as ugly and even blasphemous, and it remained unsold for decades.",
-      "After Epstein's death, the sculpture was given to Coventry Cathedral at the wish of his widow, Lady (Kathleen) Epstein, and was dedicated in the ruins on 22 March 1969.",
+      "After Epstein's death, the sculpture was given to Coventry Cathedral at the wish of his widow, Lady (Kathleen) Epstein, and was installed in the ruins in 1969.",
       "Epstein also made the large bronze St Michael's Victory over the Devil on the wall of the new Coventry Cathedral, as well as the aluminium Majestas in Llandaff Cathedral."
      ],
      "scripture": "John 19:5",
@@ -8483,7 +8491,7 @@ window.DEPICTIONS = {
      "facts": [
       "Kim, who lost his hearing in childhood, began the series in 1952 at his mother-in-law's house in Gunsan, where he had fled during the war.",
       "He was encouraged by an American missionary, Anders K. Jensen, who argued that Koreans needed an image of Jesus that looked like them; Kim adapted traditional European Christian iconography to Korean settings.",
-      "In 1973 Kim painted the official standard portrait of King Sejong the Great, the image that has appeared on the South Korean 10,000-won banknote."
+      "In the 1970s Kim painted the official standard portrait of King Sejong the Great, the image used on the South Korean 10,000-won banknote."
      ],
      "commons": null,
      "copyrightNote": "© Estate of Kim Ki-chang. The series is held by the Seoul Museum in Buam-dong, Seoul.",
@@ -8542,7 +8550,7 @@ window.DEPICTIONS = {
      "summary": "Christ sits at a stone table before a calm bay, with twelve disciples bowed in prayer around him, while a vast transparent torso floats above with outstretched arms. The room is set within a huge, glass-like dodecahedron, a geometric figure that Plato associated with the cosmos. Dalí, who had returned to Catholicism, presents the Last Supper as a timeless, luminous sacrament rather than a dramatic meal.",
      "facts": [
       "The landscape is the bay of Port Lligat, near Dalí's home on the Costa Brava.",
-      "The collector Chester Dale, who reputedly suggested the subject, bought it in 1956 and sent it to the National Gallery, where it went on view the day before Easter 1956; it formally entered the museum's collection as part of the Chester Dale Collection in 1963.",
+      "The banker and collector Chester Dale, who had told Dalí he must paint 'one more religious picture', acquired it and placed it at the National Gallery, believing it 'too important to keep for a few'; it formally entered the collection with the Chester Dale Collection in 1963.",
       "It became one of the most-viewed paintings at the National Gallery, even as critics debated its worth; the theologian Paul Tillich dismissed it as 'junk'."
      ],
      "scripture": "Matthew 26:26–29",
@@ -8750,7 +8758,7 @@ window.DEPICTIONS = {
      "date": "1986",
      "year": 1986,
      "created": "New York City, USA",
-     "location": "Various collections, including the Andy Warhol Museum, Pittsburgh",
+     "location": "Various collections, including the Menil Collection, Houston, and the Andy Warhol Museum, Pittsburgh",
      "medium": "Synthetic polymer paint and silkscreen ink on canvas, and drawings",
      "form": "Painting",
      "style": "Pop Art",

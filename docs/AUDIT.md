@@ -10,12 +10,18 @@ The audit proceeds one century at a time. A century is **complete** only when al
 
 | Century | Works now | Completeness | Hand-check | Categorisation | Status |
 |---|---|---|---|---|---|
-| 1st–7th | 73 | in progress (specialist researchers) | ✅ all existing works checked | in progress | 🔄 |
-| 8th | 11 | in progress (specialist researchers) | ✅ all existing works checked | in progress | 🔄 |
-| 9th | 18 | in progress (specialist researchers) | ✅ all existing works checked | in progress | 🔄 |
-| 10th | 32 | in progress (specialist researchers) | ✅ all existing works checked | in progress | 🔄 |
-| 11th | 68 (31 checked incidentally) | not started | partial | not started | ⏳ |
-| 12th–21st | ~46,700 | not started | not started | not started | ⏳ |
+| 1st | 0 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 2nd | 4 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 3rd | 28 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 4th | 87 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 5th | 23 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 6th | 86 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 7th | 26 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 8th | 49 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 9th | 172 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 10th | 202 | first pass done; follow-up research running | ✅ all checked | ✅ (checked with hand-check) | 🔄 |
+| 11th | — | not started | partial (31 incidental) | not started | ⏳ |
+| 12th–21st | ~70,000 | not started | not started | not started | ⏳ |
 | Undated | ~6,300 | not started | not started | not started | ⏳ |
 
 Notes
@@ -23,4 +29,14 @@ Notes
   church mosaics and wall paintings; manuscripts; ivories, metalwork, coins, icons and sculpture.
 - Works with no freely licensed image online cannot be shown; they are listed in the research reports.
 
-Hand-check results so far (1st–11th c.): 201 works reviewed — 35 verified as catalogued, 136 corrected, 30 removed (duplicates, works where Christ is not depicted, one counterfeit).
+
+## 1st–10th centuries — progress
+
+- 677 works now in the collection for this period (up from 145 at the start of the audit).
+- First completeness pass added 472 missing works: 80 catacomb paintings, sarcophagi and gold glass; 97 mosaics and wall
+  paintings; 188 manuscript miniatures; 107 ivories, metalwork, coins, icons and crosses.
+- Every work for the period has been individually hand-checked; across all batches so far 533 were verified as
+  catalogued, 242 corrected and 62 removed (duplicates, works not depicting Christ, reproductions, a counterfeit).
+- Follow-up research is running on the gaps the first pass listed (more Utrecht Psalter / Codex Egberti / Otto III
+  Gospels / Beatus pages; further sarcophagi; Cappadocia, Faras, Bawit, Georgia, Armenia; seals, Coptic textiles,
+  Insular stones). The century is marked complete when those finish.

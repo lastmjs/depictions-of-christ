@@ -92,14 +92,35 @@
       $("#col-total").textContent = "The collection could not be loaded.";
       return;
     }
-    const parts = await Promise.all(index.centuries.map((c) =>
-      fetch(`data/collection/c-${c.century}.json`).then((r) => r.json()).catch(() => [])));
-    all = parts.flat();
-    all.forEach((w, n) => {
-      w.n = n;
+    // Load every century in parallel, but start showing the earliest ones as soon as they arrive.
+    const parts = new Array(index.centuries.length);
+    let shown = 0, previewed = false;
+    const prep = (list) => list.forEach((w) => {
       w.c_ = centuryOf(w.y);
       w.hay = [w.t, w.a, w.c, w.l, w.m, w.s, w.k, w.d, (w.u || []).join(" ")].join(" ").toLowerCase();
     });
+    await Promise.all(index.centuries.map((c, k) =>
+      fetch(`data/collection/c-${c.century}.json`).then((r) => r.json()).catch(() => []).then((list) => {
+        prep(list);
+        parts[k] = list;
+        while (shown < parts.length && parts[shown]) shown++;
+        if (!previewed && shown && !location.hash) {
+          const ready = parts.slice(0, shown).flat();
+          if (ready.length >= 150) {
+            previewed = true;
+            all = ready;
+            all.forEach((w, n) => { w.n = n; });
+            filtered = all.slice();
+            $("#col-results").innerHTML = "";
+            rendered = 0; lastCentury = undefined;
+            countByCentury.clear();
+            filtered.forEach((w) => countByCentury.set(w.c_, (countByCentury.get(w.c_) || 0) + 1));
+            renderMore();
+          }
+        }
+      })));
+    all = parts.flat();
+    all.forEach((w, n) => { w.n = n; });
     $("#col-total").innerHTML = `<strong>${all.length.toLocaleString()}</strong> works of art`;
 
     const subj = $("#subject");
@@ -108,7 +129,14 @@
     index.types.filter(([, n]) => n >= 5).forEach(([t, n]) => form.insertAdjacentHTML("beforeend", `<option value="${esc(t)}">${esc(t[0].toUpperCase() + t.slice(1))} (${n.toLocaleString()})</option>`));
 
     const jump = readHash();
-    apply();
+    if (previewed && !state.q && !state.subject && !state.form && state.order === "asc") {
+      // the preview already shows the start of the full, unfiltered list: just extend it
+      filtered = all;
+      $("#col-count").innerHTML = `Showing all <b>${all.length.toLocaleString()}</b>`;
+      renderHistogram();
+    } else {
+      apply();
+    }
     openFromHash();
     if (jump) requestAnimationFrame(() => jumpToCentury(jump));
   }
@@ -336,7 +364,14 @@
     if (KEY_RX.test(raw)) { openFromHash(); return; }
     if (openIdx >= 0) return;
     const jump = readHash();
-    apply();
+    if (previewed && !state.q && !state.subject && !state.form && state.order === "asc") {
+      // the preview already shows the start of the full, unfiltered list: just extend it
+      filtered = all;
+      $("#col-count").innerHTML = `Showing all <b>${all.length.toLocaleString()}</b>`;
+      renderHistogram();
+    } else {
+      apply();
+    }
     if (jump) requestAnimationFrame(() => jumpToCentury(jump));
   });
 

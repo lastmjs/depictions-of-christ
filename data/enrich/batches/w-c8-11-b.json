@@ -1,0 +1,977 @@
+[
+ {
+  "key": "Q116410479",
+  "status": "rejected",
+  "reject_reason": "Duplicate: same Met ivory situla (17.190.45, object 464438) as commons:60921233 in the companion worklist w-c8-11-a, which photographs the same object (file sf17-190-45s4).",
+  "dup_of": "commons:60921233",
+  "set": {},
+  "notes": "This entry carries the better record (Met object page, full Met metadata, primary image DP355173). When merging, transfer to the kept entry: title 'Situla (Bucket for Holy Water)', d '860–880', c 'northern France', culture Carolingian, medium 'Elephant ivory with gilded copper-alloy mounts and foil inlays', src https://www.metmuseum.org/art/collection/search/464438. The Met describes it as the earliest surviving ivory holy-water bucket, carved from a hollowed section of tusk with two registers of Christ's life (lower: Annunciation, Visitation, Nativity, Dream of Joseph, Baptism; upper: Betrayal, Flagellation, Last Supper, Ascension, Holy Women at the Sepulchre, Crucifixion). The worklist tag 'Baptism' is only one of eleven scenes."
+ },
+ {
+  "key": "Q115590816",
+  "status": "corrected",
+  "set": {
+   "t": "Casket with Scenes from the Childhood of Christ",
+   "original_title": "Coffret : Scènes de l'Enfance du Christ",
+   "a": "Second Metz school",
+   "d": "c. 870–880",
+   "y": 875,
+   "c": "Metz",
+   "l": "Musée du Louvre, Paris",
+   "m": "Elephant ivory",
+   "k": "casket"
+  },
+  "summary": "This Carolingian ivory casket, with its high gabled lid, is carved on every face with the story of Christ's infancy. On the side shown, the lid presents the Magi, in their Phrygian caps, bringing gifts to the Child, while the panel below shows Herod enthroned among armed guards as he receives the travellers from the East, all set within dense acanthus scrolls. Read around the box, the scenes unfold the mystery of the Incarnation from the Annunciation and Visitation to the Flight into Egypt.",
+  "scripture": "Matthew 2:1–12; Luke 1:26–56; Luke 2:1–40",
+  "facts": [
+   "The Louvre attributes the casket to the 'second school of Metz' and dates it to about 870–880 on stylistic grounds.",
+   "Besides the Magi before Herod and the Adoration, the Louvre identifies the Dream of Joseph, the Visitation, the angel warning the sleeping Magi, an Annunciation (?), the Flight into Egypt, the Nativity and the Presentation in the Temple on the other faces.",
+   "Fixing holes show that a metal mount once covered the edges of the panels; the casket came from the collection of the Lyon painter Pierre Révoil and was bought by the Louvre in 1828."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010112520"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q115590816"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Coffret_avec_sc%C3%A8nes_de_l%27Enfance_du_Christ_-_Mus%C3%A9e_du_Louvre_Objets_d%27art_MRR_75.jpg"
+   }
+  ],
+  "notes": "Inventory MRR 75. Date was given as '870s'; the Louvre gives c. 870–880 and Metz as place of making."
+ },
+ {
+  "key": "Q116410370",
+  "status": "verified",
+  "set": {},
+  "summary": "A Byzantine ivory of the Crucifixion is set like a jewel at the heart of a gilded-silver book cover studded with sapphire, glass and rock crystal. Christ hangs upright on the cross with arms outstretched, the Virgin and Saint John stand on either side, and two half-length angels hover above. Carved in Constantinople in the tenth century and remounted in Spain about a century later, the cover shows how prized Byzantine images of the Passion were in the medieval West.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Met notes that the ivory originally formed the centre of a Byzantine three-panelled icon before being reused in this binding.",
+   "The cover may have been one of the many gifts to the nunnery of Santa Cruz de la Serós, founded by Queen Felicia (d. 1085), wife of Sancho V Ramírez of Aragon and Navarre.",
+   "A sapphire seal set to the right of Saint John is inscribed in Arabic with four of the ninety-nine 'Beautiful Names' of God."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464015"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116410370"
+   }
+  ],
+  "notes": "Met accession 17.190.134 (Gift of J. Pierpont Morgan, 1917). Also published by the Met as 'Book Cover with Byzantine Icon of the Crucifixion'."
+ },
+ {
+  "key": "met:460946",
+  "status": "corrected",
+  "set": {
+   "y": 1585
+  },
+  "summary": "In this gilt-bronze pax, the Virgin sits enthroned before a backdrop of classical arches and buildings, tenderly drawing the Christ Child to her cheek while the young Saint John the Baptist, haloed, leans against her knee. Her mantle falls in rich patterned folds, and the whole is enclosed in an elaborate scrolled frame with cherub heads. A pax was offered to the faithful to kiss during Mass as the sign of peace, so this intimate image of the Holy Family was made to be touched in devotion.",
+  "scripture": "Luke 2:40 (theme)",
+  "facts": [
+   "The Met dates the model to the third quarter and this cast to the last quarter of the 16th century, probably Rome.",
+   "The frame was cast in four separate parts and riveted at each corner; the reverse has a reddish-brown patina while the face is gilt.",
+   "It belongs to the Robert Lehman Collection, given to the Met in 1975."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/460946"
+   }
+  ],
+  "notes": "Worklist year 900 was an error: this is a late Renaissance work (late 16th century). It depicts the Christ Child, so it remains in the collection, but belongs with 16th-century works."
+ },
+ {
+  "key": "Q138869462",
+  "status": "corrected",
+  "set": {
+   "d": "late 10th century",
+   "y": 990,
+   "c": "Metz (?)",
+   "l": "Kunsthistorisches Museum, Vienna (Kunstkammer)"
+  },
+  "summary": "Christ, seen from behind, rises up a channel of cloud and grasps the hand of God reaching down from heaven, while rows of figures look on from the clouds at either side. Below, two angels gesture down to the Virgin and the apostles, who crowd together in vivid gestures of wonder. Framed by a deep acanthus border, this ivory once adorned the cover of a liturgical book, presenting the Ascension as the triumphant return of the Son to the Father.",
+  "scripture": "Acts 1:9–11; Luke 24:50–53",
+  "facts": [
+   "The Kunsthistorisches Museum dates the plaque to the end of the 10th century and attributes it, with a query, to Metz.",
+   "The museum notes that the elegant acanthus frieze and parts of the composition follow Byzantine models.",
+   "Showing Christ from behind being drawn up by the hand of God is a distinctive Western way of representing the Ascension."
+  ],
+  "links": [
+   {
+    "label": "Kunsthistorisches Museum",
+    "url": "https://www.khm.at/kunstwerke/himmelfahrt-christi-93297"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q138869462"
+   }
+  ],
+  "notes": "Inv. Kunstkammer 7284; 20.6 × 14.4 cm. Date was '900s'; the museum gives 'Ende 10. Jh.'. The third fact is a general iconographic observation, not from the museum text."
+ },
+ {
+  "key": "commons:153585327",
+  "status": "rejected",
+  "reject_reason": "Duplicate: a cropped detail of the same Morgan Beatus page (fol. 174v) as commons:153352956, which shows the whole page.",
+  "dup_of": "commons:153352956",
+  "set": {}
+ },
+ {
+  "key": "commons:153352956",
+  "status": "corrected",
+  "set": {
+   "t": "The Lamb on Mount Zion with the Harpers (Morgan Beatus, fol. 174v)",
+   "a": "Maius (Magius)",
+   "d": "c. 945",
+   "y": 945,
+   "c": "León, Spain",
+   "l": "Morgan Library & Museum, New York (MS M.644)",
+   "m": "Tempera on parchment",
+   "s": "Mozarabic"
+  },
+  "summary": "On a page blazing with bands of yellow and orange, the white Lamb stands on a stylised Mount Zion, a mound of interlocking arches, bearing a tall cross. Around him rows of haloed figures raise stringed instruments in praise, while above a register of seated figures with books flanks winged heavenly beings. Painted by Maius for a copy of Beatus of Liébana's Commentary on the Apocalypse, the miniature turns Revelation's vision of the redeemed singing a new song before the Lamb into a jubilant pattern of colour and rhythm.",
+  "scripture": "Revelation 14:1–5",
+  "facts": [
+   "The Morgan Beatus (MS M.644) was illuminated by the painter Maius (Magius), who is named in a colophon on folio 293 and a memento on folio 233.",
+   "It is one of the oldest surviving illustrated Beatus manuscripts and one of the earliest works of so-called Mozarabic art.",
+   "The Latin caption above the musicians reads, in substance, 'the Lamb standing on Mount Sion, and the hundred and forty-four thousand holding harps' (Agnus stans in monte Sion ... habentes citharas)."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Morgan Beatus",
+    "url": "https://en.wikipedia.org/wiki/Morgan_Beatus"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Morgan_Beatus_or_B_Pierpont,_174v.jpg"
+   }
+  ],
+  "notes": "Commons gives 925–968; the Morgan Library dates the manuscript c. 945 (Wikipedia's link to the Morgan's record reads 'San Salvador de Tábara, ca. 945', while the Wikipedia text associates it with San Miguel de Escalada) — place given as León (kingdom) for that reason. The Lamb is the Apocalypse's image of Christ."
+ },
+ {
+  "key": "commons:153352954",
+  "status": "rejected",
+  "reject_reason": "Duplicate: a perspective-corrected copy of the same scan of Morgan Beatus fol. 174v as commons:153352956.",
+  "dup_of": "commons:153352956",
+  "set": {}
+ },
+ {
+  "key": "Q29385421",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the plaque shows the three holy women, the winged angel and the sleeping soldiers at the empty sepulchre, with no figure of Christ.",
+  "set": {},
+  "notes": "Met 1993.19, North Italian, early 10th century. A fine Resurrection narrative, but the risen Christ himself does not appear."
+ },
+ {
+  "key": "commons:151905250",
+  "status": "rejected",
+  "reject_reason": "Not a verifiable historical work: a self-published photo of an icon in a private collection whose claimed 10th-century date is unsupported; the file's own description records that experts of Bulgaria's National Museum of History dismissed it as a counterfeit (2024).",
+  "set": {},
+  "notes": "The painting style and pewter (oklad-type) frame look post-Byzantine or modern. The long Commons description is the owner's speculation, not a museum or scholarly record."
+ },
+ {
+  "key": "Q125566596",
+  "status": "corrected",
+  "set": {
+   "d": "second half of the 10th century",
+   "y": 975,
+   "l": "Germanisches Nationalmuseum, Nuremberg",
+   "k": "ivory"
+  },
+  "summary": "Beneath an openwork canopy carried on spirally fluted columns, Christ stands upright on the cross, his feet resting on a footrest and his arms stretched wide. The Virgin reaches out both hands toward her Son, while Saint John, holding a book, raises his right hand; beneath the cross a shell-like form suggests the hill of Golgotha. Carved in Constantinople, this small, worn relief was once the centre of a portable triptych for private prayer.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The museum records drill holes in the upper and lower frame that once secured mounts for the now-lost wings, confirming that the plaque was the centre of a triptych.",
+   "The upper arm of the cross was left blank for an inscription, as noted in the museum's description.",
+   "The museum dates the ivory to the second half of the 10th century and attributes it to Constantinople."
+  ],
+  "links": [
+   {
+    "label": "GNM object catalogue",
+    "url": "https://objektkatalog.gnm.de/wisski/navigate/56382/view"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q125566596"
+   }
+  ],
+  "notes": "Inv. Pl.O.475; H. 12.9 cm, W. 11.2 cm. Worklist object type 'triptych' changed to 'ivory' because only the central panel survives."
+ },
+ {
+  "key": "commons:197439603",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Stone Cross with a Bearded Head (so-called 'Merovingian Cross')",
+   "original_title": "Merowingerkreuz",
+   "d": "early medieval (date uncertain)",
+   "l": "Crypt of Würzburg Cathedral (St. Kilian), Würzburg",
+   "m": "Stone (red sandstone?)"
+  },
+  "summary": "A plain stone cross set against the crypt wall bears at its crossing a carved bearded head with heavy-lidded eyes, a drooping moustache and hair rendered in parallel grooves. Placed where the head of the Crucified would be, the face is generally read as Christ, reduced to a stark and solemn mask. The cross is known locally as the 'Merovingian Cross', though its origin and date are not documented in sources available to us.",
+  "facts": [
+   "Descriptions of Würzburg Cathedral (e.g. an older version of the German Wikipedia article, mirrored online) caption it simply 'Merowingerkreuz in der Domkrypta'; the name implies, but does not prove, an origin in the Merovingian period (before c. 750)."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Das_Merowingerkreuz_in_der_Krypta_des_W%C3%BCrzburger_Doms_(St._Kilian)_05.jpg"
+   },
+   {
+    "label": "Wikipedia (de): Würzburger Dom",
+    "url": "https://de.wikipedia.org/wiki/W%C3%BCrzburger_Dom"
+   }
+  ],
+  "notes": "Identification of the head as Christ and the date both rest only on the Commons category ('10th-century reliefs of Jesus Christ') and the popular name 'Merowingerkreuz' (which would imply a pre-750 date); no museum or scholarly record was found. Material inferred from the photograph. Treat as uncertain; consider removing if no source can be found."
+ },
+ {
+  "key": "Q23356",
+  "status": "corrected",
+  "set": {
+   "a": "Romanos group (workshop)",
+   "d": "c. 940–960",
+   "y": 950,
+   "l": "Musée du Louvre, Paris",
+   "m": "Elephant ivory with traces of gilding and red paint"
+  },
+  "summary": "At the top of the central leaf Christ sits enthroned, flanked by the Virgin and John the Baptist who turn toward him in intercession, the classic Byzantine Deësis; above, two angels in wreathed medallions look down. Beneath them stand five apostles with Peter at the centre, and the wings are filled with soldier saints, bishops and martyrs, each named by a carved inscription. Exquisitely refined and still bearing traces of colour, the triptych shows the court art of Constantinople at its height.",
+  "scripture": "Hebrews 7:25 (theme)",
+  "facts": [
+   "It is considered the finest and best preserved of the 'Romanos group' of ivories, from a Constantinopolitan workshop probably closely tied to the imperial court.",
+   "Its name comes from its first known owner, the antiquarian Louis-François Harbaville (1791–1866) of Arras; the Louvre bought it in 1891.",
+   "According to the Louvre, the back bears the inscription IC XC NIKA ('Jesus Christ conquers'), and every figure except the two angels is identified by name."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010112515"
+   },
+   {
+    "label": "Wikipedia: Harbaville Triptych",
+    "url": "https://en.wikipedia.org/wiki/Harbaville_Triptych"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q23356"
+   }
+  ],
+  "notes": "Inv. OA 3247. The Louvre dates it 940–960 on style."
+ },
+ {
+  "key": "Q29385370",
+  "status": "verified",
+  "set": {},
+  "summary": "Under a lacy openwork canopy, Christ hangs in death on the cross, his body slumped and clothed only in a loincloth, while the Virgin gestures toward him and Saint John raises a hand to his face in grief. Below the footrest three soldiers cast lots for the seamless robe, and at the very bottom the foot of the cross pierces the belly of a reclining bearded figure, Hades, ruler of the dead. Large areas of plain ivory make a quiet stage for this image of Christ's victory over death.",
+  "scripture": "John 19:23–27",
+  "facts": [
+   "The Met describes the motif of the cross planted in the stomach of Hades as a unique detail; an inscription on the ivory reads 'the cross implanted in the stomach of Hades'.",
+   "It is the only surviving part of a triptych whose wings are lost, and was probably used for private devotion.",
+   "The Met compares its gentle, introspective mood to the 11th-century Crucifixion mosaic at the Monastery of Daphni near Athens."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464428"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q29385370"
+   }
+  ],
+  "notes": "Met 17.190.44, mid-10th century, probably Constantinople."
+ },
+ {
+  "key": "Q115843612",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Enthroned and Blessing",
+   "original_title": "Le Christ trônant et bénissant",
+   "a": "Romanos group (workshop)",
+   "d": "950–1000",
+   "y": 975,
+   "l": "Musée du Louvre, Paris",
+   "k": "ivory"
+  },
+  "summary": "Within an arched frame Christ sits frontally on a jewelled, lattice-backed throne, raising his right hand in blessing and holding a closed Gospel book, his name abbreviated IC XC on either side of his cross-nimbed head. Carved in Constantinople as the centre of a Byzantine triptych, the panel was later reused in a Mosan book binding, whose walrus-ivory strips with the evangelists' symbols appear above and below it in this photograph. It embodies the calm majesty of Christ as ruler and teacher.",
+  "scripture": "Matthew 25:31 (theme)",
+  "facts": [
+   "The Louvre explains that the plaque was originally the central element of a late-10th-century Byzantine triptych whose wings are lost; the gilded architectural frame and old marks attest to this.",
+   "It was reused as the centre of a Mosan binding with two walrus-ivory complements (Louvre OA 2591 and OA 2592).",
+   "Before entering the Louvre in 1882 it belonged to the collections of Charles Stein and Louis-Charles Timbal."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010113300"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q115843612"
+   }
+  ],
+  "notes": "Inv. OA 2590. The photograph shows the Byzantine panel together with the separate Mosan walrus-ivory strips above and below."
+ },
+ {
+  "key": "Q653601",
+  "status": "corrected",
+  "set": {
+   "t": "Gero Cross",
+   "d": "c. 965–970",
+   "y": 968,
+   "c": "Cologne",
+   "l": "Cologne Cathedral",
+   "m": "Oak, painted and partly gilded",
+   "s": "Ottonian"
+  },
+  "summary": "Carved in oak and life-size, the Gero Cross shows Christ dead upon the cross: his head sinks onto his shoulder, his eyes are closed and his body sags heavily from the arms. It is the oldest large sculpture of the crucified Christ north of the Alps and the earliest known Western image of Christ on the cross as dead rather than triumphantly alive. Set today within a Baroque gilded sunburst, it still draws pilgrims in Cologne Cathedral more than a thousand years after it was made.",
+  "scripture": "John 19:30",
+  "facts": [
+   "It was commissioned by Gero, Archbishop of Cologne (d. 976); its early date was confirmed by dendrochronology in 1976.",
+   "The figure is 187 cm high with an arm span of 165 cm; the halo and cross-pieces are original, but the Baroque surround was added in 1683.",
+   "Thietmar of Merseburg, writing in 1012–1018, records that the cross originally stood above Gero's grave."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Gero Cross",
+    "url": "https://en.wikipedia.org/wiki/Gero_Cross"
+   },
+   {
+    "label": "Cologne Cathedral",
+    "url": "https://www.koelner-dom.de/rundgang/bedeutendewerke/gero-kreuz/info/"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q653601"
+   }
+  ],
+  "notes": "Worklist date 960 refined to c. 965–970 (Wikipedia). The paint and gilding have been renewed (a repainting of 1904 is recorded)."
+ },
+ {
+  "key": "Q134290371",
+  "status": "corrected",
+  "set": {
+   "t": "Christ in Majesty with the Evangelists and Their Symbols",
+   "d": "960–980",
+   "y": 970,
+   "c": "Cologne",
+   "l": "Hessisches Landesmuseum Darmstadt",
+   "m": "Ivory",
+   "k": "ivory"
+  },
+  "summary": "Christ sits enthroned within a pointed mandorla, blessing with his right hand and holding a book, at the centre of a tall ivory panel. Around him the four evangelists sit at their desks writing, each accompanied by his winged symbol in a roundel, while the vertical and horizontal bands are inscribed LUX, LEX, REX and PAX: light, law, king and peace. The plaque, probably made for a Gospel book cover, presents Christ as the source of the four Gospels.",
+  "scripture": "Revelation 4:2–8",
+  "facts": [
+   "The museum label (as recorded in the photograph's title) attributes the plaque to Cologne, 960–980.",
+   "The four words on the cross-shaped bands, LUX, LEX, REX and PAX, are carved directly on the plaque and frame the mandorla on all four sides."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Christ_in_Majesty_with_the_evangelists_and_their_symbols,_K%C3%B6ln,_960-980_AD,_ivory_-_Hessisches_Landesmuseum_Darmstadt,_Germany_-_DSC00292.jpg"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q134290371"
+   }
+  ],
+  "notes": "Inv. Kg 54:209. Title was only an inventory label. Details rest on the museum label as transcribed in the Commons filename; no online museum record was found."
+ },
+ {
+  "key": "wga:zearly/2/1sculptu/various/variou03",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the WGA image is a black-and-white detail of the Met's Magdeburg ivory (41.100.157), already present as Q29385453 with the Met's colour photograph and record.",
+  "dup_of": "Q29385453",
+  "set": {}
+ },
+ {
+  "key": "Q123481708",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Showing a Child to the Apostles (Magdeburg Ivory)",
+   "original_title": "Plaque ajourée : Le Christ désignant un enfant",
+   "a": "Magdeburg group (workshop)",
+   "d": "c. 968",
+   "c": "Milan (?) or Trier (?)",
+   "l": "Musée du Louvre, Paris",
+   "k": "ivory"
+  },
+  "summary": "Against an openwork ground of small crosses, Christ, haloed and bending slightly forward, points to a small child standing at the centre, presenting him to the apostles, among whom Peter can be recognised by his keys. The scene illustrates Christ's teaching that whoever becomes humble like a little child is greatest in the kingdom of heaven, a subject rarely depicted in medieval art. The plaque belongs to the celebrated Magdeburg ivories, made for Emperor Otto I's church in Magdeburg.",
+  "scripture": "Matthew 18:1–6; Luke 9:46–48",
+  "facts": [
+   "It is one of sixteen surviving 'Magdeburg ivories', probably given by Otto I to the church of Saint Maurice at Magdeburg around 968, when it was raised to an archbishopric.",
+   "The Louvre notes that the plaque was later remounted on a casket in the Halle treasury (c. 1520–1526) and passed through the collections of Victor Martin Le Roy and Jean-Joseph Marquet de Vasselot before its acquisition in 1993.",
+   "The original setting of the series is unknown; an ambo, altar frontal and doors have all been proposed."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010115575"
+   },
+   {
+    "label": "Wikipedia: Magdeburg Ivories",
+    "url": "https://en.wikipedia.org/wiki/Magdeburg_Ivories"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q123481708"
+   }
+  ],
+  "notes": "Inv. OA 11372. Wikipedia lists this plaque as 'Jesus blesses a little child'; the Louvre identifies the subject as Matthew 18:1–6."
+ },
+ {
+  "key": "Q122820005",
+  "status": "corrected",
+  "set": {
+   "t": "The Multiplication of the Loaves and Fishes (Magdeburg Ivory)",
+   "original_title": "Plaque : Multiplication des pains et des poissons",
+   "a": "Magdeburg group (workshop)",
+   "d": "c. 968",
+   "c": "Milan (?) or Trier (?)",
+   "l": "Musée du Louvre, Paris",
+   "k": "ivory"
+  },
+  "summary": "Christ sits at the top centre, haloed and raising both hands in blessing, as a dense crowd presses around him; below, figures bend over the gathered food and a large basket fills the foreground. The heavy, strongly modelled figures fill the panel so completely that little of the openwork ground remains. Part of the Magdeburg ivories made for Otto I's new archbishopric, the plaque celebrates Christ who feeds the multitude.",
+  "scripture": "Mark 8:1–9; Matthew 15:32–39",
+  "facts": [
+   "The Louvre owns two of the sixteen surviving Magdeburg ivories; this one was given by a group of Friends of the Louvre in 1909.",
+   "Its history runs from Magdeburg Cathedral, probably via the Halle treasury, to the collections of Girolamo Possenti in Fabriano (sold 1880), Sigismond Bardac and Edouard Larcade.",
+   "Wikipedia's list of the plaques (after Fillitz) identifies the scene as the second miracle of the loaves and fishes, the feeding of the four thousand."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010108569"
+   },
+   {
+    "label": "Wikipedia: Magdeburg Ivories",
+    "url": "https://en.wikipedia.org/wiki/Magdeburg_Ivories"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q122820005"
+   }
+  ],
+  "notes": "Inv. OA 6310. The Louvre title does not specify which feeding is shown; the scripture follows the identification as the second (four thousand) feeding."
+ },
+ {
+  "key": "Q29385453",
+  "status": "corrected",
+  "set": {
+   "d": "c. 962–968",
+   "y": 965,
+   "c": "Milan (?)",
+   "l": "The Metropolitan Museum of Art, New York",
+   "m": "Elephant ivory",
+   "k": "ivory"
+  },
+  "summary": "Christ sits enthroned on a globe within a wreath, set against an openwork checkerboard, and reaches out to bless a model of a church offered to him by Emperor Otto the Great. Behind the small figure of the emperor stands a tall winged, haloed figure who presents him, while on the right Saint Peter holds his keys among other saints. This is the dedication image of the famous Magdeburg ivories, made for Otto's church of Saint Maurice at Magdeburg.",
+  "scripture": "Psalm 127:1 (theme)",
+  "facts": [
+   "The Met calls it one of the most famous ivory carvings to survive from the 10th century.",
+   "Magdeburg was raised to an archbishopric in 968, and the Met suggests the plaque and its companion New Testament scenes were made for the dedication in that year.",
+   "The Met notes the series was probably carved in Milan and blends Carolingian and Byzantine features."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/467730"
+   },
+   {
+    "label": "Wikipedia: Magdeburg Ivories",
+    "url": "https://en.wikipedia.org/wiki/Magdeburg_Ivories"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q29385453"
+   }
+  ],
+  "notes": "Met 41.100.157 (Gift of George Blumenthal, 1941). The Met mentions saints including Peter but does not name the winged figure behind Otto, so he is left unidentified here."
+ },
+ {
+  "key": "Q60755927",
+  "status": "corrected",
+  "set": {
+   "c": "Milan, Italy",
+   "s": "Ottonian"
+  },
+  "summary": "Christ stands full-length and frontal, blessing with his right hand and holding a jewelled Gospel book, while the twelve apostles appear as busts, six in a column on each side, all turned toward him. With his large eyes fixed on the viewer and lips slightly parted, he seems about to send them out to preach the Gospel to the world. The plaque probably formed the centrepiece of a precious book cover, much like the book Christ himself carries.",
+  "scripture": "Mark 16:15; Matthew 28:19–20",
+  "facts": [
+   "The Cleveland Museum of Art dates the plaque c. 970–980 and attributes it to Ottonian Milan.",
+   "Wikipedia notes that it is thought to come from the same workshop as the Magdeburg ivories, though it was probably always intended for a book binding."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1967.65"
+   },
+   {
+    "label": "Wikipedia: Magdeburg Ivories",
+    "url": "https://en.wikipedia.org/wiki/Magdeburg_Ivories"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60755927"
+   }
+  ],
+  "notes": "CMA 1967.65; 18.2 × 9.9 cm. Cleveland's culture string ('Ottonian, Italy, Milan, Gothic period, 10th century') contains an evident error ('Gothic'); place simplified to Milan."
+ },
+ {
+  "key": "Q116273568",
+  "status": "verified",
+  "set": {},
+  "summary": "This small Byzantine ivory casket carries on its lid a Deësis: Christ enthroned in majesty between the Virgin and John the Forerunner, with archangels, all set in roundels linked by delicate scrollwork. Around the sides the twelve apostles appear in medallion portraits, each named in carefully carved Greek letters. Made to hold relics, it surrounds its sacred contents with the heavenly court interceding before Christ.",
+  "facts": [
+   "Greek inscriptions name every figure: Paul, Peter, James and Andrew on the front, Philip and Thomas, John, Mark, Luke and Matthew, Bartholomew and Simon on the other sides, and John the Baptist, Jesus Christ and the Mother of God on the lid.",
+   "Its recorded history begins with Pope Innocent IV (Sinibaldo Fieschi); it later passed through the Heckscher and Oppenheim collections to J. Pierpont Morgan.",
+   "It was shown in the Met's landmark exhibition 'The Glory of Byzantium' (1997)."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464238"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116273568"
+   }
+  ],
+  "notes": "Met 17.190.238, 950–1000, probably Constantinople. The Met lists Mark and Luke among the apostles on the back; no scripture is given because the Deësis is not a narrative scene."
+ },
+ {
+  "key": "commons:201323990",
+  "status": "corrected",
+  "set": {
+   "t": "Christ in Majesty with Seraphim and the Archangels Michael and Gabriel (Codex Vigilanus)",
+   "original_title": "Cristo y arcángeles del Códice Vigilano",
+   "c": "La Rioja, Spain",
+   "l": "Real Biblioteca del Monasterio de El Escorial (d.I.2)",
+   "m": "Tempera on parchment",
+   "s": "Mozarabic"
+  },
+  "summary": "Christ sits within a great diamond-shaped glory, robed in red, raising his right hand in blessing and holding a jewelled book, with the words 'Alfa et Ω' and 'Initium et Finis' (the beginning and the end) written beside him. Above, two six-winged seraphim spread their feathers, and below stand the archangels Michael and Gabriel, each named, while a Latin inscription runs round the frame. The page proclaims Christ as Lord of all creation in the bold, flat colours of Spanish manuscript painting.",
+  "scripture": "Revelation 1:8; Isaiah 6:1–3",
+  "facts": [
+   "The Codex Vigilanus (or Albeldensis) was compiled at the Riojan monastery of San Martín de Albelda by the monks Vigila, Sarracino and García and completed in 976.",
+   "Its illuminations combine Visigothic, Mozarabic and Carolingian elements; a copy, the Codex Aemilianensis, was made at San Millán de la Cogolla in 992.",
+   "The codex is a vast compilation including the canons of the Visigothic councils and the Liber Iudiciorum, and contains one of the earliest mentions of Arabic numerals in the West."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Codex Vigilanus",
+    "url": "https://en.wikipedia.org/wiki/Codex_Vigilanus"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Cristo_y_arc%C3%A1ngeles_del_C%C3%B3dice_Vigilano.png"
+   }
+  ],
+  "notes": "The Commons source (vallenajerilla.com) labels the image as from the Codex Albeldense/Vigilano but gives no folio, and the date range 976–992 on Commons spans both the Vigilanus (976) and its copy the Codex Aemilianensis (992); both are in the Escorial. The attribution to the Vigilanus specifically was not independently confirmed, so date has been left as 976–992."
+ },
+ {
+  "key": "commons:169657316",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Man with the Withered Hand (Codex Egberti)",
+   "c": "Reichenau Abbey",
+   "l": "Stadtbibliothek Trier (Cod. 24)",
+   "m": "Tempera and gold on parchment",
+   "s": "Ottonian"
+  },
+  "summary": "Against a pale, open ground, Christ, labelled IHC XPC and followed by his disciples, stretches out his hand toward a man who holds up his withered hand as it is restored. At the left a group of men looks on, probably the scribes and Pharisees who watched to see whether Jesus would heal on the Sabbath. The miniature's clear gestures and spacious setting are typical of the narrative art of Reichenau.",
+  "scripture": "Mark 3:1–6; Matthew 12:9–14; Luke 6:6–11",
+  "facts": [
+   "The Codex Egberti is a Gospel book illuminated in the scriptorium of Reichenau Abbey for Egbert of Trier (d. 993), after whom it is named.",
+   "It is still kept in Trier, in the city library (Stadtbibliothek Weberbach), as Cod. 24."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Codex Egberti",
+    "url": "https://en.wikipedia.org/wiki/Codex_Egberti"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Codex_Egberti_Withered_Hand.jpg"
+   }
+  ],
+  "notes": "Folio not confirmed. Wikipedia calls Egbert bishop of Trier (980–993). The label over the left group is only partly legible in the image."
+ },
+ {
+  "key": "wga:zearly/2/2paintin/5oberze3",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Man with Dropsy",
+   "d": "c. 980 (dating disputed)",
+   "c": "Reichenau",
+   "l": "St. Georg, Reichenau-Oberzell",
+   "m": "Wall painting"
+  },
+  "summary": "Christ, larger than those around him and followed by his disciples, steps in from the left and reaches out toward a man whose swollen belly marks him as suffering from dropsy; companions support the sick man before a gateway and the walls of a city. Pale blues, ochres and reds set the figures against fantastical buildings, and a perspective meander frames the scene. The Latin inscription beneath begins 'Obvius occurrens sanatur ydropicus', telling how the man who came to meet Christ was healed.",
+  "scripture": "Luke 14:1–6",
+  "facts": [
+   "The nave of St. Georg preserves one of the very few surviving painted cycles of Christ's miracles from before the year 1000 north of the Alps; this scene is the second on the north wall.",
+   "In almost every scene Christ enters from the left, so the cycle reads in sequence from the entrance toward the altar and back.",
+   "The date is disputed: most scholars favour the late 10th century, while some argue for c. 900 under Abbot Hatto III."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/2/2paintin/5oberze3.html"
+   },
+   {
+    "label": "Wikipedia (de): St. Georg (Reichenau-Oberzell)",
+    "url": "https://de.wikipedia.org/wiki/St._Georg_(Reichenau-Oberzell)"
+   }
+  ],
+  "notes": "WGA's generic title 'The Healing of the Sick' corrected from the inscription and from German Wikipedia's list of scenes ('Heilung des Wassersüchtigen'). Medium given as wall painting since the technique (true fresco or secco) was not verified."
+ },
+ {
+  "key": "wga:zearly/2/2paintin/5oberze5",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Woman with the Issue of Blood and Raising the Daughter of Jairus",
+   "d": "c. 980 (dating disputed)",
+   "c": "Reichenau",
+   "l": "St. Georg, Reichenau-Oberzell",
+   "m": "Wall painting"
+  },
+  "summary": "Two linked miracles unfold in one long panel: at the left Christ turns to the woman who has touched the hem of his garment, and then, with his disciples and Jairus, moves toward the house at the right, where the dead girl lies on her bed. The Latin inscriptions beneath echo the gospel words, praising the woman's faith and recording Christ's command to the girl to rise. Painted on the south wall of St. Georg, the scene belongs to the cycle's culminating sequence of raisings from the dead.",
+  "scripture": "Mark 5:21–43; Luke 8:40–56",
+  "facts": [
+   "German Wikipedia counts this as the seventh scene of the cycle, the Raising of Jairus's Daughter, one of two scenes in which Christ appears twice.",
+   "It has been suggested that the north-wall miracles were chosen for their connection with water (the lake side), and the south-wall raisings from the dead for the side facing the presumed cemetery.",
+   "A slender tower at the left edge reappears, slightly shortened, in the Stilling of the Storm scene, linking the paintings visually."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/2/2paintin/5oberze5.html"
+   },
+   {
+    "label": "Wikipedia (de): St. Georg (Reichenau-Oberzell)",
+    "url": "https://de.wikipedia.org/wiki/St._Georg_(Reichenau-Oberzell)"
+   }
+  ],
+  "notes": "WGA titles this only by the first episode; the panel also shows the raising of Jairus's daughter (inscription includes 'surge puella'). Christ appears twice, as German Wikipedia notes for this scene. Dating disputed as for the rest of the cycle."
+ },
+ {
+  "key": "Q136297107",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Crowning Otto II and Theophanu",
+   "original_title": "Le Christ couronnant Otton II et Théophano",
+   "d": "982–983",
+   "c": "Holy Roman Empire (Germany or northern Italy)",
+   "l": "Musée de Cluny – Musée national du Moyen Âge, Paris",
+   "m": "Ivory",
+   "k": "ivory"
+  },
+  "summary": "Beneath an arched canopy and a hanging curtain, a tall Christ, identified as IC XC, stands on a footstool and lays his hands on the crowned heads of the Emperor Otto II and the Empress Theophanu, who stand in richly patterned robes on either side. A small figure kneels at the emperor's feet, and inscriptions in a mixture of Greek and Latin letters name the imperial pair. Closely modelled on Byzantine coronation ivories, the plaque proclaims that earthly rulers receive their authority from Christ.",
+  "scripture": "Romans 13:1 (theme)",
+  "facts": [
+   "The Musée de Cluny's ivory was produced in the German empire in 982–983 in a Byzantine-inspired style, according to the French Wikipedia article on the museum.",
+   "Theophanu, a Byzantine princess, married Otto II in Rome in April 972 and was crowned empress the same day; Otto II died in December 983.",
+   "Byzantine ivories of the so-called Romanos group, such as the Romanos and Eudokia plaque in Paris, show Christ crowning an emperor and empress in just this way."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (fr): Musée de Cluny",
+    "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny"
+   },
+   {
+    "label": "Wikipedia: Theophanu",
+    "url": "https://en.wikipedia.org/wiki/Theophanu"
+   },
+   {
+    "label": "Wikipedia: Harbaville Triptych (Romanos group)",
+    "url": "https://en.wikipedia.org/wiki/Harbaville_Triptych"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Le_Christ_couronnant_Otton_II_et_Th%C3%A9ophano_-_Mus%C3%A9e_de_Cluny.jpg"
+   }
+  ],
+  "notes": "Inv. Cl. 392. The kneeling figure is often identified as a monk named John (probably John Philagathos), but this was seen only in a search-result summary and is not asserted here. The place of carving (Germany, northern Italy) is debated."
+ },
+ {
+  "key": "Q60761435",
+  "status": "verified",
+  "set": {},
+  "summary": "The Mother of God sits on a lavishly carved, high-backed throne with bolster cushions, holding the Christ Child upright on her lap, while two angels hover above with hands raised. The Child blesses with one hand and holds a scroll in the other, a solemn, ageless figure rather than an ordinary infant. An inscription runs along the base of the footstool, and the frontal, majestic composition belongs to a long Byzantine tradition of the enthroned Virgin and Child.",
+  "scripture": "John 1:14 (theme)",
+  "facts": [
+   "The Cleveland Museum of Art dates the plaque to 950–1025 and attributes it to Constantinople.",
+   "It is called the 'Stroganoff Ivory' after its former owner, the Russian statesman and art historian Sergei Grigoryevich Stroganoff.",
+   "The museum notes that representations of the enthroned Virgin and Child in Byzantine art reach back as far as the 6th century."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1925.1293"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60761435"
+   }
+  ],
+  "notes": "CMA 1925.1293; 25.3 × 17.2 cm. The Greek inscription on the base was not transcribed here."
+ },
+ {
+  "key": "Q60761471",
+  "status": "corrected",
+  "set": {
+   "a": "Triptych Group (probably)"
+  },
+  "summary": "Around this ivory cylinder runs a continuous frieze of haloed figures seated on high-backed, cushioned chairs: Christ as Pantokrator, the apostles and the Virgin. The figures are carved in deep relief with softly falling drapery, and the tapered lip at the top was made to receive a lid that is now lost. It is a rare survival among Middle Byzantine ivory boxes.",
+  "scripture": "Matthew 19:28 (theme)",
+  "facts": [
+   "Cleveland describes it as the only known pyx to survive from the Middle Byzantine period (c. 843–1204).",
+   "On grounds of style it is attributed to the 'Triptych Group', a workshop of ivory carvers active in Constantinople between about 950 and 1010.",
+   "The museum dates it c. 980–1010."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1973.4"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60761471"
+   }
+  ],
+  "notes": "CMA 1973.4. Cleveland qualifies the Triptych Group attribution as 'probably by'."
+ },
+ {
+  "key": "Q786001",
+  "status": "corrected",
+  "set": {
+   "t": "Bernward Column (Christ Column)",
+   "original_title": "Bernwardssäule / Christussäule",
+   "d": "c. 1020",
+   "y": 1020,
+   "c": "Hildesheim",
+   "l": "Hildesheim Cathedral",
+   "m": "Bronze",
+   "s": "Ottonian"
+  },
+  "summary": "This bronze column, nearly four metres high, carries a relief band that spirals upward like the ancient columns of Trajan and Marcus Aurelius in Rome, but in place of imperial victories it shows the deeds of Christ. The lively figures follow his ministry from the Baptism in the Jordan to the Entry into Jerusalem. Commissioned by Bishop Bernward of Hildesheim, it once bore a triumphal cross at its summit, crowning the story of Christ's life with the sign of his victory.",
+  "scripture": "Matthew 3:13–17; Matthew 21:1–11",
+  "facts": [
+   "Bernward cast the column in conscious imitation of Trajan's Column and the Column of Marcus Aurelius; it is 3.79 m high and 58 cm in diameter.",
+   "The cross that crowned it was removed by iconoclasts in 1544 and melted down into a cannon; the present capital is a replacement made in 1870 by Karl Küsthardt.",
+   "Made for St. Michael's Church, it was moved to the cathedral precinct in 1810 and into the cathedral in 1893, returning there in 2014 after a temporary stay in St. Michael's."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Bernward Column",
+    "url": "https://en.wikipedia.org/wiki/Bernward_Column"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q786001"
+   }
+  ],
+  "notes": "Date corrected from 1000 to c. 1020 (Wikipedia)."
+ },
+ {
+  "key": "met:473289",
+  "status": "corrected",
+  "set": {
+   "c": "Syria",
+   "k": "sculpture"
+  },
+  "summary": "Incised into a small cross of green steatite, the crucified Christ stands with arms outstretched and a halo behind his head, his body marked by ribbed lines, while the sun and moon appear above and small winged figures flank his arms. Letters are cut above his head. Simple and worn, this pocket-sized cross carried the image of the Crucifixion into everyday devotion in the Byzantine east.",
+  "scripture": "Luke 23:44–45 (sun and moon); John 19:18",
+  "facts": [
+   "The Met records it as Byzantine, 11th century, made in Syria, and carved in steatite.",
+   "It passed through Ariadne Galleries, New York, to Miriam N. Rosen, who gave it to the Met in 2002."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/473289"
+   }
+  ],
+  "notes": "Met 2002.483.4; 8.7 × 5.2 cm. Object type corrected from 'metalwork' to sculpture (stone). The incised letters were not read reliably from the photograph; the flanking figures look like angels but are worn."
+ },
+ {
+  "key": "rijks:BK-2025-29",
+  "status": "corrected",
+  "set": {
+   "t": "Crucified Christ",
+   "original_title": "Gekruisigde Christus",
+   "d": "c. 1000–1130",
+   "y": 1065,
+   "m": "Cast copper alloy with remains of gilding"
+  },
+  "summary": "This small cast figure, once fixed to a cross, shows the dead Christ with his head sunk forward, his arms stretched almost horizontally and his legs slightly bent and parallel beneath a knotted loincloth. Traces of gilding still cling to the metal. Such corpora were made in numbers for altar and processional crosses in the Romanesque period, bringing the image of Christ's sacrifice close to worshippers.",
+  "scripture": "John 19:30",
+  "facts": [
+   "The Rijksmuseum dates the figure between 1000 and 1130 and attributes it to an anonymous German workshop.",
+   "It stands only 12 cm high and was given to the museum in 2025 by Jan van Adrichem and Martijn van Nieuwenhuyzen."
+  ],
+  "links": [
+   {
+    "label": "Rijksmuseum",
+    "url": "https://www.rijksmuseum.nl/en/collection/BK-2025-29"
+   }
+  ],
+  "notes": "The date range runs into the 12th century; y set to the midpoint. The third sentence of the summary is general context, not a museum statement."
+ },
+ {
+  "key": "Q116256182",
+  "status": "verified",
+  "set": {},
+  "summary": "In this small ivory icon, Christ Pantokrator, 'Ruler of All', appears half-length and frontal, his bearded face framed by a cross-nimbus and long hair, blessing with his right hand and holding a jewelled Gospel book in his left. The carving is crisp and severe, concentrating all attention on the steady gaze. It distils the image that dominated the domes and apses of Byzantine churches into an object small enough to hold.",
+  "scripture": "Revelation 1:8 (theme)",
+  "facts": [
+   "The Met defines the Pantokrator type as a frontal, half-length bearded Christ holding a Gospel book and blessing.",
+   "It came to the Met from the collection of Georges Hoentschel through J. Pierpont Morgan (gift of 1917) and was shown in the 2013 exhibition on Hoentschel at the Bard Graduate Center."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464531"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116256182"
+   }
+  ],
+  "notes": "Met 17.190.66; 11th–12th century; 9.7 × 7.6 cm."
+ },
+ {
+  "key": "Q116256173",
+  "status": "verified",
+  "set": {},
+  "summary": "A tiny gold medallion holds a bust of Christ in cloisonné enamel: a dark-haired, bearded face outlined in gold wire, with a cross-nimbus and red letters standing for his name on either side. Though damaged at the lower edge, it keeps the intense, frontal gaze of Byzantine icons. Such medallions were set into icon frames, book covers and liturgical objects.",
+  "scripture": "John 14:9 (theme)",
+  "facts": [
+   "The Met records a Greek inscription giving the initials of Jesus Christ.",
+   "It belonged to the famous enamel collection of Alexander von Zvenigorodskoi in Russia, published by Kondakov in 1892, before passing to J. Pierpont Morgan."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464537"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116256173"
+   }
+  ],
+  "notes": "Met 17.190.665, 11th century. The Met dimensions (0.7 × 0.1 cm) look implausibly small and may be a data error. The use described in the last sentence of the summary is general context."
+ },
+ {
+  "key": "Q116277737",
+  "status": "corrected",
+  "set": {
+   "k": "book cover"
+  },
+  "summary": "Set into the leather cover of a later Gospel lectionary, this ivory plaque shows Christ enthroned in a mandorla at the centre, while the four evangelists sit writing their Gospels in the corners, each inspired by his symbol. The Met notes charming details: Luke's ox seems literally to open his eyes, and Mark's lion appears to speak to him. The plaque thus presents Christ in Majesty as the living source of the four Gospels.",
+  "scripture": "Revelation 4:2–8",
+  "facts": [
+   "The plaque probably once adorned an Ottonian Gospel book and now decorates a late-15th-century Gospel lectionary.",
+   "The volume belonged to Carl Wilhelm Zeisberg of Wernigerode and then the princely Stolberg library at Wernigerode before reaching George and Florence Blumenthal, who gave it to the Met in 1941.",
+   "The Met dates the plaque 1000–1100 and places it in Cologne."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/467741"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116277737"
+   }
+  ],
+  "notes": "Met 41.100.168. The Met's medium describes the whole volume (parchment manuscript with leather binding); the depiction is the ivory plaque."
+ },
+ {
+  "key": "met:464459",
+  "status": "verified",
+  "set": {},
+  "summary": "This processional cross of gilded silver over a wooden core shows the crucified Christ in repoussé at its centre, with arms extended along the crossbeam. Rounded terminals at the ends of the arms contain half-length haloed figures, some winged, worked in the same embossed technique, and a knop below fixes the cross to its staff. Carried at the head of processions, it lifted the image of Christ crucified above the gathered faithful.",
+  "scripture": "John 12:32 (theme)",
+  "facts": [
+   "The Met records an inscription on the obverse giving the name of Jesus Christ.",
+   "It was given to the Met in 1917 by J. Pierpont Morgan, and the Met attributes it to 11th-century Spain."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464459"
+   }
+  ],
+  "notes": "Met 17.190.494; 36.2 × 52.7 cm. The terminal figures were not identified by the Met record seen; described cautiously."
+ },
+ {
+  "key": "commons:60953253",
+  "status": "rejected",
+  "reject_reason": "Duplicate: Commons upload of the Met's own photograph (DP240173) of the reliquary cross Met 26.15, already present as Q116242995 with the Met record.",
+  "dup_of": "Q116242995",
+  "set": {}
+ },
+ {
+  "key": "Q116242995",
+  "status": "verified",
+  "set": {},
+  "summary": "On this small bronze reliquary cross, inlaid with niello, the crucified Christ wears a long colobium, his feet resting on a large footrest and his head inclined slightly to one side in death. On the reverse the Virgin appears with a medallion of the Christ Child before her body, an image that stresses his divinity. Worn on the breast and opening to hold a relic, such crosses joined personal devotion to the mystery of the Passion.",
+  "scripture": "John 19:25–30",
+  "facts": [
+   "The Met calls it a more refined example of the reliquary crosses common in the Middle Byzantine period.",
+   "Greek inscriptions give the initials of Jesus Christ on the front and of the Mother of God on the back.",
+   "It was sold by Andronicos in Constantinople in 1925 and acquired through the Brummer Gallery by the Met in 1926."
+  ],
+  "links": [
+   {
+    "label": "Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/466630"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116242995"
+   }
+  ],
+  "notes": "Met 26.15; 9.5 × 4.1 cm; 11th century, Byzantine."
+ },
+ {
+  "key": "wga:m/master/yunk_en/00cross",
+  "status": "corrected",
+  "set": {
+   "t": "The Romsey Rood (Romsey Christ)",
+   "d": "c. 1000–1020",
+   "y": 1010,
+   "l": "Romsey Abbey, Hampshire (exterior wall of the south transept)"
+  },
+  "summary": "Carved in high relief on the outside wall of Romsey Abbey, this large stone Christ stands upright on the cross with head erect and arms stretched straight out, not hanging in suffering but reigning from the tree. Above his head the Hand of God emerges from a cloud. Though weathered, the figure keeps the calm majesty of late Anglo-Saxon art, which drew on manuscript models of the Winchester school.",
+  "scripture": "John 12:32 (theme)",
+  "facts": [
+   "The Web Gallery of Art dates it 1000–1020 and notes that it translates into stone models from Winchester-school manuscripts.",
+   "Christ is shown upright, head held erect and arms outstretched in welcome, with the Hand of God emerging from the clouds above him.",
+   "It may originally have stood inside the earlier Saxon church and been reset on the Norman building, where a modern canopy now shelters it."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/m/master/yunk_en/00cross.html"
+   },
+   {
+    "label": "Early British Kingdoms: Romsey",
+    "url": "https://earlybritishkingdoms.com/adversaries/archaeology/romsey.html"
+   },
+   {
+    "label": "Wikipedia: Romsey Abbey",
+    "url": "https://en.wikipedia.org/wiki/Romsey_Abbey"
+   }
+  ],
+  "notes": "Dating varies (first half of the 11th century; Talbot Rice 1000–20; some link it to the church of 967)."
+ }
+]

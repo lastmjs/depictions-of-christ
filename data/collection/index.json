@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 46961,
- "checked": 102,
+ "total": 46954,
+ "checked": 135,
  "centuries": [
   {
    "century": "2",
@@ -33,15 +33,15 @@
   },
   {
    "century": "9",
-   "count": 18
+   "count": 17
   },
   {
    "century": "10",
-   "count": 39
+   "count": 30
   },
   {
    "century": "11",
-   "count": 77
+   "count": 80
   },
   {
    "century": "12",
@@ -91,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   12415
+   12411
   ],
   [
    "Madonna and Child",
-   9367
+   9366
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   3638
+   3637
   ],
   [
    "Holy Family",
@@ -131,7 +131,7 @@
   ],
   [
    "Resurrection",
-   923
+   922
   ],
   [
    "Lamentation",
@@ -143,11 +143,11 @@
   ],
   [
    "Last Supper",
-   887
+   886
   ],
   [
    "Baptism",
-   824
+   823
   ],
   [
    "Descent from the Cross",
@@ -341,7 +341,7 @@
   ],
   [
    "sculpture",
-   3507
+   3505
   ],
   [
    "drawing",
@@ -357,7 +357,7 @@
   ],
   [
    "manuscript",
-   583
+   580
   ],
   [
    "fresco",
@@ -369,11 +369,11 @@
   ],
   [
    "icon",
-   300
+   299
   ],
   [
    "metalwork",
-   272
+   271
   ],
   [
    "stained glass",
@@ -381,7 +381,7 @@
   ],
   [
    "triptych",
-   269
+   268
   ],
   [
    "textile",
@@ -393,7 +393,7 @@
   ],
   [
    "ivory",
-   133
+   138
   ],
   [
    "leadlight",
@@ -401,7 +401,7 @@
   ],
   [
    "relief sculpture",
-   114
+   112
   ],
   [
    "enamel",
@@ -468,15 +468,15 @@
    31
   ],
   [
-   "plaque",
-   30
-  ],
-  [
    "stained-glass window",
    30
   ],
   [
    "figurine",
+   29
+  ],
+  [
+   "plaque",
    29
   ],
   [

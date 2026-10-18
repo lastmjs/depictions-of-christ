@@ -239,6 +239,17 @@ def kind_of(obj):
 
 
 def year_of(obj):
+    y = _year_of(obj)
+    # Some records store the century number itself ("15th century" -> 15).
+    m = re.search(r"\b(\d{1,2})(st|nd|rd|th)[\s–-]*(century|c\.)", obj.get("objectDate") or "", re.I)
+    if m and y is not None and 0 < y < 100 and "B.C" not in (obj.get("objectDate") or ""):
+        lo = (int(m.group(1)) - 1) * 100
+        if not (lo - 100 <= y <= lo + 200):
+            return lo + 50
+    return y
+
+
+def _year_of(obj):
     b, e = obj.get("objectBeginDate"), obj.get("objectEndDate")
     if not isinstance(b, int) and not isinstance(e, int):
         return None
@@ -276,32 +287,95 @@ def school_of(obj):
     return ""
 
 
-# Met-specific false positives for title matches.
-MET_FALSE = re.compile(r"\b(buddh\w*|bodhisattva|tara|avalokiteshvara|amitabha|guanyin|kannon|hindu|vishnu|krishna|shiva)\b|\bfrom b\. christ\b|\bw\.\s?b\. christ\b|\bwhere our lord\b", re.I)
+# ---- Met-specific title filtering -------------------------------------------
+# Phrases removed from a title before classify(): names, churches, festivals
+# etc. that contain Christ-words but do not depict him.
+STRIP = re.compile("|".join([
+    r"\bsalvator rosa\b", r"\b(st\.?|saint|san|college church of st\.?) salvator\b",
+    r"\bchurch of (the )?(holy )?(saviou?r|redeemer|ascension|holy trinity|trinity)\b",
+    r"\b(il|the) ges[uù]\b", r"\bges[uù] (nuovo|e maria)\b",
+    r"\b(compagnie|societ[ée]|society|societate|societas) (de |of )?j[eé]sus?\b|\bsocietate jesu\b",
+    r"\b(teresa|theresa|th[ée]r[èe]se|felipe|juan|mar[ií]a|marie|anne?) (of|de|del) (the )?(child )?j[eé]s[uú]s\b",
+    r"\bj[eé]s[uú]s (bruno|negrete|mart[ií]nez|garc[ií]a)\b",
+    r"\bmonte cristo\b", r"\bantichrist\b", r"\bfestival of the redeemer\b",
+    r"\bworld'?s decorations\b.*", r"\btrinity (college|church|chapel|bay|mountains?|guild|house)\b",
+    r"\bballoon ascension\b", r"\bascension day\b", r"\b(fiery )?ascension of (a |saint |st\.? )\w+",
+    r"\belias'?s fiery ascension\b", r"\bbritish calvary\b", r"\bcalvary combat\b",
+    r"\bcourt deposition\b", r"\bdeposition/record\b",
+    r"\b(celebration of a|instruments? for|box for) circumcision\b|\bcircumcision instruments\b",
+    r"\bmadonna (del(la|l')?|di) (popolo|salute|orto|sasso)\b",
+    r"\b(spanish|viva la) madonna\b|\bmadonna (dress|cape)\b|\bbeech tree of the madonna\b",
+    r"\bwith the madonna, pointing\b",
+]), re.I)
+# Titles that never depict Christ even if a Christ-word survives.
+MET_FALSE = re.compile(r"\b(buddh\w*|bodhisattva|tara|avalokiteshvara|amitayus|amitabha|guanyin|kannon|hindu|vishnu|krishna|shiva|cuneiform)\b|\bfrom b\. christ\b|\bw\.\s?b\. christ\b|\bwhere our lord\b|^\[?garden of gethsemane\b|\bcr[eè]che (accessory|figures)\b|\bregardant la cr[eè]che\b|\btemple dedicated to the trinity\b", re.I)
 # Only a monogram / bare symbol, not a depiction.
 ONLY_SYMBOL = re.compile(r"\bihs\b", re.I)
-# A single figure from a crèche set other than the Child.
-CRECHE_FIGURE = re.compile(r"\bfrom (a|the) (nativity|cr[eè]che|presepio)\b", re.I)
+# A single figure from a group (crèche, Calvary, Deposition...) — keep only if it is Christ.
+GROUP_FIGURE = re.compile(r"\bfrom (an? |the )?(nativity|cr[eè]che|presepio|calvary|crucifixion|deposition|lamentation|entombment)( group| scene| set)?\b", re.I)
+IS_CHRIST = re.compile(r"\b(child|infant|christ|jesus|bambino|ni[nñ]o|corpus|crucifix|saviou?r)\b", re.I)
+# Bare "Madonna" in a title that is clearly the Virgin alone (mourning etc.).
+MADONNA_ALONE = re.compile(r"\b(mourning|weeping|dolorosa|mercy|misericordia|penserosa|riposata|head of the madonna|kneeling madonna)\b", re.I)
+# "Mary ... son" that is a queen/empress with her son, not the Virgin.
+NOT_THE_VIRGIN = re.compile(r"\b(queen of scots|empress|duchess|countess|princess|marquise)\b", re.I)
+# Photographs of Holy Land sites / expression studies, not depictions.
+PHOTO_FALSE = re.compile(r"\bstation\b|^arcade de l'ecce homo|\bmount of transfiguration\b|^figure \d+:", re.I)
+# Tag fallback is unreliable for these (e.g. "Crucifixion" tag on a saint's martyrdom).
+NO_TAG_FALLBACK = re.compile(r"\bmartyrdom\b|\bcrucifixion of (st|saint|san)\b", re.I)
+# Series clause: `, from "Series"` / `from 'Series'` / `from the series ...`.
+SERIES = re.compile(r"""[,;]?\s*\bfrom\s+(the\s+series\s+)?(["'“‘]|(?=christ\b.*apostles)|(?=les grands)).*$""", re.I)
+PASSION_SERIES = re.compile(r"\bpassion\b|\blife of (christ|jesus|our lord)\b|\bvita christi\b|\bpassionis christi\b|\bpassio\b", re.I)
+APOSTLE_SERIES = re.compile(r"apost|ap[oô]tres|sauveur", re.I)
+
+
+def classify_title(title):
+    t = STRIP.sub(" ", title)
+    if MET_FALSE.search(t):
+        return []
+    u = classify(t)
+    if u == ["Jesus Christ"] and ONLY_SYMBOL.search(t) and not classify(ONLY_SYMBOL.sub(" ", t)):
+        return []
+    if u and GROUP_FIGURE.search(t) and not IS_CHRIST.search(GROUP_FIGURE.sub(" ", t)):
+        return []
+    if u == ["Madonna and Child"] and MADONNA_ALONE.search(t) and not IS_CHRIST.search(t):
+        return []
+    if u == ["Madonna and Child"] and NOT_THE_VIRGIN.search(t):
+        return []
+    m = SERIES.search(t)
+    if not u and m and PASSION_SERIES.search(m.group(0)) and not EXCLUDE.search(t) \
+            and not re.search(r"\b(judas|peter|virgin|vierge|mary|marie|john|jean|magdalen\w*|adam|eve|paradise|fall of man)\b", t[:m.start()], re.I):
+        # A plate from a Passion / Life of Christ series with a generic or
+        # foreign-language title ("La Condamnation a Mort", "Plate 5").
+        return ["Jesus Christ"]
+    if u and m:
+        head = t[:m.start()]
+        hu = classify(head)
+        if hu:
+            return hu
+        # Christ is only named in the series title. Prints from an apostles
+        # series ("Christ and the Apostles") mostly show a single apostle.
+        if APOSTLE_SERIES.search(m.group(0)):
+            return []
+    return u
 
 
 def subjects_for(obj):
     title = (obj.get("title") or "").strip()
-    u = classify(title)
-    if u and MET_FALSE.search(title):
+    if kind_of(obj) == "photograph" and PHOTO_FALSE.search(title):
         return [], None
-    if u == ["Jesus Christ"] and ONLY_SYMBOL.search(title) and not classify(ONLY_SYMBOL.sub(" ", title)):
-        u = []
-    if u and CRECHE_FIGURE.search(title) and not re.search(r"\b(child|infant|christ|jesus|bambino|ni[nñ]o)\b", title, re.I):
-        return [], None
+    u = classify_title(title)
     if u:
         return u, "title"
-    if EXCLUDE.search(title):
+    if EXCLUDE.search(title) or MET_FALSE.search(title) or NO_TAG_FALLBACK.search(title) or STRIP.search(title):
+        return [], None
+    m = SERIES.search(title)
+    if m and APOSTLE_SERIES.search(m.group(0)):
         return [], None
     terms = [t.get("term", "") for t in (obj.get("tags") or []) if isinstance(t, dict)]
     good = [t for t in terms if CHRIST_TAG.search(t)]
     if not good:
         return [], None
-    u = classify(title, " ".join(good))
+    u = classify(STRIP.sub(" ", title), " ".join(good))
     return u, ("tags" if u else None)
 
 

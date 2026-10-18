@@ -104,7 +104,9 @@ CITY_HINTS = {
 # Representative points for schools, cultures, nationalities and countries ("region").
 # name: (lat, lon, "phrase|phrase|...") — phrases are matched on folded text.
 _R = {
-    "Italy": (42.83, 12.83, "italy|italian|italia"),
+    "Italy": (42.83, 12.83, "italy|italian|italia|north italy|northern italy|north italian|northern italian|"
+                             "central italy|central italian|south italy|southern italy|south italian|"
+                             "southern italian|italian renaissance"),
     "Florence": (43.7696, 11.2558, "florentine|florence|firenze"),
     "Venice": (45.4408, 12.3155, "venetian|venice|venezia"),
     "Siena": (43.3188, 11.3308, "sienese|siena"),
@@ -125,7 +127,7 @@ _R = {
     "Netherlands": (52.13, 5.29, "dutch|netherlands|northern netherlands|north netherlandish|northern netherlandish|dutch republic|holland"),
     "Belgium": (50.64, 4.67, "belgian|belgium"),
     "Germany": (51.0, 10.0, "holy roman empire|german|germany"),
-    "Southern Germany": (48.6, 10.4, "south german|southern germany|southern german|swabian|swabia"),
+    "Southern Germany": (48.6, 10.4, "south german|southern germany|southern german|south germany|swabian|swabia|suabian"),
     "Upper Rhine": (48.0, 7.85, "upper rhine|upper rhenish"),
     "Middle Rhine": (50.2, 7.6, "middle rhine|middle rhenish"),
     "Lower Rhine": (51.6, 6.4, "lower rhine|lower rhenish"),
@@ -1093,6 +1095,8 @@ def build_gazetteer(l_counts, c_counts):
         want = {t for t in fold(s).split() if len(t) >= 3}
         if not want & set(fold(r.get("display_name", "") + " " + name).split()):
             continue
+        if fold(name) in REGIONS and r.get("addresstype") not in ("country", "state", "region", "province"):
+            continue  # a pub or street named "Italy", not the country
         e = {"name": name or s, "lat": round(float(r["lat"]), 6), "lon": round(float(r["lon"]), 6), "src": "osm"}
         if r.get("addresstype") in ("city", "town", "village", "municipality", "hamlet", "suburb"):
             e["kind"] = "settlement"

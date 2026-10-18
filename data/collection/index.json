@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-18",
- "total": 69428,
+ "total": 69429,
  "checked": 1247,
  "centuries": [
   {
@@ -77,13 +77,13 @@
   },
   {
    "century": "undated",
-   "count": 13154
+   "count": 13155
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18145
+   18146
   ],
   [
    "Madonna and Child",
@@ -661,7 +661,7 @@
   ],
   [
    "sculpture",
-   4224
+   4225
   ],
   [
    "manuscript",

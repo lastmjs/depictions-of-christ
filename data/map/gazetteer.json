@@ -3129,21 +3129,6 @@
 "name": "2024 Central European floods",
 "pid": "Q130297776"
 },
-"Central Italian": {
-"kind": "site",
-"lat": 0.330801,
-"lon": 32.579729,
-"museum": false,
-"name": "Embassy of the Italian Republic",
-"src": "osm"
-},
-"Central Italy": {
-"kind": "region",
-"lat": 42.309722,
-"lon": 13.249444,
-"name": "Central Italy",
-"pid": "Q1127320"
-},
 "Certosa del Galluzzo, Florence": {
 "kind": "site",
 "lat": 43.731414,
@@ -6034,13 +6019,6 @@
 "name": "Former Huntsman European Regional Headquarters and Technical Centre",
 "src": "osm"
 },
-"Florence": {
-"kind": "settlement",
-"lat": 43.769796,
-"lon": 11.25564,
-"name": "Florence",
-"src": "osm"
-},
 "Florence, Italy": {
 "kind": "settlement",
 "lat": 43.771389,
@@ -6054,13 +6032,6 @@
 "lon": 11.254167,
 "name": "Florence",
 "pid": "Q2044"
-},
-"Florence, city": {
-"kind": "settlement",
-"lat": 33.974748,
-"lon": -118.269584,
-"name": "Florence",
-"src": "osm"
 },
 "Fontainebleau": {
 "kind": "settlement",
@@ -7514,14 +7485,6 @@
 "lon": 28.716667,
 "name": "Istria",
 "pid": "Q1079468"
-},
-"Italian Renaissance": {
-"kind": "site",
-"lat": 37.275247,
-"lon": -121.864273,
-"museum": true,
-"name": "Italian Renaissance Swordsmanship Academy",
-"src": "osm"
 },
 "Italian or Spanish; German": {
 "kind": "site",
@@ -10945,30 +10908,6 @@
 "name": "North Holland",
 "pid": "Q701"
 },
-"North Italian": {
-"kind": "site",
-"lat": 28.546992,
-"lon": -81.378967,
-"museum": false,
-"name": "Fratelli's Italian Restaurant",
-"src": "osm"
-},
-"North Italian, Central Italian": {
-"kind": "site",
-"lat": 52.944468,
-"lon": -0.618491,
-"museum": false,
-"name": "Central Fountain And Retaining Walls In The Italian Garden North West Of Belton House",
-"pid": "Q26528994"
-},
-"North Italy": {
-"kind": "site",
-"lat": 54.769031,
-"lon": -1.591411,
-"museum": false,
-"name": "Italy",
-"src": "osm"
-},
 "North Netherlands": {
 "kind": "region",
 "lat": 52.372778,
@@ -11110,29 +11049,6 @@
 "lon": -6.6925,
 "name": "Northern Ireland",
 "pid": "Q26"
-},
-"Northern Italian": {
-"kind": "site",
-"lat": 35.417269,
-"lon": 24.647897,
-"museum": false,
-"name": "Italian",
-"src": "osm"
-},
-"Northern Italy": {
-"kind": "region",
-"lat": 45.5,
-"lon": 10.5,
-"name": "Northern Italy",
-"pid": "Q4345530"
-},
-"Northern Italy, Padua": {
-"approx": "city",
-"kind": "settlement",
-"lat": 45.407778,
-"lon": 11.873333,
-"name": "Padua",
-"pid": "Q617"
 },
 "Northern Switzerland": {
 "kind": "site",
@@ -15111,13 +15027,6 @@
 "name": "Trade License Office South Bohemian Region",
 "pid": "Q116757968"
 },
-"South Germany": {
-"kind": "region",
-"lat": 49.0,
-"lon": 10.0,
-"name": "Southern Germany",
-"pid": "Q46519"
-},
 "South Kensington": {
 "kind": "settlement",
 "lat": 39.016732,
@@ -15178,13 +15087,6 @@
 "lon": 0.588611,
 "name": "Auch",
 "pid": "Q181725"
-},
-"Southern Italy": {
-"kind": "region",
-"lat": 41.194189,
-"lon": 15.242417,
-"name": "Southern Italy",
-"pid": "Q207989"
 },
 "Spanish School": {
 "kind": "site",
@@ -15966,14 +15868,6 @@
 "museum": true,
 "name": "Städtisches Museum Göttingen",
 "pid": "Q2360104"
-},
-"Suabian, Bodensee": {
-"approx": "city",
-"kind": "settlement",
-"lat": 47.772541,
-"lon": 9.36391,
-"name": "constituency for the Bundestag election Bodensee",
-"pid": "Q1008010"
 },
 "Sudan": {
 "kind": "region",
@@ -16816,13 +16710,6 @@
 "lat": 45.647666,
 "lon": 11.866525,
 "name": "Veneto",
-"src": "osm"
-},
-"Venice": {
-"kind": "settlement",
-"lat": 45.437191,
-"lon": 12.33459,
-"name": "Venice",
 "src": "osm"
 },
 "Venice, Italy": {
@@ -17799,13 +17686,6 @@
 "lon": 10.283333,
 "name": "Nave",
 "pid": "Q105303"
-},
-"northern Italy": {
-"kind": "region",
-"lat": 45.5,
-"lon": 10.5,
-"name": "Northern Italy",
-"pid": "Q4345530"
 },
 "province": {
 "kind": "settlement",

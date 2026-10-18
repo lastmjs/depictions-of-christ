@@ -136,16 +136,44 @@ GENERIC_TITLE = re.compile(
     r"manuscript cutting|page|sheet)s?\b", re.I)
 BAD_TYPES = re.compile(r"theatre|costume|poster|programme|playbill|ticket|toy|doll|puppet|record|"
                        r"greeting card|christmas card|postcard|photograph album|lock|key|keyhole", re.I)
+BRIEF_NOT = re.compile(r"\b(at|before|holding|with|contemplating|adoring|kneeling before|venerating) (a|the) "
+                       r"(crucifix|cross)\b|\bmary magdalen\w* (in|standing|seated|kneeling)\b|"
+                       r"\btormentors? of christ\b|\brosa,? salvator\b|\bchrist church\b|\blamentation for\b|\bmusic score\b", re.I)
+# A brief description must name a Christ subject outright to be used.
+BRIEF_NEEDS = re.compile(r"\b(christ|jesus|virgin and child|virgin child|madonna|crucifix\w*|crucified|piet[aà]|"
+                         r"nativity|agnus dei|lamb of god|man of sorrows|holy family|ecce homo|entombment|"
+                         r"lamentation|deposition|resurrection|ascension|last supper|last judg\w*|trinity|"
+                         r"adoration of the (magi|shepherds)|flight into egypt)\b", re.I)
+ABBREV = re.compile(r"(\b[A-Z]|\b(St|ca|Ca|c|Mr|Dr|no|No|fl|Fr|Ste|Sta|Ltd|Co))$")
 MONOGRAM_ONLY = re.compile(r"\b(monogram|ihs|i\.h\.s|chi-?rho|sacred monogram)\b", re.I)
 FIGURATIVE = re.compile(r"\b(figure|christ|virgin|madonna|crucifix|crucifixion|scene|depicting|showing|"
                         r"child|infant|pieta|pietà|nativity|lamb|man of sorrows)\b", re.I)
 
 
 def brief_subject(r):
-    """The subject part of a briefDescription: 'Panel, stained glass, the Crucifixion, England, ...'."""
+    """The subject part of a briefDescription: 'Panel, stained glass, the Crucifixion, England, ...'
+    (the leading object type is dropped); sentence-style descriptions are returned whole."""
     b = clean(r.get("briefDescription"))
     parts = [p.strip() for p in b.split(",")]
-    return ", ".join(parts[1:]) if len(parts) > 1 else b
+    ot = (r.get("objectType") or "").strip().lower()
+    if len(parts) > 1 and ot and parts[0].lower() == ot:
+        return ", ".join(parts[1:])
+    return b
+
+
+def brief_title(r):
+    """A readable title for an untitled object: the first sentence of its brief description."""
+    b = clean(r.get("briefDescription"))
+    # First sentence; a full stop after an initial or abbreviation ("A.W.N.", "St.", "ca.") does not end it.
+    t = b
+    for m in re.finditer(r"[.;](?=\s+[A-Z(]|\s*$)", b):
+        if m.start() >= 15 and not ABBREV.search(b[:m.start()]):
+            t = b[:m.start()]
+            break
+    t = t.rstrip(".;")
+    if len(t) > 140:
+        t = t[:140].rsplit(",", 1)[0]
+    return t[:1].upper() + t[1:] if t else ""
 
 
 def years(r):
@@ -254,17 +282,23 @@ def decide_full(r, summary_title):
     u = decide(title, "", a) if title else []
     brief = brief_subject(r)
     if not u and (not title or GENERIC_TITLE.match(title)):
-        if not NOT_CHRIST.search(brief):
+        if not NOT_CHRIST.search(brief) and not BRIEF_NOT.search(brief) and BRIEF_NEEDS.search(brief):
             u = decide(brief, "", a)
             if u == ["Jesus Christ"] and MONOGRAM_ONLY.search(brief) and not tagged:
                 u = []
+            if u:
+                # Name the subject in the title: "Leaf from a Gradual: Nativity".
+                seg = next((x.strip() for x in re.split(r"[;,]|\.\s", brief) if BRIEF_NEEDS.search(x)), "")
+                base = title or ot or "Object"
+                if seg and len(seg) < 120 and seg.lower() not in base.lower():
+                    title = f"{base}: {seg[:1].upper()}{seg[1:]}"
     if not u and tagged:
         # Curated "depicts" tags. A bare 'Jesus' tag on IHS-monogram metalwork is not a depiction.
         if MONOGRAM_ONLY.search(brief) and not FIGURATIVE.search(re.sub(MONOGRAM_ONLY, "", brief)):
             return [], title
         u = classify(" ".join(tagged)) or ["Jesus Christ"]
     if not title:
-        title = (brief[:1].upper() + brief[1:]) if brief else ot
+        title = brief_title(r) or ot
     return u, title
 
 

@@ -282,13 +282,17 @@ def image(it):
 GENERIC = re.compile(r"^(volym|grafiskt blad|teckning|skiss|studie|utan titel|ornament|blad|untitled)\b", re.I)
 
 
-NM_NOT = re.compile(r"\bancestors of christ\b|\b(kristi|kristus) förfäder\b|\bchristmas art\b|\bjulkort\b", re.I)
+NM_NOT = re.compile(r"\bancestors of christ\b|\b(kristi|kristus) förfäder\b|\bchristmas art\b|\bjulkort\b|"
+                    r"\bsatir\w*|\b(lamentation|entombment|burial|deposition|mourning) (over |of )(the (dead )?body of )?"
+                    r"(st\b|st\.|saint|the saint)|\b(with|carrying|bearing) the cross of christ\b|\bmed kristi kors\b|\bascent of (the prophet )?(elijah|elias)\b|\belias himmelsfärd\b", re.I)
 LATEST_YEAR = 1925  # later works need an explicit "Public Domain" mark
 
 
 def subjects_for(it):
     en = tx(it.get("title"), "en")
     sv = tx(it.get("title"), "sv")
+    if re.match(r"beskrivning\b", en, re.I):  # catalogue note; the title is its last line
+        en = en.splitlines()[-1].strip()
     a, _ = artist(it)
     for t in (en, sv):
         if t and (NOT_CHRIST.search(t) or NM_NOT.search(t)):
@@ -302,6 +306,39 @@ def subjects_for(it):
             u = decide(tr, "", a)
     title = en if (en and en != sv) else sv
     return u, title
+
+
+def object_detail(oid):
+    """Full single-object record (cached), used for the makers' life dates."""
+    path = CACHE / "objects" / f"{oid}.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    d = http_json(f"{API}/{oid}").get("data") or {}
+    if isinstance(d, list):
+        d = d[0] if d else {}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(d, ensure_ascii=False))
+    return d
+
+
+PD_DEATH = time.gmtime().tm_year - 71  # makers who died this year or earlier are out of copyright
+
+
+def maker_in_copyright(oid):
+    for a in object_detail(oid).get("actors") or []:
+        born = died = None
+        for dt in a.get("dates") or []:
+            t = (dt.get("date_type") or "").lower()
+            y = dt.get("date_latest") or dt.get("date_earliest")
+            if t.startswith("död"):
+                died = y
+            elif t.startswith("föd"):
+                born = y
+        if died and died > PD_DEATH:
+            return True
+        if not died and born and born > PD_DEATH - 80:
+            return True
+    return False
 
 
 def main():
@@ -322,6 +359,8 @@ def main():
         latest = max([x.get("date_latest") or x.get("date_earliest") or 0 for x in it.get("dating") or []] or [0])
         if latest > LATEST_YEAR and lic != "Public domain":
             continue
+        if maker_in_copyright(it["id"]):
+            continue
         a, actor = artist(it)
         rec = {
             "id": f"nationalmuseum:{it['id']}",
@@ -335,7 +374,7 @@ def main():
             "s": "",
             "k": kind(it),
             "img": f"{base}/full/!600,600/0/default.jpg",
-            "big": f"{base}/full/!1600,1600/0/default.jpg",
+            "big": f"{base}/full/!1000,1000/0/default.jpg",  # server refuses larger sizes
             "src": f"https://collection.nationalmuseum.se/en/collection/item/{it['id']}/",
             "lic": lic,
             "u": u,

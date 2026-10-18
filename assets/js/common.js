@@ -192,6 +192,7 @@
       $("#d-links").innerHTML = links.join("");
       $("#d-credit").innerHTML = (w.i
         ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
+        : w.cr ? `Image: ${esc(w.cr)}${w.lic ? ` (${esc(w.lic)})` : ""}.`
         : src === "europeana" ? `Image: ${esc(w.l || "the providing institution")}, via Europeana${w.lic ? ` (${esc(w.lic)})` : ""}.`
         : SOURCE_CREDIT[src] || `Image courtesy of ${esc(w.l || "the museum")}${w.lic ? ` (${esc(w.lic)})` : ", released as open access"}.`) +
         (w.e ? " Date estimated from the artist's lifetime." : "");

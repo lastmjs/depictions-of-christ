@@ -352,7 +352,7 @@ def merge_sources(works):
                 continue
             if not r.get("img") or not r.get("u"):
                 continue
-            if f.stem in ("rijks", "europeana", "getty") and r.get("k") == "photograph":
+            if f.stem in ("rijks", "europeana", "getty", "vam", "fng") and r.get("k") == "photograph":
                 continue  # photographic reproductions of other artworks
             if f.stem == "europeana":
                 if r.get("l") in DIRECT_PROVIDERS:
@@ -365,7 +365,7 @@ def merge_sources(works):
             if not curated and k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
                 added[f.stem + " (dup artist+title)"] += 1
                 continue
-            w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u", "lic", "ot") if r.get(k) not in (None, "", [])}
+            w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u", "lic", "ot", "cr") if r.get(k) not in (None, "", [])}
             w.setdefault("t", "Untitled")
             w["y"] = r.get("y")
             w["d"] = r.get("d") or (str(r["y"]) if r.get("y") is not None else "")

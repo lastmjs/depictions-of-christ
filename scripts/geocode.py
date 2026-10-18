@@ -228,7 +228,7 @@ MUSEUM_RE = re.compile(
     r"gemäldegalerie|pinakothek|pinacoteca|kunsthalle|collection|sammlung|library|biblioth|biblioteca|"
     r"archiv|hermitage|louvre|prado|uffizi|kunstkammer|staatliche|nationalmuseum|ateneum|"
     r"kunsthistorisches|academy|accademia|akademie|institute|university|foundation|fondazione|stiftung|"
-    r"palazzo pitti|getty|cloisters|national trust|royal collection|treasury of|schatzkammer",
+    r"palazzo pitti|getty|cloisters|\btate\b|salon carr|doughty house|pinacoteca|national trust|royal collection|treasury of|schatzkammer",
     re.I,
 )
 
@@ -475,9 +475,9 @@ SELECT ?x ?coord ?en ?type ?pop ?cap WHERE {
 }"""
 
 MUSEUM_QUERY = """
-SELECT ?x WHERE {
+SELECT DISTINCT ?x WHERE {
   VALUES ?x { %s }
-  ?x wdt:P31/wdt:P279* ?m .
+  { ?x wdt:P31/wdt:P279* ?m . } UNION { ?x wdt:P361 ?whole . ?whole wdt:P31/wdt:P279* ?m . }
   FILTER(?m IN (wd:Q33506, wd:Q7075, wd:Q166118, wd:Q207694, wd:Q1007870, wd:Q2668072))
 }"""
 
@@ -617,7 +617,7 @@ def build_wd_places(works):
                 origin[q] = (place, pt)
         for r in sparql(WD_CREATORS % values):
             q, c = qid(val(r, "item")), qid(val(r, "cr"))
-            if c not in ANONYMOUS_QIDS and c not in creators[q]:
+            if re.match(r"^Q\d+$", c) and c not in ANONYMOUS_QIDS and c not in creators[q]:
                 creators[q].append(c)
         print(f"  works {min((n + 1) * 200, len(qs))}/{len(qs)}", end="\r", file=sys.stderr)
     print(file=sys.stderr)

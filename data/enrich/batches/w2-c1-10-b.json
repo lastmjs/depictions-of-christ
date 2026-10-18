@@ -1,0 +1,1101 @@
+[
+ {
+  "key": "walters:W.42.1R",
+  "status": "corrected",
+  "set": {
+   "t": "Initial D with the Trinity (Psalm 109), Psalter of Jernoul de Camphaing",
+   "d": "c. 1250–1275",
+   "y": 1262,
+   "c": "Northeastern France (then Flanders)"
+  },
+  "summary": "Inside a blue initial D on a burnished gold ground, two haloed, long-haired figures sit side by side, the Father and the Son, together holding up a disc in which the white dove of the Holy Spirit spreads its wings. The image opens Psalm 109 (110), 'Dixit Dominus Domino meo: sede a dextris meis' ('The Lord said to my Lord: sit at my right hand'), which Christian readers took as the Father speaking to the Son. It is a small, lively example of how a 13th-century Flemish illuminator made the doctrine of the Trinity visible at the head of a psalm.",
+  "scripture": "Psalm 110:1 (Vulgate Psalm 109:1)",
+  "facts": [
+   "The Psalter was made for Jernoul de Camphaing, whose name appears in a red inscription on fol. 226r; the Walters dates it to c. 1250–1275 and places it in northeastern France, then part of Flanders.",
+   "The manuscript is now misbound and incomplete: this Psalm 109 initial appears on fol. 1r, and two of the original historiated initials (for Psalms 1 and 38) are missing.",
+   "Verse 1 of Psalm 109 (110) is quoted in the New Testament and applied to Christ (Matthew 22:44; Hebrews 1:13), which underlies its Trinitarian illustration."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.42.1R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter of Jernoul de Camphaing (W.42)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W42/"
+   },
+   {
+    "label": "Wikipedia: Psalm 110",
+    "url": "https://en.wikipedia.org/wiki/Psalm_110"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error for '3rd quarter 13th century'. The Walters TEI places the Psalm 109 text on fols. 1r–12v of the misbound volume."
+ },
+ {
+  "key": "walters:W.42.62R",
+  "status": "corrected",
+  "set": {
+   "t": "Initial Q with Christ Driving Away a Devil (Psalm 51), Psalter of Jernoul de Camphaing",
+   "d": "c. 1250–1275",
+   "y": 1262,
+   "c": "Northeastern France (then Flanders)"
+  },
+  "summary": "In the bowl of a blue initial Q, the haloed Christ, book in hand, raises his right hand in a commanding gesture against a hairy, red-faced devil who shrinks back beside him. The initial begins Psalm 51 (52), 'Quid gloriaris in malitia' ('Why do you boast in malice?'), and the painter answers the psalm's boaster with the image of Christ's authority over evil. The lively little scene sits at the foot of a page framed by gold, blue and red penwork.",
+  "scripture": "Psalm 52:1 (Vulgate Psalm 51:1)",
+  "facts": [
+   "Psalm 51 ('Quid gloriaris') was one of the standard divisions of the Gothic Psalter; the Walters lists it among the eight surviving historiated initials in this book.",
+   "The Psalter was produced for Jernoul de Camphaing, named in a red inscription on fol. 226r, in the third quarter of the 13th century.",
+   "Later owners added a small group of suffrages on originally blank leaves at the end in the 14th century, a sign of continued use."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.42.62R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter of Jernoul de Camphaing (W.42)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W42/"
+   },
+   {
+    "label": "Wikipedia: Psalter",
+    "url": "https://en.wikipedia.org/wiki/Psalter"
+   }
+  ],
+  "notes": "The Walters TEI calls this an initial 'D', but the image and text show the Q of 'Quid gloriaris' (the online title's 'Initial Q' is correct). Worklist year 750 was a parsing error."
+ },
+ {
+  "key": "walters:W.44.26V",
+  "status": "corrected",
+  "set": {
+   "d": "14th century (added to a Psalter of c. 1250–1275)",
+   "y": 1350,
+   "c": "Northeastern France (French Flanders)",
+   "t": "The Ascension (prefatory miniature, Psalter for a Cistercian woman)"
+  },
+  "summary": "The apostles crowd in two groups around the Virgin, faces and hands lifted toward the sky, while at the top of the gold ground only the feet and the hem of Christ's robe remain visible as he disappears into a band of blue cloud. Showing only the vanishing feet lets the viewer share the witnesses' upward gaze. The Virgin, veiled and haloed at the centre, anchors the scene as the mother who remains with the infant Church.",
+  "scripture": "Acts 1:9–11",
+  "facts": [
+   "This is one of ten full-page miniatures added in the 14th century as a prefatory cycle to a Psalter made in French Flanders c. 1250–1275 for a woman with Cistercian connections.",
+   "The cycle runs in facing pairs with blank backs, from the Annunciation (fol. 18v) to Pentecost (fol. 27r); the Ascension is on fol. 26v.",
+   "Because the leaves have blank backs, each miniature faces its partner across an opening; the Ascension (fol. 26v) faces Pentecost (fol. 27r)."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.26V/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Ascension of Jesus",
+    "url": "https://en.wikipedia.org/wiki/Ascension_of_Jesus"
+   }
+  ],
+  "notes": "The Walters online record dates this leaf with the whole manuscript to the third quarter of the 13th century, but the Walters' own manuscript description (TEI, The Digital Walters) states that the ten full-page miniatures of the prefatory cycle (fols. 18v–27r) were added in the fourteenth century; the date is corrected accordingly. The worklist year (750) was a parsing error."
+ },
+ {
+  "key": "walters:W.44.23R",
+  "status": "corrected",
+  "set": {
+   "d": "14th century (added to a Psalter of c. 1250–1275)",
+   "y": 1350,
+   "c": "Northeastern France (French Flanders)",
+   "t": "The Crucifixion (prefatory miniature, Psalter for a Cistercian woman)"
+  },
+  "summary": "Christ hangs on a green cross against burnished gold, his head bowed and his body slumped in death, while the sun and moon look on from the upper corners. Mary stands at the left with one hand to her cheek and the other raised, and John, holding a book, bows his head at the right. The simple, symmetrical composition and the green 'living wood' of the cross give this small page a quiet, meditative intensity.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The miniature belongs to a ten-image cycle of the Life of Christ added in the 14th century to the front of a 13th-century Psalter (Walters W.44).",
+   "The Crucifixion on fol. 23r faces the Flagellation on fol. 22v.",
+   "The Psalter's calendar points to Cistercian use, with saints such as Peter of Tarentaise and Malachy."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.23R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   }
+  ],
+  "notes": "The Walters online record dates this leaf with the whole manuscript to the third quarter of the 13th century, but the Walters' own manuscript description (TEI, The Digital Walters) states that the ten full-page miniatures of the prefatory cycle (fols. 18v–27r) were added in the fourteenth century; the date is corrected accordingly. The worklist year (750) was a parsing error."
+ },
+ {
+  "key": "walters:W.44.22V",
+  "status": "corrected",
+  "set": {
+   "d": "14th century (added to a Psalter of c. 1250–1275)",
+   "y": 1350,
+   "c": "Northeastern France (French Flanders)",
+   "t": "The Flagellation (prefatory miniature, Psalter for a Cistercian woman)"
+  },
+  "summary": "Christ, stripped to a loincloth and bound with his hands crossed before a slender red column, stands calm and cross-nimbed between two tormentors who swing their scourges above their heads. The gold ground and the column, which divides his body almost in two, isolate him in the centre of the page. The image invites the reader to linger over the suffering Christ before turning to the Crucifixion on the facing leaf.",
+  "scripture": "Matthew 27:26; John 19:1",
+  "facts": [
+   "This full-page miniature is one of the ten 14th-century additions that form a prefatory picture cycle in Walters W.44.",
+   "It faces the Crucifixion (fol. 23r), forming one of the cycle's paired openings.",
+   "Fourteenth-century additions to the book indicate that it continued to be used by female owners well after its creation."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.22V/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Flagellation of Christ",
+    "url": "https://en.wikipedia.org/wiki/Flagellation_of_Christ"
+   }
+  ],
+  "notes": "The Walters online record dates this leaf with the whole manuscript to the third quarter of the 13th century, but the Walters' own manuscript description (TEI, The Digital Walters) states that the ten full-page miniatures of the prefatory cycle (fols. 18v–27r) were added in the fourteenth century; the date is corrected accordingly. The worklist year (750) was a parsing error."
+ },
+ {
+  "key": "walters:W.44.25R",
+  "status": "corrected",
+  "set": {
+   "d": "14th century (added to a Psalter of c. 1250–1275)",
+   "y": 1350,
+   "c": "Northeastern France (French Flanders)",
+   "t": "The Harrowing of Hell (prefatory miniature, Psalter for a Cistercian woman)"
+  },
+  "summary": "The risen Christ, holding a cross-staff, steps out of a gabled doorway and grasps the wrist of a naked figure, pulling the righteous dead from the gaping jaws of a great grey Hell-mouth. Above, grotesque demon heads peer over a crenellated wall. The vivid scene shows the old Christian belief that Christ descended to the dead and freed Adam, Eve and the righteous.",
+  "scripture": "1 Peter 3:18–19 (traditional basis)",
+  "facts": [
+   "The Harrowing of Hell (fol. 25r) faces the Three Marys at the Tomb (fol. 24v) in the 14th-century prefatory cycle of Walters W.44.",
+   "The monstrous, animal-headed Hell-mouth is a characteristic motif of northern Gothic art.",
+   "The story is not told in the Gospels; it rests on brief New Testament allusions and the apocryphal Gospel of Nicodemus."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.25R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Harrowing of Hell",
+    "url": "https://en.wikipedia.org/wiki/Harrowing_of_Hell"
+   }
+  ],
+  "notes": "The Walters online record dates this leaf with the whole manuscript to the third quarter of the 13th century, but the Walters' own manuscript description (TEI, The Digital Walters) states that the ten full-page miniatures of the prefatory cycle (fols. 18v–27r) were added in the fourteenth century; the date is corrected accordingly. The worklist year (750) was a parsing error. The 'old Christian belief' is stated generally; the Gospel of Nicodemus link is standard and summarised in the linked Wikipedia article."
+ },
+ {
+  "key": "walters:W.44.19R",
+  "status": "corrected",
+  "set": {
+   "d": "14th century (added to a Psalter of c. 1250–1275)",
+   "y": 1350,
+   "c": "Northeastern France (French Flanders)",
+   "t": "The Nativity (prefatory miniature, Psalter for a Cistercian woman)"
+  },
+  "summary": "Mary reclines on a draped bed in the foreground, eyes closed, while the swaddled Christ Child lies in a raised manger above her, warmed by the heads of the ox and the ass. Joseph, in a pointed hat and leaning on his staff, rests his head on his hand in thought. The stacked composition lets every element of the story fit on a tiny gold-ground page.",
+  "scripture": "Luke 2:6–7; Isaiah 1:3",
+  "facts": [
+   "The Nativity (fol. 19r) is the second image of the ten-picture prefatory cycle added in the 14th century to Walters W.44, after the Annunciation on fol. 18v.",
+   "The ox and ass, absent from the Gospel accounts, were traditionally linked to Isaiah 1:3 ('the ox knows its owner, and the ass its master's crib').",
+   "The Psalter itself was written in French Flanders c. 1250–1275 for a woman with Cistercian connections."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.19R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Nativity of Jesus in art",
+    "url": "https://en.wikipedia.org/wiki/Nativity_of_Jesus_in_art"
+   }
+  ],
+  "notes": "The Walters online record dates this leaf with the whole manuscript to the third quarter of the 13th century, but the Walters' own manuscript description (TEI, The Digital Walters) states that the ten full-page miniatures of the prefatory cycle (fols. 18v–27r) were added in the fourteenth century; the date is corrected accordingly. The worklist year (750) was a parsing error."
+ },
+ {
+  "key": "walters:W.44.152R",
+  "status": "corrected",
+  "set": {
+   "t": "Initial D with God the Father and Christ (Psalm 109), Psalter for a Cistercian woman",
+   "d": "c. 1250–1275",
+   "y": 1262,
+   "c": "Northeastern France (French Flanders)"
+  },
+  "summary": "Within a gold-and-blue initial D, two haloed figures sit side by side on one bench, each holding a closed book: God the Father and Christ, illustrating the opening words of Psalm 109 (110), 'The Lord said to my Lord: sit at my right hand.' The Father raises his hand to his breast and the Son lifts his in speech, as if in conversation. It is one of the original 13th-century historiated initials of this Flemish Psalter.",
+  "scripture": "Psalm 110:1 (Vulgate Psalm 109:1)",
+  "facts": [
+   "The Psalter's ten historiated initials, original to the book, mark a ten-part division at Psalms 1, 26, 38, 51, 52, 68, 80, 97, 101 and 109; this is the last of them (fol. 152r).",
+   "Verse 1 of this psalm is quoted in the New Testament (Matthew 22:44, Acts 2:34–35, Hebrews 1:13) and applied to Christ, which is why the two divine Persons are shown enthroned together.",
+   "The manuscript was later owned by the Munich dealer Jacques Rosenthal and by Léon Gruel in Paris before Henry Walters acquired it."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.152R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Psalm 110",
+    "url": "https://en.wikipedia.org/wiki/Psalm_110"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error for '3rd quarter 13th century'. Unlike the prefatory miniatures, the historiated initials are original to the 13th-century Psalter."
+ },
+ {
+  "key": "walters:W.44.97R",
+  "status": "corrected",
+  "set": {
+   "t": "Initial S with David in the Waters below Christ (Psalm 68), Psalter for a Cistercian woman",
+   "d": "c. 1250–1275",
+   "y": 1262,
+   "c": "Northeastern France (French Flanders)"
+  },
+  "summary": "The initial S of 'Salvum me fac, Deus' ('Save me, O God, for the waters have come in even unto my soul') is split into two scenes: below, the crowned King David stands naked to the waist in green water, arms flung upward; above, the haloed Christ leans down from the curve of the letter, holding a scroll and gesturing toward him. The image turns the psalmist's cry into a direct encounter between the drowning king and his Saviour.",
+  "scripture": "Psalm 69:1–2 (Vulgate Psalm 68:2–3)",
+  "facts": [
+   "Psalm 68 ('Salvum me fac') is one of the ten divisions of this Psalter (Psalms 1, 26, 38, 51, 52, 68, 80, 97, 101 and 109), each marked by a historiated initial.",
+   "This is one of the ten historiated initials original to the Psalter, made c. 1250–1275 in French Flanders.",
+   "The Walters records that fourteenth-century additions were made for the use of a woman, showing the book stayed in female hands."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.44.97R/"
+   },
+   {
+    "label": "The Digital Walters: Psalter for a Cistercian woman (W.44)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W44/"
+   },
+   {
+    "label": "Wikipedia: Psalter",
+    "url": "https://en.wikipedia.org/wiki/Psalter"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error for '3rd quarter 13th century'."
+ },
+ {
+  "key": "walters:W.44.24V",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the miniature shows the angel at the empty tomb announcing the Resurrection to the three Marys, with the empty shroud, sleeping soldiers and a hand from heaven; the risen Christ himself does not appear.",
+  "set": {},
+  "notes": "Fol. 24v of Walters W.44, one of the 14th-century prefatory miniatures (not 3rd quarter 13th century)."
+ },
+ {
+  "key": "princeton:45421",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the glazed terracotta relief shows the Virgin alone, in profile with folded hands, within a Della Robbia-style wreath of fruit and flowers; there is no Christ Child.",
+  "set": {},
+  "notes": "Also misdated: Princeton's 'A.D. 500-1000' range is evidently a placeholder; the object is catalogued in the American Art department (culture 'American', no. PP341, gift of Josephine Knowland Laflin) and is a modern work in the Renaissance Della Robbia manner."
+ },
+ {
+  "key": "princeton:21050",
+  "status": "verified",
+  "set": {},
+  "summary": "This small, worn lead medallion shows the Baptism: at its centre stands the small nimbed figure of Christ in the Jordan, with John the Baptist reaching toward him from the left and an attendant figure, probably an angel, at the right, while rays descend from above. The reverse, still more worn, shows two nimbed figures that the museum identifies as part of an Adoration. Cheap, portable objects like this carried sacred images and stories into everyday devotion.",
+  "scripture": "Matthew 3:13–17; Matthew 2:1–12 (reverse)",
+  "facts": [
+   "The medallion is only 3.2 cm across and is pierced at the top, presumably so that it could be worn or attached.",
+   "Princeton catalogues it as Early Christian, dates it broadly to A.D. 500–1000, and records that it was purchased by 1937 from an unknown source.",
+   "Lead tokens and medallions bearing scenes from Christ's life are often associated with pilgrimage to the Holy Land, where the Baptism was commemorated at the Jordan."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum object page",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/21050"
+   },
+   {
+    "label": "Wikipedia: Pilgrim badge",
+    "url": "https://en.wikipedia.org/wiki/Pilgrim_badge"
+   }
+  ],
+  "notes": "The identification of the reverse as an Adoration follows the museum's title; the surface is too worn to confirm it. Comparable lead pilgrim objects are usually dated to the 6th–7th century, but Princeton gives only the broad range, so it is kept."
+ },
+ {
+  "key": "walters:W.185.49V",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1400–1425",
+   "y": 1412,
+   "c": "Utrecht, Netherlands",
+   "a": "Master of Walters 185 (miniatures); Johannes de Malborch (scribe)",
+   "t": "Christ before Pilate (Pilate Washing His Hands), Doffinnes Hours"
+  },
+  "summary": "Christ, crowned with thorns and with his wrists bound by a cord, is pushed forward by two rough tormentors toward Pilate, who sits on a wooden throne in red robes and turban, washing his hands in a golden basin with averted eyes. Christ's pale, lilac robe and lowered gaze set him apart from the vigorous figures around him. The gold ground and chequered floor are typical of the International Gothic style of the early 15th-century Netherlands.",
+  "scripture": "Matthew 27:24–26",
+  "facts": [
+   "The miniature introduces Prime in the Hours of the Virgin, part of a Passion cycle of full-page miniatures marking the canonical hours (fols. 49v–91v).",
+   "The Doffinnes Hours was made in Utrecht in the first quarter of the 15th century; its twelve full-page miniatures are by the Master of Walters 185, and its pen-decorated 'G' descenders are attributed to the scribe Johannes de Malborch.",
+   "The book is named after Franchoise de Doffinnes, who owned it in the late 16th century and whose family recorded notes in it."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.185.49V/"
+   },
+   {
+    "label": "The Digital Walters: Doffinnes Hours (W.185)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W185/"
+   },
+   {
+    "label": "Wikipedia: Book of hours",
+    "url": "https://en.wikipedia.org/wiki/Book_of_hours"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error for '1st quarter 15th century'. Johannes de Malborch is the scribe, not the painter."
+ },
+ {
+  "key": "walters:71.191",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1325–1350",
+   "y": 1337,
+   "a": "English or French",
+   "t": "Right Leaf of a Diptych with the Crucifixion"
+  },
+  "summary": "Under a single rounded trefoil arch, Christ hangs on the cross with his body sagging to one side, between the Virgin at the left and John, holding a book, at the right; two angels appear above the cross-arm. The ivory was stained dark brown and is much rubbed, but the spirited poses still give the tiny panel a monumental feeling. It was once the right wing of a folding devotional diptych.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters notes the unusual rounded trefoil arch, the two rosettes above it, and the rare form of the hinges, details that suggest a workshop outside Paris; it is attributed to English or French carvers.",
+   "The angels have lost their hands and one its head, and the Virgin's face is nearly obliterated.",
+   "It was in the collection of the French scholar Émile Molinier (sold 1906) and passed through the dealer Dikran Kelekian before Henry Walters bought it in 1917."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.191/"
+   },
+   {
+    "label": "Wikipedia: Walters Art Museum",
+    "url": "https://en.wikipedia.org/wiki/Walters_Art_Museum"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error for '2nd quarter 14th century'."
+ },
+ {
+  "key": "walters:W.185.225V",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1400–1425",
+   "y": 1412,
+   "c": "Utrecht, Netherlands",
+   "a": "Master of Walters 185 (miniatures); Johannes de Malborch (scribe)",
+   "t": "The Trinity (Throne of Grace), Doffinnes Hours"
+  },
+  "summary": "God the Father, bearded and crowned with a golden nimbus, sits on a Gothic throne before a gold-and-blue lozenge ground and holds out the cross on which the crucified Christ hangs. This 'Throne of Grace' image presents the Father offering the Son's sacrifice to the viewer. Framed by delicate gold-leaf sprays, it opens the Hours of the Eternal Wisdom in this Utrecht Book of Hours.",
+  "scripture": "Hebrews 4:16 (theme); John 3:16 (theme)",
+  "facts": [
+   "The miniature introduces Matins of the Hours of the Eternal Wisdom (fol. 225v), the only full-page miniature in that section of the book.",
+   "The Doffinnes Hours contains both Latin and Dutch texts; its calendar is for the Use of Utrecht, which localises its production there.",
+   "The original owners, probably a married couple, were once painted kneeling beside the Crucifixion miniature (fol. 72v) but were later erased and overpainted."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.185.225V/"
+   },
+   {
+    "label": "The Digital Walters: Doffinnes Hours (W.185)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W185/"
+   },
+   {
+    "label": "Wikipedia: The Trinity in art",
+    "url": "https://en.wikipedia.org/wiki/The_Trinity_in_art"
+   }
+  ],
+  "notes": "Worklist year 750 was a parsing error. The dove of the Holy Spirit is not clearly visible at this image size."
+ },
+ {
+  "key": "walters:83.730",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Tapestry Band with Figures (Virgin and Child, Baptism and God?)",
+   "m": "Tapestry-woven wool (?)",
+   "c": "Egypt",
+   "d": "600–900",
+   "y": 750
+  },
+  "summary": "This narrow Coptic tapestry band, edged with borders of interlace, carries a vertical sequence of schematic figures: at the top a long figure set within a mandorla, then a figure holding a smaller one, and smaller standing figures below. The Walters identifies the scenes, with question marks, as the Virgin and Child, the Baptism and God. Bands of this kind decorated garments and furnishings in early medieval Egypt.",
+  "facts": [
+   "The Walters records it as tapestry-woven, Coptic, and dated 600–900; the material is catalogued only tentatively as wool.",
+   "It was given to the Walters in 1978 by Mr. and Mrs. Charles Kilekian of New York."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/83.730/"
+   },
+   {
+    "label": "Wikipedia: Coptic art",
+    "url": "https://en.wikipedia.org/wiki/Coptic_art"
+   }
+  ],
+  "notes": "The identification of Christ rests on the museum's own tentative title ('Virgin and Child, Baptism, God ?'); the heavily stylised figures cannot be securely read in the photograph. No scripture is given because the subjects are uncertain."
+ },
+ {
+  "key": "walters:W.432.60R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "Christ Praying in the Garden of Gethsemane, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Christ kneels in prayer on a grassy slope before a rocky outcrop, his hands raised, while Peter, James and John sleep in the foreground, one with a sword. At the left, beyond a wattle fence and gate, the crowd led by Judas is already approaching. The miniature heads the Passion according to John, whose opening words, 'Egressus est Dominus Iesus cum discipulis suis trans torrentem Cedron', begin beside it.",
+  "scripture": "John 18:1–2; Luke 22:39–46",
+  "facts": [
+   "This small miniature (11 lines high) begins the Passion narrative from John 18 in an early 16th-century prayer book from Leiden.",
+   "The Walters describes the book as notable for its abundance of illumination, with nearly sixty small miniatures; the Gospel images are largely in grisaille, though this one is fully coloured.",
+   "The manuscript belonged to Edwin H. Lawrence and W. C. Hazlitt in London and to Marshall C. Lefferts in New York before Henry Walters acquired it."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.60R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Agony in the Garden",
+    "url": "https://en.wikipedia.org/wiki/Agony_in_the_Garden"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'."
+ },
+ {
+  "key": "walters:44.87",
+  "status": "corrected",
+  "set": {
+   "t": "Plaque with Christ in Majesty in a Mandorla with Angels",
+   "d": "second half of the 14th century",
+   "y": 1375,
+   "c": "Spain",
+   "m": "Basse-taille enamel on silver"
+  },
+  "summary": "On this small silver plaque Christ sits within a pointed mandorla studded with stars, raising his right hand in blessing and holding a globe surmounted by a cross. Four angels fill the corners, two above and two below, turned toward him in adoration. The translucent basse-taille enamel, laid over silver engraved in low relief, would originally have glowed with colour.",
+  "scripture": "Revelation 4:2 (theme)",
+  "facts": [
+   "Basse-taille enamel uses translucent enamel over a metal surface carved in low relief, so that the depth of the carving shows through as shades of colour.",
+   "The plaque measures only about 6 by 6 cm and has holes at the edges for attachment, suggesting it was mounted on a larger object.",
+   "The Walters attributes it to a Spanish workshop."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/44.87/"
+   },
+   {
+    "label": "Wikipedia: Basse-taille",
+    "url": "https://en.wikipedia.org/wiki/Basse-taille"
+   }
+  ],
+  "notes": "The Walters data are inconsistent: the date label reads '3rd quarter 14th century' while the date fields give 1375–1400; 'second half of the 14th century' covers both. The figure could also be read as God the Father, but the museum identifies him as Christ. Worklist year 800 was a parsing error."
+ },
+ {
+  "key": "walters:W.432.65R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "Christ Carrying the Cross, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Crowned with thorns, Christ has fallen to his knees under the heavy cross, while one tormentor drags him by a rope and a soldier in a helmet raises a club to strike. Behind him a bearded man helps to bear the beam, and at the far left the Virgin and John follow with clasped hands. The miniature illustrates the words beside it, 'Susceperunt autem Iesum et eduxerunt. Et baiulans sibi crucem exivit' (John 19:16–17).",
+  "scripture": "John 19:16–17; Luke 23:26–27",
+  "facts": [
+   "The miniature belongs to the sequence illustrating John's Passion in this Leiden prayer book, between the Barabbas scene (fol. 63v) and the casting of lots (fol. 65v).",
+   "The Walters records that the book has nearly sixty small miniatures, with gold initials on red or blue grounds marking the prayers."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.65R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Christ Carrying the Cross",
+    "url": "https://en.wikipedia.org/wiki/Christ_Carrying_the_Cross"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'. The bearded helper behind Christ is probably Simon of Cyrene."
+ },
+ {
+  "key": "walters:W.432.46R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "The Crucifixion with a Kneeling Devotee, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Christ hangs dead on the cross, crowned with green thorns and streaked with blood, against a golden evening sky. The Virgin, in a blue mantle, and John stand together at the left, while at the right a man in black kneels with joined hands, looking up at Christ. The miniature opens the Stabat Mater ('The sorrowful mother stood weeping beside the cross'), inviting the reader to join the kneeling figure in compassion.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The miniature introduces the Stabat Mater among the prayers to the Virgin in this prayer book (fol. 46r).",
+   "The book was made in Leiden in the first quarter of the 16th century and contains Latin prayers and Gospel passages."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.46R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Stabat Mater",
+    "url": "https://en.wikipedia.org/wiki/Stabat_Mater"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'. The identity of the kneeling man in black is not recorded."
+ },
+ {
+  "key": "walters:71.277",
+  "status": "corrected",
+  "set": {
+   "d": "second half of the 14th century",
+   "y": 1375,
+   "c": "France"
+  },
+  "summary": "Beneath a pointed trefoil arch with a crocketed gable, Christ hangs from the cross crowned with thorns, his head fallen to one side. At the left, the swooning Virgin is held up by the other holy women; at the right stand John, holding a book with his hand on his breast, and a bearded man in a hat. Though coarsely carved and much rubbed, the large leaf conveys the grief of the Passion with clarity.",
+  "scripture": "John 19:25–27; Matthew 27:54–56",
+  "facts": [
+   "The Walters describes the group at the left as the Three Marys and the bearded figure at the right as 'a Hebrew', standing beside John.",
+   "The leaf, almost 20 cm high, was once hinged to a companion panel; its hinges are lost.",
+   "It was in the collection of Raoul Heilbronner (sold in Paris, 1921) before Henry Walters bought it the same year."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.277/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:French_-_Diptych_Leaf_with_the_Crucifixion_-_Walters_71277.jpg"
+   }
+  ],
+  "notes": "The Walters date label reads '3rd quarter 14th century' but the date fields give 1375–1400; 'second half of the 14th century' covers both. Worklist year 800 was a parsing error."
+ },
+ {
+  "key": "walters:71.185",
+  "status": "rejected",
+  "dup_of": "commons:18832002",
+  "reject_reason": "Duplicate: the same ivory diptych (Walters 71.185) is already in the collection from Wikimedia Commons as commons:18832002 ('Italian - Diptych with Virgin and Angels and Crucifixion - Walters 71185.jpg').",
+  "set": {},
+  "notes": "For whoever reviews commons:18832002: the Walters dates it to the 3rd quarter of the 14th century (1350–1375) and considers it a French-inspired copy made in Italy, probably around Assisi; the backs are painted with a Nativity and an Ascension with Saints Francis and Clare."
+ },
+ {
+  "key": "princeton:19973",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "c": "Syria or Palestine (said to be from Ashdod)"
+  },
+  "summary": "This small bronze pendant cross, only 4.6 cm high, has flaring arms and a suspension loop, and is decorated with lines of inlaid metal. On one face the lightly incised figure of the crucified Christ can just be made out, with his arms stretched along the cross-arms. Simple crosses like this were worn by ordinary believers as signs of faith and protection.",
+  "scripture": "John 19:17–18",
+  "facts": [
+   "Princeton records the inlay as silver (with a query) and dates the cross broadly to the 7th–10th century, with Syria and Palestine as places of manufacture.",
+   "According to the museum, it was said to come from Ashdod and was bought in 1932 from John Khayat."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum object page",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/19973"
+   },
+   {
+    "label": "Wikipedia: Pectoral cross",
+    "url": "https://en.wikipedia.org/wiki/Pectoral_cross"
+   }
+  ],
+  "notes": "The incised Crucifixion is very faint on the museum's second view and invisible on the primary image; the identification rests mainly on the museum's title."
+ },
+ {
+  "key": "walters:71.75",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Flanders"
+  },
+  "summary": "In this tiny ivory relief, mounted in a silver-gilt frame with a ring for hanging, Christ stands bound to the central column of a vaulted room, his body bowed under the blows. Three tormentors lash him with scourges, a fourth seizes his hair to strike his face, and a fifth prepares a bundle of rods. Worn close to the body, such a pendant made the Passion an object of constant, intimate meditation.",
+  "scripture": "John 19:1; Mark 15:15",
+  "facts": [
+   "The carving is only about 4.5 cm high, yet it includes five tormentors around Christ.",
+   "The Walters attributes it to a Flemish carver of the first quarter of the 16th century.",
+   "It came from the Frankfurt dealers J. and S. Goldschmidt and was bought by Henry Walters in 1930."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.75/"
+   },
+   {
+    "label": "Wikipedia: Flagellation of Christ",
+    "url": "https://en.wikipedia.org/wiki/Flagellation_of_Christ"
+   }
+  ],
+  "notes": "Worklist year 800 was a parsing error for '1st quarter 16th century'."
+ },
+ {
+  "key": "walters:71.182",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1350–1375",
+   "y": 1362,
+   "a": "German or French"
+  },
+  "summary": "Beneath three crocketed trefoil arches, Christ hangs on the cross with his head bowed and his knees bent, the Virgin bending in grief at the left and John, holding a book and resting his cheek on his hand, at the right. The sun and moon appear in the spandrels above. The pronounced sway of the figures is typical of Gothic ivory carving.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters singles out the unusually exaggerated bending pose of the Virgin.",
+   "Remains of broken silver hinges show that it was the right wing of a diptych, and an original diagonal hole at the top allowed it to be hung.",
+   "Henry Walters bought it in Paris in 1922."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.182/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:German_-_Right_Leaf_of_a_Diptych_with_the_Crucifixion_-_Walters_71182.jpg"
+   }
+  ],
+  "notes": "Worklist year 800 was a parsing error for '3rd quarter 14th century'."
+ },
+ {
+  "key": "walters:71.273",
+  "status": "corrected",
+  "set": {
+   "t": "Diptych with Scenes of Christ's Life",
+   "d": "c. 1350–1375",
+   "y": 1362
+  },
+  "summary": "Two ivory leaves, divided by slender colonnettes beneath crocketed arches, tell the story of Christ in eight scenes. The lower register shows the Annunciation, the Nativity, the Adoration of the Magi and the Entry into Jerusalem; the upper shows the Last Supper, the Agony in the Garden, the Crucifixion and the Entombment. Reading from bottom to top, the owner could follow Christ from his conception to the tomb.",
+  "scripture": "Luke 1:26–38; Luke 2:1–20; Matthew 2:1–12; Matthew 21:1–11; Matthew 26:20–46; John 19:16–42",
+  "facts": [
+   "The Walters attributes it to the 'Atelier of the Diptychs with Colonnettes', a group of ivories consistent in style, with doll-like figures and exaggerated gestures.",
+   "Its silver hinges are set diagonally.",
+   "It passed through the Becker (1898) and Thomé (1906) sales in Cologne and the dealer Jacques Seligmann before Henry Walters bought it in 1912."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.273/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Atelier_of_Diptychs_aux_Colonnettes_-_Scenes_of_Christ's_Life_-_Walters_71273.jpg"
+   }
+  ],
+  "notes": "Worklist year 800 was a parsing error for '3rd quarter 14th century'."
+ },
+ {
+  "key": "walters:W.432.65V",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the miniature shows only the soldiers struggling over and dividing Christ's garments at the foot of Calvary.",
+  "set": {},
+  "notes": "Fol. 65v of Walters W.432 (Leiden, c. 1500–1525), illustrating John 19:23–24."
+ },
+ {
+  "key": "princeton:17163",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "c": "Egypt"
+  },
+  "summary": "This narrow tapestry-woven band in red, yellow, blue and cream shows a column of figures framed by a scrolling vine border: a pair of heads at the top, a frontal nimbed figure holding something dark against the chest, and below it two figures pressed together in an embrace. Princeton's subject terms identify Christ, Mary and saints among them. Such bands once decorated tunics and furnishings in Coptic Egypt.",
+  "facts": [
+   "Princeton dates the fragment to the 8th–9th century and records it as wool and linen, measuring 36 by 5.4 cm.",
+   "It was published in the 1986 exhibition catalogue 'Byzantium at Princeton', and the Index of Christian Art holds a set of photographs of it."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum object page",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/17163"
+   },
+   {
+    "label": "Wikipedia: Coptic art",
+    "url": "https://en.wikipedia.org/wiki/Coptic_art"
+   }
+  ],
+  "notes": "Christ's presence rests on the museum's subject terms; the stylised figures cannot be identified with certainty from the photograph. The embracing pair might be a Visitation, but this is not confirmed, so no scripture is given."
+ },
+ {
+  "key": "walters:W.432.61R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "The Arrest of Christ, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Christ, in a long grey robe, stands calmly at the centre as a soldier in red seizes him and armed men with spears crowd behind. At the left, a disciple raises his arm to strike, and a fallen man sprawls on the ground before Christ. The miniature accompanies the words 'Cohors ergo et tribunus et ministri Iudaeorum comprehenderunt Iesum et ligaverunt eum' ('Then the band and the captain and officers of the Jews took Jesus and bound him').",
+  "scripture": "John 18:10–13",
+  "facts": [
+   "The miniature is one of the small Gospel illustrations of John's Passion in an early 16th-century prayer book made in Leiden.",
+   "The Walters notes that most of the book's Gospel images are rendered primarily in grisaille, with touches of colour, as here."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.61R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Arrest of Jesus",
+    "url": "https://en.wikipedia.org/wiki/Arrest_of_Jesus"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'. The Walters TEI gives the accompanying text as 'John 1:12-27', evidently a slip for John 18:12–27. The fallen man is presumably Malchus."
+ },
+ {
+  "key": "walters:W.432.63V",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "Christ Presented to the Crowd and the Release of Barabbas; the Flagellation and Crowning with Thorns, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "In the upper miniature, Christ stands bound on a raised, columned porch beside Pilate, who gestures toward the crowd below; the people shout and raise their arms, demanding Barabbas instead. In the lower one, Christ, stripped and covered with wounds, is beaten by two tormentors, one with a bundle of birch rods, while in the background figures press the crown of thorns onto his head. The two images follow the Gospel text between them, from 'Non hunc sed Barabbam' to the scourging and crowning.",
+  "scripture": "John 18:38–40; John 19:1–3",
+  "facts": [
+   "The page carries two miniatures, 9 and 5 lines high, illustrating John 18:38–40 and John 19:1–16.",
+   "The prayer book was made in Leiden in the first quarter of the 16th century."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.63V/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Flagellation of Christ",
+    "url": "https://en.wikipedia.org/wiki/Flagellation_of_Christ"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'. The Walters title 'The Jews Release Barabbas Instead of Christ' is replaced with a more neutral descriptive title."
+ },
+ {
+  "key": "walters:W.432.62R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "The Kiss of Judas, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Judas, in a green tunic and red cloak, embraces Christ and presses his face to his, while soldiers close in from behind with raised weapons. At the left, Peter lifts his sword over the fallen servant, Malchus, on the ground. Placed in the midst of John's account of Peter's denial, the miniature recalls the betrayal that set the Passion in motion.",
+  "scripture": "Matthew 26:47–51; John 18:10",
+  "facts": [
+   "The miniature sits within the text of John 18 in this Leiden prayer book, next to the account of Peter warming himself and denying Christ.",
+   "The Walters records that the manuscript was owned by Edwin H. Lawrence (sold 1892), W. C. Hazlitt and Marshall C. Lefferts before coming to Henry Walters."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.62R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Kiss of Judas",
+    "url": "https://en.wikipedia.org/wiki/Kiss_of_Judas"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'."
+ },
+ {
+  "key": "walters:W.432.43R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "The Virgin Offering Fruit to the Christ Child, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "Crowned and standing on a crescent moon before a blaze of golden rays on a red ground, the Virgin holds the naked Christ Child and offers him a round fruit, which he reaches for. The image joins the 'Woman clothed with the sun' of Revelation with the tender motif of mother and child. It introduces the prayer 'O intemerata', a late medieval prayer to the Virgin.",
+  "scripture": "Luke 1:42 (theme); Revelation 12:1 (theme)",
+  "facts": [
+   "The miniature opens the prayer 'O intemerata' (fol. 43r) among the prayers to the Virgin.",
+   "The Walters notes that the book's portraits accompanying prayers to the Virgin and the suffrages are in full colour, unlike the largely grisaille Gospel scenes."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.43R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Book of hours",
+    "url": "https://en.wikipedia.org/wiki/Book_of_hours"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'."
+ },
+ {
+  "key": "walters:71.241",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1350–1375",
+   "y": 1362,
+   "t": "Standing Virgin and Child"
+  },
+  "summary": "The slender standing Virgin, her head veil carved in careful overlapping folds, holds the Christ Child on her left arm and gazes out into space. The Child, whose head is now lost, reaches toward her breast and holds an apple in his left hand. The sweeping apron of drapery and the free-hanging fold from her sleeve make this an unusually inventive Gothic ivory.",
+  "scripture": "Luke 1:42 (theme)",
+  "facts": [
+   "The Walters relates the carving to a group of marble sculptures of c. 1340–1370 with similarly unusual drapery, and attributes it to a Mosan workshop.",
+   "The Child's left hand with the apple is an old replacement in wood; the Virgin's crown and the Child's head are missing.",
+   "Considerable traces of red paint survive on the back of the Virgin's robe, and a rectangular hole in the back shows it was once fixed inside a shrine."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.241/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Mosan_-_Virgin_and_Child_-_Walters_71241.jpg"
+   }
+  ],
+  "notes": "Worklist year 800 was a parsing error for '3rd quarter 14th century'."
+ },
+ {
+  "key": "walters:W.432.1R",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1500–1525",
+   "y": 1512,
+   "c": "Leiden, Netherlands",
+   "t": "The Virgin and Child with an Angel, Prayer Book with Passages from the Gospels"
+  },
+  "summary": "The Virgin, in a blue mantle against a red ground patterned in gold, reads from an open book while the naked Christ Child on her lap stretches out his hand toward the page. An angel in a golden robe stands at the right, offering a fruit, and more fruit lies on the green ledge in front. Above runs the rubric of the 'Obsecro te', the prayer this miniature introduces at the very start of the book.",
+  "scripture": "Luke 2:19 (theme)",
+  "facts": [
+   "This miniature on fol. 1r accompanies the 'Obsecro te', a late medieval prayer to the Virgin.",
+   "The book was made in Leiden in the first quarter of the 16th century; its Walters description notes nearly sixty small miniatures."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/W.432.1R/"
+   },
+   {
+    "label": "The Digital Walters: Prayer Book with Passages from the Gospels (W.432)",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W432/"
+   },
+   {
+    "label": "Wikipedia: Book of hours",
+    "url": "https://en.wikipedia.org/wiki/Book_of_hours"
+   }
+  ],
+  "notes": "Origin in Leiden and the date 1500–1525 follow the Walters manuscript description (TEI, The Digital Walters). The worklist year (800) was a parsing error for '1st quarter 16th century'."
+ },
+ {
+  "key": "walters:71.286",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1350–1375",
+   "y": 1362,
+   "c": "France"
+  },
+  "summary": "The seated Virgin holds the Christ Child standing on her lap, steadying him with one hand while he leans toward her, an apple in his hand and a copper-gilt crown on his head. Much of the original paint survives: red gowns with gilt flowers, and a blue veil and mantle scattered with eight-pointed stars. The statuette stood in the Priory of Marcigny in Burgundy until the 19th century.",
+  "scripture": "Luke 1:42 (theme)",
+  "facts": [
+   "The Walters notes that the group was in the Priory of Marcigny (Saône-et-Loire) until the 19th century.",
+   "It shows a type of polychromy common to many ivory statuettes, with two layers of similar paint; the gilt pattern on the Child's gown is richer than the Virgin's.",
+   "An added block of unpainted wood under the base must once have fitted into a base of another material."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.286/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:French_-_Virgin_and_Child_(from_Marcigny)_-_Walters_71286.jpg"
+   }
+  ],
+  "notes": "Worklist year 800 was a parsing error for '3rd quarter 14th century'."
+ },
+ {
+  "key": "walters:71.50",
+  "status": "corrected",
+  "set": {
+   "c": "Kingdom of Asturias, Spain"
+  },
+  "summary": "This densely carved ivory plaque tells the story of Christ's infancy and early ministry in boldly patterned registers. At the top are the Nativity, with the ox and ass over the manger, and the Annunciation to the Shepherds; then come the Flight into Egypt, the Adoration of the Magi and Herod pointing to the Massacre of the Innocents below, with the Presentation in the Temple at the left. At the bottom Christ is baptised in the Jordan and confronted by the Devil, shown as a clawed, spiny beast.",
+  "scripture": "Luke 2:1–38; Matthew 2:1–18; Matthew 3:13–17; Matthew 4:1–4",
+  "facts": [
+   "The Walters identifies it as a 9th-century book-cover plaque from the Kingdom of Asturias in northern Spain, the first Christian kingdom established in Iberia after the Umayyad conquest.",
+   "The final scene shows the First Temptation of Christ, with the Devil as a beast with claws and sharp spines and stones at Christ's feet.",
+   "It was acquired by Henry Walters from Henri Daguerre in Paris in 1924."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.50/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Spanish_-_Book-Cover_Plaque_with_Scenes_of_the_Life_of_Christ_-_Walters_7150.jpg"
+   },
+   {
+    "label": "Wikipedia: Pre-Romanesque art and architecture",
+    "url": "https://en.wikipedia.org/wiki/Pre-Romanesque_art_and_architecture"
+   }
+  ],
+  "notes": "Date (9th century) and Asturian attribution follow the Walters. The stones at Christ's feet in the Temptation scene are visible in the image."
+ },
+ {
+  "key": "walters:71.272",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1375–1400",
+   "y": 1387,
+   "c": "France"
+  },
+  "summary": "Under rows of five trefoil arches, this large Gothic diptych unfolds the story of salvation in three tiers. Reading from the top left come the Annunciation, the Nativity and the Adoration of the Magi; then the Kiss of Judas with the Death of Judas, the Crucifixion and the Resurrection; and finally the Ascension and Pentecost. Densely peopled yet clearly ordered, it offered its owner the whole Gospel in a single opening.",
+  "scripture": "Luke 1:26–38; Luke 2:1–20; Matthew 2:1–12; Matthew 26:47–50; Matthew 27:3–5; John 19:16–37; Matthew 28:1–10; Acts 1:9–11; Acts 2:1–4",
+  "facts": [
+   "The diptych once had a stand, attached through square holes in the centre arch of the lower arcades (now plugged with ivory); the outline of the stand is incised on the back.",
+   "The Walters cites it as the model for the smaller Nativity and Adoration diptych 71.194.",
+   "It belonged to John Malcolm of Poltalloch, was exhibited at Manchester (1857) and Leeds (1868), and was sold in London in 1913."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.272/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:French_-_Diptych_with_Scenes_of_Christ's_Life_and_Passion_-_Walters_71272.jpg"
+   }
+  ],
+  "notes": "Worklist year 850 was a parsing error for '4th quarter 14th century'."
+ },
+ {
+  "key": "walters:71.194",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1375–1400",
+   "y": 1387,
+   "a": "Flemish or Mosan"
+  },
+  "summary": "On the left leaf, the Virgin reclines in bed, her head resting on her hand, beside the swaddled Christ Child in his woven crib, while Joseph sits nearby and shepherds and their flock receive the angel's news on the hillside above. On the right leaf, the crowned Virgin presents the standing Child to the three kings, the eldest kneeling with his gift and another pointing to the star. Each scene is set under three trefoil arches.",
+  "scripture": "Luke 2:7–14; Matthew 2:1–11",
+  "facts": [
+   "The Walters notes that the two scenes are based on the large Passion diptychs, such as Walters 71.272, and relates details to works attributed to Mosan or Flemish artists.",
+   "Each leaf is only about 7.3 by 5.4 cm; both are cracked vertically and one has been rejoined."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.194/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Flemish_-_Diptych_with_the_Nativity_and_Adoration_-_Walters_71194.jpg"
+   }
+  ],
+  "notes": "Worklist year 850 was a parsing error for '4th quarter 14th century'."
+ },
+ {
+  "key": "walters:44.607",
+  "status": "verified",
+  "identification": "uncertain",
+  "set": {},
+  "summary": "This small gold ring, only 1.4 cm high, has a round bezel decorated in cloisonné enamel with a cross whose arms radiate from a central medallion, apparently framing a bust; scrolls are engraved on the shoulders. The Walters identifies the image as Christ. Much of the enamel is now lost, and the figure is hard to read in the photograph.",
+  "facts": [
+   "The Walters dates the ring to the 9th century and attributes it to the Byzantine Empire.",
+   "It belonged to Henry Walters and passed after his death to his widow; it was sold at Parke-Bernet in New York in 1949, when the museum bought it back."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/44.607/"
+   },
+   {
+    "label": "Wikipedia: Byzantine enamel",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_enamel"
+   }
+  ],
+  "notes": "Christ's presence rests on the museum's title; the worn enamel image in the available photograph cannot be clearly read as a bust of Christ. No scripture is given."
+ },
+ {
+  "key": "walters:41.228",
+  "status": "verified",
+  "set": {},
+  "summary": "Carved in soft green-grey steatite, this small fragment shows the Virgin with a large, wide-eyed face framed by her veil, holding the Christ Child before her. The Child, with a halo and a youthful, serious face, sits on her lap with his robe carved in scale-like folds. Although broken at the edges, it keeps the frontal, solemn presence of Byzantine icons of the Mother of God.",
+  "scripture": "Isaiah 7:14 (theme)",
+  "facts": [
+   "The Walters dates the carving to the 9th century and attributes it to Byzantium; it is only 7.4 cm high.",
+   "It was owned by Henry Walters and later by the dealer Joseph Brummer, and was given to the museum in 1941 by Miss Julia R. Rogers of Baltimore."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/41.228/"
+   },
+   {
+    "label": "Wikipedia: Soapstone",
+    "url": "https://en.wikipedia.org/wiki/Soapstone"
+   }
+  ],
+  "notes": "The 9th-century date is the museum's; Byzantine steatite icons are more often dated to the 10th–12th centuries, so the date may deserve review."
+ },
+ {
+  "key": "walters:71.163",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1375–1400",
+   "y": 1387,
+   "a": "French or Flemish"
+  },
+  "summary": "A small seated Virgin, wearing her original gilt-copper crown, raises her hand to the standing Christ Child, who stands lightly on her lap and reaches up to touch her veil. The drapery falls in crisp, geometric folds, and the Child is unusually thin and lively. The group, only 11 cm high, captures the affectionate exchange between mother and son.",
+  "scripture": "Matthew 1:23 (theme)",
+  "facts": [
+   "The Walters notes that the gilt-copper crown is original, and that the bone support beneath is probably 18th-century Scandinavian work.",
+   "It was sold with the A. André collection in Paris in 1920 and passed through the Paris dealer Léon Gruel before Henry Walters bought it in 1922."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://art.thewalters.org/object/71.163/"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:French_-_Virgin_and_Child_-_Walters_71163.jpg"
+   }
+  ],
+  "notes": "Worklist year 850 was a parsing error for '4th quarter 14th century'. The Child's left arm is broken."
+ }
+]

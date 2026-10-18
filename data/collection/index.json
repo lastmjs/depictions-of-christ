@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70811,
- "checked": 738,
+ "total": 70807,
+ "checked": 775,
  "centuries": [
   {
    "century": "2",
@@ -29,7 +29,7 @@
   },
   {
    "century": "8",
-   "count": 50
+   "count": 49
   },
   {
    "century": "9",
@@ -49,11 +49,11 @@
   },
   {
    "century": "13",
-   "count": 1062
+   "count": 1061
   },
   {
    "century": "14",
-   "count": 2512
+   "count": 2511
   },
   {
    "century": "15",
@@ -61,7 +61,7 @@
   },
   {
    "century": "16",
-   "count": 18345
+   "count": 18344
   },
   {
    "century": "17",
@@ -91,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   18808
+   18807
   ],
   [
    "Madonna and Child",
-   13559
+   13558
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   5882
+   5881
   ],
   [
    "Holy Family",
@@ -127,7 +127,7 @@
   ],
   [
    "Resurrection",
-   1613
+   1612
   ],
   [
    "Flight into Egypt",
@@ -633,11 +633,11 @@
   ],
   [
    "sculpture",
-   4427
+   4426
   ],
   [
    "manuscript",
-   3528
+   3526
   ],
   [
    "other",
@@ -661,7 +661,7 @@
   ],
   [
    "ivory",
-   434
+   433
   ],
   [
    "relief",

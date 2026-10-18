@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70911,
- "checked": 874,
+ "total": 70922,
+ "checked": 885,
  "centuries": [
   {
    "century": "2",
@@ -29,15 +29,15 @@
   },
   {
    "century": "8",
-   "count": 54
+   "count": 56
   },
   {
    "century": "9",
-   "count": 186
+   "count": 190
   },
   {
    "century": "10",
-   "count": 225
+   "count": 230
   },
   {
    "century": "11",
@@ -91,7 +91,7 @@
  "subjects": [
   [
    "Jesus Christ",
-   18842
+   18843
   ],
   [
    "Madonna and Child",
@@ -99,11 +99,11 @@
   ],
   [
    "Christ Child",
-   8610
+   8611
   ],
   [
    "Crucifixion",
-   5892
+   5900
   ],
   [
    "Holy Family",
@@ -115,7 +115,7 @@
   ],
   [
    "Nativity",
-   2006
+   2007
   ],
   [
    "Adoration of the Shepherds",
@@ -143,7 +143,7 @@
   ],
   [
    "Baptism",
-   1188
+   1189
   ],
   [
    "Pietà",
@@ -163,11 +163,11 @@
   ],
   [
    "Last Judgment",
-   915
+   916
   ],
   [
    "Miracles of Christ",
-   842
+   844
   ],
   [
    "Flagellation",
@@ -259,7 +259,7 @@
   ],
   [
    "Wedding at Cana",
-   262
+   263
   ],
   [
    "Harrowing of Hell",
@@ -279,7 +279,7 @@
   ],
   [
    "Passion",
-   208
+   209
   ],
   [
    "Entry into Jerusalem",
@@ -303,7 +303,7 @@
   ],
   [
    "Christ in Majesty",
-   93
+   96
   ],
   [
    "Sermon on the Mount",
@@ -633,7 +633,7 @@
   ],
   [
    "sculpture",
-   4435
+   4441
   ],
   [
    "manuscript",
@@ -641,7 +641,7 @@
   ],
   [
    "other",
-   2518
+   2519
   ],
   [
    "icon",
@@ -653,7 +653,7 @@
   ],
   [
    "metalwork",
-   751
+   752
   ],
   [
    "fresco",
@@ -665,11 +665,11 @@
   ],
   [
    "relief",
-   421
+   423
   ],
   [
    "textile",
-   406
+   407
   ],
   [
    "stained glass",

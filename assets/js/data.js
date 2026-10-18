@@ -6160,13 +6160,13 @@ window.DEPICTIONS = {
      "year": 1675,
      "created": "Gondar region, Ethiopia",
      "location": "Ethnological Museum, Institute of Ethiopian Studies, Addis Ababa, Ethiopia",
-     "medium": "Tempera on cloth",
+     "medium": "Tempera",
      "form": "Icon",
      "style": "First Gondarine style (Ethiopian Orthodox)",
      "summary": "Christ, his face framed by dark curls and a golden halo, raises his wounded hands as two soldiers in striped garments press the crown of thorns onto his head with long rods. The image type, called Kwer'ata Re'esu ('the striking of the head'), descends from a European painting of Christ that became one of Ethiopia's most sacred royal icons. Rendered in the flat, brilliantly colored manner of the First Gondarine style, it shows how Ethiopian artists transformed a foreign model into a native devotional form.",
      "facts": [
       "The original Kwer'ata Re'esu was a European painting, probably of the 16th century, that reached Ethiopia; according to tradition it was carried into battle by Ethiopian emperors and used to seal solemn oaths.",
-      "British forces looted the original icon at Emperor Tewodros II's fortress of Magdala in 1868; it remained in the private possession of Richard Holmes, who had accompanied the expedition, and it has not returned to Ethiopia.",
+      "British forces looted the original icon at Emperor Tewodros II's fortress of Magdala in 1868; it remained in the private possession of Richard Holmes, who had accompanied the expedition, and it is not known ever to have returned to Ethiopia.",
       "Gondar, chosen as the royal seat by Emperor Fasilides in 1636, became the center of a flourishing school of religious painting in the 17th and 18th centuries.",
       "Ethiopian painting traditionally shows holy figures with large frontal eyes, while those who torment Christ are often drawn in profile, as the two soldiers are here."
      ],

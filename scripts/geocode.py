@@ -1,16 +1,32 @@
 #!/usr/bin/env python3
-"""Geocode the Complete Collection: where is each work held today?
+"""Geocode the Complete Collection: where was each work made?
 
-Builds two lookup files from free, keyless services (Wikidata SPARQL and the
-Wikidata API; OpenStreetMap Nominatim only as a last resort, at most one
-request per second). Every network response is cached under .cache/geocode/.
+Every work is placed as close as possible to where it was CREATED, with a
+precision level:
 
-  data/map/wd-places.json  Wikidata work QID -> {name, lat, lon, pid[, made, approx]}
-  data/map/gazetteer.json  location text      -> {name, lat, lon[, pid][, approx]}
-  data/map/unresolved.txt  location strings that could not be placed, with counts
+  made     an explicitly recorded place of creation (Wikidata P1071, or a museum's
+           "place made" field naming a specific city/town/monastery)
+  in situ  a work that is part of a building and still where it was made (frescoes,
+           mosaics, stained glass, portal sculpture, altarpieces in churches,
+           wayside crosses, outdoor statues...): its current location
+  artist   the artist's documented place of work (P937 bracketing the work's date),
+           else place of death (work in the last 20 years of life), else place of
+           birth (work in the first 30 years)
+  region   only a culture / school / nationality / country is known
 
-assign(works) maps the final list of works (as harvest.py builds them) onto a
-deduplicated list of places using only those files (no network).
+Movable works are never placed at the museum that holds them today.
+
+Lookups use free, keyless services only (Wikidata SPARQL and the Wikidata API;
+OpenStreetMap Nominatim as a last resort, at most one request per second). Every
+network response is cached under .cache/geocode/. Output, under data/map/:
+
+  wd-places.json    Wikidata work QID -> {loc, made, origin, cr}
+  artists.json      artist QID -> {n, b, d, w: workplaces, bp: birthplace, dp: deathplace}
+  artist-names.json artist name text (source records) -> artist QID
+  gazetteer.json    location / place-made text -> {name, lat, lon, pid?, kind, museum?, approx?}
+  unresolved.txt    coverage statistics and the strings that could not be placed
+
+assign(works) uses only those files (no network).
 
 Usage: python3 scripts/geocode.py
 """
@@ -18,6 +34,7 @@ import hashlib
 import json
 import math
 import re
+import statistics
 import sys
 import time
 import unicodedata
@@ -36,8 +53,8 @@ NOMINATIM = "https://nominatim.openstreetmap.org/search"
 UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ)"
 
 # --------------------------------------------------------------------------
-# Known institutions. Key = location text used by the sources; value = QID.
-# Coordinates and labels are fetched from Wikidata (cached).
+# Known institutions (current locations of whole sources). Used to know that a
+# source record is in a museum; coordinates are fetched from Wikidata.
 INSTITUTIONS = {
     "The Metropolitan Museum of Art": ("Metropolitan Museum of Art", "Q160236"),
     "Metropolitan Museum of Art": ("Metropolitan Museum of Art", "Q160236"),
@@ -60,8 +77,6 @@ INSTITUTIONS = {
     "Nationalmuseum, Stockholm": ("Nationalmuseum", "Q842858"),
     "Nationalmuseum": ("Nationalmuseum", "Q842858"),
     "Nationalmuseum Sweden": ("Nationalmuseum", "Q842858"),
-    # The Finnish National Gallery is an organisation; its works hang in the
-    # Ateneum (Finnish/modern art) or the Sinebrychoff (old masters): see assign().
     "Finnish National Gallery, Helsinki": ("Ateneum", "Q754507"),
     "Finnish National Gallery": ("Ateneum", "Q754507"),
     "Ateneum": ("Ateneum", "Q754507"),
@@ -73,26 +88,9 @@ INSTITUTIONS = {
     "Walters Art Museum": ("Walters Art Museum", "Q210081"),
 }
 
-# Source id prefix -> institution key (in INSTITUTIONS) holding every record of that source.
-SOURCE_INST = {
-    "met": "The Metropolitan Museum of Art",
-    "nga": "National Gallery of Art, Washington",
-    "aic": "Art Institute of Chicago",
-    "cma": "Cleveland Museum of Art",
-    "rijks": "Rijksmuseum, Amsterdam",
-    "vam": "Victoria and Albert Museum",
-    "va": "Victoria and Albert Museum",
-    "smk": "Statens Museum for Kunst",
-    "nationalmuseum": "Nationalmuseum, Stockholm",
-    "nm": "Nationalmuseum, Stockholm",
-    "fng": "Finnish National Gallery, Helsinki",
-    "yale": "Yale University Art Gallery",
-    "yuag": "Yale University Art Gallery",
-    "ycba": "Yale Center for British Art",
-    "princeton": "Princeton University Art Museum",
-    "getty": "J. Paul Getty Museum",
-    "walters": "Walters Art Museum",
-}
+# Source id prefixes whose records are all held by one museum (movable works).
+MUSEUM_SOURCES = {"met", "nga", "aic", "cma", "rijks", "vam", "va", "smk", "nationalmuseum", "nm", "fng",
+                  "yale", "yuag", "ycba", "princeton", "getty", "walters"}
 
 # City names whose first Wikidata search hit is the wrong place.
 CITY_HINTS = {
@@ -102,6 +100,117 @@ CITY_HINTS = {
     "venice": "Q641", "naples": "Q2634", "milan": "Q490", "berlin": "Q64", "vienna": "Q1741",
     "munich": "Q1726", "madrid": "Q2807", "moscow": "Q649", "budapest": "Q1781",
 }
+
+# Representative points for schools, cultures, nationalities and countries ("region").
+# name: (lat, lon, "phrase|phrase|...") — phrases are matched on folded text.
+_R = {
+    "Italy": (42.83, 12.83, "italy|italian|italia"),
+    "Florence": (43.7696, 11.2558, "florentine|florence|firenze"),
+    "Venice": (45.4408, 12.3155, "venetian|venice|venezia"),
+    "Siena": (43.3188, 11.3308, "sienese|siena"),
+    "Bologna": (44.4949, 11.3426, "bolognese|bologna|emilian|emilia"),
+    "Rome": (41.9028, 12.4964, "roman|rome"),
+    "Naples": (40.8518, 14.2681, "neapolitan|naples|napoli"),
+    "Lombardy": (45.5850, 9.9300, "lombard|lombardy|milanese"),
+    "Genoa": (44.4056, 8.9463, "genoese|genoa"),
+    "Ferrara": (44.8381, 11.6198, "ferrarese|ferrara"),
+    "Umbria": (43.1107, 12.3908, "umbrian|umbria"),
+    "Padua": (45.4064, 11.8768, "paduan|padua"),
+    "Piedmont": (45.0703, 7.6869, "piedmontese|piedmont"),
+    "Marche": (43.6158, 13.5189, "marchigian|marche"),
+    "Sicily": (37.6, 14.0, "sicilian|sicily"),
+    "Flanders": (51.05, 3.72, "flemish|flanders"),
+    "Southern Netherlands": (50.85, 4.35, "south netherlandish|southern netherlandish|southern netherlands|south netherlands|spanish netherlands|brabant|brabantine"),
+    "Low Countries": (51.5, 4.9, "netherlandish|low countries|early netherlandish"),
+    "Netherlands": (52.13, 5.29, "dutch|netherlands|northern netherlands|north netherlandish|northern netherlandish|dutch republic|holland"),
+    "Belgium": (50.64, 4.67, "belgian|belgium"),
+    "Germany": (51.0, 10.0, "holy roman empire|german|germany"),
+    "Southern Germany": (48.6, 10.4, "south german|southern germany|southern german|swabian|swabia"),
+    "Upper Rhine": (48.0, 7.85, "upper rhine|upper rhenish"),
+    "Middle Rhine": (50.2, 7.6, "middle rhine|middle rhenish"),
+    "Lower Rhine": (51.6, 6.4, "lower rhine|lower rhenish"),
+    "Danube School": (48.72, 12.6, "danube school|danube"),
+    "Franconia": (49.6, 11.0, "franconian|franconia"),
+    "Bavaria": (48.8, 11.5, "bavarian|bavaria"),
+    "Westphalia": (51.9, 7.6, "westphalian|westphalia"),
+    "Saxony": (51.05, 13.35, "saxon|saxony"),
+    "Austria": (47.6, 14.1, "austrian|austria|tyrolean|tyrol"),
+    "Switzerland": (46.8, 8.2, "swiss|switzerland"),
+    "France": (46.6, 2.4, "french|france"),
+    "Northern France": (49.9, 2.8, "north french|northern france|northern french|picardy"),
+    "Normandy": (49.1, 0.2, "norman|normandy"),
+    "Burgundy": (47.05, 4.4, "burgundian|burgundy"),
+    "Île-de-France": (48.75, 2.5, "ile de france|parisian"),
+    "Spain": (40.2, -3.7, "spanish|spain|castilian|castile"),
+    "Catalonia": (41.8, 1.6, "catalan|catalonia"),
+    "Aragon": (41.6, -0.9, "aragonese|aragon"),
+    "Andalusia": (37.4, -5.0, "andalusian|andalusia"),
+    "Valencia": (39.47, -0.38, "valencian"),
+    "Portugal": (39.6, -8.0, "portuguese|portugal"),
+    "England": (52.5, -1.5, "english|england"),
+    "Great Britain": (53.0, -2.0, "great britain|united kingdom|british"),
+    "Scotland": (56.5, -4.2, "scottish|scotland"),
+    "Ireland": (53.3, -7.7, "irish|ireland"),
+    "Wales": (52.3, -3.7, "welsh|wales"),
+    "Constantinople": (41.0082, 28.9784, "byzantine|byzantine empire|byzantium|constantinople"),
+    "Greece": (39.0, 22.0, "post byzantine|greek|greece|cretan|crete"),
+    "Egypt": (26.8, 30.8, "coptic|egypt|egyptian"),
+    "Ethiopia": (11.6, 39.0, "ethiopian|ethiopia|abyssinian"),
+    "Russia": (56.0, 38.0, "novgorod school|russian|russia|muscovite"),
+    "Ukraine": (49.0, 31.0, "ukrainian|ukraine|ruthenian"),
+    "Armenia": (40.07, 45.04, "armenian|armenia|cilician"),
+    "Georgia": (42.3, 43.4, "georgian|georgia"),
+    "Serbia": (44.0, 20.9, "serbian|serbia"),
+    "Bulgaria": (42.7, 25.5, "bulgarian|bulgaria"),
+    "Romania": (45.9, 24.97, "romanian|romania|wallachian|moldavian"),
+    "Hungary": (47.16, 19.5, "hungarian|hungary"),
+    "Bohemia": (49.8, 15.5, "czech republic|bohemian|bohemia|czechia"),
+    "Poland": (52.0, 19.4, "polish|poland"),
+    "Slovakia": (48.67, 19.7, "slovak|slovakia"),
+    "Croatia": (45.1, 15.2, "croatian|croatia|dalmatian"),
+    "Slovenia": (46.15, 14.99, "slovenian|slovenia"),
+    "Denmark": (56.0, 10.0, "danish|denmark"),
+    "Sweden": (60.1, 15.0, "swedish|sweden"),
+    "Norway": (61.0, 9.0, "norwegian|norway"),
+    "Finland": (62.0, 26.0, "finnish|finland"),
+    "Iceland": (64.9, -18.6, "icelandic|iceland"),
+    "Lithuania": (55.2, 23.9, "lithuanian|lithuania"),
+    "Latvia": (56.9, 24.6, "latvian|latvia"),
+    "Estonia": (58.6, 25.0, "estonian|estonia"),
+    "Syria": (35.0, 38.5, "syrian|syria"),
+    "Lebanon": (33.9, 35.9, "lebanese|lebanon|maronite"),
+    "Holy Land": (31.78, 35.22, "holy land|palestine|palestinian|jerusalem"),
+    "Cyprus": (35.0, 33.2, "cypriot|cyprus"),
+    "Malta": (35.9, 14.4, "maltese|malta"),
+    "Persia": (32.4, 53.7, "persian|persia|iran|iranian|safavid"),
+    "Mughal India": (27.18, 78.01, "mughal|mughal india"),
+    "India": (22.0, 79.0, "indo portuguese|indian|india|goa|goan"),
+    "Ceylon": (7.87, 80.77, "sri lanka|sinhalese|ceylon"),
+    "China": (35.9, 104.2, "chinese|china"),
+    "Japan": (36.2, 138.3, "japanese|japan"),
+    "Korea": (36.5, 127.9, "korean|korea"),
+    "Philippines": (12.9, 121.8, "filipino|philippine|philippines"),
+    "Mexico": (19.43, -99.13, "new spain|mexican|mexico"),
+    "Peru": (-12.05, -77.04, "peruvian|peru"),
+    "Cusco": (-13.53, -71.97, "cuzco|cusco|cuzco school|cusco school"),
+    "Quito": (-0.18, -78.47, "quito|quito school|ecuadorian|ecuador"),
+    "Bolivia": (-16.5, -68.15, "bolivian|bolivia"),
+    "Colombia": (4.6, -74.1, "new granada|colombian|colombia"),
+    "Brazil": (-14.2, -51.9, "brazilian|brazil"),
+    "Argentina": (-34.6, -58.4, "argentine|argentinian|argentina"),
+    "Guatemala": (14.6, -90.5, "guatemalan|guatemala"),
+    "United States": (39.8, -98.6, "united states|united states of america|american|usa"),
+    "Canada": (56.1, -106.3, "canadian|canada"),
+    "Australia": (-25.3, 133.8, "australian|australia"),
+    "Kongo": (-5.0, 14.5, "kongo|kongo peoples|congo"),
+}
+REGIONS = {}
+for _name, (_lat, _lon, _keys) in _R.items():
+    for _p in [_name] + _keys.split("|"):
+        _k = re.sub(r"[^a-z0-9]+", " ", unicodedata.normalize("NFKD", _p.lower()).encode("ascii", "ignore").decode()).strip()
+        if _k and (_k not in REGIONS or _p == _name):
+            REGIONS[_k] = (_name, _lat, _lon)
+
 
 SKIP = re.compile(
     r"^(private|unknown|lost|destroyed|whereabouts|location unknown|present location|"
@@ -114,15 +223,40 @@ SKIP = re.compile(
     re.I,
 )
 
-# Nationality / culture adjectives that are not places (used for place-made "c").
-NATIONALITY = re.compile(
-    r"^(other|italian|flemish|german|spanish|french|dutch|netherlandish|austrian|hungarian|greek|"
-    r"catalan|russian|bohemian|english|swiss|portuguese|danish|scottish|swedish|irish|belgian|"
-    r"finnish|byzantine|american|british|polish|czech|norwegian|european|coptic|ethiopian|"
-    r"armenian|georgian|serbian|bulgarian|romanian|mexican|peruvian|bolivian|ecuadorian|"
-    r"colombian|filipino|japanese|chinese|indian|mughal|islamic|roman|late roman|egyptian|"
-    r"syrian|frankish|carolingian|ottonian|merovingian|lombard|venetian|florentine|sienese|"
-    r"southern|northern|western|eastern|upper|lower|central|south|north|east|west)\b",
+MUSEUM_RE = re.compile(
+    r"museum|museo|musée|musee|muzeum|múzeum|muzej|музей|museu|museet|museo|gallery|galleria|galerie|"
+    r"gemäldegalerie|pinakothek|pinacoteca|kunsthalle|collection|sammlung|library|biblioth|biblioteca|"
+    r"archiv|hermitage|louvre|prado|uffizi|kunstkammer|staatliche|nationalmuseum|ateneum|"
+    r"kunsthistorisches|academy|accademia|akademie|institute|university|foundation|fondazione|stiftung|"
+    r"palazzo pitti|getty|cloisters|national trust|royal collection|treasury of|schatzkammer",
+    re.I,
+)
+
+# Work types that are part of a building or fixed outdoors (only "in situ" when not in a museum).
+INSITU_K = re.compile(
+    r"fresco|mural|wall painting|mosaic|stained|leadlight|church window|window|tympan|portal|reredos|retable|"
+    r"altarpiece|altar|triptych|polyptych|predella|wayside|calvary|monument|memorial|marian column|"
+    r"column with statue|statue|pulpit|rood|choir stall|baptismal font|font|epitaph|tomb|relief|capital|"
+    r"facade|façade|apse|ceiling|vault|graffit|catacomb|crucifix|icon|group of sculptures|colossal|chapel|"
+    r"sculpture|cross|ciborium|tabernacle|iconostasis|antependium|lunette|bas-relief|high relief|"
+    r"sarcophagus|stele|architectural|wall|church",
+    re.I,
+)
+INSITU_M = re.compile(r"fresco|mural|wall painting|mosaic|stained glass|secco|sgraffito", re.I)
+
+ART_DESC = re.compile(
+    r"painter|sculptor|engraver|printmaker|artist|illuminator|illustrator|draughts|draftsman|drawer|"
+    r"goldsmith|silversmith|etcher|woodcut|miniatur|glass|carver|mosaicist|architect|lithograph|"
+    r"medallist|medalist|master|iconographer|icon|enamel|cartographer|publisher|designer|"
+    r"stonemason|woodworker|cabinetmaker|maker|craftsman|workshop",
+    re.I,
+)
+ANON_ARTIST = re.compile(
+    r"^(anonymous|anon\b|unknown|unidentified|not identified|artist unknown|onbekend|anoniem|"
+    r"after\b|copy after|copy of|follower|workshop|atelier|studio of|circle of|school of|style of|"
+    r"manner of|imitator|imitation|attributed workshop|various|byzantine|coptic|italian|german|french|"
+    r"flemish|netherlandish|dutch|spanish|english|british|american|russian|greek|austrian|swiss)|"
+    r"\bcentury\b|\bmaster \(|unknown master|^master$|\(italian\)|\(german\)|\(flemish\)",
     re.I,
 )
 
@@ -143,6 +277,7 @@ CITY_TYPES = {
     "Q486972", "Q15127012", "Q1115575", "Q3558970", "Q13218690", "Q7930989", "Q1307214",
     "Q902814", "Q1187811", "Q15661340", "Q2264924", "Q133442", "Q1840161", "Q954172",
 }
+ANONYMOUS_QIDS = {"Q4233718", "Q3816639", "Q19595382", "Q24238356"}
 
 _last = defaultdict(float)
 
@@ -200,7 +335,7 @@ def wbsearch(text, limit=7):
         "action": "wbsearchentities", "format": "json", "language": "en", "uselang": "en",
         "type": "item", "limit": limit, "search": text[:250]})
     try:
-        return fetch(url, kind="wbsearch", gap=0.25).get("search", [])
+        return fetch(url, kind="wbsearch", gap=0.5).get("search", [])
     except urllib.error.HTTPError:
         return []
 
@@ -210,7 +345,7 @@ def cirrus(text, limit=6):
         "action": "query", "list": "search", "format": "json", "srlimit": limit, "srnamespace": 0,
         "srsearch": text[:250] + " haswbstatement:P625"})
     try:
-        return [h["title"] for h in fetch(url, kind="cirrus", gap=0.25).get("query", {}).get("search", [])]
+        return [h["title"] for h in fetch(url, kind="cirrus", gap=0.5).get("query", {}).get("search", [])]
     except urllib.error.HTTPError:
         return []
 
@@ -242,6 +377,11 @@ def point(wkt):
     return round(lat, 6), round(lon, 6)
 
 
+def year_of(ts):
+    m = re.match(r"^([+-]?\d+)-", ts or "")
+    return int(m.group(1)) if m else None
+
+
 def km(a, b):
     la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
     h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
@@ -253,6 +393,16 @@ def fold(s):
     s = unicodedata.normalize("NFKD", s.lower())
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def chunks(seq, n):
+    seq = list(seq)
+    for i in range(0, len(seq), n):
+        yield seq[i:i + n]
+
+
+def qsort(qs):
+    return sorted({q for q in qs if re.match(r"^Q\d+$", q or "")}, key=lambda q: int(q[1:]))
 
 
 # --------------------------------------------------------------------------
@@ -276,30 +426,37 @@ def prefix(w):
     return (w.get("id") or "").split(":", 1)[0] if w.get("id") else ""
 
 
-# --------------------------------------------------------------------------
-# 1. Wikidata works -> place
+def region_of(text):
+    """A school / culture / nationality / country string -> (name, lat, lon) or None."""
+    t = fold(re.sub(r"\(.*?\)", " ", text or ""))
+    t = re.sub(r"\b(probably|possibly|perhaps|likely|made in|style|medieval|renaissance|baroque|"
+               r"\d+(st|nd|rd|th)? ?(century|c)|century|or|and|active in|workshop|school)\b", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    if not t:
+        return None
+    if t in REGIONS:
+        return REGIONS[t]
+    parts = [p.strip() for p in re.split(r"[,;/]| or | and ", fold_keep_commas(text)) if p.strip()]
+    for p in parts:
+        p = fold(p)
+        if p in REGIONS:
+            return REGIONS[p]
+    for p in sorted((k for k in REGIONS if " " in k), key=len, reverse=True):
+        if re.search(r"\b" + p + r"\b", t):
+            return REGIONS[p]
+    words = t.split()
+    for w in words:
+        if w in REGIONS:
+            return REGIONS[w]
+    return None
 
-WD_QUERY = """
-SELECT ?item ?kind ?place ?coord ?settle WHERE {
-  VALUES ?item { %s }
-  {
-    ?item p:P276 ?st . ?st ps:P276 ?place ; wikibase:rank ?r .
-    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
-    ?place wdt:P625 ?coord . BIND("loc" AS ?kind)
-  } UNION {
-    ?item p:P195 ?st . ?st ps:P195 ?place ; wikibase:rank ?r .
-    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
-    ?place wdt:P625 ?coord . BIND("coll" AS ?kind)
-  } UNION {
-    ?item p:P276|p:P195 ?st . ?st ps:P276|ps:P195 ?x ; wikibase:rank ?r .
-    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
-    FILTER NOT EXISTS { ?x wdt:P625 [] }
-    ?x wdt:P131 ?place . ?place wdt:P625 ?coord . BIND("admin" AS ?kind)
-  } UNION {
-    ?item wdt:P1071 ?place . ?place wdt:P625 ?coord . BIND("made" AS ?kind)
-  }
-  BIND(EXISTS { ?place wdt:P1082 [] } AS ?settle)
-}"""
+
+def fold_keep_commas(s):
+    return ",".join(fold(x) for x in re.split(r"[,;/]", s or ""))
+
+
+# --------------------------------------------------------------------------
+# Generic Wikidata lookups
 
 LABEL_QUERY = """
 SELECT ?x ?xLabel WHERE {
@@ -317,15 +474,17 @@ SELECT ?x ?coord ?en ?type ?pop ?cap WHERE {
   BIND(EXISTS { ?x wdt:P36 [] } AS ?cap)
 }"""
 
-RANK = {("loc", False): 0, ("coll", False): 1, ("loc", True): 2, ("coll", True): 3, ("admin", False): 4,
-        ("admin", True): 4, ("made", False): 5, ("made", True): 5}
+MUSEUM_QUERY = """
+SELECT ?x WHERE {
+  VALUES ?x { %s }
+  ?x wdt:P31/wdt:P279* ?m .
+  FILTER(?m IN (wd:Q33506, wd:Q7075, wd:Q166118, wd:Q207694, wd:Q1007870, wd:Q2668072))
+}"""
 
 
 def labels_for(qids):
     out = {}
-    qids = sorted(set(qids), key=lambda q: int(q[1:]))
-    for n in range(0, len(qids), 300):
-        chunk = qids[n:n + 300]
+    for chunk in chunks(qsort(qids), 300):
         for r in sparql(LABEL_QUERY % " ".join("wd:" + q for q in chunk)):
             lab = val(r, "xLabel")
             q = qid(val(r, "x"))
@@ -337,9 +496,8 @@ def labels_for(qids):
 def info_for(qids):
     """QID -> {coord, label, types, pop, cap} (cached SPARQL)."""
     out = {}
-    qids = sorted({q for q in qids if re.match(r"^Q\d+$", q)}, key=lambda q: int(q[1:]))
-    for n in range(0, len(qids), 250):
-        chunk = qids[n:n + 250]
+    qs = qsort(qids)
+    for n, chunk in enumerate(chunks(qs, 250)):
         for r in sparql(INFO_QUERY % " ".join("wd:" + q for q in chunk)):
             q = qid(val(r, "x"))
             d = out.setdefault(q, {"coord": None, "label": "", "types": set(), "pop": False, "cap": False})
@@ -351,7 +509,7 @@ def info_for(qids):
                 d["types"].add(qid(val(r, "type")))
             d["pop"] = d["pop"] or val(r, "pop") == "true"
             d["cap"] = d["cap"] or val(r, "cap") == "true"
-        print(f"  info {min(n + 250, len(qids))}/{len(qids)}", end="\r", file=sys.stderr)
+        print(f"  info {min((n + 1) * 250, len(qs))}/{len(qs)}", end="\r", file=sys.stderr)
     missing = [q for q, d in out.items() if not d["label"]]
     if missing:
         for q, lab in labels_for(missing).items():
@@ -359,42 +517,297 @@ def info_for(qids):
     return out
 
 
+def museums_among(qids):
+    """The subset of QIDs that are museums, libraries, archives or galleries."""
+    out = set()
+    for chunk in chunks(qsort(qids), 150):
+        try:
+            rows = sparql(MUSEUM_QUERY % " ".join("wd:" + q for q in chunk))
+        except Exception as e:  # a timeout: fall back to names only
+            print(f"  museum check failed ({e})", file=sys.stderr)
+            continue
+        out.update(qid(val(r, "x")) for r in rows)
+    return out
+
+
+def is_settlement(d):
+    return bool(d["types"] & CITY_TYPES) or d["pop"]
+
+
+def is_region(d):
+    return bool(d["types"] & REGION_TYPES) or d["cap"]
+
+
+# --------------------------------------------------------------------------
+# 1. Wikidata works
+
+WD_LOC = """
+SELECT ?item ?kind ?place ?coord ?settle WHERE {
+  VALUES ?item { %s }
+  {
+    ?item p:P276 ?st . ?st ps:P276 ?place ; wikibase:rank ?r .
+    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
+    ?place wdt:P625 ?coord . BIND("loc" AS ?kind)
+  } UNION {
+    ?item p:P195 ?st . ?st ps:P195 ?place ; wikibase:rank ?r .
+    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
+    ?place wdt:P625 ?coord . BIND("coll" AS ?kind)
+  } UNION {
+    ?item p:P276|p:P195 ?st . ?st ps:P276|ps:P195 ?x ; wikibase:rank ?r .
+    FILTER(?r != wikibase:DeprecatedRank) FILTER NOT EXISTS { ?st pq:P582 [] }
+    FILTER NOT EXISTS { ?x wdt:P625 [] }
+    ?x wdt:P131 ?place . ?place wdt:P625 ?coord . BIND("admin" AS ?kind)
+  }
+  BIND(EXISTS { ?place wdt:P1082 [] } AS ?settle)
+}"""
+
+WD_MADE = """
+SELECT ?item ?made ?place ?coord ?via ?region WHERE {
+  VALUES ?item { %s }
+  ?item wdt:P1071 ?made .
+  { ?made wdt:P625 ?coord . BIND(?made AS ?place) BIND("p" AS ?via) }
+  UNION
+  { FILTER NOT EXISTS { ?made wdt:P625 [] } ?made wdt:P131 ?place . ?place wdt:P625 ?coord . BIND("a" AS ?via) }
+  BIND(EXISTS { ?place wdt:P36 [] } AS ?region)
+}"""
+
+WD_ORIGIN = """
+SELECT ?item ?place ?coord WHERE {
+  VALUES ?item { %s }
+  ?item wdt:P495 ?place . ?place wdt:P625 ?coord .
+}"""
+
+WD_CREATORS = """
+SELECT ?item ?cr WHERE {
+  VALUES ?item { %s }
+  ?item wdt:P170 ?cr . FILTER(isIRI(?cr))
+}"""
+
+RANK = {("loc", False): 0, ("coll", False): 1, ("loc", True): 2, ("coll", True): 3, ("admin", False): 4,
+        ("admin", True): 4}
+
+
 def build_wd_places(works):
-    qs = sorted({w["q"] for w in works if w.get("q")}, key=lambda q: int(q[1:]))
+    qs = qsort(w["q"] for w in works if w.get("q"))
     print(f"Wikidata works: {len(qs)}")
-    best = {}
-    for n in range(0, len(qs), 200):
-        chunk = qs[n:n + 200]
-        for r in sparql(WD_QUERY % " ".join("wd:" + q for q in chunk)):
+    loc, made, origin, creators = {}, {}, {}, defaultdict(list)
+    for n, chunk in enumerate(chunks(qs, 200)):
+        values = " ".join("wd:" + q for q in chunk)
+        for r in sparql(WD_LOC % values):
             q, kind, place = qid(val(r, "item")), val(r, "kind"), qid(val(r, "place"))
             pt = point(val(r, "coord"))
             if not pt:
                 continue
             rank = (RANK[(kind, val(r, "settle") == "true")], int(place[1:]))
-            if q not in best or rank < best[q][0]:
-                best[q] = (rank, kind, place, pt)
-        print(f"  places {min(n + 200, len(qs))}/{len(qs)}  resolved {len(best)}", end="\r", file=sys.stderr)
+            if q not in loc or rank < loc[q][0]:
+                loc[q] = (rank, kind, place, pt)
+        for r in sparql(WD_MADE % values):
+            q, place = qid(val(r, "item")), qid(val(r, "place"))
+            pt = point(val(r, "coord"))
+            if not pt:
+                continue
+            region = val(r, "region") == "true"
+            rank = (region, val(r, "via") != "p", int(place[1:]))
+            if q not in made or rank < made[q][0]:
+                made[q] = (rank, place, pt, region)
+        for r in sparql(WD_ORIGIN % values):
+            q, place = qid(val(r, "item")), qid(val(r, "place"))
+            pt = point(val(r, "coord"))
+            if pt and (q not in origin or int(place[1:]) < int(origin[q][0][1:])):
+                origin[q] = (place, pt)
+        for r in sparql(WD_CREATORS % values):
+            q, c = qid(val(r, "item")), qid(val(r, "cr"))
+            if c not in ANONYMOUS_QIDS and c not in creators[q]:
+                creators[q].append(c)
+        print(f"  works {min((n + 1) * 200, len(qs))}/{len(qs)}", end="\r", file=sys.stderr)
     print(file=sys.stderr)
-    labels = labels_for({b[2] for b in best.values()})
+    places = {v[2] for v in loc.values()} | {v[1] for v in made.values()} | {v[0] for v in origin.values()}
+    labels = labels_for(places)
+    museums = museums_among({v[2] for v in loc.values()})
     out = {}
-    kinds = Counter()
     for q in qs:
-        if q not in best:
-            continue
-        rank, kind, place, (lat, lon) = best[q]
-        e = {"name": labels.get(place, place), "lat": lat, "lon": lon, "pid": place}
-        if kind == "made":
-            e["made"] = True
-        if kind == "admin":
-            e["approx"] = "admin"
-        out[q] = e
-        kinds[kind] += 1
-    print(f"  resolved {len(out)}/{len(qs)} ({100 * len(out) / max(1, len(qs)):.1f}%): {dict(kinds)}")
+        e = {}
+        if q in loc:
+            _, kind, place, (lat, lon) = loc[q]
+            name = labels.get(place, place)
+            e["loc"] = {"name": name, "lat": lat, "lon": lon, "pid": place,
+                        "museum": place in museums or bool(MUSEUM_RE.search(name))}
+            if kind == "admin":
+                e["loc"]["approx"] = "admin"
+        if q in made:
+            _, place, (lat, lon), region = made[q]
+            e["made"] = {"name": labels.get(place, place), "lat": lat, "lon": lon, "pid": place}
+            if region:
+                e["made"]["region"] = True
+        if q in origin:
+            place, (lat, lon) = origin[q]
+            e["origin"] = {"name": labels.get(place, place), "lat": lat, "lon": lon, "pid": place}
+        if creators.get(q):
+            e["cr"] = sorted(creators[q], key=lambda c: int(c[1:]))
+        if e:
+            out[q] = e
+    print(f"  current location {len(loc)}, place made {len(made)}, origin {len(origin)}, "
+          f"with creator {len(creators)}")
     return out
 
 
 # --------------------------------------------------------------------------
-# 2. Gazetteer for location text
+# 2. Artists
+
+ART_LIFE = """
+SELECT ?a ?b ?d ?bp ?bpc ?dp ?dpc WHERE {
+  VALUES ?a { %s }
+  OPTIONAL { ?a wdt:P569 ?b }
+  OPTIONAL { ?a wdt:P570 ?d }
+  OPTIONAL { ?a wdt:P19 ?bp . ?bp wdt:P625 ?bpc . }
+  OPTIONAL { ?a wdt:P20 ?dp . ?dp wdt:P625 ?dpc . }
+}"""
+
+ART_WORK = """
+SELECT ?a ?wl ?c ?s ?e ?cap WHERE {
+  VALUES ?a { %s }
+  ?a p:P937 ?st . ?st ps:P937 ?wl ; wikibase:rank ?r . FILTER(?r != wikibase:DeprecatedRank)
+  ?wl wdt:P625 ?c .
+  OPTIONAL { ?st pq:P580 ?s } OPTIONAL { ?st pq:P582 ?e }
+  BIND(EXISTS { ?wl wdt:P36 [] } AS ?cap)
+}"""
+
+ART_DATES = """
+SELECT ?a ?b ?d WHERE {
+  VALUES ?a { %s }
+  OPTIONAL { ?a wdt:P569 ?b } OPTIONAL { ?a wdt:P570 ?d }
+}"""
+
+
+def artist_dates(qids):
+    out = {}
+    for chunk in chunks(qsort(qids), 250):
+        for r in sparql(ART_DATES % " ".join("wd:" + q for q in chunk)):
+            a = qid(val(r, "a"))
+            d = out.setdefault(a, [None, None])
+            b, de = year_of(val(r, "b")), year_of(val(r, "d"))
+            if b is not None and (d[0] is None or b < d[0]):
+                d[0] = b
+            if de is not None and (d[1] is None or de > d[1]):
+                d[1] = de
+    return out
+
+
+def clean_artist(name):
+    """Normalise an artist string from a source record; '' if anonymous / not a person."""
+    a = (name or "").strip()
+    a = re.split(r";|\s+\|\s+|\n", a)[0].strip()
+    a = re.sub(r"^(attributed to|attr\.|possibly by|probably by|designed by|after a design by|"
+               r"published by|printed by|engraved by|by)\s+", "", a, flags=re.I)
+    if not a or ANON_ARTIST.search(a) or len(a) < 3:
+        return ""
+    return a
+
+
+def search_variants(a):
+    """Search strings for an artist name: as given, with '(II)' -> 'II', without it, before a comma."""
+    out = [a]
+    m = re.match(r"^(.*?)\s*\(([IVX]+)\)\s*$", a)
+    if m:
+        out = [f"{m.group(1)} {m.group(2)}", m.group(1)]
+    if "," in a:
+        first = a.split(",")[0].strip()
+        if len(first.split()) >= 2:
+            out.append(first)
+    if re.search(r"[A-Z]{3,}", a):  # WGA style "DÜRER, Albrecht"
+        p = a.split(",")
+        if len(p) == 2:
+            out.append(f"{p[1].strip()} {p[0].strip().title()}")
+    return list(dict.fromkeys(out))
+
+
+def resolve_artist_names(names_years):
+    """artist text -> QID, accepting only an unambiguous artist whose life fits the works' dates."""
+    searches = {}
+    for i, a in enumerate(names_years):
+        searches[a] = [h for v in search_variants(a) for h in wbsearch(v)]
+        if i % 50 == 0:
+            print(f"  artist search {i}/{len(names_years)}", end="\r", file=sys.stderr)
+    print(file=sys.stderr)
+    cands = {h["id"] for hits in searches.values() for h in hits if ART_DESC.search(h.get("description") or "")}
+    dates = artist_dates(cands)
+    out = {}
+    for a, hits in searches.items():
+        years = [y for y in names_years[a] if y is not None]
+        y = statistics.median(years) if years else None
+        want = {fold(v) for v in search_variants(a)}
+        ok, seen = [], set()
+        for h in hits:
+            q = h["id"]
+            if q in seen or not ART_DESC.search(h.get("description") or ""):
+                continue
+            seen.add(q)
+            label_ok = fold(h.get("match", {}).get("text")) in want or fold(h.get("label")) in want
+            if not label_ok:
+                continue
+            b, d = dates.get(q, [None, None])
+            if y is not None and (b is not None or d is not None):
+                lo = (b + 10) if b is not None else (d - 80)
+                hi = (d + 10) if d is not None else (b + 90)
+                if not (lo <= y <= hi):
+                    continue
+            elif b is None and d is None and y is not None:
+                continue  # no dates to check the match against
+            ok.append(q)
+        if len(ok) == 1:
+            out[a] = ok[0]
+    return out
+
+
+def build_artists(creator_qids):
+    qs = qsort(creator_qids)
+    print(f"Artists: {len(qs)}")
+    life, work = {}, defaultdict(list)
+    for chunk in chunks(qs, 150):
+        values = " ".join("wd:" + q for q in chunk)
+        for r in sparql(ART_LIFE % values):
+            a = qid(val(r, "a"))
+            d = life.setdefault(a, {"b": None, "d": None, "bp": None, "dp": None})
+            b, de = year_of(val(r, "b")), year_of(val(r, "d"))
+            if b is not None and (d["b"] is None or b < d["b"]):
+                d["b"] = b
+            if de is not None and (d["d"] is None or de > d["d"]):
+                d["d"] = de
+            for k in ("bp", "dp"):
+                pt = point(val(r, k + "c"))
+                if pt and (d[k] is None or int(qid(val(r, k))[1:]) < int(d[k][0][1:])):
+                    d[k] = (qid(val(r, k)), pt)
+        for r in sparql(ART_WORK % values):
+            if val(r, "cap") == "true":
+                continue  # a country or region, not a place of work
+            pt = point(val(r, "c"))
+            if pt:
+                work[qid(val(r, "a"))].append((qid(val(r, "wl")), pt, year_of(val(r, "s")), year_of(val(r, "e"))))
+    places = {p[0] for d in life.values() for p in (d["bp"], d["dp"]) if p} | {w[0] for ws in work.values() for w in ws}
+    labels = labels_for(places | set(qs))
+    out = {}
+    for a in qs:
+        d = life.get(a, {})
+        e = {"n": labels.get(a, a)}
+        if d.get("b") is not None:
+            e["b"] = d["b"]
+        if d.get("d") is not None:
+            e["d"] = d["d"]
+        ws = sorted(set(work.get(a, [])), key=lambda w: (w[2] is None, w[2] or 0, int(w[0][1:])))
+        if ws:
+            e["w"] = [[labels.get(p, p), pt[0], pt[1], s, en, p] for p, pt, s, en in ws]
+        for k in ("bp", "dp"):
+            if d.get(k):
+                p, pt = d[k]
+                e[k] = [labels.get(p, p), pt[0], pt[1], p]
+        out[a] = e
+    print(f"  with workplace {sum(1 for e in out.values() if 'w' in e)}, birthplace "
+          f"{sum(1 for e in out.values() if 'bp' in e)}, deathplace {sum(1 for e in out.values() if 'dp' in e)}")
+    return out
+
+
+# --------------------------------------------------------------------------
+# 3. Gazetteer for location and place-made text
 
 def split_place(s):
     """'Museum, City' -> ('Museum', 'City'); handles 'X (City, Region)' too."""
@@ -409,36 +822,18 @@ def split_place(s):
     return s, ""
 
 
-def wanted_strings(works, sources, wd_places):
-    """Location strings to resolve -> counts (from works; source-only strings count 0)."""
-    l_counts, c_counts = Counter(), Counter()
-    for w in works:
-        p = prefix(w)
-        if w.get("q") and w["q"] in wd_places:
-            continue
-        l = (w.get("l") or "").strip()
-        if l:
-            l_counts[l] += 1
-        c = (w.get("c") or "").strip()
-        if c and p not in SOURCE_INST and not NATIONALITY.match(c):
-            c_counts[c] += 1
-    for r in sources:
-        l = (r.get("l") or "").strip()
-        if l:
-            l_counts.setdefault(l, 0)
-        c = (r.get("c") or "").strip()
-        if c and prefix(r) not in SOURCE_INST and not NATIONALITY.match(c):
-            c_counts.setdefault(c, 0)
-    # Europeana data providers (institution names) seen in the source cache.
-    for f in (ROOT / ".cache" / "europeana").glob("*.json"):
-        try:
-            d = json.loads(f.read_text())
-        except Exception:
-            continue
-        for it in (d.get("items") or []) if isinstance(d, dict) else []:
-            for prov in it.get("dataProvider") or []:
-                l_counts.setdefault(prov, 0)
-    return l_counts, c_counts
+def c_parts(c):
+    """Place-made text -> candidate place strings, most specific first."""
+    c = re.sub(r"\b(probably|possibly|perhaps|likely|made in|active in)\b", " ", c, flags=re.I)
+    c = re.sub(r"\s+", " ", c).strip(" ,;?")
+    parts = [p.strip(" ?") for p in re.split(r"[,;/]|\bor\b|\band\b", c) if p.strip(" ?")]
+    out = []
+    if c:
+        out.append(c)
+    for p in reversed(parts):
+        if p not in out:
+            out.append(p)
+    return out
 
 
 def city_choice(text, info, cands):
@@ -449,51 +844,43 @@ def city_choice(text, info, cands):
     best, score = None, -1e9
     for i, q in enumerate(cands):
         d = info.get(q)
-        if not d or not d["coord"] or d["types"] & BAD_TYPES or d["types"] & REGION_TYPES or d["cap"]:
+        if not d or not d["coord"] or d["types"] & BAD_TYPES or is_region(d):
             continue
-        s = -i
-        if d["types"] & CITY_TYPES:
-            s += 10
-        if d["pop"]:
-            s += 5
-        if not (d["types"] & CITY_TYPES) and not d["pop"]:
+        if not is_settlement(d):
             continue
+        s = -i + (10 if d["types"] & CITY_TYPES else 0) + (5 if d["pop"] else 0)
         if s > score:
             best, score = q, s
     return best
 
 
-def is_settlement(d):
-    return bool(d["types"] & CITY_TYPES) or d["pop"]
-
-
 def label_matches(query, hit):
-    """Does a search hit's matched text equal the query (accent/case folded)?"""
     t = fold(hit.get("match", {}).get("text", ""))
     return t == fold(query) or fold(hit.get("label", "")) == fold(query)
 
 
 def build_gazetteer(l_counts, c_counts):
+    """Resolve location strings (l) and place-made strings (c, or parts of them)."""
     gaz = {}
-    # 2a. hardcoded institutions
     inst_info = info_for({q for _, q in INSTITUTIONS.values()})
     for key, (name, q) in INSTITUTIONS.items():
         d = inst_info.get(q)
         if d and d["coord"]:
-            gaz[key] = {"name": name, "lat": d["coord"][0], "lon": d["coord"][1], "pid": q}
-        else:
-            print(f"  ! no coordinates for institution {key} ({q})")
+            gaz[key] = {"name": name, "lat": d["coord"][0], "lon": d["coord"][1], "pid": q, "kind": "site",
+                        "museum": True}
 
     todo = {}
-    for s in list(l_counts) + list(c_counts):
-        if s in gaz or s in todo:
-            continue
-        if SKIP.search(s) or len(s) < 3 or not re.search(r"[A-Za-zÀ-ÿ]", s):
-            continue
-        todo[s] = "c" if s in c_counts and s not in l_counts else "l"
-    print(f"Gazetteer: {len(gaz)} institutions; {len(todo)} strings to resolve")
+    for s in l_counts:
+        if s not in gaz and not SKIP.search(s) and len(s) >= 3 and re.search(r"[A-Za-zÀ-ÿ]", s):
+            todo[s] = l_counts[s]
+    for c, n in c_counts.items():
+        for p in c_parts(c):
+            if region_of(p) and fold(p) in REGIONS:
+                continue
+            if p not in gaz and not SKIP.search(p) and len(p) >= 3 and re.search(r"[A-Za-zÀ-ÿ]", p):
+                todo[p] = todo.get(p, 0) + n
+    print(f"Gazetteer: {len(todo)} strings to resolve")
 
-    # 2b. search (cached): full string, the part before the last comma, the city
     searches = {}
     for i, s in enumerate(todo):
         name, city = split_place(s)
@@ -512,9 +899,10 @@ def build_gazetteer(l_counts, c_counts):
             cand.update(h["id"] for h in hits)
     info = info_for(cand)
 
-    def entry(q, approx=None, fallback=""):
+    def entry(q, kind, approx=None, fallback=""):
         d = info[q]
-        e = {"name": d["label"] or fallback or q, "lat": d["coord"][0], "lon": d["coord"][1], "pid": q}
+        e = {"name": d["label"] or fallback or q, "lat": d["coord"][0], "lon": d["coord"][1], "pid": q,
+             "kind": kind}
         if approx:
             e["approx"] = approx
         return e
@@ -527,51 +915,53 @@ def build_gazetteer(l_counts, c_counts):
             cands = [h["id"] for h in res.get("city", [])]
             city_q = city_choice(city, info, cands)
             city_pts = [info[q]["coord"] for q in cands
-                        if q in info and info[q]["coord"] and is_settlement(info[q])
-                        and not (info[q]["types"] & REGION_TYPES) and not info[q]["cap"]
+                        if q in info and info[q]["coord"] and is_settlement(info[q]) and not is_region(info[q])
                         and fold(info[q]["label"]) == fold(city)]
             if city_q:
                 city_pts.append(info[city_q]["coord"])
         hits = res.get("full", []) + res.get("name", []) + [{"id": q, "x": 1} for q in (extra or [])]
-        seen, exact = set(), []
+        seen, exact, regions = set(), [], []
         for h in hits:
             q = h["id"]
             if q in seen:
                 continue
             seen.add(q)
             d = info.get(q)
-            if not d or not d["coord"] or d["types"] & BAD_TYPES or d["types"] & REGION_TYPES or d["cap"]:
+            if not d or not d["coord"] or d["types"] & BAD_TYPES:
+                continue
+            if is_region(d):
+                if not h.get("x") and not city and label_matches(s, h):
+                    regions.append(q)
                 continue
             settle = is_settlement(d)
             if h.get("x"):
-                # full-text hit: its label must share most words of the name
                 want, have = set(fold(name).split()), set(fold(d["label"]).split())
                 if not want or len(want & have) / len(want) < 0.75:
                     continue
             if city_pts:
                 if settle or q == city_q or min(km(d["coord"], p) for p in city_pts) > 30:
                     continue
-                return entry(q)
+                return entry(q, "site")
             if not h.get("x") and not (label_matches(s, h) or label_matches(name, h)):
                 continue
             exact.append(q)
         if exact:
-            # an unqualified name: accept only if every exact match is in the same place
             pts = [info[q]["coord"] for q in exact]
             if max(km(pts[0], p) for p in pts) <= 30:
                 q = exact[0]
-                return entry(q, "city" if is_settlement(info[q]) else None)
+                return entry(q, "settlement" if is_settlement(info[q]) else "site")
             return None
         if city_q:
-            return entry(city_q, "city", city)
+            return entry(city_q, "settlement", "city", city)
+        if regions:
+            return entry(regions[0], "region")
         return None
 
-    for s, role in todo.items():
+    for s in todo:
         e = decide(s)
         if e:
             gaz[s] = e
 
-    # 2c. full-text search (any language) for strings that stayed vague or unresolved
     retry = [s for s in todo if s not in gaz or gaz[s].get("approx")]
     print(f"  full-text retry for {len(retry)} strings")
     extra = {}
@@ -590,9 +980,8 @@ def build_gazetteer(l_counts, c_counts):
         if e and (s not in gaz or not e.get("approx")):
             gaz[s] = e
 
-    # 2d. OpenStreetMap Nominatim, only for strings that still have nothing
-    left = sorted((s for s in todo if s not in gaz), key=lambda s: -(l_counts.get(s, 0) + c_counts.get(s, 0)))
-    left = [s for s in left if l_counts.get(s, 0) + c_counts.get(s, 0) >= 2]
+    left = sorted((s for s in todo if s not in gaz), key=lambda s: -todo[s])
+    left = [s for s in left if todo[s] >= 2]
     print(f"  Nominatim for {len(left)} strings")
     for s in left:
         res = nominatim(s)
@@ -600,20 +989,28 @@ def build_gazetteer(l_counts, c_counts):
             continue
         r = res[0]
         cat, typ = r.get("category") or r.get("class"), r.get("type")
-        if cat == "boundary" and typ == "administrative" and int(r.get("place_rank", 30)) < 12:
-            continue  # a country or region
-        if cat == "place" and typ in ("country", "state", "region", "province", "county", "continent"):
-            continue
+        rank = int(r.get("place_rank", 30))
         name = (r.get("name") or r.get("display_name", "").split(",")[0]).strip()
         e = {"name": name or s, "lat": round(float(r["lat"]), 6), "lon": round(float(r["lon"]), 6), "src": "osm"}
-        if cat in ("place", "boundary"):
-            e["approx"] = "city"
+        if rank < 12 or (cat == "place" and typ in ("country", "state", "region", "province", "county", "continent")):
+            e["kind"] = "region"
+        elif cat in ("place", "boundary"):
+            e["kind"] = "settlement"
+        else:
+            e["kind"] = "site"
         gaz[s] = e
+
+    # museums: by Wikidata class, or by name
+    mus = museums_among({e["pid"] for e in gaz.values() if e.get("pid")})
+    for s, e in gaz.items():
+        if e["kind"] == "site":
+            e["museum"] = bool(e.get("museum") or e.get("pid") in mus or MUSEUM_RE.search(e["name"])
+                               or MUSEUM_RE.search(s))
     return gaz, todo
 
 
 # --------------------------------------------------------------------------
-# 3. Assignment (offline)
+# 4. Assignment (offline)
 
 _maps = None
 
@@ -621,64 +1018,160 @@ _maps = None
 def _load_maps():
     global _maps
     if _maps is None:
-        wd = json.loads((OUT / "wd-places.json").read_text()) if (OUT / "wd-places.json").exists() else {}
-        gz = json.loads((OUT / "gazetteer.json").read_text()) if (OUT / "gazetteer.json").exists() else {}
-        _maps = (wd, gz)
+        def load(n):
+            p = OUT / n
+            return json.loads(p.read_text()) if p.exists() else {}
+        _maps = (load("wd-places.json"), load("gazetteer.json"), load("artists.json"), load("artist-names.json"))
     return _maps
 
 
-def place_of(w):
-    """The place dict for one work, or None. Uses only the cached map files."""
-    wd, gz = _load_maps()
-    p = prefix(w)
-    inst_key = SOURCE_INST.get(p)
-    if p == "met" and ("/CRDImages/cl/" in (w.get("img") or "") or "cloister" in (w.get("l") or "").lower()):
-        inst_key = "The Cloisters"
-    if p == "fng" and w.get("y") is not None and w["y"] < 1800:
-        inst_key = "Sinebrychoff Art Museum"
-    inst = gz.get(inst_key) if inst_key else None
-    e = wd.get(w.get("q") or "")
-    if e and not (e.get("made") and inst):
-        return e
-    l = (w.get("l") or "").strip()
-    g = gz.get(l)
-    if l and inst_key and l in INSTITUTIONS:
-        g = None  # the source's own generic label: the institution logic above decides
-    if g and not g.get("approx"):
-        return g
-    if inst:
-        return inst
-    if g:
-        return g
-    if e:
-        return e  # place of creation, as a last resort
-    c = (w.get("c") or "").strip()
-    if c and not NATIONALITY.match(c):
-        g = gz.get(c)
-        if g:
-            return dict(g, made=True)
+def made_from_c(c, gz):
+    """Place-made text -> ('made', entry) for a specific place, ('region', entry), or None."""
+    c = (c or "").strip()
+    if not c:
+        return None
+    best = None
+    for p in c_parts(c):
+        g = gz.get(p)
+        if g and g.get("kind") in ("site", "settlement") and not g.get("museum"):
+            return "made", g
+        if g and g.get("kind") == "region" and not best:
+            best = g
+    r = region_of(c)
+    if r:
+        return "region", {"name": r[0], "lat": r[1], "lon": r[2]}
+    if best:
+        return "region", best
     return None
 
 
+def artist_place(qs, y, arts):
+    """The artist rule: workplace bracketing the year, else death / birth place."""
+    for q in qs or []:
+        a = arts.get(q)
+        if not a:
+            continue
+        ws = a.get("w") or []
+        if ws:
+            pick = None
+            if y is not None:
+                for w in ws:
+                    s, e = w[3], w[4]
+                    if (s is not None or e is not None) and (s is None or s <= y) and (e is None or y <= e):
+                        pick = w
+                        break
+            pick = pick or ws[0]
+            return {"name": f"{pick[0]} (artist's workplace)", "lat": pick[1], "lon": pick[2]}
+        if y is None:
+            continue
+        if a.get("dp") and a.get("d") is not None and a["d"] - 20 <= y <= a["d"] + 2:
+            return {"name": f"{a['dp'][0]} (artist's city)", "lat": a["dp"][1], "lon": a["dp"][2]}
+        if a.get("bp") and a.get("b") is not None and y <= a["b"] + 30:
+            return {"name": f"{a['bp'][0]} (artist's city)", "lat": a["bp"][1], "lon": a["bp"][2]}
+    return None
+
+
+def fixed_type(w):
+    k, m = w.get("k") or "", w.get("m") or ""
+    if INSITU_M.search(m) or INSITU_M.search(k):
+        return True
+    if re.search(r"^(painting|print|drawing|manuscript|photograph|book|textile|ceramic|enamel|ivory|"
+                 r"metalwork|coin|glass|other|work of art|panel|tondo|watercolor)", k, re.I) and \
+            not re.search(r"stained|wall|altar", k, re.I):
+        return False
+    return bool(INSITU_K.search(k))
+
+
+def current_site(w, wd, gz):
+    """Current location as a non-museum site (for in-situ works), or None."""
+    p = prefix(w)
+    if p in MUSEUM_SOURCES:
+        return None
+    l = (w.get("l") or "").strip()
+    e = (wd.get(w.get("q") or "") or {}).get("loc")
+    if e:
+        if e.get("museum") or (e.get("approx") and MUSEUM_RE.search(l)):
+            return None
+        return e
+    g = gz.get(l)
+    if g and g.get("kind") in ("site", "settlement") and not g.get("museum") and not MUSEUM_RE.search(l):
+        return g
+    return None
+
+
+def place_of(w):
+    """(entry, precision) for one work, or (None, None). Uses only the cached map files."""
+    wd, gz, arts, names = _load_maps()
+    q = w.get("q") or ""
+    e = wd.get(q) or {}
+    y = w.get("y")
+    region = None
+    # 1. made
+    m = e.get("made")
+    if m and not m.get("region"):
+        return m, "made"
+    if m:
+        region = m
+    if not q or not m:
+        r = made_from_c(w.get("c"), gz) if (not q or prefix(w)) else None
+        if r and r[0] == "made":
+            return r[1], "made"
+        if r and not region:
+            region = r[1]
+    # 2. in situ
+    if fixed_type(w):
+        s = current_site(w, wd, gz)
+        if s:
+            return s, "in situ"
+    # 3. artist
+    qs = list(e.get("cr") or [])
+    a = clean_artist(w.get("a")) if not qs else ""
+    if a and names.get(a):
+        qs.append(names[a])
+    ap = artist_place(qs, y, arts)
+    if ap:
+        return ap, "artist"
+    # 4. region
+    if not region and e.get("origin"):
+        o = e["origin"]
+        r = region_of(o["name"])
+        region = {"name": r[0], "lat": r[1], "lon": r[2]} if r else o
+    if not region and q and w.get("c"):
+        r = region_of(w["c"])
+        if r:
+            region = {"name": r[0], "lat": r[1], "lon": r[2]}
+    if region:
+        r = region_of(region["name"])
+        if r:
+            region = {"name": r[0], "lat": r[1], "lon": r[2]}
+        return region, "region"
+    return None, None
+
+
 def assign(works):
-    """Return (places, assignment): places = [[name, lat, lon], ...] deduplicated by
-    name + coordinates rounded to 4 decimals; assignment maps work index -> place index or None."""
+    """Return (places, assignment): places = [[name, lat, lon, precision], ...] deduplicated by
+    name + coordinates rounded to 4 decimals + precision; assignment maps work index -> place index or None."""
     places, index, assignment = [], {}, {}
     for i, w in enumerate(works):
-        e = place_of(w)
+        e, prec = place_of(w)
         if not e:
             assignment[i] = None
             continue
         lat, lon = round(e["lat"], 4), round(e["lon"], 4)
-        k = (e["name"], lat, lon)
+        k = (e["name"], lat, lon, prec)
         if k not in index:
             index[k] = len(places)
-            places.append([e["name"], lat, lon])
+            places.append([e["name"], lat, lon, prec])
         assignment[i] = index[k]
     return places, assignment
 
 
 # --------------------------------------------------------------------------
+
+def dump(name, obj, indent=None):
+    (OUT / name).write_text(json.dumps(obj, ensure_ascii=False, sort_keys=True, indent=indent,
+                                       separators=(",", ":") if indent is None else None))
+
 
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -687,46 +1180,82 @@ def main():
     sources = load_sources()
     print(f"{len(works)} works, {len(sources)} source records")
 
-    wd_places = build_wd_places(works)
-    (OUT / "wd-places.json").write_text(json.dumps(wd_places, ensure_ascii=False, separators=(",", ":"), sort_keys=True))
+    wd = build_wd_places(works)
+    dump("wd-places.json", wd)
 
-    l_counts, c_counts = wanted_strings(works, sources, wd_places)
+    # location strings (for in-situ works) and place-made strings
+    l_counts, c_counts = Counter(), Counter()
+    for w in works:
+        e = wd.get(w.get("q") or "") or {}
+        if prefix(w) not in MUSEUM_SOURCES and not e.get("loc") and fixed_type(w):
+            l = (w.get("l") or "").strip()
+            if l:
+                l_counts[l] += 1
+        if not e.get("made") and (not w.get("q") or prefix(w)):
+            c = (w.get("c") or "").strip()
+            if c:
+                c_counts[c] += 1
+    for r in sources:  # strings of records not (yet) in the collection: resolved too, at zero weight
+        c = (r.get("c") or "").strip()
+        if c:
+            c_counts.setdefault(c, 0)
     gaz, todo = build_gazetteer(l_counts, c_counts)
-    (OUT / "gazetteer.json").write_text(json.dumps(gaz, ensure_ascii=False, indent=0, sort_keys=True))
+    dump("gazetteer.json", gaz, indent=0)
 
+    # artists: creators of Wikidata works and named artists of source records still unplaced
     global _maps
+    _maps = (wd, gaz, {}, {})
+    need = defaultdict(list)
+    for w in works:
+        e = wd.get(w.get("q") or "") or {}
+        if e.get("cr"):
+            continue
+        _, prec = place_of(w)
+        if prec in ("made", "in situ"):
+            continue
+        a = clean_artist(w.get("a"))
+        if a:
+            need[a].append(w.get("y"))
+    print(f"Artist names to resolve: {len(need)}")
+    names = resolve_artist_names(need)
+    dump("artist-names.json", names, indent=0)
+    creators = {c for e in wd.values() for c in e.get("cr", [])} | set(names.values())
+    arts = build_artists(creators)
+    dump("artists.json", arts)
+
     _maps = None
     places, assignment = assign(works)
     have = sum(1 for v in assignment.values() if v is not None)
-    per_src = defaultdict(lambda: [0, 0])
+    prec = Counter(places[v][3] if v is not None else "none" for v in assignment.values())
+    per_src = defaultdict(Counter)
     for i, w in enumerate(works):
-        k = prefix(w) or "wikidata"
-        per_src[k][1] += 1
-        per_src[k][0] += assignment[i] is not None
-    unresolved = Counter()
+        v = assignment[i]
+        per_src[prefix(w) or "wikidata"][places[v][3] if v is not None else "none"] += 1
+    unresolved_c = Counter()
     for i, w in enumerate(works):
         if assignment[i] is None:
-            unresolved[(w.get("l") or "").strip() or "(no location)"] += 1
+            unresolved_c[(w.get("c") or "").strip() or "(no place made)"] += 1
     lines = [
         f"# Generated by scripts/geocode.py on {time.strftime('%Y-%m-%d')}",
         f"# works with a place: {have}/{len(works)} ({100 * have / max(1, len(works)):.1f}%); "
         f"distinct places: {len(places)}",
-        "# by source: " + ", ".join(f"{k} {a}/{b}" for k, (a, b) in sorted(per_src.items())),
-        f"# gazetteer: {len(gaz)} strings ({sum(1 for v in gaz.values() if v.get('approx'))} approximate to a city); "
-        f"wd-places: {len(wd_places)}",
-        "# count\tlocation text of works without a place",
+        "# by precision: " + ", ".join(f"{k} {n} ({100 * n / len(works):.1f}%)" for k, n in prec.most_common()),
     ]
-    lines += [f"{n}\t{s}" for s, n in unresolved.most_common()]
-    unplaced_strings = [s for s in todo if s not in gaz]
-    lines += ["", "# location strings that could not be resolved (count in collection)"]
-    lines += [f"{l_counts.get(s, 0) + c_counts.get(s, 0)}\t{s}" for s in
-              sorted(unplaced_strings, key=lambda s: -(l_counts.get(s, 0) + c_counts.get(s, 0)))]
+    for k, c in sorted(per_src.items()):
+        lines.append(f"#   {k}: " + ", ".join(f"{p} {n}" for p, n in c.most_common()))
+    lines.append(f"# gazetteer {len(gaz)} strings; artists {len(arts)}; artist names resolved {len(names)}/{len(need)}")
+    lines.append("# count\tplace-made text of works without a place")
+    lines += [f"{n}\t{s}" for s, n in unresolved_c.most_common(300)]
+    lines += ["", "# location / place-made strings that could not be resolved (weight)"]
+    lines += [f"{todo[s]}\t{s}" for s in sorted((s for s in todo if s not in gaz), key=lambda s: -todo[s])]
+    lines += ["", "# artist names that could not be resolved (works)"]
+    lines += [f"{len(need[a])}\t{a}" for a in sorted((a for a in need if a not in names), key=lambda a: -len(need[a]))]
     (OUT / "unresolved.txt").write_text("\n".join(lines) + "\n")
-    print("\n".join(lines[1:4]))
+    print("\n".join(lines[1:3 + len(per_src) + 2]))
     counts = Counter(v for v in assignment.values() if v is not None)
     print("Top places:")
     for p, n in counts.most_common(25):
-        print(f"  {n:6d}  {places[p][0]}  ({places[p][1]}, {places[p][2]})")
+        print(f"  {n:6d}  {places[p][0]} [{places[p][3]}] ({places[p][1]}, {places[p][2]})")
 
 
 if __name__ == "__main__":

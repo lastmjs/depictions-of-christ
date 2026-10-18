@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Map — The Face of Christ</title>
+  <meta name="description" content="Explore depictions of Jesus Christ on a globe: every work in the collection, placed where it was made, filterable by century.">
+  <meta name="theme-color" content="#0b0907">
+  <meta property="og:image" content="https://lastmjs.github.io/depictions-of-christ/assets/img/sinai-christ-pantocrator.webp">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://tiles.openfreemap.org">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=31fdf40c82">
+  <link rel="stylesheet" href="assets/css/collection.css?v=80f5e7283c">
+  <link rel="stylesheet" href="assets/css/map.css?v=4b654b708f">
+</head>
+<body class="map-page">
+  <header class="topbar solid" id="topbar">
+    <a class="brand" href="./" aria-label="The Face of Christ — home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chi-rho"/></svg>
+      <span class="brand-name">The Face of Christ</span>
+    </a>
+    <div class="topbar-era show"><span class="topbar-numeral">✦</span><span class="topbar-title">The Map</span></div>
+    <nav class="topbar-actions">
+      <a class="btn-ghost" href="collection.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        <span>Collection</span>
+      </a>
+      <a class="btn-ghost" href="./">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        <span>The Journey</span>
+      </a>
+    </nav>
+  </header>
+
+  <main class="map-main">
+    <div id="map" class="map" role="application" aria-label="Map of where the works were made"></div>
+
+    <div class="map-legend" id="map-legend">
+      <p class="eyebrow">Where they were made</p>
+      <p class="map-stats" id="map-stats"><span class="spinner" aria-hidden="true"></span> Gathering the collection…</p>
+      <p class="map-hint">Each light marks where works were created. Solid lights are recorded places; faint rings are approximate (the artist's workplace or the region). Click one to see its works.</p>
+      <div class="map-key"><span><i class="k-exact"></i>Recorded place</span><span><i class="k-approx"></i>Approximate</span></div>
+    </div>
+
+    <aside class="place-panel" id="place-panel" aria-labelledby="pp-title" hidden>
+      <div class="pp-head">
+        <div>
+          <p class="eyebrow" id="pp-eyebrow"></p>
+          <h2 id="pp-title"></h2>
+          <p class="pp-sub" id="pp-sub"></p>
+          <p class="pp-prec" id="pp-prec"></p>
+        </div>
+        <button class="icon-btn" id="pp-close" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+      <div class="pp-body" id="pp-body"></div>
+    </aside>
+
+    <nav class="century-bar" id="century-bar" aria-label="Filter by century">
+      <div class="cb-track" id="cb-track"></div>
+    </nav>
+  </main>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="chi-rho" viewBox="0 0 40 40">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M20 4v32"/>
+        <path d="M20 5h5.5a6 6 0 0 1 0 12H20"/>
+        <path d="M11 13l18 18M29 13L11 31"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script src="assets/js/common.js?v=e38c48f4ba"></script>
+  <script src="assets/js/map.js?v=55a381a6ed"></script>
+</body>
+</html>

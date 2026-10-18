@@ -330,6 +330,31 @@ def sparql(query):
     return fetch(SPARQL, data, kind="sparql", gap=1.0, accept="application/sparql-results+json")["results"]["bindings"]
 
 
+def item_rows(template, var, qids, batch=200):
+    """SPARQL rows for many items, cached per item (so a changed collection only queries new items).
+
+    template has one %s for the VALUES list; var names the variable holding the item."""
+    path = CACHE / "items" / (hashlib.sha1(template.encode()).hexdigest()[:16] + ".json")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    store = json.loads(path.read_text()) if path.exists() else {}
+    qs = qsort(qids)
+    missing = [q for q in qs if q not in store]
+    for n, chunk in enumerate(chunks(missing, batch)):
+        rows = sparql(template % " ".join("wd:" + q for q in chunk))
+        for q in chunk:
+            store[q] = []
+        for r in rows:
+            q = qid(val(r, var))
+            if q in store:
+                store[q].append(r)
+        if n % 10 == 9:
+            path.write_text(json.dumps(store, ensure_ascii=False, separators=(",", ":")))
+        print(f"  query {min((n + 1) * batch, len(missing))}/{len(missing)}", end="\r", file=sys.stderr)
+    if missing:
+        path.write_text(json.dumps(store, ensure_ascii=False, separators=(",", ":")))
+    return [r for q in qs for r in store.get(q, [])]
+
+
 def wbsearch(text, limit=7):
     url = WDAPI + "?" + urllib.parse.urlencode({
         "action": "wbsearchentities", "format": "json", "language": "en", "uselang": "en",
@@ -484,21 +509,19 @@ SELECT DISTINCT ?x WHERE {
 
 def labels_for(qids):
     out = {}
-    for chunk in chunks(qsort(qids), 300):
-        for r in sparql(LABEL_QUERY % " ".join("wd:" + q for q in chunk)):
-            lab = val(r, "xLabel")
-            q = qid(val(r, "x"))
-            if lab and lab != q:
-                out[q] = lab
+    for r in item_rows(LABEL_QUERY, "x", qids, 300):
+        lab = val(r, "xLabel")
+        q = qid(val(r, "x"))
+        if lab and lab != q:
+            out[q] = lab
     return out
 
 
 def info_for(qids):
     """QID -> {coord, label, types, pop, cap} (cached SPARQL)."""
     out = {}
-    qs = qsort(qids)
-    for n, chunk in enumerate(chunks(qs, 250)):
-        for r in sparql(INFO_QUERY % " ".join("wd:" + q for q in chunk)):
+    if True:
+        for r in item_rows(INFO_QUERY, "x", qids, 250):
             q = qid(val(r, "x"))
             d = out.setdefault(q, {"coord": None, "label": "", "types": set(), "pop": False, "cap": False})
             if not d["coord"]:
@@ -509,7 +532,6 @@ def info_for(qids):
                 d["types"].add(qid(val(r, "type")))
             d["pop"] = d["pop"] or val(r, "pop") == "true"
             d["cap"] = d["cap"] or val(r, "cap") == "true"
-        print(f"  info {min((n + 1) * 250, len(qs))}/{len(qs)}", end="\r", file=sys.stderr)
     missing = [q for q, d in out.items() if not d["label"]]
     if missing:
         for q, lab in labels_for(missing).items():
@@ -520,13 +542,12 @@ def info_for(qids):
 def museums_among(qids):
     """The subset of QIDs that are museums, libraries, archives or galleries."""
     out = set()
-    for chunk in chunks(qsort(qids), 150):
-        try:
-            rows = sparql(MUSEUM_QUERY % " ".join("wd:" + q for q in chunk))
-        except Exception as e:  # a timeout: fall back to names only
-            print(f"  museum check failed ({e})", file=sys.stderr)
-            continue
-        out.update(qid(val(r, "x")) for r in rows)
+    try:
+        rows = item_rows(MUSEUM_QUERY, "x", qids, 150)
+    except Exception as e:  # a timeout: fall back to names only
+        print(f"  museum check failed ({e})", file=sys.stderr)
+        rows = []
+    out.update(qid(val(r, "x")) for r in rows)
     return out
 
 
@@ -591,35 +612,32 @@ def build_wd_places(works):
     qs = qsort(w["q"] for w in works if w.get("q"))
     print(f"Wikidata works: {len(qs)}")
     loc, made, origin, creators = {}, {}, {}, defaultdict(list)
-    for n, chunk in enumerate(chunks(qs, 200)):
-        values = " ".join("wd:" + q for q in chunk)
-        for r in sparql(WD_LOC % values):
-            q, kind, place = qid(val(r, "item")), val(r, "kind"), qid(val(r, "place"))
-            pt = point(val(r, "coord"))
-            if not pt:
-                continue
-            rank = (RANK[(kind, val(r, "settle") == "true")], int(place[1:]))
-            if q not in loc or rank < loc[q][0]:
-                loc[q] = (rank, kind, place, pt)
-        for r in sparql(WD_MADE % values):
-            q, place = qid(val(r, "item")), qid(val(r, "place"))
-            pt = point(val(r, "coord"))
-            if not pt:
-                continue
-            region = val(r, "region") == "true"
-            rank = (region, val(r, "via") != "p", int(place[1:]))
-            if q not in made or rank < made[q][0]:
-                made[q] = (rank, place, pt, region)
-        for r in sparql(WD_ORIGIN % values):
-            q, place = qid(val(r, "item")), qid(val(r, "place"))
-            pt = point(val(r, "coord"))
-            if pt and (q not in origin or int(place[1:]) < int(origin[q][0][1:])):
-                origin[q] = (place, pt)
-        for r in sparql(WD_CREATORS % values):
-            q, c = qid(val(r, "item")), qid(val(r, "cr"))
-            if re.match(r"^Q\d+$", c) and c not in ANONYMOUS_QIDS and c not in creators[q]:
-                creators[q].append(c)
-        print(f"  works {min((n + 1) * 200, len(qs))}/{len(qs)}", end="\r", file=sys.stderr)
+    for r in item_rows(WD_LOC, "item", qs):
+        q, kind, place = qid(val(r, "item")), val(r, "kind"), qid(val(r, "place"))
+        pt = point(val(r, "coord"))
+        if not pt:
+            continue
+        rank = (RANK[(kind, val(r, "settle") == "true")], int(place[1:]))
+        if q not in loc or rank < loc[q][0]:
+            loc[q] = (rank, kind, place, pt)
+    for r in item_rows(WD_MADE, "item", qs):
+        q, place = qid(val(r, "item")), qid(val(r, "place"))
+        pt = point(val(r, "coord"))
+        if not pt:
+            continue
+        region = val(r, "region") == "true"
+        rank = (region, val(r, "via") != "p", int(place[1:]))
+        if q not in made or rank < made[q][0]:
+            made[q] = (rank, place, pt, region)
+    for r in item_rows(WD_ORIGIN, "item", qs):
+        q, place = qid(val(r, "item")), qid(val(r, "place"))
+        pt = point(val(r, "coord"))
+        if pt and (q not in origin or int(place[1:]) < int(origin[q][0][1:])):
+            origin[q] = (place, pt)
+    for r in item_rows(WD_CREATORS, "item", qs):
+        q, c = qid(val(r, "item")), qid(val(r, "cr"))
+        if re.match(r"^Q\d+$", c) and c not in ANONYMOUS_QIDS and c not in creators[q]:
+            creators[q].append(c)
     print(file=sys.stderr)
     places = {v[2] for v in loc.values()} | {v[1] for v in made.values()} | {v[0] for v in origin.values()}
     labels = labels_for(places)
@@ -681,8 +699,8 @@ SELECT ?a ?b ?d WHERE {
 
 def artist_dates(qids):
     out = {}
-    for chunk in chunks(qsort(qids), 250):
-        for r in sparql(ART_DATES % " ".join("wd:" + q for q in chunk)):
+    if True:
+        for r in item_rows(ART_DATES, "a", qids, 250):
             a = qid(val(r, "a"))
             d = out.setdefault(a, [None, None])
             b, de = year_of(val(r, "b")), year_of(val(r, "d"))
@@ -763,9 +781,8 @@ def build_artists(creator_qids):
     qs = qsort(creator_qids)
     print(f"Artists: {len(qs)}")
     life, work = {}, defaultdict(list)
-    for chunk in chunks(qs, 150):
-        values = " ".join("wd:" + q for q in chunk)
-        for r in sparql(ART_LIFE % values):
+    if True:
+        for r in item_rows(ART_LIFE, "a", qs, 150):
             a = qid(val(r, "a"))
             d = life.setdefault(a, {"b": None, "d": None, "bp": None, "dp": None})
             b, de = year_of(val(r, "b")), year_of(val(r, "d"))
@@ -777,7 +794,7 @@ def build_artists(creator_qids):
                 pt = point(val(r, k + "c"))
                 if pt and (d[k] is None or int(qid(val(r, k))[1:]) < int(d[k][0][1:])):
                     d[k] = (qid(val(r, k)), pt)
-        for r in sparql(ART_WORK % values):
+        for r in item_rows(ART_WORK, "a", qs, 150):
             if val(r, "cap") == "true":
                 continue  # a country or region, not a place of work
             pt = point(val(r, "c"))

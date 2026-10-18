@@ -277,6 +277,16 @@ GLOSSARY = [
      r"σταύρωση|распятие|crucifixió)\b", "Crucifixion"),
     (r"\b(christus am kreuz|christus aan het kruis|christ en croix|cristo en la cruz|cristo in croce|"
      r"chrystus na krzy[zż]u|kristus na k[rř][ií][zž]i|kristus p[aå] korset)\b", "Christ on the Cross"),
+    (r"\b((iisus|isus) (hristos )?(r[aă]stignit|crucificat)|crucificarea)\b", "Crucifixion"),
+    (r"\b(botezul domnului|botezul lui (iisus|isus)|botezul)\b", "Baptism of Christ"),
+    (r"\b(prohodul( domnului| lui (iisus|isus))?|punerea [iî]n morm[aâ]nt|epitaf(ios|ion|ium)?)\b", "Lamentation"),
+    (r"\b(nașterea domnului|na[sș]terea lui (iisus|isus)|na[sș]terea)\b", "Nativity"),
+    (r"\b([iî]n[aă]l[tț]area domnului)\b", "Ascension"),
+    (r"\b(cina cea de tain[aă])\b", "Last Supper"),
+    (r"\b(intrarea [iî]n ierusalim|floriile)\b", "Entry into Jerusalem"),
+    (r"\b(schimbarea la fa[tț][aă])\b", "Transfiguration"),
+    (r"\b(maica domnului [iî]ndurerat[aă]|maica domnului jalnic[aă]|mater dolorosa)\b", "Mater Dolorosa"),
+    (r"\b(kreuzaufrichtung|oprichting van het kruis|[eé]rection de la croix)\b", "Christ raised on the Cross"),
     (r"\b(kruzifix|kruzifixus|crocifisso|crucifijo|krucifiks|krucifix|krzy[zż]|cristo crucificado|"
      r"cristo crocifisso|gekreuzigte[rn]?|crucifixus)\b", "Crucifix"),
     (r"\b(geburt christi|geboorte van christus|geburt jesu|nativit[eéà]|nacimiento de cristo|"
@@ -372,7 +382,7 @@ GLOSSARY = [
      r"христос|χριστός|χριστος|j[eé]sus|jes[uú]s|jezus|ježíš|ježiš|jézus|jeesus|jėzus|jēzus|isus|"
      r"iisus|иисус|ιησούς|ιησους|ges[uù]|iesus|jesu|jesum|heiland|erl[oö]ser|sauveur|salvatore|"
      r"salvador)\b", "Christ"),
-    (r"(?<!\w)(hl|st|sv|[sś]w|s)\.(?=\s)|\b(heilige[rn]?|sankt|saint|sainte|san|santa|santo|sint|[sś]wi[eę]ty|svat[yý])\b", "Saint"),
+    (r"(?<!\w)(hl|st|sv|[sś]w|s|sf)\.(?=\s)|\b(sf[aâ]ntul|sf[aâ]nta|sveti|sveta|heilige[rn]?|sankt|saint|sainte|san|santa|santo|sint|[sś]wi[eę]ty|svat[yý])\b", "Saint"),
 ]
 GLOSSARY = [(re.compile(rx, re.I), en) for rx, en in GLOSSARY]
 
@@ -507,12 +517,13 @@ EXTRA_NOT = re.compile(
     r"\bascension (day|island|thursday)|\bhimmelfahrtstag|\bvatertag|"
     r"\b(corpus christi|fronleichnam)\b(?!.*\b(crucif|christ (on|with)|madonna))|"
     r"\b(olive tree|reise|travel|journey to|hospital|szpital|ziekenhuis|krankenhaus|ospedale|"
-    r"plano|mapa|map of|carte de|karte von|plattegrond|gottesacker)\b|\bd\.\s?g\.\s|^\W*i\.?h\.?s\.?\W*$)", re.U)
+    r"plano|mapa|map of|carte de|karte von|plattegrond|gottesacker|lourdes|f[aá]tima|"
+    r"sagrada fam[ií]lia de barcelona|temple expiatori)\b|\bd\.\s?g\.\s|^\W*i\.?h\.?s\.?\W*$)", re.U)
 MOTHER_OF_GOD = re.compile(r"\b(mother of god|virgin hodegetria|our lady of (vladimir|kazan|"
                            r"czestochowa|cz[eę]stochowa|tikhvin|smolensk|perpetual help))\b", re.I)
 MOG_NOT = re.compile(r"\b(dormition|assumption|protection|pokrov|intercession|sorrow\w*|mourning|"
                      r"annunciation|nativity of the mother|presentation of the mother|joy of all|"
-                     r"praying|orans|oranta|burning bush|unburnt)\b", re.I)
+                     r"praying|orans|oranta|burning bush|unburnt|[iî]ndurerat\w*|jalnic\w*)\b", re.I)
 PHOTO_SUBJECT = re.compile(r"\b(christ|jesus|madonna|virgin|child|crucif\w*|piet[aà]|ecce homo|holy family|"
                            r"nativity|adoration|lamentation|entombment|last supper|descent from the cross|"
                            r"deposition (from the cross|of christ)|"
@@ -616,7 +627,7 @@ BUILDING = re.compile(
 SCENE = re.compile(
     r"\b(pilgrimage|procession|prozession|processi[oó]n|processione|festa|fiesta|feast|fest|street|"
     r"strasse|straße|via|calle|rue|square|piazza|plaza|platz|village|dorf|town|city|panorama|ansicht|"
-    r"view|vista|veduta|gezicht op|exterior|exteri[eö]r|fa[cç]ade|fassade|facciata|tower|turm|torre|"
+    r"view|vista|veduta|gezicht op|exterior|exteri[eö]r|fa[cç]ade|fa[cç]ana|fachada|fassade|facciata|tower|turm|torre|"
     r"bridge|br[uü]cke|ponte|puente|monument|denkmal|monumento|cemetery|friedhof|cimitero|cementerio|"
     r"interior|interi[eö]r|innenansicht|innenraum|interieur|hochaltar|retablo mayor|wayside|bildstock|"
     r"wegkreuz|feldkreuz|flurkreuz|marterl|calvaire|hill|mountain|statue of|bildnis|exhibition|"
@@ -625,7 +636,7 @@ SCENE = re.compile(
     r"bahnhof|cinema|theater|theatre|teatro|film|movie|actor|schauspieler|attore|passion play|"
     r"passionsspiel\w*|oberammergau|tableau vivant|lebendes bild|nativity scene|krippenspiel|"
     r"servizio fotografico|serie fotografica|photo reportage|photographic reportage|reportage|"
-    r"fotoreportage|viering|feier|jubileum|jubil[aä]um|zwembad|fontana|colonna|column|s[aä]ule|ruins?|ruine|candidatura|"
+    r"fotoreportage|building|geb[aä]ude|edificio|κτίσμα|viering|feier|jubileum|jubil[aä]um|zwembad|fontana|colonna|column|s[aä]ule|ruins?|ruine|candidatura|"
     r"mount(ain)? of piet[aà]|monte di piet[aà]|monte de piedad|madonna di campiglio)\b", re.I)
 NON_ARTWORK_TITLE = re.compile(BUILDING.pattern + "|" + SCENE.pattern, re.I)
 # Titles describing a book/text rather than a picture.
@@ -662,10 +673,17 @@ def artist(it):
                    r"werkstatt|workshop|nachfolger|umkreis|schule|school|circle|follower|after|nach)[^)]*\)",
                    " ", v, flags=re.I)
         v = clean(v)
+        if " " not in v and re.search(r"[a-z][A-Z]", v):  # Albertina: "KarelvanMallery"
+            v = re.sub(r"(?<=[a-z])(van|von|de|del|della|da|di|der|den|le|la|du)(?=[A-Z])", r" \1 ", v)
+            v = re.sub(r"(?<=[a-z.])(?=[A-Z(])", " ", v)
+            v = clean(v)
         if re.fullmatch(r"[\w-]*\d{3,}[\w-]*", v or ""):
             continue
-        if v and not re.match(r"^(unknown|unbekannt|anonym\w*|onbekend|inconnu|desconocido|ignoto|"
-                              r"n\.?n\.?|n/a|-)$", v, re.I):
+        if v.startswith("#") or re.match(r"^\W*$", v):
+            continue
+        if v and not re.match(r"^(unknown|unbekannt|unbestimmt|anonym\w*|onbekend|inconnu|desconocido|"
+                              r"ignoto|anonimo|an[oó]nimo|tekij[aä] ei tiedossa|nieznany|nezn[aá]m[yý]|"
+                              r"ismeretlen|ok[aä]nd|ukjent|ukendt|n\.?n\.?|n/a|-)\b", v, re.I):
             return v
     return ""
 
@@ -729,11 +747,22 @@ def big_image(it):
     return None
 
 
+def shorten(t):
+    """Some providers put a whole description in dc:title; keep its first sentence."""
+    if len(t) <= 140:
+        return t
+    m = re.match(r"(.{25,200}?[.!?;])(\s|$)", t)
+    if m:
+        return m.group(1).rstrip(".;")
+    return t[:200].rsplit(" ", 1)[0] + "…"
+
+
 def classify_item(it):
     """Return (subjects, english_title, original_title, reason) or (None, ...)."""
     tl = it.get("dcTitleLangAware") or {}
     en_title = clean(lang(tl, ("en",), fallback=False) or "")
-    orig = clean(lang(tl, ("def",)) or first(it.get("title")) or "")
+    orig = shorten(clean(lang(tl, ("def",)) or first(it.get("title")) or ""))
+    en_title = shorten(en_title)
     title = en_title or orig
     a = artist(it)
     texts = [en_title] if en_title else []
@@ -757,6 +786,12 @@ def classify_item(it):
             return None, title, orig, "annunciation"
     reason = "title"
     subj = all_strings(it.get("dcSubjectLangAware"))
+    words = [x for x in subj if not x.startswith("http")]
+    # Records with long subject lists (e.g. Iconclass indexing of every motif in a
+    # print) are too noisy: a crucifix in the background is not a depiction of Christ.
+    if len(words) > MAX_SUBJECTS or any(OTHER_FIGURE.search(tx) and not CHRIST_WORD.search(tx)
+                                        for tx in texts if tx):
+        return (u or None), title, orig, reason
     if not u:
         ic = iconclass_subjects(subj)
         if ic:
@@ -787,6 +822,15 @@ def classify_item(it):
     return (u or None), title, orig, reason
 
 
+MAX_SUBJECTS = 5
+OTHER_FIGURE = re.compile(
+    r"\b(saint|hieronymus|jerome|franziskus|francis|magdalen\w*|petrus|peter|paulus|paul|rita|nicolae|"
+    r"nicholas|nikolaus|antonius|anthony|dominic\w*|catherine|katharina|barbara|sebastian|johannes|"
+    r"john|maria|mary|marien|fecioar\w*|wundmale|stigmata|prophet|moses|david|adam|eve|eva|abraham|"
+    r"noah|jonah|jona|elias|elijah|psalm|türken|turks|battle|schlacht|nonne|nun|monk|m[oö]nch|"
+    r"bishop|bischof|pope|papst|king|k[oö]nig|emperor|kaiser|portrait|bildnis)\b", re.I)
+CHRIST_WORD = re.compile(r"\b(christ|jesus|child|infant|crucifixion|crucified|pietà|ecce homo|"
+                         r"man of sorrows|holy family|lamb of god)\b", re.I)
 SAINT_TITLE = re.compile(r"^(Saint|St\.?)\b(?!.*\b(Christ|Child|Virgin and Child|Holy Family)\b)", re.I)
 
 
@@ -820,7 +864,7 @@ def build(it):
         return None, "book-title"
     if k in ("photograph", "other", "book") and SCENE.search(probe):
         return None, "photo-scene"
-    generic = not [x for x in u if x not in ("Jesus Christ", "Madonna and Child")]
+    generic = not [x for x in u if x not in ("Jesus Christ", "Madonna and Child", "Throne of Mercy")]
     if k in ("photograph", "other", "book") and BUILDING.search(probe):
         # "Church of the Resurrection" names a building, not a picture.
         stripped = re.sub(BUILDING.pattern + r"(\s+\S+){0,4}", " ", probe, flags=re.I)
@@ -856,6 +900,66 @@ def build(it):
     return rec, None
 
 
+# --- image verification ---------------------------------------------------------------
+BIGCHECK = CACHE / "bigcheck.json"
+
+
+def image_ok(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-4095"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            ct = r.headers.get("Content-Type", "")
+            head = r.read(4096)
+    except Exception:
+        return False
+    return (ct.startswith("image/") or head[:3] == b"\xff\xd8\xff" or head[:4] == b"\x89PNG"
+            or head[:4] in (b"II*\x00", b"MM\x00*") or head[4:12] == b"ftypjp2 ")
+
+
+def verify_big(records, per_provider=3):
+    """Sample edmIsShownBy URLs per data provider. Providers whose full-size URLs do not
+    serve an image (403 hotlink protection, 401, HTML viewers, dead hosts) fall back to
+    the Europeana thumbnail; http:// URLs are upgraded to https:// when that works."""
+    from concurrent.futures import ThreadPoolExecutor
+    try:
+        verdict = json.loads(BIGCHECK.read_text())
+    except (OSError, ValueError):
+        verdict = {}
+    by = {}
+    for r in records:
+        if r["big"] != r["img"]:
+            by.setdefault(r["l"], []).append(r)
+    todo = [p for p in by if p not in verdict]
+
+    def check(provider):
+        rs = by[provider]
+        step = max(1, len(rs) // per_provider)
+        sample = [x["big"] for x in rs[::step][:per_provider]]
+        https = sum(image_ok("https://" + u[7:]) for u in sample if u.startswith("http://"))
+        n_http = sum(1 for u in sample if u.startswith("http://"))
+        ok = sum(image_ok(u) for u in sample)
+        return provider, {"ok": ok, "n": len(sample), "https": https if n_http == len(sample) else 0}
+
+    if todo:
+        print(f"verifying full-size images for {len(todo)} providers", file=sys.stderr)
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            for provider, v in ex.map(check, todo):
+                verdict[provider] = v
+        CACHE.mkdir(parents=True, exist_ok=True)
+        BIGCHECK.write_text(json.dumps(verdict, ensure_ascii=False, indent=0))
+    fallback = 0
+    for r in records:
+        v = verdict.get(r["l"])
+        if not v or r["big"] == r["img"]:
+            continue
+        if v["https"] * 2 > v["n"] and r["big"].startswith("http://"):
+            r["big"] = "https://" + r["big"][7:]
+        elif v["ok"] * 2 <= v["n"]:
+            r["big"] = r["img"]
+            fallback += 1
+    print(f"full-size image fell back to thumbnail for {fallback} records", file=sys.stderr)
+
+
 def main():
     seen = harvest()
     out, rej, keys = [], Counter(), set()
@@ -871,6 +975,7 @@ def main():
             continue
         keys.add(key)
         out.append(rec)
+    verify_big(out)
     out.sort(key=lambda x: (x["y"] is None, x["y"] or 0, x["id"]))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, separators=(",", ":"), ensure_ascii=False))

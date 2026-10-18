@@ -278,6 +278,27 @@ def norm_title(t):
     return re.sub(r"[^a-z]+", " ", (t or "").lower()).strip()
 
 
+# Aggregated records must name Christ or a Christ-specific scene in their own title (any language).
+STRONG = re.compile(
+    r"christ|jesu|jésus|gesù|iisus|isus|хрис|иисус|spasitel|salvator|saviour|savior|redeemer|erlöser|heiland|"
+    r"madonna|virgin and child|vierge à l.enfant|maria mit (dem )?kind|muttergottes mit|mare de déu amb|"
+    r"heilige familie|holy family|sainte famille|sacra famiglia|sagrada familia|"
+    r"crucif|kreuzig|gekreuzig|kruisig|ukrzyż|răstign|pietà|pieta|vesperbild|beweinung|lamentation|"
+    r"abendmahl|last supper|cène|ultima cena|nativity|geburt christi|nașterea|рождество|adoration|anbetung|"
+    r"ecce homo|schmerzensmann|man of sorrows|kreuztragung|carrying the cross|grablegung|entombment|"
+    r"auferstehung|resurrection|himmelfahrt christi|ascension of christ|transfigur|verklärung|emmaus|"
+    r"noli me tangere|pantocrator|pantokrator|deesis|mandylion|veronica|schweißtuch|sacred heart|herz jesu|"
+    r"agnus dei|lamb of god|christkind|infant jesus|santo niño|jesulein|good shepherd|guter hirte|"
+    r"last judg|jüngste(s)? gericht|weltgericht|flight into egypt|flucht nach ägypten|presentation in the temple|"
+    r"darbringung|circumcision|beschneidung|baptism of christ|taufe christi|lazarus|cana",
+    re.I)
+NOT_CHRIST = re.compile(r"companhia de jesus|compañía de jesús|society of jesus|jesuit|jezuit|amyloid|pancrea|diabet", re.I)
+
+# Europeana providers we also harvest directly (avoid double entries).
+DIRECT_PROVIDERS = {"National Gallery of Denmark", "Nationalmuseum Sweden", "Finnish National Gallery",
+                    "Statens Museum for Kunst", "Rijksmuseum", "Wikimedia Commons"}
+
+
 def merge_sources(works):
     """Add museum open-access records that Wikidata does not already cover."""
     files = sorted((ROOT / "data" / "sources").glob("*.json"))
@@ -331,13 +352,20 @@ def merge_sources(works):
                 continue
             if not r.get("img") or not r.get("u"):
                 continue
-            if f.stem == "rijks" and r.get("k") == "photograph":
-                continue  # 19th-century photographic reproductions of other artworks
+            if f.stem in ("rijks", "europeana") and r.get("k") == "photograph":
+                continue  # photographic reproductions of other artworks
+            if f.stem == "europeana":
+                if r.get("l") in DIRECT_PROVIDERS:
+                    continue  # harvested directly from the museum itself
+                text = f"{r.get('t', '')} {r.get('ot', '')}"
+                if not STRONG.search(text) or NOT_CHRIST.search(text):
+                    added["europeana (weak title)"] += 1
+                    continue
             k = fkey(r.get("t"), r.get("a"))
             if not curated and k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
                 added[f.stem + " (dup artist+title)"] += 1
                 continue
-            w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u") if r.get(k) not in (None, "", [])}
+            w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u", "lic", "ot") if r.get(k) not in (None, "", [])}
             w.setdefault("t", "Untitled")
             w["y"] = r.get("y")
             w["d"] = r.get("d") or (str(r["y"]) if r.get("y") is not None else "")

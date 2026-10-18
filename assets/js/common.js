@@ -33,7 +33,7 @@
     wga: "Image: Web Gallery of Art (reproduction of a public-domain work).",
     commons: "Image: Wikimedia Commons (public domain or freely licensed; see the file page).",
   };
-  const SOURCE_LINK = { wga: "Web Gallery of Art", commons: "Wikimedia Commons" };
+  const SOURCE_LINK = { wga: "Web Gallery of Art", commons: "Wikimedia Commons", europeana: "Europeana record" };
 
   // Hide cards whose image cannot be loaded from any source.
   function fail(img) {
@@ -184,10 +184,12 @@
       $("#d-links").innerHTML = links.join("");
       $("#d-credit").innerHTML = (w.i
         ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
-        : SOURCE_CREDIT[src] || `Image courtesy of ${esc(w.l || "the museum")}, released as open access.`) +
+        : src === "europeana" ? `Image: ${esc(w.l || "the providing institution")}, via Europeana${w.lic ? ` (${esc(w.lic)})` : ""}.`
+        : SOURCE_CREDIT[src] || `Image courtesy of ${esc(w.l || "the museum")}${w.lic ? ` (${esc(w.lic)})` : ", released as open access"}.`) +
         (w.e ? " Date estimated from the artist's lifetime." : "");
       $("#d-checked").hidden = !w.v;
       showText(null);
+      if (w.ot && w.ot !== w.t) { $("#d-original").hidden = false; $("#d-original").textContent = w.ot; }
       if (w.v) loadDetail(keyOf(w)).then((det) => { if (list[idx] === w && det) showText(det); });
       $("#d-prev").disabled = i === 0;
       $("#d-next").disabled = i === list.length - 1;

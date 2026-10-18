@@ -1,11 +1,11 @@
 {
  "generated": "2026-10-18",
- "total": 46950,
+ "total": 62576,
  "checked": 171,
  "centuries": [
   {
    "century": "2",
-   "count": 2
+   "count": 4
   },
   {
    "century": "3",
@@ -13,7 +13,7 @@
   },
   {
    "century": "4",
-   "count": 17
+   "count": 21
   },
   {
    "century": "5",
@@ -25,7 +25,7 @@
   },
   {
    "century": "7",
-   "count": 5
+   "count": 6
   },
   {
    "century": "8",
@@ -37,269 +37,269 @@
   },
   {
    "century": "10",
-   "count": 32
+   "count": 33
   },
   {
    "century": "11",
-   "count": 68
+   "count": 72
   },
   {
    "century": "12",
-   "count": 284
+   "count": 367
   },
   {
    "century": "13",
-   "count": 605
+   "count": 675
   },
   {
    "century": "14",
-   "count": 1853
+   "count": 2085
   },
   {
    "century": "15",
-   "count": 6677
+   "count": 7924
   },
   {
    "century": "16",
-   "count": 13760
+   "count": 16603
   },
   {
    "century": "17",
-   "count": 9897
+   "count": 12081
   },
   {
    "century": "18",
-   "count": 3693
+   "count": 4966
   },
   {
    "century": "19",
-   "count": 2495
+   "count": 3418
   },
   {
    "century": "20",
-   "count": 914
+   "count": 1238
   },
   {
    "century": "21",
-   "count": 28
+   "count": 89
   },
   {
    "century": "undated",
-   "count": 6542
+   "count": 12916
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   12409
+   17131
   ],
   [
    "Madonna and Child",
-   9365
+   12124
   ],
   [
    "Christ Child",
-   7531
+   8258
   ],
   [
    "Crucifixion",
-   3636
+   4998
   ],
   [
    "Holy Family",
-   2448
+   3334
   ],
   [
    "Adoration of the Magi",
-   1911
-  ],
-  [
-   "Adoration of the Shepherds",
-   1363
+   2240
   ],
   [
    "Nativity",
-   1304
+   1772
+  ],
+  [
+   "Adoration of the Shepherds",
+   1698
   ],
   [
    "Entombment",
-   1071
-  ],
-  [
-   "Flight into Egypt",
-   993
+   1450
   ],
   [
    "Resurrection",
-   922
+   1380
+  ],
+  [
+   "Flight into Egypt",
+   1375
   ],
   [
    "Lamentation",
-   917
-  ],
-  [
-   "Pietà",
-   907
+   1253
   ],
   [
    "Last Supper",
-   886
+   1197
   ],
   [
    "Baptism",
-   823
+   1098
   ],
   [
-   "Descent from the Cross",
-   783
-  ],
-  [
-   "Carrying the Cross",
-   778
-  ],
-  [
-   "Ecce Homo",
-   653
-  ],
-  [
-   "Last Judgment",
-   631
+   "Pietà",
+   1078
   ],
   [
    "Agony in the Garden",
-   617
+   910
+  ],
+  [
+   "Descent from the Cross",
+   877
+  ],
+  [
+   "Carrying the Cross",
+   817
+  ],
+  [
+   "Last Judgment",
+   808
   ],
   [
    "Flagellation",
-   580
-  ],
-  [
-   "Christ and Followers",
-   562
-  ],
-  [
-   "Rest on the Flight into Egypt",
-   549
-  ],
-  [
-   "Miracles of Christ",
-   537
-  ],
-  [
-   "Coronation of the Virgin",
-   498
-  ],
-  [
-   "Ascension",
-   477
-  ],
-  [
-   "Crowning with Thorns",
-   464
-  ],
-  [
-   "Presentation in the Temple",
-   413
-  ],
-  [
-   "Trial of Christ",
-   384
+   725
   ],
   [
    "Man of Sorrows",
-   351
+   695
+  ],
+  [
+   "Ecce Homo",
+   652
+  ],
+  [
+   "Miracles of Christ",
+   631
+  ],
+  [
+   "Christ and Followers",
+   581
+  ],
+  [
+   "Ascension",
+   580
+  ],
+  [
+   "Rest on the Flight into Egypt",
+   560
+  ],
+  [
+   "Crowning with Thorns",
+   546
+  ],
+  [
+   "Trial of Christ",
+   520
+  ],
+  [
+   "Coronation of the Virgin",
+   508
+  ],
+  [
+   "Presentation in the Temple",
+   480
   ],
   [
    "Supper at Emmaus",
-   338
+   459
   ],
   [
    "Circumcision",
-   322
-  ],
-  [
-   "Christ among the Doctors",
-   269
-  ],
-  [
-   "Betrayal & Arrest",
-   261
+   381
   ],
   [
    "Salvator Mundi",
-   251
+   368
   ],
   [
-   "Appearances after the Resurrection",
-   246
+   "Betrayal & Arrest",
+   353
+  ],
+  [
+   "Christ among the Doctors",
+   345
+  ],
+  [
+   "Pantocrator",
+   325
   ],
   [
    "Noli me tangere",
-   244
-  ],
-  [
-   "Throne of Mercy",
-   229
+   306
   ],
   [
    "Sacred Heart",
-   216
+   303
   ],
   [
-   "Wedding at Cana",
-   212
+   "Throne of Mercy",
+   299
+  ],
+  [
+   "Appearances after the Resurrection",
+   280
   ],
   [
    "Transfiguration",
-   210
+   259
+  ],
+  [
+   "Holy Face",
+   253
+  ],
+  [
+   "Wedding at Cana",
+   220
   ],
   [
    "Mystic Marriage of St Catherine",
-   210
+   213
+  ],
+  [
+   "Harrowing of Hell",
+   211
   ],
   [
    "Passion",
    205
   ],
   [
-   "Harrowing of Hell",
-   185
+   "Good Shepherd",
+   189
   ],
   [
-   "Good Shepherd",
-   163
+   "Mocking of Christ",
+   172
   ],
   [
    "Raising of Lazarus",
    161
   ],
   [
+   "Temptation of Christ",
+   156
+  ],
+  [
    "Woman Taken in Adultery",
    150
   ],
   [
-   "Mocking of Christ",
-   140
-  ],
-  [
-   "Holy Face",
-   124
-  ],
-  [
-   "Pantocrator",
-   122
-  ],
-  [
-   "Temptation of Christ",
-   119
-  ],
-  [
    "Entry into Jerusalem",
-   112
+   143
   ],
   [
    "Cleansing of the Temple",
-   85
+   90
   ],
   [
    "Veil of Veronica",
@@ -307,7 +307,7 @@
   ],
   [
    "Sermon on the Mount",
-   61
+   62
   ],
   [
    "Christ in Majesty",
@@ -332,32 +332,36 @@
  ],
  "types": [
   [
-   "painting",
-   19501
-  ],
-  [
    "print",
-   14097
+   23504
   ],
   [
-   "sculpture",
-   3503
+   "painting",
+   19975
   ],
   [
    "drawing",
-   2218
+   3968
+  ],
+  [
+   "sculpture",
+   3709
   ],
   [
    "other",
-   1594
+   2427
+  ],
+  [
+   "manuscript",
+   2055
+  ],
+  [
+   "icon",
+   1620
   ],
   [
    "statue",
    861
-  ],
-  [
-   "manuscript",
-   580
   ],
   [
    "fresco",
@@ -368,16 +372,12 @@
    411
   ],
   [
-   "icon",
-   299
-  ],
-  [
    "metalwork",
-   274
+   323
   ],
   [
    "stained glass",
-   271
+   275
   ],
   [
    "triptych",
@@ -385,7 +385,7 @@
   ],
   [
    "textile",
-   203
+   245
   ],
   [
    "mosaic",
@@ -416,6 +416,10 @@
    97
   ],
   [
+   "book",
+   91
+  ],
+  [
    "reredos",
    90
   ],
@@ -441,7 +445,7 @@
   ],
   [
    "ceramic",
-   42
+   44
   ],
   [
    "diptych",
@@ -481,10 +485,6 @@
   ],
   [
    "altarpiece",
-   28
-  ],
-  [
-   "book",
    28
   ],
   [

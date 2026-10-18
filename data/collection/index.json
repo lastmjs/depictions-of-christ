@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 46964,
- "checked": 75,
+ "total": 46961,
+ "checked": 102,
  "centuries": [
   {
    "century": "2",
@@ -25,19 +25,19 @@
   },
   {
    "century": "7",
-   "count": 4
+   "count": 5
   },
   {
    "century": "8",
-   "count": 14
+   "count": 11
   },
   {
    "century": "9",
-   "count": 21
+   "count": 18
   },
   {
    "century": "10",
-   "count": 38
+   "count": 39
   },
   {
    "century": "11",
@@ -45,7 +45,7 @@
   },
   {
    "century": "12",
-   "count": 280
+   "count": 281
   },
   {
    "century": "13",
@@ -91,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   12416
+   12415
   ],
   [
    "Madonna and Child",
-   9368
+   9367
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   3639
+   3638
   ],
   [
    "Holy Family",
@@ -191,7 +191,7 @@
   ],
   [
    "Ascension",
-   478
+   477
   ],
   [
    "Crowning with Thorns",
@@ -333,7 +333,7 @@
  "types": [
   [
    "painting",
-   19504
+   19502
   ],
   [
    "print",
@@ -341,7 +341,7 @@
   ],
   [
    "sculpture",
-   3506
+   3507
   ],
   [
    "drawing",
@@ -361,7 +361,7 @@
   ],
   [
    "fresco",
-   432
+   431
   ],
   [
    "relief",
@@ -369,19 +369,19 @@
   ],
   [
    "icon",
-   299
+   300
   ],
   [
    "metalwork",
    272
   ],
   [
-   "triptych",
+   "stained glass",
    271
   ],
   [
-   "stained glass",
-   271
+   "triptych",
+   269
   ],
   [
    "textile",
@@ -393,7 +393,7 @@
   ],
   [
    "ivory",
-   130
+   133
   ],
   [
    "leadlight",
@@ -401,7 +401,7 @@
   ],
   [
    "relief sculpture",
-   116
+   114
   ],
   [
    "enamel",

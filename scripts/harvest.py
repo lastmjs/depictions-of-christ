@@ -319,13 +319,14 @@ def merge_sources(works):
                 by_q[q].setdefault("src", r.get("src"))
                 added[f.stem + " (matched)"] += 1
                 continue
+            curated = r["id"].startswith("cur:")  # hand-researched records: trust them, skip fuzzy dedupe
             if r["id"].startswith("commons:") and r.get("src"):
                 fname = urllib.parse.unquote(r["src"].rsplit("File:", 1)[-1]).replace(" ", "_")
                 if fname in files_seen:
                     added[f.stem + " (same file)"] += 1
                     continue
             same = keys.get((norm_title(r.get("t")), r.get("y")))
-            if same and r.get("y") is not None and (surname(r.get("a")) in same or "" in same or not surname(r.get("a"))):
+            if not curated and same and r.get("y") is not None and (surname(r.get("a")) in same or "" in same or not surname(r.get("a"))):
                 added[f.stem + " (dup title)"] += 1
                 continue
             if not r.get("img") or not r.get("u"):
@@ -333,7 +334,7 @@ def merge_sources(works):
             if f.stem == "rijks" and r.get("k") == "photograph":
                 continue  # 19th-century photographic reproductions of other artworks
             k = fkey(r.get("t"), r.get("a"))
-            if k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
+            if not curated and k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
                 added[f.stem + " (dup artist+title)"] += 1
                 continue
             w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u") if r.get(k) not in (None, "", [])}
@@ -487,6 +488,21 @@ def main():
             w["y"] = (p[0] + p[1]) // 2
             fixed += 1
     print(f"  corrected {fixed} sort years from their display dates")
+
+    # Place every work on the map (uses only cached geocoding data; see scripts/geocode.py).
+    try:
+        from geocode import assign
+        places, assignment = assign(works)
+        for i, w in enumerate(works):
+            w.pop("p", None)
+            pi = assignment[i] if isinstance(assignment, list) else assignment.get(i)
+            if pi is not None:
+                w["p"] = pi
+        (ROOT / "data" / "map").mkdir(exist_ok=True)
+        (ROOT / "data" / "map" / "places.json").write_text(json.dumps(places, ensure_ascii=False, separators=(",", ":")))
+        print(f"  mapped {sum(1 for w in works if 'p' in w)} works to {len(places)} places")
+    except Exception as e:  # geocoding is optional
+        print(f"  map placement skipped: {e}")
     works.sort(key=lambda w: (w["y"] is None, w["y"] or 0, w["t"]))
 
     by_century = defaultdict(list)

@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-for page in ("index.html", "collection.html"):
+for page in ("index.html", "collection.html", "map.html"):
     path = ROOT / page
     html = path.read_text()
 

@@ -2,8 +2,9 @@
 """Harvest public-domain depictions of Christ from Yale (Yale University Art Gallery
 and Yale Center for British Art) via LUX, Yale's Linked Art collections platform.
 
-1. Many keyword searches against https://lux.collections.yale.edu/api/search/item,
-   restricted to objects with a digital image in YUAG or YCBA sets.
+1. Many title ("name") keyword searches against https://lux.collections.yale.edu/api/search/item,
+   restricted to objects with a digital image in YUAG or YCBA sets. (Full-text
+   searches return ~25k mostly irrelevant objects, and only titles are classified.)
 2. Each hit's Linked Art record (/data/object/{uuid}, cached under .cache/yale/)
    supplies title, maker, date, medium, culture; the title is classified with
    subjects.classify via the shared filters in aic.py / walters.py.
@@ -86,7 +87,7 @@ def fetch(url, sub):
 
 
 def search(term):
-    q = {"AND": [{"text": term}, {"hasDigitalImage": 1},
+    q = {"AND": [{"name": term}, {"hasDigitalImage": 1},
                  {"OR": [{"memberOf": {"name": n}} for n in UNITS]}]}
     page = 1
     while True:

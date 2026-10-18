@@ -119,7 +119,7 @@ def record(uri):
     return data
 
 
-ACC_PAREN = re.compile(r"\s*\((\d+\.[A-Z]{1,3}\.[\w.]+|\d{2,4}\.[A-Z]{1,4}\.\d[\w.]*)\)")
+ACC_PAREN = re.compile(r"\s*\((\d+\.[A-Z]{1,3}\.[\w.]+|\d{2,4}\.[A-Z]{1,4}\.\d[\w.]*|(19|20)\d\d\.\d+(\.\d+)*)\)")
 
 
 def strip_title(label):
@@ -265,7 +265,7 @@ def main():
         rs = rights(rec)
         key = " / ".join(sorted(set(x for x in rs if not x.startswith("http"))))
         rights_seen[key] = rights_seen.get(key, 0) + 1
-        if not any(re.search(r"^(Public Domain|No Copyright)$", x) for x in rs):
+        if not any(re.search(r"^(Public Domain|No Copyright( - United States)?)$", x) for x in rs):
             skipped["rights"] += 1
             continue
         base = image_base(rec)
@@ -273,7 +273,10 @@ def main():
             skipped["image"] += 1
             continue
         title = strip_title(rec.get("_label") or t0)
-        u = refine(title, decide(subject_title(title))) or u0
+        k = kind(rec, title)
+        u = refine(title, decide(subject_title(title)), photo=(k == "photograph"))
+        if not u:
+            continue
         names, display, begin, end = production_info(rec)
         a = "; ".join(n for n in names if not re.search(r"^unknown\b", n, re.I))
         rec_out = {
@@ -286,7 +289,7 @@ def main():
             "l": "J. Paul Getty Museum",
             "m": "; ".join(texts(rec, r"^Materials Description$")),
             "s": "",
-            "k": kind(rec, title),
+            "k": k,
             "img": f"{base}/full/!600,600/0/default.jpg",
             "big": f"{base}/full/!1600,1600/0/default.jpg",
             "src": homepage(rec) or uri,

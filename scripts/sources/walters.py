@@ -88,17 +88,40 @@ EXTRA_NOT = re.compile(
     r"^mary,? mother of jesus\b(?!.*\b(and|with) (jesus|christ|child))|"
     r"\b(virgin|saint|st\.?|john|mary|mourning|mourner|thief|angel)\w* from an? (crucifix|crucifixion|calvary|lamentation|entombment)\b|"
     r"\bchurch of (christ|jesus)\b|\bknights of christ\b|\border of christ\b|\bchrist'?s (hospital|college|church)\b|"
-    r"\bimitation of christ\b(?!.*\b(with|showing|depicting)\b)|\b(guanyin|kannon|kuan ?yin|buddha|bodhisattva)\b",
+    r"\bimitation of christ\b(?!.*\b(with|showing|depicting)\b)|\b(guanyin|kannon|kuan ?yin|buddha|bodhisattva)\b|"
+    # mountaineering / balloon "ascensions", places and institutions named after Christian subjects
+    r"\bascension (of|au|du|de|to|across)\b(?! (christ|jesus|our lord|the lord))|\bballoon ascension\b|\bune ascension\b|"
+    r"\btrinity (rock|bay|avenue|lutheran|library|river|college|church|chapel|hall|street|square|term)\b|\bcapes? .{0,20}trinity\b|"
+    r"\bcars of the trinity\b|\b(church|chapel|college|cathedral|abbey|monastery|convent|parish|[ée]glise|grotto) "
+    r"(of|de) (the |la |st\.? |saint )?(holy )?(trinity|ascension|nativity|transfiguration|flagellation|saviou?r|"
+    r"salvator|resurrection|redeemer|holy family|holy sepulchre|sacred heart)\b|"
+    r"\b(st\.?|saint) (salvator|saviou?r)'?s?\b|\bchrist coll|\b(order|sisters?) of the holy family\b|"
+    r"\bholy family (street|church|school|hospital)\b|\b(years|centur\w*) before christ\b|"
+    r"\b(wearing|holding|with) an? crucifix\b(?!.*\bchrist\b)|\bcrucifix (necklace|around)|\bcriminals crucified\b|"
+    r"\bgokumon\b|\bteresa de jes[uú]s\b|\bjos[eé] jes[uú]s\b|\b(entombment|burial|funeral|dormition) of the virgin\b|"
+    r"\bangel of the (resurrection|nativity)\b(?!.*\b(christ|jesus|child)\b)|\bf[eê]te (of|de) (la |the )?madonna\b|"
+    r"\btenement house madonna\b|\btrumpet of the last judg",
+    re.I)
+# Places in the Holy Land (and similar) photographed as topography rather than as scenes.
+PLACE = re.compile(
+    r"\bmount of olives\b|\bmount olivet\b|\bgarden of gethsemane\b|^\[?gethsemane\]?$|\bpool of bethesda\b|"
+    r"\becce homo arch|\barc(h)? (de l'|of )ecce homo\b|\bmount (hermon|of (the )?transfiguration)\b|\bbeatitudes\b|"
+    r"jacob'?s well|\bnazareth\b|\bcapernaum\b|\bcana of galilee\b|\bbethlehem\b|\bvia dolorosa\b|"
+    r"\bnew calvary\b|\bbirthplace of the sav|^jerusalem\b|\bjerusalem\W+(from|taken|looking|general|view)|"
+    r"\bel cristo de la luz\b|\bvalley of jehoshaphat\b|\bcolossal calvary\b|\bcalvary,? (finist|brittany|pleyben|guimiliau|plougastel)",
     re.I)
 CHILD_WORD = re.compile(r"\b(child|infant|son|jesus|christ|bambino|enfant|kind|madonna|hodegetria|eleousa|"
                         r"theotokos|nursing|suckling|lactans|holy family|nativity|magi|shepherds)\b", re.I)
 MADONNA_OK = re.compile(r"\benthroned\b|\bof humility\b|\bin glory\b|\bwith (the )?(child|infant)\b", re.I)
 
 
-def refine(title, u, extra=""):
+def refine(title, u, extra="", photo=False):
     """Post-filter decide() output: drop titles that name Christ without depicting him,
-    and 'Virgin ...' titles that only matched aic.SUPPLEMENT without any sign of the Child."""
+    and 'Virgin ...' titles that only matched aic.SUPPLEMENT without any sign of the Child.
+    For photographs, also drop topographic views of Holy Land sites."""
     if not u or EXTRA_NOT.search(title):
+        return []
+    if PLACE.search(title) and (photo or not re.search(r"\b(christ|jesus|our lord|agony|praying|prayer)\b", title, re.I)):
         return []
     if "Madonna and Child" in u and not CHILD_WORD.search(f"{title} {extra}") and not MADONNA_OK.search(title):
         u = [x for x in u if x != "Madonna and Child"]

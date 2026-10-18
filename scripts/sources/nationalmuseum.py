@@ -259,16 +259,12 @@ def dates(it):
 
 
 def artist(it):
-    for a in it.get("actors") or []:
-        if (a.get("actor_role") or "").lower() in ("konstnär", "artist", "utförare", "upphovsman", "gravör", "tecknare", "") or True:
-            n = (a.get("actor_full_name") or "").strip()
-            if n:
-                return n, a
+    """(name, actor) of the main maker; prefers the artist role over e.g. publishers."""
+    actors = [a for a in it.get("actors") or [] if (a.get("actor_full_name") or "").strip()]
+    actors.sort(key=lambda a: 0 if (a.get("actor_role") or "").lower() in ("konstnär", "artist") else 1)
+    if actors:
+        return actors[0]["actor_full_name"].strip(), actors[0]
     return "", None
-
-
-def artist_wd(a):
-    return None
 
 
 LIC_OK = {"public domain": "Public domain", "cc by sa": "CC BY-SA", "cc0": "CC0", "cc by": "CC BY"}
@@ -286,12 +282,16 @@ def image(it):
 GENERIC = re.compile(r"^(volym|grafiskt blad|teckning|skiss|studie|utan titel|ornament|blad|untitled)\b", re.I)
 
 
+NM_NOT = re.compile(r"\bancestors of christ\b|\b(kristi|kristus) förfäder\b|\bchristmas art\b|\bjulkort\b", re.I)
+LATEST_YEAR = 1925  # later works need an explicit "Public Domain" mark
+
+
 def subjects_for(it):
     en = tx(it.get("title"), "en")
     sv = tx(it.get("title"), "sv")
     a, _ = artist(it)
     for t in (en, sv):
-        if t and NOT_CHRIST.search(t):
+        if t and (NOT_CHRIST.search(t) or NM_NOT.search(t)):
             return [], en or sv
     u = []
     if en and en != sv:
@@ -319,6 +319,9 @@ def main():
         if not u:
             continue
         y, d = dates(it)
+        latest = max([x.get("date_latest") or x.get("date_earliest") or 0 for x in it.get("dating") or []] or [0])
+        if latest > LATEST_YEAR and lic != "Public domain":
+            continue
         a, actor = artist(it)
         rec = {
             "id": f"nationalmuseum:{it['id']}",
@@ -333,7 +336,7 @@ def main():
             "k": kind(it),
             "img": f"{base}/full/!600,600/0/default.jpg",
             "big": f"{base}/full/!1600,1600/0/default.jpg",
-            "src": f"https://collection.nationalmuseum.se/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId={it['id']}",
+            "src": f"https://collection.nationalmuseum.se/en/collection/item/{it['id']}/",
             "lic": lic,
             "u": u,
         }

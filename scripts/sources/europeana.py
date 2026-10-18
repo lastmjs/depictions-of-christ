@@ -37,6 +37,7 @@ CACHE = ROOT / ".cache" / "europeana"
 OUT = ROOT / "data" / "sources" / "europeana.json"
 API = "https://api.europeana.eu/record/v2/search.json"
 KEY = os.environ.get("EUROPEANA_KEY", "api2demo")
+DEBUG = bool(os.environ.get("EUROPEANA_DEBUG"))
 UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ)"
 MIN_INTERVAL = 0.5  # <= 2 req/s
 ROWS = 100
@@ -53,7 +54,7 @@ NATURAL_HISTORY = [
 ]
 # Natural-history / archival providers whose fuzzy hits are never artworks.
 NON_ART_PROVIDERS = re.compile(
-    r"naturalis|botanic|herbari|natural history|natur(kunde|historisches)|biodiversity|"
+    r"life sciences|naturalis|botanic|herbari|natural history|natur(kunde|historisches)|biodiversity|"
     r"tropical scientific|zoolog|geolog|cartograph|naval museum|military history|"
     r"forest museum|science and technology|architecture", re.I)
 
@@ -274,12 +275,10 @@ GLOSSARY = [
      r"ukři[zž]ování|ukri[zž]ovanie|keresztrefesz[ií]t[eé]s|kri[zž]anje|raspe[cć]e|r[aă]stignirea|"
      r"korsf[aæä]stelsen|korsf[aæ]stelse|ristiinnaulitseminen|nukry[zž]iavimas|krust[aā] si[sš]ana|"
      r"σταύρωση|распятие|crucifixió)\b", "Crucifixion"),
+    (r"\b(christus am kreuz|christus aan het kruis|christ en croix|cristo en la cruz|cristo in croce|"
+     r"chrystus na krzy[zż]u|kristus na k[rř][ií][zž]i|kristus p[aå] korset)\b", "Christ on the Cross"),
     (r"\b(kruzifix|kruzifixus|crocifisso|crucifijo|krucifiks|krucifix|krzy[zż]|cristo crucificado|"
      r"cristo crocifisso|gekreuzigte[rn]?|crucifixus)\b", "Crucifix"),
-    (r"\b(christus|christi|christo|christum|kristus|krisztus|chrystus|hristos|christos|krist|crist|cristo|cristu|kristu|"
-     r"христос|χριστός|χριστος|j[eé]sus|jes[uú]s|jezus|ježíš|ježiš|jézus|jeesus|jėzus|jēzus|isus|"
-     r"iisus|иисус|ιησούς|ιησους|ges[uù]|iesus|jesu|jesum|heiland|erl[oö]ser|sauveur|salvatore|"
-     r"salvador)\b", "Christ"),
     (r"\b(geburt christi|geboorte van christus|geburt jesu|nativit[eéà]|nacimiento de cristo|"
      r"natividad|nascita di ges[uù]|bo[zż]e narodzenie|narozen[ií] p[aá]n[eě]|christi geburt|"
      r"kerstmis|geboorte)\b", "Nativity"),
@@ -369,6 +368,10 @@ GLOSSARY = [
     (r"\b(heimsuchung|visitation|visitaci[oó]n|visitazione|nawiedzenie)\b", "Visitation"),
     (r"\b(mari[aä]e? himmelfahrt|himmelfahrt mari[aeä]|assomption|asunci[oó]n|assunzione|"
      r"tenhemelopneming|wniebowzi[eę]cie)\b", "Assumption"),
+    (r"\b(christus|christi|christo|christum|kristus|krisztus|chrystus|hristos|christos|krist|crist|cristo|cristu|kristu|"
+     r"христос|χριστός|χριστος|j[eé]sus|jes[uú]s|jezus|ježíš|ježiš|jézus|jeesus|jėzus|jēzus|isus|"
+     r"iisus|иисус|ιησούς|ιησους|ges[uù]|iesus|jesu|jesum|heiland|erl[oö]ser|sauveur|salvatore|"
+     r"salvador)\b", "Christ"),
     (r"(?<!\w)(hl|st|sv|[sś]w|s)\.(?=\s)|\b(heilige[rn]?|sankt|saint|sainte|san|santa|santo|sint|[sś]wi[eę]ty|svat[yý])\b", "Saint"),
 ]
 GLOSSARY = [(re.compile(rx, re.I), en) for rx, en in GLOSSARY]
@@ -450,7 +453,7 @@ ICONCLASS = [
     (re.compile(r"^73E1"), ["Resurrection"]),
     (re.compile(r"^73E"), ["Jesus Christ"]),
 ]
-ICONCLASS_CODE = re.compile(r"(?:iconclass\.org/(?:rkd/)?|^)\s*((?:11[CDF]|73[BCDE])[0-9A-Z()+]*)", re.I)
+ICONCLASS_CODE = re.compile(r"(?:iconclass\.org/(?:rkd/)?|^)\s*((?:11[CDF]F?|73[BCDE])[0-9A-Z()+]*)", re.I)
 # 73D1x (Entry into Jerusalem etc.) is fine; 73A (Mary's early life) and 11F
 # other than 11F4 (Mary alone) are not used. 73E7x+ is Pentecost / Mary's death.
 ICONCLASS_SKIP = re.compile(r"^(73E[4-9]|11F[^4]|11C1|11C3)", re.I)
@@ -462,7 +465,7 @@ def iconclass_subjects(subjects):
         m = ICONCLASS_CODE.search(s.strip())
         if not m:
             continue
-        code = m.group(1).upper()
+        code = re.sub(r"^11([CDF])F", r"11\1", m.group(1).upper())  # 11FF4 (Eastern) == 11F4
         if ICONCLASS_SKIP.match(code):
             continue
         for rx, labels in ICONCLASS:
@@ -486,6 +489,35 @@ def all_strings(d):
     return out
 
 
+CHILD_WORD = re.compile(r"kind|child|infant|enfant|bambino|ni[nñ]o|menino|pruncul|dzieci|d[ií]t[eě]|"
+                        r"die[tť]a|gyermek|deteto|barn|jesus|jezus|christus|christ", re.I)
+NO_CHILD = re.compile(r"\b(ohne|without|sans|senza|sin|zonder|utan|bez)\b", re.I)
+# Annunciation-type titles that only mention Christ's (future) birth.
+ANNUNCIATION = re.compile(r"\b(annunciation(?! to the shepherds)|visitation|assumption|dormition|pentecost|"
+                          r"conception)\b", re.I)
+CHRIST_FUTURE = re.compile(r"\b(christ'?s birth|birth of christ|christ'?s coming|incarnation of christ|"
+                           r"mother of christ|conceive[sd]? christ)\b", re.I)
+# Europeana-specific false positives (names, non-religious senses of scene words).
+EXTRA_NOT = re.compile(
+    r"^[^,]{2,40},\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñ]+\s+)*Jes[uú]s(\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñ]+)*\.?\s*$|"
+    r"\b(Mar[ií]a|Jos[eé]|Juan|Emilio|Carlos|Luis|Manuel|Antonio|Francisco)\s+Jes[uú]s\b|"
+    r"\bJes[uú]s\s+(de\s+|del\s+)?[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+(y\s+)?[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\b(?!.*\b(cristo|christ|nazaret))|"
+    r"(?i:\b(carrer|calle|rua|rue|via|strasse|straße|plaza|pla[cç]a) (de )?(del )?(jes[uú]s|cristo|crist)\b|"
+    r"\bdeposition of (a )?wreath|\bwreaths?\b|\bindustrial deposition|\bdeposition \d|"
+    r"\bascension (day|island|thursday)|\bhimmelfahrtstag|\bvatertag|"
+    r"\b(corpus christi|fronleichnam)\b(?!.*\b(crucif|christ (on|with)|madonna))|"
+    r"\b(olive tree|reise|travel|journey to|hospital|szpital|ziekenhuis|krankenhaus|ospedale|"
+    r"plano|mapa|map of|carte de|karte von|plattegrond|gottesacker)\b|\bd\.\s?g\.\s|^\W*i\.?h\.?s\.?\W*$)", re.U)
+MOTHER_OF_GOD = re.compile(r"\b(mother of god|virgin hodegetria|our lady of (vladimir|kazan|"
+                           r"czestochowa|cz[eę]stochowa|tikhvin|smolensk|perpetual help))\b", re.I)
+MOG_NOT = re.compile(r"\b(dormition|assumption|protection|pokrov|intercession|sorrow\w*|mourning|"
+                     r"annunciation|nativity of the mother|presentation of the mother|joy of all|"
+                     r"praying|orans|oranta|burning bush|unburnt)\b", re.I)
+PHOTO_SUBJECT = re.compile(r"\b(christ|jesus|madonna|virgin|child|crucif\w*|piet[aà]|ecce homo|holy family|"
+                           r"nativity|adoration|lamentation|entombment|last supper|descent from the cross|"
+                           r"deposition (from the cross|of christ)|"
+                           r"man of sorrows|agony|emmaus|flagellation|salvator|pantocrator|deesis|"
+                           r"last judgment|trinity|good shepherd|noli me tangere|holy face)\b", re.I)
 CHRIST_AGENT = re.compile(r"^(jesus( christus| christ| kristus)?|christus|jesus von nazareth|"
                           r"j[eé]sus[- ]christ|ges[uù] cristo|jesucristo|jezus chrystus|"
                           r"kristus|krisztus|isus hristos)$", re.I)
@@ -494,7 +526,8 @@ CHRIST_AGENT = re.compile(r"^(jesus( christus| christ| kristus)?|christus|jesus 
 
 # --- object type ------------------------------------------------------------------
 KIND_RULES = [
-    ("photograph", r"photograph|photo\b|photography|slides? \(photo|gelatin silver|albumen|"
+    ("photograph", r"photograph|photo\b|photography|\bfotos?\b|fotograf|glasnegatief|\bdia\b|"
+                   r"fotografia|negativ|slides? \(photo|gelatin silver|albumen|"
                    r"glass plate negative|negatives?\b|lantern slide|postcard|picture postcard|daguerreotype|"
                    r"film negative|transparenc"),
     ("manuscript", r"manuscript|illumination|miniature \(paint|book of hours|psalter|codex|breviar|missal|"
@@ -503,11 +536,17 @@ KIND_RULES = [
     ("stained glass", r"stained glass|glass painting|leaded glass"),
     ("print", r"\bprints?\b|engraving|etching|woodcut|lithograph|mezzotint|aquatint|drypoint|"
               r"xylograph|linocut|intaglio|chromolithograph|holy card|devotional (print|image|card)|"
-              r"broadside|single-sheet|graphic art|2d graphics"),
-    ("drawing", r"drawing|sketch|watercolou?r|gouache|pastel|chalk|charcoal|study \(|pen and ink"),
-    ("painting", r"painting|oil on|canvas|tempera|panel painting|altarpiece|easel|fresco|mural|retable"),
+              r"broadside|single-sheet|graphic art|2d graphics|\bgrafik|\bgrafika|graafika|graphics|"
+              r"gravure|grabado|estampa|incisione|\bstampa\b|kupferstich|radierung|holzschnitt|"
+              r"skolplansch|plansch|wall chart|material gr[aá]fico|bilderbogen|andachtsbild|prent"),
+    ("drawing", r"drawing|sketch|zeichnung|kresba|rysunek|dessin|dibujo|disegno|tekening|teckning|"
+                r"joonistus|watercolou?r|gouache|pastel|chalk|charcoal|study \(|pen and ink"),
+    ("painting", r"painting|oil on|canvas|tempera|panel painting|altarpiece|easel|fresco|mural|retable|"
+                 r"gem[aä]lde|malerei|ma[lľ]ba|\bmaal\b|schilderij|schildering|peinture|pintura|dipinto|"
+                 r"m[aå]lning|altertavle|altartavla|hinterglas"),
     ("sculpture", r"sculpture|statue|statuette|relief|figurine|bust|carving|crucifix|corpus|plaster cast|"
-                  r"terracotta|wood carving"),
+                  r"terracotta|wood carving|skulptur|plastik|rondsculptuur|beeldhouw|\bfigur\b|scultura|"
+                  r"escultura|vesperbild|kruzifix|krucifix|socha|rze[zź]ba"),
     ("textile", r"textile|tapestr|embroider|vestment|chasuble|lace|banner|cope\b|antependium"),
     ("metalwork", r"metalwork|goldsmith|silverwork|medal|coin|plaquette|enamel|jewel|pendant|bronze"),
     ("ceramic", r"ceramic|porcelain|faience|majolica|maiolica|earthenware|stoneware|tile"),
@@ -537,6 +576,13 @@ def kinds(it):
     return [k for k, rx in KIND_RULES if rx.search(text)]
 
 
+# Fallback kind for providers whose records carry no usable type.
+PROVIDER_KIND = [
+    (re.compile(r"herzog august|albertina|kupferstich|graphische sammlung", re.I), "print"),
+    (re.compile(r"\barchiv|archives?\b|fotothek|photo|foto", re.I), "photograph"),
+]
+
+
 def pick_kind(ks):
     """Choose the most specific artwork kind; reproduction photographs stay 'photograph'."""
     if "photograph" in ks:
@@ -550,24 +596,38 @@ def pick_kind(ks):
     return "other"
 
 
+def item_kind(it, ks):
+    k = pick_kind(ks)
+    if k == "other":
+        dp = first(it.get("dataProvider")) or ""
+        for rx, pk in PROVIDER_KIND:
+            if rx.search(dp):
+                return pk
+    return k
+
+
 # Photographs of buildings, places, events and people (not of an artwork).
-NON_ARTWORK_TITLE = re.compile(
+BUILDING = re.compile(
     r"\b(church|chiesa|iglesia|igreja|kirche|kerk|kirke|kyrka|ko[sś]ci[oó][lł]|kostel|templom|biserica|"
-    r"[eé]glise|cathedral|cattedrale|catedral|kathedrale|dom\b|duomo|basilica|basilika|chapel|cappella|"
-    r"capilla|kapelle|kapel|chapelle|kaplica|monaster|kloster|klooster|convent|convento|abbey|abbazia|"
-    r"abtei|santuario|sanctuary|wallfahrt|pilgrimage|procession|prozession|processi[oó]n|processione|"
-    r"festa|fiesta|feast|fest\b|street|strasse|straße|via\b|calle|rue\b|square|piazza|plaza|platz|"
-    r"village|dorf|town|city|panorama|ansicht|view of|vista|veduta|gezicht op|exterior|fa[cç]ade|"
-    r"fassade|facciata|portal|portale|tower|turm|torre|bridge|br[uü]cke|ponte|puente|monument|denkmal|"
-    r"monumento|cemetery|friedhof|cimitero|cementerio|grave|grab\b|tomb of|interior|innenansicht|"
-    r"interieur|altar(?!piece)|hochaltar|altare|retablo mayor|wayside|bildstock|wegkreuz|feldkreuz|"
-    r"flurkreuz|marterl|calvaire|hill|berg\b|mountain|monte\b|statue of|portrait of (?!christ|jesus)|"
-    r"bildnis|parish|pfarr|parroquia|parrocchia|exhibition|ausstellung|mostra|exposici[oó]n|"
-    r"inauguration|einweihung|blessing of|benediction|consecration|mass\b|messe\b|messa\b|misa\b|"
-    r"school|schule|hospital|krankenhaus|ospedale|hotel|restaurant|station|bahnhof|cinema|theater|"
-    r"theatre|teatro|stage|film|movie|actor|schauspieler|attore|play\b|passion play|passionsspiel|"
-    r"oberammergau|tableau vivant|lebendes bild|nativity scene|krippe(nspiel)?|bel[eé]n|presepe|presepio|"
-    r"creche|kerststal)\b", re.I)
+    r"[eé]glise|cathedral|cattedrale|catedral|kathedrale|dom|duomo|basilica|basilika|chapel|cappella|"
+    r"capilla|kapelle|kapel|chapelle|kaplica|monaster\w*|kloster|klooster|convent|convento|abbey|abbazia|"
+    r"abtei|santuario|sanctuary|wallfahrt\w*|parochie|parish|pfarrei|pfarrkirche|parroquia|parrocchia|"
+    r"stiftskirche|m[uü]nster|minster|sn\.|socken)\b", re.I)
+SCENE = re.compile(
+    r"\b(pilgrimage|procession|prozession|processi[oó]n|processione|festa|fiesta|feast|fest|street|"
+    r"strasse|straße|via|calle|rue|square|piazza|plaza|platz|village|dorf|town|city|panorama|ansicht|"
+    r"view|vista|veduta|gezicht op|exterior|exteri[eö]r|fa[cç]ade|fassade|facciata|tower|turm|torre|"
+    r"bridge|br[uü]cke|ponte|puente|monument|denkmal|monumento|cemetery|friedhof|cimitero|cementerio|"
+    r"interior|interi[eö]r|innenansicht|innenraum|interieur|hochaltar|retablo mayor|wayside|bildstock|"
+    r"wegkreuz|feldkreuz|flurkreuz|marterl|calvaire|hill|mountain|statue of|bildnis|exhibition|"
+    r"ausstellung|mostra|exposici[oó]n|inauguration|einweihung|inzegening|onthulling|blessing of|"
+    r"consecration|mass|messe|messa|misa|novena|hospital|krankenhaus|ospedale|hotel|restaurant|"
+    r"bahnhof|cinema|theater|theatre|teatro|film|movie|actor|schauspieler|attore|passion play|"
+    r"passionsspiel\w*|oberammergau|tableau vivant|lebendes bild|nativity scene|krippenspiel|"
+    r"servizio fotografico|serie fotografica|photo reportage|photographic reportage|reportage|"
+    r"fotoreportage|viering|feier|jubileum|jubil[aä]um|zwembad|fontana|colonna|column|s[aä]ule|ruins?|ruine|candidatura|"
+    r"mount(ain)? of piet[aà]|monte di piet[aà]|monte de piedad|madonna di campiglio)\b", re.I)
+NON_ARTWORK_TITLE = re.compile(BUILDING.pattern + "|" + SCENE.pattern, re.I)
 # Titles describing a book/text rather than a picture.
 BOOK_TITLE = re.compile(
     r"\b(leben jesu|vita christi|life of (jesus|christ)|imitatio(ne)? christi|imitation of christ|"
@@ -598,7 +658,12 @@ def artist(it):
         v = re.sub(r"\s*\((k[uü]nstler|hersteller|künstler/hersteller|autor|author|artist|maker|"
                    r"zeichner|stecher|verleger|drucker|fotograf|photographer|creator|editor|"
                    r"inventor|invenit|sculpsit|fecit|excudit)[^)]*\)\s*", " ", v, flags=re.I)
+        v = re.sub(r"\s*\([^)]*(\d{3,4}|formschn|stecher|maler|zeichner|verleger|drucker|"
+                   r"werkstatt|workshop|nachfolger|umkreis|schule|school|circle|follower|after|nach)[^)]*\)",
+                   " ", v, flags=re.I)
         v = clean(v)
+        if re.fullmatch(r"[\w-]*\d{3,}[\w-]*", v or ""):
+            continue
         if v and not re.match(r"^(unknown|unbekannt|anonym\w*|onbekend|inconnu|desconocido|ignoto|"
                               r"n\.?n\.?|n/a|-)$", v, re.I):
             return v
@@ -679,8 +744,17 @@ def classify_item(it):
             u = decide(tx, "", a)
             if u:
                 break
-    if any(NOT_CHRIST.search(tx) for tx in texts if tx):
+    if not u:
+        for tx in texts:
+            if tx and MOTHER_OF_GOD.search(tx) and not MOG_NOT.search(tx) and not NO_CHILD.search(tx):
+                u = ["Madonna and Child"]
+                break
+    if any(NOT_CHRIST.search(tx) or EXTRA_NOT.search(tx) for tx in texts + [orig] if tx):
         return None, title, orig, "not-christ"
+    for tx in texts:
+        if tx and ANNUNCIATION.search(tx) and not re.search(
+                r"\b(christ|jesus|child|infant)\b", CHRIST_FUTURE.sub(" ", tx), re.I):
+            return None, title, orig, "annunciation"
     reason = "title"
     subj = all_strings(it.get("dcSubjectLangAware"))
     if not u:
@@ -695,14 +769,21 @@ def classify_item(it):
             if CHRIST_AGENT.match(clean(s_)):
                 u, reason = ["Jesus Christ"], "subject"
                 break
+            if NON_ARTWORK_TITLE.search(s_) or NOT_CHRIST.search(s_):
+                continue
             got = classify(englishize(s_))
-            if got and got != ["Jesus Christ"] and not NOT_CHRIST.search(s_):
+            if "Madonna and Child" in got and (not CHILD_WORD.search(s_) or NO_CHILD.search(s_)):
+                got = [g for g in got if g not in ("Madonna and Child", "Christ Child")]
+            if got and got != ["Jesus Christ"]:
                 u, reason = got, "subject"
                 break
     if not u:
         ag = all_strings(it.get("edmAgentLabelLangAware"))
         if any(CHRIST_AGENT.match(clean(x)) for x in ag):
             u, reason = ["Jesus Christ"], "agent"
+    if u == ["Circumcision"] and not any(re.search(r"\b(christ|jesus|child|infant)\b", tx, re.I)
+                                         for tx in texts if tx):
+        return None, title, orig, "not-christ"
     return (u or None), title, orig, reason
 
 
@@ -729,20 +810,28 @@ def build(it):
         return None, "no-match"
     eng = englishize(orig)
     ks = kinds(it)
-    k = pick_kind(ks)
-    if k in ("specimen", "map", "architecture") or (k == "book" and not (set(ks) & ART_KINDS)):
+    k = item_kind(it, ks)
+    if k in ("specimen", "map", "architecture"):
         return None, f"kind-{k}"
+    if k == "book" and (reason != "title" or u == ["Jesus Christ"]):
+        return None, "kind-book"
     probe = f"{title} | {eng}"
     if BOOK_TITLE.search(probe) and k not in ("print", "drawing", "painting", "sculpture", "icon"):
         return None, "book-title"
-    if k in ("photograph", "other", "book") and NON_ARTWORK_TITLE.search(probe):
-        return None, "photo-building"
-    if k == "photograph" and (reason != "title" or u == ["Jesus Christ"]):
+    if k in ("photograph", "other", "book") and SCENE.search(probe):
+        return None, "photo-scene"
+    generic = not [x for x in u if x not in ("Jesus Christ", "Madonna and Child")]
+    if k in ("photograph", "other", "book") and BUILDING.search(probe):
+        # "Church of the Resurrection" names a building, not a picture.
+        stripped = re.sub(BUILDING.pattern + r"(\s+\S+){0,4}", " ", probe, flags=re.I)
+        if generic or not classify(stripped):
+            return None, "photo-building"
+    if k == "photograph" and (reason != "title" or u == ["Jesus Christ"] or not PHOTO_SUBJECT.search(eng + " " + title) or (
+            u == ["Madonna and Child"] and not CHILD_WORD.search(re.sub(r"(?i)madonna", "", eng)))):
         return None, "photo-weak"
     if reason in ("subject", "agent") and SAINT_TITLE.search(englishize(title)):
         return None, "saint-title"
     y, d = dating(it)
-    c = ", ".join(it.get("country") or [])
     rec = {
         "id": f"europeana:{item_id(it)}",
         "t": title or orig,
@@ -759,12 +848,9 @@ def build(it):
         "src": first(it.get("edmIsShownAt")) or page_url(it),
         "lic": lic,
         "u": u,
-        "page": page_url(it),
-        "prov": clean(first(it.get("provider")) or ""),
-        "why": reason,
     }
-    if c:
-        rec["co"] = c
+    if DEBUG:
+        rec["why"] = reason
     if orig and title and orig != title:
         rec["ot"] = orig
     return rec, None
@@ -772,13 +858,19 @@ def build(it):
 
 def main():
     seen = harvest()
-    out, rej = [], Counter()
+    out, rej, keys = [], Counter(), set()
     for it in seen.values():
         rec, why = build(it)
-        if rec:
-            out.append(rec)
-        else:
+        if not rec:
             rej[why] += 1
+            continue
+        # The same object is sometimes ingested twice (different datasets).
+        key = (rec["l"], rec["t"].lower(), rec["big"])
+        if key in keys:
+            rej["duplicate"] += 1
+            continue
+        keys.add(key)
+        out.append(rec)
     out.sort(key=lambda x: (x["y"] is None, x["y"] or 0, x["id"]))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, separators=(",", ":"), ensure_ascii=False))

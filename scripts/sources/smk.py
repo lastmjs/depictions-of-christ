@@ -122,14 +122,15 @@ DA_EN = [
     (r"\b(kristus|jesus) åbenbarer sig\b|\b(kristus|jesus) viser sig\b|\b(kristi|jesu) åbenbaring\b", "christ appearing to"),
     (r"\bden yderste dom\b|\bdommedag(en)?\b|\bverdensdommer(en)?\b|\bdet sidste? dom\b", "last judgment"),
     (r"\bmarias kroning\b|\bmariæ kroning\b|\bkroningen af maria\b|\bjomfru marias kroning\b", "coronation of the virgin"),
-    (r"\b(kristus|jesus) i majestæt\b|\btronende kristus\b|\bkristus på tronen\b|\bvelsignende kristus\b|\bden velsignende kristus\b|\bkristus velsigner\b", "christ in majesty"),
+    (r"\b(kristus|jesus) i majestæt\b|\btronende kristus\b|\bkristus på tronen\b", "christ in majesty"),
     (r"\b(kristi|jesu) hoved\b|\b(kristi|jesu) ansigt\b|\bkristushoved\b|\bportræt af (kristus|jesus)\b|\bbuste af (kristus|jesus)\b|\b(kristi|jesu) åsyn\b|\bkristus i profil\b", "holy face"),
     (r"\bjesu hjerte\b|\bdet hellige hjerte\b", "sacred heart"),
     (r"\bden gode hyrde\b|\bgode hyrde\b", "good shepherd"),
     (r"\b(den hellige )?treenighed(en)?\b|\bnådestol(en)?\b", "trinity"),
     (r"\b(jomfru )?maria med (jesus)?barnet\b|\bmadonna(en)? med (jesus)?barnet\b|\bmaria og barnet\b|\bmadonna(en)? med barn\b|\bmaria med barn\b|\bmadonna og barn\b|\bmaria med jesus\b|\bguds moder\b|\bgudsmoder(en)?\b|\btronende madonna\b|\bmadonnaen\b", "virgin and child"),
     (r"\b(kristus|jesus) og den samaritanske kvinde\b|\bden samaritanske kvinde\b|\bkvinden ved brønden\b|\bden ægteskabsbryderske\b|\bhorkvinden\b|\bden kananæiske kvinde\b", "christ and the woman"),
-    (r"\blad de små børn\b|\b(kristus|jesus) velsigner (de små )?børnene?\b|\bbørnevennen\b", "suffer the little children"),
+    (r"\blad de små børn\b|\b(kristus|jesus) velsigner (de små )?børn(ene)?\b|\bbørnevennen\b", "suffer the little children"),
+    (r"\b(den )?velsignende (kristus|frelser)\b|\b(kristus|jesus) velsigner\b", "christ blessing"),
     (r"\b(martha og maria|maria og martha|marta og maria)\b", "mary and martha"),
     (r"\bskattepenge(n)?\b|\bskatten til kejseren\b", "tribute money"),
     (r"\b(kristus|jesus) prædiker\b|\b(kristus|jesus) underviser\b|\b(kristi|jesu) prædiken\b", "christ preaching"),
@@ -145,7 +146,9 @@ OTHER_EVENT = re.compile(
     r"martyrdød|bespottelse|nedtagelse|kroning)(n|en)? af (?!(kristus|jesus|kristi|jesu|frelseren|herren|"
     r"vor herre|korset)\b)", re.I)
 # Titles naming a non-Christ main subject ("Den hellige Hieronymus", "Apostlen Peter").
-DA_OTHER = re.compile(r"^(den )?(hellige|sankt|skt\.?|st\.?) \w+$|^(apostlen|profeten|evangelisten) \w+$", re.I)
+DA_OTHER = re.compile(r"^(den )?(hellige|sankt|skt\.?|st\.?) \w+$|^(apostlen|profeten|evangelisten) \w+$|"
+                      r"\b(kvindehoved|kvindestudie|kvindefigur|draperistudie|studie af (en )?kvinde|"
+                      r"studie efter kvinde)\w*", re.I)
 
 
 def translate(da):

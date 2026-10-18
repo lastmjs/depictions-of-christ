@@ -1,0 +1,797 @@
+[
+ {
+  "key": "commons:151721991",
+  "status": "corrected",
+  "set": {
+   "t": "The Bathing of the Christ Child (mosaic fragment from the Oratory of John VII)",
+   "d": "705–707",
+   "y": 706,
+   "c": "Rome",
+   "l": "Vatican Grottoes, St Peter's Basilica, Vatican City",
+   "m": "Mosaic"
+  },
+  "summary": "In this small, glittering fragment a midwife in a striped headdress leans over the infant Christ, steadying him as he sits in a round basin, while a tall ewer stands ready at the left. The child already wears a cross-marked halo, so that a homely scene of washing becomes a sign of the Word truly made flesh. The piece is one of the few survivors of the mosaic cycle that Pope John VII placed in his oratory in Old St Peter's.",
+  "scripture": "Luke 2:6–7 (Nativity context)",
+  "facts": [
+   "The fragment comes from the oratory built by Pope John VII (705–707) in Old St Peter's Basilica; when the old basilica was demolished, a handful of its mosaics were saved, and this one is now kept in the Vatican Grottoes.",
+   "According to the Commons description, it originally sat directly above the central image of John VII with the Virgin, as part of a sequence of Nativity scenes.",
+   "The bathing of the newborn Christ is not told in the Gospels or apocrypha; it appears in Byzantine art from the 6th century and was linked by Christians with his later baptism."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Mosaic_fragment,_Oratory_of_John_VII.jpg"
+   },
+   {
+    "label": "Wikipedia: Old St. Peter's Basilica",
+    "url": "https://en.wikipedia.org/wiki/Old_St._Peter%27s_Basilica"
+   }
+  ],
+  "notes": "Current location taken from the Commons category (Grotte vaticane); the photograph shows it in a modern display frame. Date follows John VII's pontificate."
+ },
+ {
+  "key": "Q80079053",
+  "status": "verified",
+  "set": {},
+  "summary": "On the face of this gold coin Christ appears as a bust, his right hand raised in blessing and his left holding a jewelled Gospel book, with the arms of a cross behind his head. He is shown with short, tightly curled hair and a close beard, a distinctive type used on the coins of Justinian II's second reign. The Latin legend names him 'Jesus Christ, King of those who reign', placing the emperor, shown on the reverse, beneath the true Lord.",
+  "scripture": "Revelation 19:16; 1 Timothy 6:15",
+  "facts": [
+   "Justinian II was the first Byzantine emperor to put the image of Christ on coins issued in his name.",
+   "The Cleveland Museum of Art records the obverse inscription as dN IhS ChS REX REGNANTIUM, with the bust of Justinian II holding a cross and a globe inscribed PAX on the reverse.",
+   "The short-haired, curly Christ seen here differs from the long-haired type of Justinian's first reign; Wikipedia's article on Santa Maria Antiqua notes that this coin type may have influenced painters in Rome."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/2012.47.a"
+   },
+   {
+    "label": "Wikipedia: Justinian II",
+    "url": "https://en.wikipedia.org/wiki/Justinian_II"
+   }
+  ],
+  "notes": "Dated 705 by the museum (start of Justinian II's second reign, 705–711)."
+ },
+ {
+  "key": "Q116274109",
+  "status": "verified",
+  "set": {},
+  "summary": "Carved in deep relief on a curved section of elephant tusk, Christ sits enthroned within an oval mandorla dotted with circles, blessing with his right hand and holding a book, while angels on either side bear the mandorla upward. Below, the Virgin stands in the centre with her hands raised in prayer, flanked by the apostles, several holding books. The bold, stylised carving shows how the Ascension was pictured by Christian craftsmen in Egypt or Palestine in the early Islamic period.",
+  "scripture": "Acts 1:9–11",
+  "facts": [
+   "Radiocarbon analysis gives the ivory a date of 720–970 (95% probability), according to The Met.",
+   "It is kept in The Met's Department of Islamic Art, reflecting its origin in Egypt or Palestine under Islamic rule (accession 17.190.46, gift of J. Pierpont Morgan, 1917)."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/453638"
+   }
+  ]
+ },
+ {
+  "key": "wga:zearly/2/2paintin/0rome1",
+  "status": "corrected",
+  "set": {
+   "t": "Crucifixion (Chapel of Theodotus)",
+   "a": "Roman painter (8th century)",
+   "c": "Rome",
+   "s": "Early medieval (Byzantine-influenced)"
+  },
+  "summary": "Christ hangs alive on a broad cross, eyes open and arms outstretched, dressed in a long dark purple colobium edged with gold, beneath a titulus in Greek letters and a crescent moon in the night sky. The Virgin and Saint John, labelled in Latin, stand to either side; between them the soldier Longinus, named in the inscription, points his lance and Stephaton raises the sponge beside a small bucket. Painted for the chapel of Theodotus in Santa Maria Antiqua, it is one of the most important images of the Crucifixion to survive from 8th-century Rome.",
+  "scripture": "John 19:25–34",
+  "facts": [
+   "The fresco is the centrepiece of the chapel of Saints Quiricus and Julitta, decorated at the expense of Theodotus, an official of the church, during the pontificate of Pope Zacharias (741–752).",
+   "Christ's sleeveless colobium is an eastern element, which the Web Gallery of Art notes is otherwise known mainly from Syrian manuscripts.",
+   "Santa Maria Antiqua was buried by an earthquake in 847, which helped preserve its paintings; it was uncovered after the church above it was demolished in 1900."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/2/2paintin/0rome1.html"
+   },
+   {
+    "label": "Wikipedia: Santa Maria Antiqua",
+    "url": "https://en.wikipedia.org/wiki/Santa_Maria_Antiqua"
+   }
+  ],
+  "notes": "The WGA classes the painter as 'Pre-Romanesque Painter (Italian)'; the style is strongly Byzantine. The same image appears as commons:18265619 (marked as duplicate)."
+ },
+ {
+  "key": "commons:18265619",
+  "status": "rejected",
+  "reject_reason": "Duplicate: same Crucifixion fresco of the Theodotus Chapel, Santa Maria Antiqua, as the WGA entry.",
+  "dup_of": "wga:zearly/2/2paintin/0rome1",
+  "set": {}
+ },
+ {
+  "key": "Q9191525",
+  "status": "corrected",
+  "set": {
+   "t": "Christ and Abbot Mena",
+   "original_title": "Le Christ et l'abbé Ména",
+   "c": "Bawit, Egypt",
+   "l": "Musée du Louvre, Paris",
+   "m": "Encaustic and tempera on sycamore-fig wood"
+  },
+  "summary": "Christ stands at the right, larger than his companion, holding a jewelled Gospel book and resting his right arm around the shoulder of Abbot Mena, who holds a scroll and raises his hand. Both have large, wide eyes and golden haloes against an orange sky above green hills; the Greek inscriptions name Christ as 'Saviour' and his companion as 'Apa Mena, the superior'. This rare panel from the monastery of Bawit in Egypt is a moving image of Christ as the companion and protector of the faithful.",
+  "scripture": "John 15:15 (theme)",
+  "facts": [
+   "The icon was found in 1902 at the monastery of Bawit in Middle Egypt; the Louvre records that it was stolen from the excavation site, bought by Lecomte du Nouÿ and given by him to the museum in 1918.",
+   "The Louvre dates it to the 8th century and identifies the wood as sycamore fig, painted in encaustic (beeswax) and tempera; it measures about 58.5 × 57.7 cm.",
+   "Wikipedia reads Christ's hand resting on Mena's far shoulder as a sign of his protective authority over the abbot; the abbot is shown slightly smaller than Christ."
+  ],
+  "links": [
+   {
+    "label": "Musée du Louvre",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010048163"
+   },
+   {
+    "label": "Wikipedia: Icon of Christ and Abbot Mena",
+    "url": "https://en.wikipedia.org/wiki/Icon_of_Christ_and_Abbot_Mena"
+   }
+  ],
+  "notes": "Dating differs: the Louvre gives 8th century (700–799); English Wikipedia says second half of the 6th century. The Louvre date is used. The Louvre currently lists it as not on display."
+ },
+ {
+  "key": "Q1400866",
+  "status": "corrected",
+  "set": {
+   "t": "Franks Casket (front panel: Weland the Smith and the Adoration of the Magi)",
+   "d": "first half of the 8th century",
+   "y": 725,
+   "c": "Northumbria (probably), England",
+   "l": "British Museum, London (right end panel: Museo del Bargello, Florence)",
+   "m": "Carved whale bone",
+   "s": "Anglo-Saxon",
+   "k": "sculpture"
+  },
+  "summary": "This photograph shows the front of the little Anglo-Saxon casket, framed by runic inscriptions: at the left the pagan legend of Weland the Smith, at the right the Magi approaching the enthroned Virgin with the Christ Child on her lap, led by a large star. Set side by side, the grim tale and the Nativity offering suggest the passage from the old heroic world to the new light of Christ. It is one of the earliest English images of the infant Christ.",
+  "scripture": "Matthew 2:1–12",
+  "facts": [
+   "The Magi are identified by a runic label reading 'magi'; the Adoration is the only Christian scene on the casket, which also shows Romulus and Remus and Titus's capture of Jerusalem.",
+   "The runic inscription around the front panel is a riddle about the casket's own material, the bone of a stranded whale.",
+   "Augustus Wollaston Franks gave the panels to the British Museum in 1867; the missing right end panel turned up in Auzon, France, was sold to the Bargello in Florence and was recognised as part of the casket in 1890."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Franks Casket",
+    "url": "https://en.wikipedia.org/wiki/Franks_Casket"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Franks_casket_03.jpg"
+   }
+  ],
+  "notes": "Christ appears only as a small figure in the Adoration scene at the right of the front panel. 'Whalebone' here means whale bone, not baleen."
+ },
+ {
+  "key": "Q6399196",
+  "status": "rejected",
+  "reject_reason": "Christ is not visible: the image shows the Khakhuli triptych, whose central icon (of which only the Virgin's enamelled face and hands survive) depicts the Virgin alone in prayer; the small enamels are not legible as images of Christ. The triptych was also assembled in the 12th century, not the 8th.",
+  "set": {},
+  "links": [
+   {
+    "label": "Wikipedia: Khakhuli triptych",
+    "url": "https://en.wikipedia.org/wiki/Khakhuli_triptych"
+   }
+  ],
+  "notes": "Wikipedia mentions a 10th-century Crucifixion enamel on the cover of the reliquary, but it is not visible in this image."
+ },
+ {
+  "key": "Q59417261",
+  "status": "corrected",
+  "set": {
+   "d": "probably early 8th century (dates from the 6th to the 9th century proposed)",
+   "y": 706,
+   "c": "Rome",
+   "l": "Santa Maria in Trastevere, Rome",
+   "m": "Encaustic on panel, with later overpainting",
+   "k": "icon"
+  },
+  "summary": "The Virgin sits enthroned as a queen, wearing the jewelled crown and pearl-studded robes of a Byzantine empress and holding a cross-staff, with the Christ Child seated upright on her lap in a purple robe; both wear golden haloes. Two haloed attendant figures, usually identified as angels, stand at either side. Darkened and worn, the great panel is one of the oldest surviving Marian icons in Rome, a witness to the city's devotion to Christ and his Mother in the early Middle Ages.",
+  "scripture": "Luke 1:31–33",
+  "facts": [
+   "Wikipedia notes that the icon is often linked with Pope John VII (705–707), whose kneeling figure is believed to appear, now very worn, at the Virgin's feet.",
+   "At about 164 × 116 cm it is the largest of the five oldest Marian icons in Rome.",
+   "Pope Alexander VII granted it a canonical coronation, which took place in 1659; it hangs above the altar of the Altemps Chapel."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Madonna della Clemenza",
+    "url": "https://en.wikipedia.org/wiki/Madonna_della_Clemenza"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Madonna_della_Clemenza_Icon_of_the_Virgin_and_Child_.jpg"
+   }
+  ],
+  "notes": "Date is debated (6th–9th century); association with John VII is common but not certain."
+ },
+ {
+  "key": "commons:25371411",
+  "status": "corrected",
+  "set": {
+   "t": "Christ in Majesty, from the Godescalc Evangelistary",
+   "original_title": "Évangéliaire dit de Charlemagne ou de Godescalc : Jésus-Christ",
+   "d": "781–783",
+   "y": 782,
+   "c": "Court School of Charlemagne",
+   "m": "Paint, gold and silver on parchment",
+   "s": "Carolingian"
+  },
+  "summary": "Christ sits frontally on a cushioned throne before a crenellated wall, blessing with his right hand and holding a jewelled book in his left, his head framed by a gold cross-nimbus and flanked by the letters IHS XPS. Plants spring up around the throne and the whole is enclosed in a frame of interlace and ornament. Painted for Charlemagne, this serene image stands at the very beginning of the Carolingian revival of book painting.",
+  "scripture": "John 8:12 (theme)",
+  "facts": [
+   "The manuscript was commissioned by Charlemagne and his queen Hildegard on 7 October 781 and completed on 30 April 783; its dedication poem names the scribe Godescalc.",
+   "It is the earliest known manuscript from Charlemagne's Court School and is written in gold and silver ink on purple-dyed parchment.",
+   "Its six full-page miniatures are the four Evangelists, this Christ in Majesty and the Fountain of Life."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Godescalc Evangelistary",
+    "url": "https://en.wikipedia.org/wiki/Godescalc_Evangelistary"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Evangeliarium_-_%C3%A9vang%C3%A9liaire_dit_de_Charlemagne_ou_de_Godescalc_-_J%C3%A9sus-Christ_-_BNF_Gallica.jpg"
+   }
+  ],
+  "notes": "The Court School's location is often given as Aachen; the folio number was not verified. Held by the Bibliothèque nationale de France, Paris."
+ },
+ {
+  "key": "Q60763615",
+  "status": "verified",
+  "set": {},
+  "summary": "Within a small gold disc, cloisonné enamel in green, deep red, white and blue forms the bust of Christ, his face framed by a halo marked with a cross, his hands brought before him above a green arc. The Greek letters Alpha and Omega float at either side of his head, proclaiming him the beginning and the end. Simple and bold in its gold wire outlines, this medallion is a rare early witness to enamel work in the Frankish and Saxon world.",
+  "scripture": "Revelation 22:13",
+  "facts": [
+   "The Cleveland Museum of Art describes it as the earliest object from the Guelph Treasure, the church treasure of Brunswick Cathedral in Germany.",
+   "The museum suggests it may originally have served as a sacerdotal brooch, and attributes it to the Weser region of Germany in the late 8th century.",
+   "Cleveland bought nine pieces of the Guelph Treasure after it was exhibited in the United States in 1930–31."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1930.504"
+   },
+   {
+    "label": "Wikipedia: Guelph Treasure",
+    "url": "https://en.wikipedia.org/wiki/Guelph_Treasure"
+   }
+  ],
+  "notes": "The object passed from the House of Brunswick-Lüneburg through the Goldschmidt Galleries, New York."
+ },
+ {
+  "key": "wga:zearly/2/2paintin/2mustair3",
+  "status": "corrected",
+  "set": {
+   "a": "Carolingian painter",
+   "c": "Müstair, Graubünden (present-day Switzerland)",
+   "l": "Church of the Benedictine Convent of Saint John, Müstair, Switzerland",
+   "s": "Carolingian"
+  },
+  "summary": "In this red-ochre fresco, Christ, haloed and robed, steps forward and reaches out his hand to the mouth of a man who bows low before him, while apostles stand behind Christ and a group of onlookers watch from beneath an arch at the right. Though faded, the broad, rhythmic figures convey the moment of touch by which the silent man is healed. The scene belongs to the extensive Carolingian cycle of the life of Christ in the remote Alpine church of Müstair.",
+  "scripture": "Mark 7:31–37",
+  "facts": [
+   "The convent church of Saint John at Müstair, founded around 780 perhaps at Charlemagne's instigation, preserves the best-surviving cycle of Carolingian wall painting; it has been a UNESCO World Heritage Site since 1983.",
+   "The paintings were rediscovered in 1896 and fully uncovered by 1950; parts had been painted over in the 12th century.",
+   "The Web Gallery of Art places this scene on the north wall and suggests the painters were itinerant artists trained in a Byzantine-influenced Italian tradition."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/2/2paintin/2mustair3.html"
+   },
+   {
+    "label": "Wikipedia: Saint John Abbey, Müstair",
+    "url": "https://en.wikipedia.org/wiki/Saint_John_Abbey,_M%C3%BCstair"
+   }
+  ],
+  "notes": "Title from the WGA. The specific miracle (deaf-mute of Mark 7 or the mute demoniac of Matthew 9:32–33) is not confirmed by a second source; Mark 7 is suggested because Christ touches the man's mouth. Müstair is in Switzerland, not Italy."
+ },
+ {
+  "key": "Q116273823",
+  "status": "verified",
+  "set": {},
+  "summary": "Cut into a small faceted piece of rock crystal, Christ hangs on a cross with a footrest, arms spread wide, flanked by the Virgin and Saint John, with a star and a crescent above the arms of the cross and Greek letters running down either side. Cut as an intaglio seal, it would have left a raised impression of the Crucifixion, a sign of its owner's faith. Its clarity and tiny scale make it an intimate Byzantine devotional object.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Met dates the seal broadly to the 9th–11th century and records it as rock crystal, about 2 cm high (accession 86.11.38, purchased 1886)."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/468784"
+   }
+  ],
+  "notes": "The Greek letters were not read or verified."
+ },
+ {
+  "key": "Q116274072",
+  "status": "verified",
+  "set": {},
+  "summary": "On this fragment of carved tusk Christ sits frontally within an oval mandorla studded with ring-and-dot ornament, bearded and haloed, raising his right hand in blessing and holding a book in his left. Below him a winged angel reclines, appearing to support the mandorla. The stylised, patterned carving is characteristic of ivory work from early Islamic Egypt, where Christian communities continued to produce images of Christ in glory.",
+  "scripture": "Revelation 4:2 (theme)",
+  "facts": [
+   "The Met dates the fragment to 810–1010 and attributes it to Egypt (accession 17.190.48, gift of J. Pierpont Morgan, 1917).",
+   "It is held in The Met's Department of Islamic Art, like the related tusk fragment with the Ascension (17.190.46), which shows a very similar enthroned Christ in a dotted mandorla."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/453653"
+   }
+  ],
+  "notes": "The relationship between the two Met tusk fragments is noted from their shared style, department and gift; whether they come from the same object was not verified."
+ },
+ {
+  "key": "commons:441106",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Treading on the Lion and the Dragon (Stuttgart Psalter)",
+   "a": "Carolingian illuminator",
+   "d": "c. 820–830",
+   "c": "Saint-Germain-des-Prés, Paris",
+   "l": "Württembergische Landesbibliothek, Stuttgart",
+   "m": "Paint on parchment",
+   "s": "Carolingian"
+  },
+  "summary": "Beneath the Latin text of the psalm, Christ, with a cross-nimbus and a red cloak, stands in the dress of a soldier holding a book and a cross-staff whose point he drives down on the beasts at his feet: a serpent-like dragon and a lion. An angel at the left raises its hands in wonder and a hand reaches from the heavens at the upper right. The miniature reads the psalm as a prophecy of Christ's victory over evil.",
+  "scripture": "Psalm 91:13",
+  "facts": [
+   "The Stuttgart Psalter (Cod. Bibl. fol. 23) was made around 820 at Saint-Germain-des-Prés in Paris and contains 316 illustrations of the Psalms; the 'fol23' in the file name is the manuscript's shelfmark, not the folio.",
+   "This miniature illustrates Psalm 91 (90):13 on folio 107v: 'super aspidem et basiliscum ambulabis et conculcabis leonem et draconem'.",
+   "The verse was sung daily at Compline and in the Roman Good Friday liturgy, which helped make the image of Christ trampling the beasts a symbol of his triumph over Satan."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Stuttgart_Psalter_fol23.jpg"
+   },
+   {
+    "label": "Wikipedia: Stuttgart Psalter",
+    "url": "https://en.wikipedia.org/wiki/Stuttgart_Psalter"
+   },
+   {
+    "label": "Wikipedia: Christ treading on the beasts",
+    "url": "https://en.wikipedia.org/wiki/Christ_treading_on_the_beasts"
+   }
+  ],
+  "notes": "Folio 107v taken from the Commons description."
+ },
+ {
+  "key": "wga:zgothic/mosaics/0prassed/2apse1",
+  "status": "corrected",
+  "set": {
+   "t": "Apse Mosaic of Santa Prassede: Christ with Saints and Pope Paschal I",
+   "d": "817–824",
+   "y": 820,
+   "a": "Roman mosaicists",
+   "c": "Rome",
+   "m": "Mosaic",
+   "s": "Early medieval (Carolingian-period Roman)"
+  },
+  "summary": "High in the apse, Christ in golden robes stands on clouds tinged with red against a deep blue sky, raising his right hand, while the hand of God above holds out a wreath. Saints Peter and Paul present Praxedes and Pudentiana to him, and at the far left Pope Paschal I, with the square halo of the living, offers a model of the church; palm trees frame the scene, one crowned by a small haloed bird, and lambs process below. On the arch above, the Lamb on his throne appears among angels, completing a vision of heavenly glory.",
+  "scripture": "Revelation 5:6–14 (Lamb on the arch)",
+  "facts": [
+   "Pope Paschal I (817–824) rebuilt the church and commissioned its mosaics as part of his campaign of bringing martyrs' relics from the catacombs into the city.",
+   "Paschal's monogram appears at the top of the apse, and a dedicatory inscription in Latin runs beneath the lambs.",
+   "On the arch above, the symbols of the four Evangelists surround the Lamb on a throne, which Wikipedia describes as a symbol of Christ's return; the church also contains Paschal's celebrated mosaic chapel of Saint Zeno, built for his mother Theodora."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zgothic/mosaics/0prassed/2apse1.html"
+   },
+   {
+    "label": "Wikipedia: Santa Prassede",
+    "url": "https://en.wikipedia.org/wiki/Santa_Prassede"
+   }
+  ],
+  "notes": "The WGA titles the work 'Christ's Second Coming' and dates it 822; the apse is usually dated to Paschal's pontificate (817–824). Medium on WGA ('Photo') was wrong. Figure identifications at the right of the image (e.g. St Zeno) were not confirmed."
+ },
+ {
+  "key": "commons:183258889",
+  "status": "corrected",
+  "set": {
+   "t": "Christ with Pope Mark, Saint Agapitus and Saint Agnes (apse mosaic of San Marco, Rome, detail)",
+   "d": "c. 829–833",
+   "y": 831,
+   "a": "Roman mosaicists",
+   "c": "Rome",
+   "l": "Basilica of San Marco Evangelista al Campidoglio, Rome",
+   "m": "Mosaic",
+   "s": "Early medieval (Carolingian-period Roman)"
+  },
+  "summary": "Against a field of gold, Christ stands on a small pedestal in a dark robe, blessing with his right hand and holding an open book, while to his left stand Pope Mark in a red chasuble, the deacon Saint Agapitus and Saint Agnes, each on a footstool inscribed with a name. The tall, flat figures with their staring eyes show the solemn style of Roman mosaic in the 9th century. The full apse, commissioned by Pope Gregory IV, presents Christ as the Lord around whom the saints of the Roman church gather.",
+  "scripture": "John 14:6 (theme)",
+  "facts": [
+   "The basilica was founded by Pope Mark in 336 and rebuilt by Pope Gregory IV, whose apse mosaic is the best-surviving part of his work.",
+   "The whole apse shows Christ between Pope Mark, Agapitus and Agnes on one side and Felicissimus, Gregory IV and Mark the Evangelist on the other, above a frieze of twelve lambs.",
+   "San Marco, beside Piazza Venezia, is today the national church of Venice in Rome."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Basilica_of_San_Marco_apse_mosaic_detail.jpg"
+   },
+   {
+    "label": "Wikipedia: San Marco Evangelista al Campidoglio",
+    "url": "https://en.wikipedia.org/wiki/San_Marco,_Rome"
+   }
+  ],
+  "notes": "This is San Marco in Rome, not St Mark's in Venice. Commons dates the mosaic 829–831; Wikipedia gives the rebuilding as 833 (Gregory IV reigned 827–844). Text in Christ's book was not read."
+ },
+ {
+  "key": "Q16823902",
+  "status": "corrected",
+  "set": {
+   "d": "10th century",
+   "y": 950,
+   "c": "Constantinople",
+   "l": "British Museum, London",
+   "m": "Ivory",
+   "s": "Byzantine (Romanos group)",
+   "k": "ivory"
+  },
+  "summary": "In the arched central panel Christ hangs on the cross, head bowed and wearing a loincloth, between the Virgin and Saint John, while half-length archangels lean in above the arms of the cross. On the folding wings, standing saints, many of them soldier saints, are carved in pairs in two tiers. Polished and elegant, the triptych is a fine example of the ivories made in 10th-century Constantinople for private devotion.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Greek inscription above the Virgin and John reads 'Behold thy son; behold thy mother', Christ's words from the cross.",
+   "It belongs to the 'Romanos group' of ivories closely connected with the Byzantine imperial court, alongside the Harbaville Triptych in the Louvre.",
+   "It was bequeathed to the British Museum by Charles Borradaile in 1923 (registration 1923,1205.1); the suggestion that it was made for Anna Porphyrogenita cannot be substantiated."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Borradaile Triptych",
+    "url": "https://en.wikipedia.org/wiki/Borradaile_Triptych"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Borradaile_triptych_BM_1923_1205_1.jpg"
+   }
+  ],
+  "notes": "Wikidata gives 9th century; Wikipedia and the British Museum record cited on Commons give 900–1000. Corrected to 10th century."
+ },
+ {
+  "key": "Q29226952",
+  "status": "corrected",
+  "set": {
+   "t": "Ivory Plaque with the Crucifixion and Scenes of the Passion (the 'Glorious Cross')",
+   "original_title": "Croix glorieuse; Scènes de la vie du Christ",
+   "c": "probably Aachen (Court School of Charlemagne)",
+   "l": "Treasury of the former Cathedral of Saint-Just-et-Saint-Pasteur, Narbonne",
+   "m": "Carved ivory",
+   "s": "Carolingian",
+   "k": "ivory"
+  },
+  "summary": "At the centre of this richly carved leaf Christ hangs on a broad cross, his arms outstretched over two inscribed plaques, with a titulus above his head; around him crowd tiny scenes of the Passion and its aftermath, including the Virgin and John, soldiers with lance and sponge, a meal at a table at lower left and a domed tomb at right. Above, busts in medallions and further scenes complete the story. Framed by a border of fluted fans and pearls, it is one of the most ambitious Carolingian ivories of the Crucifixion.",
+  "scripture": "John 19:19–27",
+  "facts": [
+   "The French heritage database records the inscriptions HIC EST IHS NAZARENUS REX IUDEOR on the titulus and, on the arms of the cross, 'MULIER ECCE FILIUS TUUS' and 'APLE ECCE MATER TUA' (Woman, behold thy son; Apostle, behold thy mother).",
+   "Once classified as 12th-century, it was re-dated to the 9th century; a 1992 study by André Bonnery attributed it to Aachen at the end of Charlemagne's reign, and it was shown at the 2014 Charlemagne exhibition in Aachen.",
+   "The plaque measures 25.3 × 15.7 cm and probably served as a book cover; it has been a protected historic object since 1901."
+  ],
+  "links": [
+   {
+    "label": "POP (French heritage database)",
+    "url": "https://pop.culture.gouv.fr/notice/palissy/PM11000454"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Just_de_Narbonne_-_Tr%C3%A9sor_-_La_Croix_glorieuse.jpg"
+   },
+   {
+    "label": "Wikipedia: Narbonne Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Narbonne_Cathedral"
+   }
+  ],
+  "notes": "Individual small scenes are described cautiously from the photograph; their identification was not checked against a scholarly catalogue."
+ },
+ {
+  "key": "Q24910792",
+  "status": "corrected",
+  "set": {
+   "t": "The Fieschi Morgan Staurotheke",
+   "d": "early 9th century",
+   "y": 815,
+   "c": "Byzantine Empire (probably Constantinople)",
+   "l": "The Metropolitan Museum of Art, New York",
+   "m": "Gilded silver, gold, cloisonné enamel and niello",
+   "s": "Byzantine",
+   "k": "reliquary"
+  },
+  "summary": "On the lid of this small reliquary for a fragment of the True Cross, Christ stands on the cross in a long purple colobium, his eyes open, flanked by the Virgin and Saint John, with busts of saints set in green enamel around the border and along the sides. Its bright emerald, blue and maroon enamel is simple, even naive, in execution, yet full of life. Made around the time of the struggle over images, it presents the crucified Christ as alive and victorious.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Greek inscriptions on the lid include Christ's words 'Here is your son ... Here is your mother'; under the lid, niello scenes show the Annunciation, Nativity, Crucifixion and Anastasis.",
+   "Inside, walls in the shape of a patriarchal (double) cross divide the box into compartments, the main one probably for a relic of the True Cross.",
+   "Dates proposed range from about 815 to 843, around the second phase of Byzantine Iconoclasm; The Met gives 'early 9th century' (accession 17.190.715a, b, gift of J. Pierpont Morgan, 1917)."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/472562"
+   },
+   {
+    "label": "Wikipedia: Fieschi Morgan Staurotheke",
+    "url": "https://en.wikipedia.org/wiki/Fieschi_Morgan_Staurotheke"
+   }
+  ],
+  "notes": "Place of manufacture is debated; Constantinople is most often proposed, but Wikipedia also discusses Rome as a possible source of the enamel craft."
+ },
+ {
+  "key": "Q134290305",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: this ivory is the lower fragment of an Ascension, showing only the Virgin and the apostles gazing upward; the figure of Christ was on a lost part of the composition.",
+  "set": {},
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Ascension_of_Christ_(fragment),_Aachen,_Court_School_of_Charlemagne,_early_800s,_ivory_-_Hessisches_Landesmuseum_Darmstadt,_Germany_-_DSC00277.jpg"
+   }
+  ],
+  "notes": "Hessisches Landesmuseum Darmstadt, Kg 54:217; the museum label (per the Commons file name) attributes it to the Court School of Charlemagne, early 800s."
+ },
+ {
+  "key": "commons:4451723",
+  "status": "corrected",
+  "set": {
+   "t": "The Crucifixion and an Iconoclast Whitewashing an Image of Christ (Chludov Psalter)",
+   "original_title": "Iconoclasts John Grammaticus and Anthony I of Constantinople",
+   "a": "Byzantine illuminator",
+   "d": "mid-9th century",
+   "c": "Constantinople",
+   "l": "State Historical Museum, Moscow (MS D.129)",
+   "m": "Paint on parchment",
+   "s": "Byzantine"
+  },
+  "summary": "In the margin beside the Greek psalm text, Christ hangs on the cross in a blue colobium while one soldier lifts a sponge on a pole and another a lance. Below, a deliberately parallel scene shows a dishevelled iconoclast pushing a similar sponge on a pole against a round icon of Christ to blot it out, with a bowl at his feet. The page equates the destruction of holy images with the insults offered to Christ at his Passion, a passionate defence of the icon made soon after the end of Iconoclasm.",
+  "scripture": "Psalm 69:21; John 19:28–34",
+  "facts": [
+   "The miniature illustrates the psalm verse 'They gave me gall to eat; and when I was thirsty they gave me vinegar to drink' (Psalm 69:21; 68 in the Septuagint).",
+   "The iconoclast is identified as John the Grammarian, the last iconoclast Patriarch of Constantinople, caricatured with wild, straight hair.",
+   "The Chludov Psalter is one of only three illuminated Byzantine psalters surviving from the 9th century; it was taken from Mount Athos in 1847 and later passed to the State Historical Museum in Moscow."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Chludov Psalter",
+    "url": "https://en.wikipedia.org/wiki/Chludov_Psalter"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Clasm_Chludov.jpg"
+   },
+   {
+    "label": "Wikipedia: Byzantine iconoclasm",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_iconoclasm"
+   }
+  ],
+  "notes": "Commons names both John the Grammarian and Patriarch Anthony I; only one iconoclast figure is clearly visible here, and Wikipedia identifies him as John the Grammarian. Folio number not verified. This is a polemical image and should be presented as such."
+ },
+ {
+  "key": "Q55347059",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Christian Figure (fragment), from the Mogao Caves",
+   "d": "9th century",
+   "c": "Dunhuang (Mogao Caves), China",
+   "l": "British Museum, London",
+   "m": "Ink and colours on silk",
+   "s": "Church of the East (Tang–Guiyi period Central Asian style)"
+  },
+  "summary": "Only fragments remain of this silk banner, but a haloed figure in three-quarter view can still be made out, wearing a red stole over a robe that has faded almost to the colour of the silk, with small flowers scattered across the background. Crosses appear on his headdress, on a pendant at his chest and at the head of a staff, marking him as Christian although the pose and gestures recall Buddhist bodhisattva images. Found in the Library Cave at Dunhuang, it is a rare witness to the Church of the East in China and may represent Christ himself.",
+  "facts": [
+   "The painting was recovered by Aurel Stein in 1908 from the Library Cave (Cave 17) of the Mogao Caves and is now in the British Museum.",
+   "The figure's red moustache and beard, rather than the green curling moustaches typical of bodhisattvas, are among the features that point to a Christian rather than Buddhist subject.",
+   "Scholars including Hans-Joachim Klimkeit and Christoph Baumer describe it as Christ or a saint, while others such as P. Y. Saeki and Tōru Haneda regarded it as an image of Christ."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Mogao Christian painting",
+    "url": "https://en.wikipedia.org/wiki/Mogao_Christian_painting"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Mogao_Christian_painting_(original_version).jpg"
+   },
+   {
+    "label": "Wikipedia: Church of the East in China",
+    "url": "https://en.wikipedia.org/wiki/Church_of_the_East_in_China"
+   }
+  ],
+  "notes": "Identification uncertain: the figure may be Christ or a Christian saint. Much of the detail described in sources (beard, crosses) is hard to see in this heavily damaged photograph. Scripture omitted because the subject is not certain."
+ },
+ {
+  "key": "Q43089790",
+  "status": "corrected",
+  "set": {
+   "t": "Liturgical Comb with the Crucifixion (so-called Comb of Saint Heribert)",
+   "d": "c. 850–900",
+   "y": 875,
+   "c": "Metz",
+   "l": "Museum Schnütgen, Cologne",
+   "m": "Ivory",
+   "s": "Carolingian (Metz school)"
+  },
+  "summary": "Carved from a single piece of ivory, this comb has a fine row of teeth below an openwork field showing Christ on the cross, with a small titulus above, the Virgin and Saint John beside him and the soldiers with lance and sponge kneeling at the foot; half-length figures appear above the arms of the cross. Rosettes of openwork and curling acanthus fill the sides, and two figures bend among the scrolls at the top. Such combs were used in the liturgy, so that even a preparation for worship was set under the sign of the cross.",
+  "scripture": "John 19:25–34",
+  "facts": [
+   "The Museum Schnütgen holds the comb as inventory B 100; it is traditionally associated with Saint Heribert, Archbishop of Cologne (died 1021), though it was made more than a century before his time.",
+   "Liturgical combs of the 9th and 10th centuries were usually carved from a single piece of ivory and decorated with religious scenes, unlike secular combs; their exact use, perhaps at a bishop's consecration or before Mass, is unclear."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Comb_of_St._Heribert,_Metz,_850-900_AD,_ivory_-_Museum_Schn%C3%BCtgen_-_Cologne,_Germany_-_DSC09915.jpg"
+   },
+   {
+    "label": "Wikipedia: Liturgical comb",
+    "url": "https://en.wikipedia.org/wiki/Liturgical_comb"
+   },
+   {
+    "label": "Wikipedia: Museum Schnütgen",
+    "url": "https://en.wikipedia.org/wiki/Museum_Schn%C3%BCtgen"
+   }
+  ],
+  "notes": "Date and place (Metz, 850–900) come from the museum label as recorded in the Commons file title. Heribert's dates are general knowledge. The upper figures were not identified."
+ },
+ {
+  "key": "Q20202007",
+  "status": "corrected",
+  "set": {
+   "d": "c. 850–900",
+   "y": 875,
+   "c": "France",
+   "l": "The Metropolitan Museum of Art (The Cloisters), New York",
+   "m": "Elephant ivory with traces of paint",
+   "s": "Carolingian",
+   "k": "ivory"
+  },
+  "summary": "Within a deeply undercut border of acanthus leaves, two scenes are stacked one above the other. Above, the haloed Christ, followed by apostles, hands or receives a cloth with an apostle beside a tall tiled building; below, Christ stands among the apostles while a man bends before him, taking his hands with a covered cloth before another small building. Crisp and lively in its carving, the plaque shows the vivid narrative style of later Carolingian ivories.",
+  "facts": [
+   "The Met dates the plaque to about 850–900, records it as French and notes traces of paint on the ivory; it measures about 9.9 × 7.8 cm.",
+   "It was acquired for The Cloisters Collection in 2000 (accession 2000.486)."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/470327"
+   }
+  ],
+  "notes": "Wikidata classed this as a painting dated 850; it is a carved ivory plaque. The precise subjects of the two scenes were not confirmed, so no scripture is given."
+ },
+ {
+  "key": "Q3752768",
+  "status": "corrected",
+  "set": {
+   "t": "Virgin of Núria",
+   "original_title": "Mare de Déu de Núria",
+   "d": "12th century",
+   "y": 1150,
+   "c": "Catalonia",
+   "l": "Sanctuary of Núria, Queralbs (Catalonia, Spain)",
+   "m": "Polychromed walnut wood",
+   "s": "Romanesque",
+   "k": "sculpture"
+  },
+  "summary": "The Virgin sits frontally on a throne, crowned and wrapped in a red mantle over a blue robe, holding the Christ Child before her with both hands as he sits upright on her lap. Today the statue is enshrined beneath a silver crown held by two angels within a silver wreath. As a 'Seat of Wisdom', she offers the Child to the pilgrims who climb to this high Pyrenean valley.",
+  "scripture": "Luke 2:16 (theme)",
+  "facts": [
+   "Although tradition says Saint Giles carved the image while living as a hermit at Núria around 700–703, the statue now venerated is a Romanesque carving of polychromed walnut usually dated to the 12th century.",
+   "According to legend the image was found in 1079, together with Saint Giles's cross, bell and cooking pot; the custom of putting one's head into the pot and ringing the bell survives at the shrine.",
+   "The Virgin of Núria received a canonical coronation in 1965 and is principal patron of the diocese of Urgell."
+  ],
+  "links": [
+   {
+    "label": "Viquipèdia (Catalan): Mare de Déu de Núria",
+    "url": "https://ca.wikipedia.org/wiki/Mare_de_D%C3%A9u_de_N%C3%BAria"
+   },
+   {
+    "label": "Wikipedia: Virgin of Nuria",
+    "url": "https://en.wikipedia.org/wiki/Virgin_of_Nuria"
+   }
+  ],
+  "notes": "Wikidata's '9th century' reflects the legend rather than the object; Catalan Wikipedia gives 12th (or 12th–13th) century. This moves the work out of the 8th–11th-century batch."
+ },
+ {
+  "key": "commons:60921233",
+  "status": "corrected",
+  "set": {
+   "c": "northern France",
+   "l": "The Metropolitan Museum of Art, New York",
+   "m": "Elephant ivory with gilded copper-alloy mounts and foil inlays",
+   "s": "Carolingian"
+  },
+  "summary": "This view of the ivory bucket shows, in the upper register, the betrayal of Christ: Judas presses close to kiss the haloed Christ while soldiers seize his arm, one raising a club. In the lower register a seated, bearded figure rests his head on his hand as an angel approaches, beside other scenes continuing around the vessel. Carved in panels divided by bands set with gilt foil, the situla once held the holy water used to bless the faithful, uniting the liturgy with the story of salvation.",
+  "scripture": "Matthew 26:47–50; Mark 14:43–46",
+  "facts": [
+   "The Met dates the situla to 860–880 and attributes it to northern France; its subjects, according to the museum's tags, include the Annunciation, the Baptism of Christ and the Last Supper, on faces not seen in this photograph.",
+   "It stands about 21 cm high with the handle raised and was given to The Met by J. Pierpont Morgan in 1917 (accession 17.190.45).",
+   "A situla is a bucket-shaped vessel; in the medieval Church such buckets held holy water for sprinkling during the liturgy."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/464438"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Situla_(Bucket_for_Holy_Water)_MET_sf17-190-45s4.jpg"
+   },
+   {
+    "label": "Wikipedia: Situla",
+    "url": "https://en.wikipedia.org/wiki/Situla"
+   }
+  ],
+  "notes": "This photograph (view s4) shows only some of the scenes. The lower-register scene with the seated figure and angel was not identified with certainty (possibly Joseph's dream)."
+ },
+ {
+  "key": "Q116272738",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ sits frontally on a cushioned throne set between columns, blessing with his raised right hand and resting his left on a closed book on his knee, his head framed by a large cross-nimbus. Above, two apostles lean out over the canopy, as if from balconies, to look on. The calm, classical figure, framed by a border of acanthus, reflects the Carolingian desire to recover the dignity of early Christian art.",
+  "scripture": "Matthew 19:28 (theme)",
+  "facts": [
+   "The Met dates the plaque to 850–875 and attributes it to northern France (accession 17.190.41, gift of J. Pierpont Morgan, 1917).",
+   "It is the same size (14.5 × 8.8 cm) and shares the same framing and throne design as The Met's plaque with the enthroned Virgin and Child (17.190.39), with angels in place of apostles above."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/464395"
+   }
+  ],
+  "notes": "Whether the two Met plaques originally belonged to the same object (e.g., a book cover) was not verified."
+ },
+ {
+  "key": "Q116272858",
+  "status": "verified",
+  "set": {},
+  "summary": "The Virgin, veiled and haloed, sits on a cushioned throne between columns, holding the Christ Child upright on her lap; the Child, with his own halo, raises his hand. Two winged angels lean over the canopy above, and a border of acanthus frames the scene. The plaque presents Christ as the incarnate Lord seated in his mother's lap, the throne of the Divine Wisdom.",
+  "scripture": "Luke 1:31–33",
+  "facts": [
+   "The Met dates the plaque to 850–875 and attributes it to northern France (accession 17.190.39, gift of J. Pierpont Morgan, 1917).",
+   "Its size (14.5 × 8.8 cm) and design match The Met's companion plaque of Christ enthroned with two apostles (17.190.41)."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/464370"
+   }
+  ],
+  "notes": "Whether the two Met plaques were originally part of the same object was not verified."
+ },
+ {
+  "key": "aic:36654",
+  "status": "corrected",
+  "set": {
+   "a": "Byzantine mint of Constantinople",
+   "c": "Constantinople"
+  },
+  "summary": "Two faces of a small gold coin are shown side by side: on one, the emperor Basil I and his son Constantine hold a long patriarchal cross between them; on the other, Christ sits frontally on a throne, haloed, blessing and holding the Gospel book, encircled by the Latin legend naming him King of kings. After more than a century of debate over sacred images, the return of Christ to the gold coinage declared the triumph of the icon in the everyday currency of the empire.",
+  "scripture": "Revelation 19:16",
+  "facts": [
+   "The Art Institute of Chicago records the inscription IhS XPS REX REGNANTIUM ('Jesus Christ, King of those who reign') with the enthroned Christ, and bASILIOS ET CONSTANTI AUGG with the imperial pair.",
+   "The museum notes that Basil I's coin, with Christ enthroned on its front, was a radical departure from the coinage of the iconoclast emperors, after the Iconoclastic Controversy of about 730–843.",
+   "The coin is about 2 cm in diameter and was a gift of Emily Crane Chadbourne (accession 1940.23)."
+  ],
+  "links": [
+   {
+    "label": "Art Institute of Chicago",
+    "url": "https://www.artic.edu/artworks/36654"
+   },
+   {
+    "label": "Wikipedia: Basil I",
+    "url": "https://en.wikipedia.org/wiki/Basil_I"
+   },
+   {
+    "label": "Wikipedia: Byzantine iconoclasm",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_iconoclasm"
+   }
+  ],
+  "notes": "AIC dates it 868–870; Basil I reigned 867–886. Which face is technically obverse follows the museum (Christ on the front)."
+ }
+]

@@ -177,6 +177,14 @@ def main():
     for era in eras:
         path = DATA / "eras" / era["file"]
         entries = json.loads(path.read_text()) if path.exists() else []
+        extra = DATA / "eras" / "additions" / era["file"]
+        if extra.exists():
+            seen = {e["id"] for e in entries} | {e.get("commons") for e in entries if e.get("commons")}
+            for e in json.loads(extra.read_text()):
+                if e["id"] in seen or (e.get("commons") and e["commons"] in seen):
+                    print(f"  skipping duplicate addition {e['id']}")
+                    continue
+                entries.append(e)
         for e in entries:
             e["era"] = era["key"]
         era["entries"] = entries

@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-18",
- "total": 70890,
+ "total": 70856,
  "checked": 514,
  "centuries": [
   {
@@ -45,7 +45,7 @@
   },
   {
    "century": "12",
-   "count": 481
+   "count": 480
   },
   {
    "century": "13",
@@ -53,27 +53,27 @@
   },
   {
    "century": "14",
-   "count": 2520
+   "count": 2519
   },
   {
    "century": "15",
-   "count": 9220
+   "count": 9214
   },
   {
    "century": "16",
-   "count": 18353
+   "count": 18350
   },
   {
    "century": "17",
-   "count": 13330
+   "count": 13323
   },
   {
    "century": "18",
-   "count": 5778
+   "count": 5776
   },
   {
    "century": "19",
-   "count": 4341
+   "count": 4337
   },
   {
    "century": "20",
@@ -81,17 +81,17 @@
   },
   {
    "century": "21",
-   "count": 91
+   "count": 89
   },
   {
    "century": "undated",
-   "count": 13630
+   "count": 13622
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18906
+   18876
   ],
   [
    "Madonna and Child",
@@ -215,7 +215,7 @@
   ],
   [
    "Pantocrator",
-   455
+   453
   ],
   [
    "Betrayal & Arrest",
@@ -239,11 +239,11 @@
   ],
   [
    "Appearances after the Resurrection",
-   350
+   349
   ],
   [
    "Noli me tangere",
-   339
+   338
   ],
   [
    "Holy Face",
@@ -333,7 +333,7 @@
  "types": [
   [
    "print",
-   25355
+   25337
   ],
   [
    "painting",
@@ -341,7 +341,7 @@
   ],
   [
    "drawing",
-   5579
+   5575
   ],
   [
    "sculpture",
@@ -349,11 +349,11 @@
   ],
   [
    "manuscript",
-   3352
+   3343
   ],
   [
    "other",
-   2537
+   2534
   ],
   [
    "icon",

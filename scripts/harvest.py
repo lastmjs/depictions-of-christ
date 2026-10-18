@@ -292,7 +292,7 @@ STRONG = re.compile(
     r"last judg|jüngste(s)? gericht|weltgericht|flight into egypt|flucht nach ägypten|presentation in the temple|"
     r"darbringung|circumcision|beschneidung|baptism of christ|taufe christi|lazarus|cana",
     re.I)
-NOT_CHRIST = re.compile(r"companhia de jesus|compañía de jesús|society of jesus|jesuit|jezuit|amyloid|pancrea|diabet", re.I)
+NOT_CHRIST = re.compile(r"v[oó]{1,2}r christus|before christ|\bv\.\s?chr\b|av\. ?j\.-?c|companhia de jesus|compañía de jesús|society of jesus|jesuit|jezuit|amyloid|pancrea|diabet", re.I)
 
 # Europeana providers we also harvest directly (avoid double entries).
 DIRECT_PROVIDERS = {"National Gallery of Denmark", "Nationalmuseum Sweden", "Finnish National Gallery",

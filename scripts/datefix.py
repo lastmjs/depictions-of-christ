@@ -48,6 +48,9 @@ def parse_date(text):
     if parts and not re.search(r"(?<!\d)\d{3,4}(?!\d)", t):
         return min(p[0] for p in parts), max(p[1] for p in parts)
     t = PART.sub(lambda m: f"{m.group(3)}th", t) if parts else t
+    # catalogue shorthand: "184-" / "184?" = the 1840s, "18--" = the 19th century
+    t = re.sub(r"(?<!\d)(1\d)--(?![\d-])", lambda m: f"{m.group(1)}00s", t)
+    t = re.sub(r"(?<!\d)(1\d\d)[-?_](?![\d])", lambda m: f"{m.group(1)}0s", t)
     bc = re.search(r"\b(B\.?C\.?E?|BCE)\b", t)
     if bc:
         return None

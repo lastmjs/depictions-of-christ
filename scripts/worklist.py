@@ -34,12 +34,17 @@ def main():
     ap.add_argument("--undated", action="store_true")
     ap.add_argument("--limit", type=int, default=30)
     ap.add_argument("--offset", type=int, default=0)
+    ap.add_argument("--skip-assigned", action="store_true", help="also skip works already in another worklist")
     a = ap.parse_args()
     lo, hi = map(int, a.centuries.split("-"))
     files = [COLL / f"c-{c}.json" for c in range(lo, hi + 1)]
     if a.undated:
         files = [COLL / "c-undated.json"]
     done = done_keys()
+    if a.skip_assigned:
+        for f in (ROOT / "data" / "enrich" / "worklists").glob("*.json"):
+            if f.stem != a.name:
+                done |= {e["key"] for e in json.loads(f.read_text())}
     todo = []
     for f in files:
         if f.exists():

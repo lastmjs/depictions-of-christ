@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Face of Christ — Depictions of Jesus Through the Centuries</title>
+  <meta name="description" content="A chronological journey through two thousand years of depictions of Jesus Christ — from catacomb walls and Byzantine icons to Renaissance masterpieces and modern monuments.">
+  <meta name="theme-color" content="#0b0907">
+  <meta property="og:title" content="The Face of Christ">
+  <meta property="og:description" content="A chronological journey through two thousand years of depictions of Jesus Christ.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#journey">Skip to the journey</a>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top" aria-label="Back to the beginning">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chi-rho"/></svg>
+      <span class="brand-name">The Face of Christ</span>
+    </a>
+    <div class="topbar-era" aria-live="polite"><span class="topbar-numeral"></span><span class="topbar-title"></span></div>
+    <nav class="topbar-actions">
+      <button class="btn-ghost" id="open-index" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+        <span>All works</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <svg class="hero-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chi-rho"/></svg>
+        <p class="eyebrow">Depictions of Jesus through the centuries</p>
+        <h1 id="hero-title">The Face of Christ</h1>
+        <p class="hero-verse">“For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.”<cite>2 Corinthians 4:6</cite></p>
+        <p class="hero-lede">For nearly two thousand years, believers have painted, carved, stitched and built the image of their Lord. Walk with them, century by century — from the hidden walls of the catacombs to the mountaintops of the modern world.</p>
+        <div class="hero-stats" id="hero-stats"></div>
+        <a class="btn-gold" href="#journey">Begin the journey
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+        </a>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <div id="journey"></div>
+
+    <section class="epilogue" aria-labelledby="epilogue-title">
+      <svg class="hero-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chi-rho"/></svg>
+      <h2 id="epilogue-title">The Image Continues</h2>
+      <p class="epilogue-verse">“Wherefore God also hath highly exalted him, and given him a name which is above every name: that at the name of Jesus every knee should bow.”<cite>Philippians 2:9–10</cite></p>
+      <p>No single image could ever contain him, and the Church has never claimed one does. Yet each of these works is an act of love — an attempt by a particular person, in a particular place and time, to say who Jesus is. The story they tell together is still being written.</p>
+      <div class="epilogue-actions">
+        <a class="btn-gold" href="#top">Return to the beginning</a>
+        <button class="btn-ghost" id="open-index-2">Browse all works</button>
+      </div>
+      <div class="credits">
+        <h3>About the images</h3>
+        <p>Images are drawn from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> and shown under their public-domain or Creative Commons licenses; each work credits its photographer or source and links to the original file. Works still protected by copyright are described here and linked so you can view them at their official sources.</p>
+        <p>This site is free and open source. <a href="https://github.com/lastmjs/depictions-of-christ" target="_blank" rel="noopener">View it on GitHub</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="rail" id="rail" aria-label="Timeline">
+    <div class="rail-track" id="rail-track"></div>
+    <div class="rail-readout" id="rail-readout"><span class="rail-year"></span><span class="rail-label"></span></div>
+  </nav>
+
+  <dialog class="index" id="index" aria-labelledby="index-title">
+    <div class="index-head">
+      <h2 id="index-title">All Works</h2>
+      <div class="index-filters" id="index-filters" role="group" aria-label="Filter by form"></div>
+      <button class="icon-btn" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="index-body" id="index-body"></div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Artwork viewer">
+    <div class="lb-stage" id="lb-stage"><img id="lb-img" alt=""></div>
+    <div class="lb-bar">
+      <div class="lb-caption"><strong id="lb-title"></strong><span id="lb-sub"></span></div>
+      <div class="lb-actions">
+        <button class="icon-btn" id="lb-zoom-out" aria-label="Zoom out"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M8 11h6M16 16l4 4"/></svg></button>
+        <button class="icon-btn" id="lb-zoom-in" aria-label="Zoom in"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M8 11h6M11 8v6M16 16l4 4"/></svg></button>
+        <a class="icon-btn" id="lb-original" target="_blank" rel="noopener" aria-label="Open full-resolution original"><svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg></a>
+        <button class="icon-btn" data-close aria-label="Close viewer"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+    </div>
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous work"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next work"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  </dialog>
+
+  <div class="keys-hint" id="keys-hint" aria-hidden="true">
+    <kbd>↑</kbd><kbd>↓</kbd> move through time · <kbd>Enter</kbd> view · <kbd>I</kbd> index
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="chi-rho" viewBox="0 0 40 40">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M20 4v32"/>
+        <path d="M20 5h5.5a6 6 0 0 1 0 12H20"/>
+        <path d="M11 13l18 18M29 13L11 31"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <noscript><p class="noscript">This journey needs JavaScript to display the artworks.</p></noscript>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

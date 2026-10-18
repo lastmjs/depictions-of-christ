@@ -1,0 +1,79 @@
+[
+  {
+    "key": "early-christian",
+    "file": "01-early-christian.json",
+    "numeral": "I",
+    "title": "The First Images",
+    "subtitle": "Early Christian & Late Antique",
+    "span": "c. 200 – 600",
+    "intro": "For two centuries the followers of Jesus left almost no images of him. When they began, it was in the hidden places: catacomb walls, house churches and the carved stone of tombs. They borrowed the visual language of the Roman world — the shepherd carrying a lamb, the philosopher teaching, the radiant sun — and filled it with new meaning. After Constantine, the faith stepped into the light, and Christ appeared in glittering gold mosaic, enthroned as Lord of all.",
+    "verse": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+    "verseRef": "John 10:11"
+  },
+  {
+    "key": "byzantine-medieval",
+    "file": "02-byzantine-medieval.json",
+    "numeral": "II",
+    "title": "The Ruler of All",
+    "subtitle": "Byzantine & Early Medieval",
+    "span": "c. 600 – 1200",
+    "intro": "From Constantinople to the monasteries of Ireland, Christ was portrayed as the Pantocrator — the Almighty, gazing from domes and apses with a hand raised in blessing. Iconoclasm tested whether he could be pictured at all, and the Church answered that because God became flesh, his face may be shown. Across Europe, illuminated gospels, carved crosses and Romanesque portals carried that face to every people the Gospel reached.",
+    "verse": "And the Word was made flesh, and dwelt among us, and we beheld his glory.",
+    "verseRef": "John 1:14"
+  },
+  {
+    "key": "gothic",
+    "file": "03-gothic.json",
+    "numeral": "III",
+    "title": "The Suffering Servant",
+    "subtitle": "Gothic & the Dawn of the Renaissance",
+    "span": "c. 1200 – 1450",
+    "intro": "In the age of cathedrals and of Saint Francis, devotion turned toward the humanity of Christ — the infant in his mother's arms, the man of sorrows, the body taken down from the cross. Light poured through stained glass; Giotto gave figures weight and feeling; painters in Flanders rendered every tear. Art began to invite the believer not only to adore, but to accompany.",
+    "verse": "Surely he hath borne our griefs, and carried our sorrows.",
+    "verseRef": "Isaiah 53:4"
+  },
+  {
+    "key": "renaissance",
+    "file": "04-renaissance.json",
+    "numeral": "IV",
+    "title": "Heaven in Human Form",
+    "subtitle": "The Renaissance",
+    "span": "c. 1450 – 1600",
+    "intro": "Perspective, anatomy and oil paint gave artists new power, and they spent it on the most important subject they knew. Leonardo, Michelangelo, Raphael, Dürer and Titian sought a Christ both perfectly human and unmistakably divine. Meanwhile ships carried the Gospel — and its images — to the Americas, Africa and Asia, where new hands began to picture him.",
+    "verse": "He that hath seen me hath seen the Father.",
+    "verseRef": "John 14:9"
+  },
+  {
+    "key": "baroque",
+    "file": "05-baroque.json",
+    "numeral": "V",
+    "title": "Light Out of Darkness",
+    "subtitle": "Baroque & the Age of Global Missions",
+    "span": "c. 1600 – 1780",
+    "intro": "Caravaggio's beam of light, Rubens' surging bodies and Rembrandt's quiet tenderness made the sacred story feel immediate — happening now, to people like us. Spanish sculptors carved Christ so lifelike that processions still carry him through the streets. From the Andes to the Kingdom of Kongo to Japan, the image of Christ was embraced, adapted and, at times, suffered for.",
+    "verse": "The people which sat in darkness saw great light.",
+    "verseRef": "Matthew 4:16"
+  },
+  {
+    "key": "nineteenth-century",
+    "file": "06-nineteenth-century.json",
+    "numeral": "VI",
+    "title": "The Search for the Historical Jesus",
+    "subtitle": "Romanticism, Realism & the Long 19th Century",
+    "span": "c. 1780 – 1910",
+    "intro": "Archaeology, travel to the Holy Land and new questions about history sent artists searching for the real Jesus of Galilee. Some painted him with photographic realism; others sought him in the soul, in the poor, or in the bright colours of the avant-garde. And for the first time, a camera turned toward an ancient cloth in Turin — and found a face.",
+    "verse": "Behold, I stand at the door, and knock.",
+    "verseRef": "Revelation 3:20"
+  },
+  {
+    "key": "modern",
+    "file": "07-modern.json",
+    "numeral": "VII",
+    "title": "Christ for Every Nation",
+    "subtitle": "Modern & Contemporary",
+    "span": "c. 1910 – today",
+    "intro": "Through world wars and a globalizing century, artists returned again and again to Christ — crucified amid modern catastrophe, rising in concrete over cities, and painted in the faces of every people on earth. The image that began on a catacomb wall now stands on mountaintops and beneath the sea, and hangs in homes in every nation.",
+    "verse": "Jesus Christ the same yesterday, and to day, and for ever.",
+    "verseRef": "Hebrews 13:8"
+  }
+]

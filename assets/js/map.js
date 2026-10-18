@@ -24,7 +24,7 @@
   function features() {
     const out = [];
     byPlace.forEach((ws, p) => {
-      if (!ws) return;
+      if (!ws || !places[p]) return; // ignore any reference to a place that is not in places.json
       const n = ws.reduce((k, w) => k + (matches(w) ? 1 : 0), 0);
       if (!n) return;
       const [name, lat, lon, prec] = places[p];
@@ -264,7 +264,7 @@
     }
     all = data.all;
     byPlace = [];
-    all.forEach((w) => { if (w.p != null) (byPlace[w.p] ||= []).push(w); });
+    all.forEach((w) => { if (w.p != null && places[w.p]) (byPlace[w.p] ||= []).push(w); else w.p = null; });
     const start = readHash();
     renderCenturyBar();
     $$(".cb-chip").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.c === String(century))));

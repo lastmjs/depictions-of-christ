@@ -24,12 +24,19 @@
   const keyOf = (w) => w.q || w.id;
   const KEY_RX = /^(Q\d+|[a-z]+:[\w.-]+)$/;
 
+  // Hide cards whose image cannot be loaded from any source.
+  function fail(img) {
+    img.classList.add("broken");
+    const card = img.closest(".card");
+    if (card) card.hidden = true;
+  }
+
   // Try progressively smaller standard thumbnail widths, then the original.
   function loadInto(img, w, widths) {
     if (!w.i) {
       // museum open-access record with direct image URLs
       const queue = (widths[0] >= 900 ? [w.big, w.img] : [w.img, w.big]).filter(Boolean);
-      img.onerror = () => { const src = queue.shift(); if (src) img.src = src; else img.classList.add("broken"); };
+      img.onerror = () => { const src = queue.shift(); if (src) img.src = src; else fail(img); };
       img.onload = () => img.classList.add("ok");
       img.src = queue.shift();
       return;
@@ -39,7 +46,7 @@
     if (!/\.(tiff?|svg|pdf|djvu)$/.test(lower)) queue.push(original(w));
     const next = () => {
       const src = queue.shift();
-      if (!src) { img.classList.add("broken"); return; }
+      if (!src) { fail(img); return; }
       img.src = src;
     };
     img.onerror = next;
@@ -314,6 +321,15 @@
     }
     if (e.key === "ArrowRight") step(1);
     else if (e.key === "ArrowLeft") step(-1);
+  });
+
+  addEventListener("hashchange", () => {
+    const raw = decodeURIComponent(location.hash.slice(1));
+    if (KEY_RX.test(raw)) { openFromHash(); return; }
+    if (openIdx >= 0) return;
+    const jump = readHash();
+    apply();
+    if (jump) requestAnimationFrame(() => jumpToCentury(jump));
   });
 
   new IntersectionObserver((entries) => {

@@ -10,7 +10,7 @@
   padding: calc(var(--topbar-h) + 72px) 20px 40px; max-width: 860px; margin: 0 auto;
 }
 .col-hero::before {
-  content: ""; position: absolute; inset: 0 -30vw; z-index: -1;
+  content: ""; position: absolute; inset: 0; z-index: -1;
   background: radial-gradient(ellipse 50% 70% at 50% 30%, rgba(214, 176, 106, .13), transparent 70%);
 }
 .col-hero h1 {
@@ -140,7 +140,10 @@
   position: relative; display: grid; place-items: center; min-height: 0; padding: 24px;
   background: radial-gradient(ellipse at center, #1d1812, #090806);
 }
-.detail-media img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .9); opacity: 0; transition: opacity .5s; cursor: zoom-in; }
+.detail-media { overflow: hidden; }
+.detail-media img {
+  max-width: 100%; max-height: calc(min(860px, 100vh - 32px) - 48px); max-height: calc(min(860px, 100dvh - 32px) - 48px);
+  width: auto; height: auto; object-fit: contain; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .9); opacity: 0; transition: opacity .5s; cursor: zoom-in; }
 .detail-media img.ok { opacity: 1; }
 .detail-loading { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
 .detail-media img.ok + .detail-loading { display: none; }
@@ -161,17 +164,21 @@
   .col-controls { gap: 8px; padding: 10px 16px; }
   .col-search { flex-basis: 100%; height: 42px; }
   .col-select { flex: 1 1 0; min-width: 0; }
+  .col-select:first-of-type { flex-basis: 100%; }
   .col-select span { display: none; }
   .col-select select { width: 100%; max-width: none; height: 40px; font-size: .95rem; }
   .col-count { flex-basis: 100%; margin-left: 0; font-size: .88rem; }
   .histogram { height: 84px; gap: 2px; }
   .hist-bar span { display: none; }
-  .wall { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+  .wall { grid-template-columns: repeat(auto-fill, minmax(min(130px, 42vw), 1fr)); gap: 12px; }
   .century { margin-top: 36px; }
   .century-head { scroll-margin-top: calc(var(--topbar-h) + 150px); }
   .detail { width: 100vw; height: 100dvh; border-radius: 0; border: 0; }
   .detail[open] { display: flex; flex-direction: column; overflow-y: auto; }
   .detail-media { flex: none; height: 58vh; height: 58dvh; padding: 12px; }
+  .detail-media img { max-height: calc(58vh - 24px); max-height: calc(58dvh - 24px); }
   .detail-info { overflow: visible; border-left: 0; padding: 22px 18px 28px; }
   .detail-close { position: fixed; top: 12px; right: 12px; z-index: 2; }
 }
+
+.card[hidden] { display: none; }

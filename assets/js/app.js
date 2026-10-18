@@ -225,7 +225,7 @@
       fill.style.height = horizontal ? "2px" : railPos(n) + "%";
       fill.style.width = horizontal ? railPos(n) + "%" : "2px";
     }
-    $(".rail-year").textContent = w.date;
+    $(".rail-year").textContent = w.date.length <= 12 ? w.date : `c. ${w.year}`;
     $(".rail-label").textContent = w.eraRef.subtitle;
     setEra(w.eraRef.index);
     if (!suppressHash && history.replaceState && location.hash !== "#" + w.id) history.replaceState(null, "", "#" + w.id);

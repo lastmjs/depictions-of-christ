@@ -45,8 +45,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/dura-europos-healing-of-the-paralytic.webp",
       "thumb": "assets/img/dura-europos-healing-of-the-paralytic-sm.webp",
-      "w": 1123,
-      "h": 1800,
+      "w": 998,
+      "h": 1600,
       "color": "#5d4f3c",
       "accent": "#6d5b43",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -94,8 +94,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/good-shepherd-catacomb-of-callixtus.webp",
       "thumb": "assets/img/good-shepherd-catacomb-of-callixtus-sm.webp",
-      "w": 1182,
-      "h": 1748,
+      "w": 1082,
+      "h": 1600,
       "color": "#ce9184",
       "accent": "#ac5f52",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Good_Shepherd_%28Callisto_catacomb%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -183,8 +183,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/hinton-st-mary-mosaic.webp",
       "thumb": "assets/img/hinton-st-mary-mosaic-sm.webp",
-      "w": 1800,
-      "h": 1800,
+      "w": 1600,
+      "h": 1600,
       "color": "#564730",
       "accent": "#665337",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hinton_St_Mary_central_roundel_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -224,8 +224,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sarcophagus-of-junius-bassus.webp",
       "thumb": "assets/img/sarcophagus-of-junius-bassus-sm.webp",
-      "w": 1800,
-      "h": 1264,
+      "w": 1600,
+      "h": 1123,
       "color": "#5e5851",
       "accent": "#0f0c0a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tesoro_di_san_pietro%2C_sarcofago_di_giunio_basso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -306,8 +306,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/santa-pudenziana-apse-mosaic.webp",
       "thumb": "assets/img/santa-pudenziana-apse-mosaic-sm.webp",
-      "w": 1800,
-      "h": 1344,
+      "w": 1600,
+      "h": 1195,
       "color": "#7f827a",
       "accent": "#747871",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Apsis_mosaic%2C_Santa_Pudenziana%2C_Rome_W2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -392,8 +392,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/galla-placidia-good-shepherd.webp",
       "thumb": "assets/img/galla-placidia-good-shepherd-sm.webp",
-      "w": 1800,
-      "h": 1188,
+      "w": 1600,
+      "h": 1056,
       "color": "#535753",
       "accent": "#232a44",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Lunette_of_the_Good_Shepherd_in_the_Mausoleum_of_Galla_Placidia%2C_425-50%3B_Ravenna_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -437,8 +437,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/neonian-baptistery-baptism.webp",
       "thumb": "assets/img/neonian-baptistery-baptism-sm.webp",
-      "w": 1800,
-      "h": 1782,
+      "w": 1600,
+      "h": 1584,
       "color": "#766852",
       "accent": "#958261",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Baptistry_of_Neon_ceiling_mosaic_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -482,8 +482,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/archbishops-chapel-christ-warrior.webp",
       "thumb": "assets/img/archbishops-chapel-christ-warrior-sm.webp",
-      "w": 1800,
-      "h": 1518,
+      "w": 1600,
+      "h": 1349,
       "color": "#847b6e",
       "accent": "#8a827a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Christ_treading_the_beasts_-_Chapel_of_Saint_Andrew_-_Ravenna_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -526,8 +526,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sant-apollinare-nuovo-christ-enthroned.webp",
       "thumb": "assets/img/sant-apollinare-nuovo-christ-enthroned-sm.webp",
-      "w": 1800,
-      "h": 1463,
+      "w": 1600,
+      "h": 1301,
       "color": "#756754",
       "accent": "#9e907a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Christ_and_angels_mosaic_-_Sant%27Apollinare_Nuovo_-_Ravenna_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -571,8 +571,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/san-vitale-christ-on-the-globe.webp",
       "thumb": "assets/img/san-vitale-christ-on-the-globe-sm.webp",
-      "w": 1800,
-      "h": 1193,
+      "w": 1600,
+      "h": 1060,
       "color": "#726755",
       "accent": "#615a4b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Christ_enthroned_flanked_by_Bishop_Ecclesius_and_St_Vitalis_on_the_vault_of_the_apse%2C_Basilica_of_San_Vitale%2C_Ravenna%2C_Italy_-_23745632093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -615,8 +615,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sinai-christ-pantocrator.webp",
       "thumb": "assets/img/sinai-christ-pantocrator-sm.webp",
-      "w": 997,
-      "h": 1800,
+      "w": 886,
+      "h": 1600,
       "color": "#604633",
       "accent": "#816947",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/CHRIST_PANTOCRATOR-SINAI%286th_Century%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -660,8 +660,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sinai-transfiguration-apse-mosaic.webp",
       "thumb": "assets/img/sinai-transfiguration-apse-mosaic-sm.webp",
-      "w": 1800,
-      "h": 1276,
+      "w": 1600,
+      "h": 1134,
       "color": "#67614d",
       "accent": "#81816b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Transfiguration-Sinai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -700,8 +700,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/christ-and-abbot-mena.webp",
       "thumb": "assets/img/christ-and-abbot-mena-sm.webp",
-      "w": 1693,
-      "h": 1800,
+      "w": 1505,
+      "h": 1600,
       "color": "#7f6247",
       "accent": "#704b2e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kristus_a_svat%C3%BD_Menas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -741,8 +741,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/rabbula-gospels-crucifixion.webp",
       "thumb": "assets/img/rabbula-gospels-crucifixion-sm.webp",
-      "w": 1534,
-      "h": 1800,
+      "w": 1364,
+      "h": 1600,
       "color": "#978766",
       "accent": "#977955",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/03/Vangeli_di_Rabbula%2C_Biblioteca_Medicea_Laurenziana%2C_Cod._Plut._I%2C_56%2C_fol._13r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -798,8 +798,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/ruthwell-cross.webp",
       "thumb": "assets/img/ruthwell-cross-sm.webp",
-      "w": 1355,
-      "h": 1800,
+      "w": 1205,
+      "h": 1600,
       "color": "#6a6563",
       "accent": "#688999",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ruthwell_Cross_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -838,8 +838,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/book-of-kells-christ-enthroned.webp",
       "thumb": "assets/img/book-of-kells-christ-enthroned-sm.webp",
-      "w": 1358,
-      "h": 1800,
+      "w": 1208,
+      "h": 1600,
       "color": "#756249",
       "accent": "#6e593d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Book_of_Kells_fol_32v_-_Faksimile_Verlag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -883,8 +883,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/hagia-sophia-imperial-gate-mosaic.webp",
       "thumb": "assets/img/hagia-sophia-imperial-gate-mosaic-sm.webp",
-      "w": 1800,
-      "h": 1200,
+      "w": 1600,
+      "h": 1067,
       "color": "#605a4f",
       "accent": "#564e41",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hagia_Sophia_Imperial_Gate_mosaic_Christ%2C_Leo_VI_and_Mary_in_2019_2421.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -927,8 +927,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/jelling-stone-christ.webp",
       "thumb": "assets/img/jelling-stone-christ-sm.webp",
-      "w": 1350,
-      "h": 1800,
+      "w": 1200,
+      "h": 1600,
       "color": "#625b4d",
       "accent": "#81765e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jellingsten_stor_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -972,8 +972,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gero-cross.webp",
       "thumb": "assets/img/gero-cross-sm.webp",
-      "w": 1120,
-      "h": 1800,
+      "w": 995,
+      "h": 1600,
       "color": "#7c5931",
       "accent": "#e3a13c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/K%C3%B6ln_-_Gerokreuz_%282007-12-04_Sp%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1016,8 +1016,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/etchmiadzin-gospels-christ-enthroned.webp",
       "thumb": "assets/img/etchmiadzin-gospels-christ-enthroned-sm.webp",
-      "w": 1459,
-      "h": 1800,
+      "w": 1297,
+      "h": 1600,
       "color": "#af8d6f",
       "accent": "#c8a97c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Christ_on_throne_from_Etchmiadzin_gospel_989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1061,8 +1061,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/bernward-doors.webp",
       "thumb": "assets/img/bernward-doors-sm.webp",
-      "w": 1210,
-      "h": 1800,
+      "w": 1075,
+      "h": 1600,
       "color": "#796955",
       "accent": "#b6a386",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hildesheim_Cathedral_Bernwardst%C3%BCr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1105,8 +1105,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/daphni-pantocrator.webp",
       "thumb": "assets/img/daphni-pantocrator-sm.webp",
-      "w": 1389,
-      "h": 1800,
+      "w": 1234,
+      "h": 1600,
       "color": "#6f6855",
       "accent": "#796c4d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Christ_Pantocrator_Daphni_Monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1146,8 +1146,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/conques-last-judgment-tympanum.webp",
       "thumb": "assets/img/conques-last-judgment-tympanum-sm.webp",
-      "w": 1800,
-      "h": 844,
+      "w": 1600,
+      "h": 750,
       "color": "#998875",
       "accent": "#69533d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Abbaye_Ste_Foy_%C3%A0_Conques_%2806%29_-_Tympan_du_Porche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1191,8 +1191,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/pantocrator-sant-climent-taull.webp",
       "thumb": "assets/img/pantocrator-sant-climent-taull-sm.webp",
-      "w": 1350,
-      "h": 1800,
+      "w": 1200,
+      "h": 1600,
       "color": "#8a7c72",
       "accent": "#9a5d4d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/de/Pantocr%C3%A0tor_de_Ta%C3%BCll.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1231,8 +1231,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/virgin-of-vladimir.webp",
       "thumb": "assets/img/virgin-of-vladimir-sm.webp",
-      "w": 1236,
-      "h": 1800,
+      "w": 1099,
+      "h": 1600,
       "color": "#695a4d",
       "accent": "#816855",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Virgin_of_Vladimir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1276,8 +1276,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/cefalu-pantocrator.webp",
       "thumb": "assets/img/cefalu-pantocrator-sm.webp",
-      "w": 1800,
-      "h": 1350,
+      "w": 1600,
+      "h": 1200,
       "color": "#6f6557",
       "accent": "#73593d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Christ_Pantokrator%2C_Cathedral_of_Cefal%C3%B9%2C_Sicily.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1320,8 +1320,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/majestat-batllo.webp",
       "thumb": "assets/img/majestat-batllo-sm.webp",
-      "w": 1449,
-      "h": 1800,
+      "w": 1288,
+      "h": 1600,
       "color": "#999194",
       "accent": "#655554",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/%28Barcelona%29_Majestat_Batllo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1405,8 +1405,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/novgorod-saviour-not-made-by-hands.webp",
       "thumb": "assets/img/novgorod-saviour-not-made-by-hands-sm.webp",
-      "w": 1500,
-      "h": 1610,
+      "w": 1491,
+      "h": 1600,
       "color": "#a6883b",
       "accent": "#cea434",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Christos_Acheiropoietos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1428,6 +1428,46 @@ window.DEPICTIONS = {
    "verse": "Surely he hath borne our griefs, and carried our sorrows.",
    "verseRef": "Isaiah 53:4",
    "entries": [
+    {
+     "id": "studenica-crucifixion",
+     "title": "The Crucifixion, Church of the Virgin, Studenica",
+     "artist": "Unknown Byzantine-trained painters working for Saint Sava",
+     "date": "1208–1209",
+     "year": 1209,
+     "created": "Studenica Monastery, Serbia",
+     "location": "Church of the Virgin, Studenica Monastery, near Kraljevo, Serbia",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Serbian Byzantine (Raška school)",
+     "summary": "On the west wall of Studenica's main church, Christ hangs on the cross in a long, gently curving body, his head bowed in a sorrow that is utterly still. The Virgin and Saint John stand at either side, set against a deep blue ground, while grieving angels hover above. Painted at the very start of the 13th century, it is one of the noblest images of the Crucifixion in all Byzantine-tradition art, and a founding masterpiece of Serbian painting.",
+     "facts": [
+      "Studenica was founded around 1190 by Stefan Nemanja, founder of the medieval Serbian state, who is buried in the church.",
+      "An inscription records that the church was painted in 1208–1209, during the time his son Sava — later Serbia's first archbishop and patron saint — led the monastery.",
+      "The monastery has been a UNESCO World Heritage Site since 1986."
+     ],
+     "scripture": "John 19:25–30",
+     "commons": "File:Studenica raspece.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Studenica Monastery",
+       "url": "https://en.wikipedia.org/wiki/Studenica_Monastery"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/studenica-crucifixion.webp",
+      "thumb": "assets/img/studenica-crucifixion-sm.webp",
+      "w": 761,
+      "h": 866,
+      "color": "#746b43",
+      "accent": "#99753a",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/Studenica_raspece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Studenica_raspece.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Vanjagenije"
+     }
+    },
     {
      "id": "beau-dieu-amiens",
      "title": "Le Beau Dieu",
@@ -1458,8 +1498,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/beau-dieu-amiens.webp",
       "thumb": "assets/img/beau-dieu-amiens-sm.webp",
-      "w": 1240,
-      "h": 1709,
+      "w": 1161,
+      "h": 1600,
       "color": "#877054",
       "accent": "#a48a67",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Amiens_Portail_Christ_d%C3%A9tail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1503,8 +1543,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sainte-chapelle-passion-window.webp",
       "thumb": "assets/img/sainte-chapelle-passion-window-sm.webp",
-      "w": 1350,
-      "h": 1800,
+      "w": 1200,
+      "h": 1600,
       "color": "#695565",
       "accent": "#6f3d33",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Est_Sainte-Chapelle_Passion_du_Christ_Abside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1512,6 +1552,45 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Thomon"
+     }
+    },
+    {
+     "id": "hilandar-christ-pantocrator-icon",
+     "title": "Christ Pantocrator (Hilandar Icon)",
+     "artist": "Unknown Byzantine icon painter",
+     "date": "c. 1260–1270",
+     "year": 1260,
+     "created": "Byzantine world (made for or brought to Hilandar Monastery)",
+     "location": "Hilandar Monastery, Mount Athos, Greece",
+     "medium": "Tempera and gold on wood panel",
+     "form": "Icon",
+     "style": "Late Byzantine",
+     "summary": "Christ looks out with grave, searching eyes, his right hand raised in blessing and his left clasping a jewelled Gospel book. The modeling of the face is soft and warm, with luminous highlights, showing the new humanity that Byzantine painting was reaching just as Constantinople was recovered from the Latins in 1261. It is one of the treasures of Hilandar, the Serbian monastery on the Holy Mountain.",
+     "facts": [
+      "Hilandar was founded in 1198 by the Serbian ruler Stefan Nemanja (by then the monk Simeon) and his son Saint Sava.",
+      "The monastery's collection of Byzantine and Serbian icons is among the richest on Mount Athos.",
+      "Because Mount Athos admits only men, and only by permit, most people can know its icons only through photographs and rare loan exhibitions."
+     ],
+     "commons": "File:Christus Pantokrator 13 Jh. Hilandar.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Hilandar",
+       "url": "https://en.wikipedia.org/wiki/Hilandar"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/hilandar-christ-pantocrator-icon.webp",
+      "thumb": "assets/img/hilandar-christ-pantocrator-icon-sm.webp",
+      "w": 1200,
+      "h": 1600,
+      "color": "#bd814f",
+      "accent": "#f0c66d",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Christus_Pantokrator_13_Jh._Hilandar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Christus_Pantokrator_13_Jh._Hilandar.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Orjen"
      }
     },
     {
@@ -1547,8 +1626,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/deesis-hagia-sophia.webp",
       "thumb": "assets/img/deesis-hagia-sophia-sm.webp",
-      "w": 1800,
-      "h": 1047,
+      "w": 1600,
+      "h": 931,
       "color": "#aba090",
       "accent": "#ac9671",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Deesis_mosaic_Hagia_Sophia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1592,8 +1671,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/toros-roslin-transfiguration.webp",
       "thumb": "assets/img/toros-roslin-transfiguration-sm.webp",
-      "w": 1278,
-      "h": 1800,
+      "w": 1136,
+      "h": 1600,
       "color": "#6a5f50",
       "accent": "#948a6e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/T%27oros_Roslin_Gospels%2C_Transfiguration%2C_Walters_Manuscript_W.539%2C_fol._163r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1633,8 +1712,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/cimabue-crucifix-arezzo.webp",
       "thumb": "assets/img/cimabue-crucifix-arezzo-sm.webp",
-      "w": 1471,
-      "h": 1800,
+      "w": 1307,
+      "h": 1600,
       "color": "#5f462d",
       "accent": "#a57c4f",
       "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/CrocifissoCimabue-Arezzo-Photo_taken_by_Senet._April_20%2C_2010-Perspective_correction_and_crop_with_GIMP_by_Paolo_Villa_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1642,6 +1721,50 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Photo taken by Senet File:CrocifissoCimabue-Arezzo.JPG"
+     }
+    },
+    {
+     "id": "cavallini-last-judgment",
+     "title": "The Last Judgment (Christ the Judge)",
+     "artist": "Pietro Cavallini",
+     "date": "c. 1293",
+     "year": 1293,
+     "created": "Rome, Italy",
+     "location": "Nuns' choir, Santa Cecilia in Trastevere, Rome, Italy",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Roman Proto-Renaissance",
+     "summary": "Christ sits enthroned within a mandorla ringed by angels whose wings shade from crimson to white, showing the wounds in his hands and side as he comes to judge. Cavallini models the faces and draperies with a soft, rounded light that seems to look back to ancient Roman painting and forward to Giotto. Though only the upper part survives, it is the grandest surviving work of the Roman school that helped make the Italian Renaissance possible.",
+     "facts": [
+      "The fresco was hidden for centuries behind the nuns' choir stalls and was rediscovered only around 1900.",
+      "It is seen today from the upper gallery of the Benedictine convent attached to the church, open to visitors at limited hours.",
+      "Cavallini also designed the mosaics of the Life of the Virgin in nearby Santa Maria in Trastevere."
+     ],
+     "scripture": "Matthew 25:31–46",
+     "commons": "File:Cavallini Last Judgement 01.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Pietro Cavallini",
+       "url": "https://en.wikipedia.org/wiki/Pietro_Cavallini"
+      },
+      {
+       "label": "Wikipedia: Santa Cecilia in Trastevere",
+       "url": "https://en.wikipedia.org/wiki/Santa_Cecilia_in_Trastevere"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/cavallini-last-judgment.webp",
+      "thumb": "assets/img/cavallini-last-judgment-sm.webp",
+      "w": 1600,
+      "h": 1200,
+      "color": "#846d5c",
+      "accent": "#75584b",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/Cavallini_Last_Judgement_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Cavallini_Last_Judgement_01.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Pietro Cavallini"
      }
     },
     {
@@ -1677,8 +1800,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gabelkreuz-st-maria-im-kapitol.webp",
       "thumb": "assets/img/gabelkreuz-st-maria-im-kapitol-sm.webp",
-      "w": 1177,
-      "h": 1800,
+      "w": 1046,
+      "h": 1600,
       "color": "#8d8178",
       "accent": "#a2958b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cologne%2C_Sankt_Maria_im_Kapitol%2C_Christ_on_a_forked_cross%2C_bef.1312.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1721,8 +1844,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/giotto-lamentation.webp",
       "thumb": "assets/img/giotto-lamentation-sm.webp",
-      "w": 1800,
-      "h": 1693,
+      "w": 1600,
+      "h": 1505,
       "color": "#a59484",
       "accent": "#946e56",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Compianto_sul_Cristo_morto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1730,6 +1853,90 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Gennadii Saus i Segura"
+     }
+    },
+    {
+     "id": "giotto-kiss-of-judas",
+     "title": "The Arrest of Christ (Kiss of Judas)",
+     "artist": "Giotto di Bondone",
+     "date": "c. 1304–1306",
+     "year": 1305,
+     "created": "Padua, Italy",
+     "location": "Scrovegni (Arena) Chapel, Padua, Italy",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Proto-Renaissance",
+     "summary": "Judas wraps Christ in his billowing yellow cloak and leans in for the kiss, and the two profiles meet eye to eye — betrayal answered by a calm, piercing gaze. Around them torches, clubs and lances bristle against the blue night, while at the left Peter slashes at the ear of the high priest's servant. Few images in Western art concentrate so much drama into a single silent exchange of looks.",
+     "facts": [
+      "Judas's cloak swallows Christ's body almost completely, so that only his head remains free — a visual metaphor of evil enveloping the innocent.",
+      "A hooded figure seen from behind, tugging at a disciple's robe, pulls the viewer into the crowd, a device Giotto also used in the Lamentation in the same chapel.",
+      "Yellow became the conventional color of Judas in later medieval art, and Giotto's fresco is one of its most memorable uses."
+     ],
+     "scripture": "Matthew 26:47–56; John 18:10",
+     "commons": "File:Giotto - Scrovegni - -31- - Kiss of Judas.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Kiss of Judas",
+       "url": "https://en.wikipedia.org/wiki/Kiss_of_Judas"
+      },
+      {
+       "label": "Wikipedia: Scrovegni Chapel",
+       "url": "https://en.wikipedia.org/wiki/Scrovegni_Chapel"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/giotto-kiss-of-judas.webp",
+      "thumb": "assets/img/giotto-kiss-of-judas-sm.webp",
+      "w": 1600,
+      "h": 1560,
+      "color": "#806b60",
+      "accent": "#343c56",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Giotto"
+     }
+    },
+    {
+     "id": "duccio-entry-into-jerusalem",
+     "title": "Christ's Entry into Jerusalem (from the Maestà)",
+     "artist": "Duccio di Buoninsegna",
+     "date": "1308–1311",
+     "year": 1308,
+     "created": "Siena, Italy",
+     "location": "Museo dell'Opera del Duomo, Siena, Italy",
+     "medium": "Tempera and gold on wood panel",
+     "form": "Painting",
+     "style": "Sienese Gothic",
+     "summary": "Christ rides toward the city gate on a donkey, followed by his apostles, as the people of Jerusalem pour out to meet him; children climb trees to cut branches and spread garments in his path. Duccio builds a convincing world of walls, gardens and towers that tilts up toward the viewer, opening the scene like a stage. It is one of the largest and most celebrated panels of the Passion cycle on the back of the Maestà, Siena's great high altarpiece.",
+     "facts": [
+      "When the Maestà was finished in June 1311, it was carried in solemn procession from Duccio's workshop to the cathedral, accompanied by the ringing of the city's bells.",
+      "The Entry into Jerusalem occupies a double-height field, marking the opening of the Passion story on the altarpiece's back.",
+      "The altarpiece was sawn apart in 1771; most of it remains in Siena, but panels are now in London, Washington, New York and elsewhere — including the Temptation on the Mount shown elsewhere in this journey."
+     ],
+     "scripture": "Matthew 21:1–11",
+     "commons": "File:Maesta.Duccio. detail.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Maestà (Duccio)",
+       "url": "https://en.wikipedia.org/wiki/Maest%C3%A0_(Duccio)"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/duccio-entry-into-jerusalem.webp",
+      "thumb": "assets/img/duccio-entry-into-jerusalem-sm.webp",
+      "w": 894,
+      "h": 1600,
+      "color": "#9c6a4c",
+      "accent": "#9d5e3f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Maesta.Duccio._detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Maesta.Duccio._detail.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Duccio di Buoninsegna"
      }
     },
     {
@@ -1766,8 +1973,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/duccio-temptation-on-the-mount.webp",
       "thumb": "assets/img/duccio-temptation-on-the-mount-sm.webp",
-      "w": 1800,
-      "h": 1692,
+      "w": 1600,
+      "h": 1504,
       "color": "#6d5f42",
       "accent": "#6c5734",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Duccio_-_The_Temptation_on_the_Mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1807,8 +2014,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/chora-anastasis.webp",
       "thumb": "assets/img/chora-anastasis-sm.webp",
-      "w": 1800,
-      "h": 1200,
+      "w": 1600,
+      "h": 1067,
       "color": "#82735f",
       "accent": "#9c8569",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Anastasis_fresco%2C_Chora_Church%2C_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1816,6 +2023,211 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Till Niermann"
+     }
+    },
+    {
+     "id": "lorenzetti-deposition-assisi",
+     "title": "The Deposition from the Cross",
+     "artist": "Pietro Lorenzetti",
+     "date": "c. 1310–1329",
+     "year": 1320,
+     "created": "Assisi, Italy",
+     "location": "Left transept, Lower Church, Basilica of San Francesco, Assisi, Italy",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Sienese Gothic",
+     "summary": "Christ's lifeless body is lowered from the cross, folded at sharp, broken angles as his friends strain to receive it. Mary presses her face to her Son's, John bends to hold him, and the Magdalene kneels to kiss his feet, the whole group compressed into a single arc of grief. The austere, angular composition is among the most moving images of the Passion produced in 14th-century Italy.",
+     "facts": [
+      "The fresco belongs to a large Passion cycle painted by Pietro Lorenzetti and his workshop in the left transept of the Lower Church.",
+      "In the same transept, Lorenzetti's 'Madonna dei Tramonti' (Madonna of the Sunsets) is so called because it is lit by the setting sun.",
+      "Pietro was the elder brother of Ambrogio Lorenzetti; both are thought to have died in the Black Death of 1348."
+     ],
+     "scripture": "John 19:38–40",
+     "commons": "File:Pietro Lorenzetti - Deposition of Christ from the Cross - WGA13523.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Pietro Lorenzetti",
+       "url": "https://en.wikipedia.org/wiki/Pietro_Lorenzetti"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/lorenzetti-deposition-assisi.webp",
+      "thumb": "assets/img/lorenzetti-deposition-assisi-sm.webp",
+      "w": 1192,
+      "h": 850,
+      "color": "#644e3b",
+      "accent": "#4e3523",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pietro_Lorenzetti_-_Deposition_of_Christ_from_the_Cross_-_WGA13523.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Pietro_Lorenzetti_-_Deposition_of_Christ_from_the_Cross_-_WGA13523.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Pietro Lorenzetti"
+     }
+    },
+    {
+     "id": "gracanica-dome-pantocrator",
+     "title": "Christ Pantocrator, Main Dome of Gračanica",
+     "artist": "Unknown painters of King Milutin's court (attributed to the workshop of Michael Astrapas and Eutychios)",
+     "date": "c. 1321",
+     "year": 1321,
+     "created": "Gračanica, Kosovo",
+     "location": "Gračanica Monastery, Kosovo",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Palaiologan Byzantine (Serbian)",
+     "summary": "From the summit of the central dome, Christ the Almighty looks down within a great medallion, blessing with one hand and holding the Gospel with the other, while angels and prophets circle beneath him. The painting fills the highest point of the church with the image of heaven itself, so that the worshipper below stands beneath the gaze of Christ. Gračanica is one of the last great monuments of King Stefan Milutin and a summit of Serbian Palaiologan art.",
+     "facts": [
+      "King Stefan Uroš II Milutin completed the church around 1321, near the end of his reign.",
+      "Its five domes and soaring, stepped massing make it one of the most admired buildings of late Byzantine architecture.",
+      "Gračanica is part of the UNESCO World Heritage site 'Medieval Monuments in Kosovo', which has been on the List of World Heritage in Danger since 2006."
+     ],
+     "commons": "File:Christ Pantocrator, main dome, GRACANICA 2 IMG 7992.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Gračanica Monastery",
+       "url": "https://en.wikipedia.org/wiki/Gra%C4%8Danica_Monastery"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/gracanica-dome-pantocrator.webp",
+      "thumb": "assets/img/gracanica-dome-pantocrator-sm.webp",
+      "w": 1600,
+      "h": 1064,
+      "color": "#604c40",
+      "accent": "#8f694d",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Christ_Pantocrator%2C_main_dome%2C_GRACANICA_2_IMG_7992.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Christ_Pantocrator,_main_dome,_GRACANICA_2_IMG_7992.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "BLAGO Fund, Inc."
+     }
+    },
+    {
+     "id": "simone-martini-christ-discovered-in-the-temple",
+     "title": "Christ Discovered in the Temple",
+     "artist": "Simone Martini",
+     "date": "1342",
+     "year": 1342,
+     "created": "Avignon, France",
+     "location": "Walker Art Gallery, Liverpool, United Kingdom",
+     "medium": "Tempera and gold on wood panel",
+     "form": "Painting",
+     "style": "Sienese Gothic",
+     "summary": "Rarely has a sacred subject been painted with such domestic tenderness: the boy Jesus, newly found in the Temple, stands with arms folded, while Mary, seated with an open book, gently reproaches him and Joseph gestures as if to explain. The jewel-like colours and gold ground are pure Sienese Gothic, yet the emotion is utterly human. Simone painted it at the papal court in Avignon, where he spent his last years.",
+     "facts": [
+      "The panel is signed and dated 1342, one of Simone's last works; he died in Avignon in 1344.",
+      "The book Mary holds is inscribed with her words from Luke: 'Son, why hast thou thus dealt with us?'",
+      "The subject — the family's reunion after the search, rather than Jesus disputing with the doctors — is extremely unusual in medieval art."
+     ],
+     "scripture": "Luke 2:41–51",
+     "commons": "File:Simone Martini - Christ Discovered in the Temple - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Simone Martini",
+       "url": "https://en.wikipedia.org/wiki/Simone_Martini"
+      },
+      {
+       "label": "Walker Art Gallery",
+       "url": "https://www.liverpoolmuseums.org.uk/artifact/christ-discovered-temple"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/simone-martini-christ-discovered-in-the-temple.webp",
+      "thumb": "assets/img/simone-martini-christ-discovered-in-the-temple-sm.webp",
+      "w": 1138,
+      "h": 1600,
+      "color": "#81603f",
+      "accent": "#936c3b",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Simone_Martini_-_Christ_Discovered_in_the_Temple_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Simone_Martini_-_Christ_Discovered_in_the_Temple_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Simone Martini"
+     }
+    },
+    {
+     "id": "parisian-ivory-passion-diptych",
+     "title": "Diptych with Scenes from the Passion of Christ",
+     "artist": "Unknown Parisian ivory carver",
+     "date": "c. 1350–1365",
+     "year": 1350,
+     "created": "Paris, France",
+     "location": "Walters Art Museum, Baltimore, United States",
+     "medium": "Elephant ivory",
+     "form": "Relief",
+     "style": "French Gothic",
+     "summary": "Two hinged ivory leaves, small enough to hold, unfold the whole Passion in thirteen scenes beneath delicate Gothic arches — from the Entry into Jerusalem and the Last Supper through the Crucifixion to Christ's appearance to Mary Magdalene and his descent into Limbo. The slender, swaying figures and softly falling drapery are typical of the Paris workshops that led European ivory carving in the 14th century. Such diptychs were treasured aids to private prayer for wealthy owners.",
+     "facts": [
+      "The scenes read from top to bottom and left to right, like the lines of a book.",
+      "Paris was the leading centre of Gothic ivory carving, working African elephant ivory that reached Europe through Mediterranean trade.",
+      "Many such ivories were originally enlivened with paint and gilding, of which only faint traces usually survive."
+     ],
+     "commons": "File:French - Diptych with Scenes from the Passion of Christ - Walters 71179.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Ivory carving",
+       "url": "https://en.wikipedia.org/wiki/Ivory_carving"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/parisian-ivory-passion-diptych.webp",
+      "thumb": "assets/img/parisian-ivory-passion-diptych-sm.webp",
+      "w": 1508,
+      "h": 1600,
+      "color": "#9b9b9b",
+      "accent": "#adadad",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/French_-_Diptych_with_Scenes_from_the_Passion_of_Christ_-_Walters_71179.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:French_-_Diptych_with_Scenes_from_the_Passion_of_Christ_-_Walters_71179.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Anonymous (France)Unknown author"
+     }
+    },
+    {
+     "id": "theophanes-pantocrator-ilyina-street",
+     "title": "Christ Pantocrator, Church of the Transfiguration on Ilyina Street",
+     "artist": "Theophanes the Greek",
+     "date": "1378",
+     "year": 1378,
+     "created": "Novgorod, Russia",
+     "location": "Church of the Transfiguration on Ilyina Street, Veliky Novgorod, Russia",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Late Byzantine (Palaiologan)",
+     "summary": "In the dome of a small Novgorod church, Christ the Almighty gazes down, surrounded by archangels and the forefathers, painted with a few swift, almost impressionistic strokes of white highlight. Theophanes, a master trained in Constantinople, brought to Russia a fiery, ascetic style in which light seems to break out from within the figures. These are his only securely documented frescoes, and they shaped the course of Russian painting.",
+     "facts": [
+      "A Novgorod chronicle records that the church was painted in 1378 by the Greek master Theophanes, commissioned by the boyar Vasily Danilovich.",
+      "Theophanes later worked in Moscow alongside the young Andrei Rublev on the iconostasis of the Kremlin's Annunciation Cathedral (1405).",
+      "The church survives from 1374 and is part of the UNESCO World Heritage site 'Historic Monuments of Novgorod and Surroundings'."
+     ],
+     "commons": "File:Spas na Ilyine - Christ Pantocrator, archangels and patriarchs.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Church_of_the_Transfiguration_on_Ilyina_Street"
+      },
+      {
+       "label": "Wikipedia: Theophanes the Greek",
+       "url": "https://en.wikipedia.org/wiki/Theophanes_the_Greek"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/theophanes-pantocrator-ilyina-street.webp",
+      "thumb": "assets/img/theophanes-pantocrator-ilyina-street-sm.webp",
+      "w": 1200,
+      "h": 1600,
+      "color": "#686462",
+      "accent": "#ada49c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Spas_na_Ilyine_-_Christ_Pantocrator%2C_archangels_and_patriarchs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Spas_na_Ilyine_-_Christ_Pantocrator,_archangels_and_patriarchs.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Theophanes the Greek"
      }
     },
     {
@@ -1851,8 +2263,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/wilton-diptych.webp",
       "thumb": "assets/img/wilton-diptych-sm.webp",
-      "w": 1800,
-      "h": 1309,
+      "w": 1600,
+      "h": 1163,
       "color": "#72614e",
       "accent": "#735032",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Wilton_Diptych_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1860,6 +2272,125 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "anonymous"
+     }
+    },
+    {
+     "id": "sluter-champmol-head-of-christ",
+     "title": "Head and Torso of Christ (from the Champmol Calvary)",
+     "artist": "Claus Sluter",
+     "date": "1396–1399",
+     "year": 1399,
+     "created": "Dijon, Burgundy, France",
+     "location": "Musée Archéologique, Dijon, France",
+     "medium": "Limestone with traces of paint",
+     "form": "Sculpture",
+     "style": "International Gothic (Burgundian)",
+     "summary": "Crowned with thorns, eyes half closed and lips parted in the last breath, this Christ is all that survives of the great crucifix that once rose above the Well of Moses at the Charterhouse of Champmol. Sluter carves the hair and beard in heavy, living curls and gives the face a weight of suffering new to northern sculpture. Even as a fragment it remains one of the most powerful images of the dying Christ from the late Middle Ages.",
+     "facts": [
+      "The crucifix was installed in July 1399 on top of the hexagonal 'Well of Moses', whose six prophet statues still stand in situ at Champmol.",
+      "The monument was commissioned by Philip the Bold, Duke of Burgundy, for the Carthusian monastery he founded as his dynasty's burial place; it was painted by Jean Malouel.",
+      "The cross was dismantled in the late 18th century; this fragment was later found built into a wall in Dijon."
+     ],
+     "commons": "File:Claus-sluter-Champmol3.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Well of Moses",
+       "url": "https://en.wikipedia.org/wiki/Well_of_Moses"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/sluter-champmol-head-of-christ.webp",
+      "thumb": "assets/img/sluter-champmol-head-of-christ-sm.webp",
+      "w": 1195,
+      "h": 1600,
+      "color": "#755c59",
+      "accent": "#7f2e29",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Claus-sluter-Champmol3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Claus-sluter-Champmol3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Claus Sluter"
+     }
+    },
+    {
+     "id": "rublev-trinity",
+     "title": "The Trinity (Hospitality of Abraham)",
+     "artist": "Andrei Rublev",
+     "date": "c. 1411 or 1425–1427",
+     "year": 1411,
+     "created": "Trinity Lavra of St. Sergius, Sergiyev Posad, Russia",
+     "location": "Trinity Cathedral, Trinity Lavra of St. Sergius, Sergiyev Posad, Russia (Tretyakov Gallery, Moscow, 1929–2023)",
+     "medium": "Tempera on wood panel",
+     "form": "Icon",
+     "style": "Russian (Moscow school)",
+     "summary": "Three angels sit around a table bearing a single chalice — the visitors who came to Abraham at Mamre, painted as an image of the Holy Trinity. In the traditional reading the central angel, in the deep red and blue robes of Christ, is the Son, inclining toward the Father as the circle of heads, wings and gestures draws the viewer into their silent communion around the eucharistic cup. It is perhaps the most celebrated of all Russian icons.",
+     "facts": [
+      "It was painted in honour of Saint Sergius of Radonezh for the Trinity Lavra he founded.",
+      "Scholars debate which angel represents which Person of the Trinity; many identify the central angel with Christ, others with the Father.",
+      "After nearly a century in the Tretyakov Gallery, the icon was transferred to the Russian Orthodox Church in 2023 and returned to the Lavra's Trinity Cathedral in 2024, despite conservators' concerns."
+     ],
+     "scripture": "Genesis 18:1–8",
+     "commons": "File:Andrey Rublev - Св. Троица - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Trinity_(Andrei_Rublev)"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/rublev-trinity.webp",
+      "thumb": "assets/img/rublev-trinity-sm.webp",
+      "w": 1292,
+      "h": 1600,
+      "color": "#a1763b",
+      "accent": "#b6893a",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Andrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Andrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Andrei Rublev"
+     }
+    },
+    {
+     "id": "tres-riches-heures-temptation-of-christ",
+     "title": "The Temptation of Christ (Très Riches Heures du Duc de Berry, fol. 161v)",
+     "artist": "Limbourg brothers (Paul, Herman and Jean de Limbourg)",
+     "date": "c. 1411–1416",
+     "year": 1414,
+     "created": "France, for Jean, Duke of Berry",
+     "location": "Musée Condé, Château de Chantilly, France (Ms. 65)",
+     "medium": "Tempera, gold and ink on vellum",
+     "form": "Manuscript",
+     "style": "International Gothic",
+     "summary": "On a crag high above the world, the devil offers Christ all the kingdoms of the earth; far below rises a gleaming white château, as if it were the most tempting kingdom of all. The page shows the Limbourg brothers' famous gift for landscape and luminous colour in one of the most celebrated manuscripts ever made. It illustrates the Gospel for the first Sunday of Lent.",
+     "facts": [
+      "The castle below is the Duke of Berry's own beloved Château de Mehun-sur-Yèvre — a sly suggestion of how real the temptation of worldly splendour could be.",
+      "The three Limbourg brothers and their patron all died in 1416, probably of plague, leaving the book unfinished; it was completed decades later by Jean Colombe.",
+      "Because of its fragility, the original manuscript is very rarely displayed."
+     ],
+     "scripture": "Matthew 4:8–10",
+     "commons": "File:326 MS 65 F161 V.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Tr%C3%A8s_Riches_Heures_du_Duc_de_Berry"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/tres-riches-heures-temptation-of-christ.webp",
+      "thumb": "assets/img/tres-riches-heures-temptation-of-christ-sm.webp",
+      "w": 1123,
+      "h": 1600,
+      "color": "#bfb9aa",
+      "accent": "#c8bfa9",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/326_MS_65_F161_V.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:326_MS_65_F161_V.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Limbourg brothers"
      }
     },
     {
@@ -1891,8 +2422,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/rublev-zvenigorod-savior.webp",
       "thumb": "assets/img/rublev-zvenigorod-savior-sm.webp",
-      "w": 1185,
-      "h": 1800,
+      "w": 1053,
+      "h": 1600,
       "color": "#9e743d",
       "accent": "#a06f30",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Andrey_Rublev_-_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%81_%D0%92%D1%81%D0%B5%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1900,6 +2431,46 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Andrei Rublev"
+     }
+    },
+    {
+     "id": "campin-seilern-triptych",
+     "title": "The Seilern Triptych (The Entombment)",
+     "artist": "Robert Campin (Master of Flémalle)",
+     "date": "c. 1425",
+     "year": 1425,
+     "created": "Tournai, Southern Netherlands",
+     "location": "Courtauld Gallery, London, United Kingdom",
+     "medium": "Oil and gold on oak panel",
+     "form": "Painting",
+     "style": "Early Netherlandish",
+     "summary": "At the center, Christ's body is laid in the tomb by Joseph of Arimathea and Nicodemus as Mary bends over him and angels display the instruments of the Passion. On the left wing a donor kneels before the empty cross on Calvary; on the right Christ rises from the tomb. Set against a richly tooled gold ground, the triptych stands at the very beginning of Early Netherlandish oil painting, combining medieval splendour with a startling new realism.",
+     "facts": [
+      "It is named after Count Antoine Seilern, who bequeathed it to the Courtauld in 1978.",
+      "It is considered one of the earliest surviving works of Robert Campin, the teacher of Rogier van der Weyden.",
+      "Its elaborately tooled gold background is a survival of older Gothic panel practice, even as the figures are painted with the new oil technique."
+     ],
+     "scripture": "John 19:38–42",
+     "commons": "File:Triptych-with-the-entombment-of-christ-1822.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Seilern_Triptych"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/campin-seilern-triptych.webp",
+      "thumb": "assets/img/campin-seilern-triptych-sm.webp",
+      "w": 1600,
+      "h": 967,
+      "color": "#765b3e",
+      "accent": "#b6955c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Triptych-with-the-entombment-of-christ-1822.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Triptych-with-the-entombment-of-christ-1822.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Robert Campin"
      }
     },
     {
@@ -1932,8 +2503,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/masaccio-holy-trinity.webp",
       "thumb": "assets/img/masaccio-holy-trinity-sm.webp",
-      "w": 1116,
-      "h": 1800,
+      "w": 992,
+      "h": 1600,
       "color": "#6e5951",
       "accent": "#7b6156",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Masaccio%2C_Holy_Trinity%2C_1425-28%2C_Santa_Maria_Novella%2C_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1977,8 +2548,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/ghent-altarpiece.webp",
       "thumb": "assets/img/ghent-altarpiece-sm.webp",
-      "w": 1800,
-      "h": 1316,
+      "w": 1600,
+      "h": 1170,
       "color": "#756550",
       "accent": "#837151",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamgods_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2022,8 +2593,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/van-der-weyden-descent-from-the-cross.webp",
       "thumb": "assets/img/van-der-weyden-descent-from-the-cross-sm.webp",
-      "w": 1800,
-      "h": 1418,
+      "w": 1600,
+      "h": 1261,
       "color": "#54413a",
       "accent": "#462825",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Weyden_Deposition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2031,6 +2602,50 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Rogier van der Weyden"
+     }
+    },
+    {
+     "id": "fra-angelico-noli-me-tangere",
+     "title": "Noli me tangere",
+     "artist": "Fra Angelico",
+     "date": "c. 1440–1442",
+     "year": 1440,
+     "created": "Florence, Italy",
+     "location": "Cell 1, Convent of San Marco (Museo Nazionale di San Marco), Florence, Italy",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Early Renaissance",
+     "summary": "In a garden bright with flowers, the risen Christ, carrying a hoe over his shoulder, turns gently from Mary Magdalene as she kneels and reaches toward him. His movement is a kind of dance — he steps away while turning back to her — capturing both the joy of recognition and the call not to cling to him. Painted for a friar's cell, it was meant to lead quiet meditation on the mystery of the Resurrection.",
+     "facts": [
+      "Christ carries a hoe because Mary first mistook him for the gardener.",
+      "Small red-spotted flowers scattered near his feet are often read as echoes of the wounds in his hands and feet.",
+      "Fra Angelico and his assistants painted a fresco in each of the friars' cells at San Marco, designed as aids to prayer rather than for public display."
+     ],
+     "scripture": "John 20:11–18",
+     "commons": "File:Fra Angelico, Noli Me Tangere, 1440-41; Convent of San Marco, Florence (2).jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Fra Angelico",
+       "url": "https://en.wikipedia.org/wiki/Fra_Angelico"
+      },
+      {
+       "label": "Wikipedia: Museo Nazionale di San Marco",
+       "url": "https://en.wikipedia.org/wiki/Museo_Nazionale_di_San_Marco"
+      }
+     ],
+     "era": "gothic",
+     "image": {
+      "src": "assets/img/fra-angelico-noli-me-tangere.webp",
+      "thumb": "assets/img/fra-angelico-noli-me-tangere-sm.webp",
+      "w": 1600,
+      "h": 1598,
+      "color": "#997953",
+      "accent": "#94642c",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fra_Angelico%2C_Noli_Me_Tangere%2C_1440-41%3B_Convent_of_San_Marco%2C_Florence_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Fra_Angelico,_Noli_Me_Tangere,_1440-41;_Convent_of_San_Marco,_Florence_(2).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Prof. Mortel"
      }
     },
     {
@@ -2063,8 +2678,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/fra-angelico-transfiguration.webp",
       "thumb": "assets/img/fra-angelico-transfiguration-sm.webp",
-      "w": 1515,
-      "h": 1800,
+      "w": 1347,
+      "h": 1600,
       "color": "#c2a692",
       "accent": "#936352",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Fra_Angelico_042_adjusted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2107,8 +2722,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/fre-seyon-diptych.webp",
       "thumb": "assets/img/fre-seyon-diptych-sm.webp",
-      "w": 1800,
-      "h": 1255,
+      "w": 1600,
+      "h": 1116,
       "color": "#5d4122",
       "accent": "#724c28",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Fre_Seyon_-_Diptych_with_Mary_and_Her_Son_Flanked_by_Archangels%2C_Apostles_and_a_Saint_-_Walters_3612_-_Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2164,8 +2779,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/piero-baptism-of-christ.webp",
       "thumb": "assets/img/piero-baptism-of-christ-sm.webp",
-      "w": 1253,
-      "h": 1800,
+      "w": 1114,
+      "h": 1600,
       "color": "#75705f",
       "accent": "#433d28",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Piero_della_Francesca_-_Battesimo_di_Cristo_%28National_Gallery%2C_London%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2208,8 +2823,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/bellini-agony-in-the-garden.webp",
       "thumb": "assets/img/bellini-agony-in-the-garden-sm.webp",
-      "w": 1800,
-      "h": 1135,
+      "w": 1600,
+      "h": 1009,
       "color": "#5d4c3a",
       "accent": "#7d562f",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bellini%2CGiovanni_-_Agony_in_the_Garden_-_National_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2251,8 +2866,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/antonello-salvator-mundi.webp",
       "thumb": "assets/img/antonello-salvator-mundi-sm.webp",
-      "w": 1363,
-      "h": 1800,
+      "w": 1212,
+      "h": 1600,
       "color": "#3d281d",
       "accent": "#5d3c1f",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Antonello_da_Messina_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2260,6 +2875,46 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Antonello da Messina"
+     }
+    },
+    {
+     "id": "memling-last-judgment-gdansk",
+     "title": "The Last Judgment Triptych",
+     "artist": "Hans Memling",
+     "date": "1467–1471",
+     "year": 1467,
+     "created": "Bruges, Southern Netherlands",
+     "location": "National Museum in Gdańsk, Poland",
+     "medium": "Oil on oak panel",
+     "form": "Painting",
+     "style": "Early Netherlandish",
+     "summary": "Christ sits in judgment on a rainbow above a golden globe, a lily of mercy and a sword of justice at either side of his head, while the apostles and the Virgin and John the Baptist intercede. Below him the Archangel Michael, in gleaming armour, weighs the souls; on the left wing the saved climb a crystal stair into the gate of heaven, and on the right the damned tumble into fire. It is Memling's grandest work and one of the most dramatic Last Judgments of the 15th century.",
+     "facts": [
+      "It was commissioned by Angelo Tani, the Medici bank's agent in Bruges, for a chapel near Florence — but the ship carrying it was captured in 1473 by the Danzig privateer Paul Beneke, and it never reached Italy.",
+      "The captured altarpiece was given to St Mary's Church in Gdańsk, and it has been in the city ever since, apart from seizures by Napoleon's army and later by the Soviet Union, from which it returned in 1956.",
+      "Tani and his wife, Caterina Tanagli, are portrayed kneeling on the outer wings."
+     ],
+     "scripture": "Matthew 25:31–46",
+     "commons": "File:Das Jüngste Gericht (Memling).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Last_Judgment_(Memling)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/memling-last-judgment-gdansk.webp",
+      "thumb": "assets/img/memling-last-judgment-gdansk-sm.webp",
+      "w": 1600,
+      "h": 1065,
+      "color": "#816948",
+      "accent": "#947b55",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Das_J%C3%BCngste_Gericht_%28Memling%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Das_J%C3%BCngste_Gericht_(Memling).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Hans Memling"
      }
     },
     {
@@ -2295,8 +2950,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/memling-scenes-from-the-passion.webp",
       "thumb": "assets/img/memling-scenes-from-the-passion-sm.webp",
-      "w": 1800,
-      "h": 1115,
+      "w": 1600,
+      "h": 991,
       "color": "#735e44",
       "accent": "#846b4d",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hans_Memling_Passione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2304,6 +2959,86 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Hans Memling"
+     }
+    },
+    {
+     "id": "verrocchio-leonardo-baptism-of-christ",
+     "title": "The Baptism of Christ",
+     "artist": "Andrea del Verrocchio and Leonardo da Vinci",
+     "date": "c. 1470–1475",
+     "year": 1472,
+     "created": "Florence, Italy",
+     "location": "Uffizi Gallery, Florence, Italy",
+     "medium": "Oil and tempera on wood panel",
+     "form": "Painting",
+     "style": "Early Renaissance",
+     "summary": "John the Baptist pours water over the head of Christ, who stands ankle-deep in the Jordan with hands joined in prayer, as the dove of the Spirit descends between the hands of God above. At the left kneel two angels holding Christ's garments — and the one in profile, turning with a soft, glowing face, is the work of the young Leonardo da Vinci. The panel is a rare window onto a great Renaissance workshop, where a master and his brilliant pupil worked side by side.",
+     "facts": [
+      "Vasari tells the story that Verrocchio, seeing how much finer Leonardo's angel was than his own figures, resolved never to paint again — a legend, but a telling one.",
+      "Technical study shows Leonardo also worked in oil on the hazy river landscape and probably retouched the body of Christ.",
+      "The painting was made for the church of the monastery of San Salvi, just outside Florence."
+     ],
+     "scripture": "Matthew 3:13–17",
+     "commons": "File:Verrocchio, Leonardo da Vinci - Battesimo di Cristo - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Baptism_of_Christ_(Verrocchio_and_Leonardo)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/verrocchio-leonardo-baptism-of-christ.webp",
+      "thumb": "assets/img/verrocchio-leonardo-baptism-of-christ-sm.webp",
+      "w": 1362,
+      "h": 1600,
+      "color": "#5c4b31",
+      "accent": "#655334",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Verrocchio%2C_Leonardo_da_Vinci_-_Battesimo_di_Cristo_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Verrocchio,_Leonardo_da_Vinci_-_Battesimo_di_Cristo_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Andrea del Verrocchio / Leonardo da Vinci"
+     }
+    },
+    {
+     "id": "portinari-altarpiece",
+     "title": "The Portinari Altarpiece (Adoration of the Shepherds)",
+     "artist": "Hugo van der Goes",
+     "date": "c. 1475–1476",
+     "year": 1475,
+     "created": "Ghent, Southern Netherlands",
+     "location": "Uffizi Gallery, Florence, Italy",
+     "medium": "Oil on wood panel",
+     "form": "Painting",
+     "style": "Early Netherlandish",
+     "summary": "The newborn Christ lies naked and tiny on the bare ground, light streaming from his body, while Mary, Joseph, angels and three wonderfully rough, awestruck shepherds kneel around him. Hugo van der Goes gives every figure a solemn individuality, and fills the foreground with a still life of flowers whose symbolism points ahead to the Passion. Its arrival in Florence astonished Italian painters and changed the way they painted the Nativity.",
+     "facts": [
+      "It was commissioned by Tommaso Portinari, manager of the Medici bank in Bruges, and shipped to Florence for the church of Sant'Egidio at the hospital of Santa Maria Nuova, where it arrived in 1483.",
+      "The image of the Child lying on the ground radiating light follows the vision of the Nativity described by Saint Bridget of Sweden.",
+      "Its realistic shepherds directly inspired Domenico Ghirlandaio's Adoration of the Shepherds in the Sassetti Chapel (1485)."
+     ],
+     "scripture": "Luke 2:8–20",
+     "commons": "File:Hugo van der Goes - Trittico Portinari - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Portinari_Altarpiece"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/portinari-altarpiece.webp",
+      "thumb": "assets/img/portinari-altarpiece-sm.webp",
+      "w": 1600,
+      "h": 1329,
+      "color": "#6c544a",
+      "accent": "#9f7c61",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hugo_van_der_Goes_-_Trittico_Portinari_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hugo_van_der_Goes_-_Trittico_Portinari_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Hugo van der Goes"
      }
     },
     {
@@ -2335,8 +3070,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/mantegna-lamentation.webp",
       "thumb": "assets/img/mantegna-lamentation-sm.webp",
-      "w": 1800,
-      "h": 1522,
+      "w": 1600,
+      "h": 1353,
       "color": "#635b57",
       "accent": "#98897c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lamentaci%C3%B3n_sobre_Cristo_muerto%2C_por_Andrea_Mantegna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2344,6 +3079,89 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Andrea Mantegna"
+     }
+    },
+    {
+     "id": "perugino-delivery-of-the-keys",
+     "title": "The Delivery of the Keys",
+     "artist": "Pietro Perugino",
+     "date": "1481–1482",
+     "year": 1481,
+     "created": "Rome, Italy",
+     "location": "Sistine Chapel, Vatican City",
+     "medium": "Fresco",
+     "form": "Fresco",
+     "style": "Early Renaissance (Umbrian)",
+     "summary": "Christ hands the keys of the kingdom of heaven to the kneeling Saint Peter, surrounded by a dignified frieze of apostles and contemporaries. Behind them a vast, perfectly ordered piazza recedes to a domed, octagonal temple flanked by two triumphal arches — an image of the Church built on Peter, laid out with serene geometry. The fresco is a manifesto of papal authority and one of the clearest expressions of early Renaissance perspective.",
+     "facts": [
+      "It belongs to the original wall cycle of the Sistine Chapel, painted for Pope Sixtus IV by Perugino, Botticelli, Ghirlandaio, Rosselli and others decades before Michelangelo's ceiling.",
+      "The two triumphal arches are modelled on the Arch of Constantine in Rome.",
+      "In the middle distance appear two further episodes: the Tribute Money and the attempted stoning of Christ."
+     ],
+     "scripture": "Matthew 16:18–19",
+     "commons": "File:Entrega de las llaves a San Pedro (Perugino).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Delivery_of_the_Keys"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/perugino-delivery-of-the-keys.webp",
+      "thumb": "assets/img/perugino-delivery-of-the-keys-sm.webp",
+      "w": 1600,
+      "h": 966,
+      "color": "#917f6b",
+      "accent": "#8b6543",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Entrega_de_las_llaves_a_San_Pedro_%28Perugino%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Entrega_de_las_llaves_a_San_Pedro_(Perugino).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Pietro Perugino"
+     }
+    },
+    {
+     "id": "durer-christ-as-man-of-sorrows",
+     "title": "Christ as the Man of Sorrows",
+     "artist": "Albrecht Dürer",
+     "date": "c. 1492–1493",
+     "year": 1493,
+     "created": "Upper Rhine region (during Dürer's journeyman travels)",
+     "location": "Staatliche Kunsthalle Karlsruhe, Germany",
+     "medium": "Oil on panel",
+     "form": "Painting",
+     "style": "Late Gothic / Northern Renaissance",
+     "summary": "Wearing the crown of thorns and holding the scourges of his flagellation, the wounded Christ sits in a stone niche and rests his head on his hand, gazing out at the viewer in quiet, unbearable sorrow. This tiny panel is not a scene from the Gospel narrative but a devotional image, inviting the beholder to contemplate Christ's suffering face to face. It is one of the earliest surviving paintings by the young Dürer, already astonishing in its precision.",
+     "facts": [
+      "The panel is only about 30 cm high, intended for close, private devotion.",
+      "The pose of the head propped on the hand was a traditional sign of melancholy and deep grief.",
+      "In 1522 Dürer drew himself as the Man of Sorrows; that drawing, in Bremen, was lost during the Second World War."
+     ],
+     "commons": "File:Dürer, Christus als Schmerzensmann, c1493. Kunsthalle Karlsruhe (2183).jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Man of Sorrows",
+       "url": "https://en.wikipedia.org/wiki/Man_of_Sorrows"
+      },
+      {
+       "label": "Staatliche Kunsthalle Karlsruhe",
+       "url": "https://www.kunsthalle-karlsruhe.de/kunstwerke/Albrecht-D%C3%BCrer/Christus-als-Schmerzensmann/4CF6CD9D45DD6B1AC91CECAE9EC57F44/"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/durer-christ-as-man-of-sorrows.webp",
+      "thumb": "assets/img/durer-christ-as-man-of-sorrows-sm.webp",
+      "w": 995,
+      "h": 1600,
+      "color": "#715533",
+      "accent": "#a77e43",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/D%C3%BCrer%2C_Christus_als_Schmerzensmann%2C_c1493._Kunsthalle_Karlsruhe_%282183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer,_Christus_als_Schmerzensmann,_c1493._Kunsthalle_Karlsruhe_(2183).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Albrecht Dürer"
      }
     },
     {
@@ -2376,8 +3194,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/leonardo-last-supper.webp",
       "thumb": "assets/img/leonardo-last-supper-sm.webp",
-      "w": 1800,
-      "h": 979,
+      "w": 1600,
+      "h": 870,
       "color": "#706155",
       "accent": "#433326",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2416,8 +3234,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/michelangelo-pieta.webp",
       "thumb": "assets/img/michelangelo-pieta-sm.webp",
-      "w": 1800,
-      "h": 1661,
+      "w": 1600,
+      "h": 1477,
       "color": "#7e6c51",
       "accent": "#b9a580",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2425,6 +3243,134 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Jebulon"
+     }
+    },
+    {
+     "id": "dionisius-crucifixion",
+     "title": "The Crucifixion",
+     "artist": "Dionisius",
+     "date": "1500",
+     "year": 1500,
+     "created": "Muscovite Russia",
+     "location": "Tretyakov Gallery, Moscow, Russia",
+     "medium": "Tempera on wood panel",
+     "form": "Icon",
+     "style": "Russian (Moscow school)",
+     "summary": "Christ's pale, elongated body hangs from the cross in a gentle curve, without any sense of strain, while weeping angels hover in the gold sky and the Virgin, her companions, Saint John and the centurion stand below in slender, swaying forms. Dionisius turns the Crucifixion into an image of quiet, luminous grace rather than agony. It is a masterpiece of the painter who, after Rublev, was the leading icon painter of Muscovite Russia.",
+     "facts": [
+      "Dionisius was one of the first Russian icon painters who was a layman rather than a monk.",
+      "The icon is generally associated with his work for the Pavlo-Obnorsky Monastery near Vologda, for which Joseph of Volokolamsk and others commissioned many of his icons.",
+      "His best-preserved work, the frescoes of the Ferapontov Monastery (c. 1502), is a UNESCO World Heritage Site."
+     ],
+     "scripture": "John 19:25–30",
+     "commons": "File:Распятие. Дионисий. 1499 1500 с полями.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Dionisius",
+       "url": "https://en.wikipedia.org/wiki/Dionisius"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/dionisius-crucifixion.webp",
+      "thumb": "assets/img/dionisius-crucifixion-sm.webp",
+      "w": 1132,
+      "h": 1600,
+      "color": "#a38169",
+      "accent": "#af804d",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/%D0%A0%D0%B0%D1%81%D0%BF%D1%8F%D1%82%D0%B8%D0%B5._%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%D0%B8%D0%B9._1499_1500_%D1%81_%D0%BF%D0%BE%D0%BB%D1%8F%D0%BC%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D0%BF%D1%8F%D1%82%D0%B8%D0%B5._%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%D0%B8%D0%B9._1499_1500_%D1%81_%D0%BF%D0%BE%D0%BB%D1%8F%D0%BC%D0%B8.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Dionisius"
+     }
+    },
+    {
+     "id": "botticelli-mystic-nativity",
+     "title": "The Mystic Nativity",
+     "artist": "Sandro Botticelli",
+     "date": "c. 1500",
+     "year": 1500,
+     "created": "Florence, Italy",
+     "location": "National Gallery, London, United Kingdom",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Italian Renaissance",
+     "summary": "Above the humble stable where Mary kneels before the Christ Child, twelve angels dance in a ring beneath a golden dome of heaven, while below angels embrace men and little devils flee into cracks in the earth. Painted in the troubled Florence that followed the preaching and execution of Savonarola, it is an ecstatic, visionary image of the Nativity as the beginning of the world's final peace. It is quite unlike anything else in Botticelli's work.",
+     "facts": [
+      "It is the only painting Botticelli signed and dated, in a cryptic Greek inscription that speaks of 'the troubles of Italy' and of the Apocalypse.",
+      "The archaic, varying scale of the figures — Mary is far larger than the shepherds — is a deliberate return to medieval devotional conventions.",
+      "The painting was probably made for private devotion, perhaps for a follower of Savonarola."
+     ],
+     "scripture": "Luke 2:8–20; Revelation 12",
+     "commons": "File:Mystic Nativity, Sandro Botticelli.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Mystical_Nativity"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-mystic-nativity"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/botticelli-mystic-nativity.webp",
+      "thumb": "assets/img/botticelli-mystic-nativity-sm.webp",
+      "w": 1105,
+      "h": 1600,
+      "color": "#655a42",
+      "accent": "#756547",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mystic_Nativity%2C_Sandro_Botticelli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Mystic_Nativity,_Sandro_Botticelli.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Sandro Botticelli"
+     }
+    },
+    {
+     "id": "riemenschneider-holy-blood-altarpiece",
+     "title": "Altarpiece of the Holy Blood (The Last Supper)",
+     "artist": "Tilman Riemenschneider",
+     "date": "1501–1505",
+     "year": 1501,
+     "created": "Würzburg and Rothenburg ob der Tauber, Germany",
+     "location": "St. James's Church (St. Jakob), Rothenburg ob der Tauber, Germany",
+     "medium": "Limewood, unpainted",
+     "form": "Sculpture",
+     "style": "Late Gothic (German)",
+     "summary": "At the heart of this soaring limewood shrine, Christ sits among his disciples at the Last Supper, offering the morsel to Judas, who stands at the center of the composition with the money bag in his hand; John sleeps against Christ's breast. Riemenschneider left the wood unpainted, so the faces and cascading draperies are shaped entirely by light and shadow. Above, angels display a crystal reliquary said to contain a drop of Christ's blood, which gives the altar its name.",
+     "facts": [
+      "Placing Judas at the center, rather than Christ, focuses the scene on the moment of betrayal announced in John's Gospel.",
+      "Riemenschneider was a pioneer of leaving sculpture in natural, unpainted wood, using only a thin glaze.",
+      "He was also a councillor and mayor of Würzburg; after siding with the rebels in the Peasants' War of 1525 he was imprisoned and, by tradition, tortured."
+     ],
+     "scripture": "John 13:21–30",
+     "commons": "File:Tilmann Riemenschneider der Heilig-Blut-Altar in Rothenburg ob der Tauber 01.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Tilman Riemenschneider",
+       "url": "https://en.wikipedia.org/wiki/Tilman_Riemenschneider"
+      },
+      {
+       "label": "Wikipedia: St. James's Church, Rothenburg",
+       "url": "https://en.wikipedia.org/wiki/St._James%27s_Church,_Rothenburg_ob_der_Tauber"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/riemenschneider-holy-blood-altarpiece.webp",
+      "thumb": "assets/img/riemenschneider-holy-blood-altarpiece-sm.webp",
+      "w": 800,
+      "h": 1600,
+      "color": "#936a48",
+      "accent": "#6b3417",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tilmann_Riemenschneider_der_Heilig-Blut-Altar_in_Rothenburg_ob_der_Tauber_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Tilmann_Riemenschneider_der_Heilig-Blut-Altar_in_Rothenburg_ob_der_Tauber_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Holger Uwe Schmitt"
      }
     },
     {
@@ -2460,8 +3406,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/durer-betrayal-large-passion.webp",
       "thumb": "assets/img/durer-betrayal-large-passion-sm.webp",
-      "w": 1287,
-      "h": 1800,
+      "w": 1144,
+      "h": 1600,
       "color": "#a19689",
       "accent": "#a99e90",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Albrecht_D%C3%BCrer%2C_The_Betrayal_of_Christ%2C_1510%2C_NGA_602.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2469,6 +3415,46 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Albrecht Dürer"
+     }
+    },
+    {
+     "id": "matsys-lamentation-carpenters-altarpiece",
+     "title": "The Lamentation of Christ (Carpenters' Altarpiece)",
+     "artist": "Quentin Matsys",
+     "date": "1508–1511",
+     "year": 1511,
+     "created": "Antwerp, Southern Netherlands",
+     "location": "Royal Museum of Fine Arts (KMSKA), Antwerp, Belgium",
+     "medium": "Oil on wood panel",
+     "form": "Painting",
+     "style": "Flemish Renaissance",
+     "summary": "Beneath the crosses of Golgotha, Christ's body is laid out across the foreground while Nicodemus, Joseph of Arimathea, the Virgin, Saint John and the holy women gather in hushed mourning; Mary Magdalene tenderly wipes his feet. Matsys combines the precise detail of the Flemish tradition with a new, monumental Italianate grandeur. The central panel of a large triptych, it is the masterpiece of Antwerp's leading painter in the early 16th century.",
+     "facts": [
+      "It was commissioned by the Antwerp joiners' (carpenters') guild for its chapel in the Cathedral of Our Lady.",
+      "The wings show the beheading of John the Baptist and the martyrdom of John the Evangelist — the two Johns being the carpenters' patron saints.",
+      "A cherished legend says that Matsys began as a blacksmith and turned to painting to win the hand of a painter's daughter."
+     ],
+     "scripture": "John 19:38–40",
+     "commons": "File:Quentin Massys 002.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Matsys)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/matsys-lamentation-carpenters-altarpiece.webp",
+      "thumb": "assets/img/matsys-lamentation-carpenters-altarpiece-sm.webp",
+      "w": 1600,
+      "h": 1518,
+      "color": "#90796a",
+      "accent": "#856754",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Quentin_Massys_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Quentin_Massys_002.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Quinten Metsys"
      }
     },
     {
@@ -2505,8 +3491,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/grunewald-isenheim-crucifixion.webp",
       "thumb": "assets/img/grunewald-isenheim-crucifixion-sm.webp",
-      "w": 1800,
-      "h": 1310,
+      "w": 1600,
+      "h": 1164,
       "color": "#846a5a",
       "accent": "#97765c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Isenheimer_Altar_%28Colmar%29_jm01221_deriv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2514,6 +3500,50 @@ window.DEPICTIONS = {
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "joergens.mi"
+     }
+    },
+    {
+     "id": "titian-noli-me-tangere",
+     "title": "Noli me tangere",
+     "artist": "Titian",
+     "date": "c. 1514",
+     "year": 1514,
+     "created": "Venice, Italy",
+     "location": "National Gallery, London, United Kingdom",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Venetian Renaissance",
+     "summary": "On Easter morning Mary Magdalene, kneeling with her jar of ointment, reaches out toward the risen Christ, who draws back from her touch with a graceful, swaying turn. Behind them a tree and a softly lit hillside farm unfold into a golden Venetian landscape, so that the encounter seems to take place in the whole renewed world. It is one of the most poetic of Titian's early religious paintings.",
+     "facts": [
+      "X-rays show that Titian first painted Christ wearing a gardener's hat and facing away, then revised the composition.",
+      "The farm buildings on the hill reappear in the landscape of the Sleeping Venus in Dresden, begun by Giorgione and completed by Titian.",
+      "Christ holds a hoe, recalling Mary's first impression that he was the gardener."
+     ],
+     "scripture": "John 20:11–18",
+     "commons": "File:Titian - Noli me Tangere - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Noli_me_tangere_(Titian)"
+      },
+      {
+       "label": "National Gallery",
+       "url": "https://www.nationalgallery.org.uk/paintings/titian-noli-me-tangere"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/titian-noli-me-tangere.webp",
+      "thumb": "assets/img/titian-noli-me-tangere-sm.webp",
+      "w": 1334,
+      "h": 1600,
+      "color": "#5f533c",
+      "accent": "#523d23",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/Titian_-_Noli_me_Tangere_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Titian_-_Noli_me_Tangere_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Titian"
      }
     },
     {
@@ -2549,8 +3579,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/bosch-christ-carrying-the-cross-ghent.webp",
       "thumb": "assets/img/bosch-christ-carrying-the-cross-ghent-sm.webp",
-      "w": 1800,
-      "h": 1650,
+      "w": 1600,
+      "h": 1467,
       "color": "#5b4440",
       "accent": "#89645b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hieronymus_Bosch_055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2589,8 +3619,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/titian-tribute-money.webp",
       "thumb": "assets/img/titian-tribute-money-sm.webp",
-      "w": 1315,
-      "h": 1800,
+      "w": 1169,
+      "h": 1600,
       "color": "#4f2b1b",
       "accent": "#a15d35",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Titian_-_The_Tribute_Money_-_Google_Art_Project_%28715452%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2630,8 +3660,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/raphael-transfiguration.webp",
       "thumb": "assets/img/raphael-transfiguration-sm.webp",
-      "w": 1218,
-      "h": 1800,
+      "w": 1083,
+      "h": 1600,
       "color": "#4f504f",
       "accent": "#111b23",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rapha%C3%ABl%2C_La_Transfiguration%2C_1518%E2%80%931520%2C_huile_sur_bois%2C_405_%C3%97_278_cm%2C_Mus%C3%A9es_du_Vatican%2C_Pinacoth%C3%A8que%2C_inv._4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2674,8 +3704,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/santo-nino-de-cebu.webp",
       "thumb": "assets/img/santo-nino-de-cebu-sm.webp",
-      "w": 1338,
-      "h": 1800,
+      "w": 1190,
+      "h": 1600,
       "color": "#b18b5e",
       "accent": "#bd7a40",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Original_Image_of_the_Santo_Ni%C3%B1o_de_Cebu-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2718,8 +3748,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/holbein-dead-christ-in-the-tomb.webp",
       "thumb": "assets/img/holbein-dead-christ-in-the-tomb-sm.webp",
-      "w": 1800,
-      "h": 269,
+      "w": 1600,
+      "h": 239,
       "color": "#5e4d3c",
       "accent": "#897462",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2727,6 +3757,85 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Gsimonov"
+     }
+    },
+    {
+     "id": "michelangelo-risen-christ-minerva",
+     "title": "Risen Christ (Cristo della Minerva)",
+     "artist": "Michelangelo Buonarroti",
+     "date": "1519–1521",
+     "year": 1521,
+     "created": "Florence and Rome, Italy",
+     "location": "Santa Maria sopra Minerva, Rome, Italy",
+     "medium": "Marble",
+     "form": "Sculpture",
+     "style": "High Renaissance",
+     "summary": "The risen Christ stands with the cross, the reed and the sponge — the instruments of his Passion — held lightly against his body, turning his head away in a powerful spiral movement. Michelangelo presents him as a perfect, heroic nude, his triumph over death expressed through the beauty of the human form. It stands beside the high altar of Rome's great Gothic Dominican church.",
+     "facts": [
+      "Michelangelo abandoned a first version when a black vein appeared in the marble across Christ's face; that earlier statue was rediscovered in a church at Bassano Romano and identified in 2000.",
+      "The second version was finished in Rome by assistants, and Michelangelo was dissatisfied with their work on it.",
+      "The bronze loincloth was added later, in keeping with changing standards of decorum."
+     ],
+     "commons": "File:Cristo della Minerva 2010.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Risen_Christ_(Michelangelo,_Santa_Maria_sopra_Minerva)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/michelangelo-risen-christ-minerva.webp",
+      "thumb": "assets/img/michelangelo-risen-christ-minerva-sm.webp",
+      "w": 691,
+      "h": 1600,
+      "color": "#887965",
+      "accent": "#90806a",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cristo_della_Minerva_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Cristo_della_Minerva_2010.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Wknight94 talk"
+     }
+    },
+    {
+     "id": "correggio-holy-night",
+     "title": "The Holy Night (Adoration of the Shepherds)",
+     "artist": "Antonio da Correggio",
+     "date": "c. 1522–1530",
+     "year": 1530,
+     "created": "Reggio Emilia, Italy",
+     "location": "Gemäldegalerie Alte Meister, Dresden, Germany",
+     "medium": "Oil on wood panel",
+     "form": "Painting",
+     "style": "High Renaissance",
+     "summary": "In the darkness of the stable the only true light comes from the newborn Christ, glowing so brightly that Mary's face is illuminated and a woman beside the shepherds shields her eyes. Above, a swirl of angels tumbles through the night sky while dawn breaks faintly over the hills. Correggio's luminous nocturne made the Child himself the source of light — the Light of the World — and was endlessly admired by later painters.",
+     "facts": [
+      "It was commissioned in 1522 by Alberto Pratonero for his family chapel in the church of San Prospero in Reggio Emilia.",
+      "In 1640 the Duke of Modena removed the painting from its church; it was sold in 1746 to Augustus III of Saxony along with other masterpieces of the Este collection.",
+      "It is one of the first great nocturnes of European painting, anticipating the dramatic lighting of the Baroque."
+     ],
+     "scripture": "Luke 2:8–20; John 8:12",
+     "commons": "File:Correggio - The Holy Night - Google Art Project.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Nativity_(Correggio)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/correggio-holy-night.webp",
+      "thumb": "assets/img/correggio-holy-night-sm.webp",
+      "w": 1174,
+      "h": 1600,
+      "color": "#362014",
+      "accent": "#020000",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Antonio da Correggio"
      }
     },
     {
@@ -2759,8 +3868,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/michelangelo-last-judgment.webp",
       "thumb": "assets/img/michelangelo-last-judgment-sm.webp",
-      "w": 1635,
-      "h": 1800,
+      "w": 1453,
+      "h": 1600,
       "color": "#7e7c7d",
       "accent": "#7a6e63",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2768,6 +3877,173 @@ window.DEPICTIONS = {
       "license": "Public domain",
       "licenseUrl": null,
       "credit": "Michelangelo"
+     }
+    },
+    {
+     "id": "mass-of-saint-gregory-feather-mosaic",
+     "title": "The Mass of Saint Gregory (Feather Mosaic)",
+     "artist": "Indigenous Nahua featherworkers (amanteca), under Diego de Alvarado Huanitzin",
+     "date": "1539",
+     "year": 1539,
+     "created": "Mexico City (Mexico-Tenochtitlan), New Spain",
+     "location": "Musée des Amériques – Auch, France",
+     "medium": "Feathers on wood panel",
+     "form": "Painting",
+     "style": "Indo-Christian (Mexican colonial)",
+     "summary": "As Pope Gregory the Great celebrates Mass, the wounded Christ, the Man of Sorrows, appears upon the altar surrounded by the instruments of his Passion — a vision proving his real presence in the Eucharist. The image is made not of paint but of thousands of iridescent feathers, cut and glued by Aztec masters of featherwork, an art prized above gold in pre-Hispanic Mexico. It is one of the earliest dated Christian artworks of the Americas.",
+     "facts": [
+      "Dated 1539, it is considered the earliest dated work of art from New Spain.",
+      "Its Latin border inscription dedicates it to Pope Paul III and names Diego de Alvarado Huanitzin, a nephew of Moctezuma who was governor of Mexico-Tenochtitlan.",
+      "The composition was adapted from a European print — a vivid example of Christian imagery reinterpreted through an ancient Mexican craft."
+     ],
+     "commons": "File:(Auch) Messe de saint Grégoire - Musée des Amériques – Auch.jpg",
+     "links": [
+      {
+       "label": "Wikipedia: Diego de Alvarado Huanitzin",
+       "url": "https://en.wikipedia.org/wiki/Diego_de_Alvarado_Huanitzin"
+      },
+      {
+       "label": "Wikipedia: Mass of Saint Gregory",
+       "url": "https://en.wikipedia.org/wiki/Mass_of_Saint_Gregory"
+      },
+      {
+       "label": "Wikipedia: Featherwork",
+       "url": "https://en.wikipedia.org/wiki/Featherwork"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/mass-of-saint-gregory-feather-mosaic.webp",
+      "thumb": "assets/img/mass-of-saint-gregory-feather-mosaic-sm.webp",
+      "w": 1321,
+      "h": 1600,
+      "color": "#715838",
+      "accent": "#8e6235",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/%28Auch%29_Messe_de_saint_Gr%C3%A9goire_-_Mus%C3%A9e_des_Am%C3%A9riques_%E2%80%93_Auch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:(Auch)_Messe_de_saint_Gr%C3%A9goire_-_Mus%C3%A9e_des_Am%C3%A9riques_%E2%80%93_Auch.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Didier Descouens"
+     }
+    },
+    {
+     "id": "cranach-weimar-altarpiece",
+     "title": "The Weimar Altarpiece (Crucifixion with Luther and Cranach)",
+     "artist": "Lucas Cranach the Elder and Lucas Cranach the Younger",
+     "date": "1552–1555",
+     "year": 1555,
+     "created": "Weimar, Germany",
+     "location": "City Church of St. Peter and Paul (Herderkirche), Weimar, Germany",
+     "medium": "Oil on wood panel",
+     "form": "Painting",
+     "style": "German Renaissance (Lutheran)",
+     "summary": "Christ hangs on the cross while, at the left, the risen Christ tramples Death and the Devil; at the right stand John the Baptist, the elder Lucas Cranach, and Martin Luther pointing to the open Bible. A stream of blood from Christ's side arcs down onto Cranach's head, a vivid picture of the Reformation teaching that salvation comes by grace through faith. Begun by the elder Cranach and completed by his son after his death, it is a central monument of Lutheran art.",
+     "facts": [
+      "Lucas Cranach the Elder died in Weimar in 1553; his son finished the altarpiece as a memorial to him.",
+      "Luther's open Bible displays verses including 1 John 1:7 — 'the blood of Jesus Christ cleanses us from all sin'.",
+      "In the background, Moses with the tablets of the Law and the bronze serpent in the wilderness illustrate the Lutheran theme of Law and Gospel."
+     ],
+     "scripture": "John 3:14–15; 1 John 1:7",
+     "commons": "File:Weimar Herderkirche - Cranach-Altar Mittelteil 1.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Weimar_Altarpiece"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/cranach-weimar-altarpiece.webp",
+      "thumb": "assets/img/cranach-weimar-altarpiece-sm.webp",
+      "w": 1398,
+      "h": 1600,
+      "color": "#776e6b",
+      "accent": "#291320",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Weimar_Herderkirche_-_Cranach-Altar_Mittelteil_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Weimar_Herderkirche_-_Cranach-Altar_Mittelteil_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Wolfgang Sauber"
+     }
+    },
+    {
+     "id": "veronese-wedding-at-cana",
+     "title": "The Wedding at Cana",
+     "artist": "Paolo Veronese",
+     "date": "1562–1563",
+     "year": 1563,
+     "created": "Venice, Italy",
+     "location": "Musée du Louvre, Paris, France",
+     "medium": "Oil on canvas",
+     "form": "Painting",
+     "style": "Venetian Renaissance",
+     "summary": "Amid a splendid Venetian banquet of more than a hundred figures — nobles, servants, musicians, dogs — Christ sits quietly at the very center, gazing out at the viewer, with his mother beside him, at the moment he turns water into wine. Above his head a servant carves meat, a foreshadowing of his sacrifice, and the hourglass in front of the musicians hints that his hour has not yet come. The immense canvas is a celebration of earthly abundance with the Eucharist at its heart.",
+     "facts": [
+      "Measuring about 6.8 by 9.9 metres, it is the largest painting in the Louvre, where it hangs opposite the Mona Lisa.",
+      "It was painted for the refectory of the Benedictine monastery of San Giorgio Maggiore in Venice, and was taken to Paris by Napoleon's troops in 1797.",
+      "Tradition identifies the musicians in the foreground as portraits of Venetian painters, including Veronese himself and Titian."
+     ],
+     "scripture": "John 2:1–11",
+     "commons": "File:Les Noces de Cana - Paolo Veronese - Musée du Louvre Peintures INV 142 ; MR 384.jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Wedding_at_Cana"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/veronese-wedding-at-cana.webp",
+      "thumb": "assets/img/veronese-wedding-at-cana-sm.webp",
+      "w": 1600,
+      "h": 1072,
+      "color": "#767462",
+      "accent": "#817d63",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Les_Noces_de_Cana_-_Paolo_Veronese_-_Mus%C3%A9e_du_Louvre_Peintures_INV_142_%3B_MR_384.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Les_Noces_de_Cana_-_Paolo_Veronese_-_Mus%C3%A9e_du_Louvre_Peintures_INV_142_;_MR_384.jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Paolo Veronese"
+     }
+    },
+    {
+     "id": "bruegel-procession-to-calvary",
+     "title": "The Procession to Calvary",
+     "artist": "Pieter Bruegel the Elder",
+     "date": "1564",
+     "year": 1564,
+     "created": "Antwerp, Southern Netherlands",
+     "location": "Kunsthistorisches Museum, Vienna, Austria",
+     "medium": "Oil on oak panel",
+     "form": "Painting",
+     "style": "Flemish Renaissance",
+     "summary": "A vast Flemish landscape swarms with hundreds of people making their way to the place of execution, and at its very center, almost lost in the crowd, Christ has fallen beneath the cross. In the foreground the grieving Virgin, John and the holy women are painted in an older, Rogier-like style, as if from another world. Bruegel shows how the most important event in history can pass unnoticed amid the bustle of ordinary life.",
+     "facts": [
+      "It is Bruegel's largest surviving panel painting, with around 500 figures.",
+      "A windmill perched on an impossibly tall crag looms over the scene, often read as the mill of God or of fate.",
+      "The painting inspired Lech Majewski's 2011 film 'The Mill and the Cross', which brings the scene to life."
+     ],
+     "scripture": "Luke 23:26–32",
+     "commons": "File:The Procession to Calvary (Bruegel).jpg",
+     "links": [
+      {
+       "label": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/The_Procession_to_Calvary_(Bruegel)"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/bruegel-procession-to-calvary.webp",
+      "thumb": "assets/img/bruegel-procession-to-calvary-sm.webp",
+      "w": 1600,
+      "h": 1163,
+      "color": "#524b31",
+      "accent": "#595030",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/The_Procession_to_Calvary_%28Bruegel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Procession_to_Calvary_(Bruegel).jpg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Pieter Brueghel the Elder"
      }
     },
     {
@@ -2799,8 +4075,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/el-greco-el-expolio.webp",
       "thumb": "assets/img/el-greco-el-expolio-sm.webp",
-      "w": 1213,
-      "h": 1800,
+      "w": 1078,
+      "h": 1600,
       "color": "#574a4a",
       "accent": "#695a58",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Disrobing_of_Christ_-_El_Greco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2851,6 +4127,49 @@ window.DEPICTIONS = {
      }
     },
     {
+     "id": "kyoto-fifteen-mysteries-of-the-rosary",
+     "title": "The Virgin and Child with the Fifteen Mysteries of the Rosary",
+     "artist": "Unknown Japanese painter (school of Giovanni Niccolò)",
+     "date": "c. 1600",
+     "year": 1600,
+     "created": "Japan (Jesuit painting seminary)",
+     "location": "Kyoto University Museum, Kyoto, Japan",
+     "medium": "Colour on paper",
+     "form": "Painting",
+     "style": "Japanese Christian (Nanban era)",
+     "summary": "The Virgin holds the Christ Child at the center, framed by fifteen small scenes of the Rosary mysteries — from the Annunciation and Nativity through the Passion and Crucifixion to the Resurrection and Ascension. Below, Saints Ignatius of Loyola and Francis Xavier kneel in adoration of the Eucharist. Painted by a Japanese artist trained in the Jesuit workshop of the Italian Giovanni Niccolò, it is a rare survivor of Japan's 'Christian century'.",
+     "facts": [
+      "After Christianity was banned in Japan in 1614, such images had to be hidden; this one was discovered only in 1930, concealed in the roof of a house in a 'hidden Christian' village near Ibaraki, Osaka.",
+      "Giovanni Niccolò, an Italian Jesuit, trained Japanese painters in European oil and watercolour techniques at seminaries in Japan from 1583.",
+      "The hidden Christians (Kakure Kirishitan) preserved their faith in secret for more than two centuries."
+     ],
+     "commons": "File:Virgin Mary with Infant Jesus and Her Fifteen Mysteries, Loyola and Francis Xavier Kyoto University Museum.png",
+     "links": [
+      {
+       "label": "Wikipedia: Kirishitan",
+       "url": "https://en.wikipedia.org/wiki/Kirishitan"
+      },
+      {
+       "label": "Wikipedia: Nanban art",
+       "url": "https://en.wikipedia.org/wiki/Nanban_art"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/kyoto-fifteen-mysteries-of-the-rosary.webp",
+      "thumb": "assets/img/kyoto-fifteen-mysteries-of-the-rosary-sm.webp",
+      "w": 1346,
+      "h": 1600,
+      "color": "#85694b",
+      "accent": "#7d5a3f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries%2C_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries,_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Unknown Japanese artist (school of Giovanni Nicolao)"
+     }
+    },
+    {
      "id": "mughal-mirat-al-quds-abgar",
      "title": "Jesus Portrayed by King Abgar's Painter (Mir'at al-quds)",
      "artist": "Mughal court artists",
@@ -2883,8 +4202,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/mughal-mirat-al-quds-abgar.webp",
       "thumb": "assets/img/mughal-mirat-al-quds-abgar-sm.webp",
-      "w": 1146,
-      "h": 1800,
+      "w": 1018,
+      "h": 1600,
       "color": "#7d5f4d",
       "accent": "#b78c5e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Unknown_artist_-_Jesus_being_portrayed_by_King_Abgar%E2%80%99s_painter%2C_from_a_Mir%E2%80%99at_al-quds_of_Father_Jerome_Xavier_%28Spanish%2C_1549%E2%80%931617%29_-_2005.145.143.a_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2936,8 +4255,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/caravaggio-calling-of-saint-matthew.webp",
       "thumb": "assets/img/caravaggio-calling-of-saint-matthew-sm.webp",
-      "w": 1752,
-      "h": 1800,
+      "w": 1557,
+      "h": 1600,
       "color": "#2d1f14",
       "accent": "#492d18",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_Calling_of_Saint_Matthew-Caravaggo_%281599-1600%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2981,8 +4300,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/caravaggio-supper-at-emmaus.webp",
       "thumb": "assets/img/caravaggio-supper-at-emmaus-sm.webp",
-      "w": 1800,
-      "h": 1281,
+      "w": 1600,
+      "h": 1138,
       "color": "#44312b",
       "accent": "#68412f",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3022,8 +4341,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/rubens-elevation-of-the-cross.webp",
       "thumb": "assets/img/rubens-elevation-of-the-cross-sm.webp",
-      "w": 1800,
-      "h": 1311,
+      "w": 1600,
+      "h": 1165,
       "color": "#3c3120",
       "accent": "#3c2e19",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Peter_Paul_Rubens_-_Raising_of_the_Cross_-_1610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3067,8 +4386,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gregorio-fernandez-cristo-yacente.webp",
       "thumb": "assets/img/gregorio-fernandez-cristo-yacente-sm.webp",
-      "w": 1800,
-      "h": 972,
+      "w": 1600,
+      "h": 864,
       "color": "#645f5a",
       "accent": "#74706e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gregorio_Fern%C3%A1ndez%2C_Cristo_yacente%2C_1627.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3112,8 +4431,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/velazquez-christ-crucified.webp",
       "thumb": "assets/img/velazquez-christ-crucified-sm.webp",
-      "w": 1207,
-      "h": 1800,
+      "w": 1073,
+      "h": 1600,
       "color": "#39352a",
       "accent": "#9d8764",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristo_crucificado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3156,8 +4475,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/kongo-crucifix-nkangi-kiditu.webp",
       "thumb": "assets/img/kongo-crucifix-nkangi-kiditu-sm.webp",
-      "w": 1334,
-      "h": 1800,
+      "w": 1186,
+      "h": 1600,
       "color": "#4f4944",
       "accent": "#514d4a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/47/Crucifix_MET_DP326205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3200,8 +4519,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/rembrandt-head-of-christ-philadelphia.webp",
       "thumb": "assets/img/rembrandt-head-of-christ-philadelphia-sm.webp",
-      "w": 1562,
-      "h": 1800,
+      "w": 1388,
+      "h": 1600,
       "color": "#301b13",
       "accent": "#371f15",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rembrandt_Harmensz._van_Rijn%2C_Dutch_%28active_Leiden_and_Amsterdam%29_-_Head_of_Christ_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3244,8 +4563,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/fumi-e-christ-on-the-cross.webp",
       "thumb": "assets/img/fumi-e-christ-on-the-cross-sm.webp",
-      "w": 1545,
-      "h": 1800,
+      "w": 1373,
+      "h": 1600,
       "color": "#8a7d5a",
       "accent": "#8c774c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/C-1011_E0175941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3285,8 +4604,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gondarine-kwerata-reesu.webp",
       "thumb": "assets/img/gondarine-kwerata-reesu-sm.webp",
-      "w": 1180,
-      "h": 1800,
+      "w": 1048,
+      "h": 1600,
       "color": "#a16b45",
       "accent": "#c97135",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Primo_stile_di_gondar%2C_kwer%27ata_re%27esu_%28uomo_di_dolori%29%2C_xvii_secolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3329,8 +4648,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/murillo-heavenly-and-earthly-trinities.webp",
       "thumb": "assets/img/murillo-heavenly-and-earthly-trinities-sm.webp",
-      "w": 1240,
-      "h": 1800,
+      "w": 1102,
+      "h": 1600,
       "color": "#61503c",
       "accent": "#8b7355",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bartolom%C3%A9_Esteban_Murillo_-_The_Heavenly_and_Earthly_Trinities_-_1681-82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3467,8 +4786,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/aleijadinho-congonhas-crucifixion.webp",
       "thumb": "assets/img/aleijadinho-congonhas-crucifixion-sm.webp",
-      "w": 1800,
-      "h": 1021,
+      "w": 1600,
+      "h": 908,
       "color": "#6e685f",
       "accent": "#888274",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aleijadinho_-_Crucifica%C3%A7%C3%A3o_de_Jesus_-_Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_-_Congonhas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3524,8 +4843,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/goya-christ-crucified.webp",
       "thumb": "assets/img/goya-christ-crucified-sm.webp",
-      "w": 1070,
-      "h": 1800,
+      "w": 951,
+      "h": 1600,
       "color": "#2a271d",
       "accent": "#877655",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cristo_en_la_cruz_%28Goya%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3568,8 +4887,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/blake-christ-in-the-sepulchre.webp",
       "thumb": "assets/img/blake-christ-in-the-sepulchre-sm.webp",
-      "w": 1296,
-      "h": 1800,
+      "w": 1152,
+      "h": 1600,
       "color": "#635947",
       "accent": "#9a886e",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/William_Blake_-_Christ_in_the_Sepulchre%2C_Guarded_by_Angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3613,8 +4932,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/thorvaldsen-christus.webp",
       "thumb": "assets/img/thorvaldsen-christus-sm.webp",
-      "w": 1201,
-      "h": 1800,
+      "w": 1067,
+      "h": 1600,
       "color": "#7f7160",
       "accent": "#988671",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Vor_Frue_Kirke_Copenhagen_altar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3702,8 +5021,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/ivanov-appearance-of-christ.webp",
       "thumb": "assets/img/ivanov-appearance-of-christ-sm.webp",
-      "w": 1800,
-      "h": 1255,
+      "w": 1600,
+      "h": 1116,
       "color": "#665e4a",
       "accent": "#715330",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2_-_%D0%AF%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B0_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D1%83_%28%D0%AF%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9C%D0%B5%D1%81%D1%81%D0%B8%D0%B8%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3747,8 +5066,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/millais-christ-in-the-house-of-his-parents.webp",
       "thumb": "assets/img/millais-christ-in-the-house-of-his-parents-sm.webp",
-      "w": 1800,
-      "h": 1092,
+      "w": 1600,
+      "h": 971,
       "color": "#8d744c",
       "accent": "#b79c68",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%28%60The_Carpenter%27s_Shop%27%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3792,8 +5111,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/hunt-light-of-the-world.webp",
       "thumb": "assets/img/hunt-light-of-the-world-sm.webp",
-      "w": 907,
-      "h": 1800,
+      "w": 806,
+      "h": 1600,
       "color": "#51432b",
       "accent": "#6e5733",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hunt-light-of-the-world.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3837,8 +5156,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/manet-dead-christ-with-angels.webp",
       "thumb": "assets/img/manet-dead-christ-with-angels-sm.webp",
-      "w": 1496,
-      "h": 1800,
+      "w": 1330,
+      "h": 1600,
       "color": "#686056",
       "accent": "#3d352c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/The_Dead_Christ_with_Angels_MET_DT856.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3882,8 +5201,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/kramskoi-christ-in-the-desert.webp",
       "thumb": "assets/img/kramskoi-christ-in-the-desert-sm.webp",
-      "w": 1800,
-      "h": 1578,
+      "w": 1600,
+      "h": 1403,
       "color": "#847b70",
       "accent": "#ded1c5",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/17/Christ_in_the_Wilderness_-_Ivan_Kramskoy_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3968,8 +5287,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/munkacsy-christ-before-pilate.webp",
       "thumb": "assets/img/munkacsy-christ-before-pilate-sm.webp",
-      "w": 1800,
-      "h": 1224,
+      "w": 1600,
+      "h": 1088,
       "color": "#836a4e",
       "accent": "#66422c",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Munkacsy_Mihaly_Christ_before_Pilate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4013,8 +5332,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/uhde-suffer-the-little-children.webp",
       "thumb": "assets/img/uhde-suffer-the-little-children-sm.webp",
-      "w": 1750,
-      "h": 1134,
+      "w": 1600,
+      "h": 1037,
       "color": "#645a4c",
       "accent": "#908368",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Fritz_von_Uhde_-_Lasset_die_Kinderlein_zu_mir_kommen%2C_1884_%28Leipzig%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4103,8 +5422,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/ensor-christs-entry-into-brussels.webp",
       "thumb": "assets/img/ensor-christs-entry-into-brussels-sm.webp",
-      "w": 1800,
-      "h": 1026,
+      "w": 1600,
+      "h": 912,
       "color": "#776453",
       "accent": "#7f4c3a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Christ%27s_Entry_into_Brussels_in_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4147,8 +5466,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gauguin-yellow-christ.webp",
       "thumb": "assets/img/gauguin-yellow-christ-sm.webp",
-      "w": 1430,
-      "h": 1800,
+      "w": 1272,
+      "h": 1600,
       "color": "#8d6d49",
       "accent": "#8d6032",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Paul_Gauguin_-_Le_Christ_jaune_%281889%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4192,8 +5511,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/ge-what-is-truth.webp",
       "thumb": "assets/img/ge-what-is-truth-sm.webp",
-      "w": 1330,
-      "h": 1800,
+      "w": 1182,
+      "h": 1600,
       "color": "#5a3c2b",
       "accent": "#784e2a",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/What_is_truth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4281,8 +5600,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/pia-shroud-of-turin-negative.webp",
       "thumb": "assets/img/pia-shroud-of-turin-negative-sm.webp",
-      "w": 1348,
-      "h": 1800,
+      "w": 1198,
+      "h": 1600,
       "color": "#65554c",
       "accent": "#321e17",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Secundo_Pia_Turinske_platno_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4326,8 +5645,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/tanner-nicodemus.webp",
       "thumb": "assets/img/tanner-nicodemus-sm.webp",
-      "w": 1800,
-      "h": 1575,
+      "w": 1600,
+      "h": 1400,
       "color": "#677866",
       "accent": "#769193",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Nicodemus_Visiting_Jesus%2C_by_Henry_Ossawa_Tanner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4382,8 +5701,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/gill-westminster-stations-trial-panel.webp",
       "thumb": "assets/img/gill-westminster-stations-trial-panel-sm.webp",
-      "w": 1788,
-      "h": 1800,
+      "w": 1589,
+      "h": 1600,
       "color": "#82786d",
       "accent": "#807668",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fifth_Station_of_The_Cross%2C_trial_panel_for_Westminster_Cathedral%2C_by_Eric_Gill%2C_1914%2C_Hoptonwood_stone_relief_in_three_vertical_stones_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4466,8 +5785,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/jawlensky-face-of-the-saviour-crown-of-thorns.webp",
       "thumb": "assets/img/jawlensky-face-of-the-saviour-crown-of-thorns-sm.webp",
-      "w": 1377,
-      "h": 1800,
+      "w": 1224,
+      "h": 1600,
       "color": "#333536",
       "accent": "#1e252b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Alexej_von_Jawlensky_Heilandsgesicht_Dornenkrone_1918.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4582,8 +5901,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/christ-the-redeemer-rio.webp",
       "thumb": "assets/img/christ-the-redeemer-rio-sm.webp",
-      "w": 1200,
-      "h": 1800,
+      "w": 1067,
+      "h": 1600,
       "color": "#696d6c",
       "accent": "#36404b",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4626,8 +5945,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/kazimirowski-divine-mercy.webp",
       "thumb": "assets/img/kazimirowski-divine-mercy-sm.webp",
-      "w": 1067,
-      "h": 1800,
+      "w": 948,
+      "h": 1600,
       "color": "#57474c",
       "accent": "#231b28",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Divina_Misericordia_%28Eugeniusz_Kazimirowski%2C_1934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4786,8 +6105,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/cristo-rei-almada.webp",
       "thumb": "assets/img/cristo-rei-almada-sm.webp",
-      "w": 1400,
-      "h": 1800,
+      "w": 1245,
+      "h": 1600,
       "color": "#9fabb9",
       "accent": "#a5bdda",
       "original": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cristo_Rei%2C_Lisboa%2C_Portugal%2C_2012-05-12%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4826,8 +6145,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/sutherland-christ-in-glory.webp",
       "thumb": "assets/img/sutherland-christ-in-glory-sm.webp",
-      "w": 1007,
-      "h": 1800,
+      "w": 895,
+      "h": 1600,
       "color": "#6d6c59",
       "accent": "#2a3421",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Christ_in_Glory_tapestry_by_Graham_Sutherland_in_Coventry_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4893,8 +6212,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/cristo-de-la-concordia.webp",
       "thumb": "assets/img/cristo-de-la-concordia-sm.webp",
-      "w": 1013,
-      "h": 1800,
+      "w": 900,
+      "h": 1600,
       "color": "#95959a",
       "accent": "#7d8497",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cristo_de_la_Concordia_Cochabamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4960,8 +6279,8 @@ window.DEPICTIONS = {
      "image": {
       "src": "assets/img/christ-the-king-swiebodzin.webp",
       "thumb": "assets/img/christ-the-king-swiebodzin-sm.webp",
-      "w": 1350,
-      "h": 1800,
+      "w": 1200,
+      "h": 1600,
       "color": "#5c677b",
       "accent": "#5c78a4",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Christ_the_King_Statue_in_%C5%9Awiebodzin_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",

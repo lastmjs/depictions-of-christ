@@ -1,0 +1,347 @@
+[
+  {
+    "id": "studenica-crucifixion",
+    "title": "The Crucifixion, Church of the Virgin, Studenica",
+    "artist": "Unknown Byzantine-trained painters working for Saint Sava",
+    "date": "1208–1209",
+    "year": 1209,
+    "created": "Studenica Monastery, Serbia",
+    "location": "Church of the Virgin, Studenica Monastery, near Kraljevo, Serbia",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Serbian Byzantine (Raška school)",
+    "summary": "On the west wall of Studenica's main church, Christ hangs on the cross in a long, gently curving body, his head bowed in a sorrow that is utterly still. The Virgin and Saint John stand at either side, set against a deep blue ground, while grieving angels hover above. Painted at the very start of the 13th century, it is one of the noblest images of the Crucifixion in all Byzantine-tradition art, and a founding masterpiece of Serbian painting.",
+    "facts": [
+      "Studenica was founded around 1190 by Stefan Nemanja, founder of the medieval Serbian state, who is buried in the church.",
+      "An inscription records that the church was painted in 1208–1209, during the time his son Sava — later Serbia's first archbishop and patron saint — led the monastery.",
+      "The monastery has been a UNESCO World Heritage Site since 1986."
+    ],
+    "scripture": "John 19:25–30",
+    "commons": "File:Studenica raspece.jpg",
+    "links": [
+      {"label": "Wikipedia: Studenica Monastery", "url": "https://en.wikipedia.org/wiki/Studenica_Monastery"}
+    ]
+  },
+  {
+    "id": "hilandar-christ-pantocrator-icon",
+    "title": "Christ Pantocrator (Hilandar Icon)",
+    "artist": "Unknown Byzantine icon painter",
+    "date": "c. 1260–1270",
+    "year": 1260,
+    "created": "Byzantine world (made for or brought to Hilandar Monastery)",
+    "location": "Hilandar Monastery, Mount Athos, Greece",
+    "medium": "Tempera and gold on wood panel",
+    "form": "Icon",
+    "style": "Late Byzantine",
+    "summary": "Christ looks out with grave, searching eyes, his right hand raised in blessing and his left clasping a jewelled Gospel book. The modeling of the face is soft and warm, with luminous highlights, showing the new humanity that Byzantine painting was reaching just as Constantinople was recovered from the Latins in 1261. It is one of the treasures of Hilandar, the Serbian monastery on the Holy Mountain.",
+    "facts": [
+      "Hilandar was founded in 1198 by the Serbian ruler Stefan Nemanja (by then the monk Simeon) and his son Saint Sava.",
+      "The monastery's collection of Byzantine and Serbian icons is among the richest on Mount Athos.",
+      "Because Mount Athos admits only men, and only by permit, most people can know its icons only through photographs and rare loan exhibitions."
+    ],
+    "commons": "File:Christus Pantokrator 13 Jh. Hilandar.jpg",
+    "links": [
+      {"label": "Wikipedia: Hilandar", "url": "https://en.wikipedia.org/wiki/Hilandar"}
+    ]
+  },
+  {
+    "id": "cavallini-last-judgment",
+    "title": "The Last Judgment (Christ the Judge)",
+    "artist": "Pietro Cavallini",
+    "date": "c. 1293",
+    "year": 1293,
+    "created": "Rome, Italy",
+    "location": "Nuns' choir, Santa Cecilia in Trastevere, Rome, Italy",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Roman Proto-Renaissance",
+    "summary": "Christ sits enthroned within a mandorla ringed by angels whose wings shade from crimson to white, showing the wounds in his hands and side as he comes to judge. Cavallini models the faces and draperies with a soft, rounded light that seems to look back to ancient Roman painting and forward to Giotto. Though only the upper part survives, it is the grandest surviving work of the Roman school that helped make the Italian Renaissance possible.",
+    "facts": [
+      "The fresco was hidden for centuries behind the nuns' choir stalls and was rediscovered only around 1900.",
+      "It is seen today from the upper gallery of the Benedictine convent attached to the church, open to visitors at limited hours.",
+      "Cavallini also designed the mosaics of the Life of the Virgin in nearby Santa Maria in Trastevere."
+    ],
+    "scripture": "Matthew 25:31–46",
+    "commons": "File:Cavallini Last Judgement 01.jpg",
+    "links": [
+      {"label": "Wikipedia: Pietro Cavallini", "url": "https://en.wikipedia.org/wiki/Pietro_Cavallini"},
+      {"label": "Wikipedia: Santa Cecilia in Trastevere", "url": "https://en.wikipedia.org/wiki/Santa_Cecilia_in_Trastevere"}
+    ]
+  },
+  {
+    "id": "giotto-kiss-of-judas",
+    "title": "The Arrest of Christ (Kiss of Judas)",
+    "artist": "Giotto di Bondone",
+    "date": "c. 1304–1306",
+    "year": 1305,
+    "created": "Padua, Italy",
+    "location": "Scrovegni (Arena) Chapel, Padua, Italy",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Proto-Renaissance",
+    "summary": "Judas wraps Christ in his billowing yellow cloak and leans in for the kiss, and the two profiles meet eye to eye — betrayal answered by a calm, piercing gaze. Around them torches, clubs and lances bristle against the blue night, while at the left Peter slashes at the ear of the high priest's servant. Few images in Western art concentrate so much drama into a single silent exchange of looks.",
+    "facts": [
+      "Judas's cloak swallows Christ's body almost completely, so that only his head remains free — a visual metaphor of evil enveloping the innocent.",
+      "A hooded figure seen from behind, tugging at a disciple's robe, pulls the viewer into the crowd, a device Giotto also used in the Lamentation in the same chapel.",
+      "Yellow became the conventional color of Judas in later medieval art, and Giotto's fresco is one of its most memorable uses."
+    ],
+    "scripture": "Matthew 26:47–56; John 18:10",
+    "commons": "File:Giotto - Scrovegni - -31- - Kiss of Judas.jpg",
+    "links": [
+      {"label": "Wikipedia: Kiss of Judas", "url": "https://en.wikipedia.org/wiki/Kiss_of_Judas"},
+      {"label": "Wikipedia: Scrovegni Chapel", "url": "https://en.wikipedia.org/wiki/Scrovegni_Chapel"}
+    ]
+  },
+  {
+    "id": "duccio-entry-into-jerusalem",
+    "title": "Christ's Entry into Jerusalem (from the Maestà)",
+    "artist": "Duccio di Buoninsegna",
+    "date": "1308–1311",
+    "year": 1308,
+    "created": "Siena, Italy",
+    "location": "Museo dell'Opera del Duomo, Siena, Italy",
+    "medium": "Tempera and gold on wood panel",
+    "form": "Painting",
+    "style": "Sienese Gothic",
+    "summary": "Christ rides toward the city gate on a donkey, followed by his apostles, as the people of Jerusalem pour out to meet him; children climb trees to cut branches and spread garments in his path. Duccio builds a convincing world of walls, gardens and towers that tilts up toward the viewer, opening the scene like a stage. It is one of the largest and most celebrated panels of the Passion cycle on the back of the Maestà, Siena's great high altarpiece.",
+    "facts": [
+      "When the Maestà was finished in June 1311, it was carried in solemn procession from Duccio's workshop to the cathedral, accompanied by the ringing of the city's bells.",
+      "The Entry into Jerusalem occupies a double-height field, marking the opening of the Passion story on the altarpiece's back.",
+      "The altarpiece was sawn apart in 1771; most of it remains in Siena, but panels are now in London, Washington, New York and elsewhere — including the Temptation on the Mount shown elsewhere in this journey."
+    ],
+    "scripture": "Matthew 21:1–11",
+    "commons": "File:Maesta.Duccio. detail.jpg",
+    "links": [
+      {"label": "Wikipedia: Maestà (Duccio)", "url": "https://en.wikipedia.org/wiki/Maest%C3%A0_(Duccio)"}
+    ]
+  },
+  {
+    "id": "lorenzetti-deposition-assisi",
+    "title": "The Deposition from the Cross",
+    "artist": "Pietro Lorenzetti",
+    "date": "c. 1310–1329",
+    "year": 1320,
+    "created": "Assisi, Italy",
+    "location": "Left transept, Lower Church, Basilica of San Francesco, Assisi, Italy",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Sienese Gothic",
+    "summary": "Christ's lifeless body is lowered from the cross, folded at sharp, broken angles as his friends strain to receive it. Mary presses her face to her Son's, John bends to hold him, and the Magdalene kneels to kiss his feet, the whole group compressed into a single arc of grief. The austere, angular composition is among the most moving images of the Passion produced in 14th-century Italy.",
+    "facts": [
+      "The fresco belongs to a large Passion cycle painted by Pietro Lorenzetti and his workshop in the left transept of the Lower Church.",
+      "In the same transept, Lorenzetti's 'Madonna dei Tramonti' (Madonna of the Sunsets) is so called because it is lit by the setting sun.",
+      "Pietro was the elder brother of Ambrogio Lorenzetti; both are thought to have died in the Black Death of 1348."
+    ],
+    "scripture": "John 19:38–40",
+    "commons": "File:Pietro Lorenzetti - Deposition of Christ from the Cross - WGA13523.jpg",
+    "links": [
+      {"label": "Wikipedia: Pietro Lorenzetti", "url": "https://en.wikipedia.org/wiki/Pietro_Lorenzetti"}
+    ]
+  },
+  {
+    "id": "gracanica-dome-pantocrator",
+    "title": "Christ Pantocrator, Main Dome of Gračanica",
+    "artist": "Unknown painters of King Milutin's court (attributed to the workshop of Michael Astrapas and Eutychios)",
+    "date": "c. 1321",
+    "year": 1321,
+    "created": "Gračanica, Kosovo",
+    "location": "Gračanica Monastery, Kosovo",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Palaiologan Byzantine (Serbian)",
+    "summary": "From the summit of the central dome, Christ the Almighty looks down within a great medallion, blessing with one hand and holding the Gospel with the other, while angels and prophets circle beneath him. The painting fills the highest point of the church with the image of heaven itself, so that the worshipper below stands beneath the gaze of Christ. Gračanica is one of the last great monuments of King Stefan Milutin and a summit of Serbian Palaiologan art.",
+    "facts": [
+      "King Stefan Uroš II Milutin completed the church around 1321, near the end of his reign.",
+      "Its five domes and soaring, stepped massing make it one of the most admired buildings of late Byzantine architecture.",
+      "Gračanica is part of the UNESCO World Heritage site 'Medieval Monuments in Kosovo', which has been on the List of World Heritage in Danger since 2006."
+    ],
+    "commons": "File:Christ Pantocrator, main dome, GRACANICA 2 IMG 7992.jpg",
+    "links": [
+      {"label": "Wikipedia: Gračanica Monastery", "url": "https://en.wikipedia.org/wiki/Gra%C4%8Danica_Monastery"}
+    ]
+  },
+  {
+    "id": "simone-martini-christ-discovered-in-the-temple",
+    "title": "Christ Discovered in the Temple",
+    "artist": "Simone Martini",
+    "date": "1342",
+    "year": 1342,
+    "created": "Avignon, France",
+    "location": "Walker Art Gallery, Liverpool, United Kingdom",
+    "medium": "Tempera and gold on wood panel",
+    "form": "Painting",
+    "style": "Sienese Gothic",
+    "summary": "Rarely has a sacred subject been painted with such domestic tenderness: the boy Jesus, newly found in the Temple, stands with arms folded, while Mary, seated with an open book, gently reproaches him and Joseph gestures as if to explain. The jewel-like colours and gold ground are pure Sienese Gothic, yet the emotion is utterly human. Simone painted it at the papal court in Avignon, where he spent his last years.",
+    "facts": [
+      "The panel is signed and dated 1342, one of Simone's last works; he died in Avignon in 1344.",
+      "The book Mary holds is inscribed with her words from Luke: 'Son, why hast thou thus dealt with us?'",
+      "The subject — the family's reunion after the search, rather than Jesus disputing with the doctors — is extremely unusual in medieval art."
+    ],
+    "scripture": "Luke 2:41–51",
+    "commons": "File:Simone Martini - Christ Discovered in the Temple - Google Art Project.jpg",
+    "links": [
+      {"label": "Wikipedia: Simone Martini", "url": "https://en.wikipedia.org/wiki/Simone_Martini"},
+      {"label": "Walker Art Gallery", "url": "https://www.liverpoolmuseums.org.uk/artifact/christ-discovered-temple"}
+    ]
+  },
+  {
+    "id": "parisian-ivory-passion-diptych",
+    "title": "Diptych with Scenes from the Passion of Christ",
+    "artist": "Unknown Parisian ivory carver",
+    "date": "c. 1350–1365",
+    "year": 1350,
+    "created": "Paris, France",
+    "location": "Walters Art Museum, Baltimore, United States",
+    "medium": "Elephant ivory",
+    "form": "Relief",
+    "style": "French Gothic",
+    "summary": "Two hinged ivory leaves, small enough to hold, unfold the whole Passion in thirteen scenes beneath delicate Gothic arches — from the Entry into Jerusalem and the Last Supper through the Crucifixion to Christ's appearance to Mary Magdalene and his descent into Limbo. The slender, swaying figures and softly falling drapery are typical of the Paris workshops that led European ivory carving in the 14th century. Such diptychs were treasured aids to private prayer for wealthy owners.",
+    "facts": [
+      "The scenes read from top to bottom and left to right, like the lines of a book.",
+      "Paris was the leading centre of Gothic ivory carving, working African elephant ivory that reached Europe through Mediterranean trade.",
+      "Many such ivories were originally enlivened with paint and gilding, of which only faint traces usually survive."
+    ],
+    "commons": "File:French - Diptych with Scenes from the Passion of Christ - Walters 71179.jpg",
+    "links": [
+      {"label": "Wikipedia: Ivory carving", "url": "https://en.wikipedia.org/wiki/Ivory_carving"}
+    ]
+  },
+  {
+    "id": "theophanes-pantocrator-ilyina-street",
+    "title": "Christ Pantocrator, Church of the Transfiguration on Ilyina Street",
+    "artist": "Theophanes the Greek",
+    "date": "1378",
+    "year": 1378,
+    "created": "Novgorod, Russia",
+    "location": "Church of the Transfiguration on Ilyina Street, Veliky Novgorod, Russia",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Late Byzantine (Palaiologan)",
+    "summary": "In the dome of a small Novgorod church, Christ the Almighty gazes down, surrounded by archangels and the forefathers, painted with a few swift, almost impressionistic strokes of white highlight. Theophanes, a master trained in Constantinople, brought to Russia a fiery, ascetic style in which light seems to break out from within the figures. These are his only securely documented frescoes, and they shaped the course of Russian painting.",
+    "facts": [
+      "A Novgorod chronicle records that the church was painted in 1378 by the Greek master Theophanes, commissioned by the boyar Vasily Danilovich.",
+      "Theophanes later worked in Moscow alongside the young Andrei Rublev on the iconostasis of the Kremlin's Annunciation Cathedral (1405).",
+      "The church survives from 1374 and is part of the UNESCO World Heritage site 'Historic Monuments of Novgorod and Surroundings'."
+    ],
+    "commons": "File:Spas na Ilyine - Christ Pantocrator, archangels and patriarchs.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Church_of_the_Transfiguration_on_Ilyina_Street"},
+      {"label": "Wikipedia: Theophanes the Greek", "url": "https://en.wikipedia.org/wiki/Theophanes_the_Greek"}
+    ]
+  },
+  {
+    "id": "sluter-champmol-head-of-christ",
+    "title": "Head and Torso of Christ (from the Champmol Calvary)",
+    "artist": "Claus Sluter",
+    "date": "1396–1399",
+    "year": 1399,
+    "created": "Dijon, Burgundy, France",
+    "location": "Musée Archéologique, Dijon, France",
+    "medium": "Limestone with traces of paint",
+    "form": "Sculpture",
+    "style": "International Gothic (Burgundian)",
+    "summary": "Crowned with thorns, eyes half closed and lips parted in the last breath, this Christ is all that survives of the great crucifix that once rose above the Well of Moses at the Charterhouse of Champmol. Sluter carves the hair and beard in heavy, living curls and gives the face a weight of suffering new to northern sculpture. Even as a fragment it remains one of the most powerful images of the dying Christ from the late Middle Ages.",
+    "facts": [
+      "The crucifix was installed in July 1399 on top of the hexagonal 'Well of Moses', whose six prophet statues still stand in situ at Champmol.",
+      "The monument was commissioned by Philip the Bold, Duke of Burgundy, for the Carthusian monastery he founded as his dynasty's burial place; it was painted by Jean Malouel.",
+      "The cross was dismantled in the late 18th century; this fragment was later found built into a wall in Dijon."
+    ],
+    "commons": "File:Claus-sluter-Champmol3.jpg",
+    "links": [
+      {"label": "Wikipedia: Well of Moses", "url": "https://en.wikipedia.org/wiki/Well_of_Moses"}
+    ]
+  },
+  {
+    "id": "rublev-trinity",
+    "title": "The Trinity (Hospitality of Abraham)",
+    "artist": "Andrei Rublev",
+    "date": "c. 1411 or 1425–1427",
+    "year": 1411,
+    "created": "Trinity Lavra of St. Sergius, Sergiyev Posad, Russia",
+    "location": "Trinity Cathedral, Trinity Lavra of St. Sergius, Sergiyev Posad, Russia (Tretyakov Gallery, Moscow, 1929–2023)",
+    "medium": "Tempera on wood panel",
+    "form": "Icon",
+    "style": "Russian (Moscow school)",
+    "summary": "Three angels sit around a table bearing a single chalice — the visitors who came to Abraham at Mamre, painted as an image of the Holy Trinity. In the traditional reading the central angel, in the deep red and blue robes of Christ, is the Son, inclining toward the Father as the circle of heads, wings and gestures draws the viewer into their silent communion around the eucharistic cup. It is perhaps the most celebrated of all Russian icons.",
+    "facts": [
+      "It was painted in honour of Saint Sergius of Radonezh for the Trinity Lavra he founded.",
+      "Scholars debate which angel represents which Person of the Trinity; many identify the central angel with Christ, others with the Father.",
+      "After nearly a century in the Tretyakov Gallery, the icon was transferred to the Russian Orthodox Church in 2023 and returned to the Lavra's Trinity Cathedral in 2024, despite conservators' concerns."
+    ],
+    "scripture": "Genesis 18:1–8",
+    "commons": "File:Andrey Rublev - Св. Троица - Google Art Project.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Trinity_(Andrei_Rublev)"}
+    ]
+  },
+  {
+    "id": "tres-riches-heures-temptation-of-christ",
+    "title": "The Temptation of Christ (Très Riches Heures du Duc de Berry, fol. 161v)",
+    "artist": "Limbourg brothers (Paul, Herman and Jean de Limbourg)",
+    "date": "c. 1411–1416",
+    "year": 1414,
+    "created": "France, for Jean, Duke of Berry",
+    "location": "Musée Condé, Château de Chantilly, France (Ms. 65)",
+    "medium": "Tempera, gold and ink on vellum",
+    "form": "Manuscript",
+    "style": "International Gothic",
+    "summary": "On a crag high above the world, the devil offers Christ all the kingdoms of the earth; far below rises a gleaming white château, as if it were the most tempting kingdom of all. The page shows the Limbourg brothers' famous gift for landscape and luminous colour in one of the most celebrated manuscripts ever made. It illustrates the Gospel for the first Sunday of Lent.",
+    "facts": [
+      "The castle below is the Duke of Berry's own beloved Château de Mehun-sur-Yèvre — a sly suggestion of how real the temptation of worldly splendour could be.",
+      "The three Limbourg brothers and their patron all died in 1416, probably of plague, leaving the book unfinished; it was completed decades later by Jean Colombe.",
+      "Because of its fragility, the original manuscript is very rarely displayed."
+    ],
+    "scripture": "Matthew 4:8–10",
+    "commons": "File:326 MS 65 F161 V.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tr%C3%A8s_Riches_Heures_du_Duc_de_Berry"}
+    ]
+  },
+  {
+    "id": "campin-seilern-triptych",
+    "title": "The Seilern Triptych (The Entombment)",
+    "artist": "Robert Campin (Master of Flémalle)",
+    "date": "c. 1425",
+    "year": 1425,
+    "created": "Tournai, Southern Netherlands",
+    "location": "Courtauld Gallery, London, United Kingdom",
+    "medium": "Oil and gold on oak panel",
+    "form": "Painting",
+    "style": "Early Netherlandish",
+    "summary": "At the center, Christ's body is laid in the tomb by Joseph of Arimathea and Nicodemus as Mary bends over him and angels display the instruments of the Passion. On the left wing a donor kneels before the empty cross on Calvary; on the right Christ rises from the tomb. Set against a richly tooled gold ground, the triptych stands at the very beginning of Early Netherlandish oil painting, combining medieval splendour with a startling new realism.",
+    "facts": [
+      "It is named after Count Antoine Seilern, who bequeathed it to the Courtauld in 1978.",
+      "It is considered one of the earliest surviving works of Robert Campin, the teacher of Rogier van der Weyden.",
+      "Its elaborately tooled gold background is a survival of older Gothic panel practice, even as the figures are painted with the new oil technique."
+    ],
+    "scripture": "John 19:38–42",
+    "commons": "File:Triptych-with-the-entombment-of-christ-1822.jpg",
+    "links": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Seilern_Triptych"}
+    ]
+  },
+  {
+    "id": "fra-angelico-noli-me-tangere",
+    "title": "Noli me tangere",
+    "artist": "Fra Angelico",
+    "date": "c. 1440–1442",
+    "year": 1440,
+    "created": "Florence, Italy",
+    "location": "Cell 1, Convent of San Marco (Museo Nazionale di San Marco), Florence, Italy",
+    "medium": "Fresco",
+    "form": "Fresco",
+    "style": "Early Renaissance",
+    "summary": "In a garden bright with flowers, the risen Christ, carrying a hoe over his shoulder, turns gently from Mary Magdalene as she kneels and reaches toward him. His movement is a kind of dance — he steps away while turning back to her — capturing both the joy of recognition and the call not to cling to him. Painted for a friar's cell, it was meant to lead quiet meditation on the mystery of the Resurrection.",
+    "facts": [
+      "Christ carries a hoe because Mary first mistook him for the gardener.",
+      "Small red-spotted flowers scattered near his feet are often read as echoes of the wounds in his hands and feet.",
+      "Fra Angelico and his assistants painted a fresco in each of the friars' cells at San Marco, designed as aids to prayer rather than for public display."
+    ],
+    "scripture": "John 20:11–18",
+    "commons": "File:Fra Angelico, Noli Me Tangere, 1440-41; Convent of San Marco, Florence (2).jpg",
+    "links": [
+      {"label": "Wikipedia: Fra Angelico", "url": "https://en.wikipedia.org/wiki/Fra_Angelico"},
+      {"label": "Wikipedia: Museo Nazionale di San Marco", "url": "https://en.wikipedia.org/wiki/Museo_Nazionale_di_San_Marco"}
+    ]
+  }
+]

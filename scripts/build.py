@@ -32,7 +32,7 @@ JS_OUT = ROOT / "assets" / "js" / "data.js"
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ; static site build)"
 FETCH_WIDTH = 1920
-LARGE = 1800
+LARGE = 1600
 SMALL = 560
 FORCE = "--force" in sys.argv
 
@@ -144,7 +144,7 @@ def process_image(entry, info):
     if FORCE or not large_path.exists():
         big = img.copy()
         big.thumbnail((LARGE, LARGE), Image.LANCZOS)
-        big.save(large_path, "WEBP", quality=82, method=6)
+        big.save(large_path, "WEBP", quality=80, method=6)
     if FORCE or not small_path.exists():
         sm = img.copy()
         sm.thumbnail((SMALL, SMALL), Image.LANCZOS)

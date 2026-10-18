@@ -1,0 +1,1067 @@
+[
+ {
+  "key": "Q116245184",
+  "status": "verified",
+  "set": {},
+  "summary": "This slender ivory leaf, once the wing of a small Byzantine triptych, carries three scenes stacked one above another. At the top the Virgin of the Annunciation stands before an architectural backdrop; in the centre Christ hangs on the cross with a mourner beside him; and at the bottom the angel sits upon the empty tomb, announcing the Resurrection. Read from top to bottom, the little panel traces the whole arc of salvation, from the Incarnation to Easter morning.",
+  "scripture": "Luke 1:26–38; John 19:17–30; Matthew 28:1–7",
+  "facts": [
+   "The Met describes the panel as a fragmentary door whose interior shows the Virgin of the Annunciation, the Crucifixion and the angel seated on Christ's tomb.",
+   "It is a small object, only about 19.3 cm high and 4.6 cm wide, and is dated 970–1030; it was probably carved in Constantinople."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/466058"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116245184"
+   }
+  ]
+ },
+ {
+  "key": "commons:60893322",
+  "status": "rejected",
+  "reject_reason": "Duplicate: this Commons file (DP145577) is only a side view of the Met's pendant brooch 2007.9 (object 477247), which is already in the collection as Q116280046 with the frontal photograph (DP145578). The side view does not show the cameo of Christ.",
+  "dup_of": "Q116280046",
+  "set": {},
+  "notes": "The surviving entry Q116280046 is currently undated; the Met dates the cameo late 1000s–1100s and the gold mount 1100s–1300s (chalcedony cameo; gold mount with pearls, emeralds, garnets, sapphires and a sardonyx intaglio)."
+ },
+ {
+  "key": "Q141119571",
+  "status": "corrected",
+  "set": {
+   "t": "Book-Cover Plaque of Bishop Adalbero (the Crucifixion)",
+   "original_title": "Plaque de reliure dite d'Adalbéron",
+   "d": "c. 1000",
+   "y": 1000,
+   "c": "Lotharingia, probably Metz",
+   "l": "Musée de la Cour d'Or, Metz",
+   "m": "Ivory",
+   "k": "ivory"
+  },
+  "summary": "Framed by a border of acanthus, this ivory plaque sets the crucified Christ at the centre of a crowded cosmic drama. Angels adore the cross between the sun and moon, figures personifying the Church and the Synagogue stand to either side, the lance-bearer and sponge-bearer flank the cross, and below the dead rise from their tombs while a foliate column carries the cross up from the world of Earth and Ocean. Made around the year 1000 for a precious liturgical book, it shows Ottonian carvers re-working the rich Carolingian crucifixion imagery of Metz.",
+  "scripture": "John 19:17–37; Matthew 27:51–53",
+  "facts": [
+   "According to the French Wikipedia article, the plaque was commissioned by Adalbero II, Bishop of Metz (984–1005), as the cover of a precious liturgical book.",
+   "The titulus above Christ reads IHS NAZAREN REX IUDEORU ('Jesus of Nazareth, King of the Jews'), and Adam and Eve appear in contrition on the capital at the foot of the cross.",
+   "The Church (Ecclesia) is shown catching the blood from Christ's side in a vessel, while the Synagogue turns away: a pairing common in medieval crucifixion imagery."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (fr): Plaque de reliure dite d'Adalbéron",
+    "url": "https://fr.wikipedia.org/wiki/Plaque_de_reliure_dite_d%27Adalb%C3%A9ron"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q141119571"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Mba_metz_plaque_de_reliure_dite_d%27adalb%C3%A9ron.jpg"
+   }
+  ],
+  "notes": "The Commons file is categorised under Adalbero I of Metz (bishop 929–962), but the French Wikipedia article names Adalbero II (984–1005) and dates the plaque c. 1000; this has not been checked against the museum's own catalogue. Dimensions per Wikidata: 15.4 × 9.3 cm."
+ },
+ {
+  "key": "Q29385419",
+  "status": "corrected",
+  "set": {
+   "d": "c. 1000–1050",
+   "c": "Byzantine Empire",
+   "m": "Silver with gilding and gilded silver medallions"
+  },
+  "summary": "This large silver processional cross, its flaring arms ending in small finials, bears gilded medallions on the front: at the centre a bust of Christ, with the archangels above and below him and, to left and right, the Virgin Mary and John the Baptist interceding for humanity. Carried at the head of processions, it set Christ visibly at the heart of the Church's prayer, surrounded by the heavenly court.",
+  "facts": [
+   "The Met notes that the front shows Christ with the archangels Michael and Gabriel above and below, and the Virgin and John the Forerunner to either side, the traditional intercessors.",
+   "An inscription on the back records it as the votive gift of a Bishop Leo; the back's central medallion shows Saint Thalelaios, a physician-martyr, with his medical case and lancet.",
+   "The cross measures about 59.5 × 43 cm and is dated c. 1000–1050."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/466251"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q29385419"
+   }
+  ]
+ },
+ {
+  "key": "commons:144186874",
+  "status": "corrected",
+  "set": {
+   "t": "Cover of the Pericopes of Henry II",
+   "original_title": "Prachteinband zum Perikopenbuch Heinrichs II.",
+   "d": "ivory c. 870; jewelled cover early 11th century",
+   "y": 1010,
+   "c": "Ivory: Carolingian (often assigned to Metz); frame: Ottonian Germany",
+   "l": "Bavarian State Library, Munich (Clm 4452)",
+   "m": "Ivory plaque in a frame of gold, enamel, pearls and gemstones",
+   "k": "metalwork"
+  },
+  "summary": "The jewelled cover of Emperor Henry II's book of Gospel readings frames an older ivory of the Crucifixion within gold, gems, pearls and enamel roundels of the evangelists' symbols. In the ivory, angels hover above the cross between the sun and moon, mourners and soldiers stand below, the holy women come to the tomb, and the dead rise from their graves, with Ocean and Earth at the bottom. The Ottonian goldsmiths thus enshrined a Carolingian masterpiece, honouring the crucified Christ with the most precious materials of the age.",
+  "scripture": "John 19:17–37; Matthew 28:1–8",
+  "facts": [
+   "Wikipedia notes that the ivory plaque was carved around 870, probably in the circle of the Carolingian court school associated with Metz, and was reused in the 11th-century cover.",
+   "The manuscript, made for Henry II, the last Ottonian emperor, is a masterpiece of the Reichenau 'Liuthar group' of illuminators; it is now Clm 4452 in the Bavarian State Library.",
+   "The cover's inscription names Henry II; the Commons description links its making to the founding of the diocese of Bamberg in 1007."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Pericopes of Henry II",
+    "url": "https://en.wikipedia.org/wiki/Pericopes_of_Henry_II"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Prachteinband_zum_Perikopenbuch_Heinrichs_II._(M%C3%BCnchen,_BSB,_Clm_4452).jpg"
+   }
+  ],
+  "notes": "Dating of the frame varies: Wikipedia gives c. 1014, the Commons description c. 1007 (foundation of Bamberg). Wikipedia also says Christ and the twelve apostles appear along the frame; this could not be confirmed at thumbnail size."
+ },
+ {
+  "key": "Q3241675",
+  "status": "corrected",
+  "set": {
+   "t": "Lintel of Saint-Génis-des-Fontaines",
+   "original_title": "Linteau de Saint-Génis-des-Fontaines",
+   "d": "1019–1020",
+   "c": "Saint-Génis-des-Fontaines (Roussillon)",
+   "l": "Abbey church of Saint-Génis-des-Fontaines, Pyrénées-Orientales, France",
+   "m": "Marble",
+   "s": "Romanesque",
+   "k": "relief"
+  },
+  "summary": "Above the abbey church's door, Christ sits enthroned in a beaded mandorla held aloft by two angels, his right hand raised in blessing. On either side, three figures, usually read as apostles, stand beneath horseshoe arches, and a Latin inscription runs across the top of the slab. Carved almost like goldsmith's work, it is the earliest dated piece of Romanesque stone sculpture and a landmark at the very birth of the style.",
+  "scripture": "Revelation 4:2–3 (theme)",
+  "facts": [
+   "Its inscription records that Abbot William had it made in the twenty-fourth year of King Robert (Robert II the Pious), which corresponds to 1019–1020.",
+   "It is regarded as the oldest dated Romanesque sculpture in stone.",
+   "The horseshoe arches carved on it are thought to reflect an earlier, probably Carolingian, cloister at the abbey."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (fr): Linteau de l'abbaye de Saint-Génis-des-Fontaines",
+    "url": "https://fr.wikipedia.org/wiki/Linteau_de_l%27abbaye_de_Saint-G%C3%A9nis-des-Fontaines"
+   },
+   {
+    "label": "Wikipedia: Saint-Génis-des-Fontaines Abbey",
+    "url": "https://en.wikipedia.org/wiki/Saint-G%C3%A9nis-des-Fontaines_Abbey"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q3241675"
+   }
+  ],
+  "notes": "The French Wikipedia article says the slab may first have served as an altar support and was set over the door only in the 12th century; the side figures are not individually identified by inscription."
+ },
+ {
+  "key": "Q29385366",
+  "status": "verified",
+  "set": {},
+  "summary": "At the heart of an openwork foliate cross, the Lamb of God strides within a roundel, while the four winged creatures of the evangelists, each holding a book, fill the spaces between the arms: the man of Matthew, the lion of Mark, the ox of Luke and the eagle of John. The plaque once adorned the cover of a luxurious Gospel book, so that the Gospels themselves were framed by Christ the sacrificial Lamb and his four witnesses.",
+  "scripture": "John 1:29; Revelation 4:6–7; Revelation 5:6",
+  "facts": [
+   "The Met notes that this plaque originally covered a deluxe binding of a now-lost Gospel book.",
+   "Its stylised symbols and interlaced foliate cross have parallels in manuscripts from the region of Benevento, including the Benedictine monastery of Monte Cassino.",
+   "The four creatures derive from John's vision in Revelation 4:6–7."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464360"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q29385366"
+   }
+  ]
+ },
+ {
+  "key": "aic:36660",
+  "status": "corrected",
+  "set": {
+   "c": "Constantinople"
+  },
+  "summary": "On one face of this gold coin Christ sits frontally on a throne, haloed, holding the book of the Gospels, with a Latin legend proclaiming him King of rulers. On the other face the Virgin crowns the Emperor Romanos III Argyros, who holds a cross-topped orb. Passed from hand to hand across the empire, such coins proclaimed that the emperor ruled under Christ, the true King.",
+  "facts": [
+   "Romanos III Argyros reigned 1028–1034; the Art Institute notes that he died possibly at the hands, or on the order, of his wife Zoe.",
+   "The legend around Christ reads IhS XIS REX REGNANTIUM ('Jesus Christ, King of those who reign').",
+   "The coin is about 2.5 cm in diameter."
+  ],
+  "links": [
+   {
+    "label": "Art Institute of Chicago: object page",
+    "url": "https://www.artic.edu/artworks/36660"
+   }
+  ],
+  "notes": "Place given by the museum as 'Istanbul'; changed to the historical name Constantinople. The museum's text says Christ holds the Gospel book in his right hand, but in the photograph he holds it in his left, with the right hand at his breast."
+ },
+ {
+  "key": "wga:zgothic/mosaics/8/4byzant1",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Enthroned with Emperor Constantine IX Monomachos and Empress Zoe (the Zoe Mosaic)",
+   "d": "11th century (heads reworked after 1042)",
+   "y": 1042,
+   "c": "Constantinople",
+   "l": "South gallery, Hagia Sophia, Istanbul",
+   "m": "Mosaic",
+   "s": "Middle Byzantine"
+  },
+  "summary": "Against a field of gold, Christ sits enthroned in a deep blue robe, blessing with his right hand and holding a jewelled Gospel book in his left, the letters IC XC beside his head. Emperor Constantine IX Monomachos offers a purse to him and Empress Zoe holds a scroll recording her gifts to the church. This imperial donor panel set the rulers of Byzantium in the very presence of Christ, before whom even an emperor approaches as a suppliant giver.",
+  "facts": [
+   "The heads of all three figures were scraped off and replaced; the earlier panel may have shown Zoe's first husband Romanos III or her second husband Michael IV.",
+   "The mosaic is on the east wall of the southern gallery of Hagia Sophia.",
+   "Constantine IX Monomachos, Zoe's third husband, reigned from 1042 to 1055."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zgothic/mosaics/8/4byzant1.html"
+   },
+   {
+    "label": "Wikipedia: Hagia Sophia (Empress Zoe mosaic)",
+    "url": "https://en.wikipedia.org/wiki/Hagia_Sophia#Empress_Zoe_mosaic"
+   }
+  ],
+  "notes": "WGA gives 1034–42 and lists the period as 1101–1150, which is wrong. Wikipedia dates the mosaic only to the 11th century; the present heads date from after Constantine IX's accession in 1042."
+ },
+ {
+  "key": "met:463587",
+  "status": "corrected",
+  "set": {
+   "t": "Replica of the Book-Shrine (Cumdach) of the Stowe Missal",
+   "d": "early 20th century replica (the figured face of the original c. 1375; the shrine begun 1026–33)",
+   "y": 1375,
+   "c": "Ireland",
+   "l": "The Metropolitan Museum of Art, New York (original: National Museum of Ireland, Dublin)",
+   "k": "metalwork"
+  },
+  "summary": "This is an early 20th-century reproduction of the shrine made to hold the Stowe Missal, an Irish Mass book. The face shown, with its large central crystal and gem-set cross, has four engraved figures in the spaces between the arms; at the upper left is Christ crucified, alongside the Virgin and Child, a bishop giving a blessing and a cleric with a book. The original shrine, begun in the 11th century and given this face around 1375, is one of the oldest Irish book-shrines, and the replica preserves its image of the crucified Lord for study.",
+  "scripture": "John 19:17–30",
+  "facts": [
+   "The Met classifies this object as a reproduction (Rogers Fund, 1911); the original shrine is in the National Museum of Ireland.",
+   "On the original, one face and the sides date from c. 1026–33, according to their inscriptions; the face with the Crucifixion was added c. 1375 for Pilib Ó Ceinnéidigh (Philip O'Kennedy), 'king of Ormond', and his wife Áine.",
+   "The manuscript it protected, the Stowe Missal, dates from the late 8th or early 9th century and is now in the Royal Irish Academy, Dublin."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/463587"
+   },
+   {
+    "label": "Wikipedia: Stowe Missal",
+    "url": "https://en.wikipedia.org/wiki/Stowe_Missal"
+   }
+  ],
+  "notes": "A modern replica. The Met's date line ('original dated 1025–52') refers to the older parts of the shrine, but the face shown with the Crucifixion reproduces the c. 1375 refurbishment. y is set to 1375 to place the depicted design; the editors may prefer to date the object itself (c. 1911) or to exclude replicas."
+ },
+ {
+  "key": "commons:28968893",
+  "status": "corrected",
+  "set": {
+   "t": "Centre of a Triptych with the Ascension of Christ",
+   "d": "second half of the 11th century",
+   "y": 1075,
+   "c": "Byzantine Empire",
+   "l": "Bode-Museum (Museum für Byzantinische Kunst), Berlin",
+   "m": "Ivory",
+   "k": "ivory"
+  },
+  "summary": "Christ sits in a round glory carried aloft by four angels, two above and two flying beneath, his right hand raised in blessing. Below, the Virgin stands at the centre with her hands raised, flanked by the apostles, who gaze and gesture upward. In the Byzantine tradition the Ascension shows both Christ's departure in glory and the Church, gathered around his Mother, left to await his return.",
+  "scripture": "Acts 1:9–11; Luke 24:50–53",
+  "facts": [
+   "The plaque was once the central panel of a small folding triptych, as the Berlin museum's title for it records (inv. 580).",
+   "It is catalogued as a Byzantine ('Eastern Roman') work of the second half of the 11th century."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:1075_Himmelfahrt_Christi_anagoria.JPG"
+   }
+  ],
+  "notes": "Facts are from the Commons description and the SMB record title linked from it; the SMB online collection (record 1892163) could not be loaded for confirmation during this review. The material is assumed to be ivory from the file's categories (Byzantine ivory in the Bode-Museum)."
+ },
+ {
+  "key": "Q115861632",
+  "status": "corrected",
+  "set": {
+   "t": "Triptych with the Ascension and Saints",
+   "original_title": "Triptyque en ivoire : Ascension. Saints.",
+   "d": "1085–1100",
+   "y": 1092,
+   "c": "Southern Italy (Salerno or Amalfi)",
+   "l": "Musée du Louvre, Paris (Department of Decorative Arts, OA 6340)",
+   "m": "Elephant ivory (once inlaid with pearls)",
+   "s": "Romanesque",
+   "k": "ivory"
+  },
+  "summary": "In the centre of this ivory triptych Christ rises in a mandorla carried by four angels, while beneath him the Virgin stands with raised arms among two groups of six disciples. On the wings, apostles stand beneath arches on twisted columns: on the right Peter and Andrew, recognisable by their attributes, and on the left probably Paul and Matthew. The choice of saints ties this vision of the ascended Lord to the cities of southern Italy where it was made.",
+  "scripture": "Acts 1:9–11",
+  "facts": [
+   "The Louvre suggests the saints were chosen for local reasons: Andrew is the patron of Amalfi and Matthew of Salerno.",
+   "The ivory was once inlaid with pearls.",
+   "It was given to the Louvre in 1909 by the Paris dealer Siegfried Ratzersdorfer."
+  ],
+  "links": [
+   {
+    "label": "Louvre: collection record",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010099226"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q115861632"
+   }
+  ]
+ },
+ {
+  "key": "Q25409451",
+  "status": "corrected",
+  "set": {
+   "d": "first half of the 11th century",
+   "y": 1020,
+   "c": "Faras (Pachoras), Nubia, now Sudan",
+   "l": "National Museum in Warsaw (Faras Gallery)",
+   "m": "Tempera on mud plaster (al secco)",
+   "s": "Nubian",
+   "k": "wall painting"
+  },
+  "summary": "Bishop Marianos of Faras stands in rich vestments, a book in his hand, beside the Virgin, who holds the Christ Child on her left arm. A full-length figure of the adult Christ originally stood at the bishop's side and laid his hand on Marianos's shoulder, but only fragments of it survive. Painted when Marianos took office, the image placed the Nubian bishop under the protection of Christ and his Mother.",
+  "facts": [
+   "Marianos was bishop of Faras from 1005 to 1036; the painting is one of fourteen bishop portraits found in Faras Cathedral.",
+   "It was discovered by Polish archaeologists during the UNESCO-sponsored Nubian campaign of the 1960s and has been in the National Museum in Warsaw since 1964.",
+   "Of the adult Christ, only the nimbus, part of the leg and garment, and the fingers resting on the bishop's shoulder remain."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (pl): Biskup Marianos pod opieką Chrystusa i Matki Boskiej",
+    "url": "https://pl.wikipedia.org/wiki/Biskup_Marianos_pod_opiek%C4%85_Chrystusa_i_Matki_Boskiej"
+   },
+   {
+    "label": "Wikipedia: Faras Gallery",
+    "url": "https://en.wikipedia.org/wiki/Faras_Gallery_at_the_National_Museum_in_Warsaw"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q25409451"
+   }
+  ],
+  "notes": "Wikidata labels the style 'Coptic art'; it is Nubian (Makurian) painting. The Christ Child is clearly visible; the adult Christ survives only in fragments."
+ },
+ {
+  "key": "Q4430774",
+  "status": "corrected",
+  "set": {
+   "t": "The Saviour in Golden Robes",
+   "original_title": "Спас Златая риза",
+   "d": "11th century (completely repainted by Kirill Ulanov, 1700)",
+   "a": "Unknown icon painter; repainted by Kirill Ulanov",
+   "c": "Byzantine or Novgorod (original)",
+   "l": "Dormition Cathedral, Moscow Kremlin",
+   "m": "Tempera on panel",
+   "k": "icon"
+  },
+  "summary": "Christ sits frontally on a high carved throne, IC XC beside his haloed head, holding an open Gospel book in his left hand; the fingers of his right hand point to its Greek text, 'I am the light of the world'. His robes are worked all over with gold. The icon came from Saint Sophia in Novgorod, and although its surface is a later repainting, it preserves an unusual 11th-century image of Christ the Teacher.",
+  "scripture": "John 8:12",
+  "facts": [
+   "According to Russian sources, Kirill Ulanov, the tsar's icon painter, repainted the icon almost entirely in 1700; nothing visible remains of the 11th-century painting, though he kept the old composition.",
+   "The icon came from Saint Sophia Cathedral in Novgorod; Ivan the Terrible brought it to Moscow in 1570, and Patriarch Nikon placed it in the iconostasis of the Kremlin's Dormition Cathedral in 1655.",
+   "Its name comes from a solid silver-gilt cover (riza) that once covered it and is now lost."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (ru): Спас Златая Риза",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B0%D1%81_%D0%97%D0%BB%D0%B0%D1%82%D0%B0%D1%8F_%D0%A0%D0%B8%D0%B7%D0%B0"
+   },
+   {
+    "label": "Wikipedia (fr): Le Sauveur à la riza d'or",
+    "url": "https://fr.wikipedia.org/wiki/Le_Sauveur_%C3%A0_la_riza_d%27or"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q4430774"
+   }
+  ],
+  "notes": "The original is 11th century (probably c. 1050), but the paint surface seen today dates from 1700 (the Commons file says 1699). y is kept at 1050 for the composition. The Commons description gives the size as 236 × 147 cm."
+ },
+ {
+  "key": "Q17583803",
+  "status": "corrected",
+  "set": {
+   "t": "Pillar with a King, the Virgin and Child, and Two Martyrs",
+   "original_title": "Dieu, la Vierge à l'Enfant et deux martyrs",
+   "d": "12th century",
+   "y": 1150,
+   "c": "Narbonne (cloister of the cathedral of Saint-Just)",
+   "l": "Musée des Augustins, Toulouse (ME 261)",
+   "s": "Romanesque",
+   "k": "sculpture"
+  },
+  "summary": "This rectangular marble pillar from the destroyed cloister of Narbonne Cathedral carries a figure on each of its four faces. The face shown here is a crowned, enthroned ruler holding a sceptre, whose identity the museum considers unknown; on another face the Virgin sits enthroned with the Christ Child on her lap, holding a book, and two martyrs with palms occupy the remaining sides. Though enigmatic, the pillar is one of the finest survivals of Romanesque sculpture from Narbonne.",
+  "facts": [
+   "The Musée des Augustins says the pillar probably comes from the former cloister of Saint-Just Cathedral, Narbonne, and that its date, iconography and purpose remain enigmatic.",
+   "The two martyrs may be Saints Justus and Pastor, the cathedral's patrons.",
+   "The monolithic marble pillar is 131 cm high and entered the museum by 1835."
+  ],
+  "links": [
+   {
+    "label": "POP (Joconde) record",
+    "url": "https://pop.culture.gouv.fr/notice/joconde/05620002409"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q17583803"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Anonyme_-_Pilier_rectangulaire_,_Dieu,_la_Vierge_%C3%A0_l%27Enfant_et_deux_martyrs_-_Mus%C3%A9e_des_Augustins_-_ME_261.jpg"
+   }
+  ],
+  "notes": "The image shows only the face with the crowned figure (catalogued as 'God the Father', though the museum's own commentary calls him a king of unknown identity); the Christ Child appears on another face that is not illustrated. A photograph of the Virgin-and-Child face would be preferable. The museum dates the pillar to the 12th century (1101–1200), not the 11th as Wikidata does."
+ },
+ {
+  "key": "Q134290568",
+  "status": "corrected",
+  "set": {
+   "t": "Portable Altar with Scenes of the Passion and Resurrection",
+   "d": "c. 1050–1075",
+   "y": 1062,
+   "c": "Lower Rhine",
+   "l": "Hessisches Landesmuseum Darmstadt (Kg 54:221)",
+   "m": "Walrus ivory, ivory, green porphyry and gilt bronze on an oak core",
+   "k": "altar"
+  },
+  "summary": "This small portable altar, with a slab of green porphyry set into its top, is faced with walrus-ivory reliefs crowded with figures beneath towers and arcades. On the side shown, guards lie asleep beside the holy women at the tomb, and at the right Christ, marked by a cross-nimbus, stands among his disciples. Such altars allowed Mass to be celebrated anywhere, with the risen Christ carved around the sacred stone.",
+  "scripture": "Matthew 28:1–10; John 20:19–23",
+  "facts": [
+   "Wikidata records scenes of the Crucifixion and the Ascension, the Easter scene at the tomb, and the evangelists on the altar's other faces.",
+   "It is about 12.7 cm high and is dated 1050–1075."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q134290568"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Portable_altar,_Lower_Rhine,_1050-1075,_walrus_tooth,_ivory,_green_porphyry,_gilt_bronze,_view_2_-_Hessisches_Landesmuseum_Darmstadt,_Germany_-_DSC00239.jpg"
+   }
+  ],
+  "notes": "Scene identifications for the visible side are made from the photograph (the right-hand scene may be one of Christ's post-Resurrection appearances); the museum's own description was not consulted."
+ },
+ {
+  "key": "Q134285876",
+  "status": "corrected",
+  "set": {
+   "t": "Crucifixion with the Virgin and Saint John",
+   "original_title": "Christus am Kreuz zwischen Maria und Johannes",
+   "c": "Germany",
+   "l": "Hessisches Landesmuseum Darmstadt (Kg 55:81)",
+   "k": "ivory"
+  },
+  "summary": "Within an acanthus border, Christ hangs on the cross beneath the INRI title, his head inclined and his feet resting on a footrest. The Virgin raises her hands in sorrow at the left, and John, holding a book, stands at the right. The quiet, balanced composition reflects the restrained dignity of German ivory carving in the 11th century.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The plaque measures about 13 × 9.3 cm (Wikidata).",
+   "The pairing of the Virgin and John beneath the cross recalls Christ's words entrusting his mother to the beloved disciple."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q134285876"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Crucifixion_with_Mary_and_John,_Germany,_11th_century,_ivory_-_Hessisches_Landesmuseum_Darmstadt,_Germany_-_DSC00226.jpg"
+   }
+  ],
+  "notes": "Little published information was found beyond Wikidata and the Commons file (Germany, 11th century, ivory)."
+ },
+ {
+  "key": "commons:8943891",
+  "status": "corrected",
+  "set": {
+   "t": "The Entombment of Christ",
+   "d": "mid-11th century (probably after 1048)",
+   "c": "Monastery of Hosios Loukas, Boeotia",
+   "l": "Crypt of the Katholikon, Monastery of Hosios Loukas, Greece",
+   "m": "Fresco",
+   "s": "Middle Byzantine",
+   "k": "fresco"
+  },
+  "summary": "In a lunette of the crypt at Hosios Loukas, the body of Christ is laid out on a slab, the Virgin bending close over him while two mourners and a winged angel attend on the right. Painted for the burial crypt beneath the monastery church, the scene of Christ's burial had a special meaning in a place of tombs, where the monks awaited the resurrection he made possible.",
+  "scripture": "John 19:38–42; Mark 15:42–47",
+  "facts": [
+   "The crypt has eight lunettes with scenes of Christ's Passion and Resurrection, together with forty medallion portraits of apostles, martyrs and abbots.",
+   "The frescoes are believed to date mostly after 1048 and the death of Theodore Leobachus, a patron who became abbot.",
+   "Hidden under centuries of dust, the paintings were cleaned by the Greek Archaeological Service in the 1960s."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_Crypt_-_Entombment_03.jpg"
+   },
+   {
+    "label": "Wikipedia: Hosios Loukas",
+    "url": "https://en.wikipedia.org/wiki/Hosios_Loukas"
+   }
+  ],
+  "notes": "The scene could also be read as a Lamentation; the Commons category names it the Entombment."
+ },
+ {
+  "key": "Q22009876",
+  "status": "corrected",
+  "set": {
+   "t": "The Svensk (Pechersk) Mother of God with Saints Anthony and Theodosius",
+   "d": "13th century (c. 1288)",
+   "y": 1288,
+   "a": "Unknown (traditionally attributed to Alypius of the Caves)",
+   "c": "Kyiv (?)",
+   "l": "State Tretyakov Gallery, Moscow",
+   "m": "Tempera on lime-wood panel",
+   "k": "icon"
+  },
+  "summary": "The Mother of God sits on a high throne holding the Christ Child, who blesses, while Saints Anthony and Theodosius, founders of the Kyiv Monastery of the Caves, stand at either side with unfurled scrolls. It is the earliest surviving image of these two founding monks. The Christ Child, held at the centre of the composition, shows that the monks' prayers are offered to the incarnate Lord.",
+  "facts": [
+   "Saint Anthony's scroll carries a monastic exhortation, rendered in the Russian Wikipedia article as 'I pray you, children: let us keep to abstinence and not be idle, for we have the Lord as our helper.'",
+   "Tradition holds that in 1288 Prince Roman of Bryansk was healed of blindness before this icon and founded the Svensky Monastery, where it stayed until 1925; it is now in the Tretyakov Gallery.",
+   "The panel measures 67 × 42 cm."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (ru): Свенская Печерская икона",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0_%D0%91%D0%BE%D0%B6%D0%B8%D0%B5%D0%B9_%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8"
+   },
+   {
+    "label": "Wikipedia (fr): Vierge de Svenski",
+    "url": "https://fr.wikipedia.org/wiki/Vierge_de_Svenski"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q22009876"
+   }
+  ],
+  "notes": "Dating is disputed. The Commons description (citing the Tretyakov Gallery) gives c. 1288; some scholars (e.g. Konrad Onasch, per French Wikipedia) and the traditional attribution to Alypius place it in the 11th–12th century. Wikidata records both. Corrected to c. 1288, which moves it out of this batch's centuries."
+ },
+ {
+  "key": "Q137911647",
+  "status": "corrected",
+  "set": {
+   "t": "The Descent from the Cross",
+   "original_title": "Kreuzabnahme Christi",
+   "d": "11th century",
+   "l": "Bode-Museum, Berlin",
+   "m": "Pearwood",
+   "k": "relief"
+  },
+  "summary": "Under a round-headed arch, the dead Christ is lowered from the cross: one figure supports his body while another, kneeling, draws the nail from his feet, and mourners stand at either side, with further figures above the cross. The small carving gathers the grief and tenderness of the moment into a tight, devotional composition.",
+  "scripture": "John 19:38–40",
+  "facts": [
+   "Wikidata records the relief as pearwood, about 26.7 cm high, in the Bode-Museum's Romanesque sculpture collection."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q137911647"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Romanesque_sculptures_in_the_Bode-Museum_Kreuzabnahme_Trier.jpg"
+   }
+  ],
+  "notes": "Only Wikidata and Commons were available (the museum's online database was down). The Commons file name links the relief to Trier, which could not be confirmed. The identity of the mourners is not certain from the photograph."
+ },
+ {
+  "key": "wga:zgothic/mosaics/8/1torcel3",
+  "status": "rejected",
+  "reject_reason": "Duplicate: this WGA image is a detail of the Last Judgment mosaic on the west wall of Santa Maria Assunta, Torcello, which is already in the collection as wga:zgothic/mosaics/9/4torcel1 (full view of the same wall).",
+  "dup_of": "wga:zgothic/mosaics/9/4torcel1",
+  "set": {},
+  "notes": "The two WGA pages disagree on the date: this one says the mosaic was largely conceived in the mid-to-late 11th century, with parts completed in the late 12th; the full-view entry says the 12th and 13th centuries (and is dated 1250 in the collection). The surviving entry's date should be reviewed (11th–12th century, with later restorations, is the commoner modern view)."
+ },
+ {
+  "key": "Q27865796",
+  "status": "corrected",
+  "set": {
+   "t": "Book-Box Cover from Maastricht: The Crucifixion and the Evangelist Symbols",
+   "original_title": "Boîte-reliure de Maastricht",
+   "d": "c. 1020–1030 (first half of the 11th century)",
+   "y": 1025,
+   "c": "Germany (Ottonian or early Salian court workshop)",
+   "l": "Musée du Louvre, Paris (Department of Decorative Arts, MR 349)",
+   "m": "Repoussé gold, cloisonné enamel on gold, silver, niello, pearls, gemstones and filigree on a wooden core",
+   "s": "Ottonian",
+   "k": "metalwork"
+  },
+  "summary": "Beneath a round arch at the centre of this golden book-box, Christ hangs on the cross in repoussé relief, with the Virgin and John below and the sun and moon above; a chalice stands at the foot of the cross. Enamelled symbols of the four evangelists fill the corners of a frame studded with pearls and gems. The inscriptions beneath the cross record Christ's words from the cross to his mother and to the beloved disciple.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Louvre records the inscriptions ECCE MATER TUA and ECCE FILIUS TUUS ('Behold your mother', 'Behold your son') beside the figures under the cross.",
+   "Another inscription states that a woman named Beatrix had the work made; her identity is uncertain.",
+   "The Louvre identifies it with the book-box from the treasury of Saint Servatius, Maastricht, which in 1677 held the text on which the Dukes of Brabant swore their oath; it was seized in 1795."
+  ],
+  "links": [
+   {
+    "label": "Louvre: collection record",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010114371"
+   },
+   {
+    "label": "Wikipedia (fr): Boîte-reliure de Maastricht",
+    "url": "https://fr.wikipedia.org/wiki/Bo%C3%AEte-reliure_de_Maastricht"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q27865796"
+   }
+  ]
+ },
+ {
+  "key": "commons:8915912",
+  "status": "corrected",
+  "set": {
+   "t": "The Circumcision of Christ, from the Menologion of Basil II",
+   "d": "c. 1000",
+   "y": 1000,
+   "a": "Imperial workshop of the Menologion of Basil II",
+   "c": "Constantinople",
+   "l": "Vatican Apostolic Library (Vat. gr. 1613)",
+   "m": "Tempera and gold on parchment",
+   "s": "Middle Byzantine (Macedonian Renaissance)",
+   "k": "manuscript"
+  },
+  "summary": "Against a gold ground, the Virgin holds the infant Christ while Joseph stands close beside her, and a priest stretches out his hands to them before a domed sanctuary at the right; a mountain with trees rises at the left. The miniature marks the feast of Christ's Circumcision on the first of January, when the Child received the name Jesus. Its graceful figures and modelled landscape show the classicising refinement of Constantinople's court painters around the year 1000.",
+  "scripture": "Luke 2:21",
+  "facts": [
+   "The Menologion of Basil II, made in Constantinople for Emperor Basil II (r. 976–1025), contains some 430 miniatures and covers only the half of the church year from September to February.",
+   "Unusually, the names of eight painters, including Pantoleon, are written beside the miniatures, though all in the same scribe's hand.",
+   "The manuscript was owned in the 15th century by Ludovico Sforza, Duke of Milan, and given to Pope Paul V in the early 17th century; it is now Vat. gr. 1613."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Menologion of Basil II",
+    "url": "https://en.wikipedia.org/wiki/Menologion_of_Basil_II"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_047.jpg"
+   }
+  ],
+  "notes": "The Commons description places this miniature on f. 287 and gives an 11th-century date; Wikipedia dates the manuscript c. 1000 (between 979 and the early 11th century). The painter's name for this miniature was not checked."
+ },
+ {
+  "key": "commons:141487632",
+  "status": "corrected",
+  "set": {
+   "t": "Our Lady of Las Majadas Viejas",
+   "original_title": "Nuestra Señora de las Majadas Viejas",
+   "d": "11th–12th century",
+   "y": 1100,
+   "c": "Spain (Castile and León)",
+   "l": "Altarpiece of Saint Anne, Church of Nuestra Señora de la Asunción, La Alberca (Salamanca)",
+   "m": "Painted wood",
+   "s": "Romanesque",
+   "k": "sculpture"
+  },
+  "summary": "In this small Romanesque carving the Virgin sits upright and frontal, one hand raised, with the Christ Child seated on her lap before her. The large, solemn faces and simple, block-like forms are typical of rural Romanesque images of Mary as the throne of her Son. It is kept in the parish church of La Alberca, in the province of Salamanca.",
+  "facts": [
+   "The carving stands in the altarpiece of Saint Anne in the parish church of Nuestra Señora de la Asunción at La Alberca, Salamanca.",
+   "The Commons photographer describes it as a Romanesque carving of the 11th–12th century."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_de_las_Majadas_Viejas,_La_Alberca.jpg"
+   }
+  ],
+  "notes": "The only source found is the Commons description; the date and material are not confirmed by a published catalogue. 'Painted wood' is inferred from the polychrome surface visible in the photograph."
+ },
+ {
+  "key": "Q116411166",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ, robed and haloed, seems to float upward, reaching toward the hand of God, which emerges from the clouds holding a wreath of victory, while two angels lean in from either side. Two astonished apostles flank him, and below recline lively personifications of the Earth and the Ocean. The small plaque presents the Ascension as Christ's triumphant return to the Father, leaving the created world beneath him.",
+  "scripture": "Acts 1:9–11",
+  "facts": [
+   "The Met notes that the hand of God offering a wreath of victory is an unusual feature of this Ascension.",
+   "The figures of Earth and Ocean below allude to the physical world Christ leaves behind.",
+   "The plaque was carved in the Rhineland around 1050 and is only about 10.3 cm high."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/471971"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116411166"
+   }
+  ]
+ },
+ {
+  "key": "Q116411335",
+  "status": "verified",
+  "set": {},
+  "summary": "This small bronze pectoral cross, made of two hinged halves to hold a relic, is engraved on one face with the Virgin, marked by the letters for 'Mother of God', and on the other with a simply incised standing figure of Christ. Crosses like this were worn by ordinary believers, who carried close to the heart both the sign of Christ's cross and a fragment of holy matter.",
+  "facts": [
+   "The Met explains that such crosses were made of two crosses hinged at the bottom, enclosing a hollow space for a relic.",
+   "The many surviving copper-alloy examples suggest they usually held secondary relics, such as earth from a holy site or cloth touched to a saint's body, rather than relics of the True Cross."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/472756"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116411335"
+   }
+  ],
+  "notes": "The primary image shows the Virgin's face; Christ is on the reverse (Met additional image DP-14824-005). The Met's date range is very broad (9th–13th century); y 1050 is a midpoint."
+ },
+ {
+  "key": "Q2336216",
+  "status": "corrected",
+  "set": {
+   "t": "The Tapestry of Creation (Girona Tapestry)",
+   "d": "late 11th or early 12th century",
+   "y": 1100,
+   "c": "Catalonia (probably Girona)",
+   "l": "Museum of the Cathedral of Girona, Spain",
+   "m": "Wool and linen embroidery on a woollen ground",
+   "k": "textile"
+  },
+  "summary": "At the centre of this great embroidered hanging, a youthful, beardless Christ holds an open book within a medallion, surrounded by wedge-shaped scenes of the days of Creation. A Latin inscription from the opening of Genesis runs around the circle, and in the border appear the winds and the months of the year, figures of the ordered cosmos. The whole work presents Christ as the creating Word through whom all things were made.",
+  "scripture": "Genesis 1:1–31; John 1:1–3",
+  "facts": [
+   "Despite its name, the work is couched needlework laid on a woollen ground rather than a woven tapestry; it measures 3.65 × 4.70 m.",
+   "The right-hand border and the lower third are lost; scholars believe the missing part may have shown the finding of the True Cross and the remaining months.",
+   "It was restored in 1880 and again in the early 20th century, in 1952 and in 1975."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Tapestry of Creation",
+    "url": "https://en.wikipedia.org/wiki/Tapestry_of_Creation"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q2336216"
+   }
+  ],
+  "notes": "Wikipedia dates it to the 11th century in its lead but says it is widely agreed to be late 11th or early 12th century. A detail photograph of the central Christ is also in the collection as commons:126502123 (undated); that entry duplicates this work."
+ },
+ {
+  "key": "commons:98280862",
+  "status": "corrected",
+  "set": {
+   "t": "The Raising of Lazarus, from the Mughni Gospels",
+   "d": "11th century (c. 1060)",
+   "y": 1060,
+   "a": "Unknown Armenian illuminator",
+   "c": "Armenia",
+   "l": "Matenadaran, Yerevan (MS 7736, fol. 16v)",
+   "m": "Tempera and gold on parchment",
+   "s": "Armenian",
+   "k": "manuscript"
+  },
+  "summary": "Christ, haloed and robed in red and blue, raises his hand toward the tomb, where Lazarus stands upright in his grave clothes, while a figure in red lies prostrate at Christ's feet. Crowds of onlookers fill the scene below a tall mountain and a turreted building. With its saturated colours and expressive figures, the Armenian miniature makes Christ's command, 'Lazarus, come forth', vivid and immediate.",
+  "scripture": "John 11:1–44",
+  "facts": [
+   "The Mughni Gospels (Matenadaran MS 7736) is an 11th-century Armenian Gospel book; Wikipedia dates it to 1060 and notes its 301 folios.",
+   "The miniature's Armenian caption reads 'The Resurrection of Lazarus' (per the Commons record)."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Mugni Gospels",
+    "url": "https://en.wikipedia.org/wiki/Mugni_Gospels"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:The_raisung_of_Lazarus,_Mulna_(11th_Century).jpg"
+   }
+  ],
+  "notes": "The Commons title 'Mulna' refers to the Mughni (Mugni) Gospels, MS 7736, fol. 16v. The Commons Arabic description says 'end of the 11th century', while Wikipedia gives 1060."
+ },
+ {
+  "key": "Q17579784",
+  "status": "corrected",
+  "set": {
+   "t": "Twin Capital with the Virgin and Child and the Crucifixion",
+   "original_title": "Vierge à l'Enfant. Crucifixion",
+   "d": "12th century",
+   "y": 1150,
+   "c": "Abbey of Saint-Pons-de-Thomières (Hérault)",
+   "l": "Musée des Augustins, Toulouse (ME 264)",
+   "s": "Romanesque",
+   "k": "capital"
+  },
+  "summary": "On the face of this marble capital for a pair of columns, the crowned Virgin sits frontally within a beaded mandorla, holding before her the Christ Child, who has a cross-nimbus and a book. The winged creatures of the evangelists press around the mandorla, honouring the Child as the incarnate Word. Another face of the capital shows the Crucifixion, with the lance thrust into Christ's side.",
+  "scripture": "John 1:14 (theme); John 19:34",
+  "facts": [
+   "The capital comes from the abbey of Saint-Pons-de-Thomières and entered the Musée des Augustins by 1865.",
+   "The museum describes the Christ Child with a cross-nimbus and a book, and the Virgin seated on a zoomorphic stool.",
+   "It is about 39 cm high and 50 cm wide."
+  ],
+  "links": [
+   {
+    "label": "POP (Joconde) record",
+    "url": "https://pop.culture.gouv.fr/notice/joconde/05620002412"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q17579784"
+   }
+  ],
+  "notes": "The museum dates it to the 12th century (1101–1200); Wikidata says 11th. Only the Virgin-and-Child face is shown in this image."
+ },
+ {
+  "key": "commons:201237925",
+  "status": "corrected",
+  "set": {
+   "t": "Virgin and Child, called Our Lady of the Treasure",
+   "original_title": "Vierge à l'enfant, dite Vierge au Trésor",
+   "c": "France (Lorraine)",
+   "l": "Abbey church of Saint-Pierre, Remiremont (Vosges)",
+   "m": "Carved and painted wood",
+   "k": "sculpture"
+  },
+  "summary": "Set behind an elaborate gilded Rococo grille, this small wooden statue shows the Virgin seated with the Christ Child held before her, both with long, solemn faces. Venerated for centuries in the abbey church of Remiremont, the 11th-century image has been framed and adorned by later generations as a treasured relic of the abbey's past.",
+  "facts": [
+   "It has been classified as a historic monument (objet classé) since 20 June 1907.",
+   "The French heritage database dates the carved wooden statue to the 11th century and notes that it has been dressed in rich fabrics.",
+   "According to the Commons record, it is about 68 cm high."
+  ],
+  "links": [
+   {
+    "label": "POP (Palissy) record",
+    "url": "https://pop.culture.gouv.fr/notice/palissy/PM88000754"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Vierge_%C3%A0_l%27enfant,_dite_Vierge_au_tr%C3%A9sor,_abbatiale_de_Remiremont.jpg"
+   }
+  ],
+  "notes": "The photograph shows the statue at a distance behind its gilded grille, so details are hard to make out."
+ },
+ {
+  "key": "Q28137011",
+  "status": "corrected",
+  "set": {
+   "k": "box"
+  },
+  "summary": "This small boxwood casket is carved on every side with scenes from the life of Christ. On the lid Christ hangs on the cross between angels, with mourners gathered below; on the side beneath, the Christ Child lies swaddled in the manger, flanked by standing figures. The other faces show the Ascension, Christ in Majesty, the Baptism and the Entry into Jerusalem, so that the little box carries the whole story of Christ's life, from crib to cross and glory.",
+  "scripture": "Luke 2:7; John 19:17–30; Acts 1:9–11",
+  "facts": [
+   "The Cleveland Museum calls the casket a rare, if not unique, example of high-quality woodcarving from Anglo-Saxon England; it may have held relics.",
+   "Its lid was found at Uttoxeter, Staffordshire, in the early 19th century, and its base was bought in Cheshire in 1921; the reunited casket was lent to the Victoria and Albert Museum from 1937 to 1953.",
+   "In the Ascension scene, the museum notes, God's hand is shown pulling Christ heavenward."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art: object page",
+    "url": "https://clevelandart.org/art/1953.362"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q28137011"
+   }
+  ],
+  "notes": "Category was 'glass'; corrected to box."
+ },
+ {
+  "key": "wga:m/master/zunk_sp/zunk_sp3/02crucif",
+  "status": "corrected",
+  "set": {
+   "t": "Crucifix of Ferdinand and Sancha",
+   "a": "Unknown Spanish ivory carver",
+   "c": "León",
+   "l": "Museo Arqueológico Nacional, Madrid",
+   "m": "Ivory, with inlaid jet eyes",
+   "s": "Romanesque"
+  },
+  "summary": "Christ hangs upright on an ivory cross, his head inclined, his large eyes wide open with dark inlaid pupils, and each foot nailed separately. The cross is alive with tiny figures and animals entwined in foliage; above the title board the risen Christ carries the cross, and at the foot Adam appears above the names of the donors, King Ferdinand and Queen Sancha. Given to San Isidoro in León, it is the earliest known Spanish crucifix bearing the figure of Christ.",
+  "scripture": "John 19:17–30; 1 Corinthians 15:22",
+  "facts": [
+   "King Ferdinand I of León and Queen Sancha gave it to the basilica of San Isidoro in León; their names, FREDINANDUS REX and SANCIA REGINA, are carved at the foot.",
+   "It measures about 52 × 34.5 cm, and a small cavity behind Christ's body allowed it to serve as a reliquary.",
+   "On the back are the Lamb of God at the centre and the symbols of the four evangelists at the ends of the arms."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Crucifix of Ferdinand and Sancha",
+    "url": "https://en.wikipedia.org/wiki/Crucifix_of_Ferdinand_and_Sancha"
+   },
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/m/master/zunk_sp/zunk_sp3/02crucif.html"
+   }
+  ]
+ },
+ {
+  "key": "commons:96246736",
+  "status": "corrected",
+  "set": {
+   "t": "The Crucifixion, from the Gospels of Judith of Flanders",
+   "d": "c. 1065",
+   "a": "Unknown Anglo-Saxon illuminator",
+   "c": "England (probably Canterbury)",
+   "l": "Morgan Library & Museum, New York (MS M.709, fol. 1v)",
+   "m": "Tempera and gold on parchment",
+   "s": "Anglo-Saxon",
+   "k": "manuscript"
+  },
+  "summary": "Christ hangs on a rough-hewn cross whose trunk still bears the stumps of lopped branches, his head bowed and his body drawn in fluttering, nervous line. The Virgin and John, each holding a book, stand on either side, two figures in roundels appear above the cross, and a small figure kneels clasping the foot of the cross. Painted for a devout patroness, the page invites the viewer into the same close, personal devotion to the crucified Lord.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The manuscript belonged to Judith of Flanders, Countess of Northumbria and a noted patron, who commissioned and collected illuminated books; her Gospels are now in the Morgan Library & Museum.",
+   "The tree-like 'rough-hewn' cross is a motif studied in Jennifer O'Reilly's essay on the rough-hewn cross in Anglo-Saxon art, from which this image is reproduced."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Gospels_of_Judith_of_Flanders,_Canterbury,_c._1065,_MS_M.709,_fol._1v.jpg"
+   },
+   {
+    "label": "Wikipedia: Judith of Flanders (died 1095)",
+    "url": "https://en.wikipedia.org/wiki/Judith_of_Flanders_(died_1095)"
+   }
+  ],
+  "notes": "Commons describes the page as a 'Descent from the Cross', but it is clearly a Crucifixion (Christ still on the cross). The kneeling figure at the foot is often identified as the patroness Judith, but this was not confirmed from a source read here. The Morgan's own record could not be accessed (bot check); date c. 1065 and Canterbury follow the Commons record."
+ },
+ {
+  "key": "Q116273033",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ stands rather than hangs on the cross, his arms stretched straight and his feet planted on a patterned footrest, while two half-length angels mourn above the cross-arm. Below, the Virgin wraps herself in her mantle in grief and John, holding a book, lifts his hand toward his Lord. Made in Amalfi around 1060–70, the plaque shows the strong Byzantine influence in the ivories of southern Italy.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Met suggests that the plaque probably served as the central panel of a triptych icon.",
+   "It is about 12.9 × 8.6 cm and was given to the Met by J. Pierpont Morgan in 1917."
+  ],
+  "links": [
+   {
+    "label": "The Met: object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464350"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116273033"
+   }
+  ]
+ },
+ {
+  "key": "wga:m/master/zunk_ge/zunk_ge6/05cross1",
+  "status": "corrected",
+  "set": {
+   "t": "The Crucifix from St. Georg, Cologne",
+   "d": "c. 1067",
+   "y": 1067,
+   "c": "Cologne",
+   "l": "Museum Schnütgen, Cologne"
+  },
+  "summary": "This over-life-size walnut figure of the dead Christ survives as a torso, with one arm broken away and the cross itself lost. His head sinks onto his shoulder, his eyes are closed, and his finely grooved hair and beard frame a face of quiet, solemn stillness, while a long loincloth falls in heavy folds to his knees. Carved for the church of St. Georg in Cologne, it is one of the great early monumental crucifixes of the German Romanesque.",
+  "scripture": "John 19:30",
+  "facts": [
+   "It comes from the church of St. Georg in Cologne, rebuilt under Archbishop Anno II (1056–1075); a copy now hangs in the choir there, while the original torso is kept in the Museum Schnütgen.",
+   "The figure is carved from walnut and is about 196 cm high."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/m/master/zunk_ge/zunk_ge6/05cross1.html"
+   },
+   {
+    "label": "Wikipedia (de): St. Georg (Köln)",
+    "url": "https://de.wikipedia.org/wiki/St._Georg_(K%C3%B6ln)"
+   }
+  ],
+  "notes": "German Wikipedia dates the original to 1067; WGA gives c. 1070."
+ },
+ {
+  "key": "wga:m/master/zunk_ge/zunk_ge6/05cross2",
+  "status": "rejected",
+  "reject_reason": "Duplicate: WGA labels this 'Crucifix (detail)', a close-up of the head of the same walnut crucifix from St. Georg, Cologne (Museum Schnütgen), already entered as wga:m/master/zunk_ge/zunk_ge6/05cross1.",
+  "dup_of": "wga:m/master/zunk_ge/zunk_ge6/05cross1",
+  "set": {}
+ },
+ {
+  "key": "rijks:BK-18897",
+  "status": "corrected",
+  "set": {
+   "t": "Crucified Christ (Corpus)",
+   "original_title": "Gekruisigde Christus",
+   "a": "Anonymous",
+   "m": "Gilt bronze, cast",
+   "k": "metalwork"
+  },
+  "summary": "This small bronze figure of Christ, once fixed to a cross, holds his arms stretched straight out with open hands, his head turned slightly to one side and his feet resting on a footrest. A long loincloth falls in symmetrical folds, leaving the knees free. Worn smooth by age and handling, it is a typical Romanesque crucifix figure, presenting Christ calm and upright even in death.",
+  "scripture": "John 19:17–30",
+  "facts": [
+   "The Rijksmuseum notes that the figure was cast in one piece and is hollow at the back, and that the hands and feet are pierced for attachment to a cross.",
+   "It is so worn that the mouth is barely visible and the beard has disappeared entirely.",
+   "It is about 18.8 cm high and 17.8 cm wide."
+  ],
+  "links": [
+   {
+    "label": "Rijksmuseum: object page",
+    "url": "https://www.rijksmuseum.nl/en/collection/BK-18897"
+   }
+  ]
+ },
+ {
+  "key": "Q60747420",
+  "status": "corrected",
+  "set": {
+   "t": "Plaque from a Portable Altar: Christ in Majesty"
+  },
+  "summary": "At the centre of this walrus-ivory plaque, Christ sits enthroned within an oval mandorla, blessing with his right hand and holding a book, surrounded by the four living creatures: the angel and eagle above, the lion and ox below. Two tall winged figures holding books stand at either side. Once set on the side of a portable altar, the tiny relief has, as the curator who acquired it wrote, the monumentality of a great cathedral tympanum.",
+  "scripture": "Revelation 4:2–8 (theme)",
+  "facts": [
+   "This is the central plaque of three showing Christ in Majesty and the apostles, which the Cleveland Museum says were the first major acquisition of William M. Milliken, its first curator of decorative arts and later director.",
+   "Milliken recalled that the Christ in the mandorla 'could have been enlarged and would have graced the tympanum of a great cathedral'.",
+   "The plaque is only about 5.1 × 10.8 cm."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art: object page",
+    "url": "https://clevelandart.org/art/1922.307.b"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60747420"
+   }
+  ],
+  "notes": "The museum's title speaks of Christ and the Apostles (the apostles are on the flanking plaques); the two figures beside Christ on this plaque appear to be winged, i.e. angels. Retitled accordingly; the editors may prefer to keep the museum's title."
+ },
+ {
+  "key": "Q60751791",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ hangs on the cross at the centre of this walrus-ivory plaque, with busts of the sun and moon above the cross-arm. The soldier with the lance strides in from the left and the sponge-bearer with his bucket from the right, while two haloed mourners, the veiled Virgin at the left, stand at the edges. Though tiny, the scene gathers every element of the Passion around the crucified Christ.",
+  "scripture": "John 19:25–37",
+  "facts": [
+   "It belongs with three plaques of Christ in Majesty and the apostles from the same portable altar; the Cleveland Museum bought those from Emile Rey of Arnold Seligmann, Rey and Company, which donated this Crucifixion plaque later the same year (1922).",
+   "The plaque is only about 5.1 × 9.6 cm."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art: object page",
+    "url": "https://clevelandart.org/art/1922.359"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60751791"
+   }
+  ]
+ },
+ {
+  "key": "Q60779387",
+  "status": "rejected",
+  "reject_reason": "Duplicate image of Christ: the photograph shows the three Cleveland portable-altar plaques together, and Christ appears only on the central one (1922.307.b), which is already entered as Q60747420. This record (1922.307, 5.1 × 16.5 cm) is evidently one of the flanking plaques of seated apostles.",
+  "dup_of": "Q60747420",
+  "set": {},
+  "notes": "If the editors prefer the ensemble view, keep this entry instead and reject Q60747420; the two should not both stand."
+ }
+]

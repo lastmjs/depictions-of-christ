@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 46954,
- "checked": 135,
+ "total": 46950,
+ "checked": 171,
  "centuries": [
   {
    "century": "2",
@@ -33,23 +33,23 @@
   },
   {
    "century": "9",
-   "count": 17
+   "count": 18
   },
   {
    "century": "10",
-   "count": 30
+   "count": 32
   },
   {
    "century": "11",
-   "count": 80
+   "count": 68
   },
   {
    "century": "12",
-   "count": 281
+   "count": 284
   },
   {
    "century": "13",
-   "count": 604
+   "count": 605
   },
   {
    "century": "14",
@@ -65,7 +65,7 @@
   },
   {
    "century": "17",
-   "count": 9896
+   "count": 9897
   },
   {
    "century": "18",
@@ -91,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   12411
+   12409
   ],
   [
    "Madonna and Child",
-   9366
+   9365
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   3637
+   3636
   ],
   [
    "Holy Family",
@@ -163,7 +163,7 @@
   ],
   [
    "Last Judgment",
-   632
+   631
   ],
   [
    "Agony in the Garden",
@@ -333,7 +333,7 @@
  "types": [
   [
    "painting",
-   19502
+   19501
   ],
   [
    "print",
@@ -341,7 +341,7 @@
   ],
   [
    "sculpture",
-   3505
+   3503
   ],
   [
    "drawing",
@@ -349,7 +349,7 @@
   ],
   [
    "other",
-   1596
+   1594
   ],
   [
    "statue",
@@ -361,11 +361,11 @@
   ],
   [
    "fresco",
-   431
+   430
   ],
   [
    "relief",
-   410
+   411
   ],
   [
    "icon",
@@ -373,7 +373,7 @@
   ],
   [
    "metalwork",
-   271
+   274
   ],
   [
    "stained glass",
@@ -381,19 +381,19 @@
   ],
   [
    "triptych",
-   268
+   267
   ],
   [
    "textile",
-   202
+   203
   ],
   [
    "mosaic",
-   142
+   141
   ],
   [
    "ivory",
-   138
+   141
   ],
   [
    "leadlight",
@@ -401,7 +401,7 @@
   ],
   [
    "relief sculpture",
-   112
+   110
   ],
   [
    "enamel",
@@ -409,7 +409,7 @@
   ],
   [
    "glass",
-   105
+   104
   ],
   [
    "group of sculptures",

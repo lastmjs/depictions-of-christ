@@ -29,7 +29,7 @@ sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 from subjects import classify  # noqa: E402,F401
 from aic import QUERIES as AIC_QUERIES, NOT_CHRIST, decide  # noqa: E402
-from walters import refine, kind_from  # noqa: E402
+from walters import refine, kind_from, EXTRA_NOT  # noqa: E402
 
 CACHE = ROOT / ".cache" / "yale"
 OUT = ROOT / "data" / "sources" / "yale.json"
@@ -57,7 +57,7 @@ def fetch(url, sub):
     if path.exists():
         return json.loads(path.read_text())
     delay = 2.0
-    for attempt in range(8):
+    for attempt in range(5):
         wait = MIN_INTERVAL - (time.time() - _last[0])
         if wait > 0:
             time.sleep(wait)
@@ -138,7 +138,7 @@ def unit_of(rec):
 
 
 def clean_artist(s):
-    s = re.sub(r"^(Artist|Maker|Primary Artist|Painter|Engraver|Printmaker|Designer|Publisher|Author)\s*:\s*", "", s, flags=re.I)
+    s = re.sub(r"^[A-Z][\w ,]{0,30}:\s*", "", s)
     s = re.sub(r"\s*\((?=[^)]*\b(\d{3,4}|active|born|died|century|ca\.)\b)[^)]*\)\s*$", "", s)
     s = re.sub(r",\s*\d{3,4}\s*[–-]\s*\d{3,4}\s*$", "", s)
     return s.strip()
@@ -263,7 +263,14 @@ def main():
     for i, oid in enumerate(sorted(seen)):
         if i % 500 == 0:
             print(f"  {i}/{len(seen)} objects checked, {len(out)} kept", file=sys.stderr)
-        rec = fetch(oid + "?profile=results", "objects")
+        try:
+            rec = fetch(oid + "?profile=results", "objects")
+        except RuntimeError:  # a few compact "results" views 504 persistently; full record works
+            try:
+                rec = fetch(oid, "objects")
+            except RuntimeError as e:
+                print(f"  ! {e}", file=sys.stderr)
+                continue
         if not rec:
             continue
         unit, code = unit_of(rec)
@@ -276,10 +283,15 @@ def main():
         names, display, b, e = production(rec)
         a = "; ".join(names)
         u = refine(title, decide(title, "", a))
-        if not u:
+        if not u and not re.match(r"verso\b", title, re.I) and not EXTRA_NOT.search(title):
+            # YCBA album sheets and coins carry the depicted subject only in an
+            # alternate title ("Arthur Pond's Album" / "The Holy Family with Saint John").
+            # "Verso: ..." records show the back of a sheet whose recto title is the alternate.
             for alt in other_titles(rec, title):
+                alt = re.sub(r"^([IVXLC]+|\d+)\s*[-.]\s+", "", alt).strip()
                 u = refine(alt, decide(alt, "", a))
                 if u:
+                    title = alt
                     break
         if not u:
             continue

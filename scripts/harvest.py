@@ -352,7 +352,7 @@ def merge_sources(works):
                 continue
             if not r.get("img") or not r.get("u"):
                 continue
-            if f.stem in ("rijks", "europeana") and r.get("k") == "photograph":
+            if f.stem in ("rijks", "europeana", "getty") and r.get("k") == "photograph":
                 continue  # photographic reproductions of other artworks
             if f.stem == "europeana":
                 if r.get("l") in DIRECT_PROVIDERS:

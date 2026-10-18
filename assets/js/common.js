@@ -32,6 +32,14 @@
     rijks: "Image: Rijksmuseum, Amsterdam (public domain).",
     wga: "Image: Web Gallery of Art (reproduction of a public-domain work).",
     commons: "Image: Wikimedia Commons (public domain or freely licensed; see the file page).",
+    yale: "Image: Yale University Art Gallery / Yale Center for British Art (public domain).",
+    princeton: "Image: Princeton University Art Museum (public domain).",
+    getty: "Image: J. Paul Getty Museum, Open Content Program (CC0).",
+    walters: "Image: The Walters Art Museum, Baltimore (CC0).",
+    vam: "Image: © Victoria and Albert Museum, London (free for non-commercial use).",
+    smk: "Image: SMK – National Gallery of Denmark (public domain).",
+    nationalmuseum: "Image: Nationalmuseum, Stockholm (public domain).",
+    fng: "Image: Finnish National Gallery (CC0).",
   };
   const SOURCE_LINK = { wga: "Web Gallery of Art", commons: "Wikimedia Commons", europeana: "Europeana record" };
 

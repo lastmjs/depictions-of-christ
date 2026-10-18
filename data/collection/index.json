@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-18",
- "total": 62576,
+ "total": 65984,
  "checked": 171,
  "centuries": [
   {
@@ -9,75 +9,75 @@
   },
   {
    "century": "3",
-   "count": 15
-  },
-  {
-   "century": "4",
-   "count": 21
-  },
-  {
-   "century": "5",
-   "count": 11
-  },
-  {
-   "century": "6",
-   "count": 23
-  },
-  {
-   "century": "7",
-   "count": 6
-  },
-  {
-   "century": "8",
-   "count": 11
-  },
-  {
-   "century": "9",
    "count": 18
   },
   {
+   "century": "4",
+   "count": 25
+  },
+  {
+   "century": "5",
+   "count": 15
+  },
+  {
+   "century": "6",
+   "count": 28
+  },
+  {
+   "century": "7",
+   "count": 13
+  },
+  {
+   "century": "8",
+   "count": 57
+  },
+  {
+   "century": "9",
+   "count": 31
+  },
+  {
    "century": "10",
-   "count": 33
+   "count": 55
   },
   {
    "century": "11",
-   "count": 72
+   "count": 100
   },
   {
    "century": "12",
-   "count": 367
+   "count": 421
   },
   {
    "century": "13",
-   "count": 675
+   "count": 980
   },
   {
    "century": "14",
-   "count": 2085
+   "count": 2292
   },
   {
    "century": "15",
-   "count": 7924
+   "count": 8729
   },
   {
    "century": "16",
-   "count": 16603
+   "count": 17412
   },
   {
    "century": "17",
-   "count": 12081
+   "count": 12586
   },
   {
    "century": "18",
-   "count": 4966
+   "count": 5265
   },
   {
    "century": "19",
-   "count": 3418
+   "count": 3634
   },
   {
    "century": "20",
-   "count": 1238
+   "count": 1299
   },
   {
    "century": "21",
@@ -85,189 +85,189 @@
   },
   {
    "century": "undated",
-   "count": 12916
+   "count": 12931
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   17131
+   17654
   ],
   [
    "Madonna and Child",
-   12124
+   12716
   ],
   [
    "Christ Child",
-   8258
+   8353
   ],
   [
    "Crucifixion",
-   4998
+   5396
   ],
   [
    "Holy Family",
-   3334
+   3475
   ],
   [
    "Adoration of the Magi",
-   2240
+   2342
   ],
   [
    "Nativity",
-   1772
+   1886
   ],
   [
    "Adoration of the Shepherds",
-   1698
+   1729
   ],
   [
    "Entombment",
-   1450
-  ],
-  [
-   "Resurrection",
-   1380
+   1538
   ],
   [
    "Flight into Egypt",
-   1375
+   1489
+  ],
+  [
+   "Resurrection",
+   1475
   ],
   [
    "Lamentation",
-   1253
+   1287
   ],
   [
    "Last Supper",
-   1197
+   1251
   ],
   [
    "Baptism",
-   1098
+   1133
   ],
   [
    "Pietà",
-   1078
+   1120
   ],
   [
    "Agony in the Garden",
-   910
+   956
   ],
   [
    "Descent from the Cross",
-   877
+   936
   ],
   [
    "Carrying the Cross",
-   817
+   895
   ],
   [
    "Last Judgment",
-   808
+   857
   ],
   [
    "Flagellation",
-   725
+   785
   ],
   [
    "Man of Sorrows",
-   695
-  ],
-  [
-   "Ecce Homo",
-   652
+   727
   ],
   [
    "Miracles of Christ",
-   631
+   693
   ],
   [
-   "Christ and Followers",
-   581
+   "Ecce Homo",
+   671
   ],
   [
    "Ascension",
-   580
+   627
+  ],
+  [
+   "Christ and Followers",
+   626
   ],
   [
    "Rest on the Flight into Egypt",
-   560
-  ],
-  [
-   "Crowning with Thorns",
-   546
+   591
   ],
   [
    "Trial of Christ",
-   520
+   581
+  ],
+  [
+   "Crowning with Thorns",
+   577
   ],
   [
    "Coronation of the Virgin",
-   508
+   554
   ],
   [
    "Presentation in the Temple",
-   480
+   536
   ],
   [
    "Supper at Emmaus",
-   459
-  ],
-  [
-   "Circumcision",
-   381
-  ],
-  [
-   "Salvator Mundi",
-   368
+   474
   ],
   [
    "Betrayal & Arrest",
-   353
+   404
   ],
   [
-   "Christ among the Doctors",
-   345
+   "Circumcision",
+   404
   ],
   [
    "Pantocrator",
-   325
+   390
   ],
   [
-   "Noli me tangere",
-   306
-  ],
-  [
-   "Sacred Heart",
-   303
+   "Salvator Mundi",
+   380
   ],
   [
    "Throne of Mercy",
-   299
+   364
+  ],
+  [
+   "Christ among the Doctors",
+   360
+  ],
+  [
+   "Noli me tangere",
+   323
   ],
   [
    "Appearances after the Resurrection",
-   280
+   307
   ],
   [
-   "Transfiguration",
-   259
+   "Sacred Heart",
+   305
   ],
   [
    "Holy Face",
-   253
+   279
   ],
   [
-   "Wedding at Cana",
-   220
-  ],
-  [
-   "Mystic Marriage of St Catherine",
-   213
+   "Transfiguration",
+   270
   ],
   [
    "Harrowing of Hell",
-   211
+   241
+  ],
+  [
+   "Wedding at Cana",
+   231
+  ],
+  [
+   "Mystic Marriage of St Catherine",
+   222
   ],
   [
    "Passion",
@@ -275,31 +275,31 @@
   ],
   [
    "Good Shepherd",
-   189
+   199
   ],
   [
    "Mocking of Christ",
-   172
+   193
+  ],
+  [
+   "Temptation of Christ",
+   179
+  ],
+  [
+   "Entry into Jerusalem",
+   170
   ],
   [
    "Raising of Lazarus",
    161
   ],
   [
-   "Temptation of Christ",
-   156
-  ],
-  [
    "Woman Taken in Adultery",
    150
   ],
   [
-   "Entry into Jerusalem",
-   143
-  ],
-  [
    "Cleansing of the Temple",
-   90
+   92
   ],
   [
    "Veil of Veronica",
@@ -307,7 +307,7 @@
   ],
   [
    "Sermon on the Mount",
-   62
+   66
   ],
   [
    "Christ in Majesty",
@@ -333,35 +333,39 @@
  "types": [
   [
    "print",
-   23504
+   24232
   ],
   [
    "painting",
-   19975
+   20425
   ],
   [
    "drawing",
-   3968
+   4431
   ],
   [
    "sculpture",
-   3709
-  ],
-  [
-   "other",
-   2427
+   3869
   ],
   [
    "manuscript",
-   2055
+   3215
+  ],
+  [
+   "other",
+   2440
   ],
   [
    "icon",
-   1620
+   1695
   ],
   [
    "statue",
    861
+  ],
+  [
+   "metalwork",
+   436
   ],
   [
    "fresco",
@@ -372,12 +376,8 @@
    411
   ],
   [
-   "metalwork",
-   323
-  ],
-  [
    "stained glass",
-   275
+   274
   ],
   [
    "triptych",
@@ -385,15 +385,23 @@
   ],
   [
    "textile",
-   245
+   262
+  ],
+  [
+   "ivory",
+   228
+  ],
+  [
+   "enamel",
+   195
   ],
   [
    "mosaic",
    141
   ],
   [
-   "ivory",
-   141
+   "glass",
+   131
   ],
   [
    "leadlight",
@@ -404,20 +412,12 @@
    110
   ],
   [
-   "enamel",
-   110
-  ],
-  [
-   "glass",
-   104
-  ],
-  [
    "group of sculptures",
    97
   ],
   [
    "book",
-   91
+   96
   ],
   [
    "reredos",
@@ -426,6 +426,10 @@
   [
    "wayside cross",
    79
+  ],
+  [
+   "ceramic",
+   61
   ],
   [
    "polyptych",
@@ -442,10 +446,6 @@
   [
    "mural",
    46
-  ],
-  [
-   "ceramic",
-   44
   ],
   [
    "diptych",

@@ -25,7 +25,9 @@ ROOT = HERE.parent.parent
 sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 from subjects import classify  # noqa: E402,F401
-from aic import QUERIES as AIC_QUERIES, NOT_CHRIST, TAG_OK, TAG_BAD, decide  # noqa: E402
+from aic import QUERIES as AIC_QUERIES, NOT_CHRIST, TAG_OK, TAG_BAD, HEAD_SCENE, SAINTLY, decide  # noqa: E402
+from subjects import EXCLUDE  # noqa: E402
+from cma import GENERIC_TITLE  # noqa: E402
 from walters import refine, kind_from  # noqa: E402
 from getty import PREFILTER  # noqa: E402
 
@@ -46,6 +48,26 @@ QUERIES = list(dict.fromkeys(AIC_QUERIES + [
     "Peter", "Magdalene", "John the Baptist", "Virgin Mary", "Pantokrator", "Theotokos", "Byzantine",
     "Bible", "Gospel", "Evangelists", "Icon", "Altar", "Saint Anne", "Joseph", "Simeon", "Holy Ghost",
 ]))
+
+# Princeton's subject terms are applied loosely (e.g. "Christ" on an Annunciation or on
+# a mythological print), so they may only rescue titles that are generic or name a
+# Gospel/Passion scene without naming Christ ("Bearing of the Cross", "Corpus", "Pax").
+TAG_TITLE_OK = re.compile(r"^(cutting|leaf|sheet|book of hours|heures|manuscript|plate \d+|corpus|epitaphios|"
+                          r"tabernacle|pax|chalice|holy water|triptych|altarpiece|processional|cross)\b|"
+                          r"\bscenes\b|\bcondemn|\bpresentation to the people\b|\bwedding of cana\b|"
+                          r"\bhouse of the pharisee\b|\bdenier of caesar\b|\bjairus\b|\bloaves\b", re.I)
+TAG_TITLE_BAD = re.compile(r"\b(dormition|death of the virgin|assumption|immaculate|annunciation|pentecost|"
+                           r"holy spirit|expulsion|paradise|dead rising|odyssey|procris|virgin of the|virgin adored|"
+                           r"birth of the virgin|study for king|mammon|convalescence|marriage by proxy|at the cross|raising of the dead|presepio)\b", re.I)
+
+
+def tags_allowed(title):
+    if TAG_TITLE_BAD.search(title) or EXCLUDE.search(title):
+        return False
+    if SAINTLY.search(title) and not re.search(r"\b(christ|jesus|cross|crucif)", title, re.I):
+        return False
+    return bool(TAG_TITLE_OK.search(title) or GENERIC_TITLE.search(title) or HEAD_SCENE.search(title))
+
 
 # Records found by these searches are fully fetched even when the title alone is
 # not suggestive (their subject terms may still name Christ).
@@ -229,7 +251,7 @@ def main():
             continue
         a = artist(o)
         alts = [t.get("title") or "" for t in as_list(o.get("titles")) if (t.get("title") or "") != title]
-        tags = subject_tags(o)
+        tags = subject_tags(o) if tags_allowed(title) else []
         u = refine(title, decide(title, " ".join(tags), a), " ".join(tags))
         if not u:
             for alt in alts:

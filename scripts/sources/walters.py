@@ -100,7 +100,13 @@ EXTRA_NOT = re.compile(
     r"\b(wearing|holding|with) an? crucifix\b(?!.*\bchrist\b)|\bcrucifix (necklace|around)|\bcriminals crucified\b|"
     r"\bgokumon\b|\bteresa de jes[uú]s\b|\bjos[eé] jes[uú]s\b|\b(entombment|burial|funeral|dormition) of the virgin\b|"
     r"\bangel of the (resurrection|nativity)\b(?!.*\b(christ|jesus|child)\b)|\bf[eê]te (of|de) (la |the )?madonna\b|"
-    r"\btenement house madonna\b|\btrumpet of the last judg",
+    r"\btenement house madonna\b|\btrumpet of the last judg|\bholy trinity (cathedral|church|parish)|\btrinity church\b|"
+    r"\b(mt\.?|mont|mount) calvai?ry?e?\b|\bmadonna lil|\bmonte? della madonna\b|christ-?thorn|\bsalvator r[o]?s+a\b|"
+    r"\bmother and infant child\b|\bwife,? mary\b|military punishments?\b|\bannunciate\b|verk[üu]ndigung|"
+    r"\bsaviou?r of (the |his |her |our )?(nation|country|state|people)\b|\bsalvator franciscus\b|\bjesus chapel\b|\bcalvary (church|cemetery|chapel)\b|\belijah'?s?\b.{0,25}\bascension\b|\bascension of (elijah|the prophet)\b|\bcross and crown of thorns\b|\b[ée]glise de christ\b|"
+    r"\bchrist'?s? (hospital|college)\b|\bjesus!|\bdoux j[ée]sus\b|\bchristi que\b|\bvanity fair\b|\bdeath the savio|"
+    r"^(?!christ\b).*\bfrom (the )?series:? christ and the (twelve )?apostles\b|"
+    r"^(saint|st\.?|san|santa)\b[^()]*\((from|series)\b[^)]*\bchrist\b",
     re.I)
 # Places in the Holy Land (and similar) photographed as topography rather than as scenes.
 PLACE = re.compile(

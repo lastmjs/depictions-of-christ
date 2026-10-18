@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70804,
- "checked": 347,
+ "total": 70901,
+ "checked": 444,
  "centuries": [
   {
    "century": "2",
@@ -13,31 +13,31 @@
   },
   {
    "century": "4",
-   "count": 88
+   "count": 93
   },
   {
    "century": "5",
-   "count": 20
-  },
-  {
-   "century": "6",
-   "count": 43
-  },
-  {
-   "century": "7",
    "count": 25
   },
   {
+   "century": "6",
+   "count": 68
+  },
+  {
+   "century": "7",
+   "count": 28
+  },
+  {
    "century": "8",
-   "count": 70
+   "count": 88
   },
   {
    "century": "9",
-   "count": 70
+   "count": 96
   },
   {
    "century": "10",
-   "count": 143
+   "count": 156
   },
   {
    "century": "11",
@@ -49,7 +49,7 @@
   },
   {
    "century": "13",
-   "count": 1050
+   "count": 1052
   },
   {
    "century": "14",
@@ -91,19 +91,19 @@
  "subjects": [
   [
    "Jesus Christ",
-   18812
+   18909
   ],
   [
    "Madonna and Child",
-   13605
+   13616
   ],
   [
    "Christ Child",
-   8578
+   8599
   ],
   [
    "Crucifixion",
-   5895
+   5896
   ],
   [
    "Holy Family",
@@ -111,11 +111,11 @@
   ],
   [
    "Adoration of the Magi",
-   2457
+   2461
   ],
   [
    "Nativity",
-   2002
+   2003
   ],
   [
    "Adoration of the Shepherds",
@@ -131,7 +131,7 @@
   ],
   [
    "Flight into Egypt",
-   1562
+   1565
   ],
   [
    "Last Supper",
@@ -143,7 +143,7 @@
   ],
   [
    "Baptism",
-   1186
+   1188
   ],
   [
    "Pietà",
@@ -151,19 +151,19 @@
   ],
   [
    "Agony in the Garden",
-   1017
+   1018
   ],
   [
    "Descent from the Cross",
-   1007
+   1008
   ],
   [
    "Carrying the Cross",
-   962
+   964
   ],
   [
    "Last Judgment",
-   913
+   917
   ],
   [
    "Flagellation",
@@ -171,7 +171,7 @@
   ],
   [
    "Miracles of Christ",
-   812
+   823
   ],
   [
    "Man of Sorrows",
@@ -183,7 +183,7 @@
   ],
   [
    "Ascension",
-   703
+   705
   ],
   [
    "Ecce Homo",
@@ -199,7 +199,7 @@
   ],
   [
    "Trial of Christ",
-   617
+   618
   ],
   [
    "Coronation of the Virgin",
@@ -207,7 +207,7 @@
   ],
   [
    "Presentation in the Temple",
-   579
+   582
   ],
   [
    "Supper at Emmaus",
@@ -215,11 +215,11 @@
   ],
   [
    "Pantocrator",
-   451
+   455
   ],
   [
    "Betrayal & Arrest",
-   428
+   429
   ],
   [
    "Circumcision",
@@ -239,7 +239,7 @@
   ],
   [
    "Appearances after the Resurrection",
-   348
+   350
   ],
   [
    "Noli me tangere",
@@ -255,15 +255,15 @@
   ],
   [
    "Transfiguration",
-   296
+   297
   ],
   [
    "Harrowing of Hell",
-   255
+   259
   ],
   [
    "Wedding at Cana",
-   252
+   253
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -271,7 +271,7 @@
   ],
   [
    "Good Shepherd",
-   224
+   225
   ],
   [
    "Mocking of Christ",
@@ -283,7 +283,7 @@
   ],
   [
    "Entry into Jerusalem",
-   190
+   191
   ],
   [
    "Temptation of Christ",
@@ -291,7 +291,7 @@
   ],
   [
    "Raising of Lazarus",
-   164
+   167
   ],
   [
    "Woman Taken in Adultery",
@@ -311,11 +311,11 @@
   ],
   [
    "Christ in Majesty",
-   53
+   63
   ],
   [
    "Miraculous Draught of Fishes",
-   30
+   32
   ],
   [
    "Kiss of Judas",
@@ -327,7 +327,7 @@
   ],
   [
    "Healing at Bethesda",
-   10
+   11
   ]
  ],
  "types": [
@@ -369,7 +369,7 @@
   ],
   [
    "fresco",
-   447
+   491
   ],
   [
    "ivory",
@@ -400,12 +400,12 @@
    246
   ],
   [
-   "ceramic",
-   167
+   "mosaic",
+   194
   ],
   [
-   "mosaic",
-   141
+   "ceramic",
+   167
   ],
   [
    "book",

@@ -414,6 +414,14 @@ def apply_enrichment(works):
         if e.get("status") == "rejected":
             stats["rejected"] += 1
             continue
+        if e.get("status") == "dated":
+            # triage only: a date was established, but the work has not been fully hand-checked yet
+            for field, value in (e.get("set") or {}).items():
+                if field in ("d", "y", "c", "l", "t", "a", "k"):
+                    w[field] = value
+            stats["dated"] += 1
+            kept.append(w)
+            continue
         for field, value in (e.get("set") or {}).items():
             if field in ("t", "a", "d", "y", "c", "l", "m", "s", "k", "img", "big"):
                 w[field] = value

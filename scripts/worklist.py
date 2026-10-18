@@ -34,6 +34,7 @@ def main():
     ap.add_argument("--undated", action="store_true")
     ap.add_argument("--limit", type=int, default=30)
     ap.add_argument("--offset", type=int, default=0)
+    ap.add_argument("--keys", help="JSON file with a list of work keys to include (in that order)")
     ap.add_argument("--skip-assigned", action="store_true", help="also skip works already in another worklist")
     a = ap.parse_args()
     lo, hi = map(int, a.centuries.split("-"))
@@ -49,6 +50,10 @@ def main():
     for f in files:
         if f.exists():
             todo += [w for w in json.loads(f.read_text()) if key(w) not in done]
+    if a.keys:
+        wanted = json.loads(Path(a.keys).read_text())
+        pos = {k: i for i, k in enumerate(wanted)}
+        todo = sorted([w for w in todo if key(w) in pos], key=lambda w: pos[key(w)])
     batch = todo[a.offset:a.offset + a.limit]
     out = []
     for w in batch:

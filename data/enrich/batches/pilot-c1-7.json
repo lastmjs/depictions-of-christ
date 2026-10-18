@@ -1,0 +1,831 @@
+[
+ {
+  "key": "wga:zearly/1/2mural/1domitil/domitil1",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Enthroned among the Apostles (so-called \"Last Supper\")",
+   "d": "probably 4th century",
+   "y": 350
+  },
+  "summary": "In this arched lunette of the Catacomb of Domitilla, a young, beardless Christ sits at the centre in a white tunic and pallium, larger than the figures around him, while apostles in pale robes are ranged on either side in a shallow arc. At the lower left stands a box of scrolls, and Christ himself appears to hold a scroll, signs of his authority as teacher. Images like this presented Christ as the true philosopher instructing his followers, a theme that would grow into the majestic apse compositions of later churches.",
+  "scripture": "Matthew 28:16–20 (theme); John 13:13",
+  "facts": [
+   "Although often published (including by the Web Gallery of Art) as a 2nd-century 'Last Supper', no table or food is shown; the scene is more commonly read as Christ teaching among the apostles, and only part of the twelve appear.",
+   "Scenes of Christ seated among the apostles belong mainly to the 4th century in the Roman catacombs, which is why a 2nd-century date for this lunette is doubtful.",
+   "The Catacombs of Domitilla are among the largest in Rome, extending for some 17 km on several levels."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/2mural/1domitil/domitil1.html"
+   },
+   {
+    "label": "Wikipedia: Catacombs of Domitilla",
+    "url": "https://en.wikipedia.org/wiki/Catacombs_of_Domitilla"
+   },
+   {
+    "label": "Christian Iconography: The Apostolic College",
+    "url": "https://christianiconography.info/catacombs/apostolicCollege.html"
+   }
+  ],
+  "notes": "WGA title 'Last Supper' and date '2nd century' look unreliable: no meal is depicted, and comparable 'Christ among the apostles' scenes date to the 4th century (some sources give c. 350–375, others late 3rd–early 4th). Re-titled and re-dated cautiously; the precise cubiculum was not confirmed."
+ },
+ {
+  "key": "Q577890",
+  "status": "corrected",
+  "set": {
+   "t": "Alexamenos Graffito",
+   "original_title": "ΑΛΕΞΑΜΕΝΟϹ ϹΕΒΕΤΕ ΘΕΟΝ",
+   "d": "c. 200 (late 2nd–early 3rd century)",
+   "c": "Rome (Palatine Hill)",
+   "l": "Palatine Museum, Rome",
+   "m": "Graffito scratched into wall plaster"
+  },
+  "summary": "Scratched into the plaster of a room on the Palatine Hill, this crude drawing shows a figure with a donkey's head fixed to a cross, while a young man at left raises a hand in a gesture of worship; the Greek caption beneath reads roughly 'Alexamenos worships [his] god'. It was made to mock a Christian, yet it is among the earliest surviving images of the crucifixion and is often called the oldest known depiction of Jesus. Its very scorn bears witness to how strange the worship of a crucified Lord appeared to the pagan world.",
+  "scripture": "1 Corinthians 1:23",
+  "facts": [
+   "The graffito was discovered in 1857 in a building on the Palatine (the domus Gelotiana) that was later used as a school (paedagogium) for imperial page boys.",
+   "In a neighbouring room a different hand wrote 'Alexamenos fidelis' ('Alexamenos is faithful'), which may be a reply to the mockery.",
+   "Ancient writers such as Tertullian and Minucius Felix record the slander that Christians worshipped a donkey's head."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Alexamenos graffito",
+    "url": "https://en.wikipedia.org/wiki/Alexamenos_graffito"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q577890"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Alexorig.jpg"
+   }
+  ],
+  "notes": "Dating is disputed (suggestions range from the late 1st to the late 3rd century); Wikipedia gives c. 200 as most likely, while Wikidata records 100. This is a hostile caricature, not a devotional image, and should be presented as such. The photograph is reproduced from Lanciani's 1898 book."
+ },
+ {
+  "key": "commons:508911",
+  "status": "corrected",
+  "set": {
+   "t": "The Good Shepherd",
+   "d": "3rd–4th century",
+   "c": "Rome",
+   "l": "Catacombs of Domitilla, Rome",
+   "m": "Fresco"
+  },
+  "summary": "A shepherd in a short red-brown tunic and leggings stands frontally with a sheep across his shoulders and a staff in his hand, flanked by sheep and goats among sprigs of greenery. Painted on the walls of a Roman catacomb, this pastoral figure was one of the earliest and most beloved ways Christians pictured Christ, who seeks the lost and carries them home.",
+  "scripture": "John 10:11–16; Luke 15:3–7",
+  "facts": [
+   "The Good Shepherd is the most frequently represented image of Christ in early Christian catacomb painting, borrowing the pre-Christian 'ram-bearer' (kriophoros) type.",
+   "The Catacombs of Domitilla, on the Via Ardeatina, are one of only a handful of Roman catacombs open to the public."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_04.jpg"
+   },
+   {
+    "label": "Wikipedia: Catacombs of Domitilla",
+    "url": "https://en.wikipedia.org/wiki/Catacombs_of_Domitilla"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ],
+  "notes": "Commons description is internally inconsistent (says 'circa 350' but dates the file '200–300 CE'); identification as Domitilla rests on the Commons category and a Belmont University web source, not on a museum record. Date given broadly."
+ },
+ {
+  "key": "wga:zearly/1/2mural/3priscil/2velati7",
+  "status": "corrected",
+  "set": {
+   "d": "second half of the 3rd century",
+   "y": 270
+  },
+  "summary": "At the centre of the ceiling of the Cubiculum of the Velata, framed by a red circle, a youthful shepherd in a short tunic carries a sheep on his shoulders and stretches out his hand, while a sheep or goat stands on each side and doves perch in the trees above. The gentle, symmetrical composition presides over the chamber's scenes of a Christian woman's life and prayer, placing her under the care of Christ the Good Shepherd.",
+  "scripture": "John 10:11–16; Luke 15:3–7",
+  "facts": [
+   "The chamber takes its name (Velata or Velatio, 'the veiled woman') from the praying, veiled woman painted on its end wall.",
+   "The Catacomb of Priscilla on the Via Salaria was used for Christian burials from the late 2nd to the 4th century and was known in antiquity as the 'Queen of the Catacombs'."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/2mural/3priscil/2velati7.html"
+   },
+   {
+    "label": "Wikipedia: Catacomb of Priscilla",
+    "url": "https://en.wikipedia.org/wiki/Catacomb_of_Priscilla"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ],
+  "notes": "WGA dates this to 'around 200'; Commons/Wikidata (for the same ceiling) give the second half of the 3rd century (Wikidata 275), which is the more usual dating for the Velata cubiculum. Same ceiling as Q110184746 in this batch, which is marked as a duplicate of this entry."
+ },
+ {
+  "key": "commons:113520288",
+  "status": "rejected",
+  "reject_reason": "Duplicate: same Yale wall painting (YUAG 1932.1200, object 34493) as Q49322613, which has the better image and correct metadata.",
+  "dup_of": "Q49322613",
+  "set": {},
+  "notes": "This Commons entry also carried bogus metadata (artist 'Yale University Art Gallery', location 'Attribution-Yale-University-Art-Gallery')."
+ },
+ {
+  "key": "Q49289775",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Paralytic (Dura-Europos Baptistery)",
+   "original_title": "Baptistery wall painting: Christ Healing the Paralytic",
+   "d": "c. 232",
+   "c": "Dura-Europos, Syria",
+   "m": "Paint on plaster",
+   "k": "wall painting"
+  },
+  "summary": "Between dark painted borders, a small standing figure, probably Christ, raises his hand above a bed, while at the left a man walks away with the bed hoisted on his back. Painted in a simple outline style for the baptistery of the Christian house-church at Dura-Europos, it is among the very oldest surviving images of Jesus. For those being baptised, the healed man carrying his bed spoke of new life and restored strength given by Christ.",
+  "scripture": "Mark 2:1–12; John 5:1–15",
+  "facts": [
+   "The Dura-Europos house church, converted from a private house in the 230s–240s, is the earliest identified Christian house church; it was buried under a Roman defensive ramp before the city fell to the Persians in 256, which preserved its paintings.",
+   "The fragment measures about 145 × 88 cm and was brought to Yale after the Yale–French excavations (credited 'Yale-French Excavations at Dura-Europos').",
+   "Only the baptistery of the house church was painted; this miracle scene belonged to a register of smaller scenes above a larger procession of women."
+  ],
+  "links": [
+   {
+    "label": "Yale University Art Gallery object page",
+    "url": "https://artgallery.yale.edu/collections/objects/34498"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q49289775"
+   },
+   {
+    "label": "Wikipedia: Dura-Europos church",
+    "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+   },
+   {
+    "label": "Wikipedia: Healing the paralytic at Bethesda",
+    "url": "https://en.wikipedia.org/wiki/Healing_the_paralytic_at_Bethesda"
+   }
+  ],
+  "notes": "Yale dates the painting 'ca. A.D. 232' (the house's construction inscription is dated 232/233; conversion to a church may be c. 240/241). Whether the scene follows Mark 2 (Capernaum) or John 5 (Bethesda) is debated; Wikidata links it to Bethesda, the Wikipedia article to Mark 2."
+ },
+ {
+  "key": "Q49289829",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Walking on the Water (Dura-Europos Baptistery)",
+   "original_title": "Baptistery wall painting: Christ Walking on Water",
+   "d": "c. 232",
+   "c": "Dura-Europos, Syria",
+   "m": "Paint on plaster",
+   "k": "wall painting"
+  },
+  "summary": "On this broken fragment a boat full of small figures rides the waves above, while below two figures stand on the water: Christ reaching toward Peter, who has stepped out to meet him. Painted for the baptistery of the house church at Dura-Europos, the scene told new believers that just as Christ held Peter above the waves of Galilee, he would save those who passed through the waters of baptism.",
+  "scripture": "Matthew 14:22–33",
+  "facts": [
+   "Because two figures appear on the water, the scene follows Matthew's account, in which Peter also walks on the sea, rather than the versions in Mark and John where Jesus walks alone.",
+   "The fragment (about 139 × 100 cm) is one of three Dura-Europos paintings counted among the earliest surviving images of Jesus, together with the Good Shepherd and the Healing of the Paralytic.",
+   "The scene was only partly preserved because the wall above it had been torn down when the city's defences were reinforced."
+  ],
+  "links": [
+   {
+    "label": "Yale University Art Gallery object page",
+    "url": "https://artgallery.yale.edu/collections/objects/34499"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q49289829"
+   },
+   {
+    "label": "Wikipedia: Dura-Europos church",
+    "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+   },
+   {
+    "label": "Wikipedia: Jesus walking on water",
+    "url": "https://en.wikipedia.org/wiki/Jesus_walking_on_water"
+   }
+  ],
+  "notes": "Yale dates the painting 'ca. A.D. 232'."
+ },
+ {
+  "key": "Q49322613",
+  "status": "corrected",
+  "set": {
+   "t": "The Good Shepherd with Adam and Eve (Dura-Europos Baptistery)",
+   "original_title": "Baptistery wall painting: Good Shepherd and Adam and Eve",
+   "d": "c. 232",
+   "c": "Dura-Europos, Syria",
+   "m": "Paint on plaster",
+   "k": "wall painting"
+  },
+  "summary": "This faded, round-topped panel once filled the niche above the baptismal font at Dura-Europos: a shepherd carrying a ram on his shoulders leads a flock across the field, while in a small framed area at lower left Adam and Eve stand beside the tree. The pairing set humanity's fall beside Christ the Good Shepherd who seeks the lost, a fitting image to face those entering the waters of baptism.",
+  "scripture": "John 10:11–16; Genesis 3:1–7",
+  "facts": [
+   "It hung on the back wall of the canopied niche over the font in the baptistery of the Dura-Europos house church, the earliest identified Christian house church.",
+   "The shepherd figure is only about 40 cm high; the flock was probably once thirteen to sixteen animals, an unusually large number, and Adam and Eve appear to be a later addition.",
+   "The painting was found in fragments and reassembled; it is now in the Yale University Art Gallery (1932.1200)."
+  ],
+  "links": [
+   {
+    "label": "Yale University Art Gallery object page",
+    "url": "https://artgallery.yale.edu/collections/objects/34493"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q49322613"
+   },
+   {
+    "label": "Wikipedia: Dura-Europos church",
+    "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ],
+  "notes": "Yale dates it 'ca. A.D. 232'. Duplicate Commons entry commons:113520288 rejected in favour of this one."
+ },
+ {
+  "key": "wga:zearly/1/2mural/3priscil/1greek8",
+  "status": "verified",
+  "set": {},
+  "summary": "On the arch of the Greek Chapel (Cappella Greca), three Magi in short tunics stride in single file toward a seated figure at the right, the Virgin, who once held the Christ Child on her lap. The figures are painted in quick, warm strokes against the pale plaster, and though the Child is now hard to make out, the scene is one of the earliest representations of the Gentiles coming to worship the newborn King.",
+  "scripture": "Matthew 2:1–12",
+  "facts": [
+   "The Greek Chapel takes its name from two Greek inscriptions painted in a niche; it contains 3rd-century frescoes of Old and New Testament scenes, including the famous 'Fractio Panis'.",
+   "In early Christian art the Magi are typically shown, as here, in short tunics striding toward the seated Mother and Child, a formula repeated on many 4th-century sarcophagi."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/2mural/3priscil/1greek8.html"
+   },
+   {
+    "label": "Wikipedia: Catacomb of Priscilla",
+    "url": "https://en.wikipedia.org/wiki/Catacomb_of_Priscilla"
+   },
+   {
+    "label": "Wikipedia: Adoration of the Magi",
+    "url": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi"
+   }
+  ],
+  "notes": "The Christ Child is not clearly legible in the photograph because of the fresco's condition; the identification rests on the established reading of the scene."
+ },
+ {
+  "key": "met:468764",
+  "status": "corrected",
+  "set": {
+   "t": "Christ before the Elders",
+   "m": "Yellowish chalcedony (intaglio)"
+  },
+  "summary": "This tiny engraved gem, less than 2 cm high, is catalogued by the Metropolitan Museum as showing Christ before the elders; worn shapes of a larger draped figure and a smaller one can be made out in the translucent chalcedony. Intaglios like this were cut to be set in rings and used as seals, so that an owner could carry and impress a sacred image in daily life.",
+  "facts": [
+   "The gem measures only about 1.9 × 1.6 cm and came to the Met in 1881 as a gift of John Taylor Johnston, the museum's first president.",
+   "Engraved gems (intaglios) were carved in reverse so that, pressed into wax or clay, they left a positive image; Christian subjects on gems appear from the 3rd–4th century onward."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/468764"
+   },
+   {
+    "label": "Wikipedia: Engraved gem",
+    "url": "https://en.wikipedia.org/wiki/Engraved_gem"
+   }
+  ],
+  "notes": "The subject cannot be confirmed from the photographs: the engraving is worn and small, and the Met offers no published description. Identification rests on the Met's title alone. The scripture passage is uncertain ('elders' might mean the Sanhedrin, or the boy Jesus among the teachers, Luke 2:41–52), so none is given."
+ },
+ {
+  "key": "Q18673023",
+  "status": "corrected",
+  "set": {
+   "t": "Christ as Sol (Helios) — Mosaic in the Tomb of the Julii",
+   "d": "mid–late 3rd century",
+   "l": "Tomb of the Julii (Mausoleum M), Vatican Necropolis, Rome",
+   "m": "Mosaic"
+  },
+  "summary": "On a golden ground woven with green vine tendrils, a figure crowned with rays rides upward in a chariot drawn by white horses. Set in the vault of a small family tomb beneath St Peter's, alongside Christian mosaics of Jonah, the Good Shepherd and a fisherman, it is widely read as Christ portrayed as the rising sun, the 'Sun of Righteousness' who conquers death. It is one of the earliest Christian mosaics known.",
+  "scripture": "Malachi 4:2 (theme); John 8:12",
+  "facts": [
+   "The tomb was first broken into by workmen in 1574 and then sealed again; it lies in the necropolis explored by the Vatican excavations of 1940–1949.",
+   "Neighbouring mosaics in the same tomb show Jonah and the whale, the Good Shepherd and a fisherman, which is why the solar charioteer is interpreted as Christ ('Christus-Sol').",
+   "An inscription over the doorway, now lost, recorded that the tomb was built for Julius Tarpeianus and his family."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Tomb of the Julii",
+    "url": "https://en.wikipedia.org/wiki/Tomb_of_the_Julii"
+   },
+   {
+    "label": "Wikipedia: Vatican Necropolis",
+    "url": "https://en.wikipedia.org/wiki/Vatican_Necropolis"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q18673023"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Christus_Sol_Invictus.jpeg"
+   }
+  ],
+  "notes": "The identification as Christ is an interpretation, not certain. Dating varies: Wikipedia gives 266 CE in one place and 'third or fourth century' in another; Wikidata gives 300. Given broadly."
+ },
+ {
+  "key": "Q110184746",
+  "status": "rejected",
+  "reject_reason": "Duplicate: same ceiling painting (Good Shepherd, Cubiculum of the Velata, Catacomb of Priscilla) as the WGA entry, which has the larger image; its better date has been transferred there.",
+  "dup_of": "wga:zearly/1/2mural/3priscil/2velati7",
+  "set": {}
+ },
+ {
+  "key": "commons:120764905",
+  "status": "rejected",
+  "reject_reason": "Duplicate: same marble statuette (Vatican Museums, Museo Pio Cristiano, inv. 28590) as the WGA entry, which has the better image and metadata.",
+  "dup_of": "wga:zearly/1/1sculptu/various/7statue1",
+  "set": {}
+ },
+ {
+  "key": "wga:zearly/1/2mural/4callist/callist6",
+  "status": "verified",
+  "set": {},
+  "summary": "Within a red medallion on a catacomb ceiling, a young shepherd in a belted tunic carries a sheep on his shoulders and holds a pail in his outstretched hand, with a small animal standing on either side. The simple, quickly painted figure expresses the earliest Christians' trust in Christ as the shepherd who carries his flock to safety, even through death.",
+  "scripture": "John 10:11–16; Psalm 23",
+  "facts": [
+   "The pail is usually identified as a milk pail (mulctra), a pastoral attribute of the shepherd that some early Christian interpreters associated with spiritual nourishment.",
+   "The Catacomb of Callixtus on the Via Appia became the official burial ground of the 3rd-century church of Rome and contains the 'Crypt of the Popes'."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/2mural/4callist/callist6.html"
+   },
+   {
+    "label": "Wikipedia: Catacomb of Callixtus",
+    "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ],
+  "notes": "WGA gives no chamber; the specific location within the catacomb (possibly the Crypts of Lucina area) was not confirmed."
+ },
+ {
+  "key": "Q60761235",
+  "status": "verified",
+  "set": {},
+  "summary": "Carved in marble, a youthful shepherd with thick curls stands calmly with a large sheep across his shoulders, his cloak hanging over one arm and his crook beside him, while small sheep rest at his feet beside a tree stump. Found together with a set of statuettes telling the story of Jonah, the figure almost certainly represents Christ as the Good Shepherd, a serene image of protection and hope for the afterlife.",
+  "scripture": "John 10:11",
+  "facts": [
+   "It belongs to a group of small marble sculptures in Cleveland (1965.237–247), including four Jonah statuettes; an unconfirmed report says the whole group was found in a single large storage jar (pithos).",
+   "The statuette is about 49.5 cm high and is dated c. 280–290, which places it among the earliest surviving sculptures of the Good Shepherd understood as Christ.",
+   "The Cleveland Museum of Art acquired it in 1965 through the John L. Severance Fund."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art object page",
+    "url": "https://www.clevelandart.org/art/1965.241"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60761235"
+   },
+   {
+    "label": "Wikipedia: Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+   }
+  ]
+ },
+ {
+  "key": "Q116242906",
+  "status": "verified",
+  "set": {},
+  "summary": "Pressed into a small disc of dark glass, this balance weight bears worn busts: a central figure above, identified by the Metropolitan Museum as Christ blessing, and two figures below, officials (eparchs) or emperors. Such glass weights, stamped by the authorities, guaranteed honest measure in the marketplace, and Christ's image placed that guarantee under divine sanction.",
+  "facts": [
+   "The weight is only about 2 cm across and weighs 2 grams.",
+   "Byzantine glass weights were often stamped with the names or images of the eparch (city prefect) responsible for supervising weights and measures."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/466655"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116242906"
+   },
+   {
+    "label": "Wikipedia: Byzantine glass",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_glass"
+   }
+  ],
+  "notes": "The moulded image is heavily worn; the three busts are visible, but identification of the upper figure as Christ relies on the Met's catalogue. No scripture passage applies directly (Proverbs 11:1 on just weights could be cited as theme).",
+  "scripture": "Proverbs 11:1 (theme)"
+ },
+ {
+  "key": "Q18663552",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Healing the Woman with an Issue of Blood",
+   "d": "late 3rd–early 4th century",
+   "c": "Rome",
+   "l": "Catacombs of Marcellinus and Peter, Rome"
+  },
+  "summary": "Within a painted arched frame, a tall, youthful Christ in a white tunic and pallium turns and extends his hand toward a woman who kneels at his feet, wrapped in a dark mantle, reaching out to touch the hem of his garment. The moment of faith and healing is told with great economy: two figures, one gesture, and the compassion of the Lord who said, 'Your faith has made you well.'",
+  "scripture": "Mark 5:25–34; Matthew 9:20–22; Luke 8:43–48",
+  "facts": [
+   "This is one of very few surviving catacomb paintings of the healing of the woman with the issue of blood (the haemorrhoissa).",
+   "The Catacombs of Marcellinus and Peter on the ancient Via Labicana are among the richest in painted chambers of the late 3rd and 4th centuries."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q18663552"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:HealBleedingWoman.jpg"
+   },
+   {
+    "label": "Christian Iconography: The Woman with the Flow of Blood",
+    "url": "https://christianiconography.info/Wikimedia%20Commons/womanFlowBloodMarcellinusPeter.html"
+   },
+   {
+    "label": "Wikipedia: Healing the bleeding woman",
+    "url": "https://en.wikipedia.org/wiki/Healing_the_bleeding_woman"
+   }
+  ],
+  "notes": "Sources vary between late 3rd century and early/mid 4th century; Wikidata records 300."
+ },
+ {
+  "key": "Q116256893",
+  "status": "verified",
+  "set": {},
+  "summary": "Lightly engraved into the centre of a green glass dish, Christ stands holding a staff toward the wrapped, mummy-like figure of Lazarus in his tomb, with another figure beside them, all within a wreath of leafy ornament and a ribbed rim. On a vessel perhaps used at table, the raising of Lazarus proclaimed Christ's power over death, one of the most popular subjects in early Christian art.",
+  "scripture": "John 11:1–44",
+  "facts": [
+   "The dish is about 24 cm in diameter and was given to the Met by J. Pierpont Morgan in 1917.",
+   "In Late Antique art Christ is often shown raising Lazarus with a staff or wand, touching the tomb in which Lazarus stands bound in grave-cloths."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/464457"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116256893"
+   },
+   {
+    "label": "Wikipedia: Raising of Lazarus",
+    "url": "https://en.wikipedia.org/wiki/Raising_of_Lazarus"
+   }
+  ],
+  "notes": "The image shows a crack running across the dish; the engraving is faint and the third figure is not securely identified."
+ },
+ {
+  "key": "Q116246029",
+  "status": "verified",
+  "set": {},
+  "summary": "Drawn in gold leaf on deep blue glass, a youthful figure in a tunic and mantle points a long rod at the objects beside him, the gesture with which early Christian art shows Christ working miracles. Small and intimate, this medallion carried the image of the wonder-working Christ into private devotion.",
+  "facts": [
+   "The medallion is only about 2.5 cm across; the gold-leaf image was originally sealed between layers of glass.",
+   "The 'wand' held by Christ is a standard feature of 3rd–4th century miracle scenes, such as the raising of Lazarus, the multiplication of loaves and the miracle at Cana."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/465929"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116246029"
+   },
+   {
+    "label": "Wikipedia: Gold glass",
+    "url": "https://en.wikipedia.org/wiki/Gold_glass"
+   }
+  ],
+  "notes": "Which miracle is shown is not certain from the image (the objects at left may be jars, suggesting Cana, but this is unconfirmed), so no specific passage is given. Scripture could be cited generally, e.g. John 2:11 (theme).",
+  "scripture": "John 2:11 (theme)"
+ },
+ {
+  "key": "met:468482",
+  "status": "verified",
+  "set": {},
+  "summary": "This marble head of a mature man with a full, curling beard and long hair falling to the shoulders was carved in the Roman manner and, according to the Metropolitan Museum, later transformed; it may represent Zeus, or Christ, or a Zeus image reworked as Christ. It vividly illustrates how the bearded, majestic image of Christ drew on the long tradition of classical images of the father of the gods.",
+  "scripture": "John 14:9 (theme)",
+  "facts": [
+   "The Met dates the head to the 3rd or 4th century with a later transformation, and titles it 'Head of Christ or Zeus', leaving the identification open.",
+   "The bearded, long-haired type of Christ that became standard from the late 4th century onward owes much to classical images of Zeus and of philosophers."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/468482"
+   },
+   {
+    "label": "Wikipedia: Christ Pantocrator",
+    "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator"
+   }
+  ],
+  "notes": "Identification as Christ is uncertain (the museum itself hedges). Kept because the Met lists 'Christ' as a subject, but an editor may prefer to exclude it."
+ },
+ {
+  "key": "Q116243170",
+  "status": "verified",
+  "set": {},
+  "summary": "Along this long marble lid a young shepherd, Christ, stands at the centre between two flocks: sheep crowd in from the left under leafy trees, and goats press in from the right, framed by fluted shell-like ornaments at each end. Carved for a Christian burial, it gives quiet form to Christ's words about the Last Judgement, when the Son of Man will separate the sheep from the goats.",
+  "scripture": "Matthew 25:31–46",
+  "facts": [
+   "The lid is about 2.37 m long and weighs about 103 kg; the Met acquired it through the Rogers Fund in 1924.",
+   "Early Christian art often expressed the Last Judgement through Christ's parable of the sheep and the goats, long before the later type of Christ enthroned as judge became common."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/466583"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116243170"
+   },
+   {
+    "label": "Wikipedia: Last Judgment",
+    "url": "https://en.wikipedia.org/wiki/Last_Judgment"
+   }
+  ],
+  "notes": "The Met's date carries a question mark: 'late 3rd–early 4th century (?)'."
+ },
+ {
+  "key": "wga:zearly/1/1sculptu/various/7statue1",
+  "status": "corrected",
+  "set": {
+   "d": "late 3rd–early 4th century (reworked in the 18th century)",
+   "l": "Museo Pio Cristiano, Vatican Museums"
+  },
+  "summary": "In this famous marble statuette a beardless young shepherd with a mass of curls carries a ram across his shoulders, gripping its legs, a satchel slung at his side and leggings bound to his shins. Its gentle, Apollo-like face exemplifies how early Christians recast a familiar pastoral image as Christ, the Good Shepherd who goes after the lost sheep and carries it home rejoicing.",
+  "scripture": "Luke 15:3–7; John 10:11",
+  "facts": [
+   "The figure was originally part of a larger work (a sarcophagus according to the Vatican Museums and Wikipedia, possibly a table support) and was reworked in the 18th century into an independent statuette, with restored head top, arms, the lamb's legs and one of the shepherd's legs.",
+   "It is about 100 cm high and is inventoried as no. 28590 in the Museo Pio Cristiano.",
+   "Wikipedia records that it was found in the Catacomb of Callixtus."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/1sculptu/various/7statue1.html"
+   },
+   {
+    "label": "Vatican Museums: Statuette of the Good Shepherd",
+    "url": "https://www.museivaticani.va/content/museivaticani/es/collezioni/musei/museo-pio-cristiano/buon-pastore-e-giona/statuetta-del-buon-pastore.html"
+   },
+   {
+    "label": "Wikipedia: Statuette of the Good Shepherd",
+    "url": "https://en.wikipedia.org/wiki/Statuette_of_the_Good_Shepherd"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q117321320"
+   }
+  ],
+  "notes": "Sources disagree on the restoration (1757 by Cavaceppi vs 1764) and on the original function; provenance from the Catacomb of Callixtus is reported by Wikipedia but called unknown elsewhere. Duplicate Commons entry commons:120764905 rejected in favour of this one."
+ },
+ {
+  "key": "Q116274440",
+  "status": "rejected",
+  "reject_reason": "Not a depiction of Christ: a secular gold-glass portrait of a Roman mother and her young son (the Met titles it 'Mother and Child', not Virgin and Child; the woman wears a fashionable Roman hairstyle and the boy contemporary dress).",
+  "set": {},
+  "notes": "The Met attaches a 'Madonna and Child' keyword tag, which appears to be the source of the misclassification."
+ },
+ {
+  "key": "Q116276234",
+  "status": "corrected",
+  "set": {
+   "c": "probably Rome",
+   "m": "Glass, gold leaf"
+  },
+  "summary": "Set in a gold-leaf roundel on dark glass, the youthful Christ stands at the top holding out a wreath in each hand over the heads of Saints Peter and Paul, who sit facing one another below; an inscription runs around the border. Once the base of a drinking bowl, it celebrates the two great apostles of Rome receiving from Christ the crown of martyrdom.",
+  "scripture": "2 Timothy 4:7–8",
+  "facts": [
+   "Gold-glass bowl bases like this survived in large numbers because they were pressed into the mortar of catacomb graves as markers; mortar still clings to this one.",
+   "Peter and Paul, martyred in Rome, were the most popular saints on Roman gold glass of the 4th century."
+  ],
+  "links": [
+   {
+    "label": "The Met object page",
+    "url": "https://www.metmuseum.org/art/collection/search/463547"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116276234"
+   },
+   {
+    "label": "Wikipedia: Gold glass",
+    "url": "https://en.wikipedia.org/wiki/Gold_glass"
+   }
+  ],
+  "notes": "The worklist's 'c' (place made) field was correct; set repeats Met culture/place for clarity. The inscription is not transcribed here because it was not verified letter by letter."
+ },
+ {
+  "key": "wga:zearly/1/1sculptu/various/7statue3",
+  "status": "corrected",
+  "set": {
+   "t": "Christ the Teacher (Cristo docente)",
+   "original_title": "Cristo docente",
+   "d": "c. 350–380",
+   "l": "Museo Nazionale Romano, Palazzo Massimo alle Terme, Rome"
+  },
+  "summary": "A beardless young Christ, with long curls falling to his shoulders, sits on a draped chair in tunic, pallium and sandals, holding a partly opened scroll; his right forearm, once raised in a speaking gesture, is lost. Modelled on the seated philosopher and on enthroned deities, the statuette presents Christ as the teacher of true wisdom, a type that would later grow into Christ in Majesty.",
+  "scripture": "John 13:13; Matthew 23:8",
+  "facts": [
+   "Freestanding statues of Christ are extremely rare in early Christian art; this is one of the best-known.",
+   "The statuette is about 72 cm high; it was long dated c. 350–360 by comparison with the Christ of the Junius Bassus sarcophagus, while other scholars favour c. 370–380 on stylistic grounds."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/1sculptu/various/7statue3.html"
+   },
+   {
+    "label": "Wikipedia: National Roman Museum of Palazzo Massimo",
+    "url": "https://en.wikipedia.org/wiki/National_Roman_Museum_of_Palazzo_Massimo"
+   },
+   {
+    "label": "The Byzantine Legacy: Statuette of Christ",
+    "url": "https://www.thebyzantinelegacy.com/christ-statuette"
+   }
+  ],
+  "notes": "Dates in the literature range from c. 300 to the 390s; WGA's 350–75 sits within the mainstream range. Whether it is a western work or an eastern import is debated. An older catalogue reportedly described it as a seated poetess; not verified."
+ },
+ {
+  "key": "wga:zearly/1/2mural/2marcell/marcel11",
+  "status": "verified",
+  "set": {},
+  "summary": "On the ceiling of a burial chamber, Christ sits enthroned at the centre, bearded and haloed, in a dark robe with an open book, while Peter and Paul stand on either side gesturing toward him. In the register below, the Lamb stands on a hill, and four martyrs of this catacomb, labelled with their names, approach in acclamation. The painting joins the heavenly court of Christ with the local saints venerated in this very place.",
+  "scripture": "Revelation 5:6–14; Revelation 14:1",
+  "facts": [
+   "The four martyrs below are named by painted inscriptions; the names of Gorgonius and Tiburtius can still be partly read, and the group is usually completed by Peter and Marcellinus, the martyrs after whom the catacomb is named.",
+   "The Lamb standing on a mount, the symbol of Christ sacrificed and victorious, is a motif that later reappears in the apse mosaics of Roman churches."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/2mural/2marcell/marcel11.html"
+   },
+   {
+    "label": "Wikipedia: Catacombs of Marcellinus and Peter",
+    "url": "https://en.wikipedia.org/wiki/Catacombs_of_Marcellinus_and_Peter"
+   },
+   {
+    "label": "Wikipedia: Agnus Dei",
+    "url": "https://en.wikipedia.org/wiki/Agnus_Dei"
+   }
+  ],
+  "notes": "The identification of all four martyrs is based on the usual reading of this fresco; only parts of the inscriptions are legible in the photograph. Some scholars date the painting to the late 4th or early 5th century."
+ },
+ {
+  "key": "Q3847510",
+  "status": "corrected",
+  "set": {
+   "t": "Madonna of Siponto (Virgin and Child)",
+   "original_title": "Maria Santissima di Siponto",
+   "d": "11th century (traditionally 5th century); heavily repainted",
+   "y": 1050,
+   "c": "Southern Italy (Byzantine style)",
+   "m": "Egg tempera on panel prepared with linen",
+   "s": "Byzantine"
+  },
+  "summary": "In this venerated icon the Virgin, veiled in deep blue with a star on her shoulder, holds the Christ Child on her arm against a gold ground; the Child, in a light tunic, raises his right hand in blessing and looks up toward his mother. Both now wear silver crowns, recalling the icon's solemn coronation in 1955. Long honoured as the patroness of Manfredonia, the icon is carried in procession through the city each year on 31 August.",
+  "scripture": "Luke 1:42 (theme)",
+  "facts": [
+   "Legend says the icon was painted in Constantinople in the 5th century and brought to Siponto, but historians date the panel to around the 11th century; the first certain records date from 1327.",
+   "A fire in 1872 destroyed the lower part of the panel, and later restorations (1896, 1927, 1964) left it extensively repainted; it was restored again in 2010–2011.",
+   "It was solemnly crowned on 28 August 1955 by Cardinal Angelo Roncalli, the future Pope John XXIII."
+  ],
+  "links": [
+   {
+    "label": "Italian Wikipedia: Maria Santissima di Siponto",
+    "url": "https://it.wikipedia.org/wiki/Maria_Santissima_di_Siponto"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q3847510"
+   },
+   {
+    "label": "Wikipedia: Manfredonia Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Manfredonia_Cathedral"
+   }
+  ],
+  "notes": "The 4th-century date in the source data reflects legend; the work should move out of the 1st–7th century range (c. 11th century). The Commons photo was taken during the 2008 procession; since 2002 a copy by Aronne Del Vecchio has been carried in procession, so the photograph may show the copy rather than the original panel."
+ },
+ {
+  "key": "Q28065719",
+  "status": "corrected",
+  "set": {
+   "t": "Sarcophagus Fragment with the Virgin and Child",
+   "original_title": "Cuve de sarcophage de la Vierge à l'Enfant",
+   "d": "first half of the 4th century",
+   "y": 330,
+   "c": "uncertain (Rome, Roman Spain or elsewhere)",
+   "m": "White marble",
+   "k": "sculpture"
+  },
+  "summary": "This corner fragment of a sarcophagus front shows a veiled woman seated solemnly on a high-backed chair, holding a swaddled infant on her lap; a bearded man with a scroll leans on the chair behind her, another man appears at the corner, and two women stand at the right, one of whom seems to touch the child. It is one of the earliest sculpted images of the Virgin and Child, probably part of an Adoration of the Magi or a scene of the Nativity.",
+  "scripture": "Luke 2:7; Matthew 2:11",
+  "facts": [
+   "The fragment was acquired by the Musée Saint-Raymond in 1986 from a private collection near Uzès (Gard).",
+   "Scholars have suggested that the woman touching the child is the midwife Salome of the apocryphal Protoevangelium of James, and that the missing right part may have shown the Magi or the first bath of the newborn.",
+   "It measures about 55 × 50 cm and comes from a continuous-frieze sarcophagus."
+  ],
+  "links": [
+   {
+    "label": "POP (French national collections database)",
+    "url": "https://www.pop.culture.gouv.fr/notice/joconde/05630030187"
+   },
+   {
+    "label": "Corpus Sathma record",
+    "url": "https://heurist.huma-num.fr/heurist/Corpus_Sathma/view/18452"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q28065719"
+   },
+   {
+    "label": "Wikipedia: Musée Saint-Raymond",
+    "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Saint-Raymond"
+   }
+  ],
+  "notes": "Dating: POP gives 300–350, the Sathma corpus 325–350. The exact narrative scene is uncertain. Wikidata records 400."
+ },
+ {
+  "key": "Q104173683",
+  "status": "corrected",
+  "set": {
+   "t": "Lid of the 'Queen Pédauque' Sarcophagus",
+   "original_title": "Couvercle du sarcophage dit de la Reine Pédauque",
+   "d": "late 4th–5th century",
+   "y": 400,
+   "m": "Marble, low relief",
+   "k": "sarcophagus"
+  },
+  "summary": "This long marble lid is divided into a row of panels with pairs of figures in low relief. According to the museum, Christ appears in several of them: at the far left changing water into wine at Cana, at the centre raising the dead (Lazarus or the widow's son of Nain) between drawn-back curtains, and at the right multiplying the loaves. Together the miracles of wine and bread evoked the Eucharist and the hope of resurrection.",
+  "scripture": "John 2:1–11; John 11:1–44; John 6:1–14",
+  "facts": [
+   "In the 18th century the curtains were mistaken for goose feet and the scene for a palace murder, so the lid was linked to the legendary 'Queen Pédauque' (the goose-footed queen).",
+   "It was reused for centuries as a door lintel at the church of La Daurade in Toulouse, leading to the cemetery of the Counts of Toulouse, before entering the museum's collections by 1805.",
+   "The lid is about 2.15 m long."
+  ],
+  "links": [
+   {
+    "label": "POP (French national collections database)",
+    "url": "https://www.pop.culture.gouv.fr/notice/joconde/05630030199"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q104173683"
+   },
+   {
+    "label": "Wikimedia Commons category",
+    "url": "https://commons.wikimedia.org/wiki/Category:Mus%C3%A9e_Saint-Raymond,_Ra_501"
+   }
+  ],
+  "notes": "The thumbnail is small; scene identifications follow the museum's description. The worklist tag 'Wedding at Cana' is correct for one panel only."
+ },
+ {
+  "key": "Q25496853",
+  "status": "corrected",
+  "set": {
+   "t": "Front of an Early Christian Sarcophagus (the 'Sarcophagus of the Miracles')",
+   "original_title": "Devant d'une cuve de sarcophage (Ra 506)",
+   "m": "White marble",
+   "c": "Southwestern Gaul (probably)",
+   "k": "sarcophagus"
+  },
+  "summary": "A crowded frieze of figures in tunics and togas runs along this sarcophagus front. Near the centre Christ stands frontally blessing two baskets of bread held out by disciples, and he appears again in profile touching the eyes of the man born blind, beside Peter (in the guise of Moses) striking water from the rock; at the left an orant, the praying soul of the deceased, is presented to an enthroned teacher. The whole speaks of baptism, Eucharist and the soul's entry into the presence of God.",
+  "scripture": "John 6:1–14; John 9:1–41; Exodus 17:6; 1 Corinthians 10:1–4",
+  "facts": [
+   "The panel was found in 1860 in a house on Place Saint-Sernin in Toulouse, where it had been reused as building material.",
+   "Its irregular, trapezoidal shape with sloping ends is typical of the early Christian sarcophagi of southwestern Gaul.",
+   "The museum notes the sculptor's lively but simplified carving, with drill-work accents and flattened bodies, compared with Roman workshops."
+  ],
+  "links": [
+   {
+    "label": "POP (French national collections database)",
+    "url": "https://www.pop.culture.gouv.fr/notice/joconde/05630000083"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q25496853"
+   },
+   {
+    "label": "Wikimedia Commons category",
+    "url": "https://commons.wikimedia.org/wiki/Category:Mus%C3%A9e_Saint-Raymond,_Ra_506"
+   }
+  ],
+  "notes": "Place of manufacture is inferred from the museum's remark that the shape is typical of southwestern Gaul. The enthroned figure at the left is variously read as Peter teaching or God; scene readings follow the museum's catalogue."
+ }
+]

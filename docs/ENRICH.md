@@ -28,6 +28,21 @@ Each reviewer handles a small batch (from `scripts/worklist.py`) and writes one 
 6. **Accuracy over completeness.** If something cannot be verified, say less, or say "attributed", "probably",
    "traditionally". Never fabricate inscriptions, provenance, anecdotes or dimensions.
 
+## Rules learned from the pilot
+
+- **Use APIs, not bot-blocked pages**: the Met collection API (`collectionapi.metmuseum.org/public/collection/v1/objects/<id>`),
+  Wikidata (`wbgetentities`), Commons (`prop=imageinfo&iiprop=extmetadata`), museum IIIF manifests, and for French
+  collections the POP database (pop.culture.gouv.fr). Batch your fetches at the start.
+- **WGA, Commons and Wikidata titles/dates are often unreliable for early material** — confirm with a second source.
+- **Identification uncertain**: if Christ's presence rests only on a museum title and cannot be seen or confirmed
+  (worn gems, "Christ or Zeus"), keep the work but add `"identification": "uncertain"` and explain in `notes`.
+- **Scripture**: omit it when the subject is ambiguous. Never guess a passage.
+- **Dates may move a work out of your batch's century** — that is fine; just set the corrected `d` and `y`.
+- **Hostile or polemical images** (e.g. the Alexamenos graffito) stay in the collection: they are part of the
+  history of how Christ was depicted. Describe them soberly and accurately.
+- **Facts must be verifiable** from a source you actually read — not from a search-engine snippet.
+- **Duplicates**: compare inventory numbers, file names and Wikidata links across the batch before writing.
+
 ## Output
 
 Write a JSON array to the file named in your instructions (`data/enrich/batches/<batch>.json`), one object per

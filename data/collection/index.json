@@ -1,18 +1,19 @@
 {
  "generated": "2026-10-18",
- "total": 46980,
+ "total": 46976,
+ "checked": 26,
  "centuries": [
   {
    "century": "2",
-   "count": 4
+   "count": 2
   },
   {
    "century": "3",
-   "count": 18
+   "count": 15
   },
   {
    "century": "4",
-   "count": 21
+   "count": 20
   },
   {
    "century": "5",
@@ -28,7 +29,7 @@
   },
   {
    "century": "8",
-   "count": 13
+   "count": 14
   },
   {
    "century": "9",
@@ -40,7 +41,7 @@
   },
   {
    "century": "11",
-   "count": 76
+   "count": 77
   },
   {
    "century": "12",
@@ -90,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   12425
+   12424
   ],
   [
    "Madonna and Child",
-   9369
+   9368
   ],
   [
    "Christ Child",
@@ -266,7 +267,7 @@
   ],
   [
    "Good Shepherd",
-   165
+   163
   ],
   [
    "Raising of Lazarus",
@@ -340,7 +341,7 @@
   ],
   [
    "sculpture",
-   3509
+   3508
   ],
   [
    "drawing",
@@ -360,7 +361,7 @@
   ],
   [
    "fresco",
-   434
+   432
   ],
   [
    "relief",
@@ -408,7 +409,7 @@
   ],
   [
    "glass",
-   107
+   106
   ],
   [
    "group of sculptures",
@@ -436,7 +437,7 @@
   ],
   [
    "mural",
-   49
+   46
   ],
   [
    "ceramic",

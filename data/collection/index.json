@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70906,
- "checked": 890,
+ "total": 70888,
+ "checked": 893,
  "centuries": [
   {
    "century": "2",
@@ -17,7 +17,7 @@
   },
   {
    "century": "5",
-   "count": 34
+   "count": 36
   },
   {
    "century": "6",
@@ -33,7 +33,7 @@
   },
   {
    "century": "9",
-   "count": 190
+   "count": 191
   },
   {
    "century": "10",
@@ -41,61 +41,61 @@
   },
   {
    "century": "11",
-   "count": 130
+   "count": 134
   },
   {
    "century": "12",
-   "count": 482
+   "count": 487
   },
   {
    "century": "13",
-   "count": 1069
+   "count": 1070
   },
   {
    "century": "14",
-   "count": 2525
+   "count": 2539
   },
   {
    "century": "15",
-   "count": 9207
+   "count": 9229
   },
   {
    "century": "16",
-   "count": 18355
+   "count": 18363
   },
   {
    "century": "17",
-   "count": 13323
+   "count": 13329
   },
   {
    "century": "18",
-   "count": 5785
+   "count": 5798
   },
   {
    "century": "19",
-   "count": 4305
+   "count": 4316
   },
   {
    "century": "20",
-   "count": 1441
+   "count": 1453
   },
   {
    "century": "21",
-   "count": 89
+   "count": 92
   },
   {
    "century": "undated",
-   "count": 13400
+   "count": 13280
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18834
+   18826
   ],
   [
    "Madonna and Child",
-   13567
+   13566
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   5900
+   5899
   ],
   [
    "Holy Family",
@@ -163,7 +163,7 @@
   ],
   [
    "Last Judgment",
-   914
+   911
   ],
   [
    "Miracles of Christ",
@@ -203,7 +203,7 @@
   ],
   [
    "Coronation of the Virgin",
-   584
+   583
   ],
   [
    "Presentation in the Temple",
@@ -215,7 +215,7 @@
   ],
   [
    "Pantocrator",
-   446
+   443
   ],
   [
    "Betrayal & Arrest",
@@ -267,7 +267,7 @@
   ],
   [
    "Good Shepherd",
-   232
+   231
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -303,7 +303,7 @@
   ],
   [
    "Christ in Majesty",
-   96
+   95
   ],
   [
    "Sermon on the Mount",
@@ -625,7 +625,7 @@
   ],
   [
    "painting",
-   20867
+   20868
   ],
   [
    "drawing",
@@ -633,7 +633,7 @@
   ],
   [
    "sculpture",
-   4441
+   4440
   ],
   [
    "manuscript",
@@ -641,7 +641,7 @@
   ],
   [
    "other",
-   2517
+   2516
   ],
   [
    "icon",
@@ -657,11 +657,11 @@
   ],
   [
    "fresco",
-   515
+   506
   ],
   [
    "ivory",
-   439
+   440
   ],
   [
    "relief",
@@ -689,7 +689,7 @@
   ],
   [
    "mosaic",
-   190
+   181
   ],
   [
    "ceramic",

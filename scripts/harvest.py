@@ -301,6 +301,9 @@ DIRECT_PROVIDERS = {"National Gallery of Denmark", "Nationalmuseum Sweden", "Fin
                     "Statens Museum for Kunst", "Rijksmuseum", "Wikimedia Commons"}
 
 
+ALIASES = {}  # Wikidata id -> curated record id whose hand-check applies to it
+
+
 def merge_sources(works):
     """Add museum open-access records that Wikidata does not already cover."""
     files = sorted((ROOT / "data" / "sources").glob("*.json"))
@@ -338,6 +341,18 @@ def merge_sources(works):
         recs = json.loads(f.read_text())
         for r in recs:
             q = r.get("wd") or ext.get(r["id"])
+            if q and q in by_q and r["id"].startswith("cur:"):
+                # A hand-researched record supersedes the raw Wikidata record of the same work:
+                # take its fields and image, keep the Wikidata id for links, and alias its hand-check.
+                w = by_q[q]
+                for k in ("i", "h"):
+                    w.pop(k, None)
+                for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u", "lic"):
+                    if r.get(k) not in (None, "", []):
+                        w[k] = r[k]
+                ALIASES[q] = r["id"]
+                added[f.stem + " (merged into Wikidata item)"] += 1
+                continue
             if q and q in by_q:
                 by_q[q].setdefault("src", r.get("src"))
                 added[f.stem + " (matched)"] += 1
@@ -407,7 +422,7 @@ def apply_enrichment(works):
     kept, details, stats = [], defaultdict(dict), Counter()
     for w in works:
         k = w.get("q") or w.get("id")
-        e = entries.get(k)
+        e = entries.get(k) or entries.get(w.get("id", "")) or entries.get(ALIASES.get(k, ""))
         if not e:
             kept.append(w)
             continue

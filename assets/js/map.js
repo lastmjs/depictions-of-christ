@@ -2,13 +2,13 @@
 (() => {
   "use strict";
 
-  const { $, $$, esc, ICON_CHECK, keyOf, loadInto, centuryName, ordinal, loadCollection, createViewer } = window.FOC;
+  const { $, $$, esc, ICON_CHECK, keyOf, loadInto, centuryName, ordinal, centuryOf, createViewer } = window.FOC;
 
   const GOLD = "#d6b06a";
   const GOLD_BRIGHT = "#f0d49a";
-  let all = [];
+  let counts = {};           // place index -> {century or "u": number of works}
   let places = [];
-  let byPlace = [];          // place index -> works
+  const shardCache = new Map(); // works of each place, loaded on demand
   let century = "all";       // "all" | number | "undated"
   let openPlace = null;
   let panelList = [];
@@ -19,13 +19,16 @@
   });
 
   /* ---------- filtering ---------- */
+  const countFor = (cn) => century === "all" ? Object.values(cn).reduce((a, b) => a + b, 0)
+    : (cn[century === "undated" ? "u" : String(century)] || 0);
   const matches = (w) => century === "all" || (century === "undated" ? w.c_ == null : w.c_ === century);
 
   function features() {
     const out = [];
-    byPlace.forEach((ws, p) => {
-      if (!ws || !places[p]) return; // ignore any reference to a place that is not in places.json
-      const n = ws.reduce((k, w) => k + (matches(w) ? 1 : 0), 0);
+    Object.entries(counts).forEach(([ps, cn]) => {
+      const p = +ps;
+      if (!places[p]) return; // ignore any reference to a place that is not in places.json
+      const n = countFor(cn);
       if (!n) return;
       const [name, lat, lon, prec] = places[p];
       const approx = prec === "artist" || prec === "region" ? 1 : 0;
@@ -51,22 +54,21 @@
 
   /* ---------- century bar ---------- */
   function renderCenturyBar() {
-    const counts = new Map();
-    let undated = 0;
-    all.forEach((w) => {
-      if (w.p == null) return;
-      if (w.c_ == null) undated++;
-      else counts.set(w.c_, (counts.get(w.c_) || 0) + 1);
-    });
-    const located = all.filter((w) => w.p != null).length;
-    const cs = [...counts.keys()].sort((a, b) => a - b);
+    const byCentury = new Map();
+    let undated = 0, located = 0;
+    Object.values(counts).forEach((cn) => Object.entries(cn).forEach(([c, n]) => {
+      located += n;
+      if (c === "u") undated += n;
+      else byCentury.set(+c, (byCentury.get(+c) || 0) + n);
+    }));
+    const cs = [...byCentury.keys()].sort((a, b) => a - b);
     const chip = (c, label, n, title) =>
       `<button class="cb-chip" data-c="${c}" aria-pressed="false" title="${esc(title)}"><b>${label}</b><small>${n.toLocaleString()}</small></button>`;
-    const first = counts.has(1) ? "" :
+    const first = byCentury.has(1) ? "" :
       `<button class="cb-chip" data-c="1" aria-pressed="false" disabled title="No depictions of Christ survive from the 1st century; the earliest date from c. AD 200–250."><b>1st</b><small>none</small></button>`;
     $("#cb-track").innerHTML =
       chip("all", "All", located, "All centuries") + first +
-      cs.map((c) => chip(c, c > 0 ? ordinal(c) : "BC", counts.get(c), centuryName(c))).join("") +
+      cs.map((c) => chip(c, c > 0 ? ordinal(c) : "BC", byCentury.get(c), centuryName(c))).join("") +
       (undated ? chip("undated", "Undated", undated, "Date unknown") : "");
   }
 
@@ -79,11 +81,30 @@
   });
 
   /* ---------- place panel ---------- */
-  function showPlace(p, fly = true) {
+  function placeWorks(p) {
+    const shard = (p % 256).toString(16).padStart(2, "0");
+    if (!shardCache.has(shard)) {
+      shardCache.set(shard, fetch(`data/map/byplace/${shard}.json`).then((r) => r.json()).then((d) => {
+        Object.values(d).forEach((list) => list.forEach((w) => { w.c_ = centuryOf(w.y); }));
+        return d;
+      }).catch(() => ({})));
+    }
+    return shardCache.get(shard).then((d) => d[p] || []);
+  }
+
+  async function showPlace(p, fly = true) {
     openPlace = p;
     const [name, lat, lon] = places[p];
-    panelList = (byPlace[p] || []).filter(matches).sort((a, b) => (a.y ?? 1e9) - (b.y ?? 1e9));
-    const total = (byPlace[p] || []).length;
+    $("#pp-title").textContent = name;
+    $("#pp-sub").textContent = "";
+    $("#pp-body").innerHTML = `<p class="pp-empty"><span class="spinner" aria-hidden="true"></span> Loading…</p>`;
+    $("#place-panel").hidden = false;
+    document.body.classList.add("panel-open");
+    if (fly) map.flyTo({ center: [lon, lat], zoom: Math.max(map.getZoom(), 5.5), speed: 0.9, padding: panelPadding() });
+    const works = await placeWorks(p);
+    if (openPlace !== p) return;
+    panelList = works.filter(matches).sort((a, b) => (a.y ?? 1e9) - (b.y ?? 1e9));
+    const total = works.length;
     $("#pp-eyebrow").textContent = century === "all" ? "All centuries" : century === "undated" ? "Date unknown" : centuryName(century);
     $("#pp-title").textContent = name;
     const prec = places[p][3];
@@ -107,9 +128,6 @@
       : `<p class="pp-empty">No works here from this period. Choose “All” to see everything held here.</p>`;
     $$(".pcard img", body).forEach((img, i) => loadInto(img, panelList[i], [330, 500]));
     body.scrollTop = 0;
-    $("#place-panel").hidden = false;
-    document.body.classList.add("panel-open");
-    if (fly) map.flyTo({ center: [lon, lat], zoom: Math.max(map.getZoom(), 5.5), speed: 0.9, padding: panelPadding() });
     writeHash();
   }
 
@@ -247,11 +265,10 @@
 
   /* ---------- boot ---------- */
   (async () => {
-    let data;
     try {
-      const [coll, pl] = await Promise.all([loadCollection(), fetch("data/map/places.json").then((r) => r.json())]);
-      data = coll;
-      places = pl;
+      const pts = await (await fetch("data/map/points.json")).json();
+      places = pts.places;
+      counts = pts.counts;
     } catch (e) {
       $("#map-stats").textContent = "The map data could not be loaded.";
       return;
@@ -262,12 +279,10 @@
       $(".map-hint").textContent = "We are moving every point to where the work was made; for now each light is the museum, church or monastery that holds it. Click one to see its works.";
       $(".map-key").hidden = true;
     }
-    all = data.all;
-    byPlace = [];
-    all.forEach((w) => { if (w.p != null && places[w.p]) (byPlace[w.p] ||= []).push(w); else w.p = null; });
     const start = readHash();
     renderCenturyBar();
     $$(".cb-chip").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.c === String(century))));
+    updateStats(features());
     initMap(start);
   })();
 })();

@@ -494,6 +494,32 @@ def apply_enrichment(works):
     return kept, details
 
 
+def write_map_data(works):
+    """Compact data for the map: per-place counts by century (loaded up front), and the works of each place
+    in shards by place index (loaded when a place is opened)."""
+    map_dir = ROOT / "data" / "map"
+    places = json.loads((map_dir / "places.json").read_text()) if (map_dir / "places.json").exists() else []
+    counts = defaultdict(Counter)
+    byplace = defaultdict(lambda: defaultdict(list))
+    for w in works:
+        p = w.get("p")
+        if p is None or p >= len(places):
+            continue
+        y = w.get("y")
+        c = ("u" if y is None else (y - 1) // 100 + 1 if y > 0 else 0)
+        counts[p][c] += 1
+        byplace["%02x" % (p % 256)][p].append({k: v for k, v in w.items() if k not in ("hay",)})
+    points = {"places": places, "counts": {str(p): dict(cn) for p, cn in counts.items()}}
+    (map_dir / "points.json").write_text(json.dumps(points, ensure_ascii=False, separators=(",", ":")))
+    out = map_dir / "byplace"
+    out.mkdir(exist_ok=True)
+    for f in out.glob("*.json"):
+        f.unlink()
+    for shard, d in byplace.items():
+        (out / f"{shard}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+    print(f"  map data: {len(counts)} places with works")
+
+
 def write_work_shards(works):
     """Per-work lookup for the dedicated work pages: data/collection/works/<shard>.json = {key: record}.
 
@@ -698,6 +724,7 @@ def main():
         (det_dir / f"{shard}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
 
     write_work_shards(works)
+    write_map_data(works)
 
     subj_counts = Counter(s for w in works for s in w["u"])
     type_counts = Counter(w["k"] for w in works if w["k"])

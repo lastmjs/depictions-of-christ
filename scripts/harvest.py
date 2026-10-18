@@ -351,6 +351,50 @@ def merge_sources(works):
     return works
 
 
+def shard_of(key):
+    """Stable 0-255 shard for a work key (djb2; mirrored in assets/js/collection.js)."""
+    h = 5381
+    for ch in key.encode("utf-8"):
+        h = ((h * 33) ^ ch) & 0xFFFFFFFF
+    return "%02x" % (h & 0xFF)
+
+
+def apply_enrichment(works):
+    """Merge hand-checked entries from data/enrich/batches/ into the works.
+
+    Returns (works, details) where details maps shard -> {key: detail} holding the long text.
+    """
+    entries = {}
+    for f in sorted((ROOT / "data" / "enrich" / "batches").glob("*.json")):
+        for e in json.loads(f.read_text()):
+            entries[e["key"]] = e  # later batches win
+    if not entries:
+        return works, {}
+    kept, details, stats = [], defaultdict(dict), Counter()
+    for w in works:
+        k = w.get("q") or w.get("id")
+        e = entries.get(k)
+        if not e:
+            kept.append(w)
+            continue
+        if e.get("status") == "rejected":
+            stats["rejected"] += 1
+            continue
+        for field, value in (e.get("set") or {}).items():
+            if field in ("t", "a", "d", "y", "c", "l", "m", "s", "k"):
+                w[field] = value
+        w["v"] = 1  # hand-checked
+        detail = {x: e[x] for x in ("summary", "scripture", "facts", "links", "notes", "set") if e.get(x)}
+        if "original_title" in (e.get("set") or {}):
+            detail["original_title"] = e["set"]["original_title"]
+        detail.pop("set", None)
+        details[shard_of(k)][k] = detail
+        stats[e.get("status", "verified")] += 1
+        kept.append(w)
+    print("  hand-checked: " + ", ".join(f"{k} {v}" for k, v in sorted(stats.items())))
+    return kept, details
+
+
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -426,6 +470,7 @@ def main():
         works.append(w)
 
     works = merge_sources(works)
+    works, details = apply_enrichment(works)
     # Hand corrections where the catalogue data is known to be wrong.
     OVERRIDES = {
         "Q577890": {"y": 200, "d": "c. 200"},  # Alexamenos graffito: usually dated c. AD 200
@@ -456,11 +501,19 @@ def main():
         (OUT / f"c-{c}.json").write_text(json.dumps(ws, ensure_ascii=False, separators=(",", ":")))
         index.append({"century": c, "count": len(ws)})
 
+    det_dir = OUT / "detail"
+    det_dir.mkdir(exist_ok=True)
+    for f in det_dir.glob("*.json"):
+        f.unlink()
+    for shard, d in details.items():
+        (det_dir / f"{shard}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
+
     subj_counts = Counter(s for w in works for s in w["u"])
     type_counts = Counter(w["k"] for w in works if w["k"])
     meta = {
         "generated": time.strftime("%Y-%m-%d"),
         "total": len(works),
+        "checked": sum(1 for w in works if w.get("v")),
         "centuries": index,
         "subjects": subj_counts.most_common(),
         "types": type_counts.most_common(40),

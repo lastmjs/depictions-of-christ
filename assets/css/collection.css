@@ -182,3 +182,17 @@
 }
 
 .card[hidden] { display: none; }
+
+.d-checked {
+  display: inline-flex; align-items: center; gap: .45em; margin: -.6rem 0 1rem;
+  font-family: var(--f-caps); font-size: .6rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold);
+}
+.d-checked svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.d-original { margin: -.6rem 0 1rem; font-style: italic; color: var(--ink-faint); font-size: .95rem; }
+.d-notes { font-size: .9rem; color: var(--ink-faint); font-style: italic; margin: 0 0 1.2rem; }
+.card-check {
+  position: absolute; top: 8px; right: 8px; width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center; background: rgba(11, 9, 7, .75); border: 1px solid var(--line);
+}
+.card-check svg { width: 12px; height: 12px; fill: none; stroke: var(--gold-bright); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.col-checked { margin-left: 1em; padding-left: 1em; border-left: 1px solid var(--line); color: var(--ink-dim); }

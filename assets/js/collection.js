@@ -187,7 +187,7 @@
       const el = document.getElementById(`century-${c}`);
       if (!el) return;
       const far = Math.abs(el.getBoundingClientRect().top) > innerHeight * 3;
-      el.scrollIntoView({ behavior: far ? "auto" : "smooth", block: "start" });
+      el.scrollIntoView({ behavior: far ? "instant" : "smooth", block: "start" });
     });
   }
 

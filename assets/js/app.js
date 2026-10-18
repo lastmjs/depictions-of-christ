@@ -29,15 +29,19 @@
   function renderHero() {
     const years = works.map((w) => w.year);
     const span = years.length ? Math.max(new Date().getFullYear() - Math.min(...years), 0) : 0;
-    const countries = new Set(works.map((w) => (w.created || "").split(",").pop().trim()).filter(Boolean));
-    $("#hero-stats").innerHTML = [
-      [works.length, "Works"],
+    const stats = [
+      [works.length, "Featured works"],
       [DATA.eras.length, "Eras"],
-      [countries.size, "Lands"],
-      [span.toLocaleString(), "Years"],
-    ].map(([n, l]) => `<div><strong>${n}</strong><span>${l}</span></div>`).join("");
+      ["…", "In the collection", "collection-count"],
+      [`${Math.round(span / 100) * 100}`.replace(/\B(?=(\d{3})+$)/, ","), "Years"],
+    ];
+    $("#hero-stats").innerHTML = stats.map(([n, l, id]) => `<div><strong${id ? ` id="${id}"` : ""}>${n}</strong><span>${l}</span></div>`).join("");
+    fetch("data/collection/index.json").then((r) => r.json()).then((m) => {
+      $("#collection-count").textContent = m.total.toLocaleString();
+      $("#hero-collection").textContent = `Explore all ${m.total.toLocaleString()} works`;
+    }).catch(() => { $("#collection-count").parentElement.remove(); });
 
-    const preferred = ["sinai-pantocrator", "christ-pantocrator-sinai", "deesis-mosaic-hagia-sophia", "hagia-sophia-deesis", "salvator-mundi-antonello", "rembrandt-head-of-christ", "light-of-the-world"];
+    const preferred = ["sinai-christ-pantocrator", "deesis-hagia-sophia", "rublev-zvenigorod-savior", "antonello-salvator-mundi", "rembrandt-head-of-christ-philadelphia", "cefalu-pantocrator"];
     let picks = preferred.map((id) => works.find((w) => w.id === id && w.image)).filter(Boolean);
     if (picks.length < 4) {
       DATA.eras.forEach((era) => {

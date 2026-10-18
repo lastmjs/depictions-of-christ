@@ -249,7 +249,7 @@ def fetch_details(ids):
 
 
 # Wikidata properties holding the identifiers used by each museum source.
-EXT = {"met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
+EXT = {"wga": "P1882", "met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
 
 
 def external_ids():
@@ -283,6 +283,7 @@ def merge_sources(works):
     ext = external_ids()
     by_q = {w["q"]: w for w in works}
     keys = {(norm_title(w["t"]), w["y"]) for w in works}
+    files_seen = {w["i"] for w in works if w.get("i")}
     added = Counter()
     for f in files:
         recs = json.loads(f.read_text())
@@ -292,6 +293,11 @@ def merge_sources(works):
                 by_q[q].setdefault("src", r.get("src"))
                 added[f.stem + " (matched)"] += 1
                 continue
+            if r["id"].startswith("commons:") and r.get("src"):
+                fname = urllib.parse.unquote(r["src"].rsplit("File:", 1)[-1]).replace(" ", "_")
+                if fname in files_seen:
+                    added[f.stem + " (same file)"] += 1
+                    continue
             if (norm_title(r.get("t")), r.get("y")) in keys and r.get("y") is not None:
                 added[f.stem + " (dup title)"] += 1
                 continue

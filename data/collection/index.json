@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70842,
- "checked": 807,
+ "total": 70865,
+ "checked": 830,
  "centuries": [
   {
    "century": "2",
@@ -25,19 +25,19 @@
   },
   {
    "century": "7",
-   "count": 28
+   "count": 34
   },
   {
    "century": "8",
-   "count": 52
+   "count": 54
   },
   {
    "century": "9",
-   "count": 182
+   "count": 186
   },
   {
    "century": "10",
-   "count": 214
+   "count": 225
   },
   {
    "century": "11",
@@ -91,19 +91,19 @@
  "subjects": [
   [
    "Jesus Christ",
-   18814
+   18837
   ],
   [
    "Madonna and Child",
-   13562
+   13567
   ],
   [
    "Christ Child",
-   8599
+   8610
   ],
   [
    "Crucifixion",
-   5891
+   5892
   ],
   [
    "Holy Family",
@@ -111,11 +111,11 @@
   ],
   [
    "Adoration of the Magi",
-   2465
+   2466
   ],
   [
    "Nativity",
-   2002
+   2005
   ],
   [
    "Adoration of the Shepherds",
@@ -131,11 +131,11 @@
   ],
   [
    "Flight into Egypt",
-   1564
+   1566
   ],
   [
    "Last Supper",
-   1336
+   1337
   ],
   [
    "Lamentation",
@@ -179,11 +179,11 @@
   ],
   [
    "Christ and Followers",
-   734
+   735
   ],
   [
    "Ascension",
-   707
+   709
   ],
   [
    "Ecce Homo",
@@ -215,7 +215,7 @@
   ],
   [
    "Pantocrator",
-   445
+   446
   ],
   [
    "Betrayal & Arrest",
@@ -239,11 +239,11 @@
   ],
   [
    "Appearances after the Resurrection",
-   348
+   350
   ],
   [
    "Noli me tangere",
-   338
+   339
   ],
   [
    "Holy Face",
@@ -259,7 +259,7 @@
   ],
   [
    "Harrowing of Hell",
-   261
+   262
   ],
   [
    "Wedding at Cana",
@@ -303,7 +303,7 @@
   ],
   [
    "Christ in Majesty",
-   89
+   93
   ],
   [
    "Sermon on the Mount",
@@ -657,7 +657,7 @@
   ],
   [
    "fresco",
-   491
+   513
   ],
   [
    "ivory",
@@ -689,7 +689,7 @@
   ],
   [
    "mosaic",
-   195
+   196
   ],
   [
    "ceramic",

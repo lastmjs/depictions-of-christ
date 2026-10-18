@@ -1,11 +1,11 @@
 {
  "generated": "2026-10-18",
- "total": 70901,
- "checked": 444,
+ "total": 70890,
+ "checked": 514,
  "centuries": [
   {
    "century": "2",
-   "count": 6
+   "count": 4
   },
   {
    "century": "3",
@@ -13,11 +13,11 @@
   },
   {
    "century": "4",
-   "count": 93
+   "count": 89
   },
   {
    "century": "5",
-   "count": 25
+   "count": 23
   },
   {
    "century": "6",
@@ -25,19 +25,19 @@
   },
   {
    "century": "7",
-   "count": 28
+   "count": 24
   },
   {
    "century": "8",
-   "count": 88
+   "count": 47
   },
   {
    "century": "9",
-   "count": 96
+   "count": 83
   },
   {
    "century": "10",
-   "count": 156
+   "count": 152
   },
   {
    "century": "11",
@@ -49,35 +49,35 @@
   },
   {
    "century": "13",
-   "count": 1052
+   "count": 1065
   },
   {
    "century": "14",
-   "count": 2507
+   "count": 2520
   },
   {
    "century": "15",
-   "count": 9205
+   "count": 9220
   },
   {
    "century": "16",
-   "count": 18342
+   "count": 18353
   },
   {
    "century": "17",
-   "count": 13333
+   "count": 13330
   },
   {
    "century": "18",
-   "count": 5775
+   "count": 5778
   },
   {
    "century": "19",
-   "count": 4336
+   "count": 4341
   },
   {
    "century": "20",
-   "count": 1415
+   "count": 1417
   },
   {
    "century": "21",
@@ -91,11 +91,11 @@
  "subjects": [
   [
    "Jesus Christ",
-   18909
+   18906
   ],
   [
    "Madonna and Child",
-   13616
+   13615
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   5896
+   5894
   ],
   [
    "Holy Family",
@@ -127,7 +127,7 @@
   ],
   [
    "Resurrection",
-   1621
+   1619
   ],
   [
    "Flight into Egypt",
@@ -171,7 +171,7 @@
   ],
   [
    "Miracles of Christ",
-   823
+   822
   ],
   [
    "Man of Sorrows",
@@ -227,7 +227,7 @@
   ],
   [
    "Throne of Mercy",
-   415
+   413
   ],
   [
    "Salvator Mundi",
@@ -345,19 +345,19 @@
   ],
   [
    "sculpture",
-   4598
+   4595
   ],
   [
    "manuscript",
-   3355
+   3352
   ],
   [
    "other",
-   2540
+   2537
   ],
   [
    "icon",
-   1756
+   1755
   ],
   [
    "statue",
@@ -365,7 +365,7 @@
   ],
   [
    "metalwork",
-   751
+   750
   ],
   [
    "fresco",
@@ -373,11 +373,11 @@
   ],
   [
    "ivory",
-   437
+   436
   ],
   [
    "relief",
-   417
+   419
   ],
   [
    "textile",
@@ -397,7 +397,7 @@
   ],
   [
    "glass",
-   246
+   247
   ],
   [
    "mosaic",
@@ -405,7 +405,7 @@
   ],
   [
    "ceramic",
-   167
+   164
   ],
   [
    "book",

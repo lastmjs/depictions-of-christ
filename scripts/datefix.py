@@ -20,11 +20,34 @@ def _century(n, qual=""):
     return lo, hi
 
 
+PART = re.compile(
+    r"\b(1st|2nd|3rd|4th|first|second|third|fourth|last)\s+(quarter|half|third)(?:\s+of)?(?:\s+the)?\s+(\d{1,2})(?:st|nd|rd|th)\b",
+    re.I)
+PART_INDEX = {"1st": 0, "first": 0, "2nd": 1, "second": 1, "3rd": 2, "third": 2, "4th": 3, "fourth": 3}
+
+
+def _parts(t):
+    """Ranges for phrases like '4th quarter 14th century', '2nd half of the 15th century'."""
+    out = []
+    for m in PART.finditer(t):
+        which, unit, cent = m.group(1).lower(), m.group(2).lower(), int(m.group(3))
+        size = {"quarter": 25, "half": 50, "third": 33}[unit]
+        n = {"quarter": 4, "half": 2, "third": 3}[unit]
+        i = n - 1 if which == "last" else min(PART_INDEX.get(which, 0), n - 1)
+        start = (cent - 1) * 100 + 1 + i * size
+        out.append((start, min(cent * 100, start + size - 1)))
+    return out
+
+
 def parse_date(text):
     """Return (lo, hi) year range implied by a display date, or None if it cannot be read."""
     if not text:
         return None
     t = text.replace("–", "-").replace("—", "-")
+    parts = _parts(t)
+    if parts and not re.search(r"(?<!\d)\d{3,4}(?!\d)", t):
+        return min(p[0] for p in parts), max(p[1] for p in parts)
+    t = PART.sub(lambda m: f"{m.group(3)}th", t) if parts else t
     bc = re.search(r"\b(B\.?C\.?E?|BCE)\b", t)
     if bc:
         return None

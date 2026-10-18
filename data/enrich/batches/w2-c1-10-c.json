@@ -1,0 +1,831 @@
+[
+ {
+  "key": "walters:71.246",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the museum records that the remains of the broken Christ Child were carved away in the 19th century, and the photograph shows the Virgin standing alone. (Also misdated in the worklist: the figure is Gothic, 4th quarter of the 14th century.)",
+  "set": {
+   "y": 1388
+  },
+  "notes": "Walters catalogue: 'The remains of the broken Christ Child were carved away in the 19th century.' Only the outline of her left hand against her garments recalls where the Child was held."
+ },
+ {
+  "key": "walters:71.192",
+  "status": "corrected",
+  "set": {
+   "y": 1388,
+   "a": "Flemish or northern French",
+   "c": "Flanders or northern France"
+  },
+  "summary": "This small ivory leaf, once one cover of a set of writing tablets, is carved in two registers beneath trefoil arches. Above, Christ kneels in prayer on the Mount of Olives while his disciples sleep, and beside it he is seized in the crowded scene of his arrest; below are the Annunciation and the Visitation. The back was hollowed to hold wax, so that a scene of Christ's agony accompanied everyday writing.",
+  "scripture": "Matthew 26:36–56; Luke 1:26–56",
+  "facts": [
+   "The Walters notes a large hole drilled at the top for attaching the other cover and the tablets between, and a depression for wax on the back.",
+   "The museum relates its architecture of double trefoil arches to the so-called Atelier of the Boxes of the later 14th century, and its Annunciation and Visitation to a plaque in the Kofler Collection attributed to northern France or Flanders."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.192"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Flemish_-_Wax_Tablet_with_the_Lives_of_the_Virgin_and_Christ_-_Walters_71192.jpg"
+   }
+  ],
+  "notes": "The worklist year (850) was wrong; the museum dates the tablet to the 4th quarter of the 14th century (Gothic)."
+ },
+ {
+  "key": "walters:71.142",
+  "status": "verified",
+  "set": {},
+  "summary": "In the upper scene Christ hangs on the cross beneath its titulus, flanked by the Virgin and St John and by the soldiers Longinus and Stephaton, while a coiled serpent at the foot of the cross stands for conquered evil. Below, an angel seated before the empty tomb greets the holy women; the tomb is carved as a tall, domed building recalling the Holy Sepulchre in Jerusalem. Death and Resurrection are joined on a single plaque made to adorn the cover of a Gospel book.",
+  "scripture": "John 19:25–37; Mark 16:1–7",
+  "facts": [
+   "The Walters dates the plaque to about 870–880, in the reign of Charles the Bald, grandson of Charlemagne.",
+   "It is said to come from the Abbey of Maroilles in northern France, and was bought by Henry Walters in 1926.",
+   "The small holes around the border are where the plaque was once fixed to a book cover."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.142"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Carolingian_-_Book-Cover_Plaque_with_the_Crucifixion_and_Holy_Women_at_the_Tomb_-_Walters_71142.jpg"
+   }
+  ]
+ },
+ {
+  "key": "Q561341",
+  "status": "verified",
+  "set": {},
+  "summary": "At the centre of this jewelled gold cover Christ sits in majesty, raising his hand in blessing and holding an open book on his knee. Around him, embossed gold reliefs show the four evangelists, each with a scene from his Gospel, framed by raised settings of sapphires, emeralds and pearls. It is one of the very few treasure bindings to survive from the 9th century, a cover worthy of the King whom the Gospels proclaim.",
+  "scripture": "John 14:6",
+  "facts": [
+   "Wikipedia notes that the cover can be precisely dated to 870 and was made for Charles the Bald in his 'Palace School', whose location, perhaps Saint-Denis, is uncertain.",
+   "The book on Christ's knee is inscribed with his words 'I am the way, and the truth, and the life', so that the verse can be read as spoken by Christ or by the Gospel book itself.",
+   "The four scenes are Christ and the woman taken in adultery, the expulsion of the money-changers, the healing of the blind man and the healing of the leper."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Codex Aureus of St. Emmeram",
+    "url": "https://en.wikipedia.org/wiki/Codex_Aureus_of_Saint_Emmeram"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q561341"
+   }
+  ],
+  "notes": "Scripture follows the inscription on Christ's book as reported by Wikipedia; the inscription is not legible in the small image."
+ },
+ {
+  "key": "Q1825931",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ hangs on a jewelled cross at the centre of this golden cover, his body upright and calm, set against fields crowded with great raised clusters of gems. Small repoussé figures crouch or hover in the compartments around the cross: angels above its arms, and below them the Virgin and St John, each paired with another mourner. The Crucifixion is presented not as defeat but as glory, the cross transformed into a jewelled throne.",
+  "scripture": "John 19:25–30",
+  "facts": [
+   "Wikipedia notes that the upper cover is late Carolingian work of about 880, while the older lower cover is Insular-style work of the later 8th century, probably made in modern Austria.",
+   "Scholars disagree about the two extra mourning women below the cross: the Morgan Library's notes call them personifications of Christian souls, Peter Lasko a duplicated Mary Magdalene, and Paul Needham Mary Magdalene and Mary Cleophas.",
+   "When J. P. Morgan bought the book in 1901 it was his first major purchase of a medieval manuscript."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Lindau Gospels",
+    "url": "https://en.wikipedia.org/wiki/Lindau_Gospels"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q1825931"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Lindau_Gospels,_jeweled_cover,_France,_workshop_of_Charles_the_Bald,_c._870-880_AD,_for_a_gospel_book_in_Latin,_Switzerland,_St._Gall,_late_800s_AD_-_Morgan_Library_&_Museum_-_New_York_City_-_DSC06591.jpg"
+   }
+  ]
+ },
+ {
+  "key": "walters:71.303",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ sits within a star-studded mandorla, bearded and frontal, holding a book marked with a cross against his chest, while angels at the upper corners hold the edge of the glory and two small heads appear at its foot. The scheme follows Early Christian book covers of the 6th and 7th centuries. The Walters itself doubts its authenticity, so the plaque may be a later copy of such a model rather than an early medieval work.",
+  "scripture": "Revelation 4:2–3 (theme)",
+  "facts": [
+   "The Walters compares the plaque with the Saint-Lupicin Gospel covers in the Bibliothèque nationale and a Saint Paul ivory in the Musée de Cluny, both dated to the 6th–7th century.",
+   "The museum notes that the rendering of the eyes, the angels' masked hands, the missing throne and the coarse carving 'cast doubts on the authenticity' of the object, which 'could be a modern copy'."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.303"
+   }
+  ],
+  "notes": "Date given by the museum with a question mark ('9th–10th century?'); authenticity questioned by the museum itself. Image viewed on the Walters image server."
+ },
+ {
+  "key": "walters:37.525",
+  "status": "corrected",
+  "set": {
+   "y": 1713,
+   "c": "Italy",
+   "s": "Baroque"
+  },
+  "summary": "Among towering, vine-hung ruins of fluted Corinthian columns, a small figure of Christ in a pale robe raises his hand toward a group of mothers who press forward with their children, while bystanders in turbans and robes look on. The biblical scene is almost absorbed into the grandeur of the decaying classical architecture and the distant town. It is a typical capriccio of ruins in which a Gospel episode gives the landscape its meaning.",
+  "scripture": "Mark 10:13–16",
+  "facts": [
+   "Alberto Carlieri (Italian, 1672–after 1720) specialised in such architectural fantasies; the Walters dates the canvas to the first quarter of the 18th century.",
+   "When it was in the Massarenti collection in Rome, its 1897 catalogue attributed it to Bibiena; Henry Walters bought it with that collection in 1902."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/37.525"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Alberto_Carlieri_-_Christ_Blessing_Little_Children_among_Classical_Ruins_-_Walters_37525.jpg"
+   }
+  ],
+  "notes": "The worklist year (900) was wrong; the painting is early 18th century. The Walters' period label 'Renaissance' is not apt, so the style is given as Baroque."
+ },
+ {
+  "key": "walters:W.494.8R",
+  "status": "corrected",
+  "set": {
+   "y": 1630
+  },
+  "summary": "A small framed miniature shows John the Baptist on the riverbank baptising Christ, who stands in the water with his hands joined, beneath a sky of light. The picture sits above a French prayer in verse and is surrounded by a dazzling border cut into lace from the parchment itself. The page comes from the prayer book made for Queen Marie de' Medici.",
+  "scripture": "Matthew 3:13–17",
+  "facts": [
+   "The lace effect was made by 'canivet', cutting patterns into the parchment with a small knife, an art that first flourished among nuns in France, Germany and the Netherlands.",
+   "The Walters describes the book as made for Marie de' Medici while she was regent of France, with 28 miniatures, some of them earlier additions, including nine small miniatures painted in Bruges about 1450.",
+   "The manuscript still has its original binding of green and black leather mosaic with gilt pointillé tooling."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/W.494.8R"
+   }
+  ],
+  "notes": "The book is 2nd quarter of the 17th century; the museum does not say whether this particular miniature is one of the 15th-century Bruges additions, so y is set to the book's date. The worklist year (900) was wrong."
+ },
+ {
+  "key": "walters:71.377",
+  "status": "corrected",
+  "set": {
+   "y": 1713
+  },
+  "summary": "The Virgin stands in flowing drapery, holding the Christ Child upright on her left arm as he sits facing outward. Her right hand once held an object, perhaps a flower, now lost. The ivory statuette, mounted on a dark base, continues a conservative devotional type into the 18th century.",
+  "facts": [
+   "The Walters describes the Virgin's features as French, while noting that the drapery has parallels in 17th-century works."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.377"
+   }
+  ],
+  "notes": "The worklist year (900) was wrong; the museum dates the figure to the 1st quarter of the 18th century. Image viewed on the Walters image server."
+ },
+ {
+  "key": "Q951802",
+  "status": "verified",
+  "set": {},
+  "summary": "At the centre of the ringed head on the east face Christ stands as Judge, holding the cross of the Resurrection and a flowering sceptre, with a bird on his head; on one side the blessed are led by David with his harp and a choir of musicians, on the other the lost are driven away by a devilish figure with a trident. Below, St Michael weighs a soul while the Devil tries to drag down the scale. The west face of the same cross shows Christ crucified between the lance-bearer and the sponge-bearer.",
+  "scripture": "Matthew 25:31–46",
+  "facts": [
+   "An inscription at the foot of the west face asks 'a prayer for Muiredach who had this cross made'; he is thought to be Muiredach mac Domhnaill (died 923), abbot of Monasterboice.",
+   "R. A. S. Macalister counted 124 sculpted figures on the cross; the Last Judgment panel alone contains more than 45, and the bird on Christ's head may be a phoenix, symbol of the Resurrection.",
+   "Wikipedia gives the height as about 5.8 m including the base; the shaft is a single block of sandstone and the capstone is shaped like a house or reliquary."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Muiredach's High Cross",
+    "url": "https://en.wikipedia.org/wiki/Muiredach%27s_High_Cross"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q951802"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Monasterboice_South_Cross_East_Face_Head_2013_09_27.jpg"
+   }
+  ],
+  "notes": "The earlier curated text gave the height as about 5.5 m and mentioned a V&A cast; Wikipedia (read) gives about 5.8 m including base and the cast claim could not be verified, so both were removed. The weighing of souls is Panel 8, below the Judgment."
+ },
+ {
+  "key": "Q1281985",
+  "status": "verified",
+  "set": {},
+  "summary": "Within an arched frame carved into the pink stone wall, Christ sits frontally with a cross-nimbus, raising his right hand in blessing and holding a book, his robe falling in flat, stylised folds. An Armenian inscription runs across the arch above his head. The figure belongs to the extraordinary programme of biblical reliefs that wraps the outside of King Gagik's palace church.",
+  "facts": [
+   "Wikipedia notes that the church was built of pink volcanic tuff by the architect-monk Manuel in 915–921 as a palatine church for King Gagik I Artsruni of Vaspurakan.",
+   "Its unique importance, Wikipedia says, comes from the extensive array of bas-relief carvings of mostly biblical scenes on its external walls.",
+   "After the Armenian genocide of 1915 the church was abandoned; after restoration it reopened as a museum in 2006, and since October 2010 a cross again stands on its dome."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Cathedral of the Holy Cross, Aghtamar",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Holy_Cross,_Aghtamar"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Akdamar_Christ_Pantocrator_relief_4316.jpg"
+   }
+  ],
+  "notes": "The relief's exact position on the façade is not stated in the sources read; the inscription is not transcribed here because it could not be read reliably in the image."
+ },
+ {
+  "key": "yuag:156887",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the coin shows only a bird which, as the museum's own title says, may be the dove of the Holy Spirit or a raven of a Norse deity. The 'Throne of Mercy' tag is mistaken.",
+  "set": {},
+  "notes": "Viking silver penny of Anlaf Guthfrithsson, king of York (939–41), Yale University Art Gallery. The image shows a bird with spread wings within a circle and a legend around."
+ },
+ {
+  "key": "walters:27.565",
+  "status": "verified",
+  "set": {},
+  "summary": "On one face of this small, roughly worked stone block the Lamb of God strides forward in flat raised relief, his head ringed by a nimbus and a cross raised beside him. The Lamb's eyes were once filled with lead, which still remains. The block, carved differently on each of its four sides, shows how the symbol of Christ the sacrificed and victorious Lamb was woven into the fabric of church buildings.",
+  "scripture": "John 1:29; Revelation 5:6–12",
+  "facts": [
+   "The Walters notes that each of the four faces carries a different ornament, and that holes at top and bottom were used for attachment.",
+   "Lead was used to pick out details such as the Lamb's eyes; only the lead in the eyes survives."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/27.565"
+   }
+  ],
+  "notes": "Dated broadly 9th–11th century by the museum; its 'Romanesque' style label is the museum's. Image viewed on the Walters image server."
+ },
+ {
+  "key": "walters:48.2086.5",
+  "status": "verified",
+  "set": {},
+  "summary": "Like an emperor among his officials, Christ, named IC XC, sits enthroned and faces the viewer, blessing with one hand and holding a jewelled Gospel book in the other. The archangels Michael and Gabriel stand at either side in Byzantine court dress, the one at the left holding a staff. Even in its broken state the glazed tile keeps the warm browns, greens and golds that once made it shine on a church furnishing.",
+  "scripture": "Hebrews 1:3–6 (theme)",
+  "facts": [
+   "The Walters notes that, although its origin is unknown, the tile is very similar to tiles known to have been made in Constantinople.",
+   "It was bought in Istanbul around 1950 and acquired by the museum in 1956."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/48.2086.5"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Christ_Enthroned_Between_Two_Archangels_-_Walters_4820865.jpg"
+   }
+  ]
+ },
+ {
+  "key": "princeton:33876",
+  "status": "corrected",
+  "set": {
+   "c": "Syria or south-eastern Turkey"
+  },
+  "summary": "On this worn bone plaque Christ, with a large halo, stands at the left and reaches toward the face of a smaller figure beside him, the blind man whose eyes he heals. At the right edge a tall structure with a lattice roof survives from the next scene, the tomb of Lazarus. Plaques like this, pierced for attachment, were probably mounted together to tell the miracles of Christ in sequence.",
+  "scripture": "John 9:1–7; John 11:38–44",
+  "facts": [
+   "Princeton records the plaque as possibly Roman or Byzantine, made in Syria or south-eastern Turkey in the 9th–11th century; it measures 9.6 × 8 cm.",
+   "It was given in 1994 by Bruce Willsie (Class of 1986) together with the plaque of the Raising of Jairus's daughter (y1994-74), which has consecutive accession numbers."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/33876"
+   }
+  ],
+  "notes": "Whether the two Willsie plaques come from the same object is not stated by the museum."
+ },
+ {
+  "key": "walters:71.244",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ hangs on the cross with his head bowed and arms outstretched, the sun and moon above and the inscriptions IC XC beside his head. The Virgin, her hands wrapped in her mantle in a gesture of grief, stands at the left; St John, unusually, raises both hands in adoration rather than holding a Gospel book. The faces have been softened by centuries of devout handling.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters notes that the worn faces show the ivory was stroked and rubbed during prayer.",
+   "Inscriptions name Christ, the Mother of God and Saint John.",
+   "The Crucifixion was one of the most common subjects of Byzantine ivory triptychs; this plaque was the centre of such a devotional object."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.244"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Crucifixion_-_Walters_71244.jpg"
+   }
+  ]
+ },
+ {
+  "key": "walters:71.294",
+  "status": "verified",
+  "set": {},
+  "summary": "Two scenes are stacked on this broken ivory panel. Above, Christ is carried heavenward in a mandorla held by two angels while the Virgin stands at the centre among the apostles, who look up in wonder; below, Christ hangs on the cross between angels, with the soldiers and mourners beneath. The panel joins the Passion to its fulfilment in the Ascension.",
+  "scripture": "John 19:16–37; Acts 1:9–11",
+  "facts": [
+   "The Walters notes that in the Crucifixion the sun and moon, and Stephaton and Longinus, are reversed from their usual positions, and that Longinus carries a sword rather than a spear.",
+   "The museum relates its style to the Nikephoros Group of Byzantine ivories.",
+   "'AVE MARIA' was scratched on the back, which also bears the impression of a 17th-century seal; the panel belonged to Count Grigorii Stroganov in Rome before 1900."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.294"
+   }
+  ],
+  "notes": "Image viewed on the Walters image server."
+ },
+ {
+  "key": "walters:44.301",
+  "status": "corrected",
+  "set": {
+   "c": "Byzantine Empire"
+  },
+  "summary": "This crescent-shaped gold earring is edged with granulation and filigree loops and set with small bosses; at its centre a tiny cloisonné enamel medallion bears a bust of Christ. It was photographed with its companion earring (44.300), which shows the Virgin. Worn as personal jewellery, such pieces carried the holy images close to the body.",
+  "facts": [
+   "The Walters lists the two earrings separately: 44.300 with a bust of the Virgin and 44.301 with Christ Pantokrator; both are dated to the 10th century.",
+   "Henry Walters bought them from the Paris dealer Henri Daguerre in 1926."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/44.301"
+   }
+  ],
+  "notes": "The only available photograph shows both earrings together; the enamel busts are only a few millimetres across and cannot be told apart clearly at this size. 'c' corrected from 'Orthodox' (a culture label) to the place of making."
+ },
+ {
+  "key": "princeton:20000",
+  "status": "verified",
+  "set": {},
+  "identification": "uncertain",
+  "summary": "Only one arm of this bronze processional cross survives. It ends in a medallion engraved with the bust of a saint, identified by the museum as St Theodore, and beside it a mourning figure raises a hand; Greek words engraved along the arm read 'Behold your mother', Christ's words from the cross. The crucified Christ himself, at the lost centre, is now missing except perhaps for a trace at the broken edge.",
+  "scripture": "John 19:26–27",
+  "facts": [
+   "Princeton records the fragment as Byzantine, possibly from Constantinople, 10th century; it measures 14.5 × 9.6 cm.",
+   "It belonged to the sculptor Elie Nadelman and passed through the dealer Joseph Brummer before Frank Jewett Mather Jr. bought it for the museum in 1933."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/20000"
+   }
+  ],
+  "notes": "The Crucifixion is named in the museum title but only the end of one arm survives; Christ is not clearly visible. The reading of the inscription is mine from the photograph."
+ },
+ {
+  "key": "walters:45.13",
+  "status": "verified",
+  "set": {},
+  "identification": "uncertain",
+  "summary": "This tiny silver medallion, under two centimetres across, is framed by a beaded rim with a small tab for attachment. The side shown in the photograph bears a nielloed bust of the Virgin, veiled and frontal, with letters of her monogram at either side. According to the museum's title, the medallion also carries an image of Christ Pantokrator, presumably on the other face.",
+  "facts": [
+   "The Walters dates the medallion to the 10th century; it measures about 1.9 × 2 cm.",
+   "It was given to the museum in 1941 by the Baltimore collector Saidie A. May."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/45.13"
+   }
+  ],
+  "notes": "Only one photograph is available and it shows the Virgin; the image of Christ named in the title cannot be seen or confirmed."
+ },
+ {
+  "key": "walters:71.305",
+  "status": "verified",
+  "set": {},
+  "summary": "Set against the silhouette of a mountain, the Virgin reclines on a great mattress beside the manger where the swaddled Christ Child lies, watched by the ox and the ass beneath a ray of light from above. Angels emerge from behind the mountain, one announcing the birth to a shepherd leaning on his staff at the right, while in the foreground Joseph sits pensively as two women give the haloed infant his first bath. The carving gathers the whole Christmas story into one luminous scene.",
+  "scripture": "Luke 2:1–20",
+  "facts": [
+   "The Walters notes that the bathing of the newborn Christ is characteristic of Byzantine images of the Nativity and rarely appears in western European art.",
+   "The plaque was owned by Count Girolamo Possenti of Fabriano before 1876 and later by Count Grigorii Stroganov in Rome."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.305"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Nativity_-_Walters_71305.jpg"
+   }
+  ]
+ },
+ {
+  "key": "princeton:21911",
+  "status": "rejected",
+  "dup_of": "cur:objects-princeton-nikephoros-group-crucifixion",
+  "reject_reason": "Duplicate: the same Princeton ivory (y1942-60, Plaque with the Crucifixion attributed to the Nikephoros Group) is already in the collection as a hand-checked curated entry using a Commons photograph; the two images show the identical plaque.",
+  "set": {}
+ },
+ {
+  "key": "princeton:33998",
+  "status": "corrected",
+  "set": {
+   "t": "The Raising of the Daughter of Jairus",
+   "c": "Syria or south-eastern Turkey"
+  },
+  "summary": "At the left of this damaged bone plaque Christ stands with long hair and a halo, stretching out his hand toward the girl at the centre, who appears to rise from a couch or bier. The right half of the plaque is darkened and much of the scene is lost. Even in its fragmentary state, it records one of Christ's raisings from the dead, a promise of resurrection.",
+  "scripture": "Mark 5:21–43; Luke 8:40–56",
+  "facts": [
+   "Princeton records the plaque as Roman or Byzantine, made in Syria or south-eastern Turkey in the 9th–11th century; it measures 7.5 × 7 cm.",
+   "It came to the museum in 1994 from Bruce Willsie (Class of 1986) together with the plaque of Christ healing the blind (y1994-75)."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/33998"
+   }
+  ],
+  "notes": "Museum title: 'Raising of daughter of Jairus (Luke 8:41)'. The figure group at the centre is hard to read because of the damage."
+ },
+ {
+  "key": "princeton:19972",
+  "status": "corrected",
+  "set": {
+   "c": "Ashdod, Palestine"
+  },
+  "summary": "The two hinged halves of this small bronze reliquary cross are shown one above the other. On the upper half a figure with outstretched arms, worn almost smooth, appears to be the crucified Christ; on the lower half the Virgin stands in a long robe with her hands raised in prayer. Worn on the breast, such crosses enclosed a relic between their two halves.",
+  "facts": [
+   "Princeton records the cross as Middle Byzantine, from Ashdod in Palestine, 9th–11th century; it is only 5.8 cm high.",
+   "Pairing Christ on one leaf with the praying Virgin on the other is a common scheme of Middle Byzantine bronze reliquary crosses (type)."
+  ],
+  "links": [
+   {
+    "label": "Princeton University Art Museum",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/19972"
+   }
+  ],
+  "notes": "The figure of Christ is heavily worn; identification follows the museum title. The 'type' fact is general knowledge about such encolpia, not a statement about this object."
+ },
+ {
+  "key": "walters:71.158",
+  "status": "verified",
+  "set": {},
+  "summary": "In the central panel of this small ivory triptych the Virgin holds the Christ Child on her left arm and points to him with her right hand; the Child, with a cross-nimbus, blesses and holds a scroll. Beneath a pierced arch, mother and Son face the viewer, while on the wings two pairs of saints, one above the other, turn to them in homage. Traces of pigment and gold show that it was once brightly painted.",
+  "scripture": "John 1:14 (theme)",
+  "facts": [
+   "The Virgin's pose is the Hodegetria, named after a famous icon in the Hodegon monastery in Constantinople that was believed in the Middle Ages to have been painted by St Luke.",
+   "The Walters notes that the panels were cut down and do not align perfectly, so the triptych may have been assembled from two earlier pieces.",
+   "It was once given by Bishop Heinrich von Hofstätter of Passau to the Gnadenkapelle at Altötting in Bavaria (1867)."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.158"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Triptych_Icon_of_the_Virgin_and_Child_with_Saints_-_Walters_71158_-_Front_Open.jpg"
+   }
+  ]
+ },
+ {
+  "key": "walters:48.2086.11",
+  "status": "verified",
+  "set": {},
+  "identification": "uncertain",
+  "summary": "This reassembled glazed tile shows, within a circle bordered by a diamond pattern, the frontal bust of the Virgin in a dark mantle marked with crosses at the shoulders, with the letters ΘΥ ('of God') of her title at the right. Her head is lost, and at her breast only a damaged golden roundel remains where the Christ Child may once have appeared. The tile belongs to a group the Walters has arranged to suggest a Byzantine icon screen.",
+  "facts": [
+   "The Walters explains that the tiles are related to others from Constantinople and are displayed together to evoke an iconostasis, the screen that separated the sanctuary from the rest of the church.",
+   "The museum notes that around the year 1000 such screens bore images of Christ, the Virgin, John the Baptist and other saints."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/48.2086.11"
+   }
+  ],
+  "notes": "Titled 'Virgin and Child' by the museum, but the Child cannot be made out in the damaged tile; possibly he was shown in the roundel on her breast. Image viewed on the Walters image server."
+ },
+ {
+  "key": "walters:71.468",
+  "status": "corrected",
+  "set": {
+   "y": 1813
+  },
+  "summary": "Mary stands in ample drapery, holding the Christ Child, who reaches up to embrace her, while her left foot rests on the head of a serpent coiled before her. The ivory group stands on a plinth veneered in ivory and marked with the monogram MA beneath a sphere and cross. The image presents Mary as the new Eve, who with her Son overcomes the ancient enemy.",
+  "scripture": "Genesis 3:15",
+  "facts": [
+   "The Walters notes that the motif of the Madonna treading on a serpent was frequent in the 17th century, when the serpent represented heresy.",
+   "The Virgin's neck and right foot have been restored, and the Child's left forearm and hand are separate pieces."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.468"
+   }
+  ],
+  "notes": "The worklist year (900) was wrong; the museum dates the group to the 1st quarter of the 19th century (French). Image viewed on the Walters image server."
+ },
+ {
+  "key": "walters:71.293",
+  "status": "verified",
+  "set": {},
+  "summary": "Beneath a pierced canopy the Virgin stands holding the Christ Child, who blesses with his right hand, while she gently touches his leg. Two half-length angels with raised hands flank them in adoration. The intimate gesture stresses the bond between mother and Son and the power of her prayers on behalf of those who pray before the image.",
+  "scripture": "Luke 1:42 (theme)",
+  "facts": [
+   "The plaque was originally the centre of a three-part devotional icon (triptych).",
+   "It came from the collection of Gaston Le Breton of Rouen, sold in Paris in 1921, and was bought by Henry Walters in 1923."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.293"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Virgin_and_Child_with_Two_Angels_-_Walters_71293.jpg"
+   }
+  ]
+ },
+ {
+  "key": "Q1748749",
+  "status": "corrected",
+  "set": {
+   "d": "945–959 (cross); probably 963–985 (box)",
+   "c": "Constantinople"
+  },
+  "summary": "The lid of this reliquary of the True Cross is set with nine enamel panels framed by gems and pearls. In the centre Christ sits enthroned between the Virgin and St John the Baptist, a Deesis flanked by the archangels Gabriel and Michael, while the rows above and below hold the twelve apostles. Inside lies a double-armed cross containing fragments of the True Cross, so that the lid presents Christ in glory over the relic of his Passion.",
+  "facts": [
+   "Wikipedia notes that the cross inside names the emperors Constantine VII and Romanos II, who ruled jointly from 945 to 959, while the box was made later for Basil Lekapenos, probably between 963 and 985.",
+   "Compartments around the cross held ten further relics, among them the swaddling clothes and crown of thorns of Christ, belts of the Virgin and hair of John the Baptist.",
+   "It was probably brought to Germany as loot from the Fourth Crusade and is now in the Diocesan Museum at Limburg an der Lahn; the box measures 48 × 38 cm."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Limburg Staurotheke",
+    "url": "https://en.wikipedia.org/wiki/Limburg_Staurotheke"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q1748749"
+   }
+  ],
+  "notes": "Box date changed from 'c. 964–965' to Wikipedia's 'probably 963–985' (between Basil's elevation to proedros and his exile)."
+ },
+ {
+  "key": "walters:W.537.2R",
+  "status": "corrected",
+  "set": {
+   "a": "Sargis the Priest (scribe; perhaps also the illuminator)",
+   "c": "Armenia",
+   "l": "Walters Art Museum, Baltimore (Ms. W.537, fol. 2r)"
+  },
+  "summary": "Under a tall, scalloped arch the Virgin sits frontally on a broad throne, her arms spread wide, while the Christ Child sits before her holding a book. The throne, edged with great roundels, is described by the Walters as a wheeled chariot, and the whole page is framed by columns of discs with crosses and quartered patterns in red and blue-green. This simple, powerful image opens the oldest Armenian manuscript in North America.",
+  "facts": [
+   "The colophon on the next page (fol. 2v) records that Sargis the Priest completed the text in the Armenian year 415, that is AD 966.",
+   "Someone later erased 'of the Armenian era' after the date and wrote 'of our Lord', which led to the book being known as the 'Gospels of the Translators', as if it went back to the 5th-century translation.",
+   "The Walters describes it as the fifth oldest among documented Armenian Gospel Books and notes that the scribe may also have painted the miniatures."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/W.537.2R"
+   },
+   {
+    "label": "Digitized Walters Manuscripts: W.537 description",
+    "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W537/description.html"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Illuminated_Manuscript,_Gospels,_Virgin_and_Child,_Walters_Manuscript_W.537,_fol._2r.jpg"
+   }
+  ]
+ },
+ {
+  "key": "walters:71.68",
+  "status": "verified",
+  "set": {},
+  "summary": "Beneath an arch on slender columns Christ hangs on the cross, his body long and still, his head bowed toward his mother. The Virgin at the left raises her hand in sorrow, and St John at the right lifts his hand toward Christ. Once the centre of a triptych, the plaque now sits in a later fabric-covered mount.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters dates the plaque to the second half of the 10th century and notes that it was originally the centre of a triptych.",
+   "Henry Walters bought it in 1925 through the Paris dealer Henri Daguerre."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.68"
+   }
+  ],
+  "notes": "Image viewed on the Walters image server."
+ },
+ {
+  "key": "Q87665248",
+  "status": "verified",
+  "set": {},
+  "summary": "Under a pierced arch the central panel shows the Nativity: the Virgin reclines beside the manger where the swaddled Christ Child lies with the ox and ass, angels crowd above, and in the foreground the newborn is bathed. The wings continue the story of Christ's victory in small, crowded scenes, among them the Entry into Jerusalem, the Descent into Limbo and the Ascension. A portable triptych like this gathered the great feasts into a single object for private prayer.",
+  "scripture": "Luke 2:1–20; Matthew 21:1–11; Acts 1:9–11",
+  "facts": [
+   "Greek inscriptions name the scenes: the Nativity at the centre, the Entry into Jerusalem and the Descent into Limbo on the left wing, and the Ascension on the right.",
+   "The Louvre dates the triptych to 950–1000 on stylistic grounds and places it in Constantinople under the Macedonian dynasty.",
+   "It passed through the collections of Prince Alexis Soltykoff (sold 1861), Frédéric Spitzer and Edmond Foulc before the Louvre bought it from Raoul Duseigneur in 1900."
+  ],
+  "links": [
+   {
+    "label": "Louvre collections record",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010113301"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q87665248"
+   }
+  ],
+  "notes": "Original title: Triptyque : la Nativité (OA 5004). The Louvre's date text reads '2e moitié du Xe siècle'."
+ },
+ {
+  "key": "Q670031",
+  "status": "verified",
+  "set": {},
+  "summary": "The Virgin sits upright, holding a golden orb in her right hand, while the Christ Child sits on her lap in a rich vestment, pressing a book to his breast. Both figures are covered in thin sheets of beaten gold over a wooden core, and their enamel eyes give them an arresting, living gaze. It is the oldest surviving sculpture of the Madonna and Child north of the Alps and is still venerated in Essen.",
+  "scripture": "Luke 1:38 (theme)",
+  "facts": [
+   "Dated around 980, during the tenure of Abbess Mathilde, a granddaughter of Otto I, it is 74 cm high and is described by Wikipedia as the oldest known sculpture of the Madonna and the oldest free-standing medieval sculpture north of the Alps.",
+   "The Child's silver hand is a 14th-century replacement; Wikipedia suggests his lost right arm was originally raised in blessing.",
+   "In 1959 Pope John XXIII named the image Our Lady of Good Counsel and patroness of the Diocese of Essen."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Golden Madonna of Essen",
+    "url": "https://en.wikipedia.org/wiki/Golden_Madonna_of_Essen"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q670031"
+   }
+  ],
+  "notes": "Wikipedia reads the orb as an 'apple of salvation', presenting Mary as the new Eve, rather than an imperial globus."
+ },
+ {
+  "key": "Q1106387",
+  "status": "verified",
+  "set": {},
+  "summary": "At the centre of a field of gold reliefs, gems and enamels is an ivory Crucifixion: Christ hangs heavily on the cross under the titulus, between the lance-bearer and the sponge-bearer, with roundels of sun and moon above and a crouching figure beneath his feet. Diagonal bands of pearls divide the gold into compartments with evangelists, saints and imperial donors. Older than the Gospel book it now protects, the cover places the Cross at the heart of the whole design.",
+  "scripture": "John 19:28–37",
+  "facts": [
+   "Wikipedia notes that the front cover dates from around the 980s and is attributed to the Trier workshop of Archbishop Egbert, while the ivory plaque is stylistically different and its origin much discussed.",
+   "Among the gold reliefs are the young Otto III and his mother and regent Theophanu (d. 991), the Virgin and St Peter, and Saints Willibrord, Boniface, Ludger and Benedict.",
+   "The Gospel book itself was made about 1030–1050, some fifty years after the cover, and is now in the Germanisches Nationalmuseum in Nuremberg."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Codex Aureus of Echternach",
+    "url": "https://en.wikipedia.org/wiki/Codex_Aureus_of_Echternach"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q1106387"
+   }
+  ],
+  "notes": "The earlier curated text mentioned the rivers of Paradise; English Wikipedia (read) describes the top and bottom compartments as the four evangelists with their symbols, so that claim was dropped."
+ },
+ {
+  "key": "walters:71.113",
+  "status": "verified",
+  "set": {},
+  "summary": "Under a pierced canopy carried on twisted columns, Christ hangs on the cross with arms spread wide and head inclined, while the Virgin raises her hands toward him and St John, holding a Gospel book, gestures in grief. At the foot of the cross a small rounded form, perhaps the skull of Adam, marks Golgotha. The figures have rounder faces and softer drapery than most ivories of their time.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters notes that the canopy and the softer, rounder style set this plaque apart from its contemporaries, and associates it with the Nikephoros Group, named after Emperor Nikephoros II.",
+   "Holes at each corner were used to fasten the wings of the triptych of which it was the centre."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/71.113"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Crucifixion_-_Walters_71113.jpg"
+   }
+  ],
+  "notes": "The possible skull at the foot of the cross is my reading of the photograph; the museum does not mention it."
+ },
+ {
+  "key": "Q136296945",
+  "status": "corrected",
+  "set": {
+   "c": "Rhineland (perhaps Cologne)"
+  },
+  "summary": "This crowded ivory plaque reads like a whole Easter sermon. At the centre Christ hangs on the cross beneath the titulus 'Nazarenus rex Iudeorum', flanked by the sun and moon, with a chalice at the foot of the cross; below at the left stand the Virgin and St John, while at the right the holy women approach the angel at the empty tomb. Above, Christ is enthroned in a starry mandorla, and at the upper right he ascends, grasping the hand of God as the apostles look up.",
+  "scripture": "John 19:16–30; Mark 16:1–7; Acts 1:9–11",
+  "facts": [
+   "The plaque was made for a book binding; museum labels photographed for Commons describe it as the Crucifixion with the holy women at the tomb, the Ascension and the Parousia (Second Coming).",
+   "Those labels attribute it to the Rhineland, perhaps Cologne, at the end of the 10th or beginning of the 11th century; Wikidata gives its height as 21.2 cm."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q136296945"
+   },
+   {
+    "label": "Wikimedia Commons category",
+    "url": "https://commons.wikimedia.org/wiki/Category:Crucifixion_13064"
+   }
+  ],
+  "notes": "Original title: Plaque de reliure : crucifixion, saintes femmes au tombeau, ascension et Christ bénissant (Musée de Cluny, CL 13064). The museum's own online record was not accessible; place follows the Commons photographs of the museum label."
+ },
+ {
+  "key": "getty:9148d3ac-44a4-4573-b54d-53f02f4854d2",
+  "status": "corrected",
+  "set": {
+   "c": "England (Canterbury?)",
+   "l": "J. Paul Getty Museum, Los Angeles (Ms. 9, leaf 2v)",
+   "k": "manuscript"
+  },
+  "summary": "Inside an ornamental frame, Christ sits on a green mountaintop, raised above six disciples who stand symmetrically on either side and turn toward him. He holds a book in one hand and gestures with the other, as if answering a question, and like his apostles wears a Roman-style pallium. The painter drew the drapery in agitated spirals and zigzags that charge the balanced composition with energy.",
+  "scripture": "Matthew 5:1–2 (theme)",
+  "facts": [
+   "The Getty describes the leaf as coming from a Gospel book made about 1000, perhaps at Canterbury in England.",
+   "The museum notes that the artist emphasised Christ's role as teacher by placing him higher than his apostles, giving him more space and turning all of them toward him."
+  ],
+  "links": [
+   {
+    "label": "J. Paul Getty Museum",
+    "url": "https://www.getty.edu/art/collection/object/103S0B"
+   }
+  ],
+  "notes": "The Getty does not tie the scene to a specific Gospel passage; the Sermon on the Mount is cited only as a theme. Much of the page around the miniature is blank and the leaf is irregularly cut."
+ },
+ {
+  "key": "Q473843",
+  "status": "corrected",
+  "set": {
+   "c": "Germany, probably Cologne"
+  },
+  "summary": "The jewelled front of this processional cross bears an ancient cameo of Augustus, but its plain gold reverse is engraved with the crucified Christ, his head sunk upon his shoulder and his body sagging in death. Above him the hand of God holds a wreath enclosing the dove of the Holy Spirit, and medallions at the ends of the arms hold the mourning sun and moon. The contrast is deliberate: imperial splendour on one side, the suffering Saviour on the other.",
+  "scripture": "John 19:30",
+  "facts": [
+   "Wikipedia notes that the hand of God with a wreath enclosing the dove is the earliest known appearance of this motif, which brings the whole Trinity into the Crucifixion.",
+   "The cross takes its name from a rock-crystal seal of the Carolingian king Lothair II set near its base, though it was made over a century after his death, possibly for Otto III.",
+   "It is still carried in procession on high feast days and placed beside the main altar of Aachen Cathedral."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Cross of Lothair",
+    "url": "https://en.wikipedia.org/wiki/Cross_of_Lothair"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q473843"
+   }
+  ],
+  "notes": "Only the engraved side depicts Christ; Wikipedia notes that some sources call this the front, since the cross may have been carried with the Crucifixion facing forward."
+ },
+ {
+  "key": "europeana:2048087/ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_NMS_35E3A5",
+  "status": "corrected",
+  "set": {
+   "t": "Late Anglo-Saxon Crucifix Pendant",
+   "d": "11th century",
+   "y": 1050,
+   "c": "England (found in Broadland district, Norfolk)",
+   "l": "Recorded by the Portable Antiquities Scheme (NMS-35E3A5)",
+   "m": "Cast copper alloy",
+   "s": "Late Anglo-Saxon",
+   "k": "metalwork"
+  },
+  "summary": "This small cast crucifix, known here from the recording drawing, shows Christ in relief on the face of the cross, wearing a crown and a short skirt knotted at the waist, his arms apparently bound to the cross-arms. A broken suspension loop at the top shows that it was worn as a pendant. Found in Norfolk, it is a humble witness to personal devotion in late Anglo-Saxon England.",
+  "scripture": "John 19:17–18",
+  "facts": [
+   "The Portable Antiquities Scheme record compares its style with a silver crucifix from Gotland published by James Graham-Campbell in Viking Artefacts (1980) and with another find from the Isle of Wight.",
+   "The record describes the metal as worn and corroded to a purplish colour and dates the piece to the 11th century."
+  ],
+  "links": [
+   {
+    "label": "Portable Antiquities Scheme record",
+    "url": "https://finds.org.uk/database/artefacts/record/id/215203"
+   }
+  ],
+  "notes": "Description and date taken from the PAS record as served by Europeana; the PAS site itself blocked direct access. The worklist date '1000' was the aggregator's sort value; the record text says 11th century. The image is a line drawing, not a photograph."
+ },
+ {
+  "key": "walters:54.59",
+  "status": "verified",
+  "set": {},
+  "summary": "Christ stands on this bronze pectoral cross in a long sleeveless tunic, his arms spread along the cross-arms and his head framed by a cross-nimbus, while small figures of the Virgin and St John appear at the ends of the arms. Greek inscriptions on the arms give his words from the cross, 'Behold your son' and 'Behold your mother'. Such crosses were worn on the breast and held a relic within.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "The Walters records the inscription on the horizontal arms as 'Behold your mother, Behold your son'.",
+   "Henry Walters bought the cross from the dealer Joseph Brummer in 1925; the museum dates it to the 10th–11th century."
+  ],
+  "links": [
+   {
+    "label": "Walters Art Museum object page",
+    "url": "https://purl.thewalters.org/art/54.59"
+   }
+  ],
+  "notes": "Image viewed on the Walters image server. The identity of the small figures on the arms follows the inscription."
+ }
+]

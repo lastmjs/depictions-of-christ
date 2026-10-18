@@ -1,0 +1,731 @@
+[
+ {
+  "key": "wga:zearly/1/4mosaics/1rome/4cosma/cosma4",
+  "status": "rejected",
+  "reject_reason": "Duplicate: this is a close-up detail of the same apse mosaic of Santi Cosma e Damiano, Rome, as wga:zearly/1/4mosaics/1rome/4cosma/cosma2, which shows the whole composition.",
+  "dup_of": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
+  "set": {},
+  "notes": "WGA itself titles this image 'Second Coming of Christ (detail)'. The close-up of Christ on the clouds is a fine image and could be offered as an extra view of the parent entry."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/1rome/4cosma/cosma2",
+  "status": "corrected",
+  "set": {
+   "t": "Apse Mosaic of Santi Cosma e Damiano: Christ of the Second Coming",
+   "c": "Rome",
+   "l": "Basilica of Santi Cosma e Damiano, Rome"
+  },
+  "summary": "Against a deep blue sky streaked with red and blue clouds, a towering bearded Christ in golden tunic and pallium descends on the clouds, his right hand raised and a scroll in his left. Below him Saints Peter and Paul present the physician-martyrs Cosmas and Damian, who carry their crowns of martyrdom; at the far left Pope Felix IV offers a model of the church, and at the far right stands Saint Theodore. Beneath, twelve lambs converge on the Lamb of God. Commissioned when the old Roman buildings in the Forum were turned into a church, the mosaic is one of the grandest visions of Christ's coming in glory to survive from 6th-century Rome.",
+  "scripture": "Matthew 24:30; Acts 1:11; John 10:11–16",
+  "facts": [
+   "The church was created in 527, when Theodoric the Great and his daughter Amalasuntha gave the library of the Forum of Peace and part of the so-called Temple of Romulus to Pope Felix IV.",
+   "The apse mosaic is usually read as a parousia, the Second Coming of Christ at the end of time; Peter and Paul presenting the church's patron saints adapts the older Roman 'traditio legis' scheme.",
+   "In 1632 Pope Urban VIII had the floor raised by about seven metres, which is why the apse now looks oversized and the triumphal arch is cut down."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/1rome/4cosma/cosma2.html"
+   },
+   {
+    "label": "Wikipedia: Santi Cosma e Damiano, Rome",
+    "url": "https://en.wikipedia.org/wiki/Santi_Cosma_e_Damiano,_Rome"
+   }
+  ],
+  "notes": "Dated 526–530 (pontificate of Felix IV). Wikipedia calls the church's mosaics 'much restored'; the precise extent of later restoration (e.g. of the Felix IV figure) was not verified here. WGA's statement that Christ wears a crown is not borne out by the image and was not repeated."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/2ravenna/5vitale/2conch1",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Enthroned on the Globe, with Angels, Saint Vitalis and Bishop Ecclesius",
+   "c": "Ravenna",
+   "l": "Basilica of San Vitale, Ravenna",
+   "d": "c. 540s (church completed 547)"
+  },
+  "summary": "In the golden conch of the apse a youthful, beardless Christ in imperial purple sits on a blue globe above a flowering paradise meadow. He holds a scroll in his left hand and extends a jewelled martyr's crown with his right toward Saint Vitalis, led in by an angel; on the other side a second angel introduces Bishop Ecclesius, who offers a model of the church. This serene image of Christ as ruler of the cosmos, receiving the gifts of martyr and founder, crowns one of the most celebrated mosaic ensembles of the age of Justinian.",
+  "scripture": "Revelation 2:10 (theme); Revelation 5:1",
+  "facts": [
+   "Construction of San Vitale began in 526 under Bishop Ecclesius and was completed in 547 under Bishop Maximian, after the Byzantine reconquest of Italy.",
+   "Directly below this apse, on its side walls, are the famous panels of Emperor Justinian and Empress Theodora with their courts.",
+   "San Vitale is one of eight Ravenna monuments inscribed on the UNESCO World Heritage List."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/2ravenna/5vitale/2conch1.html"
+   },
+   {
+    "label": "Wikipedia: Basilica of San Vitale",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"
+   }
+  ],
+  "notes": "Title made more descriptive; WGA's 'Christ in the Paradisical Garden' is retained in substance."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/3various/7byzanti",
+  "status": "corrected",
+  "set": {
+   "t": "Virgin and Child Enthroned with Angels, Saints and Bishop Euphrasius",
+   "d": "mid-6th century (church built from 553)",
+   "y": 555,
+   "c": "Poreč (Byzantine mosaicists)",
+   "l": "Euphrasian Basilica, Poreč, Croatia"
+  },
+  "summary": "In the golden semi-dome of the apse the Virgin, in a dark maphorion, sits on a jewelled throne with the Christ Child on her lap; he wears gold, has a cross-inscribed halo and raises his hand in blessing, while the hand of God above holds a wreath over them. Two archangels flank the throne, and beyond them stand saints and local clergy, among them Bishop Euphrasius holding a model of his church. A border of medallions of female martyrs centred on the Lamb of God frames the scene, which places the Mother of God and her Son in the position of heavenly majesty.",
+  "scripture": "Luke 1:31–33 (theme); Revelation 5:6 (Lamb in the medallion)",
+  "facts": [
+   "Wikipedia describes this as the only surviving depiction of the Mother of God in the apse of an early Christian basilica in the West.",
+   "Among the figures is St Maurus, first bishop of Poreč, and a small child identified by inscription as Euphrasius, son of the archdeacon Claudius.",
+   "The Euphrasian Basilica has been on the UNESCO World Heritage List since 1997."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/3various/7byzanti.html"
+   },
+   {
+    "label": "Wikipedia: Euphrasian Basilica",
+    "url": "https://en.wikipedia.org/wiki/Euphrasian_Basilica"
+   }
+  ],
+  "notes": "WGA dates the mosaic c. 540, but the present basilica was built from 553 under Bishop Euphrasius (construction took about ten years), so the apse mosaic is redated to the mid-6th century. Location spelling corrected from 'Poreè'."
+ },
+ {
+  "key": "Q134888199",
+  "status": "corrected",
+  "set": {
+   "t": "Apse Mosaic from San Michele in Africisco, Ravenna",
+   "original_title": "Apsismosaik aus der Kirche San Michele in Africisco zu Ravenna",
+   "d": "c. 545–546",
+   "y": 545,
+   "c": "Ravenna",
+   "l": "Bode-Museum (Skulpturensammlung und Museum für Byzantinische Kunst), Berlin",
+   "m": "Glass and natural stone mosaic",
+   "s": "Early Byzantine"
+  },
+  "summary": "In the apse a youthful Christ with a golden cross-nimbus stands in a paradise landscape, holding a tall cross in his raised right hand and, in his veiled left, an open book inscribed with his words from John's Gospel: 'He who has seen me has seen the Father' and 'I and the Father are one.' The archangels Michael and Gabriel flank him with ceremonial staffs. On the wall above, Christ sits enthroned as heavenly ruler between two archangels, while the seven trumpet-bearing angels of the Apocalypse stand on either side; the names of Saints Cosmas and Damian survive in the spandrels. The mosaic proclaims Christ's full divinity, whether as victorious cross-bearer or as judge of the world.",
+  "scripture": "John 14:9; John 10:30; Revelation 8:2–6",
+  "facts": [
+   "The mosaic was taken down from the Ravenna church in 1844 and is now in the Bode-Museum, Berlin; the museum notes that it has changed profoundly since then, as Enrico Pari's watercolour of 1842/43 shows.",
+   "The Lamb of God originally appeared in an aureole at the crown of the apse arch, and a frieze of doves, symbols of the apostles, decorated the soffit.",
+   "Today it measures about 4.3 m high and 6.15 m wide (museum inv. 6642)."
+  ],
+  "links": [
+   {
+    "label": "Staatliche Museen zu Berlin (museum-digital)",
+    "url": "https://smb.museum-digital.de/object/140874"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q134888199"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Berl%C3%ADn-Ravenna._01.JPG"
+   }
+  ],
+  "notes": "Much of the present surface reflects 19th-century removal and restoration, so details should be treated with caution. The figures of Cosmas and Damian themselves are no longer present; only their name labels are visible in the photograph."
+ },
+ {
+  "key": "Q13424640",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the same object (Metropolitan Museum of Art, The Cloisters, acc. 50.4) as Q29385468 'The Antioch \"Chalice\"' in worklist w-c1-7-a.",
+  "dup_of": "Q29385468",
+  "set": {},
+  "notes": "Both Wikidata items carry identical data (inventory 50.4, same images); they appear to be duplicate Wikidata items."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/2ravenna/4nuovo/5top3",
+  "status": "corrected",
+  "set": {
+   "t": "The Betrayal and Arrest of Christ",
+   "d": "early 6th century (c. 500–526, reign of Theodoric)",
+   "y": 510,
+   "c": "Ravenna",
+   "l": "Basilica of Sant'Apollinare Nuovo, Ravenna"
+  },
+  "summary": "On a shimmering gold ground, Judas leans in to kiss a bearded, haloed Christ, who stands calmly in a purple mantle at the centre of the panel. From the left soldiers with spears and torches press forward, one reaching for Christ's shoulder, while on the right the apostles look on; one of them grips a sword, recalling Peter's attempt to defend his Master. The scene belongs to the cycle of Christ's Passion along the upper wall of the nave, among the earliest extended narrative sequences of the Passion in monumental art.",
+  "scripture": "Matthew 26:47–56; Mark 14:43–50; Luke 22:47–53; John 18:1–11",
+  "facts": [
+   "Theodoric the Great built Sant'Apollinare Nuovo as his Arian palace church; it was dedicated in 504 to Christ the Redeemer.",
+   "The upper band of the south (right) wall holds thirteen Passion and Resurrection scenes, in which Christ is bearded, whereas in the miracle scenes on the opposite wall he is young and beardless.",
+   "The cycle omits the Flagellation and the Crucifixion itself."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/2ravenna/4nuovo/5top3.html"
+   },
+   {
+    "label": "Wikipedia: Basilica of Sant'Apollinare Nuovo",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Apollinare_Nuovo"
+   }
+  ],
+  "notes": "WGA gives only '6th century'; the upper-tier Christological panels belong to the Theodorician decoration (before 526). The precise year is not known."
+ },
+ {
+  "key": "wga:zearly/1/5coptic/painting/1bawit2",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Enthroned in Glory (Apse Painting from Bawit)",
+   "c": "Bawit, Egypt",
+   "d": "6th–7th century"
+  },
+  "summary": "Within a great circular glory, Christ sits frontally on a jewelled throne, bearded and haloed with a cross, raising his right hand and holding in his left an open book inscribed three times 'ΑΓΙΟΣ' (Holy). At the edges of the glory appear the heads of the winged living creatures, and wheels appear below, details drawn from the prophetic visions of God's throne. Painted for a chapel of the monastery of Apa Apollo at Bawit in Middle Egypt, it is a moving witness to how Coptic monks pictured the risen Christ reigning in heaven.",
+  "scripture": "Ezekiel 1:4–28; Isaiah 6:3; Revelation 4:2–8",
+  "facts": [
+   "The monastery of Apa Apollo at Bawit was founded c. 385/390 and flourished in the 6th and 7th centuries, before declining after the Arab conquest and being abandoned around the 10th century.",
+   "Excavations by Jean Clédat from 1901 uncovered painted hermitages he called 'chapels'; paintings and carvings from the site went to the Coptic Museum in Cairo and the Louvre.",
+   "WGA identifies this as the upper register of a two-zone apse whose lower register shows the Virgin and Child among the apostles (a separate entry in this collection)."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/5coptic/painting/1bawit2.html"
+   },
+   {
+    "label": "Wikipedia: Bawit",
+    "url": "https://en.wikipedia.org/wiki/Bawit"
+   }
+  ],
+  "notes": "The exact chapel number at Bawit was not verified. Date broadened to 6th–7th century, the monastery's period of prosperity; WGA gives '6th century'. The identification of the creatures at the edges is general, as they are only partly visible."
+ },
+ {
+  "key": "Q4501499",
+  "status": "corrected",
+  "set": {
+   "t": "Christ Pantocrator (Sinai)",
+   "d": "mid-6th century",
+   "c": "probably Constantinople",
+   "l": "Saint Catherine's Monastery, Sinai, Egypt",
+   "m": "Encaustic on wood panel",
+   "s": "Early Byzantine"
+  },
+  "summary": "Christ looks out directly at the viewer, bearded and long-haired, his head set against a large golden halo. He blesses with his right hand and holds in his left a heavy Gospel book whose cover is studded with jewels and a cross. Painted in hot wax, the face is subtly asymmetrical, which many have read as a meditation on Christ's two natures, divine and human. It is the earliest known surviving icon of Christ as Pantocrator, 'Ruler of All', and one of the most important works of Byzantine art.",
+  "scripture": "John 14:9 (theme); Colossians 1:15",
+  "facts": [
+   "For a time the icon was thought to date from the 13th century, because it had been almost completely overpainted then; only in 1962 was it recognized as mid-6th-century work.",
+   "It survived Byzantine Iconoclasm because Sinai had already passed under Muslim rule, beyond the reach of the iconoclast emperors.",
+   "The panel, now 84 cm high, was originally taller and wider before its top and sides were cut down."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Christ Pantocrator (Sinai)",
+    "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator_(Sinai)"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q4501499"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Christ_Icon_Sinai_6th_century.jpg"
+   }
+  ],
+  "notes": "Production in Constantinople is a widely held inference (possible imperial gift at the monastery's foundation, 548–565), not a documented fact."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/2ravenna/4nuovo/5top1",
+  "status": "corrected",
+  "set": {
+   "t": "Christ before Pilate (Pilate Washing His Hands)",
+   "d": "early 6th century (c. 500–526, reign of Theodoric)",
+   "y": 510,
+   "c": "Ravenna",
+   "l": "Basilica of Sant'Apollinare Nuovo, Ravenna"
+  },
+  "summary": "At the left, a bearded, haloed Christ in a dark purple mantle stands quietly, held by an elder from the crowd behind him. Facing him, Pilate sits on a cushioned judgement seat among his attendants, stretching out his hands over a basin held by a servant. The calm stillness of Christ beside the governor's gesture of self-exculpation gives the scene its quiet drama; it belongs to the Passion cycle along the upper wall of Theodoric's palace church.",
+  "scripture": "Matthew 27:11–26; John 18:28–19:16",
+  "facts": [
+   "Only Matthew's Gospel records Pilate washing his hands before the crowd (Matthew 27:24).",
+   "In the Passion scenes of Sant'Apollinare Nuovo Christ is shown bearded, unlike the youthful beardless Christ of the miracle scenes on the opposite wall.",
+   "The mosaics were altered in the mid-19th century by the restorer Felice Kibel."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/2ravenna/4nuovo/5top1.html"
+   },
+   {
+    "label": "Wikipedia: Basilica of Sant'Apollinare Nuovo",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Apollinare_Nuovo"
+   }
+  ],
+  "notes": "WGA image is a cropped detail of the panel. Date refined from '6th century' to the Theodorician phase (before 526)."
+ },
+ {
+  "key": "Q30165884",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Belt Buckle with a Figure on a Donkey (Christ's Entry into Jerusalem?)",
+   "c": "Western Switzerland / Burgundian region (probably)",
+   "l": "Musée cantonal d'archéologie et d'histoire, Palais de Rumine, Lausanne",
+   "d": "6th–7th century",
+   "m": "Bronze, openwork"
+  },
+  "summary": "This small bronze belt plate is worked in openwork within a border of leaves: a frontal figure with a large, mask-like head and outstretched arms appears above a long-bodied quadruped, accompanied by birds and stylized animal heads. Wikidata identifies the scene, with a question mark, as Christ riding the donkey. Such buckles, worn by men and women of the early medieval kingdoms north of the Alps, show how Christian images were absorbed into local ornament.",
+  "facts": [
+   "A bronze buckle plate of the same period in the Musée d'Art et d'Histoire, Geneva (also in this collection), is identified by that museum as Christ's Entry into Jerusalem.",
+   "The buckle is displayed in the Cantonal Museum of Archaeology and History in Lausanne's Palais de Rumine."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q30165884"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Christian-themed_medieval_belt_buckle-IMG_7994-gradient.jpg"
+   }
+  ],
+  "notes": "Identification as Christ rests only on the Wikidata description ('featuring Christ on his donkey (?)'); the figure is highly stylized and could be another subject (other buckles of this family show e.g. Daniel or riders). No museum record was found; date taken from Wikidata (6th century) broadened to 6th–7th. Scripture omitted because the subject is uncertain."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/2ravenna/4nuovo/5top4",
+  "status": "corrected",
+  "set": {
+   "t": "The Last Supper",
+   "d": "early 6th century (c. 500–526, reign of Theodoric)",
+   "y": 510,
+   "c": "Ravenna",
+   "l": "Basilica of Sant'Apollinare Nuovo, Ravenna"
+  },
+  "summary": "Following the ancient custom of dining, Christ and the twelve apostles recline around a semicircular table. Christ, haloed and robed in purple, lies at the place of honour on the left, while the apostles crowd in a tight arc behind a white cloth set with loaves and a large dish holding two fish. Rather than the moment of the bread and cup, the mosaic shows the company gathered at table, a memorable early image of the Supper on the eve of the Passion.",
+  "scripture": "Matthew 26:20–29; Mark 14:17–25; Luke 22:14–23; John 13:21–30",
+  "facts": [
+   "The Passion scenes on the upper south wall correspond to the Gospel passages read aloud in the church during Lent under Theodoric.",
+   "The narrative panels were executed by at least two artists, and the mosaics were renovated and altered in the mid-19th century by Felice Kibel."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/4mosaics/2ravenna/4nuovo/5top4.html"
+   },
+   {
+    "label": "Wikipedia: Basilica of Sant'Apollinare Nuovo",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Apollinare_Nuovo"
+   }
+  ],
+  "notes": "Date refined from WGA's '6th century'."
+ },
+ {
+  "key": "Q116409033",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the two surviving ivory fragments show only seated figures with baskets of bread from a scene of the Multiplication of the Loaves; the figure of Christ is not preserved.",
+  "set": {},
+  "notes": "Checked both Met images (kn314a, kn314). Met 330095, acc. 2021.37.24a, b, Egypt, 6th century. Could be reinstated if the collection wishes to include narrative scenes in which Christ is implied but not shown."
+ },
+ {
+  "key": "Q134283869",
+  "status": "corrected",
+  "set": {
+   "t": "Pyxis with Christ's Miracles of Healing",
+   "original_title": "Pyxis mit Wunderheilungen Jesu",
+   "a": "Unknown",
+   "d": "c. 500",
+   "y": 500,
+   "c": "Eastern Mediterranean",
+   "l": "Hessisches Landesmuseum Darmstadt",
+   "m": "Ivory",
+   "s": "Early Byzantine"
+  },
+  "summary": "Carved around this small ivory box is a continuous frieze of figures in deep relief. In one view a youthful Christ with a cross-nimbus strides forward, his right hand raised, followed by bearded apostles; in another, a veiled woman kneels under an arched canopy while other women and men approach in animated movement. Such pyxides, used to hold incense or the Eucharistic bread, carried scenes of Christ's healing miracles as reminders of his power to restore body and soul.",
+  "scripture": "Matthew 4:23–24 (theme)",
+  "facts": [
+   "The museum's own label (as recorded in the photographer's file names) titles it a pyx with Christ performing miracle healing, Eastern Mediterranean, c. 500."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q134283869"
+   },
+   {
+    "label": "Wikimedia Commons category",
+    "url": "https://commons.wikimedia.org/wiki/Category:Hessisches_Landesmuseum_Darmstadt_(Kg_54:214)"
+   }
+  ],
+  "notes": "Inventory Kg 54:214 (old no. 698). Wikidata label misspells 'Wunderheiligungen'. The individual healing scenes (e.g. which miracles are shown) were not identified from a reliable source and are described only generally. Date from the label photographed in Commons; Wikidata gives 6th century."
+ },
+ {
+  "key": "wga:zearly/1/4mosaics/2ravenna/4nuovo/3north6",
+  "status": "rejected",
+  "reject_reason": "Christ is not shown in this image: it is a detail of the north-wall procession showing only the Three Magi (named Balthassar, Melchior and Gaspar) and the edge of an angel; the Virgin and Child they approach lie outside the crop.",
+  "set": {},
+  "notes": "If a fuller photograph including the enthroned Virgin and Child is found, the north-wall mosaic (c. 560s, under Bishop Agnellus) would qualify. Wikipedia notes this is thought to be the earliest example of the three names being given to the Magi in art."
+ },
+ {
+  "key": "wga:zearly/1/5coptic/painting/1bawit4",
+  "status": "corrected",
+  "set": {
+   "t": "Virgin and Child Enthroned between Apostles (Apse Painting from Bawit)",
+   "c": "Bawit, Egypt",
+   "d": "6th–7th century"
+  },
+  "summary": "The Virgin, wrapped in a dark mantle and haloed in gold, sits frontally on a jewelled, cushioned throne, holding the Christ Child on her lap. The Child, with his own halo, looks out at the viewer and holds a scroll, a sign that he is the Word of God. Apostles stand on either side; their Greek name labels identify Peter on the left and John on the right. Painted in the lower zone of a chapel apse at the monastery of Bawit, the image presents the incarnate Son seated in his mother's lap as on a throne.",
+  "scripture": "John 1:14 (theme); Luke 1:31–33",
+  "facts": [
+   "WGA describes this as a detail of the lower register of the same apse whose upper register shows Christ enthroned in glory (also in this collection).",
+   "The monastery of Apa Apollo at Bawit, founded c. 385/390, flourished in the 6th and 7th centuries; its paintings are now chiefly in the Coptic Museum, Cairo, and the Louvre."
+  ],
+  "links": [
+   {
+    "label": "Web Gallery of Art",
+    "url": "https://www.wga.hu/html/zearly/1/5coptic/painting/1bawit4.html"
+   },
+   {
+    "label": "Wikipedia: Bawit",
+    "url": "https://en.wikipedia.org/wiki/Bawit"
+   }
+  ],
+  "notes": "Apostle names read from the partially visible Greek labels (ΠΕΤΡΟΣ at left, ΙΩΑΝΝ... at right). Date broadened to 6th–7th century."
+ },
+ {
+  "key": "Q79934771",
+  "status": "verified",
+  "set": {},
+  "summary": "This pendant is made of two dome-shaped pieces of rock crystal in a gold mount, one cut on its reverse with a tiny intaglio of the Anastasis. Christ, holding a cross-staff, reaches out to Adam, who kneels before him, while Eve stands behind, also stretching out her hand. Seen through the clear crystal, the image of Christ raising the first parents from death would have been carried close to the body as a sign of hope in the Resurrection.",
+  "scripture": "1 Peter 3:18–19; Ephesians 4:8–10",
+  "facts": [
+   "The Anastasis shows Christ entering the gates of Hell to release the righteous of the Old Testament, beginning with Adam and Eve.",
+   "The Cleveland Museum of Art notes that the gold chain may be of later date than the pendant.",
+   "The crystal pendant measures only 4.2 × 3.3 cm."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1983.209"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q79934771"
+   }
+  ],
+  "notes": "Museum dates it to the late 500s (Byzantium). The intaglio is too small to read clearly in the general photograph; the description follows the museum's text."
+ },
+ {
+  "key": "Q116244842",
+  "status": "corrected",
+  "set": {
+   "c": "Probably Constantinople",
+   "s": "Byzantine"
+  },
+  "summary": "This small hexagonal censer of silver, partly gilded, hangs from three chains. Under an arcade of twisted columns on each of its six faces stands a gilded holy figure: Christ holding a Gospel book, the Virgin with hands raised in prayer, Saints Peter (with a cross) and Paul, and two winged angels. As incense rose from it during the liturgy, the vessel surrounded worshippers with an image of the heavenly court gathered around Christ.",
+  "scripture": "Revelation 8:3–4; Psalm 141:2",
+  "facts": [
+   "The Met dates the censer to ca. 582–602, the span of the reign of Emperor Maurice.",
+   "Greek inscriptions run along the upper rim above the arcades.",
+   "It is small: 8.9 cm high and 13.2 cm across, weighing about 364 g."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/466121"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116244842"
+   }
+  ],
+  "notes": "Acc. 1985.123. The Met's object page text was not accessible (bot-blocked), so identifications rest on the Met's subject tags (Christ, Virgin, Peter, Paul) and on the photographs; the two winged figures are clearly angels but are not named here. The reason for the precise date range was not confirmed."
+ },
+ {
+  "key": "commons:3078150",
+  "status": "corrected",
+  "set": {
+   "t": "Virgin and Child with Saints Theodore and George and Two Angels",
+   "a": "Unknown Byzantine painter",
+   "d": "c. 600 (6th–early 7th century)",
+   "c": "Byzantine Empire (possibly Constantinople)",
+   "l": "Saint Catherine's Monastery, Sinai, Egypt",
+   "m": "Encaustic on wood panel",
+   "s": "Early Byzantine",
+   "k": "icon"
+  },
+  "summary": "The Virgin sits enthroned in a deep blue robe, holding the Christ Child, who sits upright on her lap in a golden-brown garment with his own halo. Two soldier saints, Theodore and George, stand guard on either side holding crosses, while behind the throne two angels turn their faces upward. Painted in hot wax, the icon contrasts the still, frontal saints with the lively, almost classical angels, and is one of the rare icons to survive from before Byzantine Iconoclasm.",
+  "scripture": "Luke 1:31–35 (theme)",
+  "facts": [
+   "Saint Catherine's Monastery is the only place where a substantial group of pre-iconoclastic encaustic icons survives, some dating as early as the 6th century.",
+   "No panel icons earlier than the few 6th-century examples preserved at Sinai survive in their original state."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Encaustic_Virgin.jpg"
+   },
+   {
+    "label": "Wikipedia: Saint Catherine's Monastery",
+    "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"
+   },
+   {
+    "label": "Wikipedia: Icon",
+    "url": "https://en.wikipedia.org/wiki/Icon"
+   }
+  ],
+  "notes": "'Encaustic Virgin' is only the Commons file name; title supplied from the Commons description ('Virgin and Child with angels and Sts. George and Theodore'). Which saint stands on which side was not confirmed from a reliable source. Place of production is not documented."
+ },
+ {
+  "key": "Q60779306",
+  "status": "verified",
+  "set": {},
+  "summary": "This little pilgrim's flask, only 6.3 cm high, still has fragments of its leather strap. On the front, in low relief, the Crucifixion is shown in the Holy Land manner: a haloed Christ above the cross between the two thieves with outstretched arms, with kneeling figures at its foot. On the back is the Ascension: Christ enthroned in a mandorla borne by angels, above the Virgin and the apostles. A Greek inscription runs round each face. Filled with oil from the holy sites of Jerusalem, such flasks carried both blessing and image home to distant believers.",
+  "scripture": "John 19:17–30; Acts 1:9–11",
+  "facts": [
+   "It belongs to the 'Monza' or 'Bobbio' type, named after the Italian treasuries where the largest groups of these Palestinian ampullae survive; the Monza flasks were given by the Lombard queen Theodelinda (c. 570–628).",
+   "The flasks held oil from lamps burning before the great shrines of the Holy Land, and the oil was believed to heal the sick.",
+   "Their images come from a period that has left very few traces in art, yet was of crucial importance in establishing the iconography of many Christian subjects."
+  ],
+  "links": [
+   {
+    "label": "Cleveland Museum of Art",
+    "url": "https://clevelandart.org/art/1999.46"
+   },
+   {
+    "label": "Wikipedia: Monza ampullae",
+    "url": "https://en.wikipedia.org/wiki/Monza_ampullae"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q60779306"
+   }
+  ],
+  "notes": "Cleveland also catalogues the two faces separately as 1999.46.a (Crucifixion) and 1999.46.b (Ascension); those entries (Q60755446, Q60779637) are rejected as duplicates of this one. The inscriptions are only partly legible in the photographs and are not transcribed."
+ },
+ {
+  "key": "Q60779637",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the Ascension face (1999.46.b) of the same Cleveland pilgrim's ampulla catalogued as a whole under Q60779306 (1999.46).",
+  "dup_of": "Q60779306",
+  "set": {},
+  "notes": "The close-up photograph of the Ascension side could be used as an extra view of Q60779306."
+ },
+ {
+  "key": "Q60755446",
+  "status": "rejected",
+  "reject_reason": "Duplicate: the Crucifixion face (1999.46.a) of the same Cleveland pilgrim's ampulla catalogued as a whole under Q60779306 (1999.46).",
+  "dup_of": "Q60779306",
+  "set": {},
+  "notes": "The close-up photograph of the Crucifixion side could be used as an extra view of Q60779306."
+ },
+ {
+  "key": "commons:98691695",
+  "status": "corrected",
+  "set": {
+   "t": "The Transfiguration (Apse Mosaic, Saint Catherine's Monastery)",
+   "d": "mid-6th century (reign of Justinian, probably 548–565)",
+   "y": 560,
+   "c": "Sinai (Byzantine mosaicists)",
+   "l": "Katholikon (Church of the Transfiguration), Saint Catherine's Monastery, Sinai, Egypt",
+   "m": "Mosaic",
+   "s": "Early Byzantine",
+   "a": "Unknown Byzantine mosaicists"
+  },
+  "summary": "Against a golden ground, Christ stands in white and gold within a blue almond-shaped mandorla, rays of light streaming from him. The prophets Elijah and Moses, named in Greek, stand on either side, while below John and James start back on their knees and Peter lies prostrate at Christ's feet, overwhelmed by the light. A border of medallions with busts of apostles and prophets frames the apse. Set above the altar at the foot of Mount Sinai, where Moses met God, it is the earliest surviving example of the standard Byzantine image of the Transfiguration.",
+  "scripture": "Matthew 17:1–9; Mark 9:2–8; Luke 9:28–36",
+  "facts": [
+   "It dates from the time of, and was probably commissioned by, Emperor Justinian, who founded the monastery late in his reign.",
+   "It contains the earliest extant Transfiguration mandorla; at this date only Christ is given a halo.",
+   "The subject had a special meaning at Sinai because of the meeting of Christ with Moses, the site's own great prophet; the monastery's patronal feast is the Transfiguration."
+  ],
+  "links": [
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Transfiguration-Sinai.jpg"
+   },
+   {
+    "label": "Wikipedia: Transfiguration of Jesus in Christian art",
+    "url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus_in_Christian_art"
+   },
+   {
+    "label": "Wikipedia: Saint Catherine's Monastery",
+    "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"
+   }
+  ],
+  "notes": "Commons gives 'circa 600'; Wikipedia places it in Justinian's reign. In this photograph the inscriptions name Elijah at viewer's left and Moses at right, whereas Wikipedia's text says the reverse; the description follows the visible labels."
+ },
+ {
+  "key": "met:444058",
+  "status": "rejected",
+  "reject_reason": "Christ is not depicted: the Met's photograph of this textile fragment (acc. 90.5.579) shows only a rosette/floral roundel in a decorative border. The title, which the Met itself queries with '?', appears to be shared with a related fragment.",
+  "set": {},
+  "notes": "Not a duplicate of commons:61148088, which is a different Met object (444297, acc. 90.5.818) with the same title."
+ },
+ {
+  "key": "Q116182097",
+  "status": "corrected",
+  "set": {
+   "t": "Cross of Theodelinda (Pectoral Reliquary Cross of Gregory the Great)",
+   "original_title": "Croce di Teodolinda",
+   "d": "late 6th century; given in 603",
+   "y": 600,
+   "c": "Byzantine or Syrian workshop (gold plaque); reworked in Rome",
+   "l": "Museo e Tesoro del Duomo di Monza, Monza",
+   "m": "Gold, niello, rock crystal",
+   "k": "pectoral cross (staurotheke)",
+   "s": "Early Byzantine"
+  },
+  "summary": "Seen through a covering of rock crystal, a tiny gold plaque engraved in niello shows Christ on the cross, bearded, with a cross-nimbus and dressed in the long sleeveless colobium. At the ends of the arms stand the Virgin, raising her hand in grief, and John the Evangelist with his Gospel; above are the sun and moon and the letters naming Jesus Christ, and across the arms runs Christ's word from the cross, 'Behold your son… behold your mother.' This little reliquary of the True Cross, sent by a pope to a queen, links the earliest Eastern images of the Crucifixion with the conversion of the Lombards.",
+  "scripture": "John 19:25–27",
+  "facts": [
+   "According to tradition Pope Gregory the Great gave it in 603 to Queen Theodelinda for the baptism of her son Adaloald, the future Lombard king.",
+   "It is a staurotheke, made to hold a fragment of the wood of the Cross inserted in Christ's tunic; the relic itself is now lost.",
+   "Pope Paul VI wore the cross on his pilgrimage to the Holy Land in January 1964."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (Italian): Croce di Teodolinda",
+    "url": "https://it.wikipedia.org/wiki/Croce_di_Teodolinda"
+   },
+   {
+    "label": "Wikipedia (German): Gregorius-Kreuz",
+    "url": "https://de.wikipedia.org/wiki/Gregorius-Kreuz"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q116182097"
+   }
+  ],
+  "notes": "Sources differ on origin: Italian Wikipedia calls the gold plaque 'Syrian art of the 6th century' and also suggests manufacture in Rome; German Wikipedia says possibly made in Syria and reworked in Rome. The rock-crystal cover is not original (documented by 1713), and the gold of the reverse may be a later (possibly Carolingian) remaking. 603 is the date of the gift, not necessarily of manufacture."
+ },
+ {
+  "key": "Q1089704",
+  "status": "corrected",
+  "set": {
+   "t": "Blachernitissa (Virgin of Blachernae)",
+   "d": "probably 13th century (traditionally 7th century)",
+   "y": 1250,
+   "c": "Byzantine world (uncertain)",
+   "l": "State Tretyakov Gallery, Moscow",
+   "m": "Wax relief, painted (encaustic tradition)",
+   "s": "Byzantine"
+  },
+  "summary": "Worked in relief rather than painted flat, this darkened and cracked icon shows the Virgin turned slightly toward the Christ Child, whom she holds on her left arm, her hand gesturing toward him. The Child, in red and blue garments, sits upright with a golden halo. Venerated as the Blachernitissa, a revered image linked with the great Marian shrine of Constantinople, it was brought from Mount Athos to Moscow in 1653, where Tsar Alexis received it in person.",
+  "scripture": "Luke 1:42–43 (theme)",
+  "facts": [
+   "Tradition held that the icon was made of wax mixed with the ashes of martyrs.",
+   "Recent study has found close parallels with 13th-century relief icons and a newly discovered Greek inscription, so the 13th century is now regarded as its most likely date.",
+   "It was restored by Simon Ushakov and Nikita Pavlovets in 1674 and survived the Great Fire of Moscow in 1812."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Blachernitissa",
+    "url": "https://en.wikipedia.org/wiki/Blachernitissa"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q1089704"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Vlahernskaya.jpg"
+   }
+  ],
+  "notes": "Wikidata and Commons give '7th century', but Wikipedia reports that scholarship now favours the 13th century; whether it is the icon once kept at Blachernae is disputed (that icon is thought to have been of the Orans type, while this one is a Hodegetria). This redating moves the work out of the 1st–7th-century batch. The phrasing 'survived the Great Fire' follows Wikipedia's statement that it was left in the Kremlin and put at risk in 1812."
+ },
+ {
+  "key": "Q62572068",
+  "status": "corrected",
+  "set": {
+   "t": "Belt Buckle with Christ's Entry into Jerusalem",
+   "original_title": "Boucle de ceinture en bronze Entrée dans Jérusalem",
+   "d": "6th–7th century",
+   "c": "La Roche-sur-Foron (Haute-Savoie), Burgundian region",
+   "l": "Musée d'Art et d'Histoire, Geneva",
+   "m": "Bronze"
+  },
+  "summary": "This cast bronze belt plate is crowded with small figures in shallow relief. At the right a rider sits on a donkey whose head bends down toward a figure who stoops before it, as if spreading a garment on the road; standing figures look on at the left, and above, a row of heads looks out from an arcade. Read by the museum as Christ's Entry into Jerusalem, it shows how the Gospel story was carried into the everyday ornament of the early medieval peoples of the Alpine region.",
+  "scripture": "Matthew 21:1–11; Mark 11:1–11; Luke 19:28–40; John 12:12–15",
+  "facts": [
+   "The buckle was found at La Roche-sur-Foron in Haute-Savoie and is in the Germanic antiquities collection of Geneva's Musée d'Art et d'Histoire (inv. E 0321)."
+  ],
+  "links": [
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q62572068"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Fibbie_in_bronzo_dalla_roche-sur-foron,_VI-VII_sec.,_01_entrata_a_gerusalemme.JPG"
+   }
+  ],
+  "notes": "Identification, date (6th–7th century) and findspot are from the Wikidata item and the Commons file (photographed with the museum label); no MAH online record was consulted. The figure on the donkey is not haloed and the identification follows the museum's interpretation."
+ },
+ {
+  "key": "Q3698094",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "t": "Cross of Agilulf",
+   "original_title": "Croce di Agilulfo",
+   "d": "early 7th century (before 616)",
+   "y": 610,
+   "c": "Lombard kingdom of Italy (probably)",
+   "l": "Museo e Tesoro del Duomo di Monza, Monza",
+   "m": "Gold, precious stones, pearls",
+   "s": "Lombard",
+   "k": "votive cross"
+  },
+  "summary": "This gold Latin cross, about 22.5 cm high, with gently flaring arms, is studded with a symmetrical pattern of blue and white stones and pearls set in beaded collars, and hung with six gold pendants on fine chains. A masterpiece of Lombard goldsmiths' work, it honours the Cross of Christ as a jewelled sign of victory rather than as an instrument of suffering.",
+  "scripture": "Galatians 6:14 (theme)",
+  "facts": [
+   "It is traditionally associated with the Lombard king Agilulf (d. 616), husband of Queen Theodelinda, and may have hung from a royal crown.",
+   "Its overall form and the arrangement of six pendants are Byzantine in style, while the decoration shows 'barbarian' influence, suggesting it was made within the Lombard kingdom."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (Italian): Croce di Agilulfo",
+    "url": "https://it.wikipedia.org/wiki/Croce_di_Agilulfo"
+   },
+   {
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q3698094"
+   }
+  ],
+  "notes": "No figure of Christ is visible in the available photograph: the cross is decorated with gems and pearls. Italian Wikipedia and Wikidata state that it bears representations of Christ, archangels and apostles (presumably on engraved stones), but this could not be confirmed, so the entry is kept as uncertain; if the claim cannot be substantiated it should be removed as a non-figural cross. The Commons file description wrongly calls it a 'diptych of Gregory the Great'."
+ },
+ {
+  "key": "met:446060",
+  "status": "verified",
+  "set": {},
+  "summary": "Cut from a thin piece of mother-of-pearl only 3 cm high and pierced at the top for suspension, this small cross is incised with the figure of the crucified Christ, his arms stretched along the crossbar and his body clothed in a long garment. The simple, lively lines make it a personal devotional pendant, worn by an Egyptian Christian as a sign of faith in the One who died on the cross.",
+  "scripture": "John 19:17–30",
+  "facts": [
+   "The Met attributes it to Egypt and gives a very broad date range, 3rd–12th century, reflecting how difficult such small devotional objects are to date.",
+   "It weighs only 2.8 g."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/446060"
+   }
+  ],
+  "notes": "Acc. 10.130.1154, Gift of Helen Miller Gould, 1910. The Met date of 3rd–12th century means its placement in the 7th century (y 700) is arbitrary; a crucified Christ wearing a long garment would be consistent with an early date but this is not confirmed. Small incised marks above the figure are not legible in the photograph."
+ },
+ {
+  "key": "commons:61148088",
+  "status": "corrected",
+  "identification": "uncertain",
+  "set": {
+   "l": "Metropolitan Museum of Art, New York",
+   "c": "Egypt",
+   "m": "Wool, linen; plain weave, tapestry weave",
+   "k": "textile"
+  },
+  "summary": "This fragment of a woven tunic ornament, in wool and linen tapestry, is laid out as a band of square panels filled with rosettes and birds. In the central roundel a small frontal figure with a round head and dark hair appears half-length, possibly flanked by wings. The Met's own title proposes, with a question mark, that the ornament showed Christ and the Virgin flanked by angels; in its present fragmentary state the figure cannot be securely identified.",
+  "facts": [
+   "This fragment (acc. 90.5.818) came to the Met in 1890 as a gift of George F. Baker."
+  ],
+  "links": [
+   {
+    "label": "The Met",
+    "url": "https://www.metmuseum.org/art/collection/search/444297"
+   },
+   {
+    "label": "Wikimedia Commons file",
+    "url": "https://commons.wikimedia.org/wiki/File:Tunic_Ornament_Showing_Christ_and_the_Virgin_Flanked_by_Angels%3F_MET_68899.jpg"
+   }
+  ],
+  "notes": "Met object 444297, dated 7th–8th century, Islamic Art department. Identification of Christ rests only on the Met's tentative title; the visible figure could be the Virgin, an angel or another figure. Scripture omitted. Not a duplicate of met:444058 (a different fragment, 90.5.579, with the same title)."
+ }
+]

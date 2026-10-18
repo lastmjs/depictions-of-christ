@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 46976,
- "checked": 26,
+ "total": 46964,
+ "checked": 75,
  "centuries": [
   {
    "century": "2",
@@ -13,7 +13,7 @@
   },
   {
    "century": "4",
-   "count": 20
+   "count": 17
   },
   {
    "century": "5",
@@ -21,11 +21,11 @@
   },
   {
    "century": "6",
-   "count": 31
+   "count": 23
   },
   {
    "century": "7",
-   "count": 6
+   "count": 4
   },
   {
    "century": "8",
@@ -37,7 +37,7 @@
   },
   {
    "century": "10",
-   "count": 37
+   "count": 38
   },
   {
    "century": "11",
@@ -91,7 +91,7 @@
  "subjects": [
   [
    "Jesus Christ",
-   12424
+   12416
   ],
   [
    "Madonna and Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   3640
+   3639
   ],
   [
    "Holy Family",
@@ -111,7 +111,7 @@
   ],
   [
    "Adoration of the Magi",
-   1912
+   1911
   ],
   [
    "Adoration of the Shepherds",
@@ -183,7 +183,7 @@
   ],
   [
    "Miracles of Christ",
-   538
+   537
   ],
   [
    "Coronation of the Virgin",
@@ -191,7 +191,7 @@
   ],
   [
    "Ascension",
-   479
+   478
   ],
   [
    "Crowning with Thorns",
@@ -247,7 +247,7 @@
   ],
   [
    "Wedding at Cana",
-   213
+   212
   ],
   [
    "Transfiguration",
@@ -333,7 +333,7 @@
  "types": [
   [
    "painting",
-   19506
+   19504
   ],
   [
    "print",
@@ -341,7 +341,7 @@
   ],
   [
    "sculpture",
-   3508
+   3506
   ],
   [
    "drawing",
@@ -349,7 +349,7 @@
   ],
   [
    "other",
-   1599
+   1596
   ],
   [
    "statue",
@@ -389,11 +389,11 @@
   ],
   [
    "mosaic",
-   145
+   142
   ],
   [
    "ivory",
-   133
+   130
   ],
   [
    "leadlight",
@@ -409,7 +409,7 @@
   ],
   [
    "glass",
-   106
+   105
   ],
   [
    "group of sculptures",
@@ -460,12 +460,12 @@
    35
   ],
   [
-   "crucifix",
+   "watercolor painting",
    33
   ],
   [
-   "watercolor painting",
-   33
+   "crucifix",
+   31
   ],
   [
    "plaque",

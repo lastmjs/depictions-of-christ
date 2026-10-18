@@ -21,6 +21,9 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from datefix import parse_date  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "collection"
 CACHE = ROOT / ".cache" / "harvest"
@@ -390,7 +393,7 @@ def main():
         elif year is not None and prec == 8:
             sort_year = year + 5
         elif year is not None and prec < 7:
-            sort_year = year - 500 if year % 1000 == 0 else year
+            year = sort_year = None  # only a millennium is known: too vague to place
         est = False
         if year is None:
             death, birth = year_of(val(r, "death")), year_of(val(r, "birth"))
@@ -423,6 +426,22 @@ def main():
         works.append(w)
 
     works = merge_sources(works)
+    # Hand corrections where the catalogue data is known to be wrong.
+    OVERRIDES = {
+        "Q577890": {"y": 200, "d": "c. 200"},  # Alexamenos graffito: usually dated c. AD 200
+    }
+    for w in works:
+        w.update(OVERRIDES.get(w.get("q"), {}))
+    fixed = 0
+    for w in works:
+        y = w.get("y")
+        if y is not None and y < 30:
+            w["y"] = y = None
+        p = parse_date(w.get("d", ""))
+        if p and (y is None or not (p[0] - 30 <= y <= p[1] + 30) or p[1] - p[0] > 300):
+            w["y"] = (p[0] + p[1]) // 2
+            fixed += 1
+    print(f"  corrected {fixed} sort years from their display dates")
     works.sort(key=lambda w: (w["y"] is None, w["y"] or 0, w["t"]))
 
     by_century = defaultdict(list)

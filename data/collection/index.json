@@ -1,11 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 46963,
+ "total": 46980,
  "centuries": [
-  {
-   "century": "1",
-   "count": 2
-  },
   {
    "century": "2",
    "count": 4
@@ -20,11 +16,11 @@
   },
   {
    "century": "5",
-   "count": 13
+   "count": 11
   },
   {
    "century": "6",
-   "count": 32
+   "count": 31
   },
   {
    "century": "7",
@@ -32,7 +28,7 @@
   },
   {
    "century": "8",
-   "count": 15
+   "count": 13
   },
   {
    "century": "9",
@@ -44,11 +40,11 @@
   },
   {
    "century": "11",
-   "count": 77
+   "count": 76
   },
   {
    "century": "12",
-   "count": 284
+   "count": 280
   },
   {
    "century": "13",
@@ -56,31 +52,31 @@
   },
   {
    "century": "14",
-   "count": 1868
+   "count": 1853
   },
   {
    "century": "15",
-   "count": 6774
+   "count": 6677
   },
   {
    "century": "16",
-   "count": 13764
+   "count": 13760
   },
   {
    "century": "17",
-   "count": 9901
+   "count": 9896
   },
   {
    "century": "18",
-   "count": 3717
+   "count": 3693
   },
   {
    "century": "19",
-   "count": 2505
+   "count": 2495
   },
   {
    "century": "20",
-   "count": 911
+   "count": 914
   },
   {
    "century": "21",
@@ -88,7 +84,7 @@
   },
   {
    "century": "undated",
-   "count": 6361
+   "count": 6542
   }
  ],
  "subjects": [
@@ -98,7 +94,7 @@
   ],
   [
    "Madonna and Child",
-   9362
+   9369
   ],
   [
    "Christ Child",
@@ -106,15 +102,15 @@
   ],
   [
    "Crucifixion",
-   3636
+   3640
   ],
   [
    "Holy Family",
-   2447
+   2448
   ],
   [
    "Adoration of the Magi",
-   1909
+   1912
   ],
   [
    "Adoration of the Shepherds",
@@ -122,15 +118,15 @@
   ],
   [
    "Nativity",
-   1302
+   1304
   ],
   [
    "Entombment",
-   1070
+   1071
   ],
   [
    "Flight into Egypt",
-   992
+   993
   ],
   [
    "Resurrection",
@@ -142,7 +138,7 @@
   ],
   [
    "Pietà",
-   911
+   907
   ],
   [
    "Last Supper",
@@ -150,7 +146,7 @@
   ],
   [
    "Baptism",
-   823
+   824
   ],
   [
    "Descent from the Cross",
@@ -158,7 +154,7 @@
   ],
   [
    "Carrying the Cross",
-   779
+   778
   ],
   [
    "Ecce Homo",
@@ -186,7 +182,7 @@
   ],
   [
    "Miracles of Christ",
-   537
+   538
   ],
   [
    "Coronation of the Virgin",
@@ -230,7 +226,7 @@
   ],
   [
    "Salvator Mundi",
-   250
+   251
   ],
   [
    "Appearances after the Resurrection",
@@ -336,19 +332,19 @@
  "types": [
   [
    "painting",
-   19502
+   19506
   ],
   [
    "print",
-   14089
+   14097
   ],
   [
    "sculpture",
-   3511
+   3509
   ],
   [
    "drawing",
-   2212
+   2218
   ],
   [
    "other",
@@ -368,7 +364,7 @@
   ],
   [
    "relief",
-   409
+   410
   ],
   [
    "icon",

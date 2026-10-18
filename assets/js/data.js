@@ -3460,7 +3460,7 @@ window.DEPICTIONS = {
      "facts": [
       "The crucifix was installed in July 1399 on top of the hexagonal 'Well of Moses', whose six prophet statues still stand in situ at Champmol.",
       "The monument was commissioned by Philip the Bold, Duke of Burgundy, for the Carthusian monastery he founded as his dynasty's burial place; it was painted by Jean Malouel.",
-      "The cross was dismantled in the late 18th century; this fragment was found in the 19th century built into a wall in Dijon."
+      "The cross and its figures were lost in the late 18th century; this bust was afterwards kept in a niche above a house door in Dijon before being given to the city's archaeological museum."
      ],
      "commons": "File:Claus-sluter-Champmol3.jpg",
      "links": [
@@ -3538,7 +3538,7 @@ window.DEPICTIONS = {
      "summary": "On a crag high above the world, the devil offers Christ all the kingdoms of the earth; far below rises a gleaming white château, as if it were the most tempting kingdom of all. The page shows the Limbourg brothers' famous gift for landscape and luminous colour in one of the most celebrated manuscripts ever made. It belongs to the book's Masses for the liturgical year, where the Temptation is the Gospel of the first Sunday of Lent.",
      "facts": [
       "The castle below is the Duke of Berry's own Château de Mehun-sur-Yèvre — perhaps a pointed reminder of how real the temptation of worldly splendour could be.",
-      "The three Limbourg brothers and their patron all died in 1416, probably of plague, leaving the book unfinished; further work followed in the 1440s, and Jean Colombe completed it in 1485–1489.",
+      "The three Limbourg brothers and their patron all died in 1416, possibly of plague, leaving the book unfinished; further work followed in the 1440s, and Jean Colombe completed it in 1485–1489.",
       "To protect it, the original manuscript has been withdrawn from permanent display since the 1980s and is only very rarely shown."
      ],
      "scripture": "Matthew 4:8–10",
@@ -4152,7 +4152,7 @@ window.DEPICTIONS = {
      "medium": "Oil and tempera on wood panel",
      "form": "Painting",
      "style": "Early Renaissance",
-     "summary": "John the Baptist pours water over the head of Christ, who stands ankle-deep in the Jordan with hands joined in prayer, as the dove of the Spirit descends between the hands of God above. At the left kneel two angels holding Christ's garments — and the one in profile, turning with a soft, glowing face, is the work of the young Leonardo da Vinci. The panel is a rare window onto a great Renaissance workshop, where a master and his brilliant pupil worked side by side.",
+     "summary": "John the Baptist pours water over the head of Christ, who stands ankle-deep in the Jordan with hands joined in prayer, as the dove of the Spirit descends between the hands of God above. At the left kneel two angels, one holding Christ's garments — and the one at the far left, turning with a soft, glowing face, is the work of the young Leonardo da Vinci. The panel is a rare window onto a great Renaissance workshop, where a master and his brilliant pupil worked side by side.",
      "facts": [
       "Vasari tells the story that Verrocchio, seeing how much finer Leonardo's angel was than his own figures, resolved never to paint again — a legend, but a telling one.",
       "Technical study suggests Leonardo also painted much of the hazy river landscape in oil, and some scholars believe he retouched the figure of Christ as well.",
@@ -4195,7 +4195,7 @@ window.DEPICTIONS = {
      "summary": "The newborn Christ lies naked and tiny on the bare ground, light streaming from his body, while Mary, Joseph, angels and three wonderfully rough, awestruck shepherds kneel around him. Hugo van der Goes gives every figure a solemn individuality, and fills the foreground with a still life of flowers whose symbolism points ahead to the Passion. Its arrival in Florence astonished Italian painters and changed the way they painted the Nativity.",
      "facts": [
       "It was commissioned by Tommaso Portinari, manager of the Medici bank in Bruges, and shipped to Florence for the church of Sant'Egidio at the hospital of Santa Maria Nuova, where it arrived in 1483.",
-      "The image of the Child lying on the ground radiating light follows the vision of the Nativity described by Saint Bridget of Sweden.",
+      "The image of the Child lying on the ground radiating light is probably based on the vision of the Nativity described by Saint Bridget of Sweden.",
       "Its realistic shepherds directly inspired Domenico Ghirlandaio's Adoration of the Shepherds in the Sassetti Chapel (1485)."
      ],
      "scripture": "Luke 2:8–20",
@@ -4275,7 +4275,7 @@ window.DEPICTIONS = {
      "summary": "Christ hands the keys of the kingdom of heaven to the kneeling Saint Peter, surrounded by a dignified frieze of apostles and contemporaries. Behind them a vast, perfectly ordered piazza recedes to a domed, octagonal temple flanked by two triumphal arches — an image of the Church built on Peter, laid out with serene geometry. The fresco is a manifesto of papal authority and one of the clearest expressions of early Renaissance perspective.",
      "facts": [
       "It belongs to the original wall cycle of the Sistine Chapel, painted for Pope Sixtus IV by Perugino, Botticelli, Ghirlandaio, Rosselli and others decades before Michelangelo's ceiling.",
-      "The two triumphal arches are modelled on the Arch of Constantine in Rome.",
+      "The two triumphal arches echo the Arch of Constantine in Rome, and their inscriptions liken Pope Sixtus IV to Solomon, builder of the Temple.",
       "In the middle distance appear two further episodes: the Tribute Money and the attempted stoning of Christ."
      ],
      "scripture": "Matthew 16:18–19",
@@ -4312,11 +4312,11 @@ window.DEPICTIONS = {
      "medium": "Oil on panel",
      "form": "Painting",
      "style": "Late Gothic / Northern Renaissance",
-     "summary": "Wearing the crown of thorns and holding the scourges of his flagellation, the wounded Christ rises behind a stone ledge in a tomb-like recess and rests his head on his hand, gazing out at the viewer in quiet, unbearable sorrow. This tiny panel is not a scene from the Gospel narrative but a devotional image, inviting the beholder to contemplate Christ's suffering face to face. It is one of the earliest surviving paintings by the young Dürer, already astonishing in its precision.",
+     "summary": "Wearing the crown of thorns and holding the instruments of his scourging, the wounded Christ rises behind a stone ledge in a tomb-like recess and rests his head on his hand, gazing out at the viewer in quiet, unbearable sorrow. This tiny panel is not a scene from the Gospel narrative but a devotional image, inviting the beholder to contemplate Christ's suffering face to face. It is one of the earliest surviving paintings by the young Dürer, already astonishing in its precision.",
      "facts": [
       "The panel is only 30 cm high, painted for close, private devotion; tiny punched designs in its gold background show an owl mobbed by birds, a symbol of the innocent persecuted.",
       "The pose of the head propped on the hand was a traditional sign of melancholy and deep grief.",
-      "In 1522 Dürer drew himself as the Man of Sorrows; that drawing, in Bremen, was lost during the Second World War."
+      "Nearly thirty years later, in 1522, Dürer drew himself in the guise of the Man of Sorrows (Kunsthalle Bremen)."
      ],
      "commons": "File:Dürer, Christus als Schmerzensmann, c1493. Kunsthalle Karlsruhe (2183).jpg",
      "links": [
@@ -4438,9 +4438,9 @@ window.DEPICTIONS = {
      "style": "Russian (Moscow school)",
      "summary": "Christ's pale, elongated body hangs from the cross in a gentle curve, without any sense of strain, while angels fly toward him through the gold sky alongside small allegorical figures of the New and Old Testament Churches, and the Virgin, her companions, Saint John and the centurion stand below in slender, swaying forms. Dionisius turns the Crucifixion into an image of quiet, luminous grace rather than agony. It is a masterpiece of the painter who, after Rublev, was the leading icon painter of Muscovite Russia.",
      "facts": [
-      "Dionisius was one of the first Russian icon painters who was a layman rather than a monk.",
+      "Dionisius is the first Russian icon painter known from documents to have been a layman rather than a monk.",
       "It comes from the festival tier of the iconostasis Dionisius and his workshop painted in 1500 for the Trinity Cathedral of the Pavlo-Obnorsky Monastery near Vologda, and is regarded as one of the few icons securely attributed to the master's own hand; it entered the Tretyakov Gallery in the 1930s.",
-      "His best-preserved work, the frescoes of the Ferapontov Monastery (c. 1502), is a UNESCO World Heritage Site."
+      "His best-preserved work, the frescoes of the Ferapontov Monastery (1502), belongs to a UNESCO World Heritage Site."
      ],
      "scripture": "John 19:25–30",
      "commons": "File:Распятие. Дионисий. 1499 1500 с полями.jpg",
@@ -4482,9 +4482,9 @@ window.DEPICTIONS = {
      "style": "Italian Renaissance",
      "summary": "Above the humble stable where Mary kneels before the Christ Child, twelve angels dance in a ring beneath a golden dome of heaven, while below angels embrace men and little devils flee into cracks in the earth. Painted in the troubled Florence that followed the preaching and execution of Savonarola, it is an ecstatic, visionary image of the Nativity as the beginning of the world's final peace. It is quite unlike anything else in Botticelli's work.",
      "facts": [
-      "It is the only painting Botticelli signed and dated, in a cryptic Greek inscription that speaks of 'the troubles of Italy' and of the Apocalypse.",
+      "It is Botticelli's only signed work, dated 1500 in a cryptic Greek inscription that speaks of 'the troubles of Italy' and of the Apocalypse.",
       "The archaic, varying scale of the figures — Mary is far larger than the shepherds — is a deliberate return to medieval devotional conventions.",
-      "The painting was probably made for private devotion, perhaps for a follower of Savonarola."
+      "Its patron is unknown; the painting may have been made for private devotion, perhaps for a follower of Savonarola."
      ],
      "scripture": "Luke 2:8–20; Revelation 12",
      "commons": "File:Mystic Nativity, Sandro Botticelli.jpg",
@@ -4614,7 +4614,7 @@ window.DEPICTIONS = {
      "style": "Flemish Renaissance",
      "summary": "Below the hill of Golgotha, Christ's body is laid out across the foreground while Joseph of Arimathea and Nicodemus tend it, Saint John supports the sinking Virgin, and the holy women prepare to anoint his wounds. Matsys combines the precise detail of the Flemish tradition with a new, monumental Italianate grandeur. The central panel of a large triptych, it is the masterpiece of Antwerp's leading painter in the early 16th century.",
      "facts": [
-      "It was commissioned by the Antwerp joiners' (carpenters') guild for its chapel in the Cathedral of Our Lady.",
+      "It was commissioned in 1508 by the Antwerp joiners' (carpenters') guild for its altar in the Church of Our Lady, now Antwerp Cathedral; it has been in the Antwerp museum collection since the early 19th century.",
       "The wings show Salome presenting the head of John the Baptist at Herod's feast and the martyrdom of John the Evangelist in boiling oil — the two Johns being the carpenters' patron saints.",
       "A cherished legend says that Matsys began as a blacksmith and turned to painting to win the hand of a painter's daughter."
      ],
@@ -4624,6 +4624,10 @@ window.DEPICTIONS = {
       {
        "label": "Wikipedia",
        "url": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Matsys)"
+      },
+      {
+       "label": "KMSKA",
+       "url": "https://kmska.be/en/masterpiece/the-lamentation-over-the-dead-christ"
       },
       {
        "label": "Web Gallery of Art",
@@ -4703,8 +4707,8 @@ window.DEPICTIONS = {
      "style": "Venetian Renaissance",
      "summary": "On Easter morning Mary Magdalene, kneeling with her jar of ointment, reaches out toward the risen Christ, who draws back from her touch with a graceful, swaying turn. Behind them a tree and a softly lit hillside farm unfold into a golden Venetian landscape, so that the encounter seems to take place in the whole renewed world. It is one of the most poetic of Titian's early religious paintings.",
      "facts": [
-      "X-rays reveal that Titian made numerous changes as he painted, especially to the landscape, and he is thought to have first shown Christ in a gardener's hat.",
-      "The farm buildings on the hill reappear in Titian's Sacred and Profane Love and in the Sleeping Venus in Dresden, begun by Giorgione and completed by Titian.",
+      "X-rays reveal that Titian made numerous changes to the landscape as he painted — yet, unlike most painters of the subject, he never showed the empty tomb or Calvary.",
+      "The farm buildings on the hill reappear, reversed, in Titian's Sacred and Profane Love, and in the Sleeping Venus in Dresden, begun by Giorgione and completed by Titian.",
       "Christ holds a hoe, recalling Mary's first impression that he was the gardener."
      ],
      "scripture": "John 20:11–18",
@@ -4961,8 +4965,8 @@ window.DEPICTIONS = {
      "summary": "The risen Christ stands with the cross, the reed and the sponge — the instruments of his Passion — held lightly against his body, turning his head away in a powerful spiral movement. Michelangelo presents him as a perfect, heroic nude, his triumph over death expressed through the beauty of the human form. It stands beside the high altar of Rome's great Gothic Dominican church.",
      "facts": [
       "Michelangelo abandoned a first version when a black vein appeared in the marble across Christ's face; that earlier statue was rediscovered in a church at Bassano Romano and identified in 2000.",
-      "The second version was finished in Rome by assistants, and Michelangelo was dissatisfied with their work on it.",
-      "The bronze loincloth was added later, in keeping with changing standards of decorum."
+      "The finishing of the second version in Rome was entrusted to his assistant Pietro Urbano, who damaged it and was replaced by Federico Frizzi.",
+      "The bronze loincloth was added in 1546, in keeping with changing standards of decorum."
      ],
      "commons": "File:Cristo della Minerva 2010.jpg",
      "links": [
@@ -4992,16 +4996,16 @@ window.DEPICTIONS = {
      "artist": "Antonio da Correggio",
      "date": "c. 1522–1530",
      "year": 1530,
-     "created": "Reggio Emilia, Italy",
+     "created": "Emilia, Italy (for Reggio Emilia)",
      "location": "Gemäldegalerie Alte Meister, Dresden, Germany",
      "medium": "Oil on wood panel",
      "form": "Painting",
      "style": "High Renaissance",
      "summary": "In the darkness of the stable the only true light comes from the newborn Christ, glowing so brightly that Mary's face is illuminated and a woman beside the shepherds shields her eyes. Above, a swirl of angels tumbles through the night sky while dawn breaks faintly over the hills. Correggio's luminous nocturne made the Child himself the source of light — the Light of the World — and was endlessly admired by later painters.",
      "facts": [
-      "It was commissioned in 1522 by Alberto Pratonero for his family chapel in the church of San Prospero in Reggio Emilia.",
-      "In 1640 the Duke of Modena removed the painting from its church; it was sold in 1746 to Augustus III of Saxony along with other masterpieces of the Este collection.",
-      "It is one of the first great nocturnes of European painting, anticipating the dramatic lighting of the Baroque."
+      "It was commissioned in October 1522 by Alberto Pratoneri for his family chapel in the church of San Prospero in Reggio Emilia, and was installed there in 1530.",
+      "In 1640 Duke Francesco I d'Este took the painting from its church for his gallery in Modena; in 1745–46 it was among the hundred masterpieces of the Este collection sold to Augustus III, Elector of Saxony and King of Poland.",
+      "It is one of the most celebrated night scenes of Renaissance painting, and anticipates the dramatic lighting of the Baroque."
      ],
      "scripture": "Luke 2:8–20; John 8:12",
      "commons": "File:Correggio - The Holy Night - Google Art Project.jpg",
@@ -5070,7 +5074,7 @@ window.DEPICTIONS = {
     {
      "id": "mass-of-saint-gregory-feather-mosaic",
      "title": "The Mass of Saint Gregory (Feather Mosaic)",
-     "artist": "Indigenous Nahua featherworkers (amanteca), under Diego de Alvarado Huanitzin",
+     "artist": "Indigenous Nahua featherworkers (amanteca), for Diego de Alvarado Huanitzin",
      "date": "1539",
      "year": 1539,
      "created": "Mexico City (Mexico-Tenochtitlan), New Spain",
@@ -5078,11 +5082,11 @@ window.DEPICTIONS = {
      "medium": "Feathers on wood panel",
      "form": "Painting",
      "style": "Indo-Christian (Mexican colonial)",
-     "summary": "As Pope Gregory the Great celebrates Mass, the wounded Christ, the Man of Sorrows, appears upon the altar surrounded by the instruments of his Passion — a vision proving his real presence in the Eucharist. The image is made not of paint but of thousands of iridescent feathers, cut and glued by Aztec masters of featherwork, an art prized above gold in pre-Hispanic Mexico. It is one of the earliest dated Christian artworks of the Americas.",
+     "summary": "As Pope Gregory the Great celebrates Mass, the wounded Christ, the Man of Sorrows, appears upon the altar surrounded by the instruments of his Passion — a vision proving his real presence in the Eucharist. The image is made not of paint but of thousands of iridescent feathers, cut and glued by Aztec masters of featherwork, an art prized as highly as gold in pre-Hispanic Mexico. It is one of the earliest dated Christian artworks of the Americas.",
      "facts": [
-      "Dated 1539, it is considered the earliest dated work of art from New Spain.",
+      "Dated 1539, it is the oldest surviving colonial feather painting, and is often called the earliest dated work of art from New Spain.",
       "Its Latin border inscription dedicates it to Pope Paul III and names Diego de Alvarado Huanitzin, a nephew of Moctezuma who was governor of Mexico-Tenochtitlan.",
-      "The composition was adapted from a European print — a vivid example of Christian imagery reinterpreted through an ancient Mexican craft."
+      "The composition was adapted from a European print, probably one of Israhel van Meckenem's engravings of the subject — a vivid example of Christian imagery reinterpreted through an ancient Mexican craft."
      ],
      "commons": "File:(Auch) Messe de saint Grégoire - Musée des Amériques – Auch.jpg",
      "links": [
@@ -5200,14 +5204,14 @@ window.DEPICTIONS = {
      "artist": "Pieter Bruegel the Elder",
      "date": "1564",
      "year": 1564,
-     "created": "Antwerp, Southern Netherlands",
+     "created": "Brussels, Southern Netherlands",
      "location": "Kunsthistorisches Museum, Vienna, Austria",
      "medium": "Oil on oak panel",
      "form": "Painting",
      "style": "Flemish Renaissance",
-     "summary": "A vast Flemish landscape swarms with hundreds of people making their way to the place of execution, and at its very center, almost lost in the crowd, Christ has fallen beneath the cross. In the foreground the grieving Virgin, John and the holy women are painted in an older, Rogier-like style, as if from another world. Bruegel shows how the most important event in history can pass unnoticed amid the bustle of ordinary life.",
+     "summary": "A vast Flemish landscape swarms with hundreds of people making their way to the place of execution, and at its very center, almost lost in the crowd, Christ has fallen beneath the cross. In the foreground the grieving Virgin, John and the holy women are larger and set apart on a rocky ledge, painted in an older, more solemn manner, as if from another world. Bruegel shows how the most important event in history can pass unnoticed amid the bustle of ordinary life.",
      "facts": [
-      "It is one of Bruegel's largest surviving paintings, crowded with some 500 figures.",
+      "It is the second-largest known painting by Bruegel, crowded with hundreds of figures.",
       "A windmill perched on an impossibly tall crag looms over the scene, often read as the mill of God or of fate.",
       "The painting inspired Lech Majewski's 2011 film 'The Mill and the Cross', which brings the scene to life."
      ],
@@ -5315,49 +5319,6 @@ window.DEPICTIONS = {
      }
     },
     {
-     "id": "kyoto-fifteen-mysteries-of-the-rosary",
-     "title": "The Virgin and Child with the Fifteen Mysteries of the Rosary",
-     "artist": "Unknown Japanese painter (school of Giovanni Niccolò)",
-     "date": "c. 1600",
-     "year": 1600,
-     "created": "Japan (Jesuit painting seminary)",
-     "location": "Kyoto University Museum, Kyoto, Japan",
-     "medium": "Colour on paper",
-     "form": "Painting",
-     "style": "Japanese Christian (Nanban era)",
-     "summary": "The Virgin holds the Christ Child at the center, framed by fifteen small scenes of the Rosary mysteries — from the Annunciation and Nativity through the Passion and Crucifixion to the Resurrection and Ascension. Below, Saints Ignatius of Loyola and Francis Xavier kneel in adoration of the Eucharist. Painted by a Japanese artist trained in the Jesuit workshop of the Italian Giovanni Niccolò, it is a rare survivor of Japan's 'Christian century'.",
-     "facts": [
-      "After Christianity was banned in Japan in 1614, such images had to be hidden; this one was discovered only in 1930, when the Harada family of Shimo-Otowa, in the 'hidden Christian' hill country near Ibaraki, Osaka, found it in a bamboo tube tied to the ridge beam of their house while re-roofing.",
-      "Giovanni Niccolò, an Italian Jesuit, arrived in Japan in 1583 and trained Japanese painters at the Jesuit seminary in oil painting, fresco, tempera and copperplate engraving.",
-      "The hidden Christians (Kakure Kirishitan) preserved their faith in secret for more than two centuries."
-     ],
-     "commons": "File:Virgin Mary with Infant Jesus and Her Fifteen Mysteries, Loyola and Francis Xavier Kyoto University Museum.png",
-     "links": [
-      {
-       "label": "Wikipedia: Kirishitan",
-       "url": "https://en.wikipedia.org/wiki/Kirishitan"
-      },
-      {
-       "label": "Wikipedia: Nanban art",
-       "url": "https://en.wikipedia.org/wiki/Nanban_art"
-      }
-     ],
-     "era": "renaissance",
-     "image": {
-      "src": "assets/img/kyoto-fifteen-mysteries-of-the-rosary.webp",
-      "thumb": "assets/img/kyoto-fifteen-mysteries-of-the-rosary-sm.webp",
-      "w": 1346,
-      "h": 1600,
-      "color": "#85694b",
-      "accent": "#7d5a3f",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries%2C_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries,_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png",
-      "license": "Public domain",
-      "licenseUrl": null,
-      "credit": "Unknown Japanese artist (school of Giovanni Nicolao)"
-     }
-    },
-    {
      "id": "mughal-mirat-al-quds-abgar",
      "title": "Jesus Portrayed by King Abgar's Painter (Mir'at al-quds)",
      "artist": "Mughal court artists",
@@ -5403,6 +5364,53 @@ window.DEPICTIONS = {
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": ""
+     }
+    },
+    {
+     "id": "kyoto-fifteen-mysteries-of-the-rosary",
+     "title": "The Virgin and Child with the Fifteen Mysteries of the Rosary",
+     "artist": "Unknown Japanese painter (probably trained in the Jesuit school of Giovanni Niccolò)",
+     "date": "Early 17th century",
+     "year": 1610,
+     "created": "Japan",
+     "location": "Kyoto University Museum, Kyoto, Japan",
+     "medium": "Colour on paper, mounted as a hanging scroll",
+     "form": "Painting",
+     "style": "Japanese Christian (Nanban era)",
+     "summary": "The Virgin, holding a flower, cradles the Christ Child, who holds an orb surmounted by a cross; around them fifteen small scenes of the Rosary mysteries run from the Annunciation through the Passion to the Resurrection and the glory of the Virgin. Below, Saints Ignatius of Loyola and Francis Xavier, with Saints Matthias and Lucy, venerate the Blessed Sacrament. Painted on paper by a Japanese artist schooled in Western techniques, it is a rare survivor of Japan's 'Christian century'.",
+     "facts": [
+      "After Christianity was banned in Japan in 1614, such images had to be hidden; this one was discovered only in 1930, when the Harada family of Shimo-Otowa, in the 'hidden Christian' hill country near Ibaraki, Osaka, found it in a bamboo tube tied to the ridge beam of their house while re-roofing.",
+      "Giovanni Niccolò, an Italian Jesuit, arrived in Japan in 1583 and trained Japanese painters at the Jesuit seminary in oil painting, fresco, tempera and copperplate engraving.",
+      "The hidden Christians (Kakure Kirishitan) preserved their faith in secret for more than two centuries."
+     ],
+     "commons": "File:Virgin Mary with Infant Jesus and Her Fifteen Mysteries, Loyola and Francis Xavier Kyoto University Museum.png",
+     "links": [
+      {
+       "label": "Wikipedia: Kirishitan",
+       "url": "https://en.wikipedia.org/wiki/Kirishitan"
+      },
+      {
+       "label": "Wikipedia: Nanban art",
+       "url": "https://en.wikipedia.org/wiki/Nanban_art"
+      },
+      {
+       "label": "Wikipedia (Japanese)",
+       "url": "https://ja.wikipedia.org/wiki/%E7%B4%99%E6%9C%AC%E8%91%97%E8%89%B2%E8%81%96%E6%AF%8D%E5%8D%81%E4%BA%94%E7%8E%84%E7%BE%A9%E3%83%BB%E8%81%96%E4%BD%93%E7%A7%98%E8%B7%A1%E5%9B%B3"
+      }
+     ],
+     "era": "renaissance",
+     "image": {
+      "src": "assets/img/kyoto-fifteen-mysteries-of-the-rosary.webp",
+      "thumb": "assets/img/kyoto-fifteen-mysteries-of-the-rosary-sm.webp",
+      "w": 1346,
+      "h": 1600,
+      "color": "#85694b",
+      "accent": "#7d5a3f",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries%2C_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Virgin_Mary_with_Infant_Jesus_and_Her_Fifteen_Mysteries,_Loyola_and_Francis_Xavier_Kyoto_University_Museum.png",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "credit": "Unknown Japanese artist (school of Giovanni Nicolao)"
      }
     }
    ]

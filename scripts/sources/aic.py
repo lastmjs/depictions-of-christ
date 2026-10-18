@@ -70,16 +70,19 @@ NOT_CHRIST = re.compile(
     r"\bpassion ?flower\b|\bsaint lazarus\b|\blazarus and dives\b|\bdives and lazarus\b|"
     r"\brich man and lazarus\b|\bchrist'?s hospital\b|\bchrist'?s college\b|\bsalvator rosa\b|"
     r"\btrinity (college|house|church|chapel|hall|school|street|square|term)\b|\bof trinity\b|"
-    r"\b(amida|buddhist|shaka|hindu) trinity\b|\bcastles in the air\b|\byear of our lord\b|"
+    r"\b(amida|buddhist|shaka|shakyamuni|sakyamuni|hindu|vaishnava|shaiva|vishnu|shiva) trinity\b|"
+    r"\bold trinity\b|\bcastles in the air\b|\byear of our lord\b|\bil ges[uù]\b|"
+    r"\bchurch of (the )?(madonna|santa maria|our lady|christ)\b|\bmonogram of christ\b|\bchrismon\b|"
+    r"\bchristogram\b|^mourning (saint|st\b|st\.)|"
     r"\bjesus (bruno|maria|garc|mart|rodr|gonz|l[oó]pez)\w*\b|\bchrist, it\b|"
     r"\b(a|little|japanese|oklahoma|gypsy|modern|italian|dutch|peasant|breton|negro|indian|mexican) madonna\b|"
     r"\bmadonna of the (tenements|slums|streets|prairie|trail)\b|\bmadonna \(a mother\)|"
     r"\bmadonna del parto\b|\b(madonna|virgin) of (sorrows|the seven sorrows)\b|\bmourning (madonna|virgin)\b|"
     r"\bmater dolorosa\b|\bdress for a madonna\b|\bmadonna statue\b|\bmadonna lily\b|"
-    r"\bmadonna seated on clouds\b",
+    r"\bmadonna seated on clouds\b|\bfeast (day )?of the madonna\b",
     re.I)
 # (artist, exact title) pairs that are secular despite the title.
-NOT_CHRIST_PAIRS = {("edvard munch", "madonna")}
+NOT_CHRIST_PAIRS = {("edvard munch", "madonna"), ("anders zorn", "madonna")}
 
 # Supplementary rules for common museum phrasings subjects.py misses.
 SUPPLEMENT = [
@@ -90,9 +93,11 @@ SUPPLEMENT = [
     ("Resurrection", re.compile(
         r"\bresurrection\b(?! of (st\b|st\.|saint|the dead|mary|the flesh|the body|the bodies))", re.I)),
 ]
-# Series suffixes ("..., from The Passion of Christ") should not by themselves
-# make an item about Christ, unless the head names a Gospel scene.
-SERIES = re.compile(r",?\s+(?:(?:plate|page|folio|leaf|no\.?|number)\s+[\w.]+\s+)?(?:from|of the series|after)\s+(?=[\"“'A-Z(]|the\b)", re.I)
+# Series suffixes ("..., from The Passion of Christ") and CMA-style series
+# prefixes ("Christ and the Apostles: St. Thomas") should not by themselves make
+# an item about Christ, unless the remaining subject names a Gospel scene.
+SERIES = re.compile(r",?\s+(?:(?i:plate|page|folio|leaf|no\.?|number)\s+\S+\s+)?"
+                    r"(?i:from|of the series)\s+(?=[\"“'A-Z(]|[Tt]he\b)")
 HEAD_SCENE = re.compile(
     r"cross|resurrect|crucif|entomb|tomb|sepulch|supper|nativity|birth of (christ|jesus)|adoration of the (magi|shepherds|kings)|"
     r"baptism of|flagell|scourg|crown(ed|ing)|mock|betray|arrest|taken|captive|judas|pilate|caiaphas|calvary|"
@@ -100,6 +105,32 @@ HEAD_SCENE = re.compile(
     r"dead|piet|ecce homo|emmaus|noli|limbo|harrowing|last judg|entry into|jerusalem|money.?changers|magi|"
     r"shepherds|flight into|circumcis|presentation in|holy family|title page|frontispiece|washing (of )?the feet|"
     r"last supper|lazarus|cana|healing|miracle|parable|sermon", re.I)
+SAINTLY = re.compile(r"\b(st\.?|saint|santa|san|martyrdom|annunciation|visitation|prophet|sibyl|evangelist|"
+                     r"archangel|apostle|mourning|king of|dedication|arms of|text)\b", re.I)
+# Heads that should stay attached to the following "from ..." phrase.
+KEEP_FROM = re.compile(r"\b(scenes?|episodes?|events?|stories|story|images?|subjects?|return|lives|life|"
+                       r"descent|deposition|taking down|resting)\s*$", re.I)
+CONTAINER = re.compile(r"^(single |a |two |three |\d+ of \d+ )?(leaf|leaves|miniature|cutting|initial|historiated initial|"
+                       r"folio|bifolio|page|fragment|panel|plaque|bookcover|book cover|frontispiece)\b", re.I)
+HOLY_FAMILY_HEAD = re.compile(r"\b(mary|joseph|child|virgin|holy family|infant)\b", re.I)
+CHRIST_SERIES = re.compile(r"flight into egypt|holy family|life of (christ|jesus|the virgin)|passion|infancy|"
+                           r"childhood of (christ|jesus)", re.I)
+
+
+def subject_part(title):
+    """Return (subject, context): the depicted subject with a CMA-style 'Series: '
+    prefix or an AIC-style ', from Series' suffix removed (when the remainder names
+    someone other than Christ), plus the removed context."""
+    subj, ctx = title, ""
+    if ": " in subj:
+        pre, post = subj.split(": ", 1)
+        if post.strip() and (SAINTLY.match(re.sub(r"^(the|a|an)\s+", "", post.strip(), flags=re.I))
+                             or CONTAINER.match(pre)):
+            subj, ctx = post.strip(), pre
+    parts = SERIES.split(subj, maxsplit=1)
+    if len(parts) > 1 and parts[0].strip() and not KEEP_FROM.search(parts[0]):
+        subj, ctx = parts[0].strip(), (ctx + " " + parts[1]).strip()
+    return subj, ctx
 
 
 def decide(title, extra="", artist=""):
@@ -109,12 +140,13 @@ def decide(title, extra="", artist=""):
         return []
     if (artist.strip().lower(), title.lower()) in NOT_CHRIST_PAIRS:
         return []
-    parts = SERIES.split(title, maxsplit=1)
-    head = parts[0].strip() if len(parts) > 1 and parts[0].strip() else title
+    head, ctx = subject_part(title)
     u = classify(head, extra)
-    if not u and head != title and HEAD_SCENE.search(head) \
-            and not re.search(r"\b(st\.?|saint|martyrdom|annunciation|visitation)\b", head, re.I):
-        u = classify(title, extra)
+    if not u and ctx and not SAINTLY.search(head):
+        if HEAD_SCENE.search(head):
+            u = classify(title, extra)
+        elif HOLY_FAMILY_HEAD.search(head) and CHRIST_SERIES.search(ctx):
+            u = classify(ctx)
     if not u or u == ["Jesus Christ"]:
         sup = [label for label, rx in SUPPLEMENT if rx.search(head)]
         if sup:

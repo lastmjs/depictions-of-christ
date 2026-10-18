@@ -39,7 +39,7 @@ SEARCH_URL = API + "/v1.1/search"
 OBJECT_URL = API + "/v1/objects/{}"
 UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ)"
 PAGE = 500  # max page size accepted by v1.1/search
-MAX_RPS = 8.0
+MAX_RPS = 4.0  # the Met's WAF (Imperva) blocks sustained bursts well under 10 rps
 
 QUERIES = [
     "Christ", "Jesus", "Christus", "Cristo", "Saviour", "Savior", "Redeemer",
@@ -63,7 +63,7 @@ QUERIES = [
     "Veronica", "Sudarium", "Good Shepherd", "Lazarus", "Cana",
     "Magdalene", "Noli me tangere", "Doubting Thomas", "Incredulity",
     "Apostles", "Disciples", "Saint Peter", "Saint John", "Judas",
-    "Betrayal", "Pilate", "Caiaphas", "Mocking", "Harrowing of Hell",
+    "Betrayal", "Caiaphas", "Mocking", "Harrowing of Hell",
     "Limbo", "Anastasis", "Holy Women at the Tomb", "Mystic Marriage",
     "Saint Catherine", "Saint Anne", "Saint Joseph", "Saint Christopher",
     "Sermon on the Mount", "Temptation", "Entry into Jerusalem",
@@ -71,7 +71,7 @@ QUERIES = [
     "Tribute Money", "Miraculous Draught", "Walking on the Water",
     "Loaves and Fishes", "Feeding of the Five Thousand", "Healing",
     "Washing of the Feet", "Communion of the Apostles", "Lamb of God",
-    "Agnus Dei", "IHS", "Our Lord", "Lord", "Sacra Conversazione",
+    "Agnus Dei", "IHS", "Our Lord", "Sacra Conversazione",
     "Enthroned", "Maestà", "Coronation of the Virgin", "Rosary",
     "Altarpiece", "Triptych", "Diptych", "Retable", "Reliquary",
     "Book of Hours", "Gospel", "Gospels", "Evangelist", "Bible",
@@ -83,9 +83,9 @@ QUERIES = [
     "Virgen", "Vierge", "Jésus", "Gesù", "Christi", "Christo",
     "Ethiopian icon", "Byzantine", "Coptic", "Russian icon", "Greek icon",
     "Santos", "Retablo", "Christ Child doll", "Pax", "Processional cross",
-    "Altar cross", "Cross", "Plaquette", "Ivory diptych", "Limoges",
-    "Stained glass", "Annunciation to the Shepherds", "Shepherds",
-    "Christmas", "Jesse", "Tree of Jesse", "Prodigal Son",
+    "Altar cross", "Plaquette", "Ivory diptych", "Limoges",
+    "Stained glass", "Annunciation to the Shepherds",
+    "Jesse", "Tree of Jesse", "Prodigal Son",
     "Parable", "Feast in the House of Simon", "Mary and Martha",
     "Christ and the Woman", "Suffer the Little Children", "Holy Night",
     "Manger", "Crèche", "Presepio", "Hours of the Cross", "Arma Christi",
@@ -93,8 +93,10 @@ QUERIES = [
     "Vision", "Majesty", "Apocalypse", "Revelation", "Lamb",
     "Corpus Christi", "Christ Crucified", "Dead Christ", "Risen Christ",
     "Head of Christ", "Virgin", "Mary", "Maria", "Notre Dame", "Our Lady",
-    "Lady", "Child", "Saint", "Saints", "Holy", "Sainte", "San", "Santa",
+    "Saint with the Christ Child", "Saint with the Infant Christ",
 ]
+# Note: very generic title words (Saint, Cross, Child, Lady, Lord, Holy, ...)
+# add ~11k extra objects that almost never pass classify(); they are skipped.
 
 # Searched with tags=true (the Met tags subjects, e.g. {"term": "Jesus"}).
 TAG_QUERIES = ["Jesus", "Christ", "Madonna", "Madonna and Child", "Virgin Mary",
@@ -103,19 +105,39 @@ TAG_QUERIES = ["Jesus", "Christ", "Madonna", "Madonna and Child", "Virgin Mary",
 
 _lock = threading.Lock()
 _next_slot = [0.0]
+_blocked = {"until": 0.0, "strikes": 0}
+
+
+def _cooldown():
+    """Called on 403/429: pause ALL workers, with growing cool-down."""
+    with _lock:
+        now = time.monotonic()
+        if now < _blocked["until"]:
+            return
+        _blocked["strikes"] += 1
+        wait = min(900, 60 * 2 ** (_blocked["strikes"] - 1))
+        _blocked["until"] = now + wait
+        print(f"  blocked (403/429); pausing all requests {wait}s", file=sys.stderr, flush=True)
+
+
+def _ok():
+    """A success well after the last block resets the cool-down escalation."""
+    with _lock:
+        if _blocked["strikes"] and time.monotonic() > _blocked["until"] + 300:
+            _blocked["strikes"] = 0
 
 
 def _throttle():
     with _lock:
         now = time.monotonic()
-        slot = max(now, _next_slot[0])
+        slot = max(now, _next_slot[0], _blocked["until"])
         _next_slot[0] = slot + 1.0 / MAX_RPS
     delay = slot - time.monotonic()
     if delay > 0:
         time.sleep(delay)
 
 
-def get_json(url, tries=7):
+def get_json(url, tries=12):
     """GET url as JSON. Returns None on 404. Retries with backoff on 403/429/5xx."""
     last = None
     for attempt in range(tries):
@@ -123,12 +145,17 @@ def get_json(url, tries=7):
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
-                return json.loads(r.read().decode("utf-8"))
+                data = json.loads(r.read().decode("utf-8"))
+            _ok()
+            return data
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
             last = e
-            if e.code not in (403, 429) and e.code < 500:
+            if e.code in (403, 429):
+                _cooldown()
+                continue
+            if e.code < 500:
                 raise
         except (urllib.error.URLError, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
             last = e

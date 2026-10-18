@@ -22,6 +22,14 @@
   const original = (w) => (w.i ? `${COMMONS}${w.h[0]}/${w.h}/${enc(w.i)}` : w.big || w.img);
   const filePage = (w) => (w.i ? `https://commons.wikimedia.org/wiki/File:${enc(w.i)}` : w.src);
   const keyOf = (w) => w.q || w.id;
+  const SOURCE_CREDIT = {
+    met: "Image: The Metropolitan Museum of Art, Open Access (CC0).",
+    aic: "Image: Art Institute of Chicago, public domain (CC0).",
+    cma: "Image: Cleveland Museum of Art, Open Access (CC0).",
+    nga: "Image: National Gallery of Art, Washington, Open Access (CC0).",
+    rijks: "Image: Rijksmuseum, Amsterdam (public domain).",
+    wga: "Image: Web Gallery of Art (reproduction of a public-domain work).",
+  };
   const KEY_RX = /^(Q\d+|[a-z]+:[\w.-]+)$/;
 
   // Hide cards whose image cannot be loaded from any source.
@@ -224,14 +232,14 @@
     $("#d-subjects").innerHTML = (w.u || []).map((s) => `<button data-subject="${esc(s)}">${esc(s)}</button>`).join("");
     const links = [];
     if (w.w) links.push(`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(w.w)}" target="_blank" rel="noopener">Wikipedia ${ICON_EXT}</a>`);
-    if (w.src) links.push(`<a href="${esc(w.src)}" target="_blank" rel="noopener">Museum page ${ICON_EXT}</a>`);
+    if (w.src) links.push(`<a href="${esc(w.src)}" target="_blank" rel="noopener">${(w.id || "").startsWith("wga:") ? "Web Gallery of Art" : (w.id || "").startsWith("commons:") ? "Wikimedia Commons" : "Museum page"} ${ICON_EXT}</a>`);
     if (w.q) links.push(`<a href="https://www.wikidata.org/wiki/${w.q}" target="_blank" rel="noopener">Wikidata ${ICON_EXT}</a>`);
     if (w.i) links.push(`<a href="${filePage(w)}" target="_blank" rel="noopener">Image &amp; license ${ICON_EXT}</a>`);
     links.push(`<a href="${esc(original(w))}" target="_blank" rel="noopener">Full resolution ${ICON_EXT}</a>`);
     $("#d-links").innerHTML = links.join("");
     $("#d-credit").innerHTML = (w.i
       ? `Image via Wikimedia Commons — public domain or freely licensed; see the <a href="${filePage(w)}" target="_blank" rel="noopener">file page</a> for author and license.`
-      : `Image courtesy of ${esc(w.l || "the museum")}, released as open access (public domain / CC0).`) +
+      : SOURCE_CREDIT[(w.id || "").split(":")[0]] || `Image courtesy of ${esc(w.l || "the museum")}, released as open access.`) +
       (w.e ? " Date estimated from the artist's lifetime." : "");
     $("#d-prev").disabled = i === 0;
     $("#d-next").disabled = i === filtered.length - 1;

@@ -10,6 +10,7 @@ to data/collection/ as one JSON file per century plus an index.
 Usage: python3 scripts/harvest.py
 """
 import hashlib
+import os
 import json
 import re
 import sys
@@ -249,7 +250,7 @@ def fetch_details(ids):
 
 
 # Wikidata properties holding the identifiers used by each museum source.
-EXT = {"wga": "P1882", "met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
+EXT = {"met": "P3634", "aic": "P4610", "cma": "P11110", "nga": "P4683", "rijks": "P13234"}
 
 
 def external_ids():
@@ -277,13 +278,35 @@ def norm_title(t):
 def merge_sources(works):
     """Add museum open-access records that Wikidata does not already cover."""
     files = sorted((ROOT / "data" / "sources").glob("*.json"))
+    only = os.environ.get("SOURCES")
+    if only:
+        files = [f for f in files if f.stem in only.split(",")]
     if not files:
         return works
     print("Merging museum sources…")
     ext = external_ids()
     by_q = {w["q"]: w for w in works}
-    keys = {(norm_title(w["t"]), w["y"]) for w in works}
+    def surname(a):
+        return re.sub(r"[^a-z]", "", (a or "").split(",")[0].strip().split(" ")[-1].lower())
+
+    keys = defaultdict(set)
+    for w in works:
+        keys[(norm_title(w["t"]), w["y"])].add(surname(w.get("a")))
     files_seen = {w["i"] for w in works if w.get("i")}
+    # (title, artist surname) -> years, to catch the same work catalogued twice
+    fuzzy = defaultdict(list)
+
+    def fkey(t, a):
+        last = re.sub(r"[^a-z]", "", (a or "").split(",")[0].strip().split(" ")[-1].lower())
+        return (norm_title(t), last) if last and last not in ("unknown", "anonymous", "master") else None
+
+    def remember(w):
+        k = fkey(w.get("t"), w.get("a"))
+        if k:
+            fuzzy[k].append(w.get("y"))
+
+    for w in works:
+        remember(w)
     added = Counter()
     for f in files:
         recs = json.loads(f.read_text())
@@ -298,10 +321,15 @@ def merge_sources(works):
                 if fname in files_seen:
                     added[f.stem + " (same file)"] += 1
                     continue
-            if (norm_title(r.get("t")), r.get("y")) in keys and r.get("y") is not None:
+            same = keys.get((norm_title(r.get("t")), r.get("y")))
+            if same and r.get("y") is not None and (surname(r.get("a")) in same or "" in same or not surname(r.get("a"))):
                 added[f.stem + " (dup title)"] += 1
                 continue
             if not r.get("img") or not r.get("u"):
+                continue
+            k = fkey(r.get("t"), r.get("a"))
+            if k and any(y is None or r.get("y") is None or abs(y - r["y"]) <= 15 for y in fuzzy.get(k, [])):
+                added[f.stem + " (dup artist+title)"] += 1
                 continue
             w = {k: r.get(k) for k in ("t", "y", "d", "a", "c", "l", "m", "s", "k", "img", "big", "src", "u") if r.get(k) not in (None, "", [])}
             w.setdefault("t", "Untitled")
@@ -311,7 +339,8 @@ def merge_sources(works):
             if q:
                 w["q"] = q
             works.append(w)
-            keys.add((norm_title(w["t"]), w["y"]))
+            keys[(norm_title(w["t"]), w["y"])].add(surname(w.get("a")))
+            remember(w)
             added[f.stem] += 1
     print("  " + ", ".join(f"{k}: {v}" for k, v in sorted(added.items())))
     return works

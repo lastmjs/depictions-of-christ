@@ -122,6 +122,8 @@
 
     const links = (w.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ${ICON.ext}</a>`);
     if (img && img.page) links.push(`<a href="${esc(img.page)}" target="_blank" rel="noopener">Image source ${ICON.ext}</a>`);
+    if (w.ck) links.unshift(`<a href="collection.html#${encodeURIComponent(w.ck)}">In the collection</a>`);
+    if (w.cp != null) links.unshift(`<a href="map.html#place=${w.cp}">On the map</a>`);
 
     const credit = img
       ? `<p class="credit">Image: ${esc(img.credit || "Wikimedia Commons")} · ${img.licenseUrl ? `<a href="${esc(img.licenseUrl)}" target="_blank" rel="noopener">${esc(img.license)}</a>` : esc(img.license)} · via <a href="${esc(img.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></p>`

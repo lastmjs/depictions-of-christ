@@ -31,6 +31,7 @@ assign(works) uses only those files (no network).
 Usage: python3 scripts/geocode.py
 """
 import hashlib
+import http.client
 import json
 import math
 import re
@@ -308,7 +309,8 @@ def fetch(url, data=None, kind="wd", gap=0.3, accept="application/json", tries=8
                 out = json.loads(r.read())
             path.write_text(json.dumps(out, ensure_ascii=False))
             return out
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError,
+                http.client.HTTPException) as e:
             code = getattr(e, "code", None)
             if code == 400 or code == 404:
                 raise

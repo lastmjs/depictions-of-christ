@@ -380,5 +380,36 @@
         "url": "https://www.clevelandart.org/art/1999.46"
       }
     ]
+  },
+  {
+    "id": "alexamenos-graffito",
+    "title": "The Alexamenos Graffito",
+    "artist": "Unknown (a pagan scratching on a wall)",
+    "date": "c. 200 (late 2nd–early 3rd century)",
+    "year": 200,
+    "created": "Paedagogium, Palatine Hill, Rome",
+    "location": "Palatine Museum, Rome",
+    "medium": "Graffito scratched into wall plaster",
+    "form": "Drawing",
+    "style": "Roman graffito",
+    "summary": "Scratched into the plaster of a room on the Palatine Hill, a crude figure with the head of a donkey hangs on a cross, while a young man raises his hand toward it; the Greek caption reads, roughly, 'Alexamenos worships [his] god'. It was made to mock a Christian, perhaps a page boy in the imperial household. Yet this scorn is often called the oldest surviving image of Jesus, and it is the earliest known picture of the crucifixion: before Christians themselves dared to depict the cross, a scoffer drew it — and in doing so bore witness to the faith he ridiculed.",
+    "facts": [
+      "It was discovered in 1857 in the domus Gelotiana, a building on the Palatine that served as a school (paedagogium) for imperial page boys, and was later cut from the wall for preservation.",
+      "In a neighbouring room a different hand wrote 'ALEXAMENOS FIDELIS' — 'Alexamenos is faithful' — perhaps a friend's reply, or Alexamenos's own.",
+      "Early Christian writers, among them Tertullian and Minucius Felix, record the slander that Christians worshipped a donkey's head; this graffito is that slander in pictures.",
+      "Its date is debated, with proposals from the late 1st to the late 3rd century; around AD 200 is most widely accepted."
+    ],
+    "scripture": "1 Corinthians 1:23",
+    "commons": "File:Alexamenos graffito.jpg",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alexamenos_graffito"
+      },
+      {
+        "label": "High-contrast photograph",
+        "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg"
+      }
+    ]
   }
 ]

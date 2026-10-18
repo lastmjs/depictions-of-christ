@@ -1,0 +1,190 @@
+[
+ {
+  "key": "cur:legends-volto-santo-lucca",
+  "status": "verified",
+  "set": {},
+  "summary": "A life-size wooden crucifix in which Christ is shown alive and upright on the cross, eyes open and head gently inclined, wearing a long, belted, sleeved tunic (colobium) that leaves only his hands and feet bare. This photograph shows it after the restoration completed in 2025, surrounded by later ornaments, including a nimbus of about 1410 and a dove of the early 20th century. Medieval legend held that Nicodemus, who helped bury Christ, carved it and that an angel completed the face, and that it reached Lucca in 782; radiocarbon tests announced in 2020 placed the wood in the late 8th or early 9th century, making it one of the oldest surviving wooden crucifixes of the Christian West.",
+  "scripture": "John 19:17–30",
+  "facts": [
+   "In June 2020 the Italian National Institute for Nuclear Physics (INFN) presented radiocarbon results dating the crucifix to between the last decades of the 8th century and the beginning of the 9th — overturning the older view that it was a 12th–13th-century replacement.",
+   "According to the 'Leobinus legend', the image was found in the Holy Land by a bishop guided by a dream and arrived by a boat without sail or crew at Luni, before being brought to Lucca on an ox-cart without a driver.",
+   "It stands in an octagonal marble tempietto built for it by Matteo Civitali in 1484, and the city honours it each year with the candlelit Luminara procession on 13 September; many copies spread across Europe, among them the Volto Santo of Sansepolcro and the Imervard Cross in Brunswick."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Holy Face of Lucca",
+    "url": "https://en.wikipedia.org/wiki/Holy_Face_of_Lucca"
+   },
+   {
+    "label": "Wikipedia (Italian): Volto Santo",
+    "url": "https://it.wikipedia.org/wiki/Volto_Santo"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Volto_santo_di_lucca,_780-820_dc_ca._(dopo_il_restauro_del_2025),_03.jpg"
+   }
+  ],
+  "notes": "Radiocarbon range reported as 770–880 on en.wikipedia and as late 8th–early 9th century on it.wikipedia; the Commons photographer labels it 780–820. The crucifix was re-presented on 13 September 2025 after restoration in a space in the left aisle while its tempietto is restored. Supersedes the WGA record wga:m/master/xunk_it/xunk_it6/03cross (wrongly dated c. 1200), rejected in deep-c1-legends.json."
+ },
+ {
+  "key": "cur:legends-volto-santo-sansepolcro",
+  "status": "verified",
+  "set": {},
+  "summary": "A monumental wooden crucifix of the Lucca type: Christ stands alive on the cross as King and Priest, wearing a long, sleeved tunic bound with a golden band, a stole over his shoulders, his eyes open and his head slightly inclined. Like the Volto Santo of Lucca, it was popularly attributed to Nicodemus, and a legend held that its face, carved separately, reproduced the true face of Christ. Radiocarbon dating of the wood points to the 8th–9th century, while the painted surface revealed by the restoration of 1984–1989 dates from around 1200, making it one of the oldest monumental sculptures of the medieval West.",
+  "scripture": "John 19:17–30",
+  "facts": [
+   "The sculpture is the result of at least three campaigns: wood radiocarbon-dated to the 8th–9th century, a possible reworking in the 11th–12th century suggested by its style, polychromy of the late 12th or early 13th century, and a left arm replaced in the early 13th century.",
+   "It is documented in the parish church (pieve) of Santa Maria at Sansepolcro from 1336 and was moved to the cathedral in 1770; the local story that the Cattani family donated it in 1405 is therefore legendary.",
+   "Pope Benedict XVI paused in prayer before it on 13 May 2012, during the millennium of the city."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (Italian): Volto Santo di Sansepolcro",
+    "url": "https://it.wikipedia.org/wiki/Volto_Santo_di_Sansepolcro"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Arte_carolingia,_volto_santo_di_sansepolcro,_VIII-IX_secolo_circa_con_policromia_del_XII_secolo.JPG"
+   }
+  ],
+  "notes": "Radiocarbon dating: it.wikipedia reports only '8th/9th century' for the wood (from the restoration published by A. M. Maetzke, 1994); a more precise range (e.g. late 8th–early 9th century) could not be verified. Dimensions from it.wikipedia (280 × 290 cm); Wikidata gives height 280 cm."
+ },
+ {
+  "key": "cur:legends-mandylion-genoa",
+  "status": "verified",
+  "set": {},
+  "summary": "Within a precious frame of gilded silver, the face of Christ appears alone, dark and solemn, its long hair and beard ending in points like the outline of a cloth, surrounded by ten small relief plaques telling the story of King Abgar and the miraculous image of Edessa. Byzantine tradition held the Mandylion to be the cloth on which Christ himself imprinted his face; this image, given by the Emperor John V Palaiologos to the Genoese Leonardo Montaldo in the 14th century, has long been venerated in Genoa as that relic. Scholarly study instead dates the painted image to the Middle Ages and the frame to the 14th century.",
+  "scripture": "2 Corinthians 4:6 (theme)",
+  "facts": [
+   "Colette Dufour Bozzo's 1969 study found that the image is painted on a cloth pasted onto a wooden board, and dated the outer frame to the late 14th century.",
+   "The relic was bequeathed by Leonardo Montaldo, doge of Genoa, to the Basilian monks of San Bartolomeo degli Armeni; it was carried off to France in 1507 and returned a year later, and buried for safety during the siege of 1522.",
+   "It is displayed to the faithful in the week following Pentecost."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Image of Edessa (Holy Face of Genoa)",
+    "url": "https://en.wikipedia.org/wiki/Image_of_Edessa#Holy_Face_of_Genoa"
+   },
+   {
+    "label": "Wikipedia (Italian): Chiesa di San Bartolomeo degli Armeni",
+    "url": "https://it.wikipedia.org/wiki/Chiesa_di_San_Bartolomeo_degli_Armeni"
+   },
+   {
+    "label": "Wikipedia (Italian): Mandylion",
+    "url": "https://it.wikipedia.org/wiki/Mandylion"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:SanBartolomeoArmeni_mandylion.jpg"
+   }
+  ],
+  "notes": "Dating disputed: it.wikipedia reports earlier studies placing the panel around the year 1000 (textiles, pigments) and C-14 tests giving c. 1240–1280 (62% probability); M. Sturgis (as quoted on shroud.com) gives 1240–90 at 90% probability, from the University of Lecce. The radiocarbon results appear not to be formally published, so the 13th-century date is given as 'reportedly'. Sources disagree on when Montaldo received it (1360s–1380s) and on the date of deposit (1384 or 1388)."
+ },
+ {
+  "key": "cur:legends-mandylion-vatican",
+  "status": "verified",
+  "set": {},
+  "summary": "The face of Christ, long-haired and bearded, looks out through a gold cover whose cut-out follows the outline of his head and pointed beard — the traditional form of the Mandylion, the miraculous image sent to King Abgar of Edessa. For centuries it belonged to the Poor Clares of San Silvestro in Capite in Rome, who venerated it as the Edessa image; since 1870 it has been kept in the Vatican. Because it is painted on a wooden panel, scholars regard it as a copy rather than the cloth of the legend.",
+  "scripture": "2 Corinthians 4:6 (theme)",
+  "facts": [
+   "The earliest record of it dates from 1517, when the nuns of San Silvestro were forbidden to exhibit it, to avoid rivalry with the Veronica at St Peter's.",
+   "Its Baroque frame was given in 1623 by Sister Dionora Chiarucci, abbess of the convent.",
+   "It was exhibited in the pavilion of the Holy See at Expo 2000 in Hanover, where this photograph was taken."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia: Image of Edessa (Holy Face of San Silvestro)",
+    "url": "https://en.wikipedia.org/wiki/Image_of_Edessa#Holy_Face_of_San_Silvestro"
+   },
+   {
+    "label": "Wikipedia (Italian): Mandylion",
+    "url": "https://it.wikipedia.org/wiki/Mandylion"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:39bMandylion.jpg"
+   }
+  ],
+  "notes": "No technical or art-historical date for the painting could be verified; y=1500 is a placeholder just before the first documentary mention (1517). Photograph by Wolfgang M. (Commons user Bonebendz), GFDL relicensed CC BY-SA 3.0."
+ },
+ {
+  "key": "cur:legends-sainte-face-laon",
+  "status": "verified",
+  "set": {},
+  "summary": "On a gold ground, the face of Christ with dark, deep-set eyes and long hair and beard rests within a jewelled, cross-inscribed halo, while beneath it a Church Slavonic inscription reads 'Image of the Lord on the cloth'. This Balkan icon of the Mandylion type was sent in 1249 by Jacques Pantaléon, then archdeacon of Laon and later Pope Urban IV, to the nuns of the abbey of Montreuil near Laon, who venerated it as a copy of the true image of Christ's face. It is one of the earliest icons of the Holy Face to reach Western Europe.",
+  "scripture": "2 Corinthians 4:6 (theme)",
+  "facts": [
+   "The inscription is in Slavonic, not Greek, which is why the icon is attributed to a Serbian (or other South Slavonic) painter.",
+   "Jacques Pantaléon is said to have acquired it at Bari in Italy; it remained at the abbey of Montreuil-les-Dames until it passed to Laon Cathedral, where it is shown in a chapel off the north transept.",
+   "The icon was classified as a historic monument (object) on 3 September 1908 (Palissy PM02000590)."
+  ],
+  "links": [
+   {
+    "label": "POP (Palissy) PM02000590",
+    "url": "https://pop.culture.gouv.fr/notice/palissy/PM02000590"
+   },
+   {
+    "label": "Wikipedia (French): Cathédrale Notre-Dame de Laon",
+    "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Laon"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Ic%C3%B4ne_Sainte_Face_Laon_150808.jpg"
+   }
+  ],
+  "notes": "POP dates it simply '13th century'; fr.wikipedia gives 'late 12th or early 13th century, from Serbia'. Purchase at Bari is reported conditionally ('il l'aurait acheté'). The Commons photographer (Vassil) released the photo into the public domain."
+ },
+ {
+  "key": "cur:legends-santo-rostro-jaen",
+  "status": "verified",
+  "set": {},
+  "summary": "Within a frame blazing with gems, a pale cloth bears the faint face of Christ, its outline ending below in a pointed beard. Jaén venerates this image, the Santo Rostro, as one of the imprints left on the veil with which Veronica wiped Christ's face on the way to Calvary; the present cathedral was conceived as its sanctuary. No scientific study of its date is available, and it is best understood as a medieval vera icon long honoured by the city.",
+  "scripture": "Luke 23:26–31 (theme: the way to Calvary; the Veronica episode is not in the Gospels)",
+  "facts": [
+   "Its jewelled frame was made in 1731 by the Córdoba silversmith José Francisco de Valderrama for Bishop Rodrigo Marín Rubio, set with 191 rubies, 193 diamonds and 210 emeralds.",
+   "The relic is kept in a strongbox behind the high altar, covered by a painted panel by Sebastián Martínez showing two angels holding the veil, and is exposed for veneration every Friday.",
+   "The balconies of the cathedral's Baroque façade were used to display the Santo Rostro to bless the surrounding land and people."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (Spanish): Catedral de la Asunción (Jaén)",
+    "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Asunci%C3%B3n_(Ja%C3%A9n)"
+   },
+   {
+    "label": "Wikipedia (Spanish): Santa Faz",
+    "url": "https://es.wikipedia.org/wiki/Santa_Faz"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:SantoRostroJaen.jpg"
+   }
+  ],
+  "notes": "The date of the image itself is not established in any source consulted; y=1370 reflects its documented presence in the cathedral under Bishop Nicolás de Biedma (1368–1383), who according to es.wikipedia secured its return after it had been taken to Seville by Ferdinand III. Image is small (317 px wide). The collection's commons:124208725 shows the retable that houses it (with the Virgen de la Antigua), a different photograph and focus."
+ },
+ {
+  "key": "cur:legends-madonna-di-san-luca",
+  "status": "verified",
+  "set": {},
+  "summary": "Encased in a silver revetment with crowns, pearls and votive jewels, only the painted faces of the Virgin and the Christ Child look out from Bologna's most beloved icon, a Hodegetria in which Mary holds the blessing Child. A fifteenth-century legend tells that a Greek pilgrim brought it from Hagia Sophia in Constantinople as a work of St Luke, with instructions to place it on the 'mount of the Guard'. Study of the panel suggests that the visible painting is by a Western hand of around 1200, painted over an older Byzantine-style image, and it has been carried in procession to the city every year since 1433.",
+  "facts": [
+   "X-ray studies revealed an earlier painting beneath the visible one, Byzantine in style and close to surviving copies of the icon of the Virgin in Hagia Sophia; the use of indigo for the Virgin's robe supports an eastern origin for that first layer.",
+   "The annual procession began after the 'miracle of the rain' of 5 July 1433, when spring rains threatening the harvest stopped as the icon entered the city.",
+   "The sanctuary on the Colle della Guardia is reached by a covered portico about 3.8 km long, begun in 1674 to shelter pilgrims and the icon's annual procession; it was inscribed in 2021 among the UNESCO World Heritage Porticoes of Bologna."
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (Italian): Santuario della Madonna di San Luca",
+    "url": "https://it.wikipedia.org/wiki/Santuario_della_Madonna_di_San_Luca"
+   },
+   {
+    "label": "Wikipedia: Madonna di San Luca, Bologna",
+    "url": "https://en.wikipedia.org/wiki/Madonna_di_San_Luca,_Bologna"
+   },
+   {
+    "label": "Image on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Madonna_di_San_Luca.jpg"
+   }
+  ],
+  "notes": "Dating and technique from it.wikipedia ('forse collocabile tra la fine del XII e l'inizio del XIII secolo'). Photograph by Hay Kranen, released into the public domain."
+ }
+]

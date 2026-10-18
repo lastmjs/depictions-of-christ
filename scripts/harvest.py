@@ -440,6 +440,9 @@ def apply_enrichment(works):
         for field, value in (e.get("set") or {}).items():
             if field in ("t", "a", "d", "y", "c", "l", "m", "s", "k", "img", "big"):
                 w[field] = value
+            elif field == "i":  # a better Commons file for the same work
+                w["i"] = value.replace(" ", "_")
+                w["h"] = hashlib.md5(w["i"].encode()).hexdigest()[:2]
         w["v"] = 1  # hand-checked
         detail = {x: e[x] for x in ("summary", "scripture", "facts", "links", "notes", "set") if e.get(x)}
         if "original_title" in (e.get("set") or {}):
@@ -530,7 +533,7 @@ def main():
     works, details = apply_enrichment(works)
     # Hand corrections where the catalogue data is known to be wrong.
     OVERRIDES = {
-        "Q577890": {"y": 200, "d": "c. 200"},  # Alexamenos graffito: usually dated c. AD 200
+        "Q577890": {"y": 200},  # Alexamenos graffito: usually dated c. AD 200 (Wikidata says 100)
     }
     for w in works:
         w.update(OVERRIDES.get(w.get("q"), {}))
@@ -559,6 +562,28 @@ def main():
             if pi is not None:
                 w["p"] = pi
                 keymap[w.get("q") or w.get("id")] = pi
+        # Reviewed, per-work placements take precedence (data/map/overrides.json: key -> [name, lat, lon, precision]).
+        ov_path = map_dir / "overrides.json"
+        if ov_path.exists():
+            index = {(p[0], round(p[1], 4), round(p[2], 4), p[3] if len(p) > 3 else ""): i for i, p in enumerate(places)}
+            overrides = json.loads(ov_path.read_text())
+            n_ov = 0
+            for w in works:
+                o = overrides.get(w.get("q") or w.get("id")) or overrides.get(w.get("id", ""))
+                if not o:
+                    continue
+                if o == "none":
+                    w.pop("p", None)
+                    keymap.pop(w.get("q") or w.get("id"), None)
+                    continue
+                k = (o[0], round(o[1], 4), round(o[2], 4), o[3])
+                if k not in index:
+                    index[k] = len(places)
+                    places.append([o[0], round(o[1], 4), round(o[2], 4), o[3]])
+                w["p"] = index[k]
+                keymap[w.get("q") or w.get("id")] = index[k]
+                n_ov += 1
+            print(f"  applied {n_ov} reviewed map placements")
         (map_dir / "places.json").write_text(json.dumps(places, ensure_ascii=False, separators=(",", ":")))
         (map_dir / "assign.json").write_text(json.dumps(keymap, separators=(",", ":")))
         print(f"  mapped {len(keymap)} works to {len(places)} places")

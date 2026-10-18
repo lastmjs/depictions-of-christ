@@ -34,12 +34,13 @@
   "key": "Q577890",
   "status": "corrected",
   "set": {
-   "t": "Alexamenos Graffito",
+   "t": "The Alexamenos Graffito",
    "original_title": "ΑΛΕΞΑΜΕΝΟϹ ϹΕΒΕΤΕ ΘΕΟΝ",
    "d": "c. 200 (late 2nd–early 3rd century)",
-   "c": "Rome (Palatine Hill)",
+   "c": "Paedagogium, Palatine Hill, Rome",
    "l": "Palatine Museum, Rome",
-   "m": "Graffito scratched into wall plaster"
+   "m": "Graffito scratched into wall plaster",
+   "i": "Alexamenos graffito.jpg"
   },
   "summary": "Scratched into the plaster of a room on the Palatine Hill, this crude drawing shows a figure with a donkey's head fixed to a cross, while a young man at left raises a hand in a gesture of worship; the Greek caption beneath reads roughly 'Alexamenos worships [his] god'. It was made to mock a Christian, yet it is among the earliest surviving images of the crucifixion and is often called the oldest known depiction of Jesus. Its very scorn bears witness to how strange the worship of a crucified Lord appeared to the pagan world.",
   "scripture": "1 Corinthians 1:23",
@@ -58,11 +59,15 @@
     "url": "https://www.wikidata.org/wiki/Q577890"
    },
    {
-    "label": "Wikimedia Commons file",
-    "url": "https://commons.wikimedia.org/wiki/File:Alexorig.jpg"
+    "label": "Photograph on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg"
+   },
+   {
+    "label": "High-contrast photograph",
+    "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg"
    }
   ],
-  "notes": "Dating is disputed (suggestions range from the late 1st to the late 3rd century); Wikipedia gives c. 200 as most likely, while Wikidata records 100. This is a hostile caricature, not a devotional image, and should be presented as such. The photograph is reproduced from Lanciani's 1898 book."
+  "notes": "Dating is disputed (suggestions range from the late 1st to the late 3rd century); Wikipedia gives c. 200 as most likely, while Wikidata records 100. This is a hostile caricature, not a devotional image, and should be presented as such. Photograph: Justin Benttinen, 2023, Palatine Museum (CC BY-SA 4.0)."
  },
  {
   "key": "commons:508911",

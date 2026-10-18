@@ -169,6 +169,40 @@ def process_image(entry, info):
     }
 
 
+def link_to_collection(entries):
+    """Find each featured work's entry in the complete collection (same Commons file, Wikidata id or title)."""
+    coll = DATA / "collection"
+    if not coll.exists():
+        return
+    by_file, by_q, by_src = {}, {}, {}
+    for f in coll.glob("c-*.json"):
+        for w in json.loads(f.read_text()):
+            key = w.get("q") or w.get("id")
+            info = {"key": key, "p": w.get("p")}
+            if w.get("i"):
+                by_file[w["i"].replace(" ", "_").lower()] = info
+            if w.get("q"):
+                by_q[w["q"]] = info
+            for u in (w.get("src"), w.get("big"), w.get("img")):
+                if u and "commons" in u:
+                    name = urllib.parse.unquote(u.split("/")[-1]).split("px-", 1)[-1].replace(" ", "_").lower()
+                    by_src[name] = info
+    linked = 0
+    for e in entries:
+        hit = None
+        if e.get("commons"):
+            name = e["commons"].split(":", 1)[-1].replace(" ", "_").lower()
+            hit = by_file.get(name) or by_src.get(name)
+        if not hit and e.get("wd"):
+            hit = by_q.get(e["wd"])
+        if hit:
+            e["ck"] = hit["key"]
+            if hit.get("p") is not None:
+                e["cp"] = hit["p"]
+            linked += 1
+    print(f"linked {linked} featured works to the collection")
+
+
 def main():
     CACHE.mkdir(exist_ok=True)
     IMG_OUT.mkdir(parents=True, exist_ok=True)
@@ -214,6 +248,7 @@ def main():
         except Exception as ex:  # keep building; report at end
             problems.append(f"FAILED   {e['id']}: {t} ({ex})")
 
+    link_to_collection(all_entries)
     for era in eras:
         era["entries"].sort(key=lambda e: e["year"])
         era.pop("file", None)

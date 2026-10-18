@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 71041,
- "checked": 1083,
+ "total": 71044,
+ "checked": 1095,
  "centuries": [
   {
    "century": "2",
@@ -37,7 +37,7 @@
   },
   {
    "century": "10",
-   "count": 268
+   "count": 269
   },
   {
    "century": "11",
@@ -45,7 +45,7 @@
   },
   {
    "century": "12",
-   "count": 489
+   "count": 491
   },
   {
    "century": "13",
@@ -53,11 +53,11 @@
   },
   {
    "century": "14",
-   "count": 2544
+   "count": 2543
   },
   {
    "century": "15",
-   "count": 9247
+   "count": 9250
   },
   {
    "century": "16",
@@ -65,11 +65,11 @@
   },
   {
    "century": "17",
-   "count": 13335
+   "count": 13336
   },
   {
    "century": "18",
-   "count": 5807
+   "count": 5808
   },
   {
    "century": "19",
@@ -81,21 +81,21 @@
   },
   {
    "century": "21",
-   "count": 94
+   "count": 95
   },
   {
    "century": "undated",
-   "count": 13162
+   "count": 13157
   }
  ],
  "subjects": [
   [
    "Jesus Christ",
-   18818
+   18815
   ],
   [
    "Madonna and Child",
-   13563
+   13564
   ],
   [
    "Christ Child",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   5902
+   5903
   ],
   [
    "Holy Family",
@@ -247,7 +247,7 @@
   ],
   [
    "Holy Face",
-   324
+   328
   ],
   [
    "Sacred Heart",
@@ -669,7 +669,7 @@
   ],
   [
    "sculpture",
-   4439
+   4438
   ],
   [
    "manuscript",
@@ -677,11 +677,11 @@
   ],
   [
    "other",
-   2514
+   2512
   ],
   [
    "icon",
-   1759
+   1764
   ],
   [
    "statue",
@@ -705,7 +705,7 @@
   ],
   [
    "textile",
-   407
+   409
   ],
   [
    "stained glass",

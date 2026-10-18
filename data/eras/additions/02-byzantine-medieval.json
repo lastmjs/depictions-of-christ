@@ -397,5 +397,36 @@
         "url": "https://museum.ge/index.php?m=305&cid=216&col_id=12452"
       }
     ]
+  },
+  {
+    "id": "volto-santo-lucca",
+    "title": "The Volto Santo (Holy Face) of Lucca",
+    "artist": "Unknown carver",
+    "date": "late 8th – early 9th century (radiocarbon)",
+    "year": 800,
+    "created": "Unknown (legend: carved by Nicodemus in Jerusalem)",
+    "location": "Cathedral of San Martino, Lucca, Italy",
+    "medium": "Carved and painted walnut wood (265 × 224 cm)",
+    "form": "Sculpture",
+    "style": "Early medieval (Carolingian period)",
+    "summary": "Christ stands upon the cross alive, eyes open and head gently inclined, robed like a king in a long belted tunic that leaves only his hands and feet bare — the Lord who reigns from the tree. Medieval pilgrims believed Nicodemus, who helped bury Jesus, had carved it and that an angel finished the face; it became one of the most venerated images of Christ in Europe, copied from England to Catalonia. In 2020 radiocarbon dating placed the wood in the late 8th or early 9th century, revealing it to be one of the oldest wooden crucifixes of the Christian West.",
+    "facts": [
+      "Until the 2020 results, many scholars believed the present crucifix was a 12th- or 13th-century replacement of a lost original.",
+      "The legend tells that the image came from the Holy Land in a boat with no sail or crew, and was brought to Lucca on an ox-cart without a driver in 782.",
+      "It stands in a marble tempietto built for it by Matteo Civitali in 1484; every 13 September the city honours it with the candlelit Luminara procession.",
+      "King William II of England is said to have sworn 'by the Holy Face of Lucca'."
+    ],
+    "scripture": "John 19:17–30",
+    "commons": "File:Volto santo di lucca, 780-820 dc ca. (dopo il restauro del 2025), 03.jpg",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Holy_Face_of_Lucca"
+      },
+      {
+        "label": "Wikipedia (Italian)",
+        "url": "https://it.wikipedia.org/wiki/Volto_Santo"
+      }
+    ]
   }
 ]

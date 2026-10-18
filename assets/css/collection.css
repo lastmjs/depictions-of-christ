@@ -102,7 +102,6 @@
 .wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
 .card {
   position: relative; display: block; text-align: left; padding: 0; border: 0; background: none; color: var(--ink); cursor: pointer;
-  content-visibility: auto; contain-intrinsic-size: 180px 300px;
 }
 .card-img {
   position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 4px;

@@ -183,8 +183,12 @@
     const i = filtered.findIndex((w) => w.c_ === c);
     if (i < 0) return;
     if (i >= rendered) renderMore(i + BATCH);
-    const el = document.getElementById(`century-${c}`);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    requestAnimationFrame(() => {
+      const el = document.getElementById(`century-${c}`);
+      if (!el) return;
+      const far = Math.abs(el.getBoundingClientRect().top) > innerHeight * 3;
+      el.scrollIntoView({ behavior: far ? "auto" : "smooth", block: "start" });
+    });
   }
 
   /* ---------- detail ---------- */

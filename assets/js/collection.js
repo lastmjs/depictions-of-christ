@@ -14,7 +14,7 @@
   let lastCentury;
   let currentWall = null;
   const countByCentury = new Map();
-  const state = { q: "", subject: "", form: "", order: "asc" };
+  const state = { q: "", subject: "", form: "", century: "", order: "asc" };
 
   const viewer = createViewer({
     page: "collection",
@@ -55,6 +55,11 @@
 
     const subj = $("#subject");
     index.subjects.forEach(([s, n]) => subj.insertAdjacentHTML("beforeend", `<option value="${esc(s)}">${esc(s)} (${n.toLocaleString()})</option>`));
+    const cent = $("#century");
+    index.centuries.forEach(({ century, count }) => {
+      const label = century === "undated" ? "Date unknown" : centuryName(+century).replace(/^The /, "");
+      cent.insertAdjacentHTML("beforeend", `<option value="${century}">${label} (${count.toLocaleString()})</option>`);
+    });
     const form = $("#form");
     index.types.filter(([, n]) => n >= 5).forEach(([t, n]) => form.insertAdjacentHTML("beforeend", `<option value="${esc(t)}">${esc(t[0].toUpperCase() + t.slice(1))} (${n.toLocaleString()})</option>`));
 
@@ -62,7 +67,7 @@
   }
 
   function isUnfiltered() {
-    return !state.q && !state.subject && !state.form && state.order === "asc";
+    return !state.q && !state.subject && !state.form && !state.century && state.order === "asc";
   }
 
   function restoreFromHash(initial) {
@@ -92,6 +97,7 @@
     filtered = all.filter((w) =>
       (!state.subject || (w.u || []).includes(state.subject)) &&
       (!state.form || w.k === state.form) &&
+      (!state.century || (state.century === "undated" ? w.c_ == null : w.c_ === +state.century)) &&
       terms.every((t) => w.hay.includes(t)));
     if (state.order === "desc") {
       filtered.reverse();
@@ -198,11 +204,12 @@
     const full = [];
     for (let c = Math.min(1, cs[0]); c <= cs[cs.length - 1]; c++) full.push(c);
     const max = Math.max(1, ...full.map((c) => countByCentury.get(c) || 0));
+    const sel = state.century && state.century !== "undated" ? +state.century : null;
     $("#histogram").innerHTML = full.map((c) => {
       const n = countByCentury.get(c) || 0;
       const h = n ? Math.max(3, Math.sqrt(n / max) * 100) : 2;
       const note = c === 1 && !n && isUnfiltered();
-      return `<button class="hist-bar${n ? "" : " empty"}" data-c="${c}" title="${esc(centuryName(c))}: ${note ? "no surviving works — read why" : `${n.toLocaleString()} works`}" ${n || note ? "" : "disabled"}>
+      return `<button class="hist-bar${n ? "" : " empty"}${sel === c ? " active" : ""}" data-c="${c}" title="${esc(centuryName(c))}: ${note ? "no surviving works — read why" : `${n.toLocaleString()} works`}" ${n || note ? "" : "disabled"}>
         <i style="height:${h}%"></i><span>${c > 0 ? (c - 1) * 100 : ""}</span></button>`;
     }).join("");
   }
@@ -230,6 +237,7 @@
     if (state.q) p.set("q", state.q);
     if (state.subject) p.set("subject", state.subject);
     if (state.form) p.set("form", state.form);
+    if (state.century) p.set("c", state.century);
     if (state.order !== "asc") p.set("order", state.order);
     const h = p.toString();
     history.replaceState(null, "", h ? `#${h}` : location.pathname + location.search);
@@ -242,10 +250,12 @@
     state.q = p.get("q") || "";
     state.subject = p.get("subject") || "";
     state.form = p.get("form") || "";
+    state.century = p.get("c") || "";
     state.order = p.get("order") || "asc";
     $("#q").value = state.q;
     $("#subject").value = state.subject;
     $("#form").value = state.form;
+    $("#century").value = state.century;
     $("#order").value = state.order;
     return p.get("century") ? +p.get("century") : null;
   }
@@ -258,6 +268,7 @@
   });
   $("#subject").addEventListener("change", (e) => { state.subject = e.target.value; apply(); });
   $("#form").addEventListener("change", (e) => { state.form = e.target.value; apply(); });
+  $("#century").addEventListener("change", (e) => { state.century = e.target.value; apply(); window.scrollTo({ top: $("#col-controls").offsetTop - 64, behavior: "smooth" }); });
   $("#order").addEventListener("change", (e) => { state.order = e.target.value; apply(); });
 
   document.addEventListener("click", (e) => {

@@ -163,8 +163,7 @@
   .collection-page .topbar { grid-template-columns: 1fr auto; }
   .col-controls { gap: 8px; padding: 10px 16px; }
   .col-search { flex-basis: 100%; height: 42px; }
-  .col-select { flex: 1 1 0; min-width: 0; }
-  .col-select:first-of-type { flex-basis: 100%; }
+  .col-select { flex: 1 1 calc(50% - 4px); min-width: 0; }
   .col-select span { display: none; }
   .col-select select { width: 100%; max-width: none; height: 40px; font-size: .95rem; }
   .col-count { flex-basis: 100%; margin-left: 0; font-size: .88rem; }

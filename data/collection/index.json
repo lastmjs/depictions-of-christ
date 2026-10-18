@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70807,
- "checked": 775,
+ "total": 70842,
+ "checked": 807,
  "centuries": [
   {
    "century": "2",
@@ -13,31 +13,31 @@
   },
   {
    "century": "4",
-   "count": 87
+   "count": 88
   },
   {
    "century": "5",
-   "count": 23
+   "count": 24
   },
   {
    "century": "6",
-   "count": 86
+   "count": 91
   },
   {
    "century": "7",
-   "count": 26
+   "count": 28
   },
   {
    "century": "8",
-   "count": 49
+   "count": 52
   },
   {
    "century": "9",
-   "count": 172
+   "count": 182
   },
   {
    "century": "10",
-   "count": 202
+   "count": 214
   },
   {
    "century": "11",
@@ -45,7 +45,7 @@
   },
   {
    "century": "12",
-   "count": 478
+   "count": 479
   },
   {
    "century": "13",
@@ -91,31 +91,31 @@
  "subjects": [
   [
    "Jesus Christ",
-   18807
+   18814
   ],
   [
    "Madonna and Child",
-   13558
+   13562
   ],
   [
    "Christ Child",
-   8590
+   8599
   ],
   [
    "Crucifixion",
-   5881
+   5891
   ],
   [
    "Holy Family",
-   3636
+   3637
   ],
   [
    "Adoration of the Magi",
-   2460
+   2465
   ],
   [
    "Nativity",
-   1998
+   2002
   ],
   [
    "Adoration of the Shepherds",
@@ -127,7 +127,7 @@
   ],
   [
    "Resurrection",
-   1612
+   1614
   ],
   [
    "Flight into Egypt",
@@ -143,7 +143,7 @@
   ],
   [
    "Baptism",
-   1183
+   1187
   ],
   [
    "Pietà",
@@ -171,7 +171,7 @@
   ],
   [
    "Miracles of Christ",
-   819
+   824
   ],
   [
    "Man of Sorrows",
@@ -179,11 +179,11 @@
   ],
   [
    "Christ and Followers",
-   733
+   734
   ],
   [
    "Ascension",
-   706
+   707
   ],
   [
    "Ecce Homo",
@@ -207,7 +207,7 @@
   ],
   [
    "Presentation in the Temple",
-   579
+   580
   ],
   [
    "Supper at Emmaus",
@@ -215,7 +215,7 @@
   ],
   [
    "Pantocrator",
-   441
+   445
   ],
   [
    "Betrayal & Arrest",
@@ -263,7 +263,7 @@
   ],
   [
    "Wedding at Cana",
-   253
+   254
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -283,7 +283,7 @@
   ],
   [
    "Entry into Jerusalem",
-   196
+   198
   ],
   [
    "Temptation of Christ",
@@ -291,7 +291,7 @@
   ],
   [
    "Raising of Lazarus",
-   169
+   170
   ],
   [
    "Woman Taken in Adultery",
@@ -303,7 +303,7 @@
   ],
   [
    "Christ in Majesty",
-   87
+   89
   ],
   [
    "Sermon on the Mount",
@@ -633,7 +633,7 @@
   ],
   [
    "sculpture",
-   4426
+   4434
   ],
   [
    "manuscript",
@@ -641,11 +641,11 @@
   ],
   [
    "other",
-   2512
+   2518
   ],
   [
    "icon",
-   1755
+   1756
   ],
   [
    "statue",
@@ -653,7 +653,7 @@
   ],
   [
    "metalwork",
-   744
+   751
   ],
   [
    "fresco",
@@ -661,15 +661,15 @@
   ],
   [
    "ivory",
-   433
+   439
   ],
   [
    "relief",
-   420
+   421
   ],
   [
    "textile",
-   401
+   406
   ],
   [
    "stained glass",

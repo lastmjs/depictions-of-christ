@@ -161,7 +161,7 @@ window.DEPICTIONS = {
      "medium": "White marble",
      "form": "Sculpture",
      "style": "Early Christian (Late Roman)",
-     "summary": "A youthful, beardless shepherd in a short belted tunic carries a lamb across his shoulders, holding its legs firmly against his chest and gazing calmly outward. The figure was originally carved in high relief on a sarcophagus decorated with pastoral scenes, found in the Catacomb of Callixtus on the Appian Way, and was cut free and completed as an independent statuette in 1764. Though much restored, this gentle figure is one of the best-loved images of early Christian Rome, giving almost three-dimensional form to the image that dominated Christian art before Constantine: Christ the shepherd who goes after the lost sheep and carries it home rejoicing.",
+     "summary": "A youthful, beardless shepherd in a short belted tunic, leggings and boots, with a satchel at his side, carries a lamb across his shoulders, holding its legs in his hands and gazing calmly outward. The figure was originally carved in high relief on a sarcophagus decorated with pastoral scenes, found in the Catacomb of Callixtus on the Appian Way, and was cut free and completed as an independent statuette in 1764. Though much restored, this gentle figure is one of the best-loved images of early Christian Rome, giving almost three-dimensional form to the image that dominated Christian art before Constantine: Christ the shepherd who goes after the lost sheep and carries it home rejoicing.",
      "facts": [
       "It entered the papal collections in 1764, when it was sold for the Christian Museum of Pope Benedict XIV; the restorers of that time recarved or replaced parts of the head, the arms, one leg, the lamb's legs and the back.",
       "The museum that houses it today was founded by Pope Pius IX in 1854 to preserve finds from the Roman catacombs that could not be kept in their original sites.",
@@ -633,18 +633,18 @@ window.DEPICTIONS = {
      "id": "hosios-david-christ-in-glory",
      "title": "Christ in Glory (Vision of Ezekiel), Hosios David",
      "artist": "Unknown Byzantine mosaicists",
-     "date": "Late 5th century",
-     "year": 480,
+     "date": "Late 5th – early 6th century",
+     "year": 490,
      "created": "Thessaloniki, Greece",
      "location": "Church of Hosios David (Latomou Monastery), Thessaloniki, Greece (in situ)",
      "medium": "Glass and stone mosaic",
      "form": "Mosaic",
      "style": "Early Byzantine",
-     "summary": "In the small apse of a Thessaloniki chapel, a young, beardless Christ sits on a rainbow within a luminous circle of glory, surrounded by the four living creatures, while two prophets gaze up at him in awe from the banks of the rivers of Paradise. It is a vision of the Lord's appearing, drawn from Ezekiel and the Book of Revelation, and among the finest early Byzantine mosaics to survive. An inscription below the scene speaks of the church as a life-giving spring that receives and nourishes the souls of the faithful.",
+     "summary": "In the small apse of a Thessaloniki church, a young, beardless Christ sits on a rainbow within a luminous circle of glory, holding an open scroll of praise and surrounded by the four living creatures, while two prophets gaze up at him in awe from the banks of the rivers of Paradise. It is a vision of the Lord's appearing, drawn from Ezekiel and the Book of Revelation, and among the finest early Byzantine mosaics to survive. An inscription below the scene speaks of the church as a life-giving spring that receives and nourishes the souls of the faithful.",
      "facts": [
-      "A Byzantine legend says the mosaic was hidden under an ox-hide and mortar to protect it from iconoclasts, and miraculously revealed centuries later; it was rediscovered in the early 20th century beneath Ottoman-era plaster.",
-      "The church served as a mosque during the Ottoman period and was reconsecrated as an Orthodox church in 1921, when it took its present name from Saint David the Dendrite.",
-      "The two prophets are usually identified as Ezekiel and Habakkuk, both of whom recorded visions of God's glory.",
+      "A Byzantine legend says the mosaic was hidden under an ox-hide and mortar to protect it from iconoclasts, and later miraculously revealed; it was rediscovered in the early 20th century beneath Ottoman-era plaster.",
+      "The church served as a mosque during the Ottoman period and was reconsecrated as an Orthodox church in 1921, when it came to be called after Saint David the Dendrite; its original dedication is uncertain, perhaps to Christ the Saviour.",
+      "The two prophets are usually identified as Ezekiel and Habakkuk (some propose Isaiah), who recorded visions of God's glory.",
       "Since 1988 the church has formed part of the UNESCO World Heritage Site 'Paleochristian and Byzantine Monuments of Thessaloniki'."
      ],
      "scripture": "Ezekiel 1:4–28; Revelation 4:2–8",
@@ -851,7 +851,7 @@ window.DEPICTIONS = {
      "medium": "Silver (inner cup); silver with gilding (outer shell and foot)",
      "form": "Metalwork",
      "style": "Early Byzantine",
-     "summary": "An openwork cage of gilded grapevines encloses a plain silver cup, and among the vines sit twelve figures: two images of Christ, the others variously identified as apostles or as ancient sages who foretold his coming. Birds, animals and baskets of bread fill the branches, evoking Christ's words 'I am the vine; you are the branches'. Once sensationally claimed to be the Holy Grail itself, it is now valued as a superb work of early Byzantine silverwork.",
+     "summary": "An openwork cage of gilded grapevines encloses a plain silver cup, and among the vines sit twelve figures: two images of Christ, the others variously identified as apostles or as ancient sages who foretold his coming. Birds, a lamb, snails and other small creatures fill the branches, evoking Christ's words 'I am the vine; you are the branches'. Once sensationally claimed to be the Holy Grail itself, it is now valued as a superb work of early Byzantine silverwork.",
      "facts": [
       "It was reportedly found near Antioch around 1910, and when it was first published in 1916 the plain inner cup was proclaimed to be the cup of the Last Supper.",
       "It was exhibited as the Holy Grail at the 1933 Chicago World's Fair, and was acquired for The Cloisters in 1950.",
@@ -1381,7 +1381,7 @@ window.DEPICTIONS = {
      "id": "solidus-of-justinian-ii-christ",
      "title": "Gold Solidus of Justinian II with the Bust of Christ",
      "artist": "Imperial mint of Constantinople",
-     "date": "705 (type first introduced 692)",
+     "date": "705–711 (Christ first appeared on coins c. 692)",
      "year": 705,
      "created": "Constantinople",
      "location": "Cleveland Museum of Art, Cleveland, Ohio, USA",
@@ -1595,7 +1595,7 @@ window.DEPICTIONS = {
      "id": "utrecht-psalter-psalm-11",
      "title": "The Lord Arises to Help the Poor (Utrecht Psalter, Psalm 11)",
      "artist": "Unknown Carolingian draughtsmen",
-     "date": "c. 820–835",
+     "date": "c. 816–835",
      "year": 825,
      "created": "Reims region (possibly Abbey of Hautvillers), France",
      "location": "Utrecht University Library, Utrecht, Netherlands (MS 32)",
@@ -1647,7 +1647,7 @@ window.DEPICTIONS = {
      "medium": "Ink and colours on silk",
      "form": "Painting",
      "style": "Church of the East (Tang-period China)",
-     "summary": "Though torn and faded, this silk banner shows a standing, haloed figure with a cross in his headdress and another on his chest, his hand raised in a gesture borrowed from Buddhist art. Found in the sealed 'Library Cave' at the Buddhist cave temples of Mogao, it has been interpreted as Christ or a Christian saint of the Church of the East, the Syriac-speaking church that reached China in the seventh century. It is a rare and moving witness to the Gospel's journey along the Silk Road.",
+     "summary": "Though torn and faded, this silk painting shows a standing, haloed figure with a red moustache and beard, a cross in his headdress, another hanging from his necklace and a third atop the long staff he holds, his right hand raised in a gesture borrowed from Buddhist art. Found in the sealed 'Library Cave' at the Buddhist cave temples of Mogao, it has been interpreted as Christ or a Christian saint of the Church of the East, the Syriac-speaking church that reached China in the seventh century. It is a rare and moving witness to the Gospel's journey along the Silk Road.",
      "facts": [
       "The painting was recovered by the explorer and archaeologist Aurel Stein from Cave 17, the Library Cave, which had been sealed around the early eleventh century.",
       "Christian missionaries of the Church of the East, led by a monk named Alopen, reached the Tang capital Chang'an in 635, as recorded on the famous Xi'an Stele of 781.",
@@ -2594,7 +2594,7 @@ window.DEPICTIONS = {
     {
      "id": "studenica-crucifixion",
      "title": "The Crucifixion, Church of the Virgin, Studenica",
-     "artist": "Unknown Byzantine-trained painters working for Saint Sava",
+     "artist": "Unknown Greek (Byzantine) painters, working while Saint Sava led the monastery",
      "date": "1208–1209",
      "year": 1209,
      "created": "Studenica Monastery, Serbia",
@@ -3033,7 +3033,7 @@ window.DEPICTIONS = {
      "facts": [
       "Judas's cloak swallows Christ's body almost completely, so that only his head remains free — a visual metaphor of evil enveloping the innocent.",
       "A hooded figure seen from behind, tugging at a fleeing disciple's robe, pulls the viewer into the crowd — Giotto likewise sets figures with their backs to us in the foreground of the Lamentation in the same chapel.",
-      "Yellow became the conventional color of Judas in later medieval art, and Giotto's fresco is one of its most memorable uses."
+      "Yellow came to be associated with Judas in later medieval art, and Giotto's fresco is one of its most memorable uses."
      ],
      "scripture": "Matthew 26:47–56; John 18:10",
      "commons": "File:Giotto - Scrovegni - -31- - Kiss of Judas.jpg",
@@ -3161,7 +3161,7 @@ window.DEPICTIONS = {
      "summary": "Christ's lifeless body is lowered from the cross, folded at sharp, broken angles as his friends strain to receive it. Mary cradles her Son's head, her face close to his, John supports his legs, and the Magdalene kneels to kiss his feet, the whole group compressed into a single arc of grief. The austere, angular composition is among the most moving images of the Passion produced in 14th-century Italy.",
      "facts": [
       "The fresco belongs to a large Passion cycle painted by Pietro Lorenzetti and his workshop in the left transept of the Lower Church.",
-      "In the same transept, Lorenzetti's 'Madonna dei Tramonti' (Madonna of the Sunsets) is so called because it is lit by the setting sun.",
+      "In the same transept is Lorenzetti's 'Madonna dei Tramonti' (Madonna of the Sunsets), whose name is traditionally explained by the evening light that falls on it.",
       "Pietro was the elder brother of Ambrogio Lorenzetti; both are thought to have died in the Black Death of 1348."
      ],
      "scripture": "John 19:38–40",
@@ -3235,7 +3235,7 @@ window.DEPICTIONS = {
     {
      "id": "gracanica-dome-pantocrator",
      "title": "Christ Pantocrator, Main Dome of Gračanica",
-     "artist": "Unknown painters of King Milutin's court (attributed to the workshop of Michael Astrapas and Eutychios)",
+     "artist": "Painters of King Milutin's court (probably the workshop of Michael Astrapas and Eutychios)",
      "date": "c. 1321–1322",
      "year": 1321,
      "created": "Gračanica, Kosovo",
@@ -3243,9 +3243,9 @@ window.DEPICTIONS = {
      "medium": "Fresco",
      "form": "Fresco",
      "style": "Palaiologan Byzantine (Serbian)",
-     "summary": "From the summit of the central dome, Christ the Almighty looks down within a great medallion, blessing with one hand and holding the Gospel with the other, while angels and prophets circle beneath him. The painting fills the highest point of the church with the image of heaven itself, so that the worshipper below stands beneath the gaze of Christ. Gračanica is one of the last great monuments of King Stefan Milutin and a summit of Serbian Palaiologan art.",
+     "summary": "From the summit of the central dome, Christ the Almighty looks down within a great medallion, blessing with one hand and holding the Gospel with the other, while the heavenly host and the saints of the Old Covenant circle beneath him. The painting fills the highest point of the church with the image of heaven itself, so that the worshipper below stands beneath the gaze of Christ. Gračanica is one of the last great monuments of King Stefan Milutin and a summit of Serbian Palaiologan art.",
      "facts": [
-      "King Stefan Uroš II Milutin completed the church around 1321, near the end of his reign.",
+      "King Stefan Uroš II Milutin built the church in 1321, the last year of his reign, on the site of an older cathedral; its frescoes were painted in 1321–1322.",
       "Its five domes and soaring, stepped massing make it one of the most admired buildings of late Byzantine architecture.",
       "Gračanica is part of the UNESCO World Heritage site 'Medieval Monuments in Kosovo', which has been on the List of World Heritage in Danger since 2006."
      ],
@@ -3329,8 +3329,8 @@ window.DEPICTIONS = {
      "summary": "Two hinged ivory leaves, small enough to hold, unfold the whole Passion in thirteen scenes beneath delicate Gothic arches — from the Entry into Jerusalem and the Last Supper through the Crucifixion to Christ's appearance to Mary Magdalene and his descent into Limbo. The slender, swaying figures and softly falling drapery are typical of the Paris workshops that led European ivory carving in the 14th century. Such diptychs were treasured aids to private prayer for wealthy owners.",
      "facts": [
       "The scenes read from top to bottom and left to right, like the lines of a book.",
-      "Paris was the leading centre of Gothic ivory carving, working African elephant ivory that reached Europe through Mediterranean trade.",
-      "Many such ivories were originally enlivened with paint and gilding, of which only faint traces usually survive."
+      "Paris was the leading centre of Gothic ivory carving, working African elephant ivory, which became increasingly available in Europe from the 13th century.",
+      "Most medieval ivories were originally enlivened with paint and gilding, of which usually only faint traces survive."
      ],
      "commons": "File:French - Diptych with Scenes from the Passion of Christ - Walters 71179.jpg",
      "links": [
@@ -3371,7 +3371,7 @@ window.DEPICTIONS = {
      "style": "Late Byzantine (Palaiologan)",
      "summary": "In the dome of a small Novgorod church, Christ the Almighty gazes down, surrounded by archangels and the forefathers, painted with a few swift, almost impressionistic strokes of white highlight. Theophanes, a master trained in Constantinople, brought to Russia a fiery, ascetic style in which light seems to break out from within the figures. These are his only surviving securely documented frescoes, and they shaped the course of Russian painting.",
      "facts": [
-      "A Novgorod chronicle records that the church was painted in 1378 by the Greek master Theophanes, commissioned by the boyar Vasily Danilovich.",
+      "A Novgorod chronicle records that the church was painted in 1378 by the Greek master Theophanes, at the command of the boyar Vasily Danilovich and the residents of Ilyina Street.",
       "Theophanes later worked in Moscow, where in 1405 he decorated the Kremlin's Annunciation Cathedral together with Prokhor of Gorodets and the young Andrei Rublev.",
       "The church survives from 1374 and is part of the UNESCO World Heritage site 'Historic Monuments of Novgorod and Surroundings'."
      ],
@@ -3528,18 +3528,18 @@ window.DEPICTIONS = {
      "id": "tres-riches-heures-temptation-of-christ",
      "title": "The Temptation of Christ (Très Riches Heures du Duc de Berry, fol. 161v)",
      "artist": "Limbourg brothers (Paul, Herman and Jean de Limbourg)",
-     "date": "c. 1411–1416",
+     "date": "c. 1412–1416",
      "year": 1414,
      "created": "France, for Jean, Duke of Berry",
      "location": "Musée Condé, Château de Chantilly, France (Ms. 65)",
      "medium": "Tempera, gold and ink on vellum",
      "form": "Manuscript",
      "style": "International Gothic",
-     "summary": "On a crag high above the world, the devil offers Christ all the kingdoms of the earth; far below rises a gleaming white château, as if it were the most tempting kingdom of all. The page shows the Limbourg brothers' famous gift for landscape and luminous colour in one of the most celebrated manuscripts ever made. It illustrates the Gospel for the first Sunday of Lent.",
+     "summary": "On a crag high above the world, the devil offers Christ all the kingdoms of the earth; far below rises a gleaming white château, as if it were the most tempting kingdom of all. The page shows the Limbourg brothers' famous gift for landscape and luminous colour in one of the most celebrated manuscripts ever made. It belongs to the book's Masses for the liturgical year, where the Temptation is the Gospel of the first Sunday of Lent.",
      "facts": [
-      "The castle below is the Duke of Berry's own beloved Château de Mehun-sur-Yèvre — a sly suggestion of how real the temptation of worldly splendour could be.",
+      "The castle below is the Duke of Berry's own Château de Mehun-sur-Yèvre — perhaps a pointed reminder of how real the temptation of worldly splendour could be.",
       "The three Limbourg brothers and their patron all died in 1416, probably of plague, leaving the book unfinished; further work followed in the 1440s, and Jean Colombe completed it in 1485–1489.",
-      "Because of its fragility, the original manuscript is very rarely displayed."
+      "To protect it, the original manuscript has been withdrawn from permanent display since the 1980s and is only very rarely shown."
      ],
      "scripture": "Matthew 4:8–10",
      "commons": "File:326 MS 65 F161 V.jpg",
@@ -3830,7 +3830,7 @@ window.DEPICTIONS = {
      "summary": "In a garden bright with flowers, the risen Christ, carrying a hoe over his shoulder, turns gently from Mary Magdalene as she kneels and reaches toward him. His movement is a kind of dance — he steps away while turning back to her — capturing both the joy of recognition and the call not to cling to him. Painted for a friar's cell, it was meant to lead quiet meditation on the mystery of the Resurrection.",
      "facts": [
       "Christ carries a hoe because Mary first mistook him for the gardener.",
-      "Small red-spotted flowers scattered near his feet are often read as echoes of the wounds in his hands and feet.",
+      "The small red flowers scattered in the meadow near his feet are sometimes read as echoes of the wounds in his hands and feet.",
       "Fra Angelico and his assistants painted a fresco in each of the friars' cells at San Marco — this one is among the few considered wholly by his own hand — designed as aids to prayer rather than for public display."
      ],
      "scripture": "John 20:11–18",

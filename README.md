@@ -16,9 +16,13 @@ The site has two parts:
 
 - Featured images come from [Wikimedia Commons](https://commons.wikimedia.org/) (public domain or Creative Commons);
   each is credited with its author and license. Works still in copyright are described and linked, not reproduced.
-- The collection is harvested from [Wikidata](https://www.wikidata.org/) (artworks that depict Jesus or a scene in
-  which he appears and have a Commons image) and from museum open-access programs (public domain / CC0), deduplicated
-  against Wikidata.
+- The collection is harvested from [Wikidata](https://www.wikidata.org/) and Wikimedia Commons, the Web Gallery of Art,
+  Europeana, and the open-access programs of the Met, NGA, Art Institute of Chicago, Cleveland, Getty, Walters, Yale,
+  Princeton, V&A, Rijksmuseum, SMK, Nationalmuseum and the Finnish National Gallery (see `scripts/sources/`), plus
+  hand-researched additions (`data/sources/cur-*.json`), deduplicated across sources.
+- Every work is being hand-checked century by century (`docs/ENRICH.md`, `docs/COMPLETENESS.md`); progress is tracked
+  in `docs/AUDIT.md`.
+- The map (`map.html`) uses MapLibre GL with OpenFreeMap tiles — no API keys.
 
 ## Building
 

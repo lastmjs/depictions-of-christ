@@ -85,9 +85,9 @@
     const img = w.image;
     const alt = `${w.title}${w.artist ? ", " + w.artist : ""}, ${w.date}`;
     const art = img
-      ? `<figure class="frame" tabindex="0" role="button" aria-label="View ${esc(w.title)} in full" data-open="${w.n}">
+      ? `<figure class="frame" style="--ar:${(img.w / img.h).toFixed(4)}" tabindex="0" role="button" aria-label="View ${esc(w.title)} in full" data-open="${w.n}">
            <img class="frame-img" src="${img.src}" srcset="${img.thumb} 560w, ${img.src} ${img.w}w"
-                sizes="(max-width: 860px) 100vw, 62vw" width="${img.w}" height="${img.h}"
+                sizes="(max-width: 960px) 100vw, 62vw" width="${img.w}" height="${img.h}"
                 alt="${esc(alt)}" loading="lazy" decoding="async">
            <span class="frame-hint">${ICON.zoom}View in full</span>
          </figure>`
@@ -119,8 +119,8 @@
     return `
       <article class="plate${flip ? " flip" : ""}" id="${esc(w.id)}" data-n="${w.n}" style="--accent:${img ? img.accent : "#5a4528"}" aria-labelledby="t-${esc(w.id)}">
         <div class="art">${art}</div>
-        <div class="info">
-          <div class="info-date"><span class="yr">${esc(w.date)}</span><span class="form">${esc(w.form || "")}</span></div>
+        <div class="info-wrap"><div class="info">
+          <div class="info-date"><span class="yr${w.date.length > 14 ? " long" : ""}">${esc(w.date)}</span><span class="form">${esc(w.form || "")}</span></div>
           <h3 id="t-${esc(w.id)}">${esc(w.title)}</h3>
           <p class="info-artist">${esc(w.artist || "Unknown artist")}</p>
           <dl class="meta">${meta}</dl>
@@ -129,7 +129,7 @@
           ${facts}
           ${links.length ? `<div class="links" aria-label="Continue exploring">${links.join("")}</div>` : ""}
           ${credit}
-        </div>
+        </div></div>
         <div class="plate-count" aria-hidden="true">${String(w.n + 1).padStart(2, "0")} / ${String(works.length).padStart(2, "0")}</div>
       </article>`;
   }
@@ -180,7 +180,7 @@
     track.innerHTML = html;
 
     // On narrow screens the rail is horizontal: convert top → left.
-    const mq = matchMedia("(max-width: 860px)");
+    const mq = matchMedia("(max-width: 960px)");
     const orient = () => {
       $$(".rail-dot, .rail-century", track).forEach((el) => {
         const v = el.style.top || el.style.left;
@@ -210,7 +210,7 @@
     });
     const fill = $(".rail-fill");
     if (fill) {
-      const horizontal = matchMedia("(max-width: 860px)").matches;
+      const horizontal = matchMedia("(max-width: 960px)").matches;
       fill.style.height = horizontal ? "2px" : railPos(n) + "%";
       fill.style.width = horizontal ? railPos(n) + "%" : "2px";
     }
@@ -234,7 +234,7 @@
   function observe() {
     const reveal = new IntersectionObserver((entries) => {
       entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); reveal.unobserve(e.target); } });
-    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+    }, { threshold: 0, rootMargin: "0px 0px -5% 0px" });
     $$(".plate, .era").forEach((el) => reveal.observe(el));
 
     const active = new IntersectionObserver((entries) => {

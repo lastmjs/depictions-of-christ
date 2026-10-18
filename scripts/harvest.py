@@ -1,0 +1,331 @@
+#!/usr/bin/env python3
+"""Harvest the complete collection of artworks depicting Christ from Wikidata.
+
+Every Wikidata item that depicts (P180) or has as main subject (P921) Jesus or
+an episode/iconographic subject in which Christ appears, and that has an image
+on Wikimedia Commons (and is therefore freely licensed), is gathered with its
+date, creator, place, collection, material and movement. The result is written
+to data/collection/ as one JSON file per century plus an index.
+
+Usage: python3 scripts/harvest.py
+"""
+import json
+import re
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from collections import Counter, defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "data" / "collection"
+CACHE = ROOT / ".cache" / "harvest"
+ENDPOINT = "https://query.wikidata.org/sparql"
+UA = "DepictionsOfChristSite/1.0 (https://github.com/lastmjs/depictions-of-christ; static site build)"
+
+# Subjects in which Christ himself is pictured.
+SUBJECTS = {
+    "Q302": "Jesus Christ",
+    "Q642420": "Jesus Christ",
+    "Q19076584": "Jesus Christ",
+    "Q942467": "Christ Child",
+    "Q9309699": "Madonna and Child",
+    "Q1576172": "Madonna and Child",
+    "Q3558015": "Madonna and Child",
+    "Q1328300": "Madonna and Child",
+    "Q132413": "Madonna and Child",
+    "Q51628": "Nativity",
+    "Q1029715": "Adoration of the Shepherds",
+    "Q488841": "Adoration of the Magi",
+    "Q13510036": "Circumcision",
+    "Q152771": "Presentation in the Temple",
+    "Q837143": "Flight into Egypt",
+    "Q3427290": "Rest on the Flight into Egypt",
+    "Q618057": "Holy Family",
+    "Q473437": "Holy Family",
+    "Q245230": "Christ among the Doctors",
+    "Q20729926": "Mystic Marriage of St Catherine",
+    "Q217048": "Baptism",
+    "Q625140": "Wedding at Cana",
+    "Q625241": "Miraculous Draught of Fishes",
+    "Q51640": "Sermon on the Mount",
+    "Q492663": "Woman Taken in Adultery",
+    "Q957918": "Healing at Bethesda",
+    "Q3937194": "Raising of Lazarus",
+    "Q201201": "Transfiguration",
+    "Q1267621": "Cleansing of the Temple",
+    "Q950667": "Good Shepherd",
+    "Q51633": "Last Supper",
+    "Q2467856": "Agony in the Garden",
+    "Q10289604": "Kiss of Judas",
+    "Q115474394": "Christ before Caiaphas",
+    "Q2033105": "Flagellation",
+    "Q63977136": "Crowning with Thorns",
+    "Q16934170": "Mocking of Christ",
+    "Q534805": "Ecce Homo",
+    "Q3399226": "Carrying the Cross",
+    "Q608632": "Veil of Veronica",
+    "Q51636": "Crucifixion",
+    "Q13365963": "Descent from the Cross",
+    "Q3155356": "Lamentation",
+    "Q223689": "Pietà",
+    "Q51637": "Entombment",
+    "Q49599": "Man of Sorrows",
+    "Q623306": "Passion",
+    "Q1540642": "Harrowing of Hell",
+    "Q51624": "Resurrection",
+    "Q124362": "Noli me tangere",
+    "Q16519437": "Supper at Emmaus",
+    "Q718702": "Supper at Emmaus",
+    "Q5686605": "Ascension",
+    "Q752121": "Pantocrator",
+    "Q972213": "Christ in Majesty",
+    "Q51625": "Salvator Mundi",
+    "Q116926": "Holy Face",
+    "Q408284": "Sacred Heart",
+    "Q380174": "Throne of Mercy",
+    "Q1821239": "Last Judgment",
+    "Q1093370": "Coronation of the Virgin",
+}
+
+# Item types that are not works of visual art (buildings, places, organisations...).
+EXCLUDE_TYPES = re.compile(
+    r"church|chapel|cathedral|basilica|monastery|abbey|building|parish|diocese|village|"
+    r"street|square|school|hospital|organization|organisation|human\b|film|book|"
+    r"literary|musical|song|album|opera|oratorio|cantata|hymn|feast|holiday|festival|"
+    r"event|episode|biblical|tradition|devotion|sermon|edition|bridge|cemetery|museum|"
+    r"order|congregation|confraternity|convent|shrine|pilgrimage|play\b|television|"
+    r"video|poem|novel|written work|scholarly|article|manuscript collection|"
+    r"administrative|municipality|town|city|mountain|hill|river|lake|island|"
+    r"railway|station|ship|street|road|park|garden|well\b|fountain",
+    re.I,
+)
+
+
+def sparql(query, tries=6):
+    delay = 5
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(
+                ENDPOINT,
+                data=urllib.parse.urlencode({"query": query, "format": "json"}).encode(),
+                headers={"User-Agent": UA, "Accept": "application/sparql-results+json",
+                         "Content-Type": "application/x-www-form-urlencoded"},
+            )
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return json.loads(r.read())["results"]["bindings"]
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            code = getattr(e, "code", None)
+            print(f"    retry {i + 1} ({code or e})", file=sys.stderr)
+            if code == 400:
+                raise
+            time.sleep(delay)
+            delay = min(delay * 2, 90)
+    raise RuntimeError("SPARQL failed")
+
+
+def qid(uri):
+    return uri.rsplit("/", 1)[-1]
+
+
+def gather_items():
+    """Map item QID -> set of subject labels."""
+    items = defaultdict(set)
+    for q, label in SUBJECTS.items():
+        cache = CACHE / f"subject-{q}.json"
+        if cache.exists():
+            rows = json.loads(cache.read_text())
+        else:
+            rows = sparql(f"""
+              SELECT DISTINCT ?item WHERE {{
+                {{ ?item wdt:P180 wd:{q} }} UNION {{ ?item wdt:P921 wd:{q} }}
+                ?item wdt:P18 ?img .
+              }}""")
+            rows = [qid(r["item"]["value"]) for r in rows]
+            cache.write_text(json.dumps(rows))
+            time.sleep(1)
+        for i in rows:
+            items[i].add(label)
+        print(f"  {label:32s} {q:10s} {len(rows):6d}  (total {len(items)})")
+    return items
+
+
+DETAIL = """
+SELECT ?item
+  (SAMPLE(?lab) AS ?label) (SAMPLE(?anyLab) AS ?label2) (SAMPLE(?img) AS ?image)
+  (MIN(?inc) AS ?inception) (SAMPLE(?incPrec) AS ?precision)
+  (GROUP_CONCAT(DISTINCT ?typeL; SEPARATOR="|") AS ?types)
+  (GROUP_CONCAT(DISTINCT ?creatorL; SEPARATOR="|") AS ?creators)
+  (MIN(?cBirth) AS ?birth) (MAX(?cDeath) AS ?death)
+  (GROUP_CONCAT(DISTINCT ?collL; SEPARATOR="|") AS ?collections)
+  (GROUP_CONCAT(DISTINCT ?locL; SEPARATOR="|") AS ?locations)
+  (GROUP_CONCAT(DISTINCT ?madeL; SEPARATOR="|") AS ?made)
+  (GROUP_CONCAT(DISTINCT ?countryL; SEPARATOR="|") AS ?countries)
+  (GROUP_CONCAT(DISTINCT ?matL; SEPARATOR="|") AS ?materials)
+  (GROUP_CONCAT(DISTINCT ?moveL; SEPARATOR="|") AS ?movements)
+  (SAMPLE(?wp) AS ?wiki)
+WHERE {
+  VALUES ?item { %s }
+  ?item wdt:P18 ?img .
+  OPTIONAL { ?item rdfs:label ?lab FILTER(LANG(?lab) = "en") }
+  OPTIONAL { ?item rdfs:label ?anyLab FILTER(LANG(?anyLab) IN ("fr","de","it","es","nl","pt","ru","pl","ca","sv","cs","hu","mul")) }
+  OPTIONAL { ?item p:P571/psv:P571 ?incV . ?incV wikibase:timeValue ?inc ; wikibase:timePrecision ?incPrec . }
+  OPTIONAL { ?item wdt:P31 ?type . ?type rdfs:label ?typeL FILTER(LANG(?typeL) = "en") }
+  OPTIONAL { ?item wdt:P170 ?creator .
+             OPTIONAL { ?creator rdfs:label ?creatorL FILTER(LANG(?creatorL) = "en") }
+             OPTIONAL { ?creator wdt:P569 ?cBirth } OPTIONAL { ?creator wdt:P570 ?cDeath } }
+  OPTIONAL { ?item wdt:P195 ?coll . ?coll rdfs:label ?collL FILTER(LANG(?collL) = "en") }
+  OPTIONAL { ?item wdt:P276 ?loc . ?loc rdfs:label ?locL FILTER(LANG(?locL) = "en") }
+  OPTIONAL { ?item wdt:P1071 ?made_ . ?made_ rdfs:label ?madeL FILTER(LANG(?madeL) = "en") }
+  OPTIONAL { ?item wdt:P495 ?country . ?country rdfs:label ?countryL FILTER(LANG(?countryL) = "en") }
+  OPTIONAL { ?item wdt:P186 ?mat . ?mat rdfs:label ?matL FILTER(LANG(?matL) = "en") }
+  OPTIONAL { ?item wdt:P135 ?move . ?move rdfs:label ?moveL FILTER(LANG(?moveL) = "en") }
+  OPTIONAL { ?wp schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> }
+}
+GROUP BY ?item
+"""
+
+
+def val(row, k):
+    return row.get(k, {}).get("value", "")
+
+
+def year_of(ts):
+    m = re.match(r"^([+-]?\d+)-", ts or "")
+    return int(m.group(1)) if m else None
+
+
+def date_label(year, precision):
+    if year is None:
+        return ""
+    p = int(precision or 9)
+    if p >= 9:
+        return str(year) if year > 0 else f"{-year} BC"
+    if p == 8:
+        return f"{(year // 10) * 10}s"
+    if p == 7:
+        c = (year - 1) // 100 + 1 if year > 0 else year // 100
+        suf = "th" if 10 <= c % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(c % 10, "th")
+        return f"{c}{suf} century"
+    return f"c. {year}"
+
+
+def split(s):
+    return [x for x in (s or "").split("|") if x]
+
+
+def fetch_details(ids):
+    details = {}
+    ids = sorted(ids, key=lambda q: int(q[1:]))
+    batch = 200
+    for n in range(0, len(ids), batch):
+        chunk = ids[n:n + batch]
+        cache = CACHE / f"detail-{chunk[0]}-{chunk[-1]}-{len(chunk)}.json"
+        if cache.exists():
+            rows = json.loads(cache.read_text())
+        else:
+            rows = sparql(DETAIL % " ".join("wd:" + q for q in chunk))
+            cache.write_text(json.dumps(rows))
+            time.sleep(1)
+        for r in rows:
+            details[qid(r["item"]["value"])] = r
+        print(f"  details {min(n + batch, len(ids))}/{len(ids)}", end="\r")
+    print()
+    return details
+
+
+def main():
+    CACHE.mkdir(parents=True, exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True)
+    print("Gathering items by subject…")
+    items = gather_items()
+    print(f"{len(items)} distinct items. Fetching details…")
+    details = fetch_details(list(items))
+
+    works = []
+    seen_images = set()
+    dropped = Counter()
+    for q, subjects in items.items():
+        r = details.get(q)
+        if not r:
+            dropped["no details"] += 1
+            continue
+        types = split(val(r, "types"))
+        if types and all(EXCLUDE_TYPES.search(t) for t in types):
+            dropped["non-artwork type"] += 1
+            continue
+        img = urllib.parse.unquote(val(r, "image").rsplit("/", 1)[-1]).replace(" ", "_")
+        if not img or img.lower().endswith((".pdf", ".djvu", ".webm", ".ogv", ".stl")):
+            dropped["no usable image"] += 1
+            continue
+        if img in seen_images:
+            dropped["duplicate image"] += 1
+            continue
+        seen_images.add(img)
+        title = val(r, "label") or val(r, "label2") or q
+        year = year_of(val(r, "inception"))
+        est = False
+        if year is None:
+            death, birth = year_of(val(r, "death")), year_of(val(r, "birth"))
+            if death:
+                year, est = death - 10 if not birth else (birth + death) // 2 + 5, True
+            elif birth:
+                year, est = birth + 35, True
+        creators = [c for c in split(val(r, "creators")) if not re.match(r"^(Q\d+|t\d+)$", c)]
+        made = split(val(r, "made")) or split(val(r, "countries"))
+        w = {
+            "q": q,
+            "t": title,
+            "y": year,
+            "d": (f"c. {year}" if est else date_label(year, val(r, "precision"))) if year is not None else "",
+            "a": ", ".join(creators[:3]),
+            "c": ", ".join(made[:2]),
+            "l": ", ".join((split(val(r, "collections")) or split(val(r, "locations")))[:2]),
+            "m": ", ".join(split(val(r, "materials"))[:3]),
+            "s": ", ".join(split(val(r, "movements"))[:2]),
+            "k": (types[0] if types else ""),
+            "i": img,
+            "u": sorted(subjects),
+        }
+        wp = val(r, "wiki")
+        if wp:
+            w["w"] = urllib.parse.unquote(wp.rsplit("/", 1)[-1])
+        if est:
+            w["e"] = 1
+        works.append(w)
+
+    # drop very recent works whose dates suggest they may still be in copyright
+    # (Commons hosts only free files, but keep the archive firmly historical)
+    works.sort(key=lambda w: (w["y"] is None, w["y"] or 0, w["t"]))
+
+    by_century = defaultdict(list)
+    for w in works:
+        c = "undated" if w["y"] is None else str((w["y"] - 1) // 100 + 1 if w["y"] > 0 else 0)
+        by_century[c].append(w)
+
+    for f in OUT.glob("c-*.json"):
+        f.unlink()
+    index = []
+    for c, ws in sorted(by_century.items(), key=lambda kv: (kv[0] == "undated", int(kv[0]) if kv[0] != "undated" else 0)):
+        (OUT / f"c-{c}.json").write_text(json.dumps(ws, ensure_ascii=False, separators=(",", ":")))
+        index.append({"century": c, "count": len(ws)})
+
+    subj_counts = Counter(s for w in works for s in w["u"])
+    type_counts = Counter(w["k"] for w in works if w["k"])
+    meta = {
+        "generated": time.strftime("%Y-%m-%d"),
+        "total": len(works),
+        "centuries": index,
+        "subjects": subj_counts.most_common(),
+        "types": type_counts.most_common(40),
+    }
+    (OUT / "index.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
+    print(f"{len(works)} works written. Dropped: {dict(dropped)}")
+    for e in index:
+        print(f"  century {e['century']:>8}: {e['count']}")
+
+
+if __name__ == "__main__":
+    main()

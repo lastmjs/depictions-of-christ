@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-18",
- "total": 70623,
- "checked": 550,
+ "total": 70811,
+ "checked": 738,
  "centuries": [
   {
    "century": "2",
@@ -21,23 +21,23 @@
   },
   {
    "century": "6",
-   "count": 67
+   "count": 86
   },
   {
    "century": "7",
-   "count": 25
+   "count": 26
   },
   {
    "century": "8",
-   "count": 45
+   "count": 50
   },
   {
    "century": "9",
-   "count": 75
+   "count": 172
   },
   {
    "century": "10",
-   "count": 136
+   "count": 202
   },
   {
    "century": "11",
@@ -103,7 +103,7 @@
   ],
   [
    "Crucifixion",
-   5867
+   5882
   ],
   [
    "Holy Family",
@@ -111,11 +111,11 @@
   ],
   [
    "Adoration of the Magi",
-   2457
+   2460
   ],
   [
    "Nativity",
-   1996
+   1998
   ],
   [
    "Adoration of the Shepherds",
@@ -123,7 +123,7 @@
   ],
   [
    "Entombment",
-   1674
+   1676
   ],
   [
    "Resurrection",
@@ -135,7 +135,7 @@
   ],
   [
    "Last Supper",
-   1331
+   1336
   ],
   [
    "Lamentation",
@@ -151,7 +151,7 @@
   ],
   [
    "Agony in the Garden",
-   1016
+   1019
   ],
   [
    "Descent from the Cross",
@@ -163,11 +163,11 @@
   ],
   [
    "Last Judgment",
-   912
+   915
   ],
   [
    "Flagellation",
-   833
+   834
   ],
   [
    "Miracles of Christ",
@@ -183,7 +183,7 @@
   ],
   [
    "Ascension",
-   702
+   706
   ],
   [
    "Ecce Homo",
@@ -199,7 +199,7 @@
   ],
   [
    "Trial of Christ",
-   618
+   619
   ],
   [
    "Coronation of the Virgin",
@@ -235,7 +235,7 @@
   ],
   [
    "Christ among the Doctors",
-   378
+   379
   ],
   [
    "Appearances after the Resurrection",
@@ -255,15 +255,15 @@
   ],
   [
    "Transfiguration",
-   297
+   299
   ],
   [
    "Harrowing of Hell",
-   259
+   261
   ],
   [
    "Wedding at Cana",
-   252
+   253
   ],
   [
    "Mystic Marriage of St Catherine",
@@ -271,11 +271,11 @@
   ],
   [
    "Good Shepherd",
-   224
+   225
   ],
   [
    "Mocking of Christ",
-   214
+   215
   ],
   [
    "Passion",
@@ -283,15 +283,15 @@
   ],
   [
    "Entry into Jerusalem",
-   190
+   196
   ],
   [
    "Temptation of Christ",
-   188
+   191
   ],
   [
    "Raising of Lazarus",
-   167
+   169
   ],
   [
    "Woman Taken in Adultery",
@@ -299,7 +299,11 @@
   ],
   [
    "Cleansing of the Temple",
-   98
+   99
+  ],
+  [
+   "Christ in Majesty",
+   87
   ],
   [
    "Sermon on the Mount",
@@ -310,12 +314,8 @@
    66
   ],
   [
-   "Christ in Majesty",
-   63
-  ],
-  [
    "Miraculous Draught of Fishes",
-   32
+   33
   ],
   [
    "Kiss of Judas",
@@ -323,11 +323,299 @@
   ],
   [
    "Christ before Caiaphas",
+   21
+  ],
+  [
+   "Christ of the Apocalypse",
    18
+  ],
+  [
+   "Christ Enthroned",
+   17
+  ],
+  [
+   "Lamb of God",
+   15
   ],
   [
    "Healing at Bethesda",
    11
+  ],
+  [
+   "Healing of the Blind",
+   5
+  ],
+  [
+   "Arrest of Christ",
+   5
+  ],
+  [
+   "Christ in Glory",
+   5
+  ],
+  [
+   "Virgin and Child",
+   4
+  ],
+  [
+   "Betrayal of Christ",
+   4
+  ],
+  [
+   "Christ before his accusers",
+   4
+  ],
+  [
+   "Feeding of the Multitude",
+   3
+  ],
+  [
+   "Passion of Christ",
+   3
+  ],
+  [
+   "Adoration of the Lamb",
+   3
+  ],
+  [
+   "Christ Teaching",
+   3
+  ],
+  [
+   "Christ Pantocrator",
+   3
+  ],
+  [
+   "Healing miracles",
+   3
+  ],
+  [
+   "Second Coming",
+   3
+  ],
+  [
+   "Parable of the Good Samaritan",
+   2
+  ],
+  [
+   "Communion of the Apostles",
+   2
+  ],
+  [
+   "Washing of the Feet",
+   2
+  ],
+  [
+   "Baptism of Christ",
+   2
+  ],
+  [
+   "Calling of the Apostles",
+   2
+  ],
+  [
+   "Zacchaeus",
+   2
+  ],
+  [
+   "Trinity",
+   2
+  ],
+  [
+   "Christ in Judgment",
+   2
+  ],
+  [
+   "Christ the Saviour",
+   2
+  ],
+  [
+   "Christ with Outstretched Arms",
+   2
+  ],
+  [
+   "Cross",
+   2
+  ],
+  [
+   "Icon of Christ",
+   2
+  ],
+  [
+   "Iconoclasm",
+   2
+  ],
+  [
+   "Healing of the Lepers",
+   2
+  ],
+  [
+   "Christ Walking on the Water",
+   2
+  ],
+  [
+   "Healing of the Paralytic",
+   2
+  ],
+  [
+   "Deposition",
+   2
+  ],
+  [
+   "Heavenly Jerusalem",
+   2
+  ],
+  [
+   "Deesis",
+   2
+  ],
+  [
+   "Alpha and Omega",
+   2
+  ],
+  [
+   "Calming of the Storm",
+   2
+  ],
+  [
+   "Cursing of the Fig Tree",
+   1
+  ],
+  [
+   "Christ before Pilate",
+   1
+  ],
+  [
+   "Parable of the Wise and Foolish Virgins",
+   1
+  ],
+  [
+   "Life of Christ",
+   1
+  ],
+  [
+   "Christ Carrying the Cross",
+   1
+  ],
+  [
+   "Genealogy of Christ",
+   1
+  ],
+  [
+   "Twenty-Four Elders",
+   1
+  ],
+  [
+   "Four Living Creatures",
+   1
+  ],
+  [
+   "Rejection at Nazareth",
+   1
+  ],
+  [
+   "Christ and the Poor",
+   1
+  ],
+  [
+   "Denial of Peter",
+   1
+  ],
+  [
+   "Christ Victorious",
+   1
+  ],
+  [
+   "Christ the Creator",
+   1
+  ],
+  [
+   "Christ the High Priest",
+   1
+  ],
+  [
+   "Christ the King",
+   1
+  ],
+  [
+   "Christ and the Apostles",
+   1
+  ],
+  [
+   "Christ and Saints",
+   1
+  ],
+  [
+   "King David",
+   1
+  ],
+  [
+   "Widow's Mite",
+   1
+  ],
+  [
+   "Calling of Matthew",
+   1
+  ],
+  [
+   "Rich Young Man",
+   1
+  ],
+  [
+   "Christ appearing to the Holy Women",
+   1
+  ],
+  [
+   "Anointing at Bethany",
+   1
+  ],
+  [
+   "Vision of Isaiah",
+   1
+  ],
+  [
+   "Rider on the White Horse",
+   1
+  ],
+  [
+   "Four Horsemen of the Apocalypse",
+   1
+  ],
+  [
+   "Healing of Peter's Mother-in-Law",
+   1
+  ],
+  [
+   "Raising of Jairus' Daughter",
+   1
+  ],
+  [
+   "Christ and the Canaanite Woman",
+   1
+  ],
+  [
+   "Healing of the Centurion's Servant",
+   1
+  ],
+  [
+   "Christ and the Woman Taken in Adultery",
+   1
+  ],
+  [
+   "Healing of the Woman with an Issue of Blood",
+   1
+  ],
+  [
+   "Appearances of the Risen Christ",
+   1
+  ],
+  [
+   "Healing of the Gerasene Demoniac",
+   1
+  ],
+  [
+   "Christ Weeping over Jerusalem",
+   1
   ]
  ],
  "types": [
@@ -349,7 +637,7 @@
   ],
   [
    "manuscript",
-   3340
+   3528
   ],
   [
    "other",

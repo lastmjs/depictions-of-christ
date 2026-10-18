@@ -495,7 +495,9 @@ def apply_enrichment(works):
     Returns (works, details) where details maps shard -> {key: detail} holding the long text.
     """
     entries = {}
-    for f in sorted((ROOT / "data" / "enrich" / "batches").glob("*.json")):
+    # deep-dive audits ("deep-*") are applied last so they supersede earlier hand-checks
+    batch_files = sorted((ROOT / "data" / "enrich" / "batches").glob("*.json"), key=lambda f: (f.name.startswith("deep-"), f.name))
+    for f in batch_files:
         for e in json.loads(f.read_text()):
             entries[e["key"]] = e  # later batches win
     if not entries:

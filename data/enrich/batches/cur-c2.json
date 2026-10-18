@@ -1,0 +1,40 @@
+[
+  {
+    "key": "cur:c2-lucina-ceiling-daniel-good-shepherd",
+    "status": "verified",
+    "set": {},
+    "summary": "This old glass slide shows a whole painted ceiling from the Crypts of Lucina, the oldest part of the Catacomb of Callixtus. Concentric circles and radiating bands divide the vault: at the centre Daniel stands between two lions, and in the diagonal fields around him are small figures, among them a shepherd with a sheep on his shoulders and praying figures with raised arms, set among flying genii, heads, birds and flowers. Here, at the very beginning of Christian painting, the image of the Good Shepherd already keeps company with Daniel's deliverance: Christ who carries his sheep home, and God who saves his servant from death.",
+    "scripture": "John 10:11–16; Luke 15:3–7; Daniel 6:16–23",
+    "facts": [
+      "The vault belongs to the double chamber (cubicula X and Y) of the Crypts of Lucina; Wilpert listed on the ceiling of Y 'Daniel in the lions' den, two Good Shepherds, two veiled orants, ornamental heads, genii and birds', and over the door to the same room the Baptism of Christ.",
+      "The official guide to the Catacombs of St Callixtus (A. Baruffa) dates the paintings of this double chamber to the end of the 2nd century; other scholars place them at the beginning of the 3rd. The Leuven slide itself is labelled 'fin IIe s.'.",
+      "The photograph is a glass lantern slide of the University of Louvain (KU Leuven), labelled 'Voûte crypte Lucine: Daniel, Bon Pasteur, orantes' and citing Wilpert's plate 25 (Die Malereien der Katakomben Roms, 1903)."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file (KU Leuven glass slide)", "url": "https://commons.wikimedia.org/wiki/File:Vroegchristelijke_muurschildering_op_een_gewelf_met_Dani%C3%ABl,_Goede_herder,_orante,_koppen,_vogels,_GD010263.jpg"},
+      {"label": "Wikipedia: Catacomb of Callixtus", "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"},
+      {"label": "Wilpert, Die Malereien der Katakomben Roms (1903), text volume (Internet Archive)", "url": "https://archive.org/details/gri_33125010959985"}
+    ],
+    "notes": "Christ appears here only in the symbolic figure of the Good Shepherd, small and in a black-and-white photograph; the shepherd is clearest in the lower left diagonal field. Date: the paintings are placed at the end of the 2nd century by the catacomb's official guide and at the beginning of the 3rd by others, so 'c. 200' is given. Wilpert's own dating (first half of the 2nd century) is no longer accepted. The Commons file's slide metadata ('1ste helft 2de eeuw') follows Wilpert."
+  },
+  {
+    "key": "cur:c2-la-gayole-sarcophagus",
+    "status": "verified",
+    "identification": "uncertain",
+    "set": {},
+    "summary": "The front of this marble sarcophagus unrolls a peaceful landscape: from left to right a bust of the Sun god, a fisherman with his line, a tree with sheep and an anchor, a woman praying with open hands, a seated woman with a child, a bearded shepherd carrying a sheep across his shoulders with another at his feet, and, in the corner, a seated philosopher. Found at La Gayole in Provence, it was long celebrated as one of the oldest Christian sarcophagi of Gaul, its shepherd read as Christ the Good Shepherd and its fisherman, anchor and orant as Christian signs. Whether its first owner was Christian is still debated, but it shows the very moment when the gentle shepherd of Roman funerary art was becoming an image of Christ.",
+    "scripture": "John 10:11 (theme)",
+    "facts": [
+      "In the 6th century the sarcophagus was reused for a Christian woman: an inscription added to it records that 'Syagria, of good memory, rests here in peace'.",
+      "The antiquary Nicolas-Claude Fabri de Peiresc examined and sketched the sarcophagi at the chapel of La Gayole in the 1620s; this front was given to the minor seminary of Brignoles in 1860 and has been in the Brignoles museum since the 1960s.",
+      "Its date has been placed anywhere from the last quarter of the 2nd century to the middle of the 3rd; François Baratte (2002) argued for the later end, and saw it as a local work imitating Attic reliefs."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file", "url": "https://commons.wikimedia.org/wiki/File:Sarcophage_de_Syagria.jpg"},
+      {"label": "POP (Palissy): Sarcophage de Syagria, dit sarcophage de la Gayole", "url": "https://pop.culture.gouv.fr/notice/palissy/PM83000126"},
+      {"label": "Musée du pays brignolais (French Wikipedia)", "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_pays_brignolais"},
+      {"label": "F. Baratte, 'Observations sur les sarcophages de La Gayole' (Persée)", "url": "https://www.persee.fr/doc/bsnaf_0081-1181_2002_num_1998_1_10291"}
+    ],
+    "notes": "Identification uncertain: the shepherd carrying a sheep (kriophoros) is a common motif of pagan funerary art, and the French heritage database and the Brignoles museum describe the decoration as evoking a happy afterlife 'but not necessarily Christian'; the traditional Christian reading rests on the combination of shepherd, fisherman, anchor and orant. Date: the French heritage database gives '2nd or 3rd century'; the sort year 230 reflects the prevailing later dating. Place of manufacture is disputed (Attic import or Provençal imitation); it is mapped at its find-spot. Photograph: Rvalette, 2015 (CC BY-SA 4.0)."
+  }
+]

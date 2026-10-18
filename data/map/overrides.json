@@ -18,9 +18,9 @@
 "in situ"
 ],
 "cur:catacombs-lucina-good-shepherd-wilpert35": [
-"Catacomb of Callixtus, Rome",
-41.8589,
-12.5111,
+"Catacomb of Priscilla, Rome",
+41.9297,
+12.5087,
 "in situ"
 ],
 "cur:catacombs-louvre-livia-primitiva": [
@@ -5950,6 +5950,18 @@
 "León or La Rioja (region)",
 42.4,
 -4.0,
+"region"
+],
+"cur:c2-lucina-ceiling-daniel-good-shepherd": [
+"Catacomb of Callixtus, Rome",
+41.8589,
+12.5111,
+"in situ"
+],
+"cur:c2-la-gayole-sarcophagus": [
+"Notre-Dame de la Gayolle, La Celle (Var)",
+43.3985,
+5.9781,
 "region"
 ]
 }

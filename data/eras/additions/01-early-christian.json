@@ -411,5 +411,39 @@
         "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg"
       }
     ]
+  },
+  {
+    "id": "lucina-baptism-of-christ",
+    "title": "The Baptism of Christ (Crypts of Lucina)",
+    "artist": "Unknown early Christian painter",
+    "date": "c. 200 (late 2nd – early 3rd century)",
+    "year": 200,
+    "created": "Rome",
+    "location": "Crypts of Lucina (double chamber X–Y), Catacomb of Callixtus, Via Appia, Rome (in situ)",
+    "medium": "Fresco (wall painting on plaster)",
+    "form": "Fresco",
+    "style": "Early Christian catacomb painting",
+    "summary": "On a pale, damaged wall two red-brown figures meet at the water's edge: a tall, clothed man at the right reaches out his hand to a smaller, naked figure who climbs up out of the water, while at the upper left a dove flies down towards them. It is the Baptism of Christ by John, with the Spirit descending as a dove, painted in a few quick strokes. Made around AD 200 in the oldest part of the Catacomb of Callixtus, it is one of the very earliest surviving pictures of any event in the life of Jesus.",
+    "facts": [
+      "Wilpert, who published it in 1903 (plate 29), recorded the scene above the door to cubiculum Y of the double chamber in the Crypts of Lucina, the earliest nucleus of the Catacomb of Callixtus; the same pair of rooms holds Daniel among the lions, two Good Shepherds, Jonah and the famous 'Eucharistic' fish with baskets of bread.",
+      "The official guide to the Catacombs of St Callixtus (A. Baruffa) dates the paintings of this double chamber to the end of the 2nd century; others place them in the early 3rd, so a date around 200 is usually given.",
+      "As in almost all early images of the Baptism, Christ is shown small, young and naked, standing in the water beside a larger Baptist – a convention that underlines the humility of the Son of God and recalls the nakedness of early Christian baptism."
+    ],
+    "scripture": "Matthew 3:13–17; Mark 1:9–11; John 1:32–34",
+    "commons": "File:Callistus-catacomb-Jesus-John-Immersion.jpg",
+    "links": [
+      {
+        "label": "Black-and-white glass slide of the same painting (KU Leuven)",
+        "url": "https://commons.wikimedia.org/wiki/File:Vroegchristelijke_muurschildering_van_de_doop_van_Christus,_GD010275.jpg"
+      },
+      {
+        "label": "Wikipedia: Catacomb of Callixtus",
+        "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"
+      },
+      {
+        "label": "Wikipedia: Baptism of Jesus",
+        "url": "https://en.wikipedia.org/wiki/Baptism_of_Jesus"
+      }
+    ]
   }
 ]

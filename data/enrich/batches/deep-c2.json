@@ -1,0 +1,129 @@
+[
+  {
+    "key": "cur:catacombs-lucina-baptism",
+    "status": "corrected",
+    "set": {
+      "t": "The Baptism of Christ (Crypts of Lucina, Catacomb of Callixtus)",
+      "d": "c. 200 (late 2nd – early 3rd century)",
+      "y": 200,
+      "l": "Crypts of Lucina (double chamber X–Y), Catacomb of Callixtus, Via Appia, Rome (in situ)"
+    },
+    "summary": "On a pale, damaged wall two red-brown figures meet at the water's edge: a tall, clothed man at the right reaches out his hand to a smaller, naked figure who climbs up out of the water, while at the upper left a dove flies down towards them. It is the Baptism of Christ by John, with the Spirit descending as a dove, painted in a few quick strokes. Made around AD 200 in the oldest part of the Catacomb of Callixtus, it is one of the very earliest surviving pictures of any event in the life of Jesus.",
+    "scripture": "Matthew 3:13–17; Mark 1:9–11; John 1:32–34",
+    "facts": [
+      "Wilpert, who published it in 1903 (plate 29), recorded the scene above the door to cubiculum Y of the double chamber in the Crypts of Lucina, the earliest nucleus of the Catacomb of Callixtus; the same pair of rooms holds Daniel among the lions, two Good Shepherds, Jonah and the famous 'Eucharistic' fish with baskets of bread.",
+      "The official guide to the Catacombs of St Callixtus (A. Baruffa) dates the paintings of this double chamber to the end of the 2nd century; others place them in the early 3rd, so a date around 200 is usually given.",
+      "As in almost all early images of the Baptism, Christ is shown small, young and naked, standing in the water beside a larger Baptist – a convention that underlines the humility of the Son of God and recalls the nakedness of early Christian baptism."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file", "url": "https://commons.wikimedia.org/wiki/File:Callistus-catacomb-Jesus-John-Immersion.jpg"},
+      {"label": "Black-and-white glass slide of the same painting (KU Leuven)", "url": "https://commons.wikimedia.org/wiki/File:Vroegchristelijke_muurschildering_van_de_doop_van_Christus,_GD010275.jpg"},
+      {"label": "Wikipedia: Catacomb of Callixtus", "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"},
+      {"label": "Wikipedia: Baptism of Jesus", "url": "https://en.wikipedia.org/wiki/Baptism_of_Jesus"}
+    ],
+    "notes": "Corrected: the earlier entry said no dove was visible, but a dove is clearly painted at the upper left, which supports the traditional reading as the Baptism of Christ (Wilpert: 'Taufe Christi'); a few scholars have read early baptism scenes generically, as any Christian baptism. Date: 'end of the 2nd century' (Baruffa) or 'early 3rd century' in other modern accounts; Wilpert's 'first half of the 2nd century' is obsolete. The sort year 200 places it, with the 'c. 200' convention, in the 2nd century."
+  },
+  {
+    "key": "Q577890",
+    "status": "verified",
+    "set": {
+      "t": "The Alexamenos Graffito",
+      "original_title": "ΑΛΕΞΑΜΕΝΟϹ ϹΕΒΕΤΕ ΘΕΟΝ",
+      "d": "c. 200 (late 2nd–early 3rd century)",
+      "y": 200,
+      "c": "Paedagogium, Palatine Hill, Rome",
+      "l": "Palatine Museum, Rome",
+      "m": "Graffito scratched into wall plaster",
+      "i": "Alexamenos graffito high contrast.jpg"
+    },
+    "summary": "Scratched into the plaster of a room on the Palatine Hill, a crude figure with the head of a donkey hangs on a cross, while a young man below raises his hand toward it; the Greek caption reads, roughly, 'Alexamenos worships [his] god'. It was made to mock a Christian, perhaps one of the page boys of the imperial household. Yet this piece of scorn is often called the oldest surviving image of Jesus, and it is the earliest known picture of the crucifixion: before Christians themselves dared to depict the cross, a scoffer drew it – and in doing so bore witness to the faith he ridiculed.",
+    "scripture": "1 Corinthians 1:23",
+    "facts": [
+      "It was discovered in 1857 in a building on the Palatine known as the domus Gelotiana, later used as a paedagogium (boarding school) for imperial page boys, and was afterwards cut from the wall; it is now in the Palatine Museum.",
+      "In a neighbouring room another hand wrote 'ALEXAMENOS FIDELIS' – 'Alexamenos is faithful' – perhaps a friend's reply to the insult, or Alexamenos's own.",
+      "Tertullian and Minucius Felix record the slander that Christians worshipped a donkey's head, and Tertullian tells of a caricature paraded in Carthage labelled 'the God of the Christians'; this graffito is that slander in pictures.",
+      "Its date is debated, with proposals from the late 1st to the late 3rd century; a date around AD 200 is the most widely accepted."
+    ],
+    "links": [
+      {"label": "Wikipedia: Alexamenos graffito", "url": "https://en.wikipedia.org/wiki/Alexamenos_graffito"},
+      {"label": "Natural-light photograph (Wikimedia Commons)", "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg"},
+      {"label": "High-contrast photograph (Wikimedia Commons)", "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg"},
+      {"label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q577890"}
+    ],
+    "notes": "A hostile caricature, not a devotional image; it stays in the collection as a witness to how Christ was first pictured. Dating is disputed (late 1st to late 3rd century proposed); c. 200 is the consensus and matches the featured Journey entry, so the sort year 200 keeps it in the 2nd century. A minority view (I. Soon) reads it as Christian self-parody. Photographs: Justin Benttinen, 2023, Palatine Museum (CC BY-SA 4.0); the high-contrast version is shown because the scratches are faint in natural light."
+  },
+  {
+    "key": "commons:508911",
+    "status": "corrected",
+    "set": {
+      "t": "The Good Shepherd among His Flock (Catacomb of Domitilla)",
+      "d": "mid-4th century",
+      "y": 350,
+      "c": "Rome",
+      "l": "Arcosolium 'of the little sheep' (Wilpert), Catacomb of Domitilla, Via Ardeatina, Rome (in situ)",
+      "m": "Fresco",
+      "s": "Early Christian catacomb painting",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/The_Good_Shepherd%2C_from_the_Domitilla_catacombs%2C_from_Die_Malereien_der_Katakomben_Roms%2C_Wilpert%2C_1903_0119b.jpg/330px-The_Good_Shepherd%2C_from_the_Domitilla_catacombs%2C_from_Die_Malereien_der_Katakomben_Roms%2C_Wilpert%2C_1903_0119b.jpg",
+      "big": "https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Good_Shepherd%2C_from_the_Domitilla_catacombs%2C_from_Die_Malereien_der_Katakomben_Roms%2C_Wilpert%2C_1903_0119b.jpg"
+    },
+    "summary": "Filling the lunette of a tomb niche, a shepherd stands frontally in the centre of a flowering meadow, a sheep across his shoulders and a staff in his right hand; he wears a short belted tunic, a reddish cloak and leggings. On either side his flock turns towards him beneath trees, as if gathering to their master's voice. Painted when the Church had already won its freedom, the image keeps the oldest and gentlest Christian picture of Christ: the shepherd who knows his own and carries them home.",
+    "scripture": "John 10:11–16; Luke 15:3–7",
+    "facts": [
+      "Wilpert catalogued the painting as the 'arcosolium of the little sheep' (Arkosol der pecorelle) in the Catacomb of Domitilla – 'the Good Shepherd between trees and six sheep' – and dated it to the middle of the 4th century; it is his plate 117.",
+      "The Good Shepherd is the most frequently represented image of Christ in early Christian catacomb painting, adapting the pre-Christian 'ram-bearer' (kriophoros) type.",
+      "The image reproduces Wilpert's colour plate of 1903; a widely circulated crop of it ('Good Shepherd 04') carries a 2nd–3rd-century date on Commons, which does not match Wilpert's own dating."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file (Wilpert, plate 117)", "url": "https://commons.wikimedia.org/wiki/File:The_Good_Shepherd,_from_the_Domitilla_catacombs,_from_Die_Malereien_der_Katakomben_Roms,_Wilpert,_1903_0119b.jpg"},
+      {"label": "Wikimedia Commons file (crop formerly used)", "url": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_04.jpg"},
+      {"label": "Wikipedia: Catacombs of Domitilla", "url": "https://en.wikipedia.org/wiki/Catacombs_of_Domitilla"},
+      {"label": "Wikipedia: Good Shepherd", "url": "https://en.wikipedia.org/wiki/Good_Shepherd"}
+    ],
+    "notes": "Corrected and moved out of the 2nd century: the collection held this at sort year 200, but the painting is the Domitilla lunette published by Wilpert (plate 117, 'Arkosol der pecorelle'), which he dated to the mid-4th century, as does the Commons description ('circa 350'); the Commons 'date' field (200–300 CE) and a duplicate file titled 'Catacomb of Domitilla (200 CE)' are wrong. The full lunette from the same plate now replaces the tighter crop. No modern catalogue entry for this arcosolium was found; the date follows Wilpert and the Commons description."
+  },
+  {
+    "key": "cur:catacombs-lucina-good-shepherd-wilpert35",
+    "status": "corrected",
+    "set": {
+      "t": "The Good Shepherd (Ceiling of a Crypt beneath the Basilica of San Silvestro, Catacomb of Priscilla)",
+      "d": "4th century (Wilpert: mid-4th century)",
+      "y": 350,
+      "c": "Rome",
+      "l": "Crypt beneath the Basilica of San Silvestro, Catacomb of Priscilla, Via Salaria, Rome (in situ)"
+    },
+    "summary": "Within a small painted medallion, a young shepherd in a short belted tunic and leggings stands with a sheep across his shoulders, while a goat stands at his feet and a slender plant rises beside him. In the full ceiling the medallion is framed by a laurel wreath and surrounded by doves and flowering sprigs. The simple pastoral image placed the dead under the care of Christ, the Good Shepherd who seeks the lost and carries them home.",
+    "scripture": "John 10:11–16; Luke 15:3–7",
+    "facts": [
+      "This is Wilpert's plate 35, no. 1, which he described as the ceiling of the 'crypt with the Good Shepherd beneath the Basilica of Silvester' in the Catacomb of Priscilla – 'Good Shepherd, doves, flowering branches' – and dated to the middle of the 4th century.",
+      "Pope Silvester I (314–335) built a basilica above the Catacomb of Priscilla; its remains were found in 1890 and partly rebuilt in 1906.",
+      "Painting reproduced from Joseph Wilpert, Die Malereien der Katakomben Roms (Freiburg, 1903), still the standard illustrated corpus of Roman catacomb painting."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file", "url": "https://commons.wikimedia.org/wiki/File:Jesus_as_the_Good_Shepherd,_Calixtus_Catacomb,_Crypt_of_Lucina,_from_the_from_the_book_Die_Malereien_der_Katakomben_Roms,_plate_35.jpg"},
+      {"label": "Wikipedia: Catacomb of Priscilla", "url": "https://en.wikipedia.org/wiki/Catacomb_of_Priscilla"},
+      {"label": "Wilpert, Die Malereien der Katakomben Roms (1903), text volume (Internet Archive)", "url": "https://archive.org/details/gri_33125010959985"}
+    ],
+    "notes": "Corrected location and date, and moved out of the 2nd century: the Commons file is titled 'Calixtus Catacomb, Crypt of Lucina, plate 35', but Wilpert's plate 35 holds two ceilings – no. 1 in the Catacomb of Priscilla (this one: the shepherd in a medallion inside a laurel wreath, with a plant and a goat) and no. 2 in the Crypts of Lucina (a faded shepherd among bowls and birds). Comparison with the plate and Wilpert's list of paintings by catacomb ('Krypta mit der Darstellung des Guten Hirten unter der Silvesterbasilika. Mitte 4. Jht. Taf. 35, 1') shows that the crop is no. 1. The image is a small crop of the 1903 plate; no larger free copy of this ceiling was found on Commons."
+  },
+  {
+    "key": "cur:catacombs-priscilla-madonna-prophet",
+    "status": "corrected",
+    "set": {
+      "d": "c. 230–240 (some date it to the late 2nd century)",
+      "y": 235
+    },
+    "summary": "On the vault of a tomb niche, painted over stucco, a seated woman holds a child at her breast, while a man in a tunic and pallium stands beside her, raising his hand and pointing upward towards a star painted above (outside this crop). The scene is read as the Virgin nursing the Christ Child, with a prophet – Balaam or Isaiah – foretelling his birth. It is counted among the oldest surviving images of Mary with Jesus, made in the earliest part of the Catacomb of Priscilla.",
+    "scripture": "Numbers 24:17; Isaiah 7:14",
+    "facts": [
+      "The Pontifical Commission for Sacred Archaeology dates this image of the Mother of God to 230–240 and identifies the pointing figure as the prophet Balaam, whose oracle speaks of a star rising out of Jacob.",
+      "On the same vault, beside the Virgin and Child, a Good Shepherd stands with his sheep among trees.",
+      "Wilpert, who published it in colour in 1903 (plates 21–22), believed it dated from the first half of the 2nd century and read the prophet as Isaiah; modern scholarship has lowered the date by about a century."
+    ],
+    "links": [
+      {"label": "Wikimedia Commons file", "url": "https://commons.wikimedia.org/wiki/File:Madonna_catacomb.jpg"},
+      {"label": "Catacomb of Priscilla (Pontifical Commission for Sacred Archaeology)", "url": "https://www.catacombeditalia.va/content/archeologiasacra/en/catacombs/by-provinces/rome/catacomb-of-priscilla.html"},
+      {"label": "Wikipedia: Catacomb of Priscilla", "url": "https://en.wikipedia.org/wiki/Catacomb_of_Priscilla"}
+    ],
+    "notes": "Date refined from 'early 3rd century' (225) to the Pontifical Commission's 230–240; it remains in the 3rd century. The identification of the prophet (Balaam or Isaiah) is debated. A KU Leuven glass slide on Commons shows the Good Shepherd on the same vault (GD009644)."
+  }
+]

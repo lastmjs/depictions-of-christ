@@ -11,7 +11,7 @@ The audit proceeds one century at a time. A century is **complete** only when al
 | Century | Works now | Completeness | Hand-check | Categorisation | Status |
 |---|---|---|---|---|---|
 | 1st | 0 | ✅ deep-dive audited (none survive) | ✅ | ✅ | ✅ deep-dive complete |
-| 2nd | 4 | ✅ | ✅ all 4 checked | ✅ | ✅ complete |
+| 2nd | 3 | ✅ deep-dive audited | ✅ | ✅ | ✅ deep-dive complete |
 | 3rd | 32 | ✅ | ✅ all 32 checked | ✅ | ✅ complete |
 | 4th | 122 | ✅ | ✅ all 122 checked | ✅ | ✅ complete |
 | 5th | 37 | ✅ | ✅ all 37 checked | ✅ | ✅ complete |
@@ -82,3 +82,23 @@ c. AD 200–250. The audit checked:
 Related consistency work done during this audit, site-wide: every featured Journey work now appears exactly once in
 the Collection (54 were added) and links to its Collection entry and Map point; all 983 works before AD 1000 were
 individually placed on the map where they were made.
+
+## 2nd century — ✅ extreme deep-dive audit complete
+
+**Finding:** no depiction of Christ with a free image is securely dated before c. AD 200; everything that survives
+clusters around 200 (late 2nd–early 3rd century). The century (sort years 101–200, so "c. 200" belongs here, "early
+3rd century" does not) now holds **3 works**: the Alexamenos graffito, the Baptism of Christ in the Crypts of Lucina,
+and the Lucina ceiling with Daniel and the Good Shepherd.
+
+- **Corrected identifications and dates:** the Domitilla "Good Shepherd" (commons:508911) is a crop of a mid-4th-century
+  lunette (Wilpert pl. 117), wrongly dated "200" on Commons — moved to the 4th century with the full lunette; the
+  "Lucina, plate 35" Good Shepherd is actually Wilpert pl. 35,1 in the Catacomb of Priscilla (mid-4th century) — moved
+  and relocated; the Priscilla Virgin and Child with a prophet refined to c. 230–240.
+- **Lucina Baptism:** a dove is clearly painted (the old note said otherwise), supporting the traditional reading as the
+  Baptism of Christ; now **featured in the Journey**, identical in Journey, Collection and Map.
+- **Added:** the Lucina ceiling (Daniel and two Good Shepherds, c. 200); the La Gayole (Syagria) sarcophagus,
+  late 2nd–mid 3rd century, flagged as an uncertain identification (sorted in the 3rd century).
+- **Considered and not added:** the British Museum (Pereire) crucifixion gem — a genuine 2nd–3rd-century candidate,
+  but no freely licensed image exists; the Constanța carnelian (4th c.); the Annius Serapiodorus Good Shepherd lamps
+  (early 3rd c., no free photograph); the Capella Greca, Velatio, Chambers of the Sacraments, Praetextatus and Dura-Europos
+  paintings (3rd century); the Megiddo mosaic, Abercius inscription and Licinia Amias stele (no depiction of Christ).

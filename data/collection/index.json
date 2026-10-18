@@ -1,11 +1,11 @@
 {
  "generated": "2026-10-18",
- "total": 69429,
- "checked": 1247,
+ "total": 69431,
+ "checked": 1249,
  "centuries": [
   {
    "century": "2",
-   "count": 4
+   "count": 3
   },
   {
    "century": "3",
@@ -13,7 +13,7 @@
   },
   {
    "century": "4",
-   "count": 123
+   "count": 126
   },
   {
    "century": "5",
@@ -263,7 +263,7 @@
   ],
   [
    "Good Shepherd",
-   217
+   219
   ],
   [
    "Mocking of Christ",
@@ -685,7 +685,7 @@
   ],
   [
    "fresco",
-   445
+   446
   ],
   [
    "ivory",
@@ -737,7 +737,7 @@
   ],
   [
    "sarcophagus",
-   95
+   96
   ],
   [
    "group of sculptures",

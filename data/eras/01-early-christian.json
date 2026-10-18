@@ -6,7 +6,7 @@
     "date": "3rd century",
     "year": 250,
     "created": "Rome, Italy",
-    "location": "Catacomb of Callixtus, Via Appia Antica, Rome (in situ)",
+    "location": "Crypts of Lucina area (near the tomb of Pope Cornelius), Catacomb of Callixtus, Rome (in situ)",
     "medium": "Fresco (wall painting on plaster)",
     "form": "Fresco",
     "style": "Early Christian (Roman catacomb painting)",
@@ -20,9 +20,18 @@
     "scripture": "John 10:11–16; Luke 15:3–7",
     "commons": "File:Good Shepherd (Callisto catacomb).jpg",
     "links": [
-      {"label": "Wikipedia: Catacomb of Callixtus", "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"},
-      {"label": "Wikipedia: Good Shepherd", "url": "https://en.wikipedia.org/wiki/Good_Shepherd"},
-      {"label": "Catacombs of St. Callixtus (official site)", "url": "https://www.catacombe.roma.it/"}
+      {
+        "label": "Wikipedia: Catacomb of Callixtus",
+        "url": "https://en.wikipedia.org/wiki/Catacomb_of_Callixtus"
+      },
+      {
+        "label": "Wikipedia: Good Shepherd",
+        "url": "https://en.wikipedia.org/wiki/Good_Shepherd"
+      },
+      {
+        "label": "Catacombs of St. Callixtus (official site)",
+        "url": "https://www.catacombe.roma.it/"
+      }
     ]
   },
   {
@@ -46,8 +55,14 @@
     "scripture": "Mark 2:1–12",
     "commons": "File:Christ Healing the Paralytic - Dura-Europos circa 232.jpg",
     "links": [
-      {"label": "Wikipedia: Dura-Europos church", "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"},
-      {"label": "Wikipedia: Dura-Europos", "url": "https://en.wikipedia.org/wiki/Dura-Europos"}
+      {
+        "label": "Wikipedia: Dura-Europos church",
+        "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+      },
+      {
+        "label": "Wikipedia: Dura-Europos",
+        "url": "https://en.wikipedia.org/wiki/Dura-Europos"
+      }
     ]
   },
   {
@@ -71,8 +86,14 @@
     "scripture": "Malachi 4:2; John 8:12",
     "commons": "File:Christus Sol Invictus.jpeg",
     "links": [
-      {"label": "Wikipedia: Tomb of the Julii", "url": "https://en.wikipedia.org/wiki/Tomb_of_the_Julii"},
-      {"label": "Vatican Excavations Office (Scavi)", "url": "https://www.scavi.va/"}
+      {
+        "label": "Wikipedia: Tomb of the Julii",
+        "url": "https://en.wikipedia.org/wiki/Tomb_of_the_Julii"
+      },
+      {
+        "label": "Vatican Excavations Office (Scavi)",
+        "url": "https://www.scavi.va/"
+      }
     ]
   },
   {
@@ -95,8 +116,14 @@
     ],
     "commons": "File:Hinton St Mary central roundel mosaic.jpg",
     "links": [
-      {"label": "Wikipedia: Hinton St Mary Mosaic", "url": "https://en.wikipedia.org/wiki/Hinton_St_Mary_Mosaic"},
-      {"label": "British Museum collection", "url": "https://www.britishmuseum.org/collection/object/H_1965-0409-1"}
+      {
+        "label": "Wikipedia: Hinton St Mary Mosaic",
+        "url": "https://en.wikipedia.org/wiki/Hinton_St_Mary_Mosaic"
+      },
+      {
+        "label": "British Museum collection",
+        "url": "https://www.britishmuseum.org/collection/object/H_1965-0409-1"
+      }
     ]
   },
   {
@@ -120,7 +147,10 @@
     "scripture": "Matthew 21:1–11; Matthew 27:11–26",
     "commons": "File:Tesoro di san pietro, sarcofago di giunio basso.JPG",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sarcophagus_of_Junius_Bassus"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sarcophagus_of_Junius_Bassus"
+      }
     ]
   },
   {
@@ -144,7 +174,10 @@
     "scripture": "Revelation 22:13",
     "commons": "File:· Arte Paleocristiano · Pintura mural de Jesús Cristo · Catacumbas de Comodila, Roma · s. IV d. JC.jpg",
     "links": [
-      {"label": "Wikipedia: Catacombs of Commodilla", "url": "https://en.wikipedia.org/wiki/Catacombs_of_Commodilla"}
+      {
+        "label": "Wikipedia: Catacombs of Commodilla",
+        "url": "https://en.wikipedia.org/wiki/Catacombs_of_Commodilla"
+      }
     ]
   },
   {
@@ -168,7 +201,10 @@
     "scripture": "Revelation 4:1–8",
     "commons": "File:Apsis mosaic, Santa Pudenziana, Rome W2.JPG",
     "links": [
-      {"label": "Wikipedia: Santa Pudenziana", "url": "https://en.wikipedia.org/wiki/Santa_Pudenziana"}
+      {
+        "label": "Wikipedia: Santa Pudenziana",
+        "url": "https://en.wikipedia.org/wiki/Santa_Pudenziana"
+      }
     ]
   },
   {
@@ -192,7 +228,10 @@
     "scripture": "Luke 23:32–33",
     "commons": "File:Battenti in cipresso di santa sabina, V secolo, 01 crocifissione 2.jpg",
     "links": [
-      {"label": "Wikipedia: Santa Sabina", "url": "https://en.wikipedia.org/wiki/Santa_Sabina"}
+      {
+        "label": "Wikipedia: Santa Sabina",
+        "url": "https://en.wikipedia.org/wiki/Santa_Sabina"
+      }
     ]
   },
   {
@@ -216,8 +255,14 @@
     "scripture": "John 10:11–16",
     "commons": "File:Lunette of the Good Shepherd in the Mausoleum of Galla Placidia, 425-50; Ravenna (1).jpg",
     "links": [
-      {"label": "Wikipedia: Mausoleum of Galla Placidia", "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Galla_Placidia"},
-      {"label": "UNESCO: Early Christian Monuments of Ravenna", "url": "https://whc.unesco.org/en/list/788/"}
+      {
+        "label": "Wikipedia: Mausoleum of Galla Placidia",
+        "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Galla_Placidia"
+      },
+      {
+        "label": "UNESCO: Early Christian Monuments of Ravenna",
+        "url": "https://whc.unesco.org/en/list/788/"
+      }
     ]
   },
   {
@@ -241,8 +286,14 @@
     "scripture": "Matthew 3:13–17",
     "commons": "File:Baptistry of Neon ceiling mosaic (Ravenna).jpg",
     "links": [
-      {"label": "Wikipedia: Baptistery of Neon", "url": "https://en.wikipedia.org/wiki/Baptistery_of_Neon"},
-      {"label": "UNESCO: Early Christian Monuments of Ravenna", "url": "https://whc.unesco.org/en/list/788/"}
+      {
+        "label": "Wikipedia: Baptistery of Neon",
+        "url": "https://en.wikipedia.org/wiki/Baptistery_of_Neon"
+      },
+      {
+        "label": "UNESCO: Early Christian Monuments of Ravenna",
+        "url": "https://whc.unesco.org/en/list/788/"
+      }
     ]
   },
   {
@@ -266,8 +317,14 @@
     "scripture": "Psalm 91:13; John 14:6",
     "commons": "File:Christ treading the beasts - Chapel of Saint Andrew - Ravenna 2016.jpg",
     "links": [
-      {"label": "Wikipedia: Archbishop's Chapel", "url": "https://en.wikipedia.org/wiki/Archbishop%27s_Chapel"},
-      {"label": "UNESCO: Early Christian Monuments of Ravenna", "url": "https://whc.unesco.org/en/list/788/"}
+      {
+        "label": "Wikipedia: Archbishop's Chapel",
+        "url": "https://en.wikipedia.org/wiki/Archbishop%27s_Chapel"
+      },
+      {
+        "label": "UNESCO: Early Christian Monuments of Ravenna",
+        "url": "https://whc.unesco.org/en/list/788/"
+      }
     ]
   },
   {
@@ -290,8 +347,14 @@
     ],
     "commons": "File:Christ and angels mosaic - Sant'Apollinare Nuovo - Ravenna 2016.jpg",
     "links": [
-      {"label": "Wikipedia: Basilica of Sant'Apollinare Nuovo", "url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Apollinare_Nuovo"},
-      {"label": "UNESCO: Early Christian Monuments of Ravenna", "url": "https://whc.unesco.org/en/list/788/"}
+      {
+        "label": "Wikipedia: Basilica of Sant'Apollinare Nuovo",
+        "url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Apollinare_Nuovo"
+      },
+      {
+        "label": "UNESCO: Early Christian Monuments of Ravenna",
+        "url": "https://whc.unesco.org/en/list/788/"
+      }
     ]
   },
   {
@@ -315,8 +378,14 @@
     "scripture": "Revelation 5:1",
     "commons": "File:Christ enthroned flanked by Bishop Ecclesius and St Vitalis on the vault of the apse, Basilica of San Vitale, Ravenna, Italy - 23745632093.jpg",
     "links": [
-      {"label": "Wikipedia: Basilica of San Vitale", "url": "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"},
-      {"label": "UNESCO: Early Christian Monuments of Ravenna", "url": "https://whc.unesco.org/en/list/788/"}
+      {
+        "label": "Wikipedia: Basilica of San Vitale",
+        "url": "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"
+      },
+      {
+        "label": "UNESCO: Early Christian Monuments of Ravenna",
+        "url": "https://whc.unesco.org/en/list/788/"
+      }
     ]
   },
   {
@@ -339,8 +408,14 @@
     ],
     "commons": "File:CHRIST PANTOCRATOR-SINAI(6th Century).jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator_(Sinai)"},
-      {"label": "Wikipedia: Saint Catherine's Monastery", "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christ_Pantocrator_(Sinai)"
+      },
+      {
+        "label": "Wikipedia: Saint Catherine's Monastery",
+        "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"
+      }
     ]
   },
   {
@@ -364,8 +439,14 @@
     "scripture": "Matthew 17:1–9",
     "commons": "File:Transfiguration-Sinai.jpg",
     "links": [
-      {"label": "Wikipedia: Saint Catherine's Monastery", "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"},
-      {"label": "Wikipedia: Transfiguration of Jesus in Christian art", "url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus_in_Christian_art"}
+      {
+        "label": "Wikipedia: Saint Catherine's Monastery",
+        "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"
+      },
+      {
+        "label": "Wikipedia: Transfiguration of Jesus in Christian art",
+        "url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus_in_Christian_art"
+      }
     ]
   },
   {
@@ -388,8 +469,14 @@
     ],
     "commons": "File:Kristus a svatý Menas.jpg",
     "links": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Icon_of_Christ_and_Abbot_Mena"},
-      {"label": "Louvre collection", "url": "https://collections.louvre.fr/ark:/53355/cl010048163"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Icon_of_Christ_and_Abbot_Mena"
+      },
+      {
+        "label": "Louvre collection",
+        "url": "https://collections.louvre.fr/ark:/53355/cl010048163"
+      }
     ]
   },
   {
@@ -413,7 +500,10 @@
     "scripture": "John 19:16–37; Matthew 28:1–10",
     "commons": "File:Vangeli di Rabbula, Biblioteca Medicea Laurenziana, Cod. Plut. I, 56, fol. 13r.jpg",
     "links": [
-      {"label": "Wikipedia: Rabbula Gospels", "url": "https://en.wikipedia.org/wiki/Rabbula_Gospels"}
+      {
+        "label": "Wikipedia: Rabbula Gospels",
+        "url": "https://en.wikipedia.org/wiki/Rabbula_Gospels"
+      }
     ]
   }
 ]

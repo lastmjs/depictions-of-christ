@@ -1374,5 +1374,11 @@
   "key": "Q805442",
   "duplicates": [],
   "note": "Same statue, Świebodzin."
+ },
+ "lucina-baptism-of-christ": {
+  "action": "match",
+  "key": "cur:catacombs-lucina-baptism",
+  "duplicates": [],
+  "note": "2nd-century deep-dive audit: featured"
  }
 }

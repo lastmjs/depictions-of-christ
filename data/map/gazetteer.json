@@ -346,6 +346,13 @@
 "name": "Amsterdam",
 "pid": "Q727"
 },
+"Amsterdam, Dutch Republic": {
+"kind": "settlement",
+"lat": 52.366667,
+"lon": 4.883333,
+"name": "Amsterdam",
+"pid": "Q727"
+},
 "Amsterdam, North Netherlands": {
 "kind": "settlement",
 "lat": 52.366667,
@@ -717,6 +724,13 @@
 "pid": "Q727277"
 },
 "Assisi": {
+"kind": "settlement",
+"lat": 43.070812,
+"lon": 12.614998,
+"name": "Assisi",
+"pid": "Q20103"
+},
+"Assisi, Italy": {
 "kind": "settlement",
 "lat": 43.070812,
 "lon": 12.614998,
@@ -1798,6 +1812,20 @@
 "name": "Bolzano",
 "pid": "Q6526"
 },
+"Bonn": {
+"kind": "settlement",
+"lat": 50.735278,
+"lon": 7.102222,
+"name": "Bonn",
+"pid": "Q586"
+},
+"Bonn, Germany": {
+"kind": "settlement",
+"lat": 50.735278,
+"lon": 7.102222,
+"name": "Bonn",
+"pid": "Q586"
+},
 "Borgo Stretto, Pisa": {
 "kind": "site",
 "lat": 43.71743,
@@ -1871,13 +1899,6 @@
 "name": "Bristol",
 "src": "osm"
 },
-"Britain": {
-"kind": "settlement",
-"lat": 53.833333,
-"lon": -2.416667,
-"name": "Great Britain",
-"pid": "Q23666"
-},
 "British Museum": {
 "kind": "site",
 "lat": 51.519444,
@@ -1916,6 +1937,14 @@
 "name": "Bruges",
 "src": "osm"
 },
+"Bruges, Flanders": {
+"approx": "city",
+"kind": "settlement",
+"lat": 51.0,
+"lon": 4.5,
+"name": "Flanders",
+"pid": "Q234"
+},
 "Brukenthal National Museum": {
 "kind": "site",
 "lat": 45.7965,
@@ -1940,6 +1969,13 @@
 "pid": "Q239"
 },
 "Brussels, Netherlands": {
+"kind": "settlement",
+"lat": 50.846667,
+"lon": 4.351667,
+"name": "Brussels",
+"pid": "Q239"
+},
+"Brussels, Southern Netherlands": {
 "kind": "settlement",
 "lat": 50.846667,
 "lon": 4.351667,
@@ -2053,6 +2089,22 @@
 "museum": true,
 "name": "Byzantine and Christian Museum",
 "pid": "Q1018775"
+},
+"Byzantine style": {
+"kind": "site",
+"lat": 51.522902,
+"lon": -0.028107,
+"museum": false,
+"name": "Site of Byzantine-style Dissenters Chapel",
+"src": "osm"
+},
+"Byzantine world, uncertain": {
+"approx": "city",
+"kind": "settlement",
+"lat": 32.71,
+"lon": -94.1219,
+"name": "Uncertain",
+"pid": "Q969536"
 },
 "Byzantium, Russia, Moscow": {
 "approx": "city",
@@ -4528,6 +4580,13 @@
 "name": "Ivory",
 "pid": "Q579103"
 },
+"Constantinople, or Alexandria": {
+"kind": "settlement",
+"lat": 41.01224,
+"lon": 28.976018,
+"name": "Constantinople",
+"pid": "Q16869"
+},
 "Constanța Art Museum": {
 "kind": "site",
 "lat": 44.179068,
@@ -4697,6 +4756,13 @@
 "pid": "Q23800"
 },
 "Copenhagen": {
+"kind": "settlement",
+"lat": 55.676111,
+"lon": 12.568889,
+"name": "Copenhagen",
+"pid": "Q1748"
+},
+"Copenhagen, Denmark": {
 "kind": "settlement",
 "lat": 55.676111,
 "lon": 12.568889,
@@ -4952,6 +5018,13 @@
 "name": "Marseille",
 "pid": "Q23482"
 },
+"Cuba": {
+"kind": "settlement",
+"lat": 38.15,
+"lon": -7.883333,
+"name": "Cuba",
+"pid": "Q552580"
+},
 "Cubiculum of the 'Pecorelle', Catacomb of Callixtus, Via Appia, Rome": {
 "approx": "city",
 "kind": "settlement",
@@ -4981,6 +5054,20 @@
 "lon": -3.25,
 "name": "Cumbria",
 "pid": "Q23066"
+},
+"Cusco": {
+"kind": "settlement",
+"lat": -13.516944,
+"lon": -71.978611,
+"name": "Cusco",
+"pid": "Q5582862"
+},
+"Cusco, Viceroyalty of Peru": {
+"kind": "settlement",
+"lat": -13.516944,
+"lon": -71.978611,
+"name": "Cusco",
+"pid": "Q5582862"
 },
 "Dalmatia": {
 "kind": "settlement",
@@ -5321,6 +5408,20 @@
 "name": "Drumcliff",
 "src": "osm"
 },
+"Duchy of Lorraine": {
+"kind": "region",
+"lat": 48.692778,
+"lon": 6.183611,
+"name": "Duchy of Lorraine",
+"pid": "Q155019"
+},
+"Duchy of Milan": {
+"kind": "region",
+"lat": 45.466669,
+"lon": 9.166669,
+"name": "Duchy of Milan",
+"pid": "Q153529"
+},
 "Duchy of Urbino": {
 "kind": "region",
 "lat": 43.716667,
@@ -5349,6 +5450,20 @@
 "lon": -3.608,
 "name": "Dumfries and Galloway",
 "pid": "Q3336017"
+},
+"Dunhuang": {
+"kind": "region",
+"lat": 40.141111,
+"lon": 94.663889,
+"name": "Dunhuang",
+"pid": "Q319114"
+},
+"Dunhuang, China": {
+"kind": "region",
+"lat": 40.141111,
+"lon": 94.663889,
+"name": "Dunhuang",
+"pid": "Q319114"
 },
 "Duoma, Lucca": {
 "approx": "city",
@@ -5479,6 +5594,22 @@
 "lon": 40.73,
 "name": "Dura-Europos",
 "pid": "Q464266"
+},
+"Dura-Europos, Syria": {
+"kind": "site",
+"lat": 34.747701,
+"lon": 40.730462,
+"museum": false,
+"name": "Dura-Europos",
+"src": "osm"
+},
+"Dura-Europos, Syria, on the Euphrates": {
+"kind": "site",
+"lat": 34.747366,
+"lon": 40.730727,
+"museum": false,
+"name": "Temple of Gadde, Dura-Europos, Syria",
+"pid": "Q56293409"
 },
 "Durrow Abbey": {
 "kind": "site",
@@ -6513,6 +6644,13 @@
 "name": "Ghent",
 "pid": "Q1296"
 },
+"Girona": {
+"kind": "region",
+"lat": 41.983333,
+"lon": 2.816667,
+"name": "Girona",
+"pid": "Q7038"
+},
 "Gisors": {
 "kind": "settlement",
 "lat": 49.280556,
@@ -6577,6 +6715,21 @@
 "lon": -3.599534,
 "name": "Granada",
 "src": "osm"
+},
+"Grand Duchy of Moscow": {
+"kind": "region",
+"lat": 55.750556,
+"lon": 37.6175,
+"name": "Grand Principality of Moscow",
+"pid": "Q170770"
+},
+"Grand Duchy of Moscow, Zvenigorod": {
+"approx": "city",
+"kind": "settlement",
+"lat": 55.733333,
+"lon": 36.85,
+"name": "Zvenigorod",
+"pid": "Q136834"
 },
 "Graubünden": {
 "kind": "region",
@@ -6796,6 +6949,13 @@
 "name": "Hausdülmen",
 "pid": "Q1414098"
 },
+"Haute-Savoie": {
+"kind": "region",
+"lat": 46.0,
+"lon": 6.333333,
+"name": "Haute-Savoie",
+"pid": "Q12751"
+},
 "Hautvillers": {
 "kind": "settlement",
 "lat": 49.084167,
@@ -6916,6 +7076,20 @@
 "name": "Hildesheim",
 "pid": "Q3185"
 },
+"Hinton St Mary": {
+"kind": "settlement",
+"lat": 50.945,
+"lon": -2.305,
+"name": "Hinton St Mary",
+"pid": "Q1770969"
+},
+"Hinton St Mary, Dorset, Roman Britain": {
+"kind": "settlement",
+"lat": 50.945,
+"lon": -2.305,
+"name": "Hinton St Mary",
+"pid": "Q1770969"
+},
 "Historical Museum in Sanok": {
 "kind": "site",
 "lat": 49.5615,
@@ -7026,6 +7200,13 @@
 "museum": false,
 "name": "Hällestad Church",
 "pid": "Q10531402"
+},
+"Hérault": {
+"kind": "region",
+"lat": 43.610919,
+"lon": 3.877231,
+"name": "Hérault",
+"pid": "Q12545"
 },
 "Ieper": {
 "kind": "settlement",
@@ -7420,6 +7601,13 @@
 "lon": -7.921,
 "name": "Ireland",
 "pid": "Q22890"
+},
+"Isenheim": {
+"kind": "settlement",
+"lat": 47.9025,
+"lon": 7.253889,
+"name": "Issenheim",
+"pid": "Q83251"
 },
 "Isfahan": {
 "kind": "settlement",
@@ -7824,6 +8012,20 @@
 "name": "Kingdom of Candia",
 "pid": "Q2288441"
 },
+"Kingdom of Galicia": {
+"kind": "region",
+"lat": 42.8825,
+"lon": -8.541111,
+"name": "Kingdom of Galicia",
+"pid": "Q303421"
+},
+"Kingdom of Galicia and Lodomeria": {
+"kind": "region",
+"lat": 49.841889,
+"lon": 24.0315,
+"name": "Kingdom of Galicia and Lodomeria",
+"pid": "Q2396442"
+},
 "Kingdom of Kongo": {
 "kind": "region",
 "lat": -6.266667,
@@ -8032,6 +8234,13 @@
 "lon": -66.855833,
 "name": "La Rioja",
 "pid": "Q44236"
+},
+"La Roche-sur-Foron": {
+"kind": "settlement",
+"lat": 46.066944,
+"lon": 6.311944,
+"name": "La Roche-sur-Foron",
+"pid": "Q164339"
 },
 "Laberweinting": {
 "kind": "settlement",
@@ -8482,6 +8691,21 @@
 "name": "Lorraine",
 "pid": "Q142162"
 },
+"Lotharingia": {
+"kind": "region",
+"lat": 48.6,
+"lon": 6.487222,
+"name": "Lorraine",
+"pid": "Q1137"
+},
+"Lotharingia, Metz": {
+"approx": "city",
+"kind": "settlement",
+"lat": 49.119722,
+"lon": 6.176944,
+"name": "Metz",
+"pid": "Q22690"
+},
 "Louvain": {
 "kind": "site",
 "lat": -46.397697,
@@ -8684,6 +8908,20 @@
 "name": "Lungau",
 "pid": "Q4255352"
 },
+"Lunéville": {
+"kind": "settlement",
+"lat": 48.589444,
+"lon": 6.501667,
+"name": "Lunéville",
+"pid": "Q208794"
+},
+"Lunéville, Duchy of Lorraine": {
+"kind": "settlement",
+"lat": 48.589444,
+"lon": 6.501667,
+"name": "Lunéville",
+"pid": "Q208794"
+},
 "Lyon": {
 "kind": "settlement",
 "lat": 45.7675,
@@ -8749,6 +8987,13 @@
 "pid": "Q2044"
 },
 "Madrid": {
+"kind": "settlement",
+"lat": 40.416782,
+"lon": -3.703507,
+"name": "Madrid",
+"src": "osm"
+},
+"Madrid, Spain": {
 "kind": "settlement",
 "lat": 40.416782,
 "lon": -3.703507,
@@ -8821,6 +9066,13 @@
 "lon": 4.480278,
 "name": "Mechelen",
 "pid": "Q162022"
+},
+"Mallorca": {
+"kind": "settlement",
+"lat": 39.616667,
+"lon": 2.983333,
+"name": "Mallorca",
+"pid": "Q8828"
 },
 "Mannheim": {
 "kind": "settlement",
@@ -9057,6 +9309,13 @@
 "lon": -1.602803,
 "name": "Derbyshire",
 "pid": "Q67393503"
+},
+"Messina": {
+"kind": "settlement",
+"lat": 38.193611,
+"lon": 15.554167,
+"name": "Messina",
+"pid": "Q13666"
 },
 "Metropolitan Cathedral of Quito, Ecuador": {
 "kind": "site",
@@ -9444,6 +9703,13 @@
 "pid": "Q3992"
 },
 "Moscow": {
+"kind": "settlement",
+"lat": 55.750556,
+"lon": 37.6175,
+"name": "Moscow",
+"pid": "Q649"
+},
+"Moscow, Russian Empire": {
 "kind": "settlement",
 "lat": 55.750556,
 "lon": 37.6175,
@@ -10522,6 +10788,13 @@
 "name": "Narbonne",
 "pid": "Q6555"
 },
+"Narbonne, cloister of the cathedral of Saint-Just": {
+"kind": "settlement",
+"lat": 43.184722,
+"lon": 3.003611,
+"name": "Narbonne",
+"pid": "Q6555"
+},
 "National Gallery of Art": {
 "kind": "site",
 "lat": 38.891389,
@@ -11066,6 +11339,13 @@
 "name": "Northumbria",
 "pid": "Q103855646"
 },
+"Northumbria, England": {
+"kind": "region",
+"lat": 55.0,
+"lon": -2.5,
+"name": "Kingdom of Northumbria",
+"pid": "Q107299"
+},
 "Notre-Dame": {
 "kind": "settlement",
 "lat": 41.700278,
@@ -11418,6 +11698,13 @@
 "name": "Ostrogothic Kingdom",
 "pid": "Q583038"
 },
+"Ottoman Syria": {
+"kind": "region",
+"lat": 34.0,
+"lon": 37.0,
+"name": "Ottoman Syria",
+"pid": "Q3076765"
+},
 "Ottonian, Italy, Milan": {
 "approx": "city",
 "kind": "settlement",
@@ -11470,6 +11757,22 @@
 "lon": 11.873333,
 "name": "Padua",
 "pid": "Q617"
+},
+"Paedagogium": {
+"kind": "site",
+"lat": 41.8877,
+"lon": 12.4854,
+"museum": false,
+"name": "Paedagogium",
+"pid": "Q1227764"
+},
+"Paedagogium, Palatine Hill, Rome": {
+"approx": "city",
+"kind": "settlement",
+"lat": 41.893056,
+"lon": 12.482778,
+"name": "Rome",
+"pid": "Q220"
 },
 "Palace School of Charles the Bald, Saint-Denis": {
 "approx": "city",
@@ -11643,6 +11946,13 @@
 "pid": "Q90"
 },
 "Paris, France": {
+"kind": "settlement",
+"lat": 48.856667,
+"lon": 2.352222,
+"name": "Paris",
+"pid": "Q90"
+},
+"Paris, France, after studies in the Holy Land": {
 "kind": "settlement",
 "lat": 48.856667,
 "lon": 2.352222,
@@ -12457,6 +12767,14 @@
 "name": "Rembrandt",
 "pid": "Q990960"
 },
+"Republic of Siena": {
+"kind": "site",
+"lat": 1.320892,
+"lon": 103.811647,
+"museum": false,
+"name": "The Siena",
+"src": "osm"
+},
 "Republic of Venice": {
 "kind": "region",
 "lat": 45.583,
@@ -12681,6 +12999,13 @@
 "name": "Palazzo delle Province romagnole",
 "pid": "Q128909095"
 },
+"Roman Britain": {
+"kind": "region",
+"lat": 52.22,
+"lon": -0.57,
+"name": "Roman Britain",
+"pid": "Q185103"
+},
 "Roman Empire": {
 "kind": "region",
 "lat": 41.9,
@@ -12871,6 +13196,13 @@
 "lon": 8.197281,
 "name": "Ruppertsberg",
 "pid": "Q617940"
+},
+"Rus'": {
+"kind": "settlement",
+"lat": 43.157569,
+"lon": -8.669916,
+"name": "Rus",
+"pid": "Q10992701"
 },
 "Rusland": {
 "kind": "settlement",
@@ -13163,6 +13495,21 @@
 "lon": 2.352222,
 "name": "Paris",
 "pid": "Q90"
+},
+"Saint-Génis-des-Fontaines": {
+"kind": "settlement",
+"lat": 42.541667,
+"lon": 2.921944,
+"name": "Saint-Génis-des-Fontaines",
+"pid": "Q752157"
+},
+"Saint-Génis-des-Fontaines, Roussillon": {
+"approx": "city",
+"kind": "settlement",
+"lat": 43.902222,
+"lon": 5.292778,
+"name": "Roussillon",
+"pid": "Q321139"
 },
 "Saint-Pierre-le-Jeune Protestant Church, Strasbourg (Nave)": {
 "approx": "city",
@@ -13742,6 +14089,13 @@
 "lon": -81.375,
 "name": "Canton",
 "pid": "Q491239"
+},
+"Sansepolcro": {
+"kind": "settlement",
+"lat": 43.575556,
+"lon": 12.143889,
+"name": "Sansepolcro",
+"pid": "Q52098"
 },
 "Sant'Agostino": {
 "kind": "region",
@@ -14582,6 +14936,13 @@
 "name": "Seville",
 "src": "osm"
 },
+"Seville, Spain": {
+"kind": "settlement",
+"lat": 37.38863,
+"lon": -5.99534,
+"name": "Seville",
+"src": "osm"
+},
 "Shirak": {
 "kind": "settlement",
 "lat": 40.848056,
@@ -14602,6 +14963,14 @@
 "lon": -2.754444,
 "name": "Shropshire",
 "pid": "Q21694759"
+},
+"Sicily, Italy, Messina": {
+"approx": "city",
+"kind": "settlement",
+"lat": 38.193611,
+"lon": 15.554167,
+"name": "Messina",
+"pid": "Q13666"
 },
 "Siechenkapelle St. Lazarus (Neuruppin)": {
 "kind": "site",
@@ -15088,6 +15457,14 @@
 "name": "Auch",
 "pid": "Q181725"
 },
+"Southern Song dynasty": {
+"kind": "site",
+"lat": 29.936155,
+"lon": 120.696339,
+"museum": false,
+"name": "Six Mausoleums of the Southern Song Dynasty",
+"pid": "Q10907407"
+},
 "Spanish School": {
 "kind": "site",
 "lat": 44.016484,
@@ -15269,6 +15646,20 @@
 "lon": 6.600556,
 "name": "Rheinberg",
 "pid": "Q16086"
+},
+"St Petersburg": {
+"kind": "settlement",
+"lat": 27.773056,
+"lon": -82.64,
+"name": "St. Petersburg",
+"pid": "Q49236"
+},
+"St Petersburg, Russia": {
+"kind": "settlement",
+"lat": 27.773056,
+"lon": -82.64,
+"name": "St. Petersburg",
+"pid": "Q49236"
 },
 "St Roch, Paris": {
 "approx": "city",
@@ -15991,6 +16382,13 @@
 "name": "Tatarstan State Museum of Fine Arts",
 "pid": "Q4146878"
 },
+"Taüll": {
+"kind": "settlement",
+"lat": 42.519458,
+"lon": 0.848606,
+"name": "Taüll",
+"pid": "Q3781620"
+},
 "Teheran": {
 "kind": "settlement",
 "lat": 40.224488,
@@ -16211,6 +16609,13 @@
 "name": "Tournai",
 "pid": "Q51462855"
 },
+"Tournai, Southern Netherlands": {
+"kind": "settlement",
+"lat": 50.606897,
+"lon": 3.389606,
+"name": "Tournai",
+"pid": "Q51462855"
+},
 "Tours": {
 "kind": "settlement",
 "lat": 47.392778,
@@ -16285,6 +16690,13 @@
 "name": "Trier",
 "pid": "Q3138"
 },
+"Trier, Southwestern Germany": {
+"kind": "settlement",
+"lat": 49.75565,
+"lon": 6.63935,
+"name": "Trier",
+"pid": "Q3138"
+},
 "Trillbergkapelle (Bad Mergentheim)": {
 "kind": "site",
 "lat": 49.48505,
@@ -16292,6 +16704,14 @@
 "museum": false,
 "name": "Trillbergkapelle",
 "pid": "Q96748095"
+},
+"Trinity Lavra of St. Sergius": {
+"kind": "site",
+"lat": 56.31035,
+"lon": 38.13065,
+"museum": false,
+"name": "Trinity Lavra of St. Sergius",
+"pid": "Q211962"
 },
 "Triumphal arch": {
 "kind": "site",
@@ -16864,6 +17284,13 @@
 "name": "Viceroyalty of New Granada",
 "pid": "Q8965"
 },
+"Viceroyalty of Peru": {
+"kind": "region",
+"lat": -12.06,
+"lon": -77.0375,
+"name": "Viceroyalty of Peru",
+"pid": "Q211435"
+},
 "Victoria and Albert Museum": {
 "kind": "site",
 "lat": 51.49685,
@@ -17378,6 +17805,13 @@
 "name": "Harderwijk",
 "pid": "Q58931"
 },
+"Zvenigorod": {
+"kind": "settlement",
+"lat": 55.733333,
+"lon": 36.85,
+"name": "Zvenigorod",
+"pid": "Q136834"
+},
 "Zwei Wegkapellen (Biberbach)": {
 "kind": "site",
 "lat": 49.06169,
@@ -17446,13 +17880,6 @@
 "lon": -2.252197,
 "name": "Box",
 "pid": "Q895512"
-},
-"britain": {
-"kind": "settlement",
-"lat": 53.833333,
-"lon": -2.416667,
-"name": "Great Britain",
-"pid": "Q23666"
 },
 "cathedrals": {
 "kind": "site",
@@ -17580,6 +18007,14 @@
 "name": "Half Dome",
 "pid": "Q925252"
 },
+"elsewhere": {
+"kind": "site",
+"lat": 40.709444,
+"lon": -73.923194,
+"museum": false,
+"name": "Elsewhere",
+"pid": "Q108376909"
+},
 "entrance wall)": {
 "kind": "site",
 "lat": 44.144557,
@@ -17602,6 +18037,14 @@
 "museum": false,
 "name": "Souvenirs from Mahmoud",
 "src": "osm"
+},
+"gold plaque": {
+"kind": "site",
+"lat": 44.273369,
+"lon": 9.989835,
+"museum": false,
+"name": "Plaque granted by the Gold Medal V.M. to the Province of Massa Carrara",
+"pid": "Q111610485"
 },
 "historical region": {
 "kind": "site",
@@ -17785,6 +18228,13 @@
 "museum": false,
 "name": "Triumphal Arch",
 "src": "osm"
+},
+"uncertain": {
+"kind": "settlement",
+"lat": 32.71,
+"lon": -94.1219,
+"name": "Uncertain",
+"pid": "Q969536"
 },
 "upper chapel": {
 "kind": "settlement",

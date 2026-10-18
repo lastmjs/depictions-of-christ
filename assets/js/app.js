@@ -367,6 +367,12 @@
   }
 
   function applyZoom() {
+    // keep the zoomed image covering the view: no panning past its edges
+    const sw = lb.stage.clientWidth, sh = lb.stage.clientHeight;
+    const iw = lb.img.offsetWidth * lb.scale, ih = lb.img.offsetHeight * lb.scale;
+    const mx = Math.max(0, (iw - sw) / 2), my = Math.max(0, (ih - sh) / 2);
+    lb.x = Math.min(mx, Math.max(-mx, lb.x));
+    lb.y = Math.min(my, Math.max(-my, lb.y));
     lb.img.style.transform = `translate(${lb.x}px, ${lb.y}px) scale(${lb.scale})`;
   }
   function resetZoom() {
@@ -400,46 +406,47 @@
       if (lb.scale > 1) resetZoom(); else zoomAt(2.5, e.clientX, e.clientY);
     });
 
-    const pointers = new Map();
-    let last = null, pinch = null, moved = false;
+    // Pointer gestures: one finger/mouse pans when zoomed; two fingers pinch-zoom and pan together.
+    const pointers = new Map(); // pointerId -> {x, y}
+    let pinch = null;           // {d, mx, my} at the previous pinch frame
+    let moved = false, gestured = false;
+    const pinchState = () => {
+      const [a, b] = [...pointers.values()];
+      return { d: Math.hypot(a.x - b.x, a.y - b.y), mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
+    };
     lb.stage.addEventListener("pointerdown", (e) => {
       lb.stage.setPointerCapture(e.pointerId);
-      pointers.set(e.pointerId, e);
-      last = { x: e.clientX, y: e.clientY };
-      moved = false;
-      if (pointers.size === 2) {
-        const [a, b] = [...pointers.values()];
-        pinch = { d: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY) };
-      }
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 1) { moved = false; gestured = false; }
+      if (pointers.size === 2) { pinch = pinchState(); gestured = true; }
       lb.stage.classList.add("dragging");
     });
     lb.stage.addEventListener("pointermove", (e) => {
-      if (!pointers.has(e.pointerId)) return;
-      pointers.set(e.pointerId, e);
-      if (pointers.size === 2 && pinch) {
-        const [a, b] = [...pointers.values()];
-        const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
-        zoomAt(d / pinch.d, (a.clientX + b.clientX) / 2, (a.clientY + b.clientY) / 2);
-        pinch.d = d;
+      const prev = pointers.get(e.pointerId);
+      if (!prev) return;
+      const cur = { x: e.clientX, y: e.clientY };
+      pointers.set(e.pointerId, cur);
+      if (pointers.size >= 2 && pinch) {
+        const now = pinchState();
+        // pan by the movement of the midpoint, then zoom about the midpoint
+        if (lb.scale > 1 || now.d / pinch.d > 1) { lb.x += now.mx - pinch.mx; lb.y += now.my - pinch.my; }
+        zoomAt(now.d / pinch.d, now.mx, now.my);
+        pinch = now;
         moved = true;
         return;
       }
-      if (last && lb.scale > 1) {
-        lb.x += e.clientX - last.x;
-        lb.y += e.clientY - last.y;
-        applyZoom();
-      }
-      if (last && Math.hypot(e.clientX - last.x, e.clientY - last.y) > 2) moved = true;
-      last = { x: e.clientX, y: e.clientY };
+      const dx = cur.x - prev.x, dy = cur.y - prev.y;
+      if (lb.scale > 1) { lb.x += dx; lb.y += dy; applyZoom(); }
+      if (Math.hypot(dx, dy) > 2) moved = true;
     });
     const end = (e) => {
       pointers.delete(e.pointerId);
-      if (pointers.size < 2) pinch = null;
+      // when one finger of a pinch lifts, the remaining finger continues from where it is now (no jump)
+      pinch = pointers.size >= 2 ? pinchState() : null;
       if (!pointers.size) {
         lb.stage.classList.remove("dragging");
         // tap on the empty backdrop closes when not zoomed
-        if (!moved && lb.scale === 1 && e.target === lb.stage) lb.el.close();
-        last = null;
+        if (!moved && !gestured && lb.scale === 1 && e.target === lb.stage) lb.el.close();
       }
     };
     lb.stage.addEventListener("pointerup", end);
@@ -447,9 +454,9 @@
 
     // swipe to navigate on touch when not zoomed
     let sx = null;
-    lb.stage.addEventListener("touchstart", (e) => { sx = e.touches.length === 1 ? e.touches[0].clientX : null; }, { passive: true });
+    lb.stage.addEventListener("touchstart", (e) => { sx = e.touches.length === 1 && !gestured ? e.touches[0].clientX : null; }, { passive: true });
     lb.stage.addEventListener("touchend", (e) => {
-      if (sx == null || lb.scale > 1) return;
+      if (sx == null || lb.scale > 1 || gestured || e.touches.length) return;
       const dx = e.changedTouches[0].clientX - sx;
       if (Math.abs(dx) > 70) stepLightbox(dx < 0 ? 1 : -1);
       sx = null;

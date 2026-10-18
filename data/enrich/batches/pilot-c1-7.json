@@ -40,14 +40,16 @@
    "c": "Paedagogium, Palatine Hill, Rome",
    "l": "Palatine Museum, Rome",
    "m": "Graffito scratched into wall plaster",
-   "i": "Alexamenos graffito.jpg"
+   "i": "Alexamenos graffito high contrast.jpg",
+   "k": "graffito"
   },
-  "summary": "Scratched into the plaster of a room on the Palatine Hill, this crude drawing shows a figure with a donkey's head fixed to a cross, while a young man at left raises a hand in a gesture of worship; the Greek caption beneath reads roughly 'Alexamenos worships [his] god'. It was made to mock a Christian, yet it is among the earliest surviving images of the crucifixion and is often called the oldest known depiction of Jesus. Its very scorn bears witness to how strange the worship of a crucified Lord appeared to the pagan world.",
+  "summary": "Scratched into the plaster of a room on the Palatine Hill, a crude figure with the head of a donkey hangs on a cross, while a young man raises his hand toward it; the Greek caption reads, roughly, 'Alexamenos worships [his] god'. It was made to mock a Christian, perhaps a page boy in the imperial household. Yet this scorn is often called the oldest surviving image of Jesus, and it is the earliest known picture of the crucifixion: before Christians themselves dared to depict the cross, a scoffer drew it — and in doing so bore witness to the faith he ridiculed.",
   "scripture": "1 Corinthians 1:23",
   "facts": [
-   "The graffito was discovered in 1857 in a building on the Palatine (the domus Gelotiana) that was later used as a school (paedagogium) for imperial page boys.",
-   "In a neighbouring room a different hand wrote 'Alexamenos fidelis' ('Alexamenos is faithful'), which may be a reply to the mockery.",
-   "Ancient writers such as Tertullian and Minucius Felix record the slander that Christians worshipped a donkey's head."
+   "It was discovered in 1857 in the domus Gelotiana, a building on the Palatine that served as a school (paedagogium) for imperial page boys, and was later cut from the wall for preservation.",
+   "In a neighbouring room a different hand wrote 'ALEXAMENOS FIDELIS' — 'Alexamenos is faithful' — perhaps a friend's reply, or Alexamenos's own.",
+   "Early Christian writers, among them Tertullian and Minucius Felix, record the slander that Christians worshipped a donkey's head; this graffito is that slander in pictures.",
+   "Its date is debated, with proposals from the late 1st to the late 3rd century; around AD 200 is most widely accepted."
   ],
   "links": [
    {
@@ -55,19 +57,15 @@
     "url": "https://en.wikipedia.org/wiki/Alexamenos_graffito"
    },
    {
-    "label": "Wikidata",
-    "url": "https://www.wikidata.org/wiki/Q577890"
-   },
-   {
-    "label": "Photograph on Wikimedia Commons",
+    "label": "Natural-light photograph",
     "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg"
    },
    {
-    "label": "High-contrast photograph",
-    "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg"
+    "label": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q577890"
    }
   ],
-  "notes": "Dating is disputed (suggestions range from the late 1st to the late 3rd century); Wikipedia gives c. 200 as most likely, while Wikidata records 100. This is a hostile caricature, not a devotional image, and should be presented as such. Photograph: Justin Benttinen, 2023, Palatine Museum (CC BY-SA 4.0)."
+  "notes": "Dating is disputed (suggestions range from the late 1st to the late 3rd century); c. 200 is the most widely accepted. This is a hostile caricature, not a devotional image. Photographs: Justin Benttinen, 2023, Palatine Museum (CC BY-SA 4.0); the high-contrast version is shown because the scratches are faint in natural light."
  },
  {
   "key": "commons:508911",

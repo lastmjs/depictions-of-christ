@@ -30,15 +30,15 @@ window.DEPICTIONS = {
       "Its date is debated, with proposals from the late 1st to the late 3rd century; around AD 200 is most widely accepted."
      ],
      "scripture": "1 Corinthians 1:23",
-     "commons": "File:Alexamenos graffito.jpg",
+     "commons": "File:Alexamenos graffito high contrast.jpg",
      "links": [
       {
        "label": "Wikipedia",
        "url": "https://en.wikipedia.org/wiki/Alexamenos_graffito"
       },
       {
-       "label": "High-contrast photograph",
-       "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg"
+       "label": "Natural-light photograph",
+       "url": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg"
       }
      ],
      "era": "early-christian",
@@ -47,10 +47,10 @@ window.DEPICTIONS = {
       "thumb": "assets/img/alexamenos-graffito-sm.webp",
       "w": 1411,
       "h": 1600,
-      "color": "#bcb5ab",
-      "accent": "#b6aa9d",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Alexamenos_graffito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito.jpg",
+      "color": "#928677",
+      "accent": "#5e4931",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Alexamenos_graffito_high_contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Alexamenos_graffito_high_contrast.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Justin Benttinen"

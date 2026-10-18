@@ -10,7 +10,7 @@ The audit proceeds one century at a time. A century is **complete** only when al
 
 | Century | Works now | Completeness | Hand-check | Categorisation | Status |
 |---|---|---|---|---|---|
-| 1st | 0 | ✅ (no surviving depictions with a free image) | — | — | ✅ |
+| 1st | 0 | ✅ deep-dive audited (none survive) | ✅ | ✅ | ✅ deep-dive complete |
 | 2nd | 4 | ✅ | ✅ all 4 checked | ✅ | ✅ complete |
 | 3rd | 32 | ✅ | ✅ all 32 checked | ✅ | ✅ complete |
 | 4th | 122 | ✅ | ✅ all 122 checked | ✅ | ✅ complete |
@@ -55,3 +55,30 @@ Psalter; Pantokrator Psalter; Sacra Parallela; Uspensky Gospels.
 
 **Licence note:** Utrecht Psalter images are crops from Utrecht University Library's IIIF scans of a 9th-century
 manuscript, treated as public domain on the same PD-Art basis Wikimedia Commons applies to faithful reproductions.
+
+## 1st century — ✅ extreme deep-dive audit complete
+
+**Finding: no depiction of Christ survives from the 1st century (AD 1–100).** The earliest known images date from
+c. AD 200–250. The audit checked:
+
+- **Every data source** (Wikidata, Commons, 20 museum/aggregator sources) for anything dated to the 1st century: only
+  catalogue errors were found (e.g. "A.D. 500–1000" stored as year 1; the 5th-century Liberius sarcophagus stored on
+  Wikidata as "year 5"), all already handled by the date parser.
+- **The one serious candidate, the Alexamenos graffito** (proposed dates range from the late 1st to the late 3rd
+  century): presented at c. 200, the consensus date, with the debate explained. It is now featured in the Journey,
+  shown with a 2023 high-contrast photograph instead of a scan from an 1898 book, mapped at the Paedagogium on the
+  Palatine where it was made, and identical in title, date, description and image across Journey, Collection and Map.
+- **Objects traditionally claimed to date from Christ's lifetime** — all reviewed and shown at their scholarly dates,
+  with their traditions told as tradition: the Shroud of Turin (radiocarbon 1260–1390; the Church neither affirms nor
+  denies), the Image of Edessa / Mandylion (Novgorod icon; Genoa and San Silvestro Mandylions added), the Manoppello
+  Volto Santo, the Częstochowa icon (its "made in Jerusalem" legend-as-fact removed), the Volto Santo of Lucca
+  (added and featured: radiocarbon late 8th–early 9th c.) and of Sansepolcro (added: 8th–9th c. wood), the Holy Faces
+  of Laon and Jaén, and the Madonna di San Luca.
+- **Modern claims**: the "Jordan lead codices" are forgeries and were not added; Herculaneum, Talpiot and Pompeii
+  contain no depiction of Christ. Two unverifiable AI-style "reconstructions" of the Shroud face were removed.
+- **The site now explains the absence**: the Collection opens its timeline with a short 1st-century section, and the
+  Map's century bar shows a "1st · none" marker with an explanation.
+
+Related consistency work done during this audit, site-wide: every featured Journey work now appears exactly once in
+the Collection (54 were added) and links to its Collection entry and Map point; all 983 works before AD 1000 were
+individually placed on the map where they were made.

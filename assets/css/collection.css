@@ -204,3 +204,4 @@
 }
 .century-empty .empty-note p { margin: 0 0 .8rem; }
 .century-empty .empty-note p:last-child { margin: 0; }
+.detail-info .info-date { padding-right: 52px; flex-wrap: wrap; }

@@ -250,7 +250,15 @@
   document.addEventListener("keydown", (e) => {
     if (!viewer.isOpen && e.key === "/" && document.activeElement !== $("#q")) { e.preventDefault(); $("#q").focus(); }
   });
-  addEventListener("hashchange", () => { if (all.length && !viewer.isOpen) restoreFromHash(false); });
+  addEventListener("hashchange", () => {
+    if (!all.length) return;
+    const raw = decodeURIComponent(location.hash.slice(1));
+    if (KEY_RX.test(raw)) {
+      const i = filtered.findIndex((w) => keyOf(w) === raw);
+      if (i >= 0) { viewer.open(filtered, i); return; }
+    }
+    if (!viewer.isOpen) restoreFromHash(false);
+  });
 
   new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting && rendered < filtered.length) renderMore();
